@@ -4,6 +4,11 @@ html, body {
   -webkit-tap-highlight-color: transparent; /* 避免触屏下的点击高亮颜色 */
 }
 
+/* Fix top bar social link margin */
+.VPSocialLinks.VPNavBarSocialLinks.social-links {
+  margin-right: 0;
+}
+
 /* 参考 Vitest */
 /* fix height ~ 2 lines of text: 3 or more cards per row */
 .VPTeamMembersItem.small .profile .data .affiliation {
