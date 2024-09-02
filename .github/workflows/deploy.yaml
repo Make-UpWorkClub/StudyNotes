@@ -6,13 +6,10 @@ on:
     branches:
       - 'main'
 
-env:
-  STORE_PATH: ''
-  
 concurrency:
   group: ${{ github.ref }}
   cancel-in-progress: true
-  
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -20,44 +17,44 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      
+
       - uses: actions/configure-pages@v5
-      
+
       - uses: cachix/install-nix-action@V27
         with:
           nix_path: nixpkgs=channel:nixos-unstable
-          extra_nix_config: experimental-features = nix-command flakes    
-      
+          extra_nix_config: experimental-features = nix-command flakes
+
       - name: Get pnpm store path
-        shell: bash
-        run: echo "STORE_PATH=$(nix develop -c 'pnpm store path --silent')" >> $GITHUB_ENV
+        id: get-pnpm-store-path
+        run: nix develop -c bash -c 'echo STORE_PATH=$(pnpm store path --silent) > $GITHUB_ENV'
 
       - name: Setup pnpm cache
         uses: actions/cache@v4
         with:
-          path: ${{ env.STORE_PATH }}
+          path: ${{ steps.get-pnpm-store-path.outputs.STORE_PATH }}
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
-        run: nix develop -c 'pnpm install --frozen-lockfile'
-        
+        run: nix develop -c pnpm install --frozen-lockfile
+
       - name: Build
-        run: nix develop -c 'pnpm run build'
-        
+        run: nix develop -c pnpm run build
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: .vitepress/dist
-      
+
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deploy.outputs.page_url }}
     needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
+        id: deploy
         uses: actions/deploy-pages@v4
