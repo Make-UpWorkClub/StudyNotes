@@ -2,7 +2,7 @@ import type { Creator } from '../scripts/types/metadata'
 import { getAvatarUrlByGithubName } from '../scripts/utils'
 
 /** 文本 */
-export const siteName = 'Study Notes'
+export const siteName = 'Hifumi\'s Study Notes'
 export const siteShortName = 'Study Notes'
 export const siteDescription = 'My personal knowledge base'
 

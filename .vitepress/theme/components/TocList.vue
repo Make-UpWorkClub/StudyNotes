@@ -23,7 +23,7 @@ const sortedList = computed(() => {
 
 <template>
   <div v-for="item of sortedList" :key="item.link" class="space-y-3">
-    <a :href="item.link">
+    <a :href="`/StudyNotes${item.link}`">
       <h3 m="0">
         {{ item.text }}
       </h3>
