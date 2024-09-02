@@ -108,7 +108,7 @@ jobs:
       - name: 推送到 gh-pages 分支
         timeout-minutes: 10
         with:
-          token: ${{ secrets.ACCESS_TOKEN }}
+          # token: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
           FOLDER: .vitepress/dist
         uses: JamesIves/github-pages-deploy-action@v4
