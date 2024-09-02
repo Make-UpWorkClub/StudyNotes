@@ -2,6 +2,9 @@
 *.log
 .temp
 
+# Obsidian
+.obsidian/workspace*.json
+
 # Vitepress
 .vitepress/cache/
 .vitepress/dist/
