@@ -31,6 +31,7 @@ import {
 
 import AppContainer from './components/AppContainer.vue'
 import DocFooter from './components/DocFooter.vue'
+import Giscus from './components/Giscus'
 import HomePage from './components/HomePage.vue'
 import Share from './components/Share.vue'
 import TocList from './components/TocList.vue'
@@ -57,6 +58,7 @@ const ExtendedTheme: Theme = {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
       'doc-top': () => [
         h(NolebaseHighlightTargetedHeading),
+        h(Giscus),
       ],
       'doc-footer-before': () => [
         h(DocFooter),
@@ -102,21 +104,21 @@ const ExtendedTheme: Theme = {
       progress: number
     }>(), {
       properties: {
-        'zh-CN': [
+        'en-US': [
           {
             key: 'tags',
             type: 'tags',
-            title: '标签',
+            title: 'Tags',
           },
           {
             key: 'progress',
             type: 'progress',
-            title: '完成进度',
+            title: 'Progress',
           },
           {
             key: 'wordCount',
             type: 'dynamic',
-            title: '字数',
+            title: 'Word count',
             options: {
               type: 'wordsCount',
             },
@@ -124,10 +126,10 @@ const ExtendedTheme: Theme = {
           {
             key: 'readingTime',
             type: 'dynamic',
-            title: '阅读时间',
+            title: 'Reading time',
             options: {
               type: 'readingTime',
-              dateFnsLocaleName: 'zhCN',
+              dateFnsLocaleName: 'enUS',
             },
           },
         ],

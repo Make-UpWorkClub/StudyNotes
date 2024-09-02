@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"type":"group","id":"6bc1034306f7690e","x":60,"y":40,"width":1380,"height":1280,"label":"Grande noirceur"},
+		{"type":"group","id":"49771c17a847add9","x":580,"y":120,"width":840,"height":1180,"color":"5","label":"Provincial"},
+		{"type":"group","id":"3ac58c5926b05173","x":80,"y":120,"width":400,"height":1040,"color":"3","label":"Fédéral"},
+		{"type":"text","text":"## Politique social\n\n### Conservatisme social\n\nDuplessis ❤ clergé\n\nL'Église prend en charge l'éducation et la santé [continuité]\n\nManque de fonds de l'Église ==> Augmentation de subventions, mais insuffisant ==> *niveau de  scolarité bas, mauvais accès au soins médicaux* [continuité]\n","id":"a5ced434c3f2a1ad","x":980,"y":140,"width":420,"height":340},
+		{"type":"text","text":"## Politique économique\n\n### Autonomie\n\nDuplessis = autonomiste nationaliste\n\n- Refus de certains programmes fédéraux et de leurs subventions\n- Création du drapeau officiel du Québec\n- Réintroduction de l'impôt provincial\n\n### Libéralisme économique\n\nInterventions minimales dans économie et taxation peu élevée *pour attirer les investisseurs américains* ==> Développement des régions minières\n\n**Patronage**: Argent et vote en échange du contrat de construction\n\nModernisation de l'agriculture *pour attirer le vote des circonscriptions rurales* ==> Développement économique des régions","id":"71af504d44954ff0","x":600,"y":140,"width":360,"height":640},
+		{"type":"text","text":"## Contestation\n\n### Artistes\n\n> [!abstract]- 1948: Publication de Refus global\nRefus du conservatisme social et de valeurs traditionnelles\n\n> [!abstract]- 1950: Fondation de la revue Cité libre\nPromotion de la liberté et de la démocratie\nDénonciation de la corruption et du favoritisme de Duplessis\n\n### Syndicats\n\nDuplessis 💔 syndicats\n\n> [!abstract]- 1949: Grève de l'amiante à Asbestos\n> Duplessis mobilise la police \n","id":"50ada5ddf2501ae6","x":980,"y":540,"width":420,"height":440},
+		{"type":"text","text":"## Politique économique\n\nGuerre froide entre les États-Unis et l'URSS ==> forte croissance de l'industrie militaire américaine et des besoins en matières premières ==> **forte croissance du commerce entre les États-Unis et le Canada**\n\n### Intervention économique\n\nGov. fédéral: de plus en plus d'intervention dans l'économie, centralisation des décisions économiques  \nQuébec et Ontario: refus\n\n**Péréquation**: Subvention fédérale aux provinces pauvres pour réduire l'inégalité\n","id":"de4717617d20c41e","x":100,"y":140,"width":360,"height":520},
+		{"id":"4d96c6517186c11c","x":600,"y":800,"width":360,"height":320,"type":"text","text":"## Société de consommation\n\n- Augmentation du pouvoir d'achat\n- Augmentation de l'accessibilité du crédit\n- Publicités\n- Influence de la culture américaine\n\n==> **Forte croissance de la consommation**"}
+	],
+	"edges":[
+		{"id":"180cf00a328b0dc7","fromNode":"a5ced434c3f2a1ad","fromSide":"bottom","toNode":"50ada5ddf2501ae6","toSide":"top","color":"3"},
+		{"id":"a6ae1643cb3a118c","fromNode":"de4717617d20c41e","fromSide":"right","toNode":"71af504d44954ff0","toSide":"left","fromEnd":"arrow","label":"contre"}
+	]
+}

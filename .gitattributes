@@ -1,4 +1,4 @@
-*.md linguist-vendored=false
-*.md linguist-generated=false
-*.md linguist-documentation=false
-*.md linguist-detectable=true
+*.md linguist-detectable
+.obsidian/** linguist-generated
+.obsidian/plugins linguist-vendored
+.obsidian/themes linguist-vendored

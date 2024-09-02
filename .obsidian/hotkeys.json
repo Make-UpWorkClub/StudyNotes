@@ -1,0 +1,397 @@
+{
+  "switcher:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "E"
+    }
+  ],
+  "markdown:toggle-preview": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "/"
+    }
+  ],
+  "editor:toggle-comments": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": ";"
+    }
+  ],
+  "obsidian-git:open-git-view": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "G"
+    }
+  ],
+  "editor:toggle-blockquote": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "\\"
+    }
+  ],
+  "app:open-settings": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ],
+  "editor:toggle-bold": [],
+  "editor:fold-more": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "["
+    }
+  ],
+  "editor:fold-less": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "]"
+    }
+  ],
+  "workspace:close-window": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
+    }
+  ],
+  "chronology:show-chronology-view": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
+  ],
+  "app:go-back": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": ","
+    }
+  ],
+  "app:go-forward": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "."
+    }
+  ],
+  "editor:swap-line-down": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "editor:swap-line-up": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "editor:insert-callout": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "\\"
+    }
+  ],
+  "file-explorer:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
+  "editor:toggle-italics": [],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "workspace:previous-tab": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "graph:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Y"
+    }
+  ],
+  "editor:insert-link": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:open-link-in-new-window": [],
+  "editor:toggle-bullet-list": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "B"
+    }
+  ],
+  "editor:toggle-checklist-status": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "X"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:delete-paragraph": [],
+  "editor:add-cursor-above": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "editor:add-cursor-below": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "obsidian-editor-shortcuts:copyLineUp": [],
+  "obsidian-editor-shortcuts:copyLineDown": [],
+  "obsidian-editor-shortcuts:addCursorsToSelectionEnds": [],
+  "obsidian-editor-shortcuts:duplicateLine": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "D"
+    }
+  ],
+  "obsidian-editor-shortcuts:selectAllOccurrences": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "W"
+    }
+  ],
+  "obsidian-editor-shortcuts:selectWordOrNextOccurrence": [],
+  "obsidian-editor-shortcuts:selectLine": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "obsidian-editor-shortcuts:joinLines": [],
+  "obsidian-editor-shortcuts:insertLineAbove": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "obsidian-editor-shortcuts:insertLineBelow": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "obsidian-editor-shortcuts:deleteLine": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "obsidian-editor-shortcuts:expandSelectionToQuotesOrBrackets": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "editor:follow-link": [],
+  "graph:open-local": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Y"
+    }
+  ],
+  "obsidian-latex-suite:latex-suite-select-equation": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
+  "editor:set-heading-1": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "1"
+    }
+  ],
+  "editor:set-heading-2": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "2"
+    }
+  ],
+  "editor:set-heading-3": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "3"
+    }
+  ],
+  "editor:context-menu": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": " "
+    }
+  ],
+  "editor:open-search-replace": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
+  "editor:set-heading-4": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "4"
+    }
+  ],
+  "editor:set-heading-5": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "5"
+    }
+  ],
+  "editor:set-heading-6": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "6"
+    }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "P"
+    }
+  ],
+  "easy-typing-obsidian:easy-typing-format-article": [],
+  "easy-typing-obsidian:easy-typing-format-selection": [],
+  "easy-typing-obsidian:easy-typing-insert-codeblock": [],
+  "easy-typing-obsidian:easy-typing-format-switch": [],
+  "easy-typing-obsidian:easy-typing-paste-without-format": [],
+  "easy-typing-obsidian:easy-typing-delete-blank-line": [],
+  "obsidian-excalidraw-plugin:insert-link-to-element": [],
+  "obsidian-excalidraw-plugin:toggle-lock": []
+}

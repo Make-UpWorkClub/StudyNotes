@@ -1,7 +1,3 @@
-# 目录
-
-排序方式：`最近更新`
-
----
+# Recent Changes
 
 <TocList />

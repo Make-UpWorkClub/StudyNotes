@@ -9,7 +9,7 @@ import { buildEndGenerateOpenGraphImages } from '@nolebase/vitepress-plugin-og-i
 import { UnlazyImages } from '@nolebase/markdown-it-unlazy-img'
 import { transformHeadMeta } from '@nolebase/vitepress-plugin-meta'
 
-import { creatorNames, creatorUsernames, discordLink, githubRepoLink, siteDescription, siteName, targetDomain } from '../metadata'
+import { creatorNames, creatorUsernames, githubRepoLink, siteDescription, siteName, targetDomain } from './metadata'
 import { sidebar } from './docsMetadata.json'
 
 export default defineConfig({
@@ -25,9 +25,10 @@ export default defineConfig({
       },
     },
   },
-  lang: 'zh-CN',
+  lang: 'en-US',
   title: siteName,
   description: siteDescription,
+  srcExclude: ['**/README.md', 'templates/*.md'],
   ignoreDeadLinks: true,
   head: [
     ['meta', {
@@ -44,8 +45,8 @@ export default defineConfig({
     ],
     ['link', {
       rel: 'icon',
-      href: '/logo.svg',
-      type: 'image/svg+xml',
+      href: '/logo.png',
+      type: 'image/png',
     }],
     [
       'link',
@@ -65,7 +66,7 @@ export default defineConfig({
       {
         name: 'keywords',
         content:
-          ['markdown', 'knowledge-base', '知识库', 'vitepress', 'obsidian', 'notebook', 'notes', ...creatorUsernames].join(', '),
+          ['markdown', 'knowledge-base', 'vitepress', 'obsidian', 'notebook', 'notes', ...creatorUsernames].join(', '),
       },
     ],
 
@@ -77,7 +78,7 @@ export default defineConfig({
       'meta',
       {
         property: 'og:image',
-        content: `${targetDomain}/og.png`,
+        content: `${targetDomain}/og.jpg`,
       },
     ],
     ['meta', {
@@ -101,7 +102,7 @@ export default defineConfig({
       'meta',
       {
         name: 'twitter:image',
-        content: `${targetDomain}/og.png`,
+        content: `${targetDomain}/og.jpg`,
       },
     ],
 
@@ -109,8 +110,8 @@ export default defineConfig({
       'link',
       {
         rel: 'mask-icon',
-        href: '/safari-pinned-tab.svg',
-        color: '#927baf',
+        href: '/safari-pinned-tab.png',
+        color: '#ffe89a',
       },
     ],
     ['link', {
@@ -119,27 +120,23 @@ export default defineConfig({
     }],
     ['meta', {
       name: 'msapplication-TileColor',
-      content: '#603cba',
+      content: '#ffe89a',
     }],
-    // Proxying Plausible through Netlify | Plausible docs
-    // https://plausible.io/docs/proxy/guides/netlify
-    ['script', { 'defer': 'true', 'data-domain': 'nolebase.ayaka.io', 'data-api': '/api/v1/page-external-data/submit', 'src': '/assets/page-external-data/js/script.js' }],
   ],
   themeConfig: {
-    outline: { label: '页面大纲', level: 'deep' },
-    darkModeSwitchLabel: '切换主题',
+    outline: { label: 'Outline', level: 'deep' },
+    darkModeSwitchLabel: 'Switch theme',
     editLink: {
       pattern: `${githubRepoLink}/tree/main/:path`,
-      text: '编辑本页面',
+      text: 'Edit this page',
     },
     socialLinks: [
       { icon: 'github', link: githubRepoLink },
-      { icon: 'discord', link: discordLink },
     ],
     footer: {
-      message: '用 <span style="color: #e25555;">&#9829;</span> 撰写',
+      message: 'Written with <span style="color: #e25555;">&#9829;</span>',
       copyright:
-        '<a class="footer-cc-link" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> © 2022-PRESENT Nólëbase 的创作者们',
+        '<a class="footer-cc-link" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> © 2024 Ajitani Hifumi',
     },
     search: {
       provider: 'local',
@@ -148,15 +145,15 @@ export default defineConfig({
           root: {
             translations: {
               button: {
-                buttonText: '搜索文档',
-                buttonAriaLabel: '搜索文档',
+                buttonText: 'Search',
+                buttonAriaLabel: 'Search',
               },
               modal: {
-                noResultsText: '无法找到相关结果',
-                resetButtonTitle: '清除查询条件',
+                noResultsText: 'No results found (>_<)',
+                resetButtonTitle: 'Reset search criteria',
                 footer: {
-                  selectText: '选择',
-                  navigateText: '切换',
+                  selectText: 'Select',
+                  navigateText: 'Switch',
                 },
               },
             },
@@ -208,9 +205,9 @@ export default defineConfig({
       },
     },
     nav: [
-      { text: '主页', link: '/' },
-      { text: '笔记', link: '/笔记/' },
-      { text: '最近更新', link: '/toc' },
+      { text: 'Home', link: '/' },
+      { text: 'Notes', link: '/notes/' },
+      { text: 'Recent Changes', link: '/toc' },
     ],
     sidebar,
   },

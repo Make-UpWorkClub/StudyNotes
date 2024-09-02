@@ -2,9 +2,9 @@ name: 构建并部署到 Github Pages
 
 on:
   workflow_dispatch:
-  # push:
-  #   branches:
-  #     - 'main'
+  push:
+    branches:
+      - 'main'
 
 
 env:
@@ -64,7 +64,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: 正式 Production - GitHub Pages
-      url: https://nolebase.github.io/nolebase
+      url: https://make-upworkclub.github.io/studynotes
     steps:
       - name: 签出代码
         uses: actions/checkout@v4

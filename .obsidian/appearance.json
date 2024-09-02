@@ -1,0 +1,15 @@
+{
+  "accentColor": "",
+  "cssTheme": "Catppuccin",
+  "theme": "system",
+  "textFontFamily": "Open Sans,Inter,Noto Sans",
+  "baseFontSize": 16,
+  "interfaceFontFamily": "Open Sans",
+  "monospaceFontFamily": "Iosevka Term Extended",
+  "baseFontSizeAction": false,
+  "enabledCssSnippets": [
+    "callout",
+    "kbd",
+    "main"
+  ]
+}

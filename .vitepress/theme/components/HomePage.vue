@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { VPTeamMembers } from 'vitepress/theme'
-import { creators, siteName } from '../../../metadata'
+import { creators, siteName } from '../../metadata'
 </script>
 
 <template>
@@ -9,7 +9,7 @@ import { creators, siteName } from '../../../metadata'
       <main class="main">
         <div class="vp-doc" mt-10 flex flex-col items-center>
           <h2 id="meet-the-team" font-normal op50 p="t-10 b-2">
-            {{ siteName }} 的创作者
+            Members of {{ siteName }}
           </h2>
           <div w-full p-10>
             <VPTeamMembers size="small" :members="creators" flex justify-center />

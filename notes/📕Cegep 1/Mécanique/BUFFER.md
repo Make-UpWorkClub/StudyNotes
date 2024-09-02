@@ -1,0 +1,24 @@
+---
+grade: Cegep1
+subject: MEC
+date: 2024-08-19T08:21:00
+---
+
+# Buffer
+
+## 2024-08-19
+
+> [!abstract] Mécanique
+> Science du mouvement de l'échelle moyenne
+
+Réponse en classe : 4 chiffres significatifs
+
+## 2024-08-22
+
+### Forme polaire du vecteur
+
+Module + angle par rapport à une orientation
+
+> [!example]+
+> 5 a 30<sup>o</sup> à gauche du haut
+> 5 a 60<sup>o</sup> en haut de la gauche

@@ -7,7 +7,7 @@ import { GitChangelog, GitChangelogMarkdownSection } from '@nolebase/vitepress-p
 import { PageProperties, PagePropertiesMarkdownSection } from '@nolebase/vitepress-plugin-page-properties/vite'
 import { ThumbnailHashImages } from '@nolebase/vitepress-plugin-thumbnail-hash/vite'
 
-import { creators, githubRepoLink } from './metadata'
+import { creators, githubRepoLink } from './.vitepress/metadata'
 
 export default defineConfig(async () => {
   return {
@@ -27,6 +27,7 @@ export default defineConfig(async () => {
       }),
       GitChangelogMarkdownSection({
         excludes: [
+          'templates/Notion.md',
           'toc.md',
           'index.md',
         ],
@@ -34,6 +35,7 @@ export default defineConfig(async () => {
       PageProperties(),
       PagePropertiesMarkdownSection({
         excludes: [
+          'templates/Notion.md',
           'toc.md',
           'index.md',
         ],

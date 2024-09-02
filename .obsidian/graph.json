@@ -1,22 +1,65 @@
 {
-  "collapse-filter": false,
-  "search": "",
-  "showTags": true,
+  "collapse-filter": true,
+  "search": "Cegep1",
+  "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:Français",
+      "color": {
+        "a": 1,
+        "rgb": 6726655
+      }
+    },
+    {
+      "query": "path:English",
+      "color": {
+        "a": 1,
+        "rgb": 16741882
+      }
+    },
+    {
+      "query": "path:Mathematics",
+      "color": {
+        "a": 1,
+        "rgb": 11757311
+      }
+    },
+    {
+      "query": "path:Mécanique",
+      "color": {
+        "a": 1,
+        "rgb": 15320604
+      }
+    },
+    {
+      "query": "path:Biology",
+      "color": {
+        "a": 1,
+        "rgb": 6084269
+      }
+    },
+    {
+      "query": "path:Humanities",
+      "color": {
+        "a": 1,
+        "rgb": 15442468
+      }
+    }
+  ],
   "collapse-display": false,
-  "showArrow": false,
-  "textFadeMultiplier": 1,
-  "nodeSizeMultiplier": 0.996419270833333,
-  "lineSizeMultiplier": 0.503272727272727,
-  "collapse-forces": false,
-  "centerStrength": 0.427993617573936,
-  "repelStrength": 10.0812646109318,
-  "linkStrength": 0.903707002115106,
-  "linkDistance": 400,
-  "scale": 0.2195571709619205,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.67977646041744,
+  "lineSizeMultiplier": 5,
+  "collapse-forces": true,
+  "centerStrength": 0.5,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 150,
+  "scale": 1.3111782265599357,
   "close": true
 }

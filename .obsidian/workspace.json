@@ -1,35 +1,40 @@
 {
   "main": {
-    "id": "25f4cc8f077230c0",
+    "id": "4d177cf44675b6be",
     "type": "split",
     "children": [
       {
-        "id": "82a8c0d8a989a292",
+        "id": "63fc7fbb8662c93d",
         "type": "tabs",
         "children": [
           {
-            "id": "8fdbc022d1449898",
+            "id": "ac8999f014485f04",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "notes/📕Cegep 1/Cellular Biology/Macromolecule.md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "stacked": true
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "3698b8c616aabcfc",
+    "id": "dfc7a607d2f8bbed",
     "type": "split",
     "children": [
       {
-        "id": "b15e2c7929b2a46a",
+        "id": "ed24ac9e0fbabdff",
         "type": "tabs",
         "children": [
           {
-            "id": "b5dfc4e6c8287ee4",
+            "id": "cae6c5f5d34c1a49",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,41 +44,25 @@
             }
           },
           {
-            "id": "d5332c2bfa4468de",
+            "id": "38bbd71c1b5995fd",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "基础设施 AWS",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "f568bf7e439d398b",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "955041b03cbffb02",
+            "id": "c328eeef3e34373e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "0972447421cfef3d",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
               "state": {}
             }
           }
@@ -81,94 +70,64 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5
+    "width": 276.00271224975586
   },
   "right": {
-    "id": "246bd0838f8f40a6",
+    "id": "c6fc17e22db4e4c6",
     "type": "split",
     "children": [
       {
-        "id": "166ecf9eee3475b0",
+        "id": "e1aad2fd8e9c3a22",
         "type": "tabs",
-        "dimension": 31.92019950124688,
         "children": [
           {
-            "id": "d9c447a5c56d10b5",
+            "id": "112f304dd5571cd8",
             "type": "leaf",
             "state": {
-              "type": "localgraph",
-              "state": {
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": true,
-                  "showTags": true,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": false,
-                  "colorGroups": [],
-                  "collapse-display": false,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 0.9960205078125,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": false,
-                  "centerStrength": 0.298746744791667,
-                  "repelStrength": 13.7809244791667,
-                  "linkStrength": 1,
-                  "linkDistance": 30,
-                  "scale": 1.737146941803905,
-                  "close": true
-                }
-              }
-            }
-          },
-          {
-            "id": "d05b2adb58e8f322",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
+              "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               }
             }
           },
           {
-            "id": "dedba0695c22f869",
+            "id": "d7a2e5375e8e4b0f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/📦 收集箱/🔬 调研/assets/animation-frameworks-for-frontend-1.png"
+                "file": "notes/📕Cegep 1/Cellular Biology/Macromolecule.md"
               }
             }
           },
           {
-            "id": "2ac176b8dbb5d7eb",
+            "id": "680c6cec6ae8783d",
             "type": "leaf",
             "state": {
-              "type": "review-queue-list-view",
+              "type": "advanced-tables-toolbar",
               "state": {}
             }
-          }
-        ]
-      },
-      {
-        "id": "00f8f8ad2cb9f9b0",
-        "type": "tabs",
-        "dimension": 68.07980049875312,
-        "children": [
+          },
           {
-            "id": "ccb7652bb733a848",
+            "id": "e022b2d7b8768d6c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "notes/📕Cegep 1/Cellular Biology/Macromolecule.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f1bb57dcbbd4df1d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notes/📕Cegep 1/Cellular Biology/Macromolecule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,97 +139,87 @@
             }
           },
           {
-            "id": "5f488e06357db2c6",
+            "id": "804c0437b09b3944",
             "type": "leaf",
             "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
+              "type": "git-history-view",
+              "state": {}
             }
           },
           {
-            "id": "109c669fb0e4b88f",
+            "id": "0180d079eaaa2119",
             "type": "leaf",
             "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+              "type": "git-view",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 366.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-spaced-repetition:复习卡片": false,
-      "obsidian42-brat:BRAT": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "random-note:开始漫游笔记": false,
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b5dfc4e6c8287ee4",
+  "active": "ac8999f014485f04",
   "lastOpenFiles": [
-    "vite.config.ts.timestamp-1722419663374-d028de33b93e1.mjs",
-    "笔记/📦 收集箱/🐙 GitHub 项目/maplibre/index.md",
-    "vite.config.ts.timestamp-1722419502801-c0f131dfbd90b.mjs",
-    "vite.config.ts.timestamp-1722419148230-79be399d2a428.mjs",
-    "vite.config.ts.timestamp-1722418995442-2b3462f0bdf8c.mjs",
-    "vite.config.ts.timestamp-1722418778766-06912072fb6dc.mjs",
-    "vite.config.ts.timestamp-1722418621695-98bf17f84f4b3.mjs",
-    "编目 Catalog/文章/理解什么是 CRDT.md",
-    "笔记/🪄 Vtuber/在 macOS 上不同的 VTuber 直播方案.md",
-    "笔记/🪄 Vtuber/assets/屏幕录制2023-12-08 23.37.26.mov",
-    "笔记/🪄 Vtuber/assets/Pasted image 20231212122507.png",
-    "笔记/🪄 Vtuber/assets/Pasted image 20231212122502.png",
-    "笔记/🪄 Vtuber/assets/Pasted image 20231209163759.png",
-    "笔记/🪄 Vtuber/assets/Pasted image 20231209163219.png",
-    "笔记/🪄 Vtuber/assets/Pasted image 20231209163146.png",
-    "笔记/🪄 Vtuber/assets/Pasted image 20231209163110.jpg",
-    "笔记/🪄 Vtuber/assets/Pasted image 20231208233938.png",
-    "笔记/🪄 Vtuber/assets/Pasted image 20231208233927.png",
-    "笔记/🪄 Vtuber/assets/Pasted image 20231208233632.png",
-    "笔记/🧱 基础设施/🛜 OpenWRT/assets/Pasted image 20240520003337.png",
-    "笔记/🧱 基础设施/🛜 OpenWRT/从 openclash 迁移到 sing-box.md",
-    "笔记/🧱 基础设施/🛜 OpenWRT/assets",
-    "笔记/🧱 基础设施/🛜 OpenWRT",
-    "笔记/🧱 基础设施/🚢 Kubernetes/开发一个 Kubernetes Controller.md",
-    "笔记/🧱 基础设施/🚢 Kubernetes/将 TrueNAS 共享存储连接到 K8s 集群.md",
-    "笔记/🧱 基础设施/🚢 Kubernetes/kubectl 速查表.md",
-    "笔记/🧱 基础设施/🚢 Kubernetes/Pod 错误排查之.md",
-    "笔记/🧱 基础设施/云上集群的 GPU.md",
-    "笔记/🧮 数学/空洞的想法.md",
-    "笔记/🧮 数学",
-    "笔记/🧩 开源贡献/Kubernetes/开始之前.md",
-    "笔记/🧩 开源贡献/Kubernetes/assets",
-    "笔记/🤖 AI 人工智能/领域/音频/配置和运行 ChatTTS.md",
-    "笔记/🤖 AI 人工智能/领域/音频/在 macOS 上配置 GPT-SoVITS-WebUI.md",
-    "笔记/🤖 AI 人工智能/配置 CUDA 的一万种方法.md",
-    "笔记/🤖 AI 人工智能/通过阅读 dlrover 源码学习训练时的自动冗灾恢复和 checkpoint 同步加速.md",
-    "笔记/🤖 AI 人工智能/论文和源码解析：S-LoRA - Serving Thousands of Concurrent LoRA Adapters.md",
-    "笔记/🤖 AI 人工智能/用 FastEdit 微调大模型.md",
-    "笔记/🤖 AI 人工智能/机器学习生态研究报告.md",
-    "笔记/🤖 AI 人工智能/提示工程 Prompt Engineering/最佳实践.md",
-    "笔记/🤖 AI 人工智能/扩散模型是如何工作的？.md",
-    "笔记/🤖 AI 人工智能/安装和配置 NVIDIA 的 Apex.md",
-    "笔记/🤖 AI 人工智能/大规模分布式机器学习里的断卡重训和故障恢复.md",
-    "笔记/🤖 AI 人工智能/多机多卡训练的时候的 NCCL 错误.md",
-    "笔记/🤖 AI 人工智能/在前端和浏览器上玩耍 Transformers.js 库.md",
-    "笔记/🤖 AI 人工智能/在 Apple Silicon 上用 PyTorch 和 Accelerate 进行训练.md",
-    "未命名.canvas"
+    "vite.config.ts.timestamp-1725236710671-103a5004dbf68.mjs",
+    "pnpm-lock.yaml.363884203",
+    "_tmp_176838_e3e188a5fc76e614bfa7b2aa02ee8152",
+    "notes/📕Cegep 1/Cellular Biology/Lipid.md",
+    "notes/📕Cegep 1/Cellular Biology/Interphase.md",
+    "notes/📕Cegep 1/Cellular Biology/Hydrosolubility.md",
+    "notes/📕Cegep 1/Cellular Biology/Chromosome.md",
+    "notes/📕Cegep 1/Cellular Biology/Cell Cycle.md",
+    "notes/📕Cegep 1/Cellular Biology/Cell.md",
+    "notes/📕Cegep 1/Cellular Biology/Amino Acid.md",
+    "notes/📕Cegep 1/Cellular Biology/BUFFER.md",
+    "notes/📕Cegep 1/Cellular Biology/Carbohydrate.md",
+    "notes/📙Secondary 4/Français/Là où je me terre.md",
+    "notes/Other/Vue/Exposing Component State.md",
+    "notes/Other/Vue/Prop Drilling.md",
+    "notes/Other/Vue/Common Mistakes.md",
+    "index.md",
+    "notes/index.md",
+    "toc.md",
+    "Excalidraw/Drawing 2024-08-30 18.01.43.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-30 18.01.44.excalidraw.md",
+    "docs/notes/Cegep 1/Mathematics/BUFFER.md",
+    "Excalidraw",
+    "docs/notes/Cegep 1/Mathematics/Limit.md",
+    "docs/notes/Cegep 1/Mathematics/Rewriting trigonometric functions.md",
+    "docs/notes/Cegep 1/Français/Dissertation explicative.md",
+    "docs/notes/Cegep 1/Français/BUFFER.md",
+    "docs/notes/Cegep 1/Mathematics/Piecewise Function.md",
+    "docs/notes/Cegep 1/Cellular Biology/Nucleic Acid.md",
+    "docs/notes/Cegep 1/Humanities",
+    "docs/notes/Cegep 1/Mathematics",
+    "docs/notes/Cegep 1/Français",
+    "docs/notes/Cegep 1/Cellular Biology",
+    "docs/notes/Cegep 1/Mécanique",
+    "docs/notes/Cegep 1",
+    "docs/assets/img/Sections coniques.png",
+    "docs/assets/img/Onde.png",
+    "docs/assets/img/Henry Le Chatelier.jpg",
+    "docs/notes/Other/Vue",
+    "docs/notes/📙Secondary 4/Histoire/Grande noirceur, révolution tranquille & plus.canvas",
+    "docs/assets/meta/logo.png",
+    "docs/notes/📙Secondary 4/Sciences/Révision finale.canvas",
+    "docs/assets/img/IMG_0002.jpeg",
+    "docs/assets/img/IMG_0001.jpeg",
+    "📙Secondary 4/Histoire/Grande noirceur, révolution tranquille & plus.canvas",
+    "docs/assets/img/Liaison covalente.jpeg",
+    "Data/声调图.jpeg"
   ]
 }

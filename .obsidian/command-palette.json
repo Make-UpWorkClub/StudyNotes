@@ -1,0 +1,7 @@
+{
+  "pinned": [
+    "insert-template",
+    "note-composer:extract-heading",
+    "obsidian-git:push"
+  ]
+}
