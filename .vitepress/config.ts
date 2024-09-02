@@ -28,31 +28,33 @@ export default defineConfig({
   lang: 'en-US',
   title: siteName,
   description: siteDescription,
+  base: '/StudyNotes/',
+  cleanUrls: true,
   srcExclude: ['**/README.md', 'templates/*.md'],
   ignoreDeadLinks: true,
   head: [
     ['meta', {
       name: 'theme-color',
-      content: '#ffffff',
+      content: '#ffe89a',
     }],
     [
       'link',
       {
         rel: 'apple-touch-icon',
-        href: '/apple-touch-icon.png',
+        href: '/StudyNotes/apple-touch-icon.png',
         sizes: '180x180',
       },
     ],
     ['link', {
       rel: 'icon',
-      href: '/logo.png',
+      href: '/StudyNotes/logo.png',
       type: 'image/png',
     }],
     [
       'link',
       {
         rel: 'alternate icon',
-        href: '/favicon.ico',
+        href: '/StudyNotes/favicon.ico',
         type: 'image/png',
         sizes: '16x16',
       },
@@ -110,13 +112,13 @@ export default defineConfig({
       'link',
       {
         rel: 'mask-icon',
-        href: '/safari-pinned-tab.png',
+        href: '/StudyNotes/safari-pinned-tab.png',
         color: '#ffe89a',
       },
     ],
     ['link', {
       rel: 'manifest',
-      href: '/site.webmanifest',
+      href: '/StudyNotes/site.webmanifest',
     }],
     ['meta', {
       name: 'msapplication-TileColor',

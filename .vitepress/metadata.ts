@@ -23,7 +23,7 @@ export const targetDomain = `https://${plainTargetDomain}`
 export const creators: Creator[] = [
   {
     name: 'Ajitani Hifumi',
-    avatar: '../assets/img/Hifumi.jpg',
+    avatar: '',
     username: 'Perororororo',
     title: 'Club President',
     desc: 'Ahaha... Nice to meet you.',
