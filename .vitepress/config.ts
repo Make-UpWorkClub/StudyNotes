@@ -1,5 +1,6 @@
 import process from 'node:process'
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 import MarkdownItFootnote from 'markdown-it-footnote'
 import MarkdownItMathjax3 from 'markdown-it-mathjax3'
 
@@ -12,7 +13,7 @@ import { transformHeadMeta } from '@nolebase/vitepress-plugin-meta'
 import { creatorNames, creatorUsernames, githubRepoLink, siteDescription, siteName, targetDomain } from './metadata'
 import { sidebar } from './docsMetadata.json'
 
-export default defineConfig({
+const config = defineConfig({
   vue: {
     template: {
       transformAssetUrls: {
@@ -249,3 +250,5 @@ export default defineConfig({
     })(siteConfig)
   },
 })
+
+export default withMermaid(config)
