@@ -15,7 +15,7 @@ export const githubRepoLink = 'https://github.com/Make-UpWorkClub/StudyNotes'
 export const discordLink = ''
 
 /** 无协议前缀域名 */
-export const plainTargetDomain = 'make-upworkclub.github.io'
+export const plainTargetDomain = 'make-upworkclub.github.io/StudyNotes'
 /** 完整域名 */
 export const targetDomain = `https://${plainTargetDomain}`
 
