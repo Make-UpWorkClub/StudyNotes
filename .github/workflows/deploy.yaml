@@ -27,7 +27,7 @@ jobs:
 
       - name: Get pnpm store path
         id: get-pnpm-store-path
-        run: nix develop -c bash -c 'echo STORE_PATH=$(pnpm store path --silent) | tee -a $GITHUB_ENV'
+        run: nix develop -c bash -c 'echo STORE_PATH=$(pnpm store path --silent) | tee -a $GITHUB_OUTPUT'
 
       - name: Setup pnpm cache
         uses: actions/cache@v4
