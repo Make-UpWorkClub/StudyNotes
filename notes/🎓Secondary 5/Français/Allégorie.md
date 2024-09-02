@@ -1,6 +1,7 @@
 ---
-grade: Sec5
-subject: FRA
+tags:
+  - Sec5
+  - FRA
 date: 2023-12-15 09:35
 ---
 

@@ -1,4 +1,5 @@
 {
   "askBeforeMerging": true,
-  "replacementText": "none"
+  "replacementText": "none",
+  "template": "templates/Extracted Notion"
 }

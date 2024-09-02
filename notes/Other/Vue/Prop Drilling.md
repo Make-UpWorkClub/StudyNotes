@@ -1,5 +1,6 @@
 ---
-subject: Vue
+tags:
+  - Vue
 date: 2024-03-23T17:08:00
 ---
 

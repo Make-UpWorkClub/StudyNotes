@@ -1,7 +1,9 @@
 ---
+tags:
+  - Sec5
+  - Sec4
+  - MAT
 keywords: stub
-grade: Sec5 Sec4
-subject: MAT
 date: 2024-02-05 14:38
 ---
 

@@ -1,6 +1,7 @@
 ---
-grade: Sec5
-subject: PHY
+tags:
+  - Sec5
+  - PHY
 date: 2023-11-06 23:12
 ---
 

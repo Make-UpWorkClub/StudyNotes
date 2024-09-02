@@ -1,6 +1,7 @@
 ---
-grade: Sec5
-subject: EDFIN
+tags:
+  - Sec5
+  - EDFIN
 date: 2023-11-09 08:20
 ---
 

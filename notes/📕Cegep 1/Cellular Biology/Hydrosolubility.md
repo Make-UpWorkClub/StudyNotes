@@ -1,6 +1,7 @@
 ---
-grade: Cegep1
-subject: BIO
+tags:
+  - Cegep1
+  - BIO
 date: 2024-08-22T16:38:00
 ---
 

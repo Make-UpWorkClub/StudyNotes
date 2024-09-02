@@ -1,6 +1,7 @@
 ---
-grade: Sec4
-subject: SCI
+tags:
+  - Sec4
+  - SCI
 ---
 
 ## Classification périodique

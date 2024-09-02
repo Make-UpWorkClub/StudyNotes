@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "63fc7fbb8662c93d",
+        "id": "581f767a3e56c2fb",
         "type": "tabs",
         "children": [
           {
-            "id": "ac8999f014485f04",
+            "id": "0060d7edaaf901c8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/📕Cegep 1/Cellular Biology/Macromolecule.md",
-                "mode": "preview",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -70,7 +66,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.00271224975586
+    "width": 236.00260543823242
   },
   "right": {
     "id": "c6fc17e22db4e4c6",
@@ -92,75 +88,26 @@
             }
           },
           {
-            "id": "d7a2e5375e8e4b0f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "notes/📕Cegep 1/Cellular Biology/Macromolecule.md"
-              }
-            }
-          },
-          {
-            "id": "680c6cec6ae8783d",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "e022b2d7b8768d6c",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "notes/📕Cegep 1/Cellular Biology/Macromolecule.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "f1bb57dcbbd4df1d",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "notes/📕Cegep 1/Cellular Biology/Macromolecule.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "804c0437b09b3944",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "0180d079eaaa2119",
+            "id": "cc739a5a56b8cb05",
             "type": "leaf",
             "state": {
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "31096d7ef4b35d52",
+            "type": "leaf",
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 241
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,44 +119,45 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cae6c5f5d34c1a49",
+  "active": "0060d7edaaf901c8",
   "lastOpenFiles": [
-    "_tmp_263428_2e4bf933d1f39fde2437f67e42517b47",
-    "1",
-    "_tmp_257145_487987ea0ec6cff17d1b68f3d8d5cad1",
-    "_tmp_253415_aadbf008bff85ddb63898e16d992122a",
-    "_tmp_249798_aa35c2512eb7c63f2e4c87983f2250bf",
-    "_tmp_245872_1d40f602f4d3ed725f7844bf19e5b4ba",
-    "dependabot.yaml",
-    "vite.config.ts.timestamp-1725240305913-37103adca3e3e.mjs",
-    "vite.config.ts.timestamp-1725240305913-da8015f12bea4.mjs",
-    "vite.config.ts.timestamp-1725240305912-83c1f24cce99.mjs",
-    "vite.config.ts.timestamp-1725240305912-a1d403b23f65a.mjs",
-    "notes/📕Cegep 1/Cellular Biology/Lipid.md",
-    "notes/📕Cegep 1/Cellular Biology/Interphase.md",
-    "notes/📕Cegep 1/Cellular Biology/Hydrosolubility.md",
-    "notes/📕Cegep 1/Cellular Biology/Chromosome.md",
-    "notes/📕Cegep 1/Cellular Biology/Cell Cycle.md",
-    "notes/📕Cegep 1/Cellular Biology/Cell.md",
-    "notes/📕Cegep 1/Cellular Biology/Amino Acid.md",
-    "notes/📕Cegep 1/Cellular Biology/BUFFER.md",
-    "notes/📕Cegep 1/Cellular Biology/Carbohydrate.md",
-    "notes/📙Secondary 4/Français/Là où je me terre.md",
-    "notes/Other/Vue/Exposing Component State.md",
-    "notes/Other/Vue/Prop Drilling.md",
-    "notes/Other/Vue/Common Mistakes.md",
-    "index.md",
-    "notes/index.md",
-    "toc.md",
-    "Excalidraw/Drawing 2024-08-30 18.01.43.excalidraw.md",
-    "Excalidraw/Drawing 2024-08-30 18.01.44.excalidraw.md",
-    "docs/notes/Cegep 1/Mathematics/BUFFER.md",
-    "docs/notes/Cegep 1/Mathematics/Limit.md",
-    "docs/notes/Cegep 1/Mathematics/Rewriting trigonometric functions.md",
-    "docs/notes/Cegep 1/Français/Dissertation explicative.md",
-    "docs/notes/Cegep 1/Français/BUFFER.md",
-    "docs/notes/Cegep 1/Mathematics/Piecewise Function.md",
-    "docs/notes/Cegep 1/Cellular Biology/Nucleic Acid.md",
+    "templates/Extracted Notion.md",
+    "templates/Notion.md",
+    "notes/📕Cegep 1/Mathematics/BUFFER.md",
+    "notes/📕Cegep 1/Mathematics/Conjugate.md",
+    "notes/📕Cegep 1/Français/Conte philosophique.md",
+    "notes/🎓Secondary 5/English/Comma.md",
+    "notes/🎓Secondary 5/English/Capitalization.md",
+    "notes/📕Cegep 1/Mathematics/Limit.md",
+    "notes/📕Cegep 1/Mécanique/Erreur.md",
+    "notes/📕Cegep 1/Français/BUFFER.md",
+    "notes/📕Cegep 1/Mathematics/Rewriting trigonometric functions.md",
+    "notes/📕Cegep 1/Mathematics/Piecewise Function.md",
+    "notes/📕Cegep 1/Humanities/Religion.md",
+    "notes/📕Cegep 1/Humanities/Worldview.md",
+    "notes/📕Cegep 1/Humanities/India.md",
+    "notes/📕Cegep 1/Humanities/Karma.md",
+    "notes/📕Cegep 1/Humanities/Lakshmi.md",
+    "notes/📕Cegep 1/Humanities/Shiva.md",
+    "notes/📕Cegep 1/Humanities/South Asia.md",
+    "notes/📕Cegep 1/Humanities/BUFFER.md",
+    "notes/📕Cegep 1/Humanities/Brahma.md",
+    "notes/📕Cegep 1/Français/Siècle des Lumières.md",
+    "notes/📕Cegep 1/Français/Dissertation explicative.md",
+    "notes/📕Cegep 1/Mécanique/Laboratoire.md",
+    "notes/📕Cegep 1/Mécanique/Analyse dimensionnelle.md",
+    "notes/📕Cegep 1/Mécanique/BUFFER.md",
+    "notes/📙Secondary 4/Histoire/Grande noirceur, révolution tranquille & plus.canvas",
+    "notes/📕Cegep 1/Mathematics/sedXuzS6e",
+    "notes/📕Cegep 1/Mathematics/sedXMGOm3",
+    "notes/📕Cegep 1/Cellular Biology/sedPlUEia",
+    "notes/📕Cegep 1/Cellular Biology/sedrb0QKN",
+    "notes/📕Cegep 1/Cellular Biology/sedSD3ejT",
+    "notes/📕Cegep 1/Cellular Biology/sedIFdhaD",
+    "notes/📕Cegep 1/Cellular Biology/sedOeNS4L",
+    "notes/📕Cegep 1/Français/sedmhdMJE",
+    "notes/📙Secondary 4/Sciences/sedYK4ND3",
+    "notes/📙Secondary 4/Sciences/sedx9l3fV",
     "docs/assets/img/Sections coniques.png",
     "docs/assets/img/Onde.png",
     "docs/assets/img/Henry Le Chatelier.jpg",

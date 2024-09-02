@@ -1,6 +1,7 @@
 ---
-grade: Sec5
-subject: CHI
+tags:
+  - Sec5
+  - CHI
 date: 2024-02-29 08:32
 ---
 

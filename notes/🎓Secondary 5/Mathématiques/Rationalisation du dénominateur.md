@@ -1,6 +1,7 @@
 ---
-grade: Sec5
-subject: MAT
+tags:
+  - Sec5
+  - MAT
 date: 2023-09-14
 ---
 

@@ -1,6 +1,8 @@
 ---
-grade: Sec5
-subject: [CHI, PHY]
+tags:
+  - Sec5
+  - CHI
+  - PHY
 date: 2023-09-15
 ---
 

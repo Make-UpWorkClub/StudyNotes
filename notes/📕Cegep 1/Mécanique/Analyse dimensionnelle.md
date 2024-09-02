@@ -1,6 +1,7 @@
 ---
-grade: Cegep1
-subject: MEC
+tags:
+  - Cegep1
+  - MEC
 date: 2024-08-22T15:26:00
 ---
 

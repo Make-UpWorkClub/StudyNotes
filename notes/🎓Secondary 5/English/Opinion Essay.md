@@ -1,6 +1,7 @@
 ---
-grade: Sec5
-subject: ANG
+tags:
+  - Sec5
+  - ANG
 date: 2023-12-05 10:55
 ---
 

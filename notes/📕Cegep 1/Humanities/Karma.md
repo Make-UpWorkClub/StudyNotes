@@ -1,6 +1,7 @@
 ---
-grade: Cegep1
-subject: 
+tags:
+  - Cegep1
+  - HUM
 date: 2024-08-27T15:30:23
 ---
 

@@ -1,6 +1,7 @@
 ---
-grade: Cegep1
-subject: FRA
+tags:
+  - Cegep1
+  - FRA
 date: 2024-08-26T12:46:00
 ---
 

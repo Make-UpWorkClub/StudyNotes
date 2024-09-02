@@ -1,6 +1,7 @@
 ---
-grade: Sec5
-subject: FRA
+tags:
+  - Sec5
+  - FRA
 date: 2024-03-22 12:36
 ---
 

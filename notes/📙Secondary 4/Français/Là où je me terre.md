@@ -1,5 +1,6 @@
 ---
-grade: Sec4
+tags:
+  - Sec4
 ---
 
 # Là où je me terre

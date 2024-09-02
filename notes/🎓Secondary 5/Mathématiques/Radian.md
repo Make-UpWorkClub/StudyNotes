@@ -1,6 +1,7 @@
 ---
-grade: Sec5
-subject: MAT
+tags:
+  - Sec5
+  - MAT
 date: 2024-03-20 10:28
 ---
 

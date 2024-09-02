@@ -1,6 +1,7 @@
 ---
-grade: Cegep1
-subject: MAT
+tags:
+  - Cegep1
+  - MAT
 date: 2024-08-30T15:03:28
 ---
 
