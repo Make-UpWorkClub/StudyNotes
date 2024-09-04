@@ -23,9 +23,3 @@ Module + angle par rapport à une orientation
 > [!example]+
 > 5 a 30° à gauche du haut
 > 5 a 60° en haut de la gauche
-
-## 2024-09-03
-
-$$
-
-$$

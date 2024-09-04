@@ -17,10 +17,9 @@ Formed by dehydration
 > [!abstract] Globular
 > (Of a protein) spherical
 
-## Denaturation / renaturation
-
-Denaturation: loss of 3D structure when heated
-Renaturation: regain of 3D structure when cooled
+> [!abstract] Denaturation / renaturation
+> Denaturation: loss of 3D structure when heated
+> Renaturation: regain of 3D structure when cooled
 
 ## Types
 

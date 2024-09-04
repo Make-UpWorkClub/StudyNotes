@@ -9,11 +9,10 @@ date: 2024-08-30T14:26:38
 
 Contains:
 
-- Cytosol (semi-fluid interior of the cell)
-- 1 or more chromosomes
-- Ribosomes
-
-Cell wall prevent too much water from entering the cell (plant cells only)
+- [[Cytosol]]
+- 1 or more [[Chromosome|chromosomes]]
+- [[Ribosome|Ribosomes]]
+- Cell wall that prevents too much water from entering the cell (plant cells only)
 
 ## Types
 
@@ -28,10 +27,7 @@ Found in *Archaea and Bacteria*
 
 ### Eukaryotic
 
-*Has* a nucleus, [[Organelle|organelles]] and an [[endomembrane system]]
+*Has* a [[nucleus]], [[Organelle|organelles]] and an [[endomembrane system]]
 Some membranes have embedded enzymes
 
 Found in *Eukarya*
-
-> [!abstract] Cytoplasm
-> Cytosol + organelles (everything except the nucleus in an eukaryotic cell)

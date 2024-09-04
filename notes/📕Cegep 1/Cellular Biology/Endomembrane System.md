@@ -10,8 +10,8 @@ date: 2024-09-03T10:53:41
 System of membranes inside an eukaryotic cell
 
 - Nuclear envelope
-- [[Endoplasmic Reticulum]]
-- [[Golgi Apparatus]]
+- [[Endoplasmic reticulum]]
+- [[Golgi apparatus]]
 - [[Lysosome]]
-- Vacuoles
+- [[Vacuole]]
 - Plasma membrane

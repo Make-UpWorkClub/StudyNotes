@@ -25,7 +25,8 @@
     "toc.md",
     "index.md",
     "scripts/",
-    "public/"
+    "public/",
+    "templates/"
   ],
   "newFileLocation": "current",
   "livePreview": false,

@@ -48,6 +48,13 @@
         "a": 1,
         "rgb": 15442468
       }
+    },
+    {
+      "query": "path:\"Physical Education\" ",
+      "color": {
+        "a": 1,
+        "rgb": 16675213
+      }
     }
   ],
   "collapse-display": false,
@@ -60,6 +67,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 150,
-  "scale": 1.3111782265599357,
+  "scale": 0.9250417726535028,
   "close": true
 }

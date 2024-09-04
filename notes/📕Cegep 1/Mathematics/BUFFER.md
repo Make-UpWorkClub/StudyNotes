@@ -108,3 +108,7 @@ $
 
 Don't confuse $\sin ^{-1}x$ with $(\sin x)^{-1}$
 Prefer $\arcsin$ and $asin$ to $\sin ^{-1}$
+
+## 2024-09-04
+
+D.N.E. = do not exist

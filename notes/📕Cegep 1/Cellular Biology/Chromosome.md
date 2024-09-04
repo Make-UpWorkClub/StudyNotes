@@ -8,7 +8,7 @@ date: 2024-08-26T14:45:00
 # Chromosome
 
 Long, linear DNA molecule
-Made up of chromatin
+Made of chromatin
 Contains 100-1000 genes
 
 Human somatic cells: 46 chromosomes (22 pairs of autosomes + 2 sex chromosomes)
