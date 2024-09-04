@@ -1,7 +1,7 @@
 ---
 tags:
   - Cegep1
-  - MAT
+  - Mathematics
 date: 2024-09-02T18:42:00
 ---
 

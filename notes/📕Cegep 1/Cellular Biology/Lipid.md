@@ -1,7 +1,7 @@
 ---
 tags:
   - Cegep1
-  - BIO
+  - Biology
 date: 2024-08-22T16:33:00
 ---
 

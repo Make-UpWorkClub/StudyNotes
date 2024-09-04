@@ -1,7 +1,7 @@
 ---
 tags:
   - Sec5
-  - MAT
+  - Mathematics
 date: 2023-11-30 11:28
 ---
 

@@ -1,7 +1,7 @@
 ---
 tags:
   - Sec5
-  - PHY
+  - Physics
 date: 2023-11-16 08:23
 ---
 

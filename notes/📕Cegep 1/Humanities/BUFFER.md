@@ -1,7 +1,7 @@
 ---
 tags:
   - Cegep1
-  - HUM
+  - Humanities
 date: 2024-08-20T14:38:00
 ---
 

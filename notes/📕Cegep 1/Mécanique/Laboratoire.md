@@ -1,7 +1,7 @@
 ---
 tags:
   - Cegep1
-  - MEC
+  - Mechanics
 date: 2024-08-22T16:21:00
 ---
 
@@ -15,6 +15,7 @@ Rapport : questions dirigées
 ### Étapes intermédiaires
 
 - Garder tous les chiffres dans la calculatrice
+	- Ne pas arrondir les résultats intermédiaires
 	- `...` pour indiquer les chiffres tronquées
 - Garder les variables dans le calcul le plus long possible
 

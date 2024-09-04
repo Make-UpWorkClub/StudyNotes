@@ -2,7 +2,7 @@
 tags:
   - Sec5
   - Sec4
-  - MAT
+  - Mathematics
 keywords: stub
 date: 2024-02-05 14:38
 ---

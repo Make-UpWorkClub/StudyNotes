@@ -1,7 +1,7 @@
 ---
 tags:
   - Sec4
-  - SCI
+  - Sciences
 ---
 
 ## Énergie potentielle gravitationnelle

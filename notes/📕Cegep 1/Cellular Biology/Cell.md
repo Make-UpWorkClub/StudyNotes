@@ -1,7 +1,7 @@
 ---
 tags:
   - Cegep1
-  - BIO
+  - Biology
 date: 2024-08-30T14:26:38
 ---
 
@@ -21,20 +21,17 @@ An organism can only have one type of cell
 
 ### Prokaryotic
 
-*No* nucleus nor membrane-bound organelles
+*No* nucleus, organelles nor an endomembrane system
 Genetic information in the **nucleoid** region
 
 Found in *Archaea and Bacteria*
 
 ### Eukaryotic
 
-*Has* a nucleus and membrane-bound organelles
+*Has* a nucleus, [[Organelle|organelles]] and an [[endomembrane system]]
 Some membranes have embedded enzymes
 
-Found in *all domains except Archaea and Bacteria*
-
-> [!abstract] Organelle
-> Part of an eukaryotic cell with a specific function, compartmentalized by a membrane, allowing different conditions in different organelles
+Found in *Eukarya*
 
 > [!abstract] Cytoplasm
 > Cytosol + organelles (everything except the nucleus in an eukaryotic cell)

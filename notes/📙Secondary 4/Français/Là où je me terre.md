@@ -7,6 +7,8 @@ tags:
 
 ## Esquisse
 
+> [!warning] Incomplet et ne sera jamais complété
+
 1. Les parents de Caroline décident de se réfugier au Canada.
 2. Caroline tombe malade et célèbre Noël sur l’avion. **Politiques visant à limiter l’accueil des demandeurs d’asile**
 3. Les parents de Caroline demandent l’asile.

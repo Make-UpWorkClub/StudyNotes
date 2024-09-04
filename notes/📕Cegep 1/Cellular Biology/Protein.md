@@ -1,7 +1,7 @@
 ---
 tags:
   - Cegep1
-  - BIO
+  - Biology
 date: 2024-08-22T17:17:00
 ---
 
@@ -13,6 +13,9 @@ Consists of one or more [[Polypeptide|polypeptides]]
 Formed by dehydration
 
 3D under normal conditions
+
+> [!abstract] Globular
+> (Of a protein) spherical
 
 ## Denaturation / renaturation
 

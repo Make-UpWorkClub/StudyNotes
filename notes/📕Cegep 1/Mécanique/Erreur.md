@@ -1,7 +1,7 @@
 ---
 tags:
   - Cegep1
-  - MEC
+  - Mechanics
 date: 2024-08-26T08:20:00
 ---
 

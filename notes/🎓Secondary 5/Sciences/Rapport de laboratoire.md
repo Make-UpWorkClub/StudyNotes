@@ -1,8 +1,8 @@
 ---
 tags:
   - Sec5
-  - CHI
-  - PHY
+  - Chemistry
+  - Physics
 date: 2023-09-15
 ---
 

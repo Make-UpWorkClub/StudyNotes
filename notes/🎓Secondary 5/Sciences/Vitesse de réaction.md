@@ -1,7 +1,7 @@
 ---
 tags:
   - Sec5
-  - CHI
+  - Chemistry
 date: 2024-02-29 08:32
 ---
 

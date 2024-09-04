@@ -1,7 +1,7 @@
 ---
 tags:
   - Cegep1
-  - MEC
+  - Mechanics
 date: 2024-08-19T08:21:00
 ---
 
@@ -21,5 +21,11 @@ Réponse en classe : 4 chiffres significatifs
 Module + angle par rapport à une orientation
 
 > [!example]+
-> 5 a 30<sup>o</sup> à gauche du haut
-> 5 a 60<sup>o</sup> en haut de la gauche
+> 5 a 30° à gauche du haut
+> 5 a 60° en haut de la gauche
+
+## 2024-09-03
+
+$$
+
+$$

@@ -393,5 +393,13 @@
   "easy-typing-obsidian:easy-typing-paste-without-format": [],
   "easy-typing-obsidian:easy-typing-delete-blank-line": [],
   "obsidian-excalidraw-plugin:insert-link-to-element": [],
-  "obsidian-excalidraw-plugin:toggle-lock": []
+  "obsidian-excalidraw-plugin:toggle-lock": [],
+  "editor:set-heading-0": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "0"
+    }
+  ]
 }
