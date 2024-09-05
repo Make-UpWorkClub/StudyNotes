@@ -5,9 +5,10 @@ tags:
 date: 2024-09-04T09:51:05
 ---
 
-# Mitochondria
+# Mitochondrion
 
-[[Organelle]] that transforms energy with cellular respiration
+Membrane-bound [[organelle]] that transforms energy with cellular respiration
+pl. mitochondria
 
 > [!info] Cellular respiration
 > Produces ATP with oxygen

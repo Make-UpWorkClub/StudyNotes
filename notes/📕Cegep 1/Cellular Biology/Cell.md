@@ -9,14 +9,15 @@ date: 2024-08-30T14:26:38
 
 Contains:
 
-- [[Cytosol]]
+- Cytosol
 - 1 or more [[Chromosome|chromosomes]]
 - [[Ribosome|Ribosomes]]
+- [[Plasma membrane]]
 - Cell wall that prevents too much water from entering the cell (plant cells only)
 
 ## Types
 
-An organism can only have one type of cell
+An organism can only have one type of cell.
 
 ### Prokaryotic
 
@@ -27,7 +28,7 @@ Found in *Archaea and Bacteria*
 
 ### Eukaryotic
 
-*Has* a [[nucleus]], [[Organelle|organelles]] and an [[endomembrane system]]
+*Has* a nucleus, organelles and an endomembrane system
 Some membranes have embedded enzymes
 
 Found in *Eukarya*

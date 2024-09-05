@@ -1,6 +1,6 @@
 {
-  "collapse-filter": true,
-  "search": "Cegep1",
+  "collapse-filter": false,
+  "search": "Cegep1 -BUFFER",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -67,6 +67,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 150,
-  "scale": 0.9250417726535028,
+  "scale": 1.0045861857887817,
   "close": true
 }

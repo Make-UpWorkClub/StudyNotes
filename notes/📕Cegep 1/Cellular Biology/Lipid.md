@@ -7,11 +7,12 @@ date: 2024-08-22T16:33:00
 
 # Lipid
 
-Hydrophobic (insoluble in water)
-
+Function: fuel for cells
 More energy efficient than carbohydrate
 
 Not a polymer because it doesn't form a chain
+
+Hydrophobic (insoluble in water)
 
 ## Types
 
@@ -47,12 +48,16 @@ From *plants and fish*
 Choline, phosphate, glycerol & two fatty acids
 
 [[Hydrosolubility#^3c822f|Amphipathic]]
-Phosphate group (head): hydrophilic
-Fatty acids (tails): hydrophobic
+Phosphate group (*head*): *hydrophilic*
+Fatty acids (*tails*): *hydrophobic*
 
-Forms aggregates in water called **micelles** (hydrophilic heads outward in contact with water, hydrophobic tails inward)
+> [!abstract] Micelle
+> Phospholipid aggregate in water (hydrophilic heads outward in contact with water, hydrophobic tails inward)
 
-Forms the plasma membrane (a.k.a. cell membrane) as **bilayer** (hydrophilic head at the edges, hydrophobic tails at the core)
+> [!abstract] Phospholipid bilayer
+> Double phospholipid layer used as membrane in cells (hydrophilic head at the edges, hydrophobic tails at the core)
+
+^5b5e44
 
 ### Steroid
 

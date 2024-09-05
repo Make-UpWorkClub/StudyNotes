@@ -1,11 +1,13 @@
 ---
 tags:
   - Cegep1
+  - Biology
 date: 2024-09-04T10:48:27
 ---
 
 # Lysosome
 
-Membrane enclosed sacs of hydrolytic enzymes
+[[Vesicle]] filled with hydrolytic enzymes
+Part of the [[endomembrane system]]
 
 Digest damaged organelles & macromolecules (autophagy)

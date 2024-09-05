@@ -5,19 +5,30 @@ tags:
 date: 2024-09-03T10:53:45
 ---
 
-# Endoplasmic Reticulum
+# Endoplasmic Reticulum (ER)
 
-> [!abstract] Cisternae
-> Flattened membranous sacs
+Membrane-bound [[Organelle]]
+Part of the [[endomembrane system]]
+Endoplasmic: within cytoplasm
+Reticulum: network
 
 ## Types
 
 ### Smooth (SER)
 
+*Tubular* shape
+*No* ribosome
+
+- Lipid synthesis
+- Carbohydrate metabolism
+- Drug and poison detoxification
+- $Ca^{2+}$ storage (in muscle cells)
+
 ### Rough (RER)
 
-Has ribosomes on its surface
+*[[Cisterna|Cisternae]]* shape
+*Has* ribosomes on its surface
 
-Produces membrane 
-
-Newly synthesized proteins 
+- Membrane production for the endomembrane system (incl. itself)
+- Synthesis of proteins destined for insertion into the plasma membrane or secretion
+- Packages proteins into transport [[Vesicle|vesicles]] and sends them to the [[Golgi apparatus]]

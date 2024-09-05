@@ -1,13 +1,15 @@
 ---
 tags:
   - Cegep1
+  - Biology
 date: 2024-09-04T09:51:25
 ---
 
 # Nucleus
 
-[[Organelle]] that contains most of the genes
+Membrane-bound [[organelle]] that contains most of the genes
 
-Membrane, called **nuclear envelope**, contains pores to allow large molecules to pass through
-Nuclear lamina: network of structural proteins on the inner side of the nuclear envelope
+Site of DNA replication
+Site of mRNA synthesis through **transcription**
+
 Nucleolus: site of synthesis of rRNA

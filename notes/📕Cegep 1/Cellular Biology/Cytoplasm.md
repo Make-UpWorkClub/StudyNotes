@@ -7,4 +7,5 @@ date: 2024-09-04T10:05:45
 
 # Cytoplasm
 
-[[Cytosol]] + [[Organelle|organelles]] in an [[Cell#Eukaryotic|eukaryotic cell]] (everything except the nucleus)
+All material within a [[Cell#Eukaryotic|eukaryotic cell]] except for the nucleus
+i.e. [[Cytosol]] + [[Organelle|organelles]] - nucleus

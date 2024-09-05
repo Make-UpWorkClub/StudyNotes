@@ -7,8 +7,7 @@ date: 2024-08-22T17:17:00
 
 # Protein
 
-[[Polymer]]
-Consists of one or more [[Polypeptide|polypeptides]]
+[[Polymer]] consisting of one or more [[Polypeptide|polypeptides]]
 
 Formed by dehydration
 
