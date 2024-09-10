@@ -18,7 +18,7 @@ Functions:
 
 Two sides:
 
-- Cis side: receives vesicles from ER
+- Cis side: receives vesicles from [[Endoplasmic Reticulum|ER]]
 - Trans side: sends vesicles to other locations in the endomembrane system
 	- Some are sent back to ER
-	- Sent to the plasma membrane for secretion from the cell
+	- Some are sent to the [[plasma membrane]] for secretion from the cell

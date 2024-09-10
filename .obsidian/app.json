@@ -33,5 +33,6 @@
   "defaultViewMode": "preview",
   "readableLineLength": true,
   "spellcheckLanguages": null,
-  "vimMode": false
+  "vimMode": false,
+  "showLineNumber": false
 }

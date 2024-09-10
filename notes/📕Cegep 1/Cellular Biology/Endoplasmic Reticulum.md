@@ -30,5 +30,5 @@ Reticulum: network
 *Has* ribosomes on its surface
 
 - Membrane production for the endomembrane system (incl. itself)
-- Synthesis of proteins destined for insertion into the plasma membrane or secretion
+- Synthesis of proteins destined for insertion into the [[plasma membrane]] or secretion (by ribosomes)
 - Packages proteins into transport [[Vesicle|vesicles]] and sends them to the [[Golgi apparatus]]

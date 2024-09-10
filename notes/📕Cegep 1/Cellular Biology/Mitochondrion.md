@@ -22,3 +22,6 @@ Inner membrane:
 - smooth and permeable
 - folded into cristae to increase the surface area
 - contains enzymes involved in cellular respiration, e.g. ATP synthase
+
+> [!abstract] Crista
+> - 

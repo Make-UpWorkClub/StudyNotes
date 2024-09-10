@@ -18,6 +18,8 @@ Structurally and functionally identical
 
 Bound to the *[[endoplasmic reticulum]]*
 
+Makes proteins destined for insertion into the plasma membrane or secretion
+
 ### Free
 
 Found in the *cytoplasm*
