@@ -7,7 +7,7 @@ date: 2024-08-27T14:23:34
 
 # Vishnu
 
-Preserver
+Preserver in [[Hinduism]]
 
 Takes many avatars (incarnations):
 

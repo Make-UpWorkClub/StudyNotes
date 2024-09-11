@@ -7,6 +7,9 @@ date: 2024-08-29T15:15:50
 
 # Hinduism
 
+[[Religion]]
+
+Marriage of indigenous goddesses and patriarchal gods
 Polytheistic? or multiple manifestations of the divine
 
-Blending of indigenous deities and 
+There aren't many rules in Hinduism

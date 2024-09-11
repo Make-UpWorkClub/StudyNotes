@@ -7,7 +7,7 @@ date: 2024-08-29T15:10:47
 
 # Religion
 
-Important influence on worldview
+Important influence on [[worldview]]
 
 - Beliefs in higher being(s)
 - Rituals
@@ -15,8 +15,6 @@ Important influence on worldview
 - Texts
 - Impact of different groups arriving in the area
 - Blending of systems
-
-> [!important] There are not many rules in Hinduism
 
 ## Polytheism
 
@@ -28,7 +26,7 @@ Usually *anthropomorphic*
 
 *Not always all-knowing*
 
-Responsible of *positives + negatives*
+Responsible for *positives + negatives*
 
 ## Monotheism
 

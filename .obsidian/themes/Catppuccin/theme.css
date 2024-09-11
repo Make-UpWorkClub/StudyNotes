@@ -1322,6 +1322,26 @@ settings:
         value: var(--ctp-subtext0)
 */
 /* @settings
+name: PDF Settings
+id: catppuccin-pdf
+settings:
+  -
+    id: ctp-seamless-pdf
+    title: Remove borders around PDF pages
+    description: View PDFs without borders, akin to the Minimal theme's "seamless" setting
+    type: class-toggle
+  -
+    id: ctp-pdf-darken
+    title: Darken PDF background
+    description: When using a dark flavor, inverts a PDF's background color. This might be helpful when using a PDF with a light background in dark mode Obsidian, depending on your preferences and the colors present in the PDF
+    type: class-toggle
+  -
+    id: ctp-pdf-blend
+    title: Blend PDF background
+    description: When using light mode, attempts to blend the theme's background color into the PDF
+    type: class-toggle
+*/
+/* @settings
 
 name: Credits and Source Code
 id: source-code
@@ -2175,6 +2195,14 @@ body {
   display: none;
 }
 
+/*
+* Bring block edit button in line with rest of button hovers
+*/
+.markdown-source-view.mod-cm6 .pdf-embed .edit-block-button:hover {
+  background-color: rgb(var(--ctp-pink));
+  color: var(--text-on-accent);
+}
+
 select:focus,
 .dropdown:focus {
   box-shadow: 0 0 0 2px rgb(var(--ctp-accent), 70%);
@@ -2292,6 +2320,31 @@ input[type=number]:focus-visible {
     color: var(--text-on-accent);
   }
 }
+/**
+* 1. User requested integration with Style Settings plugin to replicate Minimal
+* and its treatment of PDFs. Credit/source of modified scss:
+* https://github.com/kepano/obsidian-minimal/blob/0b98cc8ec4576e148057ce6c0ff751ab4df1ece4/src/scss/content/pdf.scss
+*/
+.theme-light.ctp-seamless-pdf,
+.theme-dark.ctp-seamless-pdf {
+  --pdf-shadow: none;
+}
+.theme-light.ctp-seamless-pdf .pdf-viewer .page,
+.theme-dark.ctp-seamless-pdf .pdf-viewer .page {
+  border: 0;
+}
+
+.theme-dark.ctp-pdf-darken .pdf-viewer .canvasWrapper,
+.theme-dark.ctp-pdf-darken .pdf-thumbnail-view .thumbnailImage {
+  filter: invert(1) hue-rotate(180deg);
+  mix-blend-mode: screen;
+}
+
+.theme-light.ctp-pdf-blend .pdf-viewer .canvasWrapper,
+.theme-light.ctp-pdf-blend .pdf-thumbnail-view .thumbnailImage {
+  mix-blend-mode: multiply;
+}
+
 /* TODO Add to Style Settings instead */
 .cm-s-obsidian span.obsidian-search-match-highlight {
   background-color: rgb(var(--ctp-rosewater));

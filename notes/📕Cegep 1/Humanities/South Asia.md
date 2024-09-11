@@ -17,7 +17,7 @@ date: 2024-08-21T01:20:00
 
 Comprised of:
 
-- [[India]]
+- India
 - Pakistan
 - Bangladesh
 - Sri Lanka
@@ -31,7 +31,8 @@ Comprised of:
 
 ### Adivasis
 
-Indigenous people (lit. original inhabitant)
+Indigenous people
+`lit.` original inhabitant
 
 Animists
 

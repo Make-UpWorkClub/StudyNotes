@@ -7,7 +7,7 @@ date: 2024-08-27T14:24:03
 
 # Saraswati
 
-Goddess of learning
+Goddess of learning in [[Hinduism]]
 Sits on a lotus
 Usually seen with swans
 Plays the Vina

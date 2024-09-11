@@ -7,8 +7,10 @@ date: 2024-08-22T15:26:00
 
 # India
 
-Pre-1947 India = Modern India + Pakistan + Bangladesh
+Country in [[South Asia]]
 
 ## History
 
-###
+### 1947: Partition
+
+Pakistan and Bangladesh separate from India

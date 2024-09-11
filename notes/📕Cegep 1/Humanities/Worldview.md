@@ -20,7 +20,7 @@ Affected by:
 - Beliefs
 	- Economics (neo-liberalism, etc.)
 	- Nationalism
-	- [[Religion]] / Science
+	- Religion / Science
 - Geography
 	- Climate
 
