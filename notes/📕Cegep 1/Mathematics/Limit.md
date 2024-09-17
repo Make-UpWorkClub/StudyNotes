@@ -56,18 +56,17 @@ If $f(x)$ is a polynomial with $x = a$ in its domain, then $\lim_{ x \to a }f(x)
 
 For a generic limit $\lim_{ x \to a }f(x)$:
 
-1. If evaluating a piecewise function at boundary of two pieces, the left and right limits need to be considered.
-2. Substitute $a$ into $f(x)$ using the direct substitution property
+1. If evaluating a piecewise function at boundary of two pieces, the left and right limits need to be considered;
+2. Substitute $a$ into $f(x)$ using the direct substitution property. If the result is an indeterminate form, follow the steps below.
 
 ### Indeterminate forms
 
-$\frac{\infty}{\infty}, \infty-\infty$
+Multiple ways to solve
 
 #### $\frac{0}{0}$
 
 For a limit $\lim_{ x \to a }\frac{P(x)}{Q(x)}$
-where $P(x)$ and $Q(x)$ are polynomials such that
-$P(a) = Q(a) = 0$,
+where $P(x)$ and $Q(x)$ are polynomials such that $P(a) = Q(a) = 0$,
 
 first rationalize the fraction.
 
@@ -77,3 +76,58 @@ Because **it is always possible to factorize a polynomial equal to 0**, we facto
 2. with long division.
 
 Now that it no longer contains the factor that makes it 0, we can solve the limit as usual.
+
+#### $\frac{\infty}{\infty}$
+
+For a limit $\lim_{ x \to \infty } \frac{P(x)}{Q(x)}$ evaluating to $\pm\frac{\infty}{\infty}$,
+there are three possible answers:
+
+1. $0$ when $deg(P) < deg(Q)$
+2. $\pm \infty$ when $deg(P) > deg(Q)$
+3. $\mathbb{R}_*$ when $deg(P) = deg(Q)$
+
+99% of the time, forcefully factorize the dominant term.
+Otherwise, rationalize.
+
+> [!example]- $\lim_{ x \to \infty } \frac{x\sqrt{ x + 1 }(1 - 2\sqrt{ x^2 - 3 })}{7 - 6x + 4x^3}$
+> When $x \to \infty$, limit = $-\frac{\infty}{\infty}$.
+> We factorize:
+> 
+> $$
+> \lim_{ x \to \infty } \frac{x\sqrt{ x + 1 }(1 - 2\sqrt{ x^2 - 3 })}{7 - 6x + 4x^3} = \lim_{ x \to \infty } \frac{x\sqrt{ x }\sqrt{ 1 + \frac{1}{x} }\left( 1 - 2|x|\sqrt{ 1 - \frac{3}{x^2} } \right)}{x^3\left( \frac{7}{x^3} - \frac{6}{x^2} + 4 \right)}
+> $$
+> 
+> Since $x \to \infty$, $|x| = x$.
+> 
+> $$
+> \begin{align}
+> \lim_{ x \to \infty } \frac{x\sqrt{ x }\sqrt{ 1 + \frac{1}{x} }\left( 1 - 2x\sqrt{ 1 - \frac{3}{x^2} } \right)}{x^3\left( \frac{7}{x^3} - \frac{6}{x^2} + 4 \right)} & = \lim_{ x \to \infty } \frac{x^2\sqrt{ x }\sqrt{ 1 + \frac{1}{x} }\left( \frac{1}{x} - 2\sqrt{ 1 - \frac{3}{x^2} } \right)}{x^3\left( \frac{7}{x^3} - \frac{6}{x^2} + 4 \right)} \\
+>  & = \frac{\sqrt{ 1 + \frac{1}{x} }\left( \frac{1}{x} - 2\sqrt{ 1 - \frac{3}{x^2} } \right)}{\sqrt{ x }\left( \frac{7}{x^3} - \frac{6}{x^2} + 4 \right)} \\
+>  & = 0
+> \end{align}
+> $$
+
+#### $\infty-\infty$
+
+1. Factorize
+2. Combine
+3. Rationalize
+
+> [!example]- $\lim_{ t \to 0 }\left( \frac{1}{t\sqrt{ t + 1 }} - \frac{1}{t} \right)$
+> if $t = 0$, limit = $\frac{1}{0} - \frac{1}{0}$.
+> Combining the two fractions gives $\lim_{ t \to 0 } \frac{1 - \sqrt{ t + 1 }}{t\sqrt{ t + 1 }}$.
+> 
+> $$
+> \begin{align}
+> \frac{1 - \sqrt{ t + 1 }}{t\sqrt{ t + 1 }} & = \frac{t}{t\sqrt{ t + 1 }(1 + \sqrt{ t + 1 })} \\
+>  & = \frac{1}{\sqrt{ t + 1 } + t + 1}
+> \end{align}
+> $$
+> 
+> Substituting $0$ into $t$ gives $\frac{1}{2}$.
+
+### Limit at infinity
+
+1. Forcefully factorize dominant term
+2. Rationalize
+3. Combine

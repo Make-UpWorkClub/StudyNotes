@@ -7,7 +7,7 @@ date: 2024-08-29T11:32:13
 
 # Siècle des Lumières
 
-XVII<sup>e</sup>siècle après la mort de Louis XIV à 16XX
+XVII<sup>e</sup> siècle en France après la mort de Louis XIV à 16XX
 
 > [!info] Règne de Louis IV, le roi soleil
 > - Guerres coûteuses

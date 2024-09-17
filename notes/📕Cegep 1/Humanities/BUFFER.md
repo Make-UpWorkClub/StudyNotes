@@ -25,10 +25,10 @@ Brings rain to SW, W, NE of India
 
 Ancient civilisation in the territory now known as Pakistan
 
-Possible central government
-Advanced drainage system
-Trade with neighbouring regions
-Almost no weapons
+- Possible central government
+- Advanced drainage system
+- Trade with neighbouring regions
+- Almost no weapons
 
 Demise:
 
@@ -66,7 +66,24 @@ Friend of Gandhi
 # Gandhi
 
 A.k.a. Mahabma Gandhi
+Born vaishya
 
 Friend of Nehru
 
 Colonialism
+
+Want to reform the caste system
+Coined the term "Harijan" ("children of god") in place of "untouchable", rejected by dalits
+
+# B. R. Ambedkar
+
+Born dalit, converted to Buddhism
+
+Coined the term "dalit"
+
+# K. R. Narayanan
+
+Former president of India (1997-2002)
+Born dalit
+
+# Fascism

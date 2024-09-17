@@ -148,3 +148,12 @@ $$
  & = 0
 \end{align}
 $$
+
+## 2024-09-11
+
+$\lim_{ x \to 1^+ } \frac{\sqrt{ x^2 + x }}{\sqrt{ x - x^2 }}$
+
+When $x = 1$, limit = $\frac{\sqrt{ 2 }}{0}$.
+We factorize $x - x^2$ to $x(1 - x)$.
+Now it becomes clear that $x(1 - x) = 0^-$.
+The limit diverges to $-\infty$.
