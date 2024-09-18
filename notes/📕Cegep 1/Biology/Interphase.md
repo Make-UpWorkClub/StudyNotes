@@ -10,7 +10,7 @@ date: 2024-08-26T14:47:00
 First phase, 90% of the [[cell phase]]
 Phase of growth and cellular activities from birth to division
 
-Followed by [[Mitotic (M) Phase]]
+Followed by [[mitotic (M) phase]]
 
 ## G<sub>1</sub>
 

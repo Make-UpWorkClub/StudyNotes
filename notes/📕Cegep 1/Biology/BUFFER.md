@@ -10,6 +10,3 @@ date: 2024-08-26T10:24:00
 # Autophagy
 
 # Phagocytosis
-
-## 2024-09-16
-

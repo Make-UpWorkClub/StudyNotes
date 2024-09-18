@@ -7,8 +7,8 @@ date: 2024-09-03T10:53:45
 
 # Endoplasmic Reticulum (ER)
 
-Membrane-bound [[Organelle]]
-Part of the [[Endomembrane System]]
+Membrane-bound [[organelle]]
+Part of the [[endomembrane system]]
 Endoplasmic: within cytoplasm
 Reticulum: network
 
@@ -30,5 +30,5 @@ Reticulum: network
 *Has* ribosomes on its surface
 
 - Membrane production for the endomembrane system (incl. itself)
-- Synthesis of proteins destined for insertion into the [[Plasma Membrane]] or secretion (by ribosomes)
-- Packages proteins into transport [[Vesicle|vesicles]] and sends them to the [[Golgi Apparatus]]
+- Synthesis of proteins destined for insertion into the [[plasma membrane]] or secretion (by ribosomes)
+- Packages proteins into transport [[Vesicle|vesicles]] and sends them to the [[golgi apparatus]]

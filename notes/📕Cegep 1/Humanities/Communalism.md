@@ -11,4 +11,4 @@ Strong devotion to the interests of one's own minority or ethnic group rather th
 
 **In the context of South Asia**
 `pej.` conduct of politics on an ethnic or religious basis. It privileges particular groups over others and is highly divisive.
-Opposite of [[Secularism]]
+Opposite of [[secularism]]

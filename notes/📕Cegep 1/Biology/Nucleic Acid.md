@@ -32,4 +32,4 @@ Acts as a delivery vehicle during protein synthesis
 
 #### Ribosomal (rRNA)
 
-Makes up the structure of the [[Ribosome]]
+Makes up the structure of the [[ribosome]]

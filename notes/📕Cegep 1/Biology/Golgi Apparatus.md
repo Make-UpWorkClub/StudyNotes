@@ -7,8 +7,8 @@ date: 2024-09-03T10:53:49
 
 # Golgi Apparatus
 
-Membrane-bound [[Organelle]] in the form of [[Cisterna|cisternae]]
-Part of the [[Endomembrane System]]
+Membrane-bound [[organelle]] in the form of [[Cisterna|cisternae]]
+Part of the [[endomembrane system]]
 
 Functions:
 
@@ -21,4 +21,4 @@ Two sides:
 - Cis side: receives vesicles from [[Endoplasmic Reticulum|ER]]
 - Trans side: sends vesicles to other locations in the endomembrane system
 	- Some are sent back to ER
-	- Some are sent to the [[Plasma Membrane]] for secretion from the cell
+	- Some are sent to the [[plasma membrane]] for secretion from the cell

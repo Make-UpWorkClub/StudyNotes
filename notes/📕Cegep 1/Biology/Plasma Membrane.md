@@ -7,8 +7,8 @@ date: 2024-09-05T08:17:51
 
 # Plasma Membrane
 
-[[Membrane]] of the [[Cell]]
-Part of the [[Endomembrane System]]
+[[Membrane]] of the [[cell]]
+Part of the [[endomembrane system]]
 
 ## Transport across plasma membrane
 

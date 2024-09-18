@@ -7,7 +7,7 @@ date: 2024-08-29T15:10:47
 
 # Religion
 
-Important influence on [[Worldview]]
+Important influence on [[worldview]]
 
 - Beliefs in higher being(s)
 - Rituals

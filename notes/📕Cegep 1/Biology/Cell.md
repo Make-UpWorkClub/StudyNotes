@@ -12,7 +12,7 @@ Contains:
 - Cytosol
 - 1 or more [[Chromosome|chromosomes]]
 - [[Ribosome|Ribosomes]]
-- [[Plasma Membrane]]
+- [[Plasma membrane]]
 - Cell wall that prevents too much water from entering the cell (plant cells only)
 
 ## Types

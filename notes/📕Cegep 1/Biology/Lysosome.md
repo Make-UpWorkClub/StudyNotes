@@ -8,7 +8,7 @@ date: 2024-09-04T10:48:27
 # Lysosome
 
 [[Vesicle]] filled with hydrolytic enzymes (animal cells only)
-Part of the [[Endomembrane System]]
+Part of the [[endomembrane system]]
 
 Digests food vacuoles produced during phagocytosis by fusing with them
 Digests damaged organelles & macromolecules (autophagy)

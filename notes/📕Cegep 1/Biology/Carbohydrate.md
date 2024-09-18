@@ -7,7 +7,7 @@ date: 2024-08-19T10:58:00
 
 # Carbohydrate
 
-[[Monosaccharide]] & [[Polysaccharide]]
+[[Monosaccharide]] & [[polysaccharide]]
 
 Functions:
 

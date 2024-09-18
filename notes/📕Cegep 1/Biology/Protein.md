@@ -38,7 +38,7 @@ Response to chemical stimuli
 
 ### Enzymatic
 
-[[Enzyme]] (catalyst of chemical reactions)
+[[Enzyme]]
 
 > [!example] Digestive enzymes catalyst the hydrolysis of polysaccharides.
 

@@ -7,7 +7,7 @@ date: 2024-09-04T09:51:05
 
 # Mitochondrion
 
-Membrane-bound [[Organelle]] that transforms energy with cellular respiration
+Membrane-bound [[organelle]] that transforms energy with cellular respiration
 pl. mitochondria
 
 > [!info] Cellular respiration

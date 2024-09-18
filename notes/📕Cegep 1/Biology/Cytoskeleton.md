@@ -6,7 +6,7 @@ date: 2024-09-04T17:56:50
 
 # Cytoskeleton
 
-Dynamic network of [[Protein]] fibres in the [[Cytoplasm]]
+Dynamic network of [[protein]] fibres in the [[cytoplasm]]
 
 ## Types
 

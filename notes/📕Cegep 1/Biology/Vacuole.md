@@ -7,9 +7,9 @@ date: 2024-09-04T09:45:02
 
 # Vacuole
 
-Membrane-bound [[Organelle]] filled with aqueous solution of various molecules
+Membrane-bound [[organelle]] filled with aqueous solution of various molecules
 Formed by the fusion of multiple [[Vesicle|vesicles]]
-Part of the [[Endomembrane System]]
+Part of the [[endomembrane system]]
 
 ## Types
 

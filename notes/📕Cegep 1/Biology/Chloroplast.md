@@ -7,7 +7,7 @@ date: 2024-09-04T09:51:01
 
 # Chloroplast
 
-Membrane-bound [[Organelle]] that transforms energy with photosynthesis (plant cells only)
+Membrane-bound [[organelle]] that transforms energy with photosynthesis (plant cells only)
 
 > [!info] Photosynthesis
 > light + $CO_2$ -> glucose + $H_2O$ + $O_2$

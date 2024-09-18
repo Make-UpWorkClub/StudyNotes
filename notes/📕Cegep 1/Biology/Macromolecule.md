@@ -10,4 +10,4 @@ date: 2024-08-19T10:57:00
 - [[Carbohydrate]]
 - [[Lipid]]
 - [[Protein]]
-- [[Nucleic Acid]]
+- [[Nucleic acid]]

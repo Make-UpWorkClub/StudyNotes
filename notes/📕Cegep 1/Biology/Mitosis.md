@@ -8,7 +8,7 @@ date: 2024-08-27T10:35:43
 # Mitosis
 
 First part of [[Mitotic (M) Phase|mitotic phase]]
-Followed by [[Cytokinesis]]
+Followed by [[cytokinesis]]
 
 Properties:
 
@@ -24,7 +24,7 @@ Phases:
 
 ## Prophase
 
-First phase of [[Mitosis]] and [[Meiosis]]
+First phase of [[mitosis]] and [[meiosis]]
 
 Steps:
 
@@ -51,12 +51,12 @@ Steps:
 
 ## Metaphase
 
-Second phase of [[Mitosis]] and [[Meiosis]]
+Second phase of [[mitosis]] and [[meiosis]]
 Chromosomes move to the metaphase plate, sister chromatids facing opposite poles
 
 ## Anaphase
 
-Third phase of [[Mitosis]] and [[Meiosis]]
+Third phase of [[mitosis]] and [[meiosis]]
 
 Steps:
 
@@ -65,7 +65,7 @@ Steps:
 
 ## Telophase
 
-Fourth phase of [[Mitosis]] and [[Mitosis]]
+Fourth phase of [[mitosis]] and [[mitosis]]
 
 Steps:
 

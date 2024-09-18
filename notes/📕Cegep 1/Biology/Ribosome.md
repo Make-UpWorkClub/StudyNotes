@@ -16,7 +16,7 @@ Structurally and functionally identical
 
 ### Bound
 
-Bound to the *[[Endoplasmic Reticulum]]*
+Bound to the *[[endoplasmic reticulum]]*
 
 Makes proteins destined for insertion into the plasma membrane or secretion
 

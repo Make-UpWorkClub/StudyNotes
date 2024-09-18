@@ -7,8 +7,8 @@ date: 2024-09-05T01:35:55
 
 # Nuclear Envelope
 
-Membrane of the [[Nucleus]]
-Part of the [[Endomembrane System]]
+Membrane of the [[nucleus]]
+Part of the [[endomembrane system]]
 Contains pores to allow large molecules to pass through
 
 > [!abstract] Nuclear lamina

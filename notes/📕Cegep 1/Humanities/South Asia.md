@@ -26,8 +26,8 @@ Comprised of:
 
 ## Population
 
-*Normal countries*: *slightly more women than men*
-*South Asian countries*: *more men than women* due to patriarchy
+*Normal* countries: *slightly more women than men*
+*South Asian* countries: *more men than women* due to patriarchy
 
 ### Adivasis
 
@@ -41,8 +41,7 @@ Animists
 High religion diversity
 
 - Indigenous belief systems
-	- Animism
-		- Veneration of plants, trees, water, earth
+	- Animism (veneration of plants, trees, water, earth)
 - Hinduism
 	- Originated in South Asia
 	- Great variety
