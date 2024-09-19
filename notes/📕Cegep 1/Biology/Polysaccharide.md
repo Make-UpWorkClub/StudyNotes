@@ -7,7 +7,8 @@ date: 2024-08-19T11:20:00
 
 # Polysaccharide
 
-[[Polymer]] made out of [[Monosaccharide|monosaccharides]]
+Family of [[carbohydrate]]
+[[Polymer]] of [[monosaccharide]]
 
 ## Starch
 

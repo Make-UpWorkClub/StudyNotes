@@ -25,6 +25,15 @@ Deux paragraphes adoptant le même point de vue
 
 - Idée principale 1
 	- Idée secondaire 1
-		- Idée illustrée 1
+		- Idée illustrée
+			- Procédé formel
 	- Idée secondaire 2
-		- Idée illustrée 2
+		- Idée illustrée
+			- Procédé formel
+- Idée principale 2
+	- Idée secondaire 1
+		- Idée illustrée
+			- Procédé formel
+	- Idée secondaire 2
+		- Idée illustrée
+			- Procédé formel

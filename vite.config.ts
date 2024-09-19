@@ -27,7 +27,8 @@ export default defineConfig(async () => {
       }),
       GitChangelogMarkdownSection({
         excludes: [
-          'templates/Notion.md',
+          'templates/01 Notion.md',
+          'templates/99 Extracted Notion.md',
           'toc.md',
           'index.md',
         ],
@@ -35,7 +36,8 @@ export default defineConfig(async () => {
       PageProperties(),
       PagePropertiesMarkdownSection({
         excludes: [
-          'templates/Notion.md',
+          'templates/01 Notion.md',
+          'templates/99 Extracted Notion.md',
           'toc.md',
           'index.md',
         ],

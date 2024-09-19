@@ -219,6 +219,7 @@ const config = defineConfig({
       light: 'github-light',
       dark: 'one-dark-pro',
     },
+    breaks: true,
     math: true,
     config: (md) => {
       md.use(MarkdownItFootnote)

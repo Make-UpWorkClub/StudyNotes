@@ -15,7 +15,7 @@ date: 2023-11-09 14:26
 | Direct address            | Danny, …<br>…, dear student, …                                                                                 | Yes                             |
 | Nonessential elements     | Yes, *I love commas*, *for instance*.<br>Semicolons and dashes, *which can be tricky*, are so much fun to use! | Yes                             |
 
-## Oxford comma
+## Oxford Comma
 
 **Optional** comma before the coordinating conjunction in an enumeration
 

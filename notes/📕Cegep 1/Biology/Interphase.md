@@ -7,7 +7,7 @@ date: 2024-08-26T14:47:00
 
 # Interphase
 
-First phase, 90% of the [[cell phase]]
+First phase, 90% of the [[cell cycle]]
 Phase of growth and cellular activities from birth to division
 
 Followed by [[mitotic (M) phase]]

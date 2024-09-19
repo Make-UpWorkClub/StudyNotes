@@ -7,6 +7,6 @@ date: 2024-08-22T17:38:00
 
 # Amino Acid
 
-[[Monomer]] of protein
+[[Monomer]] of polypeptide and protein
 
 ~20 types

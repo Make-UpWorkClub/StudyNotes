@@ -53,5 +53,6 @@
   },
   "[typescript]": {
     "editor.defaultFormatter": null
-  }
+  },
+  "nixEnvSelector.nixFile": "${workspaceFolder}/shell.nix"
 }
