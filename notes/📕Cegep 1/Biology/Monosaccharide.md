@@ -13,7 +13,7 @@ A.k.a. simple sugar
 
 Broken down by cellular respiration to produce [[Adenosine Triphosphate|ATP]]
 
-Two types of forms: **ring** & **linear** (chain)
+Two types of forms: **cyclic** (ring) & **linear** (chain)
 
 ## Types
 
@@ -33,12 +33,14 @@ Classified by n. of $C$ atoms and position of the $C=O$ bond
 
 > [!example]+
 > - Glucose
-> - Fructose
 > - Galactose
+> - Fructose
 
 #### Glucose
 
+![[Glucose.png]]
+
 Two ring forms:
 
-- $\alpha$: $OH$ points down
-- $\beta$: $OH$ points up
+- $\alpha$: $OH$ points *down*, $H$ points *up*
+- $\beta$: $OH$ points *up*, $H$ points *down*

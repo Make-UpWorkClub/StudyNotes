@@ -24,7 +24,7 @@ Composed of:
 
 ### Pyrimidine
 
-Single ring
+*Single* ring
 
 - Cytosine (C)
 - Thymine (T) (DNA only)
@@ -32,7 +32,7 @@ Single ring
 
 ### Purine
 
-Double ring
+Double* ring
 
 - Adenine (A)
 - Guanine (G)

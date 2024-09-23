@@ -15,9 +15,9 @@ date: 2024-08-26T12:46:00
 	- Problématique
 	- Extrait
 	- Réponse
-1. Annoter l'extrait
-2. Construire un plan
-3. Rédiger la dissertation
+2. Annoter l'extrait
+3. Construire un plan
+4. Rédiger la dissertation
 
 ## Plan argumentatif
 

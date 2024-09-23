@@ -1,6 +1,7 @@
 ---
 tags:
   - Cegep1
+  - French
 date: 2024-09-19T11:48:28
 ---
 

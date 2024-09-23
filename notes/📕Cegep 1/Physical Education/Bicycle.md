@@ -1,7 +1,7 @@
 ---
 tags:
   - Cegep1
-  - Physical Education
+  - PhysicalEducation
 date: 2024-09-16T15:37:07
 ---
 

@@ -7,7 +7,7 @@ date: 2024-08-19T10:58:00
 
 # Carbohydrate
 
-Monosaccharide & polysaccharide
+Family of [[Macromolecule|macromolecules]] consisting of monosaccharide & polysaccharide
 
 Functions:
 

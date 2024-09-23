@@ -40,7 +40,7 @@ Superscript the limit with $-$ / $+$ depending on whether it is approached from 
 
 > [!important] The limit is approached but never reached
 
-## Properties
+## Properties & theorems
 
 1. $\lim_{ x \to a }k = k$
 2. $\lim_{ x \to a }x = a$

@@ -34,13 +34,15 @@ Merchants, farmers
 
 #### Dalit-Bahujan
 
-##### Shudra (also other backward class (OBC))
+##### Shudra
 
 Workers, servants
+A.k.a. also other backward class (OBC)
 
-##### Dalit (also scheduled castes, `pej.` untouchables)
+##### Dalit
 
 Historically workers who perform polluting tasks
+A.k.a. scheduled castes, `pej.` untouchables
 
 ## History
 

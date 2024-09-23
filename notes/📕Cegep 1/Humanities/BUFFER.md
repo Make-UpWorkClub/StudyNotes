@@ -87,3 +87,26 @@ Former president of India (1997-2002)
 Born dalit
 
 # Fascism
+
+## 2024-09-19
+
+# Sadgati
+
+Short story in Hindi by Premchand
+`Lit.` deliverance
+
+> [!abstract] Premchand
+> Member of the Progressive Writer's Association
+> Anti-colonial nationalist
+
+## Characters
+
+- Dukhi: dalit
+- Jhuriya: wife of Dukhi
+- Gond: adivasi
+- Pandit Ghasiram: priest living in a brahmin village
+- Panditayin: wife of Pandit
+
+## Plot
+
+Dukhi works with all his devotion, but 

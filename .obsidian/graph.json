@@ -8,49 +8,49 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:Français",
+      "query": "tag:#French",
       "color": {
         "a": 1,
         "rgb": 6726655
       }
     },
     {
-      "query": "path:English",
+      "query": "tag:#English",
       "color": {
         "a": 1,
         "rgb": 16741882
       }
     },
     {
-      "query": "path:Mathematics",
+      "query": "tag:#Mathematics",
       "color": {
         "a": 1,
         "rgb": 11757311
       }
     },
     {
-      "query": "path:Mécanique",
+      "query": "tag:#Mechanics ",
       "color": {
         "a": 1,
         "rgb": 15320604
       }
     },
     {
-      "query": "path:Biology",
+      "query": "tag:#Biology",
       "color": {
         "a": 1,
         "rgb": 6084269
       }
     },
     {
-      "query": "path:Humanities",
+      "query": "tag:#Humanities",
       "color": {
         "a": 1,
         "rgb": 15442468
       }
     },
     {
-      "query": "path:\"Physical Education\" ",
+      "query": "tag:#PhysicalEducation  ",
       "color": {
         "a": 1,
         "rgb": 16675213
@@ -67,6 +67,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 150,
-  "scale": 0.7971015791872134,
+  "scale": 1.020514726720395,
   "close": true
 }

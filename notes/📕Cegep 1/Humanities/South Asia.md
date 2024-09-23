@@ -29,12 +29,7 @@ Comprised of:
 *Normal* countries: *slightly more women than men*
 *South Asian* countries: *more men than women* due to patriarchy
 
-### Adivasis
 
-Indigenous people
-`lit.` original inhabitant
-
-Animists
 
 ## Religion
 

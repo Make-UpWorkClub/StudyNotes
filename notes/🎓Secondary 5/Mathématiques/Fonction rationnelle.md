@@ -26,7 +26,7 @@ $f(x) = \cfrac{a}{x - h} + k$ *ou* $\cfrac{a'}{b(x - h)} + k$
 $a = (x - h)(y - k)$
 
 [[Réciproque]] : fonction rationnelle
-[[Asymptote|Asymptotes]] : horizontale et verticale
+[[notes/🎓Secondary 5/Mathématiques/Asymptote|Asymptotes]] : horizontale et verticale
 
 ## Recherche de la règle
 

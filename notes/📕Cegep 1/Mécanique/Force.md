@@ -11,20 +11,47 @@ date: 2024-09-18T08:38:13
 
 ### ~ de contact
 
-#### ~ normale
+Donneur et receveur *sont* en contact
 
-#### Tension $\overset{\to}{T}$
+#### Tension
 
 Force avec laquelle une corde tire sur un objet
+Dénotée $\overset{\to}{T}$
 
-#### ~ de rappel $\overset{\to}{F_r}$
+#### ~ normale
+
+Dénotée $\overset{\to}{n}$
+
+#### ~ de rappel
 
 Force d'un ressort
-Selon la loi de Hooke, $F_r = k|l - l_n|$
+Dénotée $\overset{\to}{F_r}$
+Selon la loi de Hooke, $F_r = k|l - l_n|$, où $k$ est la constante de rappel du ressort
 $F_r \propto |l - l_n|$
 
-#### ~ de frottement
+#### Friction
+
+Force qui s'oppose au glissement relatif de deux surfaces
+Dénotée $\overset{\to}{f}$
+$f \propto n$
 
 ### ~ de champs
 
-#### ~ gravitationnelle
+Donneur et receveur *ne sont pas* en contact
+
+Types:
+
+- Gravité
+
+### ~ fondamentale
+
+Toutes les forces ont comme origine l'une des forces fondamentales:
+
+- Gravité
+- ~ électromagnétique
+	- Tension
+	- ~ normale
+	- ~ de rappel
+	- Friction
+- ~ nucléaire forte
+- ~ nucléaire faible
