@@ -8,6 +8,7 @@ date: 2024-08-22T15:26:00
 # India
 
 Country in [[South Asia]]
+Named after the Indus river
 
 ## Society
 
@@ -16,7 +17,7 @@ Country in [[South Asia]]
 ![[Castes in India.jpg]]
 
 > [!quote]+ Rig Veda 10:11
-> When they divided Purusha (cosmic man, primeval giant) how many portions did they make? What do they call his mouth, his arms? What do they call his thighs and his feet?
+> "When they divided Purusha (cosmic man, primeval giant) how many portions did they make? What do they call his mouth, his arms? What do they call his thighs and his feet?"
 
 #### Upper castes
 
@@ -45,6 +46,13 @@ Historically workers who perform polluting tasks
 A.k.a. scheduled castes, `pej.` untouchables
 
 ## History
+
+### 1700-150 BCE: Vedic period
+
+Pastoral lifestyle and adherence to Vedas
+
+Establishment of the caste system
+Systematization of preexisting beliefs into Hinduism
 
 ### 1947: Partition
 

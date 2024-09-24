@@ -8,13 +8,14 @@ date: 2024-09-11T08:34:09
 # Parvati
 
 Goddess of Earth who protects humans in [[Hinduism]]
-Usually seen riding a tiger wielding multiple weapons
 Wife of [[Shiva]], often seen as the opposite of him
 
-Takes many avatars:
+Usually seen riding a tiger wielding multiple weapons
 
+Avatars:
+
+- Durga: mother / protector
+- Kali: enraged
+- Shakti: female creative energy and power
 - Uma
-- Durga
 - Devi
-- Shakti
-- Kali

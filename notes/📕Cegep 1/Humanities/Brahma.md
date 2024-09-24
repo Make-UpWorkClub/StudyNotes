@@ -7,5 +7,7 @@ date: 2024-08-27T14:20:07
 
 # Brahma
 
-Creator of the universe in [[Hinduism]]
-Carries the Vedas
+The Creator, main deity in [[Hinduism]]
+Husband of [[Saraswati]]
+
+Carries the *Vedas*

@@ -7,18 +7,6 @@ date: 2024-08-20T14:38:00
 
 # Buffer
 
-## 2024-08-20
-
-# Monsoon Wind
-
-Brings rain to SW, W, NE of India
-
-# Humanities
-
-
-
-
-
 ## 2024-08-22
 
 # Indus Valley Civilisation
@@ -90,23 +78,3 @@ Born dalit
 
 ## 2024-09-19
 
-# Sadgati
-
-Short story in Hindi by Premchand
-`Lit.` deliverance
-
-> [!abstract] Premchand
-> Member of the Progressive Writer's Association
-> Anti-colonial nationalist
-
-## Characters
-
-- Dukhi: dalit
-- Jhuriya: wife of Dukhi
-- Gond: adivasi
-- Pandit Ghasiram: priest living in a brahmin village
-- Panditayin: wife of Pandit
-
-## Plot
-
-Dukhi works with all his devotion, but 

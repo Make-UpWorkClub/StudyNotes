@@ -7,9 +7,15 @@ date: 2024-08-21T01:19:00
 
 # Worldview
 
-Mindset
+Perspective on life and the world originated from experience
+`Syn.` mindset
+Derived from German "Weltanschauung"
 
-Affected by:
+Informs one's views and opinions
+
+Crosses geopolitical borders
+
+Affected and shared by:
 
 - Generation (age)
 - Gender
@@ -17,14 +23,16 @@ Affected by:
 - Ethnicity
 	- Indigenity
 - Culture
+	- Language
 - Beliefs
 	- Economics (neo-liberalism, etc.)
 	- Nationalism
 	- Religion / Science
 - Geography
+	- Region
 	- Climate
 
-Why learn about worldviews:
+Purpose:
 
 - Promotes understanding
-- Self-knowledge: earning about a different worldview = learning about our own
+- Self-knowledge: learning about a different worldview = learning about our own

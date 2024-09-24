@@ -8,7 +8,7 @@ date: 2024-08-27T14:25:23
 # Mahabharata
 
 One of the two sacred epics in [[Hinduism]]
-`lit.` "Great Indian tribe's story"
+`Lit.` "Great Indian tribe's story"
 
 ## Gita
 

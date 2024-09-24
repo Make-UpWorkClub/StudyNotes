@@ -7,9 +7,21 @@ date: 2024-08-29T15:15:50
 
 # Hinduism
 
-[[Religion]]
+Polytheistic [[religion]] or atheistic philosophy originated in [[South Asia]]
+`Drv.` Sindhu (now Indus) -> Hindus -> Hinduism
+
+Diverse. flexible and open-minded
+Tolerant of other religions, atheism and agnosticism
+Absorbs traditions, aspects and beliefs of other religions into its own, e.g. Jesus Christ as avatar of Vishnu
+
+> [!quote]+ Bhagavad Gita
+> "Whosoever follows any faith and worships me under whatsoever denomination in whatsoever form with steadfastness, his faith shall I indeed reinforce." —Lord Krishna
+
+## Deities
 
 Marriage of indigenous goddesses and patriarchal gods
-Polytheistic? or multiple manifestations of the divine
 
-There aren't many rules in Hinduism
+Many hands = great capabilities
+
+> [!abstract] Ardhanarisvara
+> Half-male half-female deity

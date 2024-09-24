@@ -46,6 +46,8 @@ Religieuse
 
 Vieux pensionnaire
 
+
+
 #### Vautrin
 
 Ancien négociant
@@ -68,8 +70,7 @@ Vieille fille
 
 Ancien fabriquant de vermicelles, de pâtes d'Italie et d'amidon
 Soixante-neuf ans, le plus vieux des pensionnaires
-
-
+Bourgeois ruiné
 
 #### Eugène de Rastignac
 

@@ -7,9 +7,7 @@ date: 2024-08-21T01:20:00
 
 # South Asia
 
-> [!info]+
-> Used interchangeably in this course:
-> 
+> [!info]+ Terms used interchangeably in this course:
 > - India
 > - South Asia
 > - sub-continent
@@ -17,39 +15,42 @@ date: 2024-08-21T01:20:00
 
 Comprised of:
 
-- India
-- Pakistan
-- Bangladesh
-- Sri Lanka
-- Bhutan
-- Nepal
+- India (C)
+- Pakistan (W)
+- Bangladesh (E)
+- Sri Lanka (S)
+- Bhutan (NE)
+- Nepal (N)
 
 ## Population
 
 *Normal* countries: *slightly more women than men*
 *South Asian* countries: *more men than women* due to patriarchy
 
-
-
 ## Religion
 
 High religion diversity
 
-- Indigenous belief systems
-	- Animism (veneration of plants, trees, water, earth)
-- Hinduism
-	- Originated in South Asia
-	- Great variety
-- Buddhism & Jainism
-	- Originated in South Asia
-- Christianity
-	- Arrived in 1<sup>st</sup> Century CE
-- Islam
-	- Local customs and practices
-- Sikhism
-	- Originated in South Asia
-	- Elements from Hinduism and Islam
-- Religion-like traditions
+- Originated in South Asia:
+	- **Hinduism**
+		- Main religion of *India* and *Nepal*
+	- **Buddhism**
+		- Main religion of *Bhutan* and *Sri Lanka*
+	- Sikhism
+		- Elements from Hinduism and Islam
+	- Jainism
+	- Indigenous belief systems
+		- Animism (veneration of plants, trees, water, earth)
+- Other:
+	- **Islam**
+		- Local customs and practices
+		- Main religion of *Pakistan* and *Bangladesh*
+	- Christianity
+		- Arrived in 1<sup>st</sup> Century CE
+	- Religion-like traditions
 
-## Climate
+## Geography
 
+- North: Himalayas
+- West: Arabian Sea
+- East: Bay of Bengal
