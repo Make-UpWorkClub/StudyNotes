@@ -11,7 +11,7 @@ Family of [[carbohydrate]] with general formula: $(CH_{2}O)_{n}$
 [[Monomer]] of polysaccharide
 A.k.a. simple sugar
 
-Broken down by cellular respiration to produce [[Adenosine Triphosphate|ATP]]
+Broken down by cellular respiration to produce [[Adenosine N-Phosphate|ATP]]
 
 Two types of forms: **cyclic** (ring) & **linear** (chain)
 

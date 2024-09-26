@@ -22,6 +22,21 @@ Enzyme + substrates -> enzyme-substrate complex -> enzyme + products
 > [!abstract] Induced fit
 > Change in the shape of an enzyme to fit the substrate
 
+> [!abstract] Cofactor
+> 1. Molecule that binds to certain enzymes to give them the right shape
+> 2. Metallic ion cofactor that loosely binds to an enzyme
+
+> [!abstract] Coenzyme
+> Organic cofactor that loosely binds to an enzyme
+
+> [!abstract] Apoenzyme
+> Enzyme *without* required coenzyme
+> Functions ineffectively or not at all
+
+> [!abstract] Holoenzyme
+> Enzyme *with* required coenzyme
+> A.k.a. active enzyme
+
 ## Mechanics
 
 - Ensure substrates collide in the correct orientation
@@ -34,10 +49,17 @@ Enzyme + substrates -> enzyme-substrate complex -> enzyme + products
 - Temperature
 - pH
 - Enzyme concentration
+- Cofactor concentration
 - Substrate concentration
 - Inhibitor type and concentration if present
 
 ## Inhibition
+
+Process of preventing an enzyme from working
+
+> [!abstract] Negative feedback inhibition
+> Mechanism where the final product inhibits one of its enzymes
+> Naturally maintains the amount of product at a certain level
 
 ### Reversibility
 
@@ -46,18 +68,13 @@ Enzyme + substrates -> enzyme-substrate complex -> enzyme + products
 	- > [!example] Nerve gas, penicillin, some poisons
 - Reversible: inhibitor attaches by a *weak* bond
 	- Important for regulating metabolism
-	- > [!example] ATP inhibits phosphofructokinase, which slows down cellular respiration.
+	- > [!example] ATP inhibits PFK, which slows down cellular respiration.
 
 > [!info] All biological inhibitors are reversible
 
 ### Competitiveness
 
-#### Competitive
-
-Binds to the *active site*,
-*Competes* with substrates => *affected* by substrate concentration
-
-#### Non-Competitive
-
-Binds *somewhere else* on the enzyme, causing it to change shape
-*Doesn't compete* with substrates => *unaffected* by substrate concentration
+- Competitive: binds to the *active site*
+	- *Competes* with substrates => *affected* by substrate concentration
+- Non-competitive: binds *somewhere else* on the enzyme, causing it to change shape
+	- *Doesn't compete* with substrates => *unaffected* by substrate concentration

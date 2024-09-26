@@ -54,3 +54,29 @@ High religion diversity
 - North: Himalayas
 - West: Arabian Sea
 - East: Bay of Bengal
+
+## History
+
+### 1700-150 BCE: Vedic period
+
+Pastoral lifestyle and adherence to Vedas
+
+Establishment of the caste system
+Systematization of preexisting beliefs into Hinduism
+
+### 1947: Indian Independence Act
+
+Partition of British India into India and Pakistan
+
+Legal attempts to erase caste inequalities
+
+Affirmative action (positive discrimination)
+
+### 1971: Proclamation of Bangladesh Independence
+
+Independence of Bangladesh from Pakistan
+
+### 1992: Destruction of Babri Masjid
+
+Hindus destroy Babri Masjid, a mosque in Ayodhya, India
+=> Intercommunal conflict between Hindus and Muslims

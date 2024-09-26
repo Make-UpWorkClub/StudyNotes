@@ -1,10 +1,10 @@
 {
-  "folder": "Excalidraw",
+  "folder": "assets/excalidraw",
   "cropFolder": "",
   "annotateFolder": "",
   "embedUseExcalidrawFolder": false,
-  "templateFilePath": "Excalidraw/Template.excalidraw",
-  "scriptFolderPath": "Excalidraw/Scripts",
+  "templateFilePath": "templates/01 template.excalidraw",
+  "scriptFolderPath": "scripts",
   "compress": true,
   "decompressForMDView": false,
   "onceOffCompressFlagReset": true,
@@ -93,7 +93,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.3.0",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.5.0",
     "libraryItems": []
   },
   "imageElementNotice": true,

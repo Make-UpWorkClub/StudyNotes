@@ -29,6 +29,8 @@ Ch4: Candide commence à réaliser qu'une belle cause ne peut pas nécessairemen
 
 ## Résumé
 
+> [!warning] Incomplet et ne sera jamais complété
+
 ### Ch1
 
 Cunégonde assiste au cours de physique de Pangloss. Le lendemain, Candide et Cunégonde s'embrassent ; Monsieur Thunder-ten-tronckh les voit et chasse Candide du château.
@@ -44,5 +46,3 @@ Candide s'enfuit dans deux villages détruits et voit l'effet de la guerre. Il p
 ### Ch4
 
 Le mendiant révèle qu'il est Pangloss, que la famille de Candide a été massacrée et que le château a été détruit. Candide convainc Jacques de soigner Pangloss. Celui-ci évite la mort, mais perd un œil et une oreille. Deux mois après, Jacques, Pangloss et Candide prennent le bateau pour Lisbonne, mais rencontrent une tempête.
-
-### Ch5

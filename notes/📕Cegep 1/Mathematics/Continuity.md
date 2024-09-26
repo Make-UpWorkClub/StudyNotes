@@ -31,3 +31,7 @@ Right continuity at $c$ if $\lim_{ x \to c^+ }f(x) = f(c)$
 	- Inverse trigonometric functions
 	- Exponential functions
 	- Logarithmic functions
+
+## Evaluation
+
+To find if $f(x)$ is continuous at $c$, evaluate $\lim_{ x \to c }f(x) = f(c)$.

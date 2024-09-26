@@ -73,3 +73,6 @@ h_1 + H_1 & = h_2 - H_2 \\
 h_1 + v_y\cdot \frac{d}{v_x} & = h_2 - 4.905\cdot \frac{d}{v_x}^2
 \end{align}
 $$
+
+## 2024-09-25
+

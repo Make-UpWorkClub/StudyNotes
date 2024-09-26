@@ -47,6 +47,7 @@ Superscript the limit with $-$ / $+$ depending on whether it is approached from 
 3. $\lim_{ x \to a }kf(x) = k\lim_{ x \to a }f(x) = kL$
 4. $\lim_{ x \to a }(f@g)(x) = \lim_{ x \to a }f(x)@\lim_{ x \to a }g(x) = L@M$, where $@$ is any of addition, subtraction, multiplication or division (when $@$ = division, $M \ne 0$)
 5. $\lim_{ x \to a }f^n(x) = (\lim_{ x \to a }f(x))^n = L^n$
+6. $\lim_{ x \to a } \frac{\sin g(x)}{g(x)} = 1$, where $a \in \mathbb{R}$ or $a = \infty$
 
 ### Direct substitution property
 

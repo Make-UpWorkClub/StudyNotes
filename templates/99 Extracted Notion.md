@@ -6,4 +6,3 @@ date: {{date}}T{{time:HH:mm:ss}}
 ---
 
 {{content}}
-

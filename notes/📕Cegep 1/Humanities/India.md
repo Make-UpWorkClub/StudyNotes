@@ -44,22 +44,3 @@ A.k.a. also other backward class (OBC)
 
 Historically workers who perform polluting tasks
 A.k.a. scheduled castes, `pej.` untouchables
-
-## History
-
-### 1700-150 BCE: Vedic period
-
-Pastoral lifestyle and adherence to Vedas
-
-Establishment of the caste system
-Systematization of preexisting beliefs into Hinduism
-
-### 1947: Partition
-
-Pakistan and Bangladesh separate from India
-
-### Post-colonialism
-
-Legal attempts to erase caste inequalities
-
-Affirmative action (positive discrimination)

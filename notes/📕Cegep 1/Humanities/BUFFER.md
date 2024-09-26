@@ -7,29 +7,12 @@ date: 2024-08-20T14:38:00
 
 # Buffer
 
-## 2024-08-22
-
-# Indus Valley Civilisation
-
-Ancient civilisation in the territory now known as Pakistan
-
-- Possible central government
-- Advanced drainage system
-- Trade with neighbouring regions
-- Almost no weapons
-
-Demise:
-
-- Chased by other civilisation
-- Environmental disaster
-- Earthquake
-
 ## 2024-08-27
 
 # Ahimsa
 
 Non-violence
-`lit.` "against jealousy"
+`Lit.` "against jealousy"
 
 # Kabir
 
@@ -74,7 +57,8 @@ Coined the term "dalit"
 Former president of India (1997-2002)
 Born dalit
 
-# Fascism
+## 2024-09-26
 
-## 2024-09-19
+# World Bank (IMF)
 
+Organisation that lends money to struggling countries, but imposes neo-liberal economic policies, e.g. reduction of subsidies, wages, to attract foreign investors
