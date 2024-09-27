@@ -22,21 +22,6 @@ Enzyme + substrates -> enzyme-substrate complex -> enzyme + products
 > [!abstract] Induced fit
 > Change in the shape of an enzyme to fit the substrate
 
-> [!abstract] Cofactor
-> 1. Molecule that binds to certain enzymes to give them the right shape
-> 2. Metallic ion cofactor that loosely binds to an enzyme
-
-> [!abstract] Coenzyme
-> Organic cofactor that loosely binds to an enzyme
-
-> [!abstract] Apoenzyme
-> Enzyme *without* required coenzyme
-> Functions ineffectively or not at all
-
-> [!abstract] Holoenzyme
-> Enzyme *with* required coenzyme
-> A.k.a. active enzyme
-
 ## Mechanics
 
 - Ensure substrates collide in the correct orientation
@@ -55,9 +40,7 @@ Enzyme + substrates -> enzyme-substrate complex -> enzyme + products
 
 ## Inhibition
 
-Process of preventing an enzyme from working
-
-> [!abstract] Negative feedback inhibition
+> [!abstract]+ Negative feedback inhibition
 > Mechanism where the final product inhibits one of its enzymes
 > Naturally maintains the amount of product at a certain level
 

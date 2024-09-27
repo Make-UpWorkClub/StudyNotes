@@ -8,7 +8,7 @@ date: 2024-09-19T14:27:35
 # Adivasi (also scheduled tribes)
 
 Indigenous person in [[South Asia]]
-`lit.` original inhabitant
+`Lit.` original inhabitant
 
 Animists
 

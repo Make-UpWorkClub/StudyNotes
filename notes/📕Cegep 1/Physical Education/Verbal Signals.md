@@ -19,3 +19,5 @@ Some are preferred when using [[hand signals]] is dangerous, e.g. when going dow
 - "Wait": car coming at an intersection
 - "Clear": no car at an intersection
 - "On your left": passing at left
+- "Contact lost": some bikes in the back were cut off.
+- "Contact regained": they returned to the group.

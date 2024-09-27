@@ -26,13 +26,13 @@ Composed of:
 
 *Single* ring
 
-- Cytosine (C)
-- Thymine (T) (DNA only)
-- Uracil (U) (RNA only)
+- Cytosine (`abbr.` C)
+- Thymine (`abbr.` T) (DNA only)
+- Uracil (`abbr.` U) (RNA only)
 
 ### Purine
 
 Double* ring
 
-- Adenine (A)
-- Guanine (G)
+- Adenine (`abbr.` A)
+- Guanine (`abbr.` G)

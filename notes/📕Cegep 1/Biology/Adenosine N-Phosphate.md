@@ -9,21 +9,24 @@ date: 2024-09-19T12:47:02
 
 Family of nucleotides made of adenine, ribose and *n* phosphates
 
-## Adenosine Triphosphate (ATP)
+## Adenosine Triphosphate
 
+`Abbr.` ATP
 n = *3*
 Energy source of cells, can be stored
 
-Produced by phosphofructokinase (PFK)
+Produced by phosphofructokinase (`abbr.` PFK)
 Allosteric *inhibitor* of PFK
 
-## Adenosine Diphosphate (ADP)
+## Adenosine Diphosphate
 
+`Abbr.` ADP
 n = *2*
 Not relevant
 
-## Adenosine Monophosphate (AMP)
+## Adenosine Monophosphate
 
+`Abbr.` AMP
 n = *1*
 
 Produced when ATP is used

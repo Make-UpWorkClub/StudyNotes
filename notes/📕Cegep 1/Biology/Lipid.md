@@ -47,7 +47,7 @@ From *plants and fish*
 
 Choline, phosphate, glycerol & two fatty acids
 
-[[Hydrosolubility#^3c822f|Amphipathic]]
+[[Hydrosolubility#Amphipathic|Amphipathic]]
 Phosphate group (*head*): *hydrophilic*
 Fatty acids (*tails*): *hydrophobic*
 

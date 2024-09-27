@@ -7,20 +7,26 @@ date: 2024-08-22T16:38:00
 
 # Hydrosolubility
 
-> [!abstract] Hydrophobic
-> *Insoluble* in water
-> 
-> Characterized by lots of *hydrocarbon* ($H$ &  $C$)
+## Hydrophobic
 
-> [!abstract] Hydrophilic
-> *Very soluble* in water
-> 
-> Characterized by lots of *oxygen*
-> 
-> Charged
+*Repelled* by water
+*Insoluble* in water
 
-> [!abstract] Amphipathic
-> Has both hydrophobic and hydrophilic regions
+Characterized by lots of *hydrocarbon* ($H$ &  $C$)
 
-^3c822f
+> [!example]+
+> - $CO_2$
+> - $O_2$
 
+## Hydrophilic
+
+*Attracted* to water
+*Very soluble* in water
+
+Characterized by lots of *oxygen*
+
+Charged
+
+## Amphipathic
+
+Has both hydrophobic and hydrophilic regions

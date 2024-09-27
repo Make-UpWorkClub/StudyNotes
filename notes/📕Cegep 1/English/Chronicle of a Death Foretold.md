@@ -84,3 +84,12 @@ One day in February, at 5:30, Santiago Nasar woke up to see the bishop. He ate b
 ### Ch2
 
 In August of the year before, Bayardo San Román arrived at the town to find someone to marry. Toward the end of September, he met Angela Vicario. Six months later, their wedding took place. The night of the wedding, Bayardo returned Angela, discovering that she wasn't a virgin. Pura Vicario beat Angela. Angela revealed to the twins that it was Santiago Nasar who took her virginity.
+
+### Ch3
+
+At 3:00, the twins picked up two knives in the pigsty. Santiago and his friends left María Alejandrina Cervantes' place for Xius' house.
+At 3:20, the twins asked Faustino Santos to sharpen them. The latter was informed about the murder and reported to Leandro Pornoy. The twins looked for Santiago Nasar at María Alejandrina Cervantes' place.
+At 4:00, Leandro Pornoy reported to Colonel Lázaro Aponte.
+At 4:10, the twins went to Clotilde Armenta's place.
+At 4:20, Santiago returned home.
+At 5:00, the colonel found the twins and disarmed them. They left, picked up another two knives, sharpened them at Faustino Santos' place, went to Prudencia Cotes' house for coffee, then returned.

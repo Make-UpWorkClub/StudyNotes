@@ -5,17 +5,23 @@ tags:
 date: 2024-09-03T10:53:45
 ---
 
-# Endoplasmic Reticulum (ER)
+# Endoplasmic Reticulum
 
 Membrane-bound [[organelle]]
+`Abbr.` ER
 Part of the [[endomembrane system]]
-Endoplasmic: within cytoplasm
-Reticulum: network
+
+> [!abstract] Endoplasmic
+> Within cytoplasm
+
+> [!abstract] Reticulum
+> Network
 
 ## Types
 
-### Smooth (SER)
+### Smooth
 
+`Abbr.` SER
 *Tubular* shape
 *No* ribosome
 
@@ -24,8 +30,9 @@ Reticulum: network
 - Drug and poison detoxification
 - $Ca^{2+}$ storage (in muscle cells)
 
-### Rough (RER)
+### Rough
 
+`Abbr.` RER
 *[[Cisterna|Cisternae]]* shape
 *Has* ribosomes on its surface
 

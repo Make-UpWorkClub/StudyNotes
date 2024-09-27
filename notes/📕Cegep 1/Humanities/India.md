@@ -38,7 +38,7 @@ Merchants, farmers
 ##### Shudra
 
 Workers, servants
-A.k.a. also other backward class (OBC)
+A.k.a. also other backward class (`abbr.` OBC)
 
 ##### Dalit
 

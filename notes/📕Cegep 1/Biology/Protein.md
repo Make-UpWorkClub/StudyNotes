@@ -17,8 +17,8 @@ Formed by dehydration
 > (Of a protein) spherical
 
 > [!abstract] Denaturation / renaturation
-> Denaturation: loss of 3D structure when heated
-> Renaturation: regain of 3D structure when cooled
+> Denaturation: loss of 3D structure at high temperature or extreme pH
+> Renaturation: regain of 3D structure at low temperature or normal pH
 
 ## Types
 
@@ -34,7 +34,7 @@ Coordination of the organism's activities
 
 Response to chemical stimuli
 
-> [!example] Receptors in the membrane of a nerve cell detect signaling molecules from other nerve cells.
+> [!example] Receptors in the membrane of a nerve cell detect signalling molecules from other nerve cells.
 
 ### Enzymatic
 

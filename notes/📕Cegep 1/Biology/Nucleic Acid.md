@@ -14,22 +14,27 @@ Store & transmit hereditable information
 
 ## Types
 
-### Deoxyribonucleic acid (DNA)
+### Deoxyribonucleic acid
 
+`Abbr.` DNA
 N-bases: C-T & A-G bonds
 
-### Ribonucleic acid (RNA)
+### Ribonucleic acid
 
+`Abbr.` RNA
 N-bases: C-U & A-G bonds
 
-#### Messenger (mRNA)
+#### Messenger
 
+`Abbr.` mRNA
 Directs protein synthesis through translation
 
-#### Transfer (tRNA)
+#### Transfer
 
+`Abbr.` tRNA
 Acts as a delivery vehicle during protein synthesis
 
-#### Ribosomal (rRNA)
+#### Ribosomal
 
+`Abbr.` rRNA
 Makes up the structure of the [[ribosome]]

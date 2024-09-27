@@ -8,7 +8,7 @@ date: 2024-09-04T09:51:05
 # Mitochondrion
 
 Membrane-bound [[organelle]] that transforms energy with cellular respiration
-pl. mitochondria
+`Pl.` mitochondria
 
 > [!info] Cellular respiration
 > Produces ATP with oxygen
@@ -19,9 +19,9 @@ Number varies with cellular activity
 Has two phospholipid bilayer membranes
 Inner membrane:
 
-- smooth and permeable
-- folded into cristae to increase the surface area
-- contains enzymes involved in cellular respiration, e.g. ATP synthase
+- Smooth and permeable
+- Folded into cristae to increase the surface area
+- Contains enzymes involved in cellular respiration, e.g. ATP synthase
 
 > [!abstract] Crista
 > - 

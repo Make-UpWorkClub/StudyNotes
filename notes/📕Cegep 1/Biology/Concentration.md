@@ -7,16 +7,17 @@ date: 2024-09-05T17:35:01
 
 # Concentration
 
-> [!abstract]+ Hypertonic
-> Having a *higher* solute concentration
-> Contact with cell: water flows *outside*
+## Hypertonic
 
-> [!abstract]+ Hypotonic
-> Having a *lower* solute concentration
-> Contact with cell: water flows *inside*
+Having a *higher* solute concentration
+Contact with cell: water flows *outside*
 
-> [!abstract]+ Isotonic
-> Having the *same* solute concentration
-> Contact with cell: water *doesn't* flow
+## Hypotonic
 
-^d1f583
+Having a *lower* solute concentration
+Contact with cell: water flows *inside*
+
+## Isotonic
+
+Having the *same* solute concentration
+Contact with cell: water *doesn't* flow

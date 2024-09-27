@@ -30,4 +30,3 @@ date: 2024-09-03T15:35:10
 
 - Watch out and signal vehicles coming from behind
 - Ensure no one is left out
-	- "Contact lost" & "contact regained"
