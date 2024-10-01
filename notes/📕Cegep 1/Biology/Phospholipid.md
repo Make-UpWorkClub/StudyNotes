@@ -20,6 +20,6 @@ Function: forms membranes
 
 ## Structure
 
-Hydrophilic group—phosphate—glycerol—two fatty acids
+Hydrophilic R group—phosphate—glycerol—two fatty acids
 
 ![[Phospholipid.png|300]]

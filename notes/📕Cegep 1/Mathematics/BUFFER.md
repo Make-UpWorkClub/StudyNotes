@@ -9,14 +9,7 @@ date: 2024-08-21T14:27:00
 
 ## 2024-08-21
 
-$\therefore$ = therefore
-$\implies$ = implies
-
 Full / hollow dot at the end of graphs
-
-### Homework
-
-Conjugate of $a^{\frac{1}{3}} + b$
 
 ## 2024-08-23
 
@@ -32,8 +25,6 @@ f^{-1}\circ f(x) &= x\text{ for dom}f
 $$
 
 ## 2024-08-27
-
-$\forall$ = for all
 
 $$
 \begin{align}
@@ -157,3 +148,7 @@ When $x = 1$, limit = $\frac{\sqrt{ 2 }}{0}$.
 We factorize $x - x^2$ to $x(1 - x)$.
 Now it becomes clear that $x(1 - x) = 0^-$.
 The limit diverges to $-\infty$.
+
+## 2024-10-01
+
+Point-slope form: $y - y_o = m(x - x_o)$
