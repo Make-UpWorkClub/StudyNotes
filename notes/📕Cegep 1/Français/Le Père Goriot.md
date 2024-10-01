@@ -20,6 +20,7 @@ Genre : [[notes/📕Cegep 1/Français/Romantisme|romantisme]]
 Propriétaire de la pension Maison-Vauquer
 Bourgeoise qui a perdu sa fortune
 
+Juive
 Heureuse
 Mesquine, fausse, orgueilleuse
 
@@ -45,8 +46,9 @@ Religieuse
 #### Poiret
 
 Vieux pensionnaire
+Quasiment marié à Michaunneau
 
-
+Avare
 
 #### Vautrin
 
@@ -65,12 +67,13 @@ Regard profond et plein de résolution
 #### Mlle Michaunneau
 
 Vieille fille
+Quasiment mariée à Michaunneau
 
 #### Père Goriot
 
 Ancien fabriquant de vermicelles, de pâtes d'Italie et d'amidon
 Soixante-neuf ans, le plus vieux des pensionnaires
-Bourgeois ruiné
+Bourgeois ruiné pour ses filles
 
 #### Eugène de Rastignac
 
@@ -81,8 +84,5 @@ Famille noble, nombreuse et pauvre
 Curieux et observant
 Élégant
 Bien éduqué
-
-## Résumé
-
-### Ch1
-
+Naive, ne connaît pas les règles de Paris
+Ambitieux

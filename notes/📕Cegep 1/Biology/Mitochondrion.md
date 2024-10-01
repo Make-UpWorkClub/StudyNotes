@@ -16,7 +16,7 @@ Membrane-bound [[organelle]] that transforms energy with cellular respiration
 
 Number varies with cellular activity
 
-Has two phospholipid bilayer membranes
+Has two layers of membranes
 Inner membrane:
 
 - Smooth and permeable

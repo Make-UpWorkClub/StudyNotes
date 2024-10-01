@@ -7,7 +7,11 @@ date: 2024-09-05T16:48:39
 
 # Membrane
 
-Organic isolation layer made of a [[Lipid#^5b5e44|phospholipid bilayer]]
+Outer layer of a cell or of an organelle made of a lipid bilayer
+Selectively permeable
+
+> [!abstract]+ Lipid bilayer
+> Double layer of [[phospholipid]], [[Steroid#^33ec66|cholesterol]], and glycolipid (incl. [[fat]]) molecules (hydrophilic heads form the surfaces, hydrophobic tails form the core)
 
 ## Associated proteins
 

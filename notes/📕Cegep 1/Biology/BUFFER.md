@@ -7,6 +7,7 @@ date: 2024-08-26T10:24:00
 
 # Buffer
 
-# Autophagy
+# Nuclease
 
-# Phagocytosis
+[[Enzyme]] that cleaves [[Nucleic Acid|nucleic acids]] by breaking phosphodiester bonds between nucleotides.
+Acts via hydrolysis

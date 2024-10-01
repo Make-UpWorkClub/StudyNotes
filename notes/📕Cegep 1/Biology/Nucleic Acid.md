@@ -17,11 +17,13 @@ Store & transmit hereditable information
 ### Deoxyribonucleic acid
 
 `Abbr.` DNA
+*Double*-stranded
 N-bases: C-T & A-G bonds
 
 ### Ribonucleic acid
 
 `Abbr.` RNA
+*Single*-stranded
 N-bases: C-U & A-G bonds
 
 #### Messenger

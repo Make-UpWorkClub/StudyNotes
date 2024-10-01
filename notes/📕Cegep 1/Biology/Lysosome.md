@@ -14,3 +14,6 @@ Functions
 
 - Digests food vacuoles produced during phagocytosis by fusing with them
 - Digests damaged organelles & macromolecules (autophagy)
+
+> [!abstract] Autophagy
+> Digestion of parts of a cell by itself

@@ -7,7 +7,7 @@ date: 2024-08-19T10:51:00
 
 # Polymer
 
-Macromolecule formed by [[Monomer|monomers]]
+[[Macromolecule]] formed by [[Monomer|monomers]]
 
 ## Dehydration
 

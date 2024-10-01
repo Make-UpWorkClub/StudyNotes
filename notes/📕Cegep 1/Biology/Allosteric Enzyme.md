@@ -13,9 +13,9 @@ Each polypeptide has its own active site.
 > [!abstract] Regulator
 > `Coll.` allosteric activators & inhibitors
 
-> [!abstract] Allosteric activator / inhibitor
+> [!abstract]+ Allosteric activator / inhibitor
 > Molecule that weakly binds to an allosteric enzyme and stabilizes its *active* / *inactive* form
 > **Never competitive** because it doesn't bind to the active site
 
 > [!abstract] Allosteric site
-> Location where a regulator binds
+> Location on an enzyme where a regulator binds
