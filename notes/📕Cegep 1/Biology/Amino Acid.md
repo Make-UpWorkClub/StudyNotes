@@ -9,4 +9,10 @@ date: 2024-08-22T17:38:00
 
 [[Monomer]] of polypeptide and protein
 
-~20 types
+22 are found in proteins
+
+## Structure
+
+Amino group ($H_2N$)—CH—R group—carboxyl group ($COOH$)
+
+![[Amino acid.png|300]]

@@ -10,9 +10,9 @@ date: 2024-08-30T14:26:38
 Contains:
 
 - Cytosol
-- 1 or more [[Chromosome|chromosomes]]
-- [[Ribosome|Ribosomes]]
-- [[Plasma membrane]]
+- 1 or more chromosomes
+- Ribosomes
+- Plasma membrane
 - Cell wall that prevents too much water from entering the cell (plant cells only)
 
 ## Types

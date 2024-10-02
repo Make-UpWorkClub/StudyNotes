@@ -7,11 +7,11 @@ date: 2024-08-26T14:45:00
 
 # Chromosome
 
-Long, linear DNA molecule made of chromatin
-Contains 100-1000 genes
+Long, linear [[Nucleic Acid#Deoxyribonucleic acid|DNA]] molecule made of chromatin in [[Cell|cells]]
+Contains 100-1000 [[Gene|genes]]
 
 > [!abstract] Chromatin
-> Material consisting of DNA + histone proteins
+> Material consisting of DNA + histone [[Protein|proteins]]
 
 > [!abstract] Sister chromatid
 > Each of the two identical copies of a chromosome after replication

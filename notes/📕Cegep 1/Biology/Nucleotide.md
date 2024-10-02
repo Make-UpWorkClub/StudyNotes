@@ -11,7 +11,7 @@ date: 2024-08-29T16:27:56
 
 Composed of:
 
-- Nitrogenous (nitrogen-containing or N-) base
+- Nitrogenous (also nitrogen-containing or N-) base
 - Pentose sugar
 - Phosphate
 

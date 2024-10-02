@@ -10,21 +10,29 @@ date: 2024-08-22T20:23:00
 [[Polymer]] of [[Nucleotide|nucleotides]] linked by **phosphodiester bonds**
 A.k.a. polynucleotide
 
-Store & transmit hereditable information
+Formed by dehydration
+
+Function: stores & transmits hereditable information
 
 ## Types
 
 ### Deoxyribonucleic acid
 
 `Abbr.` DNA
-*Double*-stranded
-N-bases: C-T & A-G bonds
+*Double*-stranded, held together by H-bonds
+N-bases: C-*T* & A-G pairs
+
+Functions:
+
+- Makes up chromosomes and genes
+- Directs its own synthesis through **replication**
+- Directs the synthesis of RNA through **transcription**
 
 ### Ribonucleic acid
 
 `Abbr.` RNA
 *Single*-stranded
-N-bases: C-U & A-G bonds
+N-bases: C-*U* & A-G pairs
 
 #### Messenger
 

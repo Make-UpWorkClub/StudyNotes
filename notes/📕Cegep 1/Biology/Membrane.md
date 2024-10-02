@@ -7,7 +7,7 @@ date: 2024-09-05T16:48:39
 
 # Membrane
 
-Outer layer of a cell or of an organelle made of a lipid bilayer
+Outer layer of a [[cell]] or of an organelle made of a lipid bilayer
 Selectively permeable
 
 > [!abstract]+ Lipid bilayer

@@ -9,7 +9,7 @@ date: 2024-10-01T01:01:54
 
 Subclass of [[lipid]]
 
-[[Hydrosolubility#Amphipathic|Amphipathic]]
+Amphipathic
 Phosphate group (*head*): *hydrophilic*
 Fatty acids (*tails*): *hydrophobic*
 
@@ -20,6 +20,11 @@ Function: forms membranes
 
 ## Structure
 
-Hydrophilic R group—phosphate—glycerol—two fatty acids
+Composed of:
+
+- Hydrophilic R group
+- Phosphate
+- Glycerol
+- Two fatty acids
 
 ![[Phospholipid.png|300]]

@@ -7,7 +7,7 @@ date: 2024-09-05T08:17:51
 
 # Plasma Membrane
 
-Outer [[membrane]] of the [[cell]]
+Outer [[membrane]] of the cell
 Part of the [[endomembrane system]]
 
 ## Transport across plasma membrane

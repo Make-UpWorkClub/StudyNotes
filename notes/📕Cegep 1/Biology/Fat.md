@@ -21,7 +21,12 @@ Functions:
 
 ## Structure
 
-Glycerol<ruby>———<rt>ester linkage</rt></ruby>three fatty acids
+Composed of:
+
+- Glycerol
+- Three fatty acids
+
+Leads to **ester linkage**
 
 ![[Fat.png|300]]
 
