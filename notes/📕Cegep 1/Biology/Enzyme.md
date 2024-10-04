@@ -24,9 +24,9 @@ Enzyme + substrates -> enzyme-substrate complex -> enzyme + products
 
 ## Mechanics
 
-- Ensure substrates collide in the correct orientation
-- Stress bonds so that they break more easily
-- Change local environment to favour the reaction, e.g. different pH
+- Ensures substrates collide in the correct orientation
+- Stresses bonds so that they break more easily
+- Changes local environment to favour the reaction, e.g. different pH
 - Active site side chains can participate directly in the reaction
 
 ## Factors affecting reaction rate
@@ -34,7 +34,7 @@ Enzyme + substrates -> enzyme-substrate complex -> enzyme + products
 - Temperature
 - pH
 - Enzyme concentration
-- Cofactor concentration
+- Cofactor concentration if required
 - Substrate concentration
 - Inhibitor type and concentration if present
 

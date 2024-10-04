@@ -9,6 +9,10 @@ date: 2024-09-22T12:07:30
 
 Genre : [[notes/📕Cegep 1/Français/Romantisme|romantisme]]
 
+## Contexte
+
+Paris, 1819
+
 ## Personnages
 
 ### 1<sup>re</sup> étage
@@ -86,3 +90,6 @@ Curieux et observant
 Bien éduqué
 Naive, ne connaît pas les règles de Paris
 Ambitieux
+
+### Autres
+

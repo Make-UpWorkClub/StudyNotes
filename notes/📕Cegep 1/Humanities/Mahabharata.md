@@ -21,15 +21,20 @@ Resembles a long journey with many side stories
 graph
 
 Vy & Ambi-->Dhr
-Vy & Amba-->P
-DG--> Ks
+Vy & Amba-->Pa
+DG-->Ks
 
 Ku-->Ka & Ps
 Sur---->Ka
-Dha---->Y
-Va---->Bh
-I---->A
+Dha---->Y & Dra-->Pr
+Va---->Bh & Dra-->Sutasom
+I---->A & Dra-->Srutaki
 As---->N & Sa
+Sa & Dra-->Srutaka
+N & Dra-->Satatik
+
+Dro-->|Teacher|Ks & Ps
+Kr-->|Supporter|Ps
 
 subgraph VS [Married]
 Su(Sûdri)
@@ -49,7 +54,7 @@ Dur(Duryodhana)
 end
 
 subgraph PMK [Married]
-P(Pându
+Pa(Pându
 Cursed to die when having sex)
 M(Mâdri)
 Ku(Kunti
@@ -57,12 +62,17 @@ Can have baby with gods)
 end
 Ka(Karna)
 subgraph Ps [The Pandavas]
-Y(Yudhishthhira)
-Bh(Bhima)
-A(Arjuna)
+Y(Yudhishthhira
+Leader of the Pandavas
+Rightful heir to the throne)
+Bh(Bhima
+Strongest of the Pandavas)
+A(Arjuna
+Mightiest of warriors)
 N(Nakula)
 Sa(Sahadeva)
 end
+Dra(Draupadi)
 
 subgraph Gods
 Sur(Surya
@@ -75,6 +85,10 @@ I(Indra
 God of thunder)
 As(The Ashvins)
 end
+
+Dro(Drona)
+Kr(Krishna
+Avatar of Vishnu)
 ```
 
 ## Gita
@@ -96,3 +110,9 @@ Arjuna has crisis because he must fight people he loves and respects
 - Conundrums (conflicts of kinship and friendship)
 	- Family loyalty and duty take precedence over righteousness.
 	- Also righteousness takes precedence over family loyalty and duty.
+
+## Resume
+
+Ghandâri realises her husband is blind and, not wanting to be above her husband in physical abilities, blindfolds herself forever. When she hears Pandu had a son who will inherit the throne, she forcefully gives birth to a metallic ball which turned into 100 sons. Pandu embraces his fate of dying while holding Mâdri in his arms. Mâdri suicides.
+
+20 years later, Drona trains Arjuna to be the best warrior. He refuses Ekalavya to be his pupil and makes him cut off his right thumb. Duryodhana names Karna king. The Pandavas share Draupadi as wife. Duryodhana challenges Yudhishthhira, but makes his uncle play instead. Yudhishthhira loses everything.

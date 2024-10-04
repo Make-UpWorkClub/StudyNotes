@@ -20,7 +20,7 @@ Read as:
 > The limit must be a number
 > When the limit is equal to $\infty$, we say the limit **diverges**
 
-## Approaching side
+## Sidedness
 
 By default, $x$ can approach from either side
 For left-side ($x < a$) / right-side ($a < x$) limit, superscript $a$ with $-$ / $+$
@@ -47,7 +47,7 @@ Superscript the limit with $-$ / $+$ depending on whether it is approached from 
 3. $\lim_{ x \to a }kf(x) = k\lim_{ x \to a }f(x) = kL$
 4. $\lim_{ x \to a }(f@g)(x) = \lim_{ x \to a }f(x)@\lim_{ x \to a }g(x) = L@M$, where $@$ is any of addition, subtraction, multiplication or division (when $@$ = division, $M \ne 0$)
 5. $\lim_{ x \to a }f^n(x) = (\lim_{ x \to a }f(x))^n = L^n$
-6. $\lim_{ x \to a } \frac{\sin g(x)}{g(x)} = 1$, where $a \in \mathbb{R}$ or $a = \infty$
+6. $\lim_{ x \to a } \frac{\sin g(x)}{g(x)} = 1$, where $a \in \mathbb{R}$ or $a = \infty$ and $g(a) = 0$
 
 ### Direct substitution property
 

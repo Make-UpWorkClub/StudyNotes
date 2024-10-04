@@ -12,9 +12,9 @@ date: 2024-09-20T14:21:52
 Quality of a function at a point $c$ if $\lim_{ x \to c }f(x) = f(c)$
 Quality of a function over an interval if every point of the interval is continuous
 
-> [!info] By default, continuity over an interval with only one defined endpoint means left / right continuity
+> [!info] By default, continuity over a semi-open interval means left / right continuity
 
-## Approaching side
+## Sidedness
 
 Left continuity at $c$ if $\lim_{ x \to c^- }f(x) = f(c)$
 Right continuity at $c$ if $\lim_{ x \to c^+ }f(x) = f(c)$

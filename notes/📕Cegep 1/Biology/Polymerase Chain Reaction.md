@@ -7,24 +7,24 @@ date: 2024-09-30T18:39:33
 
 # Polymerase Chain Reaction
 
-DNA amplification (mass replication) technique in vitro
+DNA amplification (mass [[DNA Replication|replication]]) technique in vitro
 `Abbr.` PCR
 
-Advantages:
+## Advantages
 
 - Quick
 - Targets specific sequence
 - Requires a small amount of DNA
 
-Materials:
+## Materials
 
 - DNA
 - Primers: short pieces of single stranded DNA complementary to either end of the template DNA
-- dNTPs: nucleotides containing n-bases
+- Deoxynucleoside triphosphates (`abbr.` dNTPs): precursors
 	- dATP, dGTP, dTTP, dCTP
-- Taq polymerase: thermostable DNA polymerase that synthesizes complementary DNA from dNTPs
+- [[Polymerase#Taq polymerase|Taq polymerase]]
 
-Steps:
+## Steps
 
 - Combine the materials in an eppendorf.
 - Cycle:

@@ -12,27 +12,19 @@ date: 2024-08-29T16:27:56
 Composed of:
 
 - Nitrogenous (also nitrogen-containing or N-) base
+	- Pyrimidines (*single* ring):
+		- Cytosine (`abbr.` C)
+		- Thymine (`abbr.` T) (DNA only)
+		- Uracil (`abbr.` U) (RNA only)
+	- Purines (*double* ring):
+		- Adenine (`abbr.` A)
+		- Guanine (`abbr.` G)
 - Pentose sugar
+	- Deoxyribose (DNA only)
+	- Ribose (RNA only)
 - Phosphate
 
-## Types of sugars
+> [!abstract] Nucleoside
+> Subunit of a nucleotide consisting of the N-base and the sugar
 
-- Deoxyribose (DNA only)
-- Ribose (RNA only)
-
-## Types of N-bases
-
-### Pyrimidine
-
-*Single* ring
-
-- Cytosine (`abbr.` C)
-- Thymine (`abbr.` T) (DNA only)
-- Uracil (`abbr.` U) (RNA only)
-
-### Purine
-
-Double* ring
-
-- Adenine (`abbr.` A)
-- Guanine (`abbr.` G)
+![[Nucleotide.png|300]]

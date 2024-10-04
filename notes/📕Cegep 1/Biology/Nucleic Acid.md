@@ -19,8 +19,9 @@ Function: stores & transmits hereditable information
 ### Deoxyribonucleic acid
 
 `Abbr.` DNA
-*Double*-stranded, held together by H-bonds
-N-bases: C-*T* & A-G pairs
+*Two strands* in **antiparallel** (one from 3' to 5', the other from 5' to 3'), whose N-bases are held together by H-bonds
+Pentose: *deoxyribose*
+N-bases: C-G (triple H-bond) & A-*T* (double H-bond)
 
 Functions:
 
@@ -28,11 +29,14 @@ Functions:
 - Directs its own synthesis through **replication**
 - Directs the synthesis of RNA through **transcription**
 
+![[Deoxyribonucleic acid.png]]
+
 ### Ribonucleic acid
 
 `Abbr.` RNA
-*Single*-stranded
-N-bases: C-*U* & A-G pairs
+*One strand*
+Pentose: *ribose*
+N-bases: C-G & A-*U* pairs
 
 #### Messenger
 

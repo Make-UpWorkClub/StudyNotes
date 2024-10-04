@@ -21,10 +21,12 @@ Se définit comme « le secrétaire de la société française »
 
 Quatre-vingt romans réalistes teintés de romantisme
 
-Le but est de tracer un portait complet de la société:
+Le but est de tracer un portait complet de la société française:
 
 - Toutes les classes sociales
 - Toutes les professions (médecins, journalistes, commerçants, banquiers, prêtres, officiers, notables, petits employés, hommes d'affaires)
 - Toute la culture (costumes, mœurs, habitudes)
 - Tous les milieux (villes, quartiers, rues, appartements)
 - Contexte historique (Restauration, Monarchie de Juillet)
+
+Chaque personnage est emblématique d'un stéréotype

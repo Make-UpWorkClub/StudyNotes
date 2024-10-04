@@ -5,9 +5,10 @@ tags:
 date: 2024-09-03T09:25:15
 ---
 
-# Mouvement uniformément accéléré (MUA)
+# Mouvement uniformément accéléré
 
 Mouvement 1D où l'accélération est constante, c.-à-d. $a_x(t) = a_x$
+`Abbr.` MUA
 
 |                                    Équation                                     | Paramètres absents |
 |:-------------------------------------------------------------------------------:|:------------------:|

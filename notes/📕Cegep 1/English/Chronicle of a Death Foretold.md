@@ -42,6 +42,7 @@ Youngest child
 Beautiful
 
 Antisemitic
+Honest and decent
 
 #### Pablo and Pedro Vicario
 
@@ -49,6 +50,7 @@ Twins who killed Santiago Nasar
 Twenty-four years old
 
 Hard-looking in a good way
+Bloodthirsty
 
 ### Bayardo San Román
 
@@ -93,3 +95,11 @@ At 4:00, Leandro Pornoy reported to Colonel Lázaro Aponte.
 At 4:10, the twins went to Clotilde Armenta's place.
 At 4:20, Santiago returned home.
 At 5:00, the colonel found the twins and disarmed them. They left, picked up another two knives, sharpened them at Faustino Santos' place, went to Prudencia Cotes' house for coffee, then returned.
+
+### Ch4
+
+In the afternoon, Father Carmen Amador performed autopsy on Santiago Nasar, whose body was completely destroyed. María Alejandrina Cervantes disappeared from the narrator's life because he smelled of Santiago. The twins were very sick in prison. Worried by vengeance by the Arabs, Colonel Aponte visited every family of Arabs and found no sign of vengeance. The Vicario family quietly moved to Manaure. Poncio and Pedro Vicario died. Prudencia Cotes married Pablo Vicario. The mayor saved Bayardo San Román from alcool intoxication. His family brought him back. Xius' farmhouse slowly crumbles. Angela became an embroiderer. She saw Bayardo at Hotel del Puerto and became crazy over him. She wrote a weekly letter for him for seventeen years. One August day, he visited Angela.
+
+### Ch5
+
+Various side characters suffered from Santiago's death.
