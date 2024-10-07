@@ -56,13 +56,18 @@ Avare
 
 #### Vautrin
 
-Ancien négociant
+Ancien négociant et criminel en fuite
 Quarante ans
 Taille large, musclé
+Cheveux roux
 
+Incarnation du mal
+Homosexuel
 Obligeant et rieur
+Séducteur
 Manière souple et liante
 Regard profond et plein de résolution
+Calculateur
 
 ### 3<sup>e</sup> étage
 
@@ -93,3 +98,9 @@ Ambitieux
 
 ### Autres
 
+#### Delphine de Nucingen
+
+Fille du Père Goriot
+Mariée au baron de Nucingen
+
+Malheureuse dans son mariage

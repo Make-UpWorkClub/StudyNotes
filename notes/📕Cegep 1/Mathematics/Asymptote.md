@@ -15,7 +15,7 @@ $x = a$ is a vertical asymptote of $f(x)$ if any of the following is true: $\lim
 
 *Cannot* be crossed
 
-A function can have *an unlimited amount of* vertical asymptotes
+A function can have *unlimited* vertical asymptotes
 
 A limit containing an expression of the form $\frac{c}{0}$ often has a vertical asymptote
 The side $0$ is approached from affects the direction of divergence (sign of $\infty$)

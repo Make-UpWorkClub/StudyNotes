@@ -29,6 +29,7 @@ Has sixth sense
 Brave and prudent
 Merry, peaceful, openhearted
 Sexual harasser
+Dumb?
 
 ### Vicarios
 
@@ -51,6 +52,7 @@ Twenty-four years old
 
 Hard-looking in a good way
 Bloodthirsty
+Simple in nature
 
 ### Bayardo San Román
 
@@ -98,8 +100,16 @@ At 5:00, the colonel found the twins and disarmed them. They left, picked up ano
 
 ### Ch4
 
-In the afternoon, Father Carmen Amador performed autopsy on Santiago Nasar, whose body was completely destroyed. María Alejandrina Cervantes disappeared from the narrator's life because he smelled of Santiago. The twins were very sick in prison. Worried by vengeance by the Arabs, Colonel Aponte visited every family of Arabs and found no sign of vengeance. The Vicario family quietly moved to Manaure. Poncio and Pedro Vicario died. Prudencia Cotes married Pablo Vicario. The mayor saved Bayardo San Román from alcool intoxication. His family brought him back. Xius' farmhouse slowly crumbles. Angela became an embroiderer. She saw Bayardo at Hotel del Puerto and became crazy over him. She wrote a weekly letter for him for seventeen years. One August day, he visited Angela.
+In the afternoon, Father Carmen Amador performed autopsy on Santiago Nasar, whose body was completely destroyed. María Alejandrina Cervantes disappeared from the narrator's life because he smelled of Santiago. The twins were very sick in prison. Worried by vengeance by the Arabs, Colonel Aponte visited every family of Arabs and found no sign of vengeance. The Vicario family quietly moved to Manaure. Poncio and Pedro Vicario died. Prudencia Cotes married Pablo Vicario.
+
+The mayor saved Bayardo San Román from alcool intoxication. His family brought him back.
+
+Xius' farmhouse slowly crumbles. Angela became an embroiderer. She saw Bayardo at Hotel del Puerto and became crazy over him. She wrote a weekly letter for him for seventeen years. One August day, he visited Angela.
 
 ### Ch5
 
-Various side characters suffered from Santiago's death.
+Various side characters suffered from Santiago's death. The magistrate found no evidence against Santiago Nasar.
+
+Cristo was walking with Santiago along the dock when Yamil Shaium warned him about the murder. He searched for Santiago at his home, confronted the twins at Clotilde's store, and was on his way to the narrator's house when Santiago was killed.
+
+Meanwhile, Santiago went into the house of his fiancée. Nahir Miguel warned him and offered him protection, but he left in confusion. Many people shouted at him, but he was disoriented. He saw the twins running toward him with knives and ran toward the front door of his house, but Placída shut the door, thinking he was upstairs. The twins stabbed him countless times against the door and ran away. In hallucination, Santiago got up, walked around holding his guts, and fell in his kitchen.

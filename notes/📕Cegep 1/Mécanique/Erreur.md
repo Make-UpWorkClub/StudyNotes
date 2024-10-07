@@ -47,7 +47,12 @@ Influence l'*exactitude*
 
 Additionner les erreurs *absolues* :
 
-$$\sum \delta$$
+$$
+\begin{align}
+S & = \sum_{i = 1}^n a_i \\
+\implies \delta S & = \sum_{i = 1}^n \delta a_i
+\end{align}
+$$
 
 ### Multiplication / division
 
@@ -55,8 +60,8 @@ Additionner les erreurs *relatives* :
 
 $$
 \begin{align}
-S &= xy \\
-\implies\frac{\delta S}{|S|} &= \frac{\delta x}{|x|} + \frac{\delta y}{|y|} + \dots
+S &= \prod_{i = 1}^n a_i \\
+\implies\frac{\delta S}{|S|} &= \sum_{i = 1}^n \frac{\delta a_i}{|a_i|}
 \end{align}
 $$
 

@@ -21,13 +21,7 @@ Rapport : questions dirigées
 
 ### Réponse finale
 
-Incertitude : 1 chiffre significatif
-Valeur : même nombre de chiffres après la virgule que l'incertitude
-
-> [!note]+
-> 1<sup>er</sup> chiffre non-zéro = 1<sup>er</sup> chiffre significatif
-> > [!example]
-> > 0.00013479 -> 0.0001348
-> > 43204 -> 43200 ou 4.320e4
-
 **Encadrée**
+
+Incertitude : 1 chiffre significatif (non-zéro)
+Valeur : même nombre de chiffres après la virgule que l'incertitude

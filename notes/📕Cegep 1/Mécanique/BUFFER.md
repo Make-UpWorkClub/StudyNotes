@@ -14,6 +14,10 @@ date: 2024-08-19T08:21:00
 
 Réponse en classe : 4 chiffres significatifs
 
+> [!example]+
+> 0.00013479 -> 0.0001348
+> 43204 -> 43200 ou 4.320e4
+
 ## 2024-08-22
 
 ### Forme polaire du vecteur

@@ -2,12 +2,14 @@
 tags:
   - Cegep1
   - Mathematics
-date: 2024-10-01T10:00:10
+date: 2024-10-07T15:01:08
 ---
 
 # Proofs
 
-## $\lim_{ x \to 0 }\frac{\sin x}{x} = 1$
+## Unnamed
+
+### $\lim_{ x \to 0 }\frac{\sin x}{x} = 1$
 
 ![[Proof 1]]
 
@@ -18,7 +20,7 @@ $$
 A_{\triangle DOB} \le A_{\text{sector }DOB} \le A_{\triangle COB}
 $$
 
-### $A_{\triangle DOB}$
+#### $A_{\triangle DOB}$
 
 The base, $\overline{OB}$, and the hypotenuse, $\overline{DO}$, are radii of the unit circle, so they have length 1.
 
@@ -34,13 +36,13 @@ $$
 A_{\triangle DOB} = \frac{bh}{2} = \frac{\sin x}{2}
 $$
 
-### $A_{\text{sector }DOB}$
+#### $A_{\text{sector }DOB}$
 
 $$
 A_{\text{sector }DOB} = \frac{1}{2}r^2\theta = \frac{x}{2}
 $$
 
-### $A_{\triangle COB}$
+#### $A_{\triangle COB}$
 
 $$
 \overline{CB} = \tan x\cdot \overline{OB} = \tan x\cdot 1 = \tan x
@@ -98,3 +100,47 @@ Hence,
 $$
 \lim_{ x \to 0 } \frac{\sin x}{x} = 1
 $$
+
+### Derivative of a constant
+
+> [!abstract] $\frac{d}{dx}c = 0$ for $c \in \mathbb{R}$
+
+Let $f(x) = c$, then
+
+$$
+\begin{align}
+f'(x) & = \lim_{ h \to 0 } \frac{f(x + h) - f(x)}{h} \\
+ & = \lim_{ h \to 0 } \frac{c - c}{h} \\
+ & = \lim_{ h \to 0 } \frac{0}{h} \\
+ & = \lim_{ h \to 0 } 0 \\
+ & = 0
+\end{align}
+$$
+
+
+
+### Differentiability implies continuity
+
+We have to show that $f(a) = \lim_{ x \to a }f(x)$. We know that $f$ is differentiable at $a$, so
+
+$$
+f'(a) = \lim_{ x \to a } \frac{f(x) - f(a)}{x - a}
+$$
+
+is certain to exist.
+Then,
+
+$$
+\begin{align}
+f'(x) & = \lim_{ x \to a } \frac{f(x) - f(a)}{x - a} \\
+f'(x) & = \frac{\lim_{ x \to a } (f(x) - f(a))}{\lim_{ x \to a } (x - a)} \\
+f'(x)\cdot \lim_{ x \to a } (x - a) & = \lim_{ x \to a } (f(x) - f(a)) \\
+f'(x)\cdot 0 & = \lim_{ x \to a } f(x) - \lim_{ x \to a } f(a) \\
+\lim_{ x \to a } f(a) & = \lim_{ x \to a } f(x) \\
+f(a) & = \lim_{ x \to a } f(x)
+\end{align}
+$$
+
+> [!important] The contrapositive of the theorem says non-continuity $\implies$ non-differentiability.
+
+> [!important] The converse is not necessarily true, i.e. continuity doesn't imply differentiability.
