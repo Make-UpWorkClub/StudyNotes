@@ -29,7 +29,7 @@ Priests, academics
 
 Warriors, rulers
 
-##### Vaisya
+##### Vaishya
 
 Merchants, farmers
 

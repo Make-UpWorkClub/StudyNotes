@@ -46,11 +46,3 @@ Different for the two strands
 2. DNA polymerase adds
 
 ### Termination
-
-
-# Telomere
-
-Repeats of noncoding nucleotide sequences
-Human telomere sequences: `TTAGGG`
-
-Extended by telomerase

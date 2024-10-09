@@ -5,6 +5,8 @@ tags:
 date: 2024-10-07T19:36:55
 ---
 
+%% [[Derivative]] %%
+
 # Power Rule
 
 Let $f(x) = x^n\text{, }n \in \mathbb{R}$, then
@@ -13,7 +15,7 @@ $$
 \frac{d}{dx}x^n = nx^{n - 1}
 $$
 
-## [[Proofs|Proof]]
+## Proof
 
 > [!info] For now, this proof is only for $n \in \mathbb{N}$.
 

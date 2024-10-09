@@ -19,3 +19,8 @@ Avatars:
 - Shakti: female creative energy and power
 - Uma
 - Devi
+
+## Durga festival
+
+Popular festival in India
+Similar to Christmas in scale

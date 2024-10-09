@@ -5,11 +5,9 @@ tags:
 date: 2024-10-07T15:01:08
 ---
 
-# Proofs
+# Miscellaneous Proofs
 
-## Unnamed
-
-### $\lim_{ x \to 0 }\frac{\sin x}{x} = 1$
+## $\lim_{ x \to 0 }\frac{\sin x}{x} = 1$
 
 ![[Proof 1]]
 
@@ -20,7 +18,7 @@ $$
 A_{\triangle DOB} \le A_{\text{sector }DOB} \le A_{\triangle COB}
 $$
 
-#### $A_{\triangle DOB}$
+### $A_{\triangle DOB}$
 
 The base, $\overline{OB}$, and the hypotenuse, $\overline{DO}$, are radii of the unit circle, so they have length 1.
 
@@ -36,13 +34,13 @@ $$
 A_{\triangle DOB} = \frac{bh}{2} = \frac{\sin x}{2}
 $$
 
-#### $A_{\text{sector }DOB}$
+### $A_{\text{sector }DOB}$
 
 $$
 A_{\text{sector }DOB} = \frac{1}{2}r^2\theta = \frac{x}{2}
 $$
 
-#### $A_{\triangle COB}$
+### $A_{\triangle COB}$
 
 $$
 \overline{CB} = \tan x\cdot \overline{OB} = \tan x\cdot 1 = \tan x
@@ -101,7 +99,7 @@ $$
 \lim_{ x \to 0 } \frac{\sin x}{x} = 1
 $$
 
-### Derivative of a constant
+## Derivative of a constant
 
 > [!abstract] $\frac{d}{dx}c = 0$ for $c \in \mathbb{R}$
 
@@ -117,9 +115,50 @@ f'(x) & = \lim_{ h \to 0 } \frac{f(x + h) - f(x)}{h} \\
 \end{align}
 $$
 
+## Derivative of function times a constant
 
+> [!abstract]+
+> Let $c \in \mathbb{R}$ and $f$ be a differentiable function, then
+> 
+> $$
+> \frac{d}{dx}(cf(x)) = c \frac{d}{dx}f(x)
+> $$
 
-### Differentiability implies continuity
+Let $g(x) = cf(x)$, then
+
+$$
+\begin{align}
+\frac{d}{dx}(cf(x)) = g'(x) & = \lim_{ h \to 0 } \frac{g(x + h) - g(x)}{h} \\
+ & = \lim_{ h \to 0 } cf(x + h) - f(x)
+\end{align}
+$$
+
+## Derivative of $\sin x$
+
+## Derivative of $\tan x$
+
+$$
+\begin{align}
+\frac{d}{dx}\tan x & = \frac{d}{dx} \frac{\sin x}{\cos x} \\
+ & = \frac{\cos x(\sin x)' - \sin x(\cos x)'}{\cos ^2x} \\
+ & = \frac{\cos x\cos x+\sin x\sin x}{\cos ^2x} \\
+ & = \frac{\cos ^2x + \sin ^2x}{\cos ^2x} \\
+ & = \frac{1}{\cos ^2x} \\
+ & = \sec ^2x
+\end{align}
+$$
+
+## Derivative of $\cot x$
+
+$$
+\begin{align}
+\frac{d}{dx}\cot x & = \frac{d}{dx} \frac{\cos x}{\sin x} \\
+& = \frac{\sin x(\cos x)' - \cos x(\sin x)'}{\sin ^2x} \\
+& =  \\
+\end{align}
+$$
+
+## Differentiability implies continuity
 
 We have to show that $f(a) = \lim_{ x \to a }f(x)$. We know that $f$ is differentiable at $a$, so
 

@@ -40,4 +40,14 @@ $$
 ## Properties & theorems
 
 - $\frac{d}{dx}c = 0$
-- Power rule: $\frac{d}{dx}x^n = nx^{n - 1}$
+- $\frac{d}{dx}(c\cdot f(x)) = c\cdot f'(x)$
+- $\frac{d}{dx}(f(x)\pm g(x)) = f'(x) \pm g'(x)$
+- Product Rule: $\frac{d}{dx}(f(x)\cdot g(x)) = f(x)g'(x) + g(x)f'(x)$
+- Quotient Rule: $\frac{d}{dx} \frac{f(x)}{g(x)} = \frac{g(x)f'(x) - f(x)g'(x)}{(g(x))^2}\text{, provided }g(x)\ne 0$
+- Power Rule: $\frac{d}{dx}x^n = nx^{n - 1}$
+- $\frac{d}{dx}\sin x = \cos x$
+- $\frac{d}{dx}\cos x = -\sin x$
+- $\frac{d}{dx}\tan x = \sec ^2x$
+- $\frac{d}{dx}\sec x = \tan x\sec x$
+- $\frac{d}{dx}\csc x = -\cot x\csc x$
+- $\frac{d}{dx}\cot x = -\csc ^2x$

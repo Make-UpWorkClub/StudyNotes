@@ -7,7 +7,7 @@ date: 2024-09-30T18:40:54
 
 # Phenotype
 
-`Coll.` Observable characteristics of an organism
+`Coll.` observable characteristics of an organism
 
 Influenced by:
 

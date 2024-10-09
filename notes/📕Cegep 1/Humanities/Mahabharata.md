@@ -72,7 +72,8 @@ Mightiest of warriors)
 N(Nakula)
 Sa(Sahadeva)
 end
-Dra(Draupadi)
+Dra(Draupadi
+Good wife)
 
 subgraph Gods
 Sur(Surya
@@ -115,4 +116,6 @@ Arjuna has crisis because he must fight people he loves and respects
 
 Ghandâri realises her husband is blind and, not wanting to be above her husband in physical abilities, blindfolds herself forever. When she hears Pandu had a son who will inherit the throne, she forcefully gives birth to a metallic ball which turned into 100 sons. Pandu embraces his fate of dying while holding Mâdri in his arms. Mâdri suicides.
 
-20 years later, Drona trains Arjuna to be the best warrior. He refuses Ekalavya to be his pupil and makes him cut off his right thumb. Duryodhana names Karna king. The Pandavas share Draupadi as wife. Duryodhana challenges Yudhishthhira, but makes his uncle play instead. Yudhishthhira loses everything.
+20 years later, Drona trains Arjuna to be the best warrior. He refuses Ekalavya to be his pupil and makes him cut off his right thumb. Duryodhana names Karna king. The Pandavas share Draupadi as wife. Duryodhana challenges Yudhishthhira, but makes his uncle play instead. Yudhishthhira loses everything. His wife becomes servant. They try to take off her clothes, but failed because she wears innumerable layers of cloth. They grant her favours, and she chooses to free her husbands. Yudhishthhira loses one final bet and is exiled for 12 years.
+
+12 years after, the Kauravas and the Pandavas fight again in a battle involving all kingdoms. Arjuna is afraid to fight his relatives, but Krishna convinced him in a speech known as [[#Gita]].

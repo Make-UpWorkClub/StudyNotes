@@ -5,6 +5,8 @@ tags:
 date: 2024-09-17T11:02:42
 ---
 
+%% [[Limit]] %%
+
 # Squeeze Theorem
 
 If $f(x)\le g(x)\le h(x)$ when $x$ is near $a$ (except possibly at $a$),

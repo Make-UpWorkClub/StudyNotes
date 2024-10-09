@@ -1,11 +1,11 @@
 [
   "obsidian-style-settings",
   "url-into-selection",
-  "table-editor-obsidian",
   "chronology",
   "obsidian-git",
+  "obsidian-excalidraw-plugin",
+  "easy-typing-obsidian",
   "obsidian-latex-suite",
   "obsidian-editor-shortcuts",
-  "easy-typing-obsidian",
-  "obsidian-excalidraw-plugin"
+  "table-editor-obsidian"
 ]

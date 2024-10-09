@@ -12,8 +12,6 @@ Subclass of [[lipid]]
 > [!example] Cholesterol
 > Steroid that forms cell membranes and is the starting compound for other steroids
 
-^33ec66
-
 ## Structure
 
 Four carbon rings
