@@ -39,9 +39,14 @@ $f \propto n$
 
 Donneur et receveur *ne sont pas* en contact
 
-Types:
+#### Gravité
 
-- Gravité
+$$
+\begin{align}
+F_g & = \frac{Gm_1m_2}{r^2} \\
+G & = 6.674\dots \times10^{-11} \frac{Nm^2}{kg^2}
+\end{align}
+$$
 
 ### ~ fondamentale
 

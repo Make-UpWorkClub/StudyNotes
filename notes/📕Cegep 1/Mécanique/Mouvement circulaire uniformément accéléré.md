@@ -8,13 +8,14 @@ date: 2024-10-07T14:18:12
 # Mouvement circulaire uniformément accéléré
 
 Mouvement 2D avec des accélérations centripète et tangentielle dont les modules sont constants
+[[Mouvement circulaire uniforme|MCU]] + accélération tangentielle
 `Abbr.` MCUA
 
 $$
 \begin{align}
 \overset{\to}{a} & = \overset{ \to }{ a_c } + \overset{ \to }{ a_t } \\
 a & = \sqrt{ a_c^2 + a_t^2 } \\
-|a_t| & = |\frac{dv}{dt}| \\
+|a_t| & = \left|\frac{dv}{dt}\right| \\
  \\
 s & = r\theta \\
 t_t & = r\omega \\
