@@ -111,6 +111,8 @@ Anthropomorphisme : un animal est attribué des qualités humaines
 
 ## Résumé
 
+> [!warning] Incomplet et ne sera jamais complété
+
 ### 1<sup>re</sup> partie
 
 #### Ch1
@@ -471,29 +473,3 @@ Pi s’asphyxie avec un tissu mouillé comme méthode d’évasion.
 #### Ch88
 
 Pi croise un amas d’ordures et recueille une bouteille de vin avec bouchon. Il écrit un message, le met dans la bouteille et la jette dans la mer.
-
-#### Ch89
-
-#### Ch90
-
-#### Ch91
-
-#### Ch92
-
-#### Ch93
-
-#### Ch94
-
-### 3<sup>e</sup> partie
-
-#### Ch95
-
-#### Ch96
-
-#### Ch97
-
-#### Ch98
-
-#### Ch99
-
-#### Ch100

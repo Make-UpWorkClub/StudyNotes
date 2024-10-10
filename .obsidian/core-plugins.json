@@ -23,7 +23,7 @@
   "slides": false,
   "audio-recorder": false,
   "workspaces": false,
-  "file-recovery": false,
+  "file-recovery": true,
   "publish": false,
   "sync": false,
   "properties": false

@@ -7,9 +7,10 @@ date: 2024-09-03T10:53:41
 
 # Endomembrane System
 
-System of membranes inside a [[Cell#Eukaryotic|eukaryotic cell]] (endomembranes)
+System of [[Membrane|membranes]] inside a [[Cell#Eukaryotic|eukaryotic cell]] (endomembranes)
 
 Members:
+
 - Nuclear envelope
 - Endoplasmic reticulum
 - Golgi apparatus

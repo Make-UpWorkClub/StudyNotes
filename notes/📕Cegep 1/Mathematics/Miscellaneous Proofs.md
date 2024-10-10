@@ -158,6 +158,20 @@ $$
 \end{align}
 $$
 
+## Derivative of $\log_bx$
+
+> [!abstract] $\frac{\mathrm{d}}{\mathrm{d}x} \log_bx = \frac{1}{x\ln b}$
+
+Note that
+
+$$
+\lim_{ n \to \infty } (1)
+$$
+
+Let $f(x) = \log_bx$, then
+
+
+
 ## Differentiability implies continuity
 
 We have to show that $f(a) = \lim_{ x \to a }f(x)$. We know that $f$ is differentiable at $a$, so

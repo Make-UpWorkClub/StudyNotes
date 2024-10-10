@@ -8,8 +8,12 @@ date: 2024-09-04T09:51:25
 # Nucleus
 
 Membrane-bound [[organelle]] that contains most of the genes
+Contains one or more nucleoli
 
-Site of DNA replication
-Site of mRNA synthesis through **transcription**
+In the nucleus:
 
-Nucleolus: site of synthesis of rRNA
+- DNA replicates
+- DNA synthesizes [[Nucleic Acid#Ribonucleic acid|mRNA and tRNA]] through **transcription**
+
+> [!abstract] Nucleolus
+> Region in the nucleus that synthesizes [[Nucleic Acid#Ribosomal|rRNA]] and [[Ribosome|ribosomal units]]

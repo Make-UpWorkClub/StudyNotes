@@ -13,30 +13,36 @@ Dynamic network of [[protein]] fibres in the [[cytoplasm]]
 
 ### Microtubule
 
-Thickest fibre constructed from *tubulin*
-Hollow rod
+*Hollow* rod constructed from globular protein **tubulin**
+*Thickest*
 
 Functions:
 
-- Maintain cell shape
-- 
-
-> [!abstract] Tubulin
-> Globular protein
+- Maintains cell shape
+- Organelle movement
+- Chromosome movement
+- Cell movement by cilia and flagella
 
 ### Microfilament
 
-Thinnest fibre constructed from *actin*
-Solid rod
+*Solid* rod constructed from **actin**
+*Thinnest*
 
 Functions:
 
 - Maintains cell shape
 - Muscle contraction
-- Cell mobility
+- Cell movement by pseudopodia formation during phagocytosis
 - Cell division
 - Cytoplasmic streaming
 
 ### Intermediate filament
 
-Medium-size fibre 
+Diverse class of proteins that contains **keratin**
+*Medium-size*
+
+Functions:
+
+- Maintains cell shape
+- Fixes organelle location
+- Maintains the shape of nucleus as part of the nuclear lamina

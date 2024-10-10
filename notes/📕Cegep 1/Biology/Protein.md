@@ -60,7 +60,7 @@ Structural support
 
 > [!example]
 > - Keratin: protein of hair, horns and feathers
-> - Silk fiber: cocoon and web
+> - Silk fibre: cocoon and web
 > - Collagen and elastin proteins: animal connective tissues
 
 ### Storage

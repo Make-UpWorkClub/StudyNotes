@@ -7,12 +7,13 @@ date: 2024-09-04T10:48:27
 
 # Lysosome
 
-[[Vesicle]] filled with hydrolytic enzymes (animal cells only)
+[[Vesicle]] filled with hydrolytic enzymes
+**Only in animal cells**, not in plant cells
 Part of the [[endomembrane system]]
 
-Functions
+Functions:
 
-- Digests food vacuoles produced during phagocytosis by fusing with them
+- Digests [[Vacuole#Food|food vacuoles]] produced during phagocytosis by fusing with them
 - Digests damaged organelles & macromolecules (autophagy)
 
 > [!abstract] Autophagy

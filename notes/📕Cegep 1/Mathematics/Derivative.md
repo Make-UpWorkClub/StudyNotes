@@ -15,11 +15,17 @@ $$
 f'(x) = y' = \frac{d}{dx}[f(x)] = \frac{dy}{dx} = \lim_{ h \to 0 } \frac{f(x + h) - f(x)}{h}
 $$
 
-> [!abstract] Difference quotient
-> $\frac{f(x + h) - f(x)}{h}$
+> [!info] $\frac{f(x + h) - f(x)}{h}$ is called the **difference quotient**.
 
-> [!abstract] Differentiation operator
-> $\frac{d}{dx}$ "take the derivative with respect to $x$"
+> [!info] $\frac{dy}{dx}$ is called the **differentiation operator**, or formally Leibniz's notation, and means "take the derivative with respect to $x$."
+
+> [!warning]+
+> $f'(a)$ stands for derivative at $a$ while $\frac{d}{dx} f(a)$ is derivative at $y = f(a)$, which is always 0.
+> Under Leibniz's notation we write
+> 
+> $$
+> \left.\frac{d}{dx}f(x)\right|_{x = a}
+> $$
 
 ## Sidedness
 
@@ -36,6 +42,10 @@ f'_+(a) = \lim_{ h \to 0^+ } \frac{f(a + h) - f(a)}{h}
 $$
 
 > [!important] $f'(x) = L \iff f'_-(x) = f'_+(x) = L$
+
+## Implicit differentiation
+
+To differentiate implicit expressions, 
 
 ## Properties & theorems
 

@@ -14,7 +14,7 @@ Steps:
 
 1. Cytoplasm divides
 2. A cleavage furrow appears (animal cells only)
-3. A cell plate forms between the two cells and becomes the cell wall (plant cells only)
+3. A cell plate forms between the two cells and becomes the cell wall (optional)
 
 > [!abstract] Cleavage furrow
 > Ring of microfilaments that causes the division of the cell

@@ -15,4 +15,8 @@ $$
 h'(x) = \frac{d}{dx}(g \circ f)(x) = g'(f(x)) \cdot f'(x)
 $$
 
-## Proof
+In other words, if we let $u = f(x)$,
+
+$$
+\frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx}
+$$

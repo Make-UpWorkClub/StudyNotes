@@ -15,5 +15,6 @@ Subclass of [[lipid]]
 ## Structure
 
 Four carbon rings
+*No ester linkage*
 
 ![[Steroid.png|300]]

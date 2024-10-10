@@ -1,7 +1,7 @@
 ---
 tags:
   - Cegep1
-  - Mathematics
+  - Mechanics
 date: 2024-10-07T14:18:12
 ---
 

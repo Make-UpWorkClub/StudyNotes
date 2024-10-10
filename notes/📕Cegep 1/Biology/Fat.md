@@ -24,9 +24,7 @@ Functions:
 Composed of:
 
 - Glycerol
-- Three fatty acids
-
-Leads to **ester linkage**
+- Three fatty acids joined to glycerol by **ester linkage**
 
 ![[Fat.png|300]]
 

@@ -21,7 +21,7 @@ Function: stores & transmits hereditable information
 `Abbr.` DNA
 *Two strands* in **antiparallel** (one from 3' to 5', the other from 5' to 3'), whose N-bases are held together by H-bonds
 Pentose: *deoxyribose*
-N-bases: C-G (triple H-bond) & A-*T* (double H-bond)
+N-bases: C-G (triple H-bonds) & A-*T* (double H-bonds)
 
 Functions:
 
@@ -41,7 +41,7 @@ N-bases: C-G & A-*U* pairs
 #### Messenger
 
 `Abbr.` mRNA
-Directs protein synthesis through translation
+Directs protein synthesis through **translation**
 
 #### Transfer
 
@@ -51,4 +51,4 @@ Acts as a delivery vehicle during protein synthesis
 #### Ribosomal
 
 `Abbr.` rRNA
-Makes up the structure of the [[ribosome]]
+Makes up the structure of the ribosome

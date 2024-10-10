@@ -8,7 +8,9 @@ date: 2024-08-19T11:20:00
 # Polysaccharide
 
 Family of [[carbohydrate]]
-[[Polymer]] of [[monosaccharide]]
+[[Polymer]] of [[Monosaccharide|monosaccharides]] joined by **glycosidic linkage**
+
+Formed by dehydration
 
 ## Members
 
@@ -16,7 +18,8 @@ Family of [[carbohydrate]]
 
 1-4 linkage of *$\alpha$* glucose monomers in the *same* orientation
 
-Carbohydrate storage
+Function: carbohydrate storage in *plants*
+
 *Digestible* by most animals (possess digestive enzymes that can hydrolyse starch)
 
 Forms:
@@ -28,7 +31,8 @@ Forms:
 
 1-4 linkage of *$\beta$* glucose monomers in *alternating* orientation
 
-Reinforces plant cell walls
+Function: reinforces *cell walls of plants*
+
 *Non digestible* by most animals (lack enzymes)
 Cows have bacteria that can break down cellulose
 
@@ -36,10 +40,10 @@ Cows have bacteria that can break down cellulose
 
 ### Glycogen
 
-Carbohydrate storage *in liver and muscle*
+Function: carbohydrate storage in *liver and muscle*
 
 *Branched*
 
 ### Chitin
 
-Structural support *in the cell wall of some fungi and exoskeleton*
+Function: reinforces *cell walls of some fungi* and *the exoskeleton of some animals* (e.g. beetles, lobsters, crabs)

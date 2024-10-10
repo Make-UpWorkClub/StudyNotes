@@ -7,11 +7,12 @@ date: 2024-09-05T16:48:39
 
 # Membrane
 
-Outer layer of a [[cell]] or of an organelle made of a [[lipid]] bilayer
+Outer layer of a [[cell]] or of an [[organelle]] made of a [[lipid]] bilayer
 Selectively permeable
 
 > [!abstract]+ Lipid bilayer
-> Double layer of phospholipid, cholesterol, and glycolipid (incl. fat) molecules (hydrophilic heads form the surfaces, hydrophobic tails form the core)
+> Double layer of mainly phospholipid, also cholesterol, glycolipid molecules (incl. fat) and proteins
+> Hydrophilic heads form the surfaces, hydrophobic tails form the core
 > 
 > *Unsaturated* hydrocarbon tails *increase* fluidity by *preventing* packing.
 > *Saturated* hydrocarbon tails *decrease* fluidity by *favouring* packing.

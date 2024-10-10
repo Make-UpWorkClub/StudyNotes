@@ -25,6 +25,6 @@ Composed of:
 - Hydrophilic R group
 - Phosphate
 - Glycerol
-- Two fatty acids
+- Two fatty acids joined to glycerol by **ester linkage**
 
 ![[Phospholipid.png|300]]

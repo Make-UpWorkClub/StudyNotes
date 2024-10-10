@@ -135,6 +135,8 @@ Works at an ad agency
 
 ## Resume
 
+> [!warning] Incomplete and will never be completed
+
 ### Act I
 
 The judge gives the final instruction. The jurors enter the jury room. After some small talk, they sit down and make a preliminary vote. All jurors except the eighth vote guilty. The foreman decides to go in order of jury numbers. The 3<sup>rd</sup> juror talks about the first witness (old man). The 10<sup>th</sup> juror talks about the second witness (woman). The 4<sup>th</sup> juror analyses the timeline of the murder and argues the rarity of the switchblade knife used in murder. The 8<sup>th</sup> juror pulls out an identical knife and surprises everyone. He then calls the other eleven for an anonymous vote. Someone voted not guilty. The 3<sup>rd</sup> juror suspects the 5<sup>th</sup> juror and angers him. The 9<sup>th</sup>juror explains he voted not guilty out of respect for the 8<sup>th</sup> juror. A few jurors use the lavatory, then they cross-examine the witness of the old man.

@@ -7,13 +7,12 @@ date: 2024-08-30T14:26:38
 
 # Cell
 
-Contains:
+All cells contain:
 
 - Cytosol
-- 1 or more chromosomes
+- Chromosomes
 - Ribosomes
 - Plasma membrane
-- Cell wall that prevents too much water from entering the cell (plant cells only)
 
 ## Types
 
