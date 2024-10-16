@@ -170,6 +170,10 @@ $$
 
 Let $f(x) = \log_bx$, then
 
+## Derivative of $\arcsin x$
+
+## Derivative of $\arccos x$
+
 
 
 ## Differentiability implies continuity

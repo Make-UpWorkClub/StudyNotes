@@ -16,7 +16,7 @@ Part of the [[endomembrane system]]
 ### Food
 
 Digestion in protozoa
-Engulfed bacteria in a white blood cell
+Phagocytosis of a bacterium in a white blood cell
 
 > [!abstract] Protozoa
 > Single celled animal-like organism
@@ -24,6 +24,7 @@ Engulfed bacteria in a white blood cell
 ### Central
 
 Big vacuole in plant cells
+Storage of organic compounds, inorganic ions, and metabolic by-products
 
 ### Contractile
 

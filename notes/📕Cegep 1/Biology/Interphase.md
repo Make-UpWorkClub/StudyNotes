@@ -10,18 +10,20 @@ date: 2024-08-26T14:47:00
 First phase, 90% of the [[cell cycle]]
 Phase of growth and cellular activities from birth to division
 
-Followed by [[mitotic (M) phase]]
+## Phase
 
-## G<sub>1</sub>
+### G<sub>1</sub>
 
 First growth phase
 
-## S
+### S
 
-DNA synthesis: replication of chromosomes
+Synthesis phase
 
-## G<sub>2</sub>
+DNA replication
+
+### G<sub>2</sub>
 
 Second growth phase to prepare for cell division
 
-Centrosome replicates
+Centrosome replication

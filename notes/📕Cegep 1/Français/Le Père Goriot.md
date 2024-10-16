@@ -11,7 +11,7 @@ Genre : [[notes/📕Cegep 1/Français/Romantisme|romantisme]]
 
 ## Contexte
 
-Paris, 1819
+Paris, [[XIXe Siècle|1819]]
 
 ## Personnages
 
@@ -54,20 +54,29 @@ Quasiment marié à Michaunneau
 
 Avare
 
-#### Vautrin
+#### Jacques Collin
 
 Ancien négociant et criminel en fuite
-Quarante ans
-Taille large, musclé
-Cheveux roux
+Prend le faux nom de Vautrin
+Surnommé Trompe-la-Mort
 
-Incarnation du mal
-Homosexuel
-Obligeant et rieur
-Séducteur
-Manière souple et liante
-Regard profond et plein de résolution
-Calculateur
+Apparence :
+
+- Quarante ans
+- Taille large, musclé
+- Cheveux roux (symbolise le démon)
+- Manière souple et liante
+- Regard profond et plein de résolution
+
+Caractère :
+
+- Homosexuel
+- Obligeant et rieur
+- Incarnation du mal
+	- Observateur
+	- Rusé et calculateur
+	- Séducteur
+	- Révoltant
 
 ### 3<sup>e</sup> étage
 
@@ -78,29 +87,69 @@ Calculateur
 Vieille fille
 Quasiment mariée à Michaunneau
 
-#### Père Goriot
+#### Jean-Joachim Goriot
 
-Ancien fabriquant de vermicelles, de pâtes d'Italie et d'amidon
+Ancien vermicellier qui a fait fortune durant la Révolution en vendant la farine trop cher
+Ruiné pour ses filles
+Rejeté par elles à cause de son lien à la Révolution
+Mort dans la pauvreté et l'oubli
+
 Soixante-neuf ans, le plus vieux des pensionnaires
-Bourgeois ruiné pour ses filles
+
+Caractère :
+
+- Habile et entreprenant
+- Stupide et grossier
+- Incarnation du père
+- Aime sa femme et ses filles avec désintéressement et déraison
 
 #### Eugène de Rastignac
 
 Jeune étudiant en droit venu d'Anglulême (Sud de la France)
-Teint blanc, cheveux noirs, yeux bleus
-Famille noble, nombreuse et pauvre
+Arrivé à Paris, il résout de réussir par la voie de l'étude, mais est tenté par la voie du mariage. Il quitte ses études.
 
-Curieux et observant
-Élégant
-Bien éduqué
-Naive, ne connaît pas les règles de Paris
-Ambitieux
+Apparence :
+
+- Teint blanc, cheveux noirs, yeux bleus
+- Famille noble, nombreuse et pauvre
+
+Caractère :
+
+- Curieux et observant
+- Élégant
+- Bien éduqué
+- Naive, ne connaît pas les règles de Paris -> perd son innocence
+	- Tire avantage de sa famille
+- Ambitieux
 
 ### Autres
 
+#### Clara de Beauséant
+
+L'une des reines de la mode de Paris
+Liée avec le marquis d'Ajuda-Pinto
+Cousine d'Eugène
+Trompée par son amant et se met en exil en Normandie
+
+#### Anastasie de Restaud
+
+L'une des filles du Père Goriot
+Mariée au comte de Restaud
+Rejette son père
+Rivale de Delphine
+Belle
+
 #### Delphine de Nucingen
 
-Fille du Père Goriot
+L'une des filles du Père Goriot
 Mariée au baron de Nucingen
+Rejette son père
+Belle
 
-Malheureuse dans son mariage
+Caractère :
+
+- Malheureuse dans son mariage
+- Équivoque
+- Jalouse d'Anastasie
+- Aime l'argent
+- Orgueilleuse et un peu égoïste

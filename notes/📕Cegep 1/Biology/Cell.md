@@ -18,16 +18,16 @@ All cells contain:
 
 An organism can only have one type of cell.
 
-### Prokaryotic
+### Prokaryote
 
-*No* nucleus, organelles nor an endomembrane system
+*No* organelles nor an endomembrane system
 Genetic information in the **nucleoid** region
 
 Found in *Archaea and Bacteria*
 
-### Eukaryotic
+### Eukaryote
 
-*Has* a nucleus, organelles and an endomembrane system
+*Has* organelles (incl. a nucleus) and an endomembrane system
 Some membranes have embedded enzymes
 
 Found in *Eukarya*

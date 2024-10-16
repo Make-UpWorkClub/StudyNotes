@@ -11,3 +11,13 @@ Unit of hereditary information made up of [[Nucleic Acid#Deoxyribonucleic acid|D
 
 > [!abstract] Locus
 > Fixed location that a gene occupies on a chromosome
+
+## Genetic variation
+
+Caused by:
+
+- Independent assortment of chromosomes
+	- Random orientation of tetrads on the metaphase plate
+- Crossing over of chromosomes during prophase I
+- Random fertilization of ova by sperm
+- Mutation

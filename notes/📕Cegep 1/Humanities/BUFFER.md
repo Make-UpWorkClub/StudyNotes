@@ -9,11 +9,6 @@ date: 2024-08-20T14:38:00
 
 ## 2024-08-27
 
-# Ahimsa
-
-Non-violence
-`Lit.` "against jealousy"
-
 # Kabir
 
 Medieval Indian saint who took positive elements from Hinduism and Islam
@@ -23,6 +18,10 @@ Against religious hypocrisy
 # Akbar
 
 Muslim Mughal emperor in India
+Grandson of Babur
+
+Want peace, order, stability
+Made alliance with neighbour kingdoms
 Want to meld all major world religions
 Symbol of religious tolerance
 
@@ -62,3 +61,17 @@ Born dalit
 # World Bank (IMF)
 
 Organisation that lends money to struggling countries, but imposes neo-liberal economic policies, e.g. reduction of subsidies, wages, to attract foreign investors
+
+## 2024-10-15
+
+# Taj Mahal
+
+Tomb of queen Mumtaz Mahal built by Shah Jahan
+
+Has mosque on the left side and jawab on the right side
+
+> [!abstract] Jawab
+> Non-functioning mosque built for symmetry
+> `Lit.` answer
+
+# 

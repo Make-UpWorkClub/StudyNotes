@@ -20,5 +20,6 @@ Two sides:
 
 - Cis side: *receives* vesicles from [[Endoplasmic Reticulum|ER]]
 - Trans side: *sends* vesicles to the endomembrane system
-	- To ER
 	- To the [[plasma membrane]] for secretion from the cell
+	- To ER
+	- To the cis side

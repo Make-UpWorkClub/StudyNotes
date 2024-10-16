@@ -5,8 +5,9 @@ tags:
 date: 2024-10-03T16:30:39
 ---
 
-# [[Nucleic Acid#Deoxyribonucleic acid|DNA]] Replication
+# DNA Replication
 
+Process during [[Interphase#S|S phase]] in which [[Nucleic Acid#Deoxyribonucleic acid|DNA]] makes a copy of itself
 **Semiconservative** (one original strand is preserved in each copy)
 
 ## Enzymes

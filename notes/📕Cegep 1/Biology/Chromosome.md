@@ -16,6 +16,12 @@ Contains 100-1000 [[Gene|genes]]
 > [!abstract] Sister chromatid
 > Each of the two identical copies of a chromosome after replication
 
+> [!abstract] Centromere
+> Middle section of a pair of chromatids that connects them together
+
+> [!abstract] Kinetochore
+> Protein located at the centromere
+
 > [!abstract] Homologous
 > (Of chromosomes) Similar in structure, but not identical
 

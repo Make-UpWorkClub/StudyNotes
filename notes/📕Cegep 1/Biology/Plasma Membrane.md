@@ -25,19 +25,21 @@ Requires energy
 
 ### Endocytosis
 
-Payload outside is wrapped by the plasma membrane into a transport vesicle.
+Payload outside is wrapped by the plasma membrane into a transport [[vesicle]].
 
 Requires energy
 
 #### Phagocytosis
 
-Typically for food or enemies
+The cell extends **pseudopodia** (`sing.` pseudopodium) that surrounds the particles.
+Forms a [[Vacuole|food vacuole]]
+When a macrophage engulfs a bacteria or when an amoeba engulfs its food
 
 #### Pinocytosis
 
-The formed vesicle is coated by protein.
+Forms a protein-coated vesicle
 
 #### Receptor-mediated endocytosis
 
 Specific molecules outside bind to receptors and are then wrapped.
-The formed vesicle is coated by protein.
+Forms a protein-coated vesicle

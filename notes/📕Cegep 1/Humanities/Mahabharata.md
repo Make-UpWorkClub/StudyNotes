@@ -26,10 +26,13 @@ DG-->Ks
 
 Ku-->Ka & Ps
 Sur---->Ka
-Dha---->Y & Dra-->Pr
-Va---->Bh & Dra-->Sutasom
-I---->A & Dra-->Srutaki
+Dha---->Y
+Va---->Bh
+I---->A
 As---->N & Sa
+Y & Dra-->Pr
+Bh & Dra-->Sutasom
+A & Dra-->Srutaki
 Sa & Dra-->Srutaka
 N & Dra-->Satatik
 
@@ -51,6 +54,7 @@ G(Ghandhâri)
 end
 subgraph Ks ["The Kauravas (100 brothers)"]
 Dur(Duryodhana)
+Dus(Dushasana)
 end
 
 subgraph PMK [Married]
@@ -73,7 +77,7 @@ N(Nakula)
 Sa(Sahadeva)
 end
 Dra(Draupadi
-Good wife)
+Independent wife)
 
 subgraph Gods
 Sur(Surya

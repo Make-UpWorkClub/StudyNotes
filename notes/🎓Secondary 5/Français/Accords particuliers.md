@@ -9,20 +9,20 @@ date: 2023-11-02 12:41
 
 ## Receveurs
 
-| Mot / exp.                        | Classe     | Particularité                                                                               | Accord                                              |
-| --------------------------------- | ---------- | ------------------------------------------------------------------------------------------- | --------------------------------------------------- |
-| à nu                              | Adv.       |                                                                                             | Invariable                                          |
-| demi                              | n.         | Dans l’expression *et demi*                                                                 | Avec le nom coordonné                               |
-| demi, mi, semi, demi-, mi-, semi- | Préfixe    | Ne prend pas de `-` devant un adjectif                                                      | Invariable                                          |
-| faire                             | v.         | Semi-auxiliaire                                                                             | Invariable                                          |
-| nu                                | Préfixe    |                                                                                             | Invariable                                          |
-| possible                          | Adv.       | Après un superlatif                                                                         | Invariable                                          |
-| quel que                          | Conj. sub. |                                                                                             | Avec le sujet de la phrase subordonnée              |
-| tel                               | Adj.       | Introduit un exemple                                                                        | Avec le complément                                  |
-| tel quel                          | Adj.       |                                                                                             | Variable                                            |
-| tout                              | Adv.       | Devant un adjectif féminin commençant par une consonne ou un [[H muet et aspiré\|h aspiré]] | Variable                                            |
-| *                                 | v.         | Impersonnel                                                                                 | Invariable                                          |
-| *                                 | v.         | Semi-auxiliaire                                                                             | Avec le CD si celui-ci fait l’action de l’infinitif |
+| Mot / exp.              | Classe     | Particularité                                                                               | Accord                                              |
+| ----------------------- | ---------- | ------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| à nu                    | Adv.       |                                                                                             | Invariable                                          |
+| demi                    | n.         | Dans l’expression *et demi*                                                                 | Avec le nom coordonné                               |
+| demi, demi-, mi-, semi- | Préfixe    | demi sans `-` devant un adjectif                                                            | Invariable                                          |
+| faire                   | v.         | Semi-auxiliaire                                                                             | Invariable                                          |
+| nu                      | Préfixe    |                                                                                             | Invariable                                          |
+| possible                | Adv.       | Après un superlatif                                                                         | Invariable                                          |
+| quel que                | Conj. sub. |                                                                                             | Avec le sujet de la phrase subordonnée              |
+| tel                     | Adj.       | Introduit un exemple                                                                        | Avec le complément                                  |
+| tel quel                | Adj.       |                                                                                             | Variable                                            |
+| tout                    | Adv.       | Devant un adjectif féminin commençant par une consonne ou un [[H muet et aspiré\|h aspiré]] | Variable                                            |
+| *                       | v.         | Impersonnel                                                                                 | Invariable                                          |
+| *                       | v.         | Semi-auxiliaire                                                                             | Avec le CD si celui-ci fait l’action de l’infinitif |
 
 > [!example]
 > - Les oiseaux que j’ai *entendus* chanter étaient nombreux. (les oiseaux chantent)

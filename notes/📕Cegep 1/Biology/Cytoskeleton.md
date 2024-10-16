@@ -31,14 +31,21 @@ Functions:
 Functions:
 
 - Maintains cell shape
-- Muscle contraction
-- Cell movement by pseudopodia formation during phagocytosis
+- Motility
+	- Muscle contraction
+	- Pseudopodia formation during phagocytosis
 - Cell division
 - Cytoplasmic streaming
 
+> [!abstract] Motility
+> Ability of a cell to move spontaneously and actively
+
+> [!abstract] Cytoplasmic streaming
+> Cycle of a stream of cytoplasm in a cell
+
 ### Intermediate filament
 
-Diverse class of proteins that contains **keratin**
+Diverse class of proteins, including **keratin**
 *Medium-size*
 
 Functions:

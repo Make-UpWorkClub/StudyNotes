@@ -12,7 +12,7 @@ Division of [[Somatic Cell|somatic cells]] into [[Gamete|gametes]]
 Properties:
 
 - *2* cell divisions
-- *4 different* daughter cells
+- *4 different haploid* daughter cells
 
 Phases:
 
@@ -22,9 +22,11 @@ Phases:
 	- Anaphase I
 	- Telophase I
 	- Cytokinesis I
-- Meiosis II **(identical to mitotic phase)**
+- Meiosis II **(similar to [[mitosis]])**
 	- Prophase II
 	- Metaphase II
 	- Anaphase II
 	- Telophase II
 	- Cytokinesis II
+
+> [!important] Meiosis includes cytokinesis, unlike meiosis.

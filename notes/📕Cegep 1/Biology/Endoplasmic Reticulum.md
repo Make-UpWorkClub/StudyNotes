@@ -25,7 +25,7 @@ Continuous with [[plasma membrane]]
 Functions:
 
 - [[Lipid]] synthesis
-- Carbohydrate metabolism
+- [[Carbohydrate]] metabolism
 - Drug and poison detoxification
 - $Ca^{2+}$ storage (in muscle cells)
 
