@@ -17,7 +17,6 @@ No requirement for priests
 ## History
 
 Spread by trade, conquest, conversion and mostly missionary activity of Sufis
-
 Attracted those marginalized by caste and socio-economic conditions
 
 ## Branches

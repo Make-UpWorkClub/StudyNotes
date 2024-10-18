@@ -21,9 +21,16 @@ Founded by some followers of Guru Nanak
 Guru Tegh Bahadur was beheaded
 Sikhs militarized in response
 
-## Concepts
+1984: Bhindranwale and his group occupied the Golden Temple, demand the formation of a sikh country, **Khalistan**. He was killed in Operation Blue Star in the Golden Temple, sparking Sikh outrage. Angry Sikhs assassinated Indira Gandhi.
 
+2023: Khalistan leader was killed in Canada 
+
+## Concepts
 
 ### 5 Ks
 
-Requirements 
+Requirements
+
+### Qawwali
+
+Muslim devotional music

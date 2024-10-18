@@ -12,12 +12,12 @@ Also instantaneous rate of change of the function at the tangent point
 The derivative of $f$ at $x$ is
 
 $$
-f'(x) = y' = \frac{d}{dx}[f(x)] = \frac{dy}{dx} = \lim_{ h \to 0 } \frac{f(x + h) - f(x)}{h}
+f'(x) = y' = \frac{\mathrm{d}}{\mathrm{d}x}[f(x)] = \frac{\mathrm{d}y}{\mathrm{d}x} = \lim_{ h \to 0 } \frac{f(x + h) - f(x)}{h}
 $$
 
 > [!info] $\frac{f(x + h) - f(x)}{h}$ is called the **difference quotient**.
 
-> [!info] $\frac{dy}{dx}$ is called the **differentiation operator**, or formally Leibniz's notation, and means "take the derivative with respect to $x$."
+> [!info] $\frac{\mathrm{d}y}{\mathrm{d}x}$ is called the **differentiation operator**, or formally Leibniz's notation, and means "take the derivative with respect to $x$."
 
 > [!warning]+
 > $f'(a)$ stands for derivative at $a$ while $\frac{d}{dx} f(a)$ is derivative at $y = f(a)$, which is always 0.
@@ -42,6 +42,19 @@ f'_+(a) = \lim_{ h \to 0^+ } \frac{f(a + h) - f(a)}{h}
 $$
 
 > [!important] $f'(x) = L \iff f'_-(x) = f'_+(x) = L$
+
+## Order
+
+The $n$ <sup>th</sup> order derivative of $f$ is:
+
+|   $n$    |       $f^{(n)}(x)$        |      $y^{(n)}$      | $\frac{\mathrm{d}^n}{\mathrm{d}x^n}f(x)$ | $\frac{\mathrm{d}^ny}{\mathrm{d}x^n}$ |
+|:--------:|:-------------------------:|:-------------------:|:----------------------------------------:|:-------------------------------------:|
+|    0     |  $f(x)$ or $f^{(0)}(x)$   |  $y$ or $y^{(0)}$   | $\frac{\mathrm{d}^0}{\mathrm{d}x^0}f(x)$ | $\frac{\mathrm{d}y^0}{\mathrm{d}x^0}$ |
+|    1     |  $f'(x)$ or $f^{(1)}(x)$  |  $y'$ or $y^{(1)}$  |   $\frac{\mathrm{d}}{\mathrm{d}x}f(x)$   |   $\frac{\mathrm{d}y}{\mathrm{d}x}$   |
+|    2     | $f''(x)$ or $f^{(2)}(x)$  | $y''$ or $y^{(2)}$  | $\frac{\mathrm{d}^2}{\mathrm{d}x^2}f(x)$ | $\frac{\mathrm{d}y^2}{\mathrm{d}x^2}$ |
+|    3     | $f'''(x)$ or $f^{(3)}(x)$ | $y'''$ or $y^{(3)}$ | $\frac{\mathrm{d}^3}{\mathrm{d}x^3}f(x)$ | $\frac{\mathrm{d}y^3}{\mathrm{d}x^3}$ |
+|    4     |       $f^{(4)}(x)$        |      $y^{(4)}$      | $\frac{\mathrm{d}^4}{\mathrm{d}x^4}f(x)$ | $\frac{\mathrm{d}y^4}{\mathrm{d}x^4}$ |
+| $\vdots$ |         $\vdots$          |      $\vdots$       |                 $\vdots$                 |               $\vdots$                |
 
 ## Implicit differentiation
 

@@ -14,6 +14,11 @@ Family of nucleotides made of adenine, ribose and *n* phosphates
 `Abbr.` ATP
 n = *3*
 Energy source of cells, can be stored
+Hydrolysis of ATP is **highly exergonic** and powers endergonic reactions through **energy coupling**:
+
+- Synthesis
+- Intracellular transport (e.g. active transport)
+- Mechanical work
 
 Produced by phosphofructokinase (`abbr.` PFK)
 Allosteric *inhibitor* of PFK
