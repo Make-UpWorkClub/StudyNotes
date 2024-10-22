@@ -130,3 +130,22 @@ $$
 - $\frac{d}{dx}\sec x = \tan x\sec x$
 - $\frac{d}{dx}\csc x = -\cot x\csc x$
 - $\frac{d}{dx}\cot x = -\csc ^2x$
+
+## Examples
+
+Find the derivative of $y = \sqrt[4]{x + \sqrt[5]{x + \sqrt[4]{x}}}$.
+
+Let $4rt(x) = \sqrt[4]{x},\ 5rt(x) = \sqrt[5]{x}$,
+then $4rt'(x) = \frac{1}{4}x^{1/4 - 1} = \frac{1}{4}x^{-3/4},\ 5rt'(x) = \frac{1}{5}x^{1/5 - 1} = \frac{1}{5}x^{-4/5}$.
+
+$$
+\begin{align}
+y' & = \frac{\mathrm{d}}{\mathrm{d}x} \sqrt[4]{x + \sqrt[5]{x + \sqrt[4]{x}}} \\
+ & = \frac{\mathrm{d}}{\mathrm{d}x} 4rt(x + 5rt(x + 4rt(x))) \\
+ & = 4rt'(x + 5rt(x + 4rt(x)))\cdot\frac{\mathrm{d}}{\mathrm{d}x} (x + 5rt(x + 4rt(x))) \\
+ & = 4rt'(x + 5rt(x + 4rt(x)))\cdot \left(1 + \frac{\mathrm{d}}{\mathrm{d}x} 5rt(x + 4rt(x))\right) \\
+ & = \frac{1}{4}(x + 5rt(x + 4rt(x)))^{-3/4}\cdot\left(1 + 5rt'(x + 4rt(x))\cdot\frac{\mathrm{d}}{\mathrm{d}x} (x + 4rt(x))\right) \\
+ & = \frac{1}{4}(x + \sqrt[5]{x + \sqrt[4]{x}})^{-3/4}\cdot\left(1 + \frac{1}{5}(x + 4rt(x))^{-4/5}\cdot(1 + 4rt'(x))\right) \\
+ & = \frac{1}{4}(x + \sqrt[5]{x + \sqrt[4]{x}})^{-3/4}\cdot\left(1 + \frac{1}{5}(x + \sqrt[4]{x})^{-4/5}\cdot\left(1 + \frac{1}{4}x^{-3/4}\right)\right) \\
+\end{align}
+$$

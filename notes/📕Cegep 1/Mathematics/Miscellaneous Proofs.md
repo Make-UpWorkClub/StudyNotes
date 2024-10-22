@@ -99,6 +99,8 @@ $$
 \lim_{ x \to 0 } \frac{\sin x}{x} = 1
 $$
 
+$\square$
+
 ## Derivative of a constant
 
 > [!abstract] $\frac{d}{dx}c = 0$ for $c \in \mathbb{R}$
@@ -115,6 +117,8 @@ f'(x) & = \lim_{ h \to 0 } \frac{f(x + h) - f(x)}{h} \\
 \end{align}
 $$
 
+$\square$
+
 ## Derivative of function times a constant
 
 > [!abstract]+
@@ -129,13 +133,88 @@ Let $g(x) = cf(x)$, then
 $$
 \begin{align}
 \frac{d}{dx}(cf(x)) = g'(x) & = \lim_{ h \to 0 } \frac{g(x + h) - g(x)}{h} \\
- & = \lim_{ h \to 0 } cf(x + h) - f(x)
+ & = \lim_{ h \to 0 } \frac{cf(x + h) - cf(x)}{h} \\
+ & = c\lim_{ h \to 0 } \frac{f(x + h) - f(x)}{h} \\
+ & = cf'(x)
 \end{align}
 $$
 
+$\square$
+
+## Derivative of sum / difference
+
+> [!abstract]+
+> Let $f$ and $g$ be differentiable functions, then
+> 
+> $$
+> \frac{\mathrm{d}}{\mathrm{d}x} (f(x) \pm g(x)) = \frac{\mathrm{d}}{\mathrm{d}x} f(x) \pm \frac{\mathrm{d}}{\mathrm{d}x} g(x)
+> $$
+
+Let $s(x) = f(x) \pm g(x)$, then
+
+$$
+\begin{align}
+\frac{\mathrm{d}}{\mathrm{d}x} (f(x) \pm g(x)) = s'(x) & = \lim_{ h \to 0 } \frac{s(x + h) - s(x)}{h} \\
+ & = \lim_{ h \to 0 } \frac{(f(x + h) \pm g(x + h)) - (f(x) \pm g(x))}{h} \\
+ & = \lim_{ h \to 0 } \frac{(f(x + h) - f(x)) \pm(g(x + h) - g(x))}{h} \\
+ & = \lim_{ h \to 0 } \frac{f(x + h) - f(x)}{h} \pm \lim_{ h \to 0 } \frac{g(x + h) - g(x)}{h} \\
+ & = f'(x) \pm g'(x)
+\end{align}
+$$
+
+$\square$
+
 ## Derivative of $\sin x$
 
+> [!abstract] $\frac{\mathrm{d}}{\mathrm{d}x} \sin x = \cos x$
+
+Let $f(x) = \sin x$.
+
+$$
+f'(x) = \lim_{ h \to 0 } \frac{f(x + h) - f(x)}{h} = \lim_{ h \to 0 } \frac{\sin(x + h) - \sin x}{h}
+$$
+
+Using the sine rule for sums,
+
+$$
+\begin{align}
+ & = \lim_{ h \to 0 } \frac{\sin x\cos h + \cos x\sin h - \sin x}{h} \\
+ & = \lim_{ h \to 0 } \frac{\sin x(\cos h - 1) + \cos x\sin h}{h} \\
+ & = \lim_{ h \to 0 } \frac{\sin x(\cos h - 1)}{h} + \lim_{ h \to 0 } \frac{\cos x\sin h}{h} \\
+ & = \sin x\lim_{ h \to 0 } \frac{\cos h - 1}{h} + \cos x\lim_{ h \to 0 } \frac{\sin h}{h} \\
+ & = \cos x
+\end{align}
+$$
+
+$\square$
+
+## Derivative of $\cos x$
+
+> [!abstract] $\frac{\mathrm{d}}{\mathrm{d}x} \cos x = -\sin x$
+
+Let $f(x) = \sin x$.
+
+$$
+f'(x) = \lim_{ h \to 0 } \frac{f(x + h) - f(x)}{h} = \lim_{ h \to 0 } \frac{\cos(x + h) - \cos x}{h}
+$$
+
+Using the cosine rule for sums,
+
+$$
+\begin{align}
+ & = \lim_{ h \to 0 } \frac{\cos x\cos h - \sin x\sin h - \cos x}{h} \\
+ & = \lim_{ h \to 0 } \frac{\cos x(\cos h - 1) - \sin x\sin h}{h} \\
+ & = \lim_{ h \to 0 } \frac{\cos x(\cos h - 1)}{h} - \lim_{ h \to 0 } \frac{\sin x\sin h}{h} \\
+ & = \cos x\lim_{ h \to 0 } \frac{\cos h - 1}{h} - \sin x\lim_{ h \to 0 } \frac{\sin h}{h} \\
+ & = -\sin x
+\end{align}
+$$
+
+$\square$
+
 ## Derivative of $\tan x$
+
+> [!abstract] $\frac{\mathrm{d}}{\mathrm{d}x}\tan x = \sec^2x$
 
 $$
 \begin{align}
@@ -148,15 +227,44 @@ $$
 \end{align}
 $$
 
-## Derivative of $\cot x$
+$\square$
+
+## Derivative of $\sec x$
+
+> [!abstract] $\frac{\mathrm{d}}{\mathrm{d}x}\sec x = \sec x\tan x$
 
 $$
 \begin{align}
-\frac{d}{dx}\cot x & = \frac{d}{dx} \frac{\cos x}{\sin x} \\
-& = \frac{\sin x(\cos x)' - \cos x(\sin x)'}{\sin ^2x} \\
-& =  \\
+\frac{\mathrm{d}}{\mathrm{d}x} \sec x & = \frac{\mathrm{d}}{\mathrm{d}x} \frac{1}{\cos x} \\
+ & = \frac{\cos x(1)' - (\cos x)'}{\cos^2x} \\
+ & = \frac{\cos x\cdot0 - (-\sin x)}{\cos^2x} \\
+ & = \sin \frac{x}{\cos^2x} \\
+ & = \frac{1}{\cos x}\cdot \frac{\sin x}{\cos x} \\
+ & = \sec x\tan x
 \end{align}
 $$
+
+$\square$
+
+## Derivative of $\csc x$
+
+> [!abstract] $\frac{\mathrm{d}}{\mathrm{d}x}\csc x = -\csc x\cot x$
+
+$$
+\begin{align}
+\frac{d}{dx}\csc x & = \frac{d}{dx} \frac{1}{\sin x} \\
+ & = \frac{\sin x(1)' - (\sin x)'}{\sin ^2x} \\
+ & =  \frac{\sin x\cdot0 - \cos x}{\sin^2x} \\
+ & = -\frac{\cos x}{\sin^2x} \\
+ & = -\frac{1}{\sin x}\cdot \frac{\cos x}{\sin x} \\
+ & = -\csc x\cot x
+\end{align}
+$$
+
+$\square$
+
+## Derivative of $\cot x$
+
 
 ## Derivative of $\log_bx$
 

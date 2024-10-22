@@ -8,11 +8,17 @@ date: 2024-10-10T15:07:58
 # Jainism
 
 [[Religion]] originated in [[South Asia]]
-Is inspired by [[Hinduism]] and [[Jainism]]
+Inspired by [[Hinduism]] and [[Buddhism]]
 
 Small but influential
-Vegetarian
-Emphasizes ahimsa
+Permits marriage
+
+Principles:
+
+- Ahimsa
+	- Vegetarianism
+- Self-Discipline
+- Non-Possessiveness
 
 ## Concepts
 
@@ -23,3 +29,10 @@ Emphasizes ahimsa
 ### Great Vows
 
 Monastic path taken by Jain monks
+
+### Moksha
+
+Liberation from samsara
+
+Ultimate goal of Jainism
+Similar to Nirvana in Buddhism

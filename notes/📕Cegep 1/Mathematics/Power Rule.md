@@ -15,6 +15,11 @@ $$
 \frac{d}{dx}x^n = nx^{n - 1}
 $$
 
+
+## General Power Rule
+
+
+
 ## Proof
 
 > [!info] For now, this proof is only for $n \in \mathbb{N}$.
@@ -46,3 +51,5 @@ $$
  & = na^{n - 1}
 \end{align}
 $$
+
+$\square$

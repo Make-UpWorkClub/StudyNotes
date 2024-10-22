@@ -27,3 +27,14 @@ Module + angle par rapport à une orientation
 > [!example]+
 > 5 à 30° à gauche du haut
 > 5 à 60° en haut de la gauche
+
+## 2024-10-21
+
+# Travail
+
+Changement d'énergie fait par une force sur une distance
+Produit scalaire de la force et du déplacement
+
+$$
+W = \overset{\to}{F}\cdot\Delta \overset{\to}{r}
+$$

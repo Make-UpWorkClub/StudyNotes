@@ -20,3 +20,9 @@ In other words, if we let $u = f(x)$,
 $$
 \frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx}
 $$
+
+## Proof
+
+Proof is too hard nvm
+
+$\square$

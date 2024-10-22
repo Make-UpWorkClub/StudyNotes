@@ -21,8 +21,3 @@ Short story in Hindi by Premchand
 - Gond: adivasi
 - Pandit Ghasiram: priest living in a brahmin village
 - Panditayin: wife of Pandit
-
-## Plot
-
-Dukhi works with all his devotion, but 
-

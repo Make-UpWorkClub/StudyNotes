@@ -19,12 +19,23 @@ No requirement for priests
 Spread by trade, conquest, conversion and mostly missionary activity of Sufis
 Attracted those marginalized by caste and socio-economic conditions
 
+## Deities
+
+One god and one prophet Muhammad
+
 ## Branches
 
-### Shia
+- **Shia**
+	- Usually more *liberal*
+- **Sunni**
+	- Usually more *orthodox*
 
-Usually more *liberal*
+## Concepts
 
-### Sunni
+### Five Pillars
 
-Usually more *orthodox*
+1. Belief in God and Muhammad
+2. Prayer 5 times per day
+3. Fasting once per year during the month of Ramadan
+4. Charity
+5. Pilgrimage to Mecca at least once in a lifetime

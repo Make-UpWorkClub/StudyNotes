@@ -180,3 +180,9 @@ h'(y) & = \frac{\mathrm{d}}{\mathrm{d}y} h(y) \\
  & = \sec ^2(\sec((y^3 + 1)^4))\sec((y^3 + 1)^4)\tan((y^3 + 1)^4)4(y^3 + 1)^33y^2
 \end{align}
 $$
+
+## 2024-10-21
+
+Questions:
+
+- Not write add 0 in product rule?

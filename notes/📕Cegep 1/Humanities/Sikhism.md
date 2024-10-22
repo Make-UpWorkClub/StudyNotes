@@ -18,8 +18,7 @@ Requires an initiation ceremony
 
 Founded by some followers of Guru Nanak
 
-Guru Tegh Bahadur was beheaded
-Sikhs militarized in response
+Guru Tegh Bahadur was beheaded -> Guru Gobind Singh founded the warrior community
 
 1984: Bhindranwale and his group occupied the Golden Temple, demand the formation of a sikh country, **Khalistan**. He was killed in Operation Blue Star in the Golden Temple, sparking Sikh outrage. Angry Sikhs assassinated Indira Gandhi.
 
@@ -27,10 +26,22 @@ Sikhs militarized in response
 
 ## Concepts
 
+### Guru
+
+Teacher
+11 in total
+
 ### 5 Ks
 
-Requirements
+5 symbols of Sikhism
+Required for observant Sikhs
 
-### Qawwali
+### Kaur
 
-Muslim devotional music
+Title for Sikh women
+`Lit.` princess
+
+### Singh
+
+Title for Sikh men
+`Lit.` lion

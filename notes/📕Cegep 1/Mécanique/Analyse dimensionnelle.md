@@ -23,6 +23,12 @@ $$
 \end{align}
 $$
 
-$W = F\cdot d$
-
-$J = N\cdot m$
+$$
+\begin{align}
+[W] & = [Fd\cdot \cos\theta] \\
+ & = Nm \\
+ & = kg\cdot\frac{m}{s^2}\cdot m \\
+ & = kg\cdot \frac{m^2}{c^2} \\
+ & = J
+\end{align}
+$$

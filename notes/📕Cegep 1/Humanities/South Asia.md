@@ -7,7 +7,7 @@ date: 2024-08-21T01:20:00
 
 # South Asia
 
-> [!info]+ Terms used interchangeably in this course:
+> [!info]- Terms used interchangeably in this course:
 > - India
 > - South Asia
 > - sub-continent
@@ -15,12 +15,12 @@ date: 2024-08-21T01:20:00
 
 Comprised of:
 
-- India (C)
-- Pakistan (W)
-- Bangladesh (E)
-- Sri Lanka (S)
-- Bhutan (NE)
-- Nepal (N)
+- India
+- Pakistan
+- Bangladesh
+- Sri Lanka
+- Bhutan
+- Nepal
 
 ## Population
 
@@ -51,9 +51,25 @@ High religion diversity
 
 ## Geography
 
-- North: Himalayas
-- West: Arabian Sea
-- East: Bay of Bengal
+- Center:
+	- India
+- North:
+	- Nepal
+	- Himalayas
+- Northwest:
+	- Pakistan
+	- Khyber Pass connects Afghanistan and Pakistan
+- West:
+	- Arabian Sea
+- South:
+	- Sri Lanka
+- East:
+	- Bangladesh
+	- Bay of Bengal
+- Northeast:
+	- Bhutan
+
+![[South Asia.png|500]]
 
 ## History
 
@@ -63,6 +79,10 @@ Pastoral lifestyle and adherence to Vedas
 
 Establishment of the caste system
 Systematization of preexisting beliefs into Hinduism
+
+### 711: Muslim invasion
+
+Muhammad bin Qasim conquered parts of modern Pakistan along Indus river -> spread of Islam
 
 ### 1947: Indian Independence Act
 

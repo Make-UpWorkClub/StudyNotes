@@ -13,7 +13,7 @@ Polytheistic [[religion]] or atheistic philosophy originated in [[South Asia]]
 Diverse, flexible and open-minded
 Tolerant of other religions, atheism and agnosticism
 Absorbs traditions, aspects and beliefs of other religions into its own, e.g. Jesus Christ as avatar of Vishnu
-
+Moksha
 > [!quote]+ Bhagavad Gita
 > "Whosoever follows any faith and worships me under whatsoever denomination in whatsoever form with steadfastness, his faith shall I indeed reinforce." —Lord Krishna
 
@@ -27,6 +27,10 @@ Many hands = great capabilities
 > Half-male half-female deity
 
 ## Concepts
+
+### Bhakti
+
+Hindu mysticism what emphasizes devotion and love
 
 ### Maya
 
@@ -48,10 +52,3 @@ One's duty
 
 Spiritual discipline for self-realization and samsara
 3 levels
-
-### Karma
-
-Action
-Actions in the current life will influence the reincarnation 
-Good actions -> good karma -> rewarded
-Bad actions -> bad karma -> punished

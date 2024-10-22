@@ -13,7 +13,8 @@ date: 2024-08-20T14:38:00
 
 Medieval Indian saint who took positive elements from [[Hinduism]] and [[Islam]]
 
-Against religious hypocrisy
+Against religious hypocrisy (not adhering to the spirit of religion)
+Venerated by Hindi, Muslims and [[Sikhism|Sikhs]]
 
 # Akbar
 
@@ -35,9 +36,3 @@ Coined the term "dalit"
 
 Former president of India (1997-2002)
 Born dalit
-
-## 2024-09-26
-
-# World Bank (IMF)
-
-Organisation that lends money to struggling countries, but imposes neo-liberal economic policies, e.g. reduction of subsidies, wages, to attract foreign investors
