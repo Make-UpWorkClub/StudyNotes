@@ -7,7 +7,7 @@ date: 2024-10-15T14:28:11
 
 # Islam
 
-Monotheist [[religion]]
+Monotheistic [[religion]]
 Has influence on [[South Asia]]
 
 Egalitarian, casteless

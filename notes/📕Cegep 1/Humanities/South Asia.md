@@ -84,6 +84,10 @@ Systematization of preexisting beliefs into Hinduism
 
 Muhammad bin Qasim conquered parts of modern Pakistan along Indus river -> spread of Islam
 
+### 1526-1857: Mughal India
+
+1526: Babur defeated the last Lodi ruler and established the Mughal Empire
+
 ### 1947: Indian Independence Act
 
 Partition of British India into India and Pakistan

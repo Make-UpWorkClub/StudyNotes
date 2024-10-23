@@ -1,6 +1,6 @@
 ---
 tags:
-  - Cegep
+  - Cegep1
   - Humanities
 date: 2024-10-15T14:58:46
 ---
