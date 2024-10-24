@@ -34,3 +34,5 @@ Louise dit à Lucien que roi peut lui accorder le nom de Rubempré s'il arrête 
 Lucien se joint au nouveau journal royaliste avec Nathan. Il écrit quelques critiques anonymes pour se concilier avec son ancien journal. Louise le soutient financièrement.
 
 Coralie est sifflée à son spectacle, car les libéraux, se tournant contre Lucien, ont acheté la faveur de Singali à un prix plus élevé. Écœurée, elle se meurt. Les lettres anonymes de Lucien sont découverts par les royalistes, car Finot a inclu sa signature.
+
+Coralie meurt. Eugène quitte Paris. Nathan écrit l'histoire d'Eugène.

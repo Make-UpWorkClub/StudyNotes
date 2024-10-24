@@ -7,7 +7,7 @@ date: 2024-10-08T17:15:20
 
 # Buddhism
 
-[[Religion]] or philosophy originated in [[South Asia]]
+[[Indian religion]] or philosophy
 Inspired by [[Hinduism]] and [[Jainism]]
 
 Open-minded
@@ -66,11 +66,11 @@ Four core beliefs of Buddhism
 1. **Dukkha**: the world is full of suffering
 2. Samudaya: suffering is caused by desire
 3. Nirodha: eliminate suffering by eliminating desire
-4. Magga: eliminate desire by following the Eight-Fold Path
+4. Magga: eliminate desire by following the Eightfold Path
 
-### Eight-Fold Path
+### Eightfold Path
 
-Path taken by Buddhist monks to reduce bad karma and to attain Nirvana
+Path taken by Buddhists to attain Nirvana
 
 ### Nirvana
 

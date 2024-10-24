@@ -7,11 +7,12 @@ date: 2024-10-17T14:47:57
 
 # Sufism
 
-Belief and tradition in [[Islam]] that focuses on "losing oneself to merge with God"
+[[Islam|Islamic]] [[mysticism]] and mode of religious life
+Shows a personalized path to "lose oneself to merge with God," or "to be dead to oneself and alive in God"
 
-Controversial:
+Emphasizes simplicity and equality => popular with the socially marginalized, e.g. women and lower castes
 
-- Mixes music with prayer
+Controversial for mixing music with prayer
 
 ## Concepts
 
@@ -25,6 +26,6 @@ Spiritual practice that involves music, chanting, poetry, and sometimes dance, w
 
 ### Qawwali
 
-Sufi devotional music
+Muslim devotional music unique to South Asia
 Can be long or short
-Creates an atmosphere for Sufi gatherings
+Often performed in Sufi gatherings to create atmosphere

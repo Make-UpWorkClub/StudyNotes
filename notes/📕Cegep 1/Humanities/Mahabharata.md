@@ -15,6 +15,26 @@ Resembles a long journey with many side stories
 
 > [!quote] "Whatever here is found elsewhere. But whatever is not here is nowhere else."
 
+## Worldview aspects
+
+- Relationships, roles, obligations, loyalties
+	- Family
+		- Draupadi staying loyal by not taking off her clothes
+		- Ghandâri blindfolding herself to not be superior to her husband
+	- Teacher, student
+		- Ekalavya, being absolutely obedient to Drona, cuts off his thumb.
+- Morality, ethics, righteousness
+	- Generosity
+		- The Pandavas must share Draupadi among them.
+	- Modesty
+		- Draupadi refusing additional wishes granted to her
+- Conundrums
+	- Family loyalty and duty take precedence over righteousness.
+		- The Pandavas accepting to be played by Yudhishthhira
+	- Also righteousness takes precedence over family loyalty and duty.
+		- The Pandavas fighting their family and friends
+		- Krishna convincing Arjuna that fighting his family and friends is justified
+
 ## Characters
 
 ```mermaid
@@ -101,20 +121,6 @@ Avatar of Vishnu)
 Particularly sacred section in Mahabharata
 Conversation between Vishnu as Krishna and warrior Arjuna
 Arjuna has crisis because he must fight people he loves and respects
-
-## [[Worldview]] aspects
-
-- Family relationships, roles, obligations, loyalties
-	- Father, mother, son, daughter, husband, wife
-- Caste
-- Teacher-student relationship
-	- Respect, deference, absolute obedience
-- Gender constructs, norms
-	- Man, woman
-- Morality, ethics, righteousness
-- Conundrums (conflicts of kinship and friendship)
-	- Family loyalty and duty take precedence over righteousness.
-	- Also righteousness takes precedence over family loyalty and duty.
 
 ## Resume
 

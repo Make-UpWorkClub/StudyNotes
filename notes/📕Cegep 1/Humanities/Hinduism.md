@@ -7,7 +7,7 @@ date: 2024-10-08T17:20:24
 
 # Hinduism
 
-Polytheistic [[religion]] or atheistic philosophy originated in [[South Asia]]
+Polytheistic [[Indian religion]] or atheistic philosophy
 `Drv.` Sindhu (now Indus) -> Hindus -> Hinduism
 
 Diverse, flexible and open-minded
@@ -26,11 +26,25 @@ Many hands = great capabilities
 > [!abstract] Ardhanarisvara
 > Half-male half-female deity
 
+## Epics
+
+Two sacred epics: Mahabharata and Ramayana
+
+Worldview aspects:
+
+- Relationships, roles, obligations, loyalties
+	- Father, mother, son, daughter, husband, wife
+	- Teacher, student
+		- Respect, deference, absolute obedience
+- Caste
+- Gender constructs, norms
+	- Women and men
+- Morality, ethics, righteousness
+- Conundrums (conflicts of kinship and friendship)
+	- Family loyalty and duty take precedence over righteousness.
+	- Also righteousness takes precedence over family loyalty and duty.
+
 ## Concepts
-
-### Bhakti
-
-Hindu mysticism what emphasizes devotion and love
 
 ### Maya
 

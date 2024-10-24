@@ -8,7 +8,6 @@ date: 2024-10-15T14:28:11
 # Islam
 
 Monotheistic [[religion]]
-Has influence on [[South Asia]]
 
 Egalitarian, casteless
 Theologically simple
@@ -16,8 +15,26 @@ No requirement for priests
 
 ## History
 
+Arrived in South Asia by trade
 Spread by trade, conquest, conversion and mostly missionary activity of Sufis
 Attracted those marginalized by caste and socio-economic conditions
+
+### Influence on [[South Asia]]
+
+- Religion
+	- Inspired the creation of Sikhism
+	- Inspired the creation of bhakti
+	- Increased emphasis on monotheism
+- Culture
+	- Miniature painting style
+	- Architecture
+	- Qawwali
+	- Introduction of Persian
+	- Urdu
+- Society
+	- Increased rejection of the caste system
+- Politics
+	- Centralized government with non-hereditary local representatives
 
 ## Deities
 

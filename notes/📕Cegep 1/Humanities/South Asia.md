@@ -13,14 +13,27 @@ date: 2024-08-21T01:20:00
 > - sub-continent
 > - Indian sub-continent
 
-Comprised of:
+## Geography
 
-- India
-- Pakistan
-- Bangladesh
-- Sri Lanka
-- Bhutan
-- Nepal
+- Center:
+	- **India**
+- North:
+	- **Nepal**
+	- Himalayas
+- Northwest:
+	- **Pakistan**
+	- Khyber Pass connects Afghanistan and Pakistan
+- West:
+	- Arabian Sea
+- South:
+	- **Sri Lanka**
+- East:
+	- **Bangladesh**
+	- Bay of Bengal
+- Northeast:
+	- **Bhutan**
+
+![[South Asia.png|500]]
 
 ## Population
 
@@ -29,15 +42,14 @@ Comprised of:
 
 ## Religion
 
-High religion diversity
+High religious diversity
 
-- Originated in South Asia:
+- Indian religions:
 	- **Hinduism**
 		- Main religion of *India* and *Nepal*
 	- **Buddhism**
 		- Main religion of *Bhutan* and *Sri Lanka*
 	- Sikhism
-		- Elements from Hinduism and Islam
 	- Jainism
 	- Indigenous belief systems
 		- Animism (veneration of plants, trees, water, earth)
@@ -48,28 +60,6 @@ High religion diversity
 	- Christianity
 		- Arrived in 1<sup>st</sup> Century CE
 	- Religion-like traditions
-
-## Geography
-
-- Center:
-	- India
-- North:
-	- Nepal
-	- Himalayas
-- Northwest:
-	- Pakistan
-	- Khyber Pass connects Afghanistan and Pakistan
-- West:
-	- Arabian Sea
-- South:
-	- Sri Lanka
-- East:
-	- Bangladesh
-	- Bay of Bengal
-- Northeast:
-	- Bhutan
-
-![[South Asia.png|500]]
 
 ## History
 
@@ -82,25 +72,25 @@ Systematization of preexisting beliefs into Hinduism
 
 ### 711: Muslim invasion
 
-Muhammad bin Qasim conquered parts of modern Pakistan along Indus river -> spread of Islam
+Muhammad bin Qasim conquered parts of modern Pakistan along Indus river -> greater Islamic influence
+
+### 1206-1526: Delhi Sultanate
 
 ### 1526-1857: Mughal India
 
-1526: Babur defeated the last Lodi ruler and established the Mughal Empire
+- 1526: Babur defeated the last ruler of the Delhi Sultanate and established the Mughal Empire
 
-### 1947: Indian Independence Act
+### Colonial India
 
-Partition of British India into India and Pakistan
+- 1857: The British exiled Bahadur Shah, the last emperor of the Mughal Empire
 
-Legal attempts to erase caste inequalities
+### Post-Colonial India
 
-Affirmative action (positive discrimination)
-
-### 1971: Proclamation of Bangladesh Independence
-
-Independence of Bangladesh from Pakistan
-
-### 1992: Destruction of Babri Masjid
-
-Hindus destroy Babri Masjid, a mosque in Ayodhya, India
-=> Intercommunal conflict between Hindus and Muslims
+- 1947: Indian Independence Act
+	- Partition of British India into India and Pakistan
+	- Legal attempts to erase caste inequalities
+		- Affirmative action (positive discrimination)
+- 1971: Proclamation of Bangladesh Independence
+	- Independence of Bangladesh from Pakistan
+- 1992: Hindus destroy Babri Masjid, a mosque in Ayodhya, India
+	- Intercommunal conflict between Hindus and Muslims

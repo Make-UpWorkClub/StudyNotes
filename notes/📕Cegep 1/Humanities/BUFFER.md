@@ -9,8 +9,6 @@ date: 2024-08-20T14:38:00
 
 ## 2024-08-27
 
-
-
 # B. R. Ambedkar
 
 Born dalit, converted to [[Buddhism]]
