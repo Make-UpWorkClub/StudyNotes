@@ -51,3 +51,21 @@ y' & = y\ln y\left( \ln x + 1 + \frac{1}{x\ln x} \right) \\
  & = x^{x^x}\ln x^{x^x}\left( \ln x + 1 + \frac{1}{x\ln x} \right)
 \end{align}
 $$
+
+---
+
+Find the derivative of $f(x) = \sqrt[3]{\frac{\sqrt{x}e^{x^2}(x^7 + 2)^{-3}}{\cos^2x}}$.
+
+$$
+\begin{align}
+y & = \sqrt[3]{\frac{\sqrt{x}e^{x^2}(x^7 + 2)^{-3}}{\cos^2x}} \\
+\implies \ln y & = \ln \sqrt[3]{\frac{\sqrt{x}e^{x^2}(x^7 + 2)^{-3}}{\cos^2x}} \\
+ & = \frac{1}{3}(\ln(\sqrt{x}e^{x^2}(x^7 + 2)^{-3}) - \ln \cos^2x) \\
+ & = \frac{1}{3}(\ln \sqrt{x} + \ln e^{x^2} + \ln(x^7 + 2)^{-3} - \ln \cos^2x) \\
+ & = \frac{1}{3}(\ln \sqrt{x} + x^2 - 3\ln(x^7 + 2) - \ln \cos^2x) \\
+\implies \frac{\mathrm{d}}{\mathrm{d}x} \ln y & = \frac{\mathrm{d}}{\mathrm{d}x} \left( \frac{1}{3}(\ln \sqrt{x} + x^2 - 3\ln(x^7 + 2) - \ln \cos^2x) \right) \\
+\frac{y'}{y} & = \frac{1}{3}\left( \frac{\sqrt{x}'}{\sqrt{x}} + 2x - \frac{3(x^7 + 2)'}{x^7 + 2} - \frac{(\cos^2x)'}{\cos^2x} \right) \\
+ & = \frac{1}{3}\left(  \frac{\frac{1}{2}x^{-1/2}}{\sqrt{x}} + 2x - \frac{21x^6}{x^7 + 2} + \frac{2\cos x\sin x}{\cos^2x} \right) \\
+y' & = \sqrt[3]{\frac{\sqrt{x}e^{x^2}(x^7 + 2)^{-3}}{\cos^2x}}\frac{1}{3}\left(  \frac{\frac{1}{2}x^{-1/2}}{\sqrt{x}} + 2x - \frac{21x^6}{x^7 + 2} + \frac{2\cos x\sin x}{\cos^2x} \right)
+\end{align}
+$$

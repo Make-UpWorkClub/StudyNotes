@@ -238,7 +238,7 @@ $$
 \frac{\mathrm{d}}{\mathrm{d}x} \sec x & = \frac{\mathrm{d}}{\mathrm{d}x} \frac{1}{\cos x} \\
  & = \frac{\cos x(1)' - (\cos x)'}{\cos^2x} \\
  & = \frac{\cos x\cdot0 - (-\sin x)}{\cos^2x} \\
- & = \sin \frac{x}{\cos^2x} \\
+ & = \frac{\sin x}{\cos^2x} \\
  & = \frac{1}{\cos x}\cdot \frac{\sin x}{\cos x} \\
  & = \sec x\tan x
 \end{align}
@@ -265,6 +265,189 @@ $\square$
 
 ## Derivative of $\cot x$
 
+> [!abstract] $\frac{\mathrm{d}}{\mathrm{d}x}\cot x = -\csc^2x$
+
+$$
+\begin{align}
+\frac{\mathrm{d}}{\mathrm{d}x} \cot x & = \frac{\mathrm{d}}{\mathrm{d}x} \frac{\cos x}{\sin x} \\
+ & = \frac{\sin x(\cos x)'-\cos x(\sin x)'}{\sin^2x} \\
+ & = \frac{-\sin^2x - \cos^2x}{\sin^2x} \\
+ & = -\frac{\sin^2x + \cos^2x}{\sin^2x} \\
+ & = -\frac{1}{\sin^2x} \\
+ & = -\csc^2x
+\end{align}
+$$
+
+$\square$
+
+## Derivative of $\arcsin x$
+
+> [!abstract] $\frac{\mathrm{d}}{\mathrm{d}x}\arcsin x = \frac{1}{\sqrt{1 - x^2}}$
+
+Let $y = \arcsin x$ so $x = \sin y$.
+Note that the range of $y = \arcsin x$ is $y\in\left[ -\frac{\pi}{2}, \frac{\pi}{2} \right]$.
+Using implicit differentiation, we have
+
+$$
+\begin{align}
+x & = \sin y \\
+\frac{\mathrm{d}}{\mathrm{d}x} x & = \frac{\mathrm{d}}{\mathrm{d}x} \sin y \\
+1 & = \cos y\cdot y' \\
+y' & = \frac{1}{\cos y}
+\end{align}
+$$
+
+We use $\sin^2y + \cos^2y = 1 \implies |\cos y|= \sqrt{1 - \sin^2y}$. Since $y\in\left[ -\frac{\pi}{2}, \frac{\pi}{2} \right]$, $\cos y\ge0$.
+Then,
+
+$$
+\begin{align}
+ & = \frac{1}{\sqrt{1 - \sin^2y}} \\
+ & = \frac{1}{\sqrt{1 - x^2}}
+\end{align}
+$$
+
+$\square$
+## Derivative of $\arccos x$
+
+> [!abstract] $\frac{\mathrm{d}}{\mathrm{d}x}\arccos x = -\frac{1}{\sqrt{1 - x^2}}$
+
+Let $y = \arccos x$ so $x = \cos y$.
+Note that the range of $y = \arccos x$ is $y\in[0, \pi]$.
+Using implicit differentiation, we have
+
+$$
+\begin{align}
+x & = \cos y \\
+\frac{\mathrm{d}}{\mathrm{d}x} x & = \frac{\mathrm{d}}{\mathrm{d}x} \cos y \\
+1 & = -\sin y\cdot y' \\
+y' & = -\frac{1}{\sin y}
+\end{align}
+$$
+
+We use $\sin^2y + \cos^2y = 1 \implies|\sin y|= \sqrt{1 - \cos^2y}$. Since $y\in[0, \pi]$,  $\sin y\ge0$.
+Then,
+
+$$
+\begin{align}
+ & = -\frac{1}{\sqrt{1 - \cos^2y}} \\
+ & = -\frac{1}{\sqrt{1 - x^2}}
+\end{align}
+$$
+
+$\square$
+
+## Derivative of $\arctan x$
+
+> [!abstract] $\frac{\mathrm{d}}{\mathrm{d}x}\arctan x = \frac{1}{1 + x^2}$
+
+Let $y = \arctan x$ so $x = \tan y$. Using implicit differentiation, we have
+
+$$
+\begin{align}
+x & = \tan y \\
+\frac{\mathrm{d}}{\mathrm{d}x} x & = \frac{\mathrm{d}}{\mathrm{d}x} \tan y \\
+1 & = \sec^2y\cdot y' \\
+y' & = \frac{1}{\sec^2y} \\
+y' & = \frac{1}{1 + \tan^2y} \\
+y' & = \frac{1}{1 + x^2}
+\end{align}
+$$
+
+$\square$
+
+## Derivative of $\mathrm{arcsec} x$
+
+> [!abstract] $\frac{\mathrm{d}}{\mathrm{d}x}\mathrm{arcsec}x = \frac{1}{|x|\sqrt{x^2 - 1}}$
+
+Let $y = \mathrm{arcsec} x$ so $x = \sec y$, equivalently $\cos y = \frac{1}{x}$.
+Note that the range and domain of $y = \mathrm{arcsec} x$ are $y\in[0, \frac{\pi}{2}) \cup(\frac{\pi}{2}, \pi]$ and $x\in(-\infty, -1] \cup [1, \infty)$, respectively.
+Using implicit differentiation, we have
+
+$$
+\begin{align}
+\cos y & = \frac{1}{x} \\
+\frac{\mathrm{d}}{\mathrm{d}x} \cos y & = \frac{\mathrm{d}}{\mathrm{d}x} \frac{1}{x} \\
+-\sin y\cdot y' & = -\frac{1}{x^2} \\
+y' & = \frac{1}{x^2\sin y}
+\end{align}
+$$
+
+We use $\sin^2y + \cos^2y = 1 \implies |\sin y| = \sqrt{1 - \cos^2y}$. Since $y\in[0, \frac{\pi}{2}) \cup(\frac{\pi}{2}, \pi]$, $\sin y\ge 0$.
+Then,
+
+$$
+\begin{align}
+ & = \frac{1}{x^2\sqrt{1 - \cos^2y}} \\
+ & = \frac{1}{x^2\sqrt{1 - \frac{1}{x^2}}} \\
+ & = \frac{1}{x^2\sqrt{\frac{x^2 - 1}{x^2}}} \\
+ & = \frac{1}{x^2\cdot \frac{1}{|x|}\sqrt{x^2 - 1}}
+\end{align}
+$$
+
+If $x\in(-\infty, -1]$ (i.e. negative values), then $|x| = -x$ and $\frac{x^2}{|x|} = -x$. If $x\in[1, \infty)$ (i.e. positive values), then $|x| = x$ and $\frac{x^2}{|x|} = x$. In both cases, $\frac{x^2}{|x|} = |x|$, hence
+
+$$
+= \frac{1}{|x|\sqrt{x^2 - 1}}
+$$
+
+$\square$
+
+## Derivative of $\mathrm{arccsc} x$
+
+> [!abstract] $\frac{\mathrm{d}}{\mathrm{d}x}\mathrm{arccsc} x = -\frac{1}{|x|\sqrt{x^2 - 1}}$
+
+Let $y = \mathrm{arccsc} x$ so $x = \csc y$, equivalently $\sin y = \frac{1}{x}$.
+Note that the range and domain of $y = \mathrm{arccsc} x$ are $y\in\left[ -\frac{\pi}{2}, 0) \cup(0, \frac{\pi}{2} \right]$ and $x\in(-\infty, -1] \cup [1, \infty)$, respectively.
+Using implicit differentiation, we have
+
+$$
+\begin{align}
+\sin y & = \frac{1}{x} \\
+\frac{\mathrm{d}}{\mathrm{d}x} \sin y & = \frac{\mathrm{d}}{\mathrm{d}x} \frac{1}{x} \\
+\cos y\cdot y' & = -\frac{1}{x^2} \\
+y' & = -\frac{1}{x^2\cos y}
+\end{align}
+$$
+
+We use $\sin^2y + \cos^2y = 1 \implies |\cos y| = \sqrt{1 - \sin^2y}$. Since $y\in\left[ -\frac{\pi}{2}, 0) \cup(0, \frac{\pi}{2} \right]$, $\cos y\ge 0$.
+Then,
+
+$$
+\begin{align}
+ & = -\frac{1}{x^2\sqrt{1 - \sin^2y}} \\
+ & = -\frac{1}{x^2\sqrt{1 - \frac{1}{x^2}}} \\
+ & = -\frac{1}{x^2\sqrt{\frac{x^2 - 1}{x^2}}} \\
+ & = -\frac{1}{x^2\cdot \frac{1}{|x|}\sqrt{x^2 - 1}}
+\end{align}
+$$
+
+If $x\in(-\infty, -1]$ (i.e. negative values), then $|x| = -x$ and $\frac{x^2}{|x|} = -x$. If $x\in[1, \infty)$ (i.e. positive values), then $|x| = x$ and $\frac{x^2}{|x|} = x$. In both cases, $\frac{x^2}{|x|} = |x|$, hence
+
+$$
+= -\frac{1}{|x|\sqrt{x^2 - 1}}
+$$
+
+$\square$
+
+## Derivative of $\mathrm{arccot} x$
+
+> [!abstract] $\frac{\mathrm{d}}{\mathrm{d}x}\mathrm{arccot} x = -\frac{1}{1 + x^2}$
+
+Let $y = \mathrm{arccot} x$ so $x = \cot y$. Using implicit differentiation, we have
+
+$$
+\begin{align}
+x & = \cot y \\
+\frac{\mathrm{d}}{\mathrm{d}x} x & = \frac{\mathrm{d}}{\mathrm{d}x} \cot y \\
+1 & = -\csc^2y\cdot y' \\
+y' & = -\frac{1}{\csc^2y} \\
+y' & = -\frac{1}{1 + \cot^2y} \\
+y' & = -\frac{1}{1 + x^2}
+\end{align}
+$$
+
+$\square$
 
 ## Derivative of $\log_bx$
 
@@ -273,16 +456,47 @@ $\square$
 Note that
 
 $$
-\lim_{ n \to \infty } (1)
+\lim_{ n \to \infty } \left( 1 + \frac{1}{n} \right)^n \equiv \lim_{ m \to 0 } (1 + m)^{1/m} = e
 $$
 
 Let $f(x) = \log_bx$, then
 
-## Derivative of $\arcsin x$
+$$
+\begin{align}
+f'(x) & = \lim_{ h \to 0 } \frac{f(x + h) - f(x)}{h} \\
+ & = \lim_{ h \to 0 } \frac{\log_b(x + h) - \log_bx}{h} \\
+ & = \lim_{ h \to 0 } \left( \frac{1}{h}\log_b \frac{x + h}{x} \right) \\
+ & = \lim_{ h \to 0 } \left( \frac{1}{h}\log_b \left( 1 + \frac{h}{x} \right) \right) \\
+ & = \lim_{ h \to 0 } \left( \frac{1}{x}\cdot \frac{x}{h}\log_b\left( 1 + \frac{h}{x} \right) \right) \\
+ & = \frac{1}{x}\lim_{ h \to 0 } \log_b\left( 1 + \frac{h}{x} \right)^{x/h}
+\end{align}
+$$
 
-## Derivative of $\arccos x$
+Since $\log_b$ is continuous,
 
+$$
+\begin{align}
+ & = \frac{1}{x}\log_b \lim_{ h \to 0 } \left( 1 + \frac{h}{x} \right)^{x/h} \\
+ & = \frac{1}{x}\log_b \lim_{ h \to 0 } \left( 1 + \frac{h}{x} \right)^{1/(h/x)}
+\end{align}
+$$
 
+Using definition of $e$ with $m = \frac{h}{x}$,
+
+$$
+= \frac{1}{x}\log_be
+$$
+
+Using the change of base rule,
+
+$$
+\begin{align}
+ & = \frac{1}{x} \frac{\ln e}{\ln b} \\
+ & = \frac{1}{x\ln b}
+\end{align}
+$$
+
+$\square$
 
 ## Differentiability implies continuity
 
@@ -309,3 +523,25 @@ $$
 > [!important] The contrapositive of the theorem says non-continuity $\implies$ non-differentiability.
 
 > [!important] The converse is not necessarily true, i.e. continuity doesn't imply differentiability.
+
+## Constant on interval when derivative is 0
+
+> [!abstract] If $f'(x) = 0\ \forall x\in(a, b)$, then $f$ is constant on $(a, b)$.
+
+We want to show that for any $x_1, x_2\in(a, b)$ where $x_1 < x_2$, $f(x_1) = f(x_2)$.
+Since $f$ is differentiable on $(a, b)$, it must be differentiable on $(x_1, x_2)$ and continuous on $[x_1, x_2]$.
+$\therefore$ by M. V. T., $\exists c\in(x_1, x_2)$ such that
+
+$$
+\Delta f(x) = f'(c)\Delta x
+$$
+
+Since $f'(x) = 0\ \forall x\in(a, b)$, we have
+
+$$
+\Delta f(x) = 0 \implies f(x_2) = f(x_1)
+$$
+
+Therefore, $f$ has the same value at any two numbers $x_1$ and $x_2$ in $(a, b)$. This means that $f$ is constant on $(a, b)$.
+
+$\square$

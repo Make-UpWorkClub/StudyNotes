@@ -61,6 +61,35 @@ High religious diversity
 		- Arrived in 1<sup>st</sup> Century CE
 	- Religion-like traditions
 
+## Culture
+
+### Music
+
+Influence from Persia
+Apprentices follow one teacher for life
+
+#### Raga
+
+Unique melodic framework
+`lit.` colour
+Colours the mind
+Divided into Hindustani (northern) and Carnatic (southern) musics
+
+#### Tala
+
+Cyclic rhythm
+Each cycle is clap-clap-wave-clap
+Clap: bass
+Wave: *no* bass
+
+#### Instruments
+
+Voice is the main instrument.
+Most instruments imitate voice.
+
+Tabla: drum
+Santour: Persian hammered dulcimer (percussion-stringed)
+
 ## History
 
 ### 1700-150 BCE: Vedic period

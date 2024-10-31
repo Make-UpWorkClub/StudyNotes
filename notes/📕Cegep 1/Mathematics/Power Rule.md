@@ -15,10 +15,13 @@ $$
 \frac{d}{dx}x^n = nx^{n - 1}
 $$
 
-
 ## General Power Rule
 
+Let $f$ be a differentiable function and $h(x) = (f(x))^n$ for $n\in\mathbb{R}$, then
 
+$$
+h'(x) = \frac{\mathrm{d}}{\mathrm{d}x} (f(x))^n = n(f(x))^{n - 1}\cdot f'(x)
+$$
 
 ## Proof
 

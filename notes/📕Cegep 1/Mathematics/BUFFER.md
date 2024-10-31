@@ -153,34 +153,6 @@ The limit diverges to $-\infty$.
 
 Point-slope form: $y - y_o = m(x - x_o)$
 
-## 2024-10-09
-
-Find $k'(1)$ of $k(x) = (x^2 + 3)^3(x - 2x^2)^2$.
-
-$$
-\begin{align}
-k'(1) & = \left.\frac{\mathrm{d}}{\mathrm{d}x} k(x)\right|_{x = 1} \\
- & = \left.\frac{\mathrm{d}}{\mathrm{d}x} ((x^2 + 3)^3(x - 2x^2)^2)\right|_{x = 1} \\
- & = \left.3(x^2 + 3)^2(x^2 + 3)'(x - 2x^2)^2 + (x^2 + 3)^32(x - 2x^2)(x - 2x^2)'\right|_{x = 1} \\
- & = \left.3(x^2 + 3)^22x(x - 2x^2)^2 + (x^2 + 3)^32(x - 2x^2)(1 - 4x)\right|_{x = 1} \\
- & = 3(4)^2\cdot2(1 - 2)^2 + (4)^3\cdot2(1 - 2)(1 - 4) \\
- & = 3\cdot16\cdot2\cdot1 + 64\cdot2\cdot - 1\cdot - 3 \\
- & = 96 + 384 \\
- & = 480
-\end{align}
-$$
----
-Find the derivative of $h(y) = \tan(\sec((y^3 + 1)^4))$.
-
-$$
-\begin{align}
-h'(y) & = \frac{\mathrm{d}}{\mathrm{d}y} h(y) \\
- & = \frac{\mathrm{d}}{\mathrm{d}y} (\tan(\sec((y^3 + 1)^4))) \\
- & = \sec ^2(\sec((y^3 + 1)^4))(\sec((y^3 + 1)^4))' \\
- & = \sec ^2(\sec((y^3 + 1)^4))\sec((y^3 + 1)^4)\tan((y^3 + 1)^4)4(y^3 + 1)^33y^2
-\end{align}
-$$
-
 ## 2024-10-21
 
 Questions:

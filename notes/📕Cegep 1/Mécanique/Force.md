@@ -76,3 +76,16 @@ Toutes les forces ont comme origine l'une des forces fondamentales:
 	- Friction
 - ~ nucléaire forte
 - ~ nucléaire faible
+
+### ~ conservative
+
+Force associée à une énergie potentielle
+Dépendant du déplacement
+Indépendant du travail
+
+$$
+\begin{align}
+\overset{\to}{F_g},\ U_g = mgy \\
+\overset{\to}{F_r},\ U_r = \frac{1}{2}kx^2
+\end{align}
+$$

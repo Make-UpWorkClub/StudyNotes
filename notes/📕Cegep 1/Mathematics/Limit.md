@@ -63,6 +63,7 @@ For a generic limit $\lim_{ x \to a }f(x)$:
 ### Indeterminate forms
 
 Multiple ways to solve
+All indeterminate forms can be converted to use l'Hôpital's Rule.
 
 #### $\frac{0}{0}$
 
@@ -127,6 +128,7 @@ Otherwise, rationalize.
 > 
 > Substituting $0$ into $t$ gives $\frac{1}{2}$.
 
+#### 
 ### Limit at infinity
 
 1. Forcefully factorize dominant term
