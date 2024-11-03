@@ -74,6 +74,7 @@ The $n$ <sup>th</sup> order derivative of $f$ is:
 - $\frac{d}{dx}\sec x = \tan x\sec x$
 - $\frac{d}{dx}\csc x = -\cot x\csc x$
 - $\frac{d}{dx}\cot x = -\csc ^2x$
+- $\frac{\mathrm{d}}{\mathrm{d}x}\arcsin x = \frac{1}{\sqrt{1 - x^2}}$
 
 ## Examples
 

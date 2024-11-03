@@ -27,18 +27,3 @@ Module + angle par rapport à une orientation
 > [!example]+
 > 5 à 30° à gauche du haut
 > 5 à 60° en haut de la gauche
-
-## 2024-10-21
-
-# Travail
-
-Changement d'énergie fait par une force sur une distance
-Produit scalaire de la force et du déplacement
-Aussi aire sous la courbe de la force
-
-$$
-\begin{align}
-W_F & = ||\overset{\to}{F}||\cdot||\Delta \overset{\to}{r}||\cos\theta \\
-\Delta K & = W_\text{tot}
-\end{align}
-$$

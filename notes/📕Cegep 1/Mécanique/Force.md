@@ -89,3 +89,7 @@ $$
 \overset{\to}{F_r},\ U_r = \frac{1}{2}kx^2
 \end{align}
 $$
+
+### ~ dissipative
+
+Force qui transforme l'énergie mécanique en énergie thermique

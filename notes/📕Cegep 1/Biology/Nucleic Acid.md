@@ -26,8 +26,8 @@ N-bases: C-G (triple H-bonds) & A-*T* (double H-bonds)
 Functions:
 
 - Makes up chromosomes and genes
-- Directs its own synthesis through **replication**
-- Directs the synthesis of RNA through **transcription**
+- Directs DNA replication
+- Directs RNA transcription
 
 ![[Deoxyribonucleic acid.png]]
 
@@ -41,12 +41,20 @@ N-bases: C-G & A-*U* pairs
 #### Messenger
 
 `Abbr.` mRNA
-Directs protein synthesis through **translation**
+Directs protein translation
+
+Structure:
+
+- 5'-CAP
+- Leader sequence
+- Coding sequence
+- Trailer sequence
+- Poly (A) tail
 
 #### Transfer
 
 `Abbr.` tRNA
-Acts as a delivery vehicle during protein synthesis
+Acts as a delivery vehicle during protein translation
 
 #### Ribosomal
 

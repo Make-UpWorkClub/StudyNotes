@@ -498,6 +498,24 @@ $$
 
 $\square$
 
+## Derivative of $a^x$
+
+> [!abstract] $\frac{\mathrm{d}}{\mathrm{d}x} a^x = a^x\ln a$
+
+Let $y = a^x$ so $x = \log_ay$. Using implicit differentiation, we have
+
+$$
+\begin{align}
+x & = \log_ay \\
+\frac{\mathrm{d}}{\mathrm{d}x} x & = \frac{\mathrm{d}}{\mathrm{d}x} \log_ay \\
+1 & = \frac{1}{y\ln a}\cdot y' \\
+y' & = y\ln a \\
+y' & = a^x\ln a
+\end{align}
+$$
+
+$\square$
+
 ## Differentiability implies continuity
 
 We have to show that $f(a) = \lim_{ x \to a }f(x)$. We know that $f$ is differentiable at $a$, so
