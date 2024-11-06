@@ -44,3 +44,11 @@ A.k.a. also other backward class (`abbr.` OBC)
 
 Historically workers who perform polluting tasks
 A.k.a. scheduled castes, `pej.` untouchables
+
+### [[Patriarchy]]
+
+Women going out of *purdah* (`lit.` curtain):
+
+- Rokeya Sakhawat Hossain set schools for girls and writes Sultana's Dream, a feminist utopic story.
+- Women anti-colonialists protest along with men anti-colonialists.
+- 

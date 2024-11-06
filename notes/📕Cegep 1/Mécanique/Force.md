@@ -7,6 +7,12 @@ date: 2024-09-18T08:38:13
 
 # Force
 
+2<sup>e</sup> Loi de Newton :
+
+$$
+\sum \overset{\to}{F} = m\overset{\to}{a} = \frac{\mathrm{d\overset{\to}{p}}}{\mathrm{d}t} = m\frac{\mathrm{d}\overset{\to}{v}}{\mathrm{d}t}
+$$
+
 ## Types
 
 ### ~ de contact

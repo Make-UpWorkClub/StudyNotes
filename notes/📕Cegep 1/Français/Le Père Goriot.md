@@ -7,7 +7,7 @@ date: 2024-09-22T12:07:30
 
 # Le Père Goriot
 
-Genre : [[notes/📕Cegep 1/Français/Romantisme|romantisme]]
+Roman réaliste par [[Honoré de Balzac]]
 
 ## Contexte
 

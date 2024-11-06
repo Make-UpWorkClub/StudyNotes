@@ -61,7 +61,6 @@ The $n$ <sup>th</sup> order derivative of $f$ is:
 ## Properties & theorems
 
 - $\frac{d}{dx}c = 0$
-- $\frac{\mathrm{d}}{\mathrm{d}x}x = 1$
 - $\frac{d}{dx}(c\cdot f(x)) = c\cdot f'(x)$
 - $\frac{d}{dx}(f(x)\pm g(x)) = f'(x) \pm g'(x)$
 - Product Rule: $\frac{d}{dx}(f(x)\cdot g(x)) = f(x)g'(x) + g(x)f'(x)$
@@ -75,6 +74,13 @@ The $n$ <sup>th</sup> order derivative of $f$ is:
 - $\frac{d}{dx}\csc x = -\cot x\csc x$
 - $\frac{d}{dx}\cot x = -\csc ^2x$
 - $\frac{\mathrm{d}}{\mathrm{d}x}\arcsin x = \frac{1}{\sqrt{1 - x^2}}$
+- $\frac{\mathrm{d}}{\mathrm{d}x}\arccos x = -\frac{1}{\sqrt{1 - x^2}}$
+- $\frac{\mathrm{d}}{\mathrm{d}x}\arctan x = \frac{1}{1 + x^2}$
+- $\frac{\mathrm{d}}{\mathrm{d}x}\mathrm{arcsec}\ x = \frac{1}{|x|\sqrt{x^2 - 1}}$
+- $\frac{\mathrm{d}}{\mathrm{d}x}\mathrm{arccsc}\ x = -\frac{1}{|x|\sqrt{x^2 - 1}}$
+- $\frac{\mathrm{d}}{\mathrm{d}x} \mathrm{arccot}\ x = -\frac{1}{1 + x^2}$
+- $\frac{\mathrm{d}}{\mathrm{d}x}\log_bx = \frac{1}{x\ln b}$
+- $\frac{\mathrm{d}}{\mathrm{d}x}a^x = a^x\ln a$
 
 ## Examples
 

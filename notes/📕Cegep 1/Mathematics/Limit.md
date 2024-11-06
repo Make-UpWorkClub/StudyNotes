@@ -63,12 +63,11 @@ For a generic limit $\lim_{ x \to a }f(x)$:
 ### Indeterminate forms
 
 Multiple ways to solve
-All indeterminate forms can be converted to use l'Hôpital's Rule.
+All indeterminate forms can be converted to use L'Hôpital's Rule.
 
 #### $\frac{0}{0}$
 
-For a limit $\lim_{ x \to a }\frac{P(x)}{Q(x)}$
-where $P(x)$ and $Q(x)$ are polynomials such that $P(a) = Q(a) = 0$,
+For a limit $\lim_{ x \to a }\frac{P(x)}{Q(x)}$ where $P(x)$ and $Q(x)$ are polynomials such that $P(a) = Q(a) = 0$,
 
 first rationalize the fraction.
 
@@ -78,6 +77,21 @@ Because **it is always possible to factorize a polynomial equal to 0**, we facto
 2. with long division.
 
 Now that it no longer contains the factor that makes it 0, we can solve the limit as usual.
+
+> [!example]- $\lim_{ x \to 1 } \frac{\sqrt{2 + x^2} - \sqrt{4x - x^2}}{x^2 - 1}$
+> When $x = 1$, limit = $\frac{0}{0}$.
+> We rationalize the numerator:
+> 
+> $$
+> \begin{align}
+> \lim_{ x \to 1 }\frac{\sqrt{ 2 + x^2 } - \sqrt{ 4x - x^2 }}{x^2 - 1} & = \lim_{ x \to 1 } \left( \frac{\sqrt{2 + x^2} - \sqrt{4x - x^2}}{x^2 - 1}\cdot \frac{\sqrt{2 + x^2} + \sqrt{4x - x^2}}{\sqrt{2 + x^2} + \sqrt{4x - x^2}} \right) \\
+>  & = \lim_{ x \to 1 }\frac{2 + x^2 - (4x - x^2)}{(x^2 - 1)(\sqrt{ 2 + x^2 } + \sqrt{ 4x - x^2 })} \\
+>  & = \lim_{ x \to 1 }\frac{2x^2 - 4x + 2}{(x^2 - 1)(\sqrt{ 2 + x^2 } + \sqrt{ 4x - x^2 })} \\
+>  & = 2\lim_{ x \to 1 }\frac{(x - 1)^2}{(x - 1)(x + 1)(\sqrt{ x^2 + 2 } + \sqrt{ 4x - x^2 })} \\
+>  & = 2\lim_{ x \to 1 } \frac{x - 1}{(x + 1)(\sqrt{ x^2 + 2 } + \sqrt{ 4x - x^2 })} \\
+>  & = 0
+> \end{align}
+> $$
 
 #### $\frac{\infty}{\infty}$
 
@@ -116,7 +130,7 @@ Otherwise, rationalize.
 3. Rationalize
 
 > [!example]- $\lim_{ t \to 0 }\left( \frac{1}{t\sqrt{ t + 1 }} - \frac{1}{t} \right)$
-> if $t = 0$, limit = $\frac{1}{0} - \frac{1}{0}$.
+> When $t = 0$, limit = $\frac{1}{0} - \frac{1}{0}$.
 > Combining the two fractions gives $\lim_{ t \to 0 } \frac{1 - \sqrt{ t + 1 }}{t\sqrt{ t + 1 }}$.
 > 
 > $$
@@ -128,7 +142,10 @@ Otherwise, rationalize.
 > 
 > Substituting $0$ into $t$ gives $\frac{1}{2}$.
 
-#### 
+#### Others
+
+Use L'Hôpital's Rule
+
 ### Limit at infinity
 
 1. Forcefully factorize dominant term

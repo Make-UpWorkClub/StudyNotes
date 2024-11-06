@@ -9,10 +9,11 @@ date: 2024-09-20T14:21:52
 
 # Continuity
 
-Quality of a function at a point $c$ if $\lim_{ x \to c }f(x) = f(c)$
-Quality of a function over an interval if every point of the interval is continuous
+Quality of a function:
 
-> [!info] By default, continuity over a semi-open interval means left / right continuity
+- At a point $c$ if $\lim_{ x \to c }f(x) = f(c)$
+- Over an open interval if every point of the interval is continuous
+- Over a closed interval if the open interval is continuous and the left / right endpoints are right / left continuous
 
 ## Sidedness
 

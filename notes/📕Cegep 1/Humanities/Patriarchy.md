@@ -31,6 +31,8 @@ Properties:
 
 ## Status of women
 
+Affected by:
+
 - Honour / shame
 	- Women may affect the honour of the family => they are protected / controlled
 		- E.g. women covering their faces
@@ -44,10 +46,10 @@ Properties:
 
 ## Preference for boys
 
-- Patrilineality
+- Patrilineality:
 	- Lineage
 	- Property transfer
-- Patrilocality
+- Patrilocality:
 	- Care of parents in old age
 - Funeral rituals performed by sons
 - Dowry payments made to groom by bride's family

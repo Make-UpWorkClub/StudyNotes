@@ -7,8 +7,11 @@ date: 2024-10-02T15:10:41
 
 # Differentiability
 
-Quality of a function at a point $a$ if $\lim_{ h \to 0 } \frac{f(a + h) - f(a)}{h}$ ([[derivative]] at $a$) exists
-Quality of a function over an interval if every point of the interval is differentiable
+Quality of a function:
+
+- At a point $a$ if $\lim_{ h \to 0 } \frac{f(a + h) - f(a)}{h}$ ([[derivative]] at $a$) exists
+- Over an open interval if every point of the interval is differentiable
+- Over a closed interval if the open interval is differentiable and the left / right endpoints are right / left differentiable
 
 Implies [[continuity]]
 

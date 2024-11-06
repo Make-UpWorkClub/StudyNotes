@@ -7,7 +7,7 @@ date: 2024-09-02T19:13:48
 
 # Candide ou l'Optimisme
 
-Genre : [[conte philosophique]]
+[[Conte philosophique]] par Voltaire
 
 ## Thèmes
 
