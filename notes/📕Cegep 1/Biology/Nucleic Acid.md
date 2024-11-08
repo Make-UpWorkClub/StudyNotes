@@ -54,6 +54,7 @@ Structure:
 #### Transfer
 
 `Abbr.` tRNA
+~90 nt
 Acts as a delivery vehicle during protein translation
 
 #### Ribosomal

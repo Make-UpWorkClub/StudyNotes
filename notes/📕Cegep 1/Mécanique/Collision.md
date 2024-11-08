@@ -7,6 +7,12 @@ date: 2024-11-06T09:00:16
 
 # Collision
 
+## Types
+
+### Élastique
+
+Collision où $\sum K$ est conservée
+
 $$
 \sum p_{i} = \sum p_{f}
 $$
@@ -16,6 +22,14 @@ Dans une collision entre A (en mouvement) et B immobile où A devient immobile,
 $$
 v_{f_B} = \frac{m_A}{m_B}v_{i_A}
 $$
+
+### Inélastique
+
+Collision où $\sum K$ n'est pas conservée (il y a un travail)
+
+### Totalement inélastique
+
+Collision où les objets restent collés après la collision
 
 ## Exemples
 

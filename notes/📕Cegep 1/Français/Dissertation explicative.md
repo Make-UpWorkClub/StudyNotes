@@ -37,3 +37,28 @@ Deux paragraphes adoptant le même point de vue
 	- Idée secondaire 2
 		- Idée illustrée
 			- Procédé formel
+
+## Conseils
+
+- Retranscrire l'énoncé sans reformuler
+- Ajouter le contexte aux citations
+- Souligner le titre d'un oeuvre si écrit à la main
+- Mettre entre guillemets le titre d'un chapitre
+- Madame -> madame ou Mme.
+- Expressions à éviter
+	- Démontrer -> montrer
+		- qqn démontre
+	- Contraster -> mettre en contraste
+	- Prendre avantage de -> tirer avantage de
+- Participe présent au milieu de la phrase rompt la fluidité de la phrase
+	- causant -> ce qui cause
+	- témoignant -> ce qui témoigne de
+- Formulation des idées à éviter
+	- Éviter la description (résumé)
+	- Éviter la généralisation
+		- « on »
+		- Dans la société parisienne, on ne pense qu'à soi-même. -> Dans la société balzacienne, les aristocrates ne pensent qu'à eux-mêmes.
+- Pour gagner du temps :
+	- Trouver les idées principales et secondaires le plus tôt possible
+		- Bien annoter et comprendre l'extrait
+		- Former des champs lexicaux

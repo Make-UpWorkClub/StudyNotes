@@ -12,9 +12,10 @@ Process during [[Interphase#S|S phase]] in which [[Nucleic Acid#Deoxyribonucleic
 
 ## Enzymes
 
-- Helicase: enzyme that unwinds DNA strands by breaking H-bonds
+- **Helicase**: enzyme that unwinds DNA strands by breaking H-bonds
 - [[Polymerase#DNA polymerase|DNA polymerase]]
 - [[Polymerase#Primase|Primase]]
+- **Ligase**: enzyme that repairs phosphodiester bonds
 
 ## Steps
 
@@ -34,9 +35,10 @@ Different for the two strands
 *5' to 3' continuous* DNA synthesis in the *same* direction of DNA unwinding
 *One* RNA primer
 
-1. Primase makes a complementary RNA primer
-2. DNA polymerase adds 
-3. 
+1. Primase makes a complementary RNA primer.
+2. DNA polymerase binds to the RNA primer and makes new strand.
+3. DNA polymerase replaces the RNA primer with DNA.
+4. Ligase repairs link between replaced primer and rest of strand.
 
 #### Lagging strand
 
@@ -44,6 +46,6 @@ Different for the two strands
 *Many* RNA primers
 
 1. Primase makes a complementary RNA primer
-2. DNA polymerase adds
+2. DNA polymerase binds to 
 
 ### Termination

@@ -19,7 +19,3 @@ Coined the term "dalit"
 
 Former president of India (1997-2002)
 Born dalit
-
-# The World Before Her
-
-Documentary about the conflict between pageant like Miss India and the Durga Vahini group
