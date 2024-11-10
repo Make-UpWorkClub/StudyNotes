@@ -25,7 +25,6 @@
               nil
               nodejs
               pnpm
-              python3
             ];
 
           shellHook = ''

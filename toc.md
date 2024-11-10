@@ -1,3 +1,13 @@
-# Recent Changes
+---
+nolebase:
+  gitChangelog: false
+  pageProperties: false
+---
 
-<TocList />
+# Changelog
+
+<script setup>
+import { data } from './data/toc.data'
+</script>
+
+<NolebaseRecentUpdates :data="data" />

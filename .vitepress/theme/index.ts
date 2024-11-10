@@ -14,6 +14,10 @@ import {
 } from '@nolebase/vitepress-plugin-highlight-targeted-heading/client'
 
 import {
+  NolebaseIndexPlugin,
+} from '@nolebase/vitepress-plugin-index/client'
+
+import {
   NolebaseInlineLinkPreviewPlugin,
 } from '@nolebase/vitepress-plugin-inline-link-preview/client'
 
@@ -34,10 +38,10 @@ import DocFooter from './components/DocFooter.vue'
 import Giscus from './components/Giscus'
 import HomePage from './components/HomePage.vue'
 import Share from './components/Share.vue'
-import TocList from './components/TocList.vue'
 
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
 import '@nolebase/vitepress-plugin-highlight-targeted-heading/client/style.css'
+import '@nolebase/vitepress-plugin-index/client/style.css'
 import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css'
 import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
 import '@nolebase/vitepress-plugin-page-properties/client/style.css'
@@ -83,7 +87,6 @@ const ExtendedTheme: Theme = {
     app.component('HomePage', HomePage)
     app.component('DocFooter', DocFooter)
     app.component('Share', Share)
-    app.component('TocList', TocList)
     app.component('AppContainer', AppContainer)
     app.component('NolebaseUnlazyImg', NolebaseUnlazyImg)
 
@@ -135,6 +138,8 @@ const ExtendedTheme: Theme = {
         ],
       },
     })
+
+    app.use(NolebaseIndexPlugin)
   },
 }
 

@@ -210,7 +210,7 @@ const config = defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Notes', link: '/notes/' },
-      { text: 'Recent Changes', link: '/toc' },
+      { text: 'Changelog', link: '/toc' },
     ],
     sidebar: calculateSidebar([
       { folderName: 'notes', separate: true },
