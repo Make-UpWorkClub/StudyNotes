@@ -7,6 +7,6 @@ date: 2024-11-08T15:29:53
 
 # Fermat's Theorem
 
-If $f$ has a [[Extremum|local extremum]] at $x = c$, $f$ has [[critical point]] at $c$ (i.e. $f'(c) = 0$ or undefined).
+If $f$ has a [[Extremum|local extremum]] at $x = c$, $f(c) = 0$ or undefined (i.e. local extremum $\implies$ [[critical point]]).
 
-> [!warning] The inverse is not necessarily true.
+> [!warning] The inverse is only true if $f'$ changes sign across $x = c$.

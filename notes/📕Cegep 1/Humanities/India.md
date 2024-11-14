@@ -51,4 +51,10 @@ Women going out of *purdah* (`lit.` curtain):
 
 - Rokeya Sakhawat Hossain set schools for girls and writes Sultana's Dream, a feminist utopic story.
 - Women anti-colonialists protest along with men anti-colonialists.
-- 
+
+Movements against patriarchy:
+
+- Ring the doorbell
+- Burka Avenger
+- Meena
+- Writing with Fire documents a dalit female journalist who challenges gender and caste expectations

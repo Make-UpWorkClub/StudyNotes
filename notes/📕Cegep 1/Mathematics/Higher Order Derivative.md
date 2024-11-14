@@ -25,10 +25,3 @@ date: 2024-10-18T15:31:54
 > 
 > By observation, $f^{(n)}(x) = \left( \prod_{ i = 1 }^{ n } \frac{5 - 3i}{3} \right)x^{(2 - 3n)/3}$.
 > Without pi notation, $f^{(n)}(x) = \frac{2}{3^n}x^{-(3n - 2)/3}(-1)^{n - 1}(1\cdot4\cdot7\dots\ \cdot(3n - 5))$ for $n \ge 2$.
-
-## Implicit differentiation
-
-2 ways:
-
-1. Isolate $y'$, then differentiate it again
-2. Take any intermediate step during derivation and differentiate both sides

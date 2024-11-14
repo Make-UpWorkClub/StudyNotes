@@ -9,7 +9,7 @@ date: 2024-11-08T14:21:34
 
 # Monotonicity
 
-Property of a function over an interval that is always increasing or decreasing
+Property of a function over an interval $I$ where $\forall x \in I,\ f'(x) > 0$ (**increasing**) or $f'(x) < 0$ (**decreasing**)
 
 ## Evaluation
 
@@ -22,7 +22,7 @@ To find the intervals of monotonicity of $f$:
 
 ## Examples
 
-Find the intervals of monotonicity and critical points of $f(x) = \frac{x^2 + 3}{x - 1}$.
+Find the intervals of monotonicity, critical points and local extrema of $f(x) = \frac{x^2 + 3}{x - 1}$.
 
 $f(x)$ is undefined when $x - 1 \ne 0 \implies x \ne 1$. So, the domain of $f$ is $x \in \mathbb{R}\setminus\{1\}$.
 
@@ -43,9 +43,12 @@ $x = -1$ and $x = 3$ are critical points. Since $x = 1 \notin dom(f)$, it cannot
 |  $f'(x)$  |  +  |     |  -  |     |  -  |     |  +  |          |
 |  $f(x)$   | inc |     | dec |     | dec |     | inc |          |
 
+$f$ has a relative maximum at $x = -1$ and a relative minimum at $x = 3$.
+$x = 1$ cannot be a local extremum since $x = 1 \notin dom(f)$.
+
 ---
 
-Find the intervals of monotonicity and critical points of
+Find the intervals of monotonicity, critical points and local extrema of
 
 $$
 f(x) = x^2(x^2 - 1)^{1/3}
@@ -74,3 +77,6 @@ $x = 0$, $x = \pm \frac{\sqrt{3}}{2}$ and $x = \pm1$ are critical points.
 |:---------:|:---:|:---:|:---:|:---------------------:|:---:|:---:|:---:|:--------------------:|:---:|:---:|:---:|:--------:|
 |  $f'(x)$  |  -  |     |  -  |                       |  +  |     |  -  |                      |  +  |     |  +  |          |
 |  $f(x)$   | dec |     | dec |                       | inc |     | dec |                      | inc |     | inc |          |
+
+At $x = \pm1$, this is no extremum since $f'$ does not change sign.
+At $x = \pm \frac{\sqrt{3}}{2}$, $f$ has a local minimum, and at $x = 0$ there is a local maximum.

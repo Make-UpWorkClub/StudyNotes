@@ -54,7 +54,6 @@ Affected by:
 - Funeral rituals performed by sons
 - Dowry payments made to groom by bride's family
 
-
 > [!abstract] Patrilineality
 > In a family, inheritance of properties by the male line
 

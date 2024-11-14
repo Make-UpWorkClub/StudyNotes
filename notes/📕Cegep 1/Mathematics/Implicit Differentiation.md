@@ -14,6 +14,11 @@ Find $y'$ / $x'$ by:
 - Considering $y$ / $x$ as a function of $x$ / $y$
 - Differentiating as normal using the Chain Rule
 
+2 ways of higher order implicit differentiation:
+
+1. Isolate $y'$, then differentiate it again
+2. Take any intermediate step during derivation and differentiate both sides
+
 > [!info]+
 > $y'$ and $x'$ may depend on two variables.
 > To evaluate $y'$ at $(x_0, y_0)$, we write

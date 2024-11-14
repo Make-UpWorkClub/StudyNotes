@@ -92,7 +92,7 @@ Santour: Persian hammered dulcimer (percussion-stringed)
 
 ## History
 
-### 1700-150 BCE: Vedic period
+### 1700–150 BCE: Vedic period
 
 Pastoral lifestyle and adherence to Vedas
 
@@ -103,19 +103,31 @@ Systematization of preexisting beliefs into Hinduism
 
 Muhammad bin Qasim conquered parts of modern Pakistan along Indus river -> greater Islamic influence
 
-### 1206-1526: Delhi Sultanate
+### 1206–1526: Delhi Sultanate
 
-### 1526-1857: Mughal India
+### 1526–1857: Mughal India
 
 - 1526: Babur defeated the last ruler of the Delhi Sultanate and established the Mughal Empire
+- 1754-1763: 7 years war between Britain and France colonies in South Asia
+	- **1757**: Battle of Plassey: the British capture Bengal
 
-### Colonial India
+### 1857–1947: Colonial India 
 
-- 1857: The British exiled Bahadur Shah, the last emperor of the Mughal Empire
+Motivation of colonialism:
 
-### Post-Colonial India
+- Spices, muslin & calico
+- European trading rivalries
 
-- 1947: Indian Independence Act
+Impact:
+
+- Administrative: civil service and legal system
+- Revenue: taxes
+
+- **1857**: The British exiled Bahadur Shah, the last emperor of the Mughal Empire
+
+### 1947–: Post-Colonial India
+
+- **1947**: Indian Independence Act
 	- Partition of British India into India and Pakistan
 	- Legal attempts to erase caste inequalities
 		- Affirmative action (positive discrimination)
