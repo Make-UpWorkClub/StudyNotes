@@ -1447,6 +1447,10 @@ var locale = {
       name: "Strict Line breaks Mode Enter Twice",
       desc: "In strict line breaks mode, pressing Enter once in normal text lines will produce two line breaks."
     },
+    enhanceModA: {
+      name: "Enhance Mod+A selection in text",
+      desc: "First select the current line, second select the current text block, third select the entire text."
+    },
     puncRectify: {
       name: "Punc rectify",
       desc: "Automatically convert English punctuation (, . ? !) between Chinese characters to full-width punctuation during typing (reversible)."
@@ -1635,6 +1639,10 @@ var locale2 = {
     strictLineBreaks: {
       name: "\u4E25\u683C\u6362\u884C\u6A21\u5F0F\u4E0B\u6309\u4E24\u6B21\u56DE\u8F66",
       desc: "\u4E25\u683C\u6362\u884C\u7684\u8BBE\u7F6E\u4E0B\uFF0C\u5728\u666E\u901A\u6587\u672C\u884C\u8FDB\u884C\u4E00\u6B21\u56DE\u8F66\u4F1A\u4EA7\u751F\u4E24\u4E2A\u6362\u884C\u7B26"
+    },
+    enhanceModA: {
+      name: "\u589E\u5F3A Ctrl/Cmd+A \u529F\u80FD",
+      desc: "\u7B2C\u4E00\u6B21\u9009\u4E2D\u5F53\u524D\u884C\uFF0C\u7B2C\u4E8C\u6B21\u9009\u4E2D\u5F53\u524D\u6587\u672C\u5757\uFF0C\u7B2C\u4E09\u6B21\u9009\u4E2D\u5168\u6587\u3002"
     },
     puncRectify: {
       name: "\u6807\u70B9\u77EB\u6B63",
@@ -1825,6 +1833,10 @@ var locale3 = {
       name: "\u0420\u0435\u0436\u0438\u043C \u0441\u0442\u0440\u043E\u0433\u0438\u0445 \u0440\u0430\u0437\u0440\u044B\u0432\u043E\u0432 \u0441\u0442\u0440\u043E\u043A, \u0434\u0432\u0430\u0436\u0434\u044B \u043D\u0430\u0436\u043C\u0438\u0442\u0435 Enter",
       desc: "\u0412 \u0440\u0435\u0436\u0438\u043C\u0435 \u0441\u0442\u0440\u043E\u0433\u0438\u0445 \u0440\u0430\u0437\u0440\u044B\u0432\u043E\u0432 \u0441\u0442\u0440\u043E\u043A, \u043E\u0434\u043D\u043E\u043A\u0440\u0430\u0442\u043D\u043E\u0435 \u043D\u0430\u0436\u0430\u0442\u0438\u0435 Enter \u0432 \u043E\u0431\u044B\u0447\u043D\u044B\u0445 \u0442\u0435\u043A\u0441\u0442\u043E\u0432\u044B\u0445 \u0441\u0442\u0440\u043E\u043A\u0430\u0445 \u0441\u043E\u0437\u0434\u0430\u0441\u0442 \u0434\u0432\u0430 \u0440\u0430\u0437\u0440\u044B\u0432\u0430 \u0441\u0442\u0440\u043E\u043A\u0438."
     },
+    enhanceModA: {
+      name: "\u0423\u043B\u0443\u0447\u0448\u0438\u0442\u044C \u0432\u044B\u0434\u0435\u043B\u0435\u043D\u0438\u0435 Mod+A \u0432 \u0442\u0435\u043A\u0441\u0442\u0435",
+      desc: "\u0421\u043D\u0430\u0447\u0430\u043B\u0430 \u0432\u044B\u0434\u0435\u043B\u0438\u0442\u0435 \u0442\u0435\u043A\u0443\u0449\u0443\u044E \u0441\u0442\u0440\u043E\u043A\u0443, \u0437\u0430\u0442\u0435\u043C \u0432\u044B\u0434\u0435\u043B\u0438\u0442\u0435 \u0442\u0435\u043A\u0443\u0449\u0438\u0439 \u0442\u0435\u043A\u0441\u0442\u043E\u0432\u044B\u0439 \u0431\u043B\u043E\u043A, \u0437\u0430\u0442\u0435\u043C \u0432\u044B\u0434\u0435\u043B\u0438\u0442\u0435 \u0432\u0435\u0441\u044C \u0442\u0435\u043A\u0441\u0442."
+    },
     puncRectify: {
       name: "\u041A\u043E\u0440\u0440\u0435\u043A\u0446\u0438\u044F \u043F\u0443\u043D\u043A\u0442\u0443\u0430\u0446\u0438\u0438",
       desc: "\u0410\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u043A\u043E\u043D\u0432\u0435\u0440\u0442\u0430\u0446\u0438\u044F \u0430\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u043E\u0439 \u043F\u0443\u043D\u043A\u0442\u0443\u0430\u0446\u0438\u0438 (, . ? !) \u043C\u0435\u0436\u0434\u0443 \u043A\u0438\u0442\u0430\u0439\u0441\u043A\u0438\u043C\u0438 \u0441\u0438\u043C\u0432\u043E\u043B\u0430\u043C\u0438 \u0432 \u043F\u043E\u043B\u043D\u043E\u0448\u0438\u0440\u0438\u043D\u043D\u0443\u044E \u043F\u0443\u043D\u043A\u0442\u0443\u0430\u0446\u0438\u044E \u043F\u0440\u0438 \u043D\u0430\u0431\u043E\u0440\u0435 \u0442\u0435\u043A\u0441\u0442\u0430 (\u043E\u0431\u0440\u0430\u0442\u0438\u043C\u043E)."
@@ -2014,6 +2026,10 @@ var locale4 = {
       name: "\u56B4\u683C\u63DB\u884C\u6A21\u5F0F\u4E0B\u6309\u5169\u6B21\u56DE\u8ECA",
       desc: "\u56B4\u683C\u63DB\u884C\u7684\u8A2D\u7F6E\u4E0B\uFF0C\u5728\u666E\u901A\u6587\u672C\u884C\u9032\u884C\u4E00\u6B21\u56DE\u8ECA\u6703\u7522\u751F\u5169\u500B\u63DB\u884C\u7B26"
     },
+    enhanceModA: {
+      name: "\u589E\u5F37 Mod+A \u529F\u80FD",
+      desc: "\u7B2C\u4E00\u6B21\u9078\u4E2D\u7576\u524D\u884C\uFF0C\u7B2C\u4E8C\u6B21\u9078\u4E2D\u7576\u524D\u6587\u672C\u584A\uFF0C\u7B2C\u4E09\u6B21\u9078\u4E2D\u5168\u6587\u3002"
+    },
     puncRectify: {
       name: "\u6A19\u9EDE\u77EB\u6B63",
       desc: "\u50C5\u5728\u8F38\u5165\u904E\u7A0B\u4E2D\uFF0C\u4E2D\u6587\u9593\u7684\u82F1\u6587\u6A19\u9EDE\uFF08,.?!\uFF09\u81EA\u52D5\u8F49\u63DB\u70BA\u5168\u89D2\uFF08\u53EF\u53D6\u6D88\uFF09"
@@ -2143,6 +2159,7 @@ var DEFAULT_SETTINGS = {
   userDelRuleSettingsOpen: true,
   userCvtRuleSettingsOpen: true,
   EnterTwice: false,
+  EnhanceModA: false,
   TryFixChineseIM: true,
   PuncRectify: false,
   FixMacOSContextMenu: false,
@@ -2362,9 +2379,15 @@ var EasyTypingSettingTab = class extends import_obsidian2.PluginSettingTab {
       this.plugin.saveSettings();
     }));
     containerEl.createEl("h2", { text: locale5.headers.experimentalFeatures });
-    new import_obsidian2.Setting(containerEl).setName(locale5.settings.fixMacOSContextMenu.name).setDesc(locale5.settings.fixMacOSContextMenu.desc).addToggle((toggle) => {
-      toggle.setValue(this.plugin.settings.FixMacOSContextMenu).onChange(async (value) => {
-        this.plugin.settings.FixMacOSContextMenu = value;
+    new import_obsidian2.Setting(containerEl).setName(locale5.settings.strictLineBreaks.name).setDesc(locale5.settings.strictLineBreaks.desc).addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.EnterTwice).onChange(async (value) => {
+        this.plugin.settings.EnterTwice = value;
+        await this.plugin.saveSettings();
+      });
+    });
+    new import_obsidian2.Setting(containerEl).setName(locale5.settings.enhanceModA.name).setDesc(locale5.settings.enhanceModA.desc).addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.EnhanceModA).onChange(async (value) => {
+        this.plugin.settings.EnhanceModA = value;
         await this.plugin.saveSettings();
       });
     });
@@ -2374,9 +2397,9 @@ var EasyTypingSettingTab = class extends import_obsidian2.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian2.Setting(containerEl).setName(locale5.settings.strictLineBreaks.name).setDesc(locale5.settings.strictLineBreaks.desc).addToggle((toggle) => {
-      toggle.setValue(this.plugin.settings.EnterTwice).onChange(async (value) => {
-        this.plugin.settings.EnterTwice = value;
+    new import_obsidian2.Setting(containerEl).setName(locale5.settings.fixMacOSContextMenu.name).setDesc(locale5.settings.fixMacOSContextMenu.desc).addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.FixMacOSContextMenu).onChange(async (value) => {
+        this.plugin.settings.FixMacOSContextMenu = value;
         await this.plugin.saveSettings();
       });
     });
@@ -3524,7 +3547,33 @@ var EasyTypingPlugin = class extends import_obsidian3.Plugin {
       }
       return false;
     };
-    this.handleModAInCodeBlock = (view) => {
+    this.handleModA = (view) => {
+      let selection = view.state.selection.main;
+      let line = view.state.doc.lineAt(selection.head);
+      let [block_start, block_end] = this.getBlockLinesInPos(view.state, selection.head);
+      if (this.settings.EnhanceModA && getPosLineType2(view.state, selection.head) == "text" /* text */) {
+        if (selection.anchor <= view.state.doc.line(block_start).from && selection.head >= view.state.doc.line(block_end).to) {
+          return false;
+        }
+        if (selection.anchor == line.from && selection.head == line.to) {
+          if (block_start != block_end) {
+            view.dispatch({
+              selection: {
+                anchor: view.state.doc.line(block_start).from,
+                head: view.state.doc.line(block_end).to
+              },
+              userEvent: "EasyTyping.handleModA"
+            });
+            return true;
+          }
+          return false;
+        }
+        view.dispatch({
+          selection: { anchor: line.from, head: line.to },
+          userEvent: "EasyTyping.handleModA"
+        });
+        return true;
+      }
       if (!this.settings.BetterCodeEdit)
         return false;
       let selected = false;
@@ -3937,7 +3986,7 @@ var EasyTypingPlugin = class extends import_obsidian3.Plugin {
       {
         key: "Mod-a",
         run: (view) => {
-          const success = this.handleModAInCodeBlock(view);
+          const success = this.handleModA(view);
           return success;
         }
       },
@@ -4077,6 +4126,30 @@ var EasyTypingPlugin = class extends import_obsidian3.Plugin {
       selection: { anchor: mainSelection.from + clipboardText.length },
       userEvent: "EasyTyping.paste"
     });
+  }
+  getBlockLinesInPos(state, pos) {
+    const strictLineBreaks = this.app.vault.config.strictLineBreaks || false;
+    let line = state.doc.lineAt(pos);
+    if (!strictLineBreaks) {
+      return [line.number, line.number];
+    }
+    let block_start = line.number;
+    let block_end = line.number;
+    for (let i = line.number - 1; i >= 1; i--) {
+      if (getPosLineType2(state, state.doc.line(i).from) == "text" /* text */ && state.doc.line(i).text !== "") {
+        block_start = i;
+        continue;
+      }
+      break;
+    }
+    for (let i = line.number + 1; i <= state.doc.lines; i++) {
+      if (getPosLineType2(state, state.doc.line(i).from) == "text" /* text */ && state.doc.line(i).text !== "") {
+        block_end = i;
+        continue;
+      }
+      break;
+    }
+    return [block_start, block_end];
   }
   toggleComment(view) {
     const state = view.state;

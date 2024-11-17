@@ -19,6 +19,39 @@ Often linked to Hinduism (contested)
 > [!abstract] Casteism
 > Discrimination based on caste
 
+## Structure
+
+![[Castes in India.jpg]]
+
+> [!quote]+ Rig Veda 10:11
+> "When they divided Purusha (cosmic man, primeval giant) how many portions did they make? What do they call his mouth, his arms? What do they call his thighs and his feet?"
+
+### Upper castes
+
+#### Brahmin
+
+Priests, academics
+
+#### Kshatriya
+
+Warriors, rulers
+
+#### Vaishya
+
+Merchants, farmers
+
+### Dalit-Bahujan
+
+#### Shudra
+
+Workers, servants
+A.k.a. also other backward class (`abbr.` OBC)
+
+#### Dalit
+
+Historically workers who perform polluting tasks
+A.k.a. scheduled castes, `pej.` untouchables
+
 ## Continuity
 
 The rigid and inflexible caste system is perpetuated by:

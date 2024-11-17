@@ -111,17 +111,7 @@ Muhammad bin Qasim conquered parts of modern Pakistan along Indus river -> great
 - 1754-1763: 7 years war between Britain and France colonies in South Asia
 	- **1757**: Battle of Plassey: the British capture Bengal
 
-### 1857–1947: Colonial India 
-
-Motivation of colonialism:
-
-- Spices, muslin & calico
-- European trading rivalries
-
-Impact:
-
-- Administrative: civil service and legal system
-- Revenue: taxes
+### 1857–1947: British India 
 
 - **1857**: The British exiled Bahadur Shah, the last emperor of the Mughal Empire
 

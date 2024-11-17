@@ -1698,7 +1698,8 @@ settings:
   --text-highlight-bg: rgb(var(--ctp-rosewater), 100%);
   --text-highlight-bg-active: rgb(var(--ctp-rosewater), 100%);
   --text-selection: rgb(var(--ctp-rosewater), 100%);
-  --text-on-accent: rgb(var(--ctp-base));
+  --text-on-accent: rgb(var(--ctp-mantle));
+  --text-on-accent-inverted: rgb(var(--ctp-mantle));
   --interactive-normal: rgb(var(--ctp-surface0));
   --interactive-hover: rgb(var(--ctp-surface1));
   --interactive-accent: rgb(var(--ctp-accent));
@@ -2318,6 +2319,31 @@ input[type=number]:focus-visible {
   background-color: rgb(var(--ctp-crust));
 }
 
+input[type=date]::-webkit-datetime-edit-month-field:active,
+input[type=datetime-local]::-webkit-datetime-edit-month-field:active,
+input[type=date]::-webkit-datetime-edit-month-field:focus,
+input[type=datetime-local]::-webkit-datetime-edit-month-field:focus,
+input[type=date]::-webkit-datetime-edit-day-field:active,
+input[type=datetime-local]::-webkit-datetime-edit-day-field:active,
+input[type=date]::-webkit-datetime-edit-day-field:focus,
+input[type=datetime-local]::-webkit-datetime-edit-day-field:focus,
+input[type=date]::-webkit-datetime-edit-year-field:active,
+input[type=datetime-local]::-webkit-datetime-edit-year-field:active,
+input[type=date]::-webkit-datetime-edit-year-field:focus,
+input[type=datetime-local]::-webkit-datetime-edit-year-field:focus {
+  color: var(--text-on-accent);
+}
+
+input[type=datetime-local]::-webkit-datetime-edit-minute-field:active,
+input[type=datetime-local]::-webkit-datetime-edit-minute-field:focus,
+input[type=datetime-local]::-webkit-datetime-edit-hour-field:active,
+input[type=datetime-local]::-webkit-datetime-edit-hour-field:focus,
+input[type=datetime-local]::-webkit-datetime-edit-second-field:active,
+input[type=datetime-local]::-webkit-datetime-edit-second-field:focus {
+  background-color: var(--text-selection);
+  color: var(--text-on-accent);
+}
+
 .cm-s-obsidian .cm-formatting-link.cm-url,
 .cm-s-obsidian .cm-url,
 .cm-s-obsidian .cm-link,
@@ -2408,6 +2434,77 @@ body:not(.ctp-tag-pill) .cm-hashtag::selection {
     color: var(--text-on-accent);
   }
 }
+/**
+* 1. Compatibility for mermaid mindmaps #73
+* 2. CSS modified from obsidian forums post, !important seems to be req
+*/
+.theme-dark .mermaid .mindmap-node text {
+  fill: var(--text-on-accent) !important;
+}
+
+.theme-light .mermaid .mindmap-node text {
+  fill: var(--text-on-accent) !important;
+}
+
+/**
+* 1. Colors for the first eight nodes in a mindmap
+*/
+.mermaid .section-0 path,
+.mermaid .section-0 line,
+.mermaid .section-edge-0 {
+  fill: var(--color-orange) !important;
+  stroke: var(--color-orange) !important;
+}
+
+.mermaid .section-1 path,
+.mermaid .section-1 line,
+.mermaid .section-edge-1 {
+  fill: var(--color-yellow) !important;
+  stroke: var(--color-yellow) !important;
+}
+
+.mermaid .section-2 path,
+.mermaid .section-2 line,
+.mermaid .section-edge-3 {
+  fill: var(--color-green) !important;
+  stroke: var(--color-green) !important;
+}
+
+.mermaid .section-3 path,
+.mermaid .section-3 line,
+.mermaid .section-edge-3 {
+  fill: var(--color-red) !important;
+  stroke: var(--color-red) !important;
+}
+
+.mermaid .section-4 path,
+.mermaid .section-4 line,
+.mermaid .section-edge-4 {
+  fill: var(--color-blue) !important;
+  stroke: var(--color-blue) !important;
+}
+
+.mermaid .section-5 path,
+.mermaid .section-5 line,
+.mermaid .section-edge-5 {
+  fill: var(--color-purple) !important;
+  stroke: var(--color-purple) !important;
+}
+
+.mermaid .section-6 path,
+.mermaid .section-6 line,
+.mermaid .section-edge-6 {
+  fill: var(--color-pink) !important;
+  stroke: var(--color-pink) !important;
+}
+
+.mermaid .section-7 path,
+.mermaid .section-7 line,
+.mermaid .section-edge-7 {
+  fill: var(--color-cyan) !important;
+  stroke: var(--color-cyan) !important;
+}
+
 /**
 * 1. User requested integration with Style Settings plugin to replicate Minimal
 * and its treatment of PDFs. Credit/source of modified scss:
@@ -2611,12 +2708,16 @@ body:not(.ctp-tag-pill) .cm-hashtag::selection {
   color: var(--text-muted);
 }
 
-.tree-item-self:hover .tree-item-flair,
-.backlink-pane > .tree-item-self.is-collapsed:hover,
-.outgoing-link-pane > .tree-item-self.is-collapsed:hover {
+.tree-item-self:hover .tree-item-flair {
   color: var(--text-on-accent);
 }
 
+@media (hover: hover) {
+  .backlink-pane > .tree-item-self.is-clickable.is-collapsed:hover,
+  .outgoing-link-pane > .tree-item-self.is-clickable.is-collapsed:hover {
+    color: var(--text-on-accent);
+  }
+}
 .nav-file-tag {
   background-color: rgb(var(--ctp-surface0));
   color: var(--text-normal);

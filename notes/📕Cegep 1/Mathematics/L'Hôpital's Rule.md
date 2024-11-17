@@ -17,7 +17,19 @@ $$
 
 ## Evaluation
 
-### $\frac{0}{0}$
+### $\frac{0}{0}$ or $\frac{\infty}{\infty}$
+
+Apply L'Hôpital's Rule, several times if needed.
+If the derivative loops, L'Hôpital's Rule cannot be used.
+
+> [!example]- Evaluate the limit $\lim_{ x \to 0^+ } \frac{\ln x}{1 + (\ln x)^2}$.
+> $$
+> \begin{align}
+>  & \lim_{ x \to 0^+ } \frac{\ln x}{1 + (\ln x)^2},\ x = 0, -\frac{\infty}{\infty} \\
+> = & \lim_{ x \to 0^+ } \frac{1}{2\ln x} \\
+> = &\ 0
+> \end{align}
+> $$
 
 ### $\infty - \infty$
 
@@ -52,6 +64,3 @@ $$
 >  & = -\infty
 > \end{align}
 > $$
-
-## Examples
-

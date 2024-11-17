@@ -59,3 +59,17 @@ Affected by:
 
 > [!abstract] Patrilocality
 > Cultural pattern where married couple settles in the husband's home or community
+
+## Contestation in [[South Asia]]
+
+Women going out of *purdah* (`lit.` curtain):
+
+- Rokeya Sakhawat Hossain set schools for girls and writes Sultana's Dream, a feminist utopic story.
+- Women anti-colonialists protest along with men anti-colonialists.
+
+Movements against patriarchy:
+
+- Ring the doorbell movement fights against domestic violence
+- Burka Avenger
+- Meena promotes gender equality to kids
+- Writing with Fire documents a dalit female journalist who challenges gender and caste expectations
