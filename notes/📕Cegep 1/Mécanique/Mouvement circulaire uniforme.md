@@ -20,8 +20,3 @@ $$
 
 > [!abstract] Accélération centripète
 > Accélération dirigée vers le centre du cercle
-
-> [!abstract] Force centripète
-> Force qui cause l'accélération centripète
-> Peut être la gravité, la tension, la force de rappel, la friction, la force normale, etc.
-

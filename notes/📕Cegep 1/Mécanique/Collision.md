@@ -11,7 +11,7 @@ date: 2024-11-06T09:00:16
 
 ### Élastique
 
-Collision où $\sum K$ est conservée
+Collision où l'énergie cinétique *est* conservée
 
 $$
 \sum p_{i} = \sum p_{f}
@@ -25,11 +25,20 @@ $$
 
 ### Inélastique
 
-Collision où $\sum K$ n'est pas conservée (il y a un travail)
+Collision où l'énergie cinétique *n'est pas* conservée (il y a un travail)
+
+L'énergie cinétique se transforme en d'autres formes d'énergie :
+
+- Énergie sonore
+- Énergie thermique
+- Énergie élastique de déformation
+- Etc.
 
 ### Totalement inélastique
 
-Collision où les objets restent collés après la collision
+Collision inélastique où les objets restent collés après la collision
+
+La perte d'énergie cinétique est maximisée.
 
 ## Exemples
 

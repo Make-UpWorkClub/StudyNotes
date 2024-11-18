@@ -28,10 +28,15 @@ Bretagne, [[Années folles|les années folles]]
 
 - Changement de personnalité
 	- Défiance
-		- Philippe suit une étrangère
-		- Vinca refuse que Philippe lui rattache les cordons d'espadrille
-	- Insécurité
-		- Vinca jalouse de la dame passagère
+		- Philippe suit une étrangère.
+		- Vinca refuse que Philippe lui rattache les cordons d'espadrille.
+	- Séduction
+		- Vinca essaye de séduire le Parisien.
+	- Perte de confiance
+		- Philippe
+	- Gain de confiance
+		- Au début, l'insécurité de Vinca la pousse à la tentative de suicide. À la fin, elle trouve ridicule de se suicider à cause d'une autre femme.
+		- Vinca s'initie à la sexualité avec sérénité.
 	- Respect et empathie
 		- Philippe après avoir confronté Vinca
 - Perte de l'enfance
@@ -40,19 +45,28 @@ Bretagne, [[Années folles|les années folles]]
 	- Matérialisme
 - Futur incertain, adolescence long et dur (<- You can apply worldview here!)
 	- Philippe impatient de grandir
+- Blé en herbe: épi de blé trop jeune pour être cueilli
+	- Adolescent pressé à passer à l'âge adulte
 
 ### Amour
 
 - Violence physique et verbal
 - Jalousie
+- Douleur de l'amour
+	- Vinca apprend à souffrir en silence.
 - Relation entre Philippe et Vinca
-	- Contrôle de Philippe
+	- Au début : contrôle de Philippe
 		- Il voit Vinca comme sa propriété.
 		- Philippe veut Vinca « confiante, promise à lui seul, et disponible [...] ».
 		- Philippe craint l'indépendance graduelle de Vinca.
-		- Secrètement dépendant de Vinca
-	- Obéissance -> désobéissance de Vinca
-		- Dépendante de Philippe
+		- Vinca dépendante de Philippe
+		- Philippe secrètement dépendant de Vinca
+	- Progressif : inversion du pouvoir
+		- Visite du Parisien : Philippe constate sa jalousie.
+		- Rencontre avec Mme Dalleray : l'inexpérience de Philippe auprès des femmes heurte son orgueil, le rend maladroit et le fragilise.
+		- Pêche : l'insécurité de Philippe le traumatise.
+		- Pique-nique avec Lisette : Philippe prend le rôle traditionnel de père et passe de la révolte à la résignation.
+		- Vinca : « pour toujours », mais pas « comme toujours »
 - Philippe = phili(e) + ppe
 
 ### Volupté
@@ -69,6 +83,7 @@ Bretagne, [[Années folles|les années folles]]
 			- Il conquiert « le droit de défaillir de faiblesse ».
 			- Il devient plus doux et plus passif envers Vinca (aussi à cause de sa culpabilité).
 			- Il supplie Vinca de laisser le congre qu'elle essaye de capturer.
+		- Philippe considère Mme Dalleray comme son maître.
 - Philippe impatient que Vinca devienne attirante
 - « Insolence voluptueuse »
 
@@ -99,7 +114,7 @@ Caractère :
 - *Impatient*
 - Dominateur et contrôlant
 - Violent
-- Orgueilleux et manquant de confiance
+- Orgueilleux et confiant -> manquant de confiance
 - Égoïste et dépourvu d'empathie
 	- « [...] avez-vous pensé plus vivement à mon plaisir de les recevoir [...] qu'à *votre* plaisir de les cueillir pour moi et de me les offrir ? »
 	- « [...] elle serra [la main de Philippe], indifférente à lui et pour son seul plaisir égoïste. »

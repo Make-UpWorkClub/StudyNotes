@@ -7,11 +7,25 @@ date: 2024-09-18T08:38:13
 
 # Force
 
-2<sup>e</sup> Loi de Newton :
+Changement de la [[quantité de mouvement]] par temps
+`Sym.` $\overset{\to}{F}$
+
+Effectue un [[travail]] sur une distance
+
+**2<sup>e</sup> Loi de Newton** :
 
 $$
-\sum \overset{\to}{F} = m\overset{\to}{a} = \frac{\mathrm{d\overset{\to}{p}}}{\mathrm{d}t} = m\frac{\mathrm{d}\overset{\to}{v}}{\mathrm{d}t}
+\sum \overset{\to}{F} = m\overset{\to}{a} = \frac{\mathrm{d}\overset{\to}{p}}{\mathrm{d}t} = m\frac{\mathrm{d}\overset{\to}{v}}{\mathrm{d}t} = m\frac{\mathrm{d}\overset{\to}{r}}{\mathrm{d}t^2}
 $$
+
+> [!note]- Analyse dimensionnelle
+> $$
+> \begin{align}
+> [F] & = [ma] \\
+>  & = \mathrm{kg}\cdot \frac{\mathrm{m}}{\mathrm{s}^2} \\
+>  & = N
+> \end{align}
+> $$
 
 ## Types
 
@@ -22,16 +36,16 @@ Donneur et receveur *sont* en contact
 #### Tension
 
 Force avec laquelle une corde tire sur un objet
-Dénotée $\overset{\to}{T}$
+`Sym.` $\overset{\to}{T}$
 
 #### ~ normale
 
-Dénotée $\overset{\to}{n}$
+`Sym.` $\overset{\to}{n}$
 
 #### ~ de rappel
 
 Force d'un ressort
-Dénotée $\overset{\to}{F_r}$
+`Sym.` $\overset{\to}{F_r}$
 
 $$
 \begin{align}
@@ -40,22 +54,17 @@ F_r & \propto |l - l_n|
 \end{align}
 $$
 
-Quand $l_0 = l_n$,  $\theta = 0$ et $x_0 = 0$:
-
-$$
-\begin{align}
-U_r & = ||\overset{\to}{F}||\cdot x \\
-U_r & = \int_0^x kx'\cdot dx' \\
-U_r & = k\left[ \frac{x'^2}{2} \right]_0^x \\
-U_r & = \frac{1}{2}kx^2
-\end{align}
-$$
-
 #### Friction
 
 Force qui s'oppose au glissement relatif de deux surfaces
-Dénotée $\overset{\to}{f}$
-$f \propto n$
+`Sym.` $\overset{\to}{f}$
+
+$$
+\begin{align}
+F_{max} & = \mu n \\
+f \propto n
+\end{align}
+$$
 
 ### ~ de champs
 
@@ -63,12 +72,16 @@ Donneur et receveur *ne sont pas* en contact
 
 #### Gravité
 
+`Sym.` $\overset{\to}{F_g}$
+
 $$
 \begin{align}
 F_g & = \frac{Gm_1m_2}{r^2} \\
 G & = 6.674\dots\ \times10^{-11} \frac{Nm^2}{kg^2}
 \end{align}
 $$
+
+## Classifications
 
 ### ~ fondamentale
 
@@ -89,13 +102,11 @@ Force associée à une énergie potentielle
 Dépendant du déplacement
 Indépendant du travail
 
-$$
-\begin{align}
-\overset{\to}{F_g},\ U_g = mgy \\
-\overset{\to}{F_r},\ U_r = \frac{1}{2}kx^2
-\end{align}
-$$
-
 ### ~ dissipative
 
 Force qui transforme l'énergie mécanique en énergie thermique
+
+### ~ centripète
+
+Force qui cause l'accélération centripète
+Peut être la gravité, la tension, la force de rappel, la friction, la force normale, etc.

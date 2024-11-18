@@ -5,5 +5,9 @@
   "catppuccin-font-styles@@ctp-bold": "var(--ctp-yellow)",
   "catppuccin-font-styles@@ctp-italic": "var(--ctp-lavender)",
   "catppuccin-font-styles@@ctp-strikethrough": "var(--ctp-peach)",
-  "catppuccin-font-styles@@ctp-blockquote": "var(--ctp-subtext0)"
+  "catppuccin-font-styles@@ctp-blockquote": "var(--ctp-subtext0)",
+  "catppuccin-pdf@@ctp-pdf-darken": true,
+  "catppuccin-pdf@@ctp-pdf-blend": true,
+  "catppuccin-pdf@@ctp-seamless-pdf": true,
+  "catppuccin-tag-styles@@ctp-tag-pill": true
 }
