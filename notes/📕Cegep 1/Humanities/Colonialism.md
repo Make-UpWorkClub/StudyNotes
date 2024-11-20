@@ -13,7 +13,7 @@ The colonizer is often a country, but can also be companies, merchants, etc.
 > [!abstract] Settler-colonialism
 > Colonialism where colonizers settle (as opposed to simply colonialism)
 
-## Colonialism in [[South Asia]]
+## In [[South Asia]]
 
 Motivation:
 
@@ -22,17 +22,18 @@ Motivation:
 
 Impact:
 
-- Politics:
+- Political:
 	- Administration: civil service and legal system
 	- Judicial system: courts, judges, magistrates
-- Society and culture:
+- Sociocultural:
 	- Education: schools, colleges, universities
 	- Social reform to improve status of women
+		- Mutuality in marriage
 	- Racism and categorization
 		- Racial distancing
 		- Used to justify colonisation
 		- "White Man's burden"
-- Economy:
+- Economic:
 	- Revenue: taxes
 	- Impoverishment
 	- Export of raw materials to colonizing country
@@ -41,7 +42,7 @@ Impact:
 		- Indigo
 	- Import of manufactured goods from colonizing country
 	- De-industrialisation
-- Culture:
+- Cultural:
 	- Language
 		- English, French, Dutch, ...
 	- Social norms

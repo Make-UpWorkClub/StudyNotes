@@ -7,7 +7,7 @@ date: 2024-10-08T17:20:24
 
 # Hinduism
 
-Polytheistic [[Indian religion]] or atheistic philosophy
+Polytheistic [[Religion in South Asia|Indian religion]] or atheistic philosophy
 `Drv.` Sindhu (now Indus) -> Hindus -> Hinduism
 
 Diverse, flexible and open-minded

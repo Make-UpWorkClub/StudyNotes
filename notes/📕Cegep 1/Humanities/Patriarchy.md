@@ -7,25 +7,36 @@ date: 2024-10-31T16:15:50
 
 # Patriarchy
 
+Social system that privileges the male
+
 Properties:
 
 - Not primordial, but a social construct
-- Men are expected to conform to patriarchy
+- Defines gender expectations
+	- Men also expected to conform to patriarchy
+	- Homophobia & transphobia
+- Generally, more civilized = fewer rights for women
+  Greater economic independence = greater freedom and autonomy
+  Higher caste / class = less freedom and autonomy
+	- <= lowering of marriage age of girls
+	- <= when a family can afford keeping women at home, its status rises. Conversely when economic situation improves, women are kept at home.
+	- `E.g.` dvija women are more restricted.
+	- `E.g.` adivasis are more egalitarian.
 
 ## Origins
 
 1. Hunter-gatherer groups
 	- Gender division of labour: women gather; men hunt
-		- Women reproduce so are less suitable for hunt
+		- <= women reproduce so are less suitable for hunt
 	- Gender balance
 		- Women may be more respected because they have stable source of food.
 2. Agricultural revolution
 	- Gender division of labour: women spend more time inside; men spend more time outside
-		- Need to have more babies for population growth
+		- <= need to have more babies for population growth
 3. Emergence of patriarchy
-	- Population growth
-	- Accumulation of properties
-	- Public / private divide: men occupy the public sphere; women occupy the private sphere; public sphere deemed more important
+	- <= need to have more babies for population growth
+	- <= accumulation of properties
+	- <= public / private divide
 4. Institutionalization
 	- Religion, culture, laws, etc.
 
@@ -33,18 +44,38 @@ Properties:
 
 Affected by:
 
-- Honour / shame
-	- Women may affect the honour of the family => they are protected / controlled
-		- E.g. women covering their faces
-- Public / private spheres
-	- Public sphere: men space
-		- Outside the home
-		- Higher status and value
-	- Private sphere: women space
-		- Inside the home
-		- Lower status and value
+- Caste / class
+- Region
+	- Generally women in southern South Asia and rural areas have more freedom.
+- Age
+	- Older = higher status
+
+### Honour / shame
+
+Family is honoured if women behave in appropriate ways.
+
+### Public / private spheres
+
+Segregation of women
+
+- *Public* sphere (*outside* the home): *men* space
+	- Work deemed *more* important => *higher* male status
+- *Private* sphere (*inside* the home): *women* space
+	- Work deemed *less* important => *lower* female status
+
+> [!example] Purdah (`lit.` curtain, veiling of women)
+
+> [!example] Zenana (female apartments in a house)
+
+### Protection / control
+
+To protect honour, women are protected / controlled.
+
+> [!example] Some women cannot leave the house without male escort.
 
 ## Preference for boys
+
+Caused by:
 
 - Patrilineality:
 	- Lineage
@@ -52,24 +83,31 @@ Affected by:
 - Patrilocality:
 	- Care of parents in old age
 - Funeral rituals performed by sons
-- Dowry payments made to groom by bride's family
+- Dowry
 
-> [!abstract] Patrilineality
-> In a family, inheritance of properties by the male line
+## Concepts
 
-> [!abstract] Patrilocality
-> Cultural pattern where married couple settles in the husband's home or community
+### Patrilineality
 
-## Contestation in [[South Asia]]
+In a family, inheritance of properties by the male line
 
-Women going out of *purdah* (`lit.` curtain):
+### Patrilocality
 
-- Rokeya Sakhawat Hossain set schools for girls and writes Sultana's Dream, a feminist utopic story.
-- Women anti-colonialists protest along with men anti-colonialists.
+Cultural pattern where married couple settles in the husband's home or community
 
-Movements against patriarchy:
+## In [[South Asia]]
 
-- Ring the doorbell movement fights against domestic violence
-- Burka Avenger
-- Meena promotes gender equality to kids
-- Writing with Fire documents a dalit female journalist who challenges gender and caste expectations
+Variety of gender norms before patriarchy:
+
+- Traditions of cross-dressing, transgender and transsexuality
+- Ardhnarisvara
+
+### Contestation
+
+- Women going out of purdah:
+	- *Women anti-colonialists* protested along with men anti-colonialists.
+	- *Sarala devi Chaudhurani* founded the first national-level women's organisation in India.
+	- *Rokeya Sakhawat Hossain* founded schools for girls and wrote Sultana's Dream, a feminist utopic story.
+	- *Writing with Fire* documents a dalit female journalist who challenges gender and caste expectations.
+- *Ring the doorbell* movement fights against domestic violence.
+- *Burka Avenger* and *Meena* promote gender equality to kids.

@@ -7,7 +7,7 @@ date: 2024-10-10T15:07:58
 
 # Jainism
 
-Atheistic [[Indian religion]]
+Atheistic [[Religion in South Asia|Indian religion]]
 Inspired by [[Hinduism]] and [[Buddhism]]
 
 Small but influential

@@ -19,7 +19,7 @@ Arrived in South Asia by trade
 Spread by trade, conquest, conversion and mostly missionary activity of Sufis
 Attracted those marginalized by caste and socio-economic conditions
 
-### Influence on [[South Asia]]
+### Influence on [[Religion in South Asia|South Asia]]
 
 - Religion
 	- Inspired the creation of Sikhism

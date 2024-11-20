@@ -11,7 +11,6 @@ Point de la distribution moyenne de la masse d'un corps dans l'espace
 `Abbr.` CM
 
 Souvent le centre de rotation
-Une force appliquée sur le CM ne cause pas d'accélération angulaire. 
 
 Pour une collection de particules :
 

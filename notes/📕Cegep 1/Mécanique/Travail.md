@@ -9,13 +9,16 @@ date: 2024-10-31T12:48:44
 
 Changement d'[[énergie]] d'un corps
 `Sym.` $W$
-$[W] = J$
 
 Produit scalaire de la force et du déplacement
 Aussi aire sous la courbe de la force
 
 $$
-W_F = ||\overset{\to}{F}||\cdot||\Delta \overset{\to}{r}||\cos\theta
+\begin{align}
+W & = \overset{\to}{F}\cdot \mathrm{d}\overset{\to}{r}\\
+W_m & = \overset{\to}{F}\cdot\Delta \overset{\to}{r} \\
+[W] & = J
+\end{align}
 $$
 
 Conservation d'énergie avec travail :
@@ -34,6 +37,12 @@ $$
 >  & = J
 > \end{align}
 > $$
+
+> [!info]- Traduction français-anglais
+> | Quantité    | Français        | Anglais         |
+> | ----------- | --------------- | --------------- |
+> | Scalaire    | Moment de force | Moment of force |
+> | Vectorielle | Moment de force | **Torque**      |
 
 > [!info] Le travail n'est pas le moment de force, car le produit scalaire est utilisé.
 

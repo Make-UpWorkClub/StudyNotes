@@ -7,7 +7,7 @@ date: 2024-10-08T17:15:20
 
 # Buddhism
 
-[[Indian religion]] or philosophy
+[[Religion in South Asia|Indian religion]] or philosophy
 Inspired by [[Hinduism]] and [[Jainism]]
 
 Open-minded

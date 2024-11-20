@@ -10,8 +10,8 @@ date: 2024-08-21T01:20:00
 > [!info]- Terms used interchangeably in this course:
 > - India
 > - South Asia
-> - sub-continent
-> - Indian sub-continent
+> - The sub-continent
+> - The Indian sub-continent
 
 ## Geography
 
@@ -35,60 +35,12 @@ date: 2024-08-21T01:20:00
 
 ![[South Asia.png|500]]
 
-## Population
+## Society
+
+### Demography
 
 *Normal* countries: *slightly more women than men*
 *South Asian* countries: *more men than women* due to patriarchy
-
-## Religion
-
-High religious diversity
-
-- Indian religions:
-	- **Hinduism**
-		- Main religion of *India* and *Nepal*
-	- **Buddhism**
-		- Main religion of *Bhutan* and *Sri Lanka*
-	- Sikhism
-	- Jainism
-	- Indigenous belief systems
-		- Animism (veneration of plants, trees, water, earth)
-- Other:
-	- **Islam**
-		- Local customs and practices
-		- Main religion of *Pakistan* and *Bangladesh*
-	- Christianity
-		- Arrived in 1<sup>st</sup> Century CE
-	- Religion-like traditions
-
-## Culture
-
-### Music
-
-Influence from Persia
-Apprentices follow one teacher for life
-
-#### Raga
-
-Unique melodic framework
-`lit.` colour
-Colours the mind
-Divided into Hindustani (northern) and Carnatic (southern) musics
-
-#### Tala
-
-Cyclic rhythm
-Each cycle is clap-clap-wave-clap
-Clap: bass
-Wave: *no* bass
-
-#### Instruments
-
-Voice is the main instrument.
-Most instruments imitate voice.
-
-Tabla: drum
-Santour: Persian hammered dulcimer (percussion-stringed)
 
 ## History
 

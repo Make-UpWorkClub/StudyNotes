@@ -7,7 +7,7 @@ date: 2024-10-15T14:58:46
 
 # Sikhism
 
-Monotheistic syncretic [[Indian religion]]
+Monotheistic syncretic [[Religion in South Asia|Indian religion]]
 Inspired by [[Hinduism]] and [[Islam]]
 One of the modern religions
 

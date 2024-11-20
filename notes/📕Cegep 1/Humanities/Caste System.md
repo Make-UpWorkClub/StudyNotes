@@ -26,7 +26,10 @@ Often linked to Hinduism (contested)
 > [!quote]+ Rig Veda 10:11
 > "When they divided Purusha (cosmic man, primeval giant) how many portions did they make? What do they call his mouth, his arms? What do they call his thighs and his feet?"
 
-### Upper castes
+### Dvija
+
+`Lit.` twice-born, referring to their eligibility for the sacrament of initiation, regarded as a second birth
+`A.k.a.` upper castes
 
 #### Brahmin
 
@@ -42,33 +45,29 @@ Merchants, farmers
 
 ### Dalit-Bahujan
 
+`A.k.a.` lower castes
+
 #### Shudra
 
 Workers, servants
-A.k.a. also other backward class (`abbr.` OBC)
+`A.k.a.` other backward class (`abbr.` OBC)
 
 #### Dalit
 
+Outside of the varna system
+`A.k.a.` scheduled castes, `pej.` untouchables
+
 Historically workers who perform polluting tasks
-A.k.a. scheduled castes, `pej.` untouchables
 
 ## Continuity
 
 The rigid and inflexible caste system is perpetuated by:
 
-- Birth (one is born into a fixed caste and cannot move caste)
-- Endogamy
-- Occupation
-- Commensality
+- Caste isolation:
+	- Birth (one is born into a fixed caste and cannot move caste)
+	- Endogamy
+	- Occupation
+	- Commensality
 - Ostracisation and violence against violators of caste norms
+- Rape of lower caste women upper caste men as humiliation (also [[patriarchy]])
 - Belief in karma (followers of caste norms reincarnate into a higher caste)
-
-> [!abstract] Endogamy
-> Marriage within a specific social group
-
-> [!abstract]+ Commensality
-> Rules of eating:
-> 
-> - Eat with the same caste group
-> - Not eat prepared food from another caste
-> 	- Can prepare food using ingredients sold by another caste

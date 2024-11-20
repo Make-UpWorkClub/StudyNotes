@@ -5,6 +5,8 @@ tags:
 date: 2024-11-07T15:12:21
 ---
 
+%% [[Patriarchy]] %%
+
 # The World Before Her
 
 Documentary about the conflict between the Miss India pageant and the Durga Vahini group

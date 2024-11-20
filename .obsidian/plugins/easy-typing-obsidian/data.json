@@ -75,12 +75,17 @@
     [
       "***|",
       "**|**"
+    ],
+    [
+      "r/(?<=\\n[\\t ]*)-  /|",
+      "  |"
     ]
   ],
   "userSelRuleSettingsOpen": true,
   "userDelRuleSettingsOpen": true,
   "userCvtRuleSettingsOpen": true,
   "EnterTwice": false,
+  "EnhanceModA": false,
   "TryFixChineseIM": true,
   "PuncRectify": false,
   "FixMacOSContextMenu": false,

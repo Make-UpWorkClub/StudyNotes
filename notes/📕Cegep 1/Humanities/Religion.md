@@ -16,7 +16,9 @@ Important influence on [[worldview]]
 - Impact of different groups arriving in the area
 - Blending of systems
 
-## Polytheism
+## Types
+
+### Polytheism
 
 Belief in many gods
 
@@ -28,7 +30,7 @@ Usually *anthropomorphic*
 
 Responsible for *positives + negatives*
 
-## Monotheism
+### Monotheism
 
 Belief in one god
 
