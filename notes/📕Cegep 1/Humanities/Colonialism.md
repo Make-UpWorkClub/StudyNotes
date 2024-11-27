@@ -25,7 +25,7 @@ Impact:
 - Political:
 	- Administration: civil service and legal system
 	- Judicial system: courts, judges, magistrates
-- Sociocultural:
+- Socio-cultural:
 	- Education: schools, colleges, universities
 	- Social reform to improve status of women
 		- Mutuality in marriage

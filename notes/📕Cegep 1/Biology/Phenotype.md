@@ -21,3 +21,6 @@ Includes:
 - Behaviour
 - Appearance
 - Biochemical properties
+
+> [!abstract] Wildtype
+> Phenotype most commonly observed in nature

@@ -14,7 +14,7 @@ Followed by [[cytokinesis]]
 Properties:
 
 - *1* cell division
-- *2 identical diploid* daughter cells
+- *2 identical diploid* daughter cells in humans
 
 Phases:
 

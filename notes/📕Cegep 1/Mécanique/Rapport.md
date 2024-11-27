@@ -9,7 +9,7 @@ date: 2024-11-18T00:52:03
 
 Quotient de deux grandeurs
 
-> [!important]+ Translation anglais-français
+> [!important]+ Traduction anglais-français
 > 
 > | Définition                                          | Français                     | Anglais     |
 > | --------------------------------------------------- | ---------------------------- | ----------- |

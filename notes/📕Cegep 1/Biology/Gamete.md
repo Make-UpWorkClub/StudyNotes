@@ -9,5 +9,9 @@ date: 2024-09-12T16:34:55
 
 Reproductive [[cell]] (`coll.` sperm and egg (ova))
 
-[[Chromosome#^6b1fc9|Haploid]]
-Human gamete: *23* [[Chromosome|chromosomes]] (22 *single* autosomes + *1* sex chromosome)
+[[Ploidy#^8a1024|Haploid]]
+
+Human gamete:
+
+- *[[Ploidy|Monoploid]]*
+- *23* chromosomes (22 *single* autosomes + *1* sex chromosome)

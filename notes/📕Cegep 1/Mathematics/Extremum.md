@@ -11,13 +11,3 @@ Point $x = c$ of a function $f$ over its domain $I$ (**global** or **absolute**)
 `Pl.` extrema
 
 Only occurs at critical points
-
-## Evaluation
-
-To find the extrema of $f$,
-
-1. Find $domf$.
-2. Find $f'$.
-3. Find critical values of $f$.
-4. Find endpoints of $f$ (use limit if open).
-5. Find extrema by observing monotonicity.

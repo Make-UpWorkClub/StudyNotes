@@ -38,12 +38,6 @@ $$
 > \end{align}
 > $$
 
-> [!info]- Traduction français-anglais
-> | Quantité    | Français        | Anglais         |
-> | ----------- | --------------- | --------------- |
-> | Scalaire    | Moment de force | Moment of force |
-> | Vectorielle | Moment de force | **Torque**      |
-
-> [!info] Le travail n'est pas le moment de force, car le produit scalaire est utilisé.
+> [!info] Le travail n'est pas considéré comme le moment de force.
 
 > [!important] La friction peut effectuer un travail positif.

@@ -16,7 +16,7 @@ $$
 \end{align}
 $$
 
-**Loi de la conservation de la quantité de mouvement** dans un **système isolé** :
+**Conservation de la quantité de mouvement** dans un **système isolé** <= 3<sup>e</sup> loi de Newton :
 
 $$
 \sum \overset{\to}{p_i} = \sum \overset{\to}{p_f}

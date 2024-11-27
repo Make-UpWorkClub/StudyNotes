@@ -7,7 +7,7 @@ date: 2024-09-18T08:38:13
 
 # Force
 
-Changement de la [[quantité de mouvement]] par temps
+Changement de [[quantité de mouvement]] par temps
 `Sym.` $\overset{\to}{F}$
 
 Effectue un [[travail]] sur une distance
@@ -15,7 +15,7 @@ Effectue un [[travail]] sur une distance
 **2<sup>e</sup> Loi de Newton** :
 
 $$
-\sum \overset{\to}{F} = m\overset{\to}{a} = \frac{\mathrm{d}\overset{\to}{p}}{\mathrm{d}t} = m\frac{\mathrm{d}\overset{\to}{v}}{\mathrm{d}t} = m\frac{\mathrm{d}\overset{\to}{r}}{\mathrm{d}t^2}
+\sum \overset{\to}{F} = m\overset{\to}{a} = \frac{\mathrm{d}\overset{\to}{p}}{\mathrm{d}t} = m\frac{\mathrm{d}\overset{\to}{v}}{\mathrm{d}t} = m\frac{\mathrm{d}^2\overset{\to}{r}}{\mathrm{d}t^2}
 $$
 
 > [!note]- Analyse dimensionnelle

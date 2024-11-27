@@ -36,7 +36,7 @@ f''(x) & = \frac{-10(1 + 2x)}{9x^{\frac{4}{3}}}
 \end{align}
 $$
 
-sketch the graph of f.
+sketch the graph of $f$.
 
 ### Domain
 
@@ -128,7 +128,7 @@ So,
 |:---------:|:--------------:|:-------:|:-------:|:--------:|
 |  $f'(x)$  |       -        |    -    |    +    |    -     |
 | $f''(x)$  |       +        |    -    |    -    |    -     |
-|  $f(x)$   |    dec inc     | inc dec | dec inc | inc dec  |
+|  $f(x)$   |    dec dec     | inc dec | dec inc | inc dec  |
 
 ### Relative extrema
 

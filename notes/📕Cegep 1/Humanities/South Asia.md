@@ -66,13 +66,21 @@ Muhammad bin Qasim conquered parts of modern Pakistan along Indus river -> great
 ### 1857–1947: British India 
 
 - **1857**: The British exiled Bahadur Shah, the last emperor of the Mughal Empire
+- 1869: Opening of the Suez Canal => travel time between Britain and India reduced
+- 1885: Foundation of the Indian National Congress
+- 1906: Foundation of the All-Indian Muslim League
 
 ### 1947–: Post-Colonial India
 
 - **1947**: Indian Independence Act
-	- Partition of British India into India and Pakistan
 	- Legal attempts to erase caste inequalities
 		- Affirmative action (positive discrimination)
+	- Partition of British India into India and Pakistan
+		- Done without any consultation of the population
+		- Largest and most rapid population transfer in history
+		- => creation of Hindu-Muslim conflict
+		- => increase of communalism
+- 1948: assassination of Gandhi
 - 1971: Proclamation of Bangladesh Independence
 	- Independence of Bangladesh from Pakistan
 - 1992: Hindus destroy Babri Masjid, a mosque in Ayodhya, India

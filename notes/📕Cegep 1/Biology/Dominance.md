@@ -22,4 +22,11 @@ Mixed expression of multiple alleles
 
 > [!example] A rooster with white and black alleles exhibiting both colours
 
-> [!example] Codominance of A and B alleles makes blood type AB.
+> [!example] Codominance of $I^A$ and $I^B$ alleles makes blood type AB.
+
+## Type of chromosome
+
+Autosomal dominance: dominance of an allele on an *autosome*
+Sex / X / Y-linked dominance: dominance of an allele on a *sex chromosome*
+
+Sex-linked recessive disorders affect more males than females

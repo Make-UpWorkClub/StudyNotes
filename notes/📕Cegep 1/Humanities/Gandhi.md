@@ -14,3 +14,5 @@ Friend of [[Nehru]]
 
 Want to reform the caste system
 Coined the term "Harijan" ("children of god") in place of "untouchable", rejected by dalits
+
+Assassinated in 1948

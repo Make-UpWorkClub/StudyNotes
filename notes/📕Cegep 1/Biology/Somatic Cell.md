@@ -9,5 +9,7 @@ date: 2024-09-12T16:24:43
 
 Every [[cell]] except gametes
 
-[[Chromosome#^6b1fc9|Diploid]]
-Human somatic cell: *46* [[Chromosome|chromosomes]] (22 *pairs* of autosomes + *2* sex chromosomes)
+Human somatic cell:
+
+- *[[Ploidy|Diploid]]*
+- *46* chromosomes (22 *pairs* of autosomes + *2* sex chromosomes)

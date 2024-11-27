@@ -12,7 +12,7 @@ Analogue de la masse dans la [[rotation]]
 Dépendant de la distribution de masse d'un corps relative à un axe
 `Sym.` $I$
 
-Rapport entre le moment de force et l'accélération angulaire
+Rapport entre le moment de force et l'accélération angulaire :
 
 $$
 \begin{align}

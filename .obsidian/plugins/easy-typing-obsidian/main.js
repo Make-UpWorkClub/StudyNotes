@@ -1399,6 +1399,10 @@ var locale = {
       name: "Space between English and Number",
       desc: "Insert space between English characters and numbers."
     },
+    quoteSpace: {
+      name: "Space between quote character > and text",
+      desc: "Insert space between quote character > and text."
+    },
     deleteSpaceBetweenChinese: {
       name: "Delete the Space between Chinese characters",
       desc: "Remove spaces between Chinese characters."
@@ -1444,8 +1448,8 @@ var locale = {
       desc: "Adapt for older versions of Microsoft Input Method."
     },
     strictLineBreaks: {
-      name: "Strict Line breaks Mode Enter Twice",
-      desc: "In strict line breaks mode, pressing Enter once in normal text lines will produce two line breaks."
+      name: "Strict Line breaks Mode",
+      desc: "In strict line breaks mode, pressing Enter once in normal text lines will produce two line breaks or two spaces and Enter."
     },
     enhanceModA: {
       name: "Enhance Mod+A selection in text",
@@ -1511,6 +1515,9 @@ var locale = {
     editSelectionReplaceRule: "Edit Selection Replace Rule"
   },
   dropdownOptions: {
+    enterTwice: "Enter Twice",
+    twoSpace: "Two Space",
+    mixMode: "Mix Mode",
     onlyWhenTyping: "Only When Typing",
     globally: "Work Globally",
     noRequire: "No Require",
@@ -1592,6 +1599,10 @@ var locale2 = {
       name: "\u82F1\u6587\u4E0E\u6570\u5B57\u4E4B\u95F4\u7684\u7A7A\u683C",
       desc: "\u5728\u82F1\u6587\u548C\u6570\u5B57\u4E4B\u95F4\u63D2\u5165\u7A7A\u683C\uFF0C\u53EF\u64A4\u9500"
     },
+    quoteSpace: {
+      name: "\u5F15\u7528\u7B26\u53F7 > \u4E0E\u6587\u672C\u4E4B\u95F4\u81EA\u52A8\u7A7A\u683C",
+      desc: "\u5728\u5F15\u7528\u7B26\u53F7 > \u4E0E\u6587\u672C\u4E4B\u95F4\u81EA\u52A8\u63D2\u5165\u7A7A\u683C\uFF0C\u4E0D\u53EF\u64A4\u9500"
+    },
     deleteSpaceBetweenChinese: {
       name: "\u5220\u9664\u4E2D\u6587\u5B57\u7B26\u95F4\u7684\u7A7A\u683C",
       desc: "\u53BB\u9664\u4E2D\u6587\u5B57\u7B26\u4E4B\u95F4\u7684\u7A7A\u683C\uFF0C\u4E0D\u53EF\u64A4\u9500"
@@ -1637,8 +1648,8 @@ var locale2 = {
       desc: "\u9002\u914D\u65E7\u7248\u5FAE\u8F6F\u8F93\u5165\u6CD5"
     },
     strictLineBreaks: {
-      name: "\u4E25\u683C\u6362\u884C\u6A21\u5F0F\u4E0B\u6309\u4E24\u6B21\u56DE\u8F66",
-      desc: "\u4E25\u683C\u6362\u884C\u7684\u8BBE\u7F6E\u4E0B\uFF0C\u5728\u666E\u901A\u6587\u672C\u884C\u8FDB\u884C\u4E00\u6B21\u56DE\u8F66\u4F1A\u4EA7\u751F\u4E24\u4E2A\u6362\u884C\u7B26"
+      name: "\u4E25\u683C\u6362\u884C\u6A21\u5F0F\u56DE\u8F66\u589E\u5F3A",
+      desc: "\u4E25\u683C\u6362\u884C\u7684\u8BBE\u7F6E\u4E0B\uFF0C\u5728\u666E\u901A\u6587\u672C\u884C\u8FDB\u884C\u4E00\u6B21\u56DE\u8F66\u4F1A\u6839\u636E\u6A21\u5F0F\u4EA7\u751F\u4E24\u4E2A\u6362\u884C\u7B26\u6216\u8005\u4E24\u4E2A\u7A7A\u683C\u548C\u56DE\u8F66"
     },
     enhanceModA: {
       name: "\u589E\u5F3A Ctrl/Cmd+A \u529F\u80FD",
@@ -1704,6 +1715,9 @@ var locale2 = {
     editSelectionReplaceRule: "\u7F16\u8F91\u9009\u4E2D\u66FF\u6362\u89C4\u5219"
   },
   dropdownOptions: {
+    enterTwice: "\u4E24\u6B21\u56DE\u8F66",
+    twoSpace: "\u52A0\u4E24\u4E2A\u7A7A\u683C",
+    mixMode: "\u6DF7\u5408\u6A21\u5F0F",
     onlyWhenTyping: "\u8F93\u5165\u65F6\u751F\u6548",
     globally: "\u5168\u5C40\u751F\u6548",
     noRequire: "\u65E0\u8981\u6C42",
@@ -1785,6 +1799,10 @@ var locale3 = {
       name: "\u041F\u0440\u043E\u0431\u0435\u043B \u043C\u0435\u0436\u0434\u0443 \u0430\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u0438\u043C\u0438 \u0441\u0438\u043C\u0432\u043E\u043B\u0430\u043C\u0438 \u0438 \u0447\u0438\u0441\u043B\u0430\u043C\u0438",
       desc: "\u0412\u0441\u0442\u0430\u0432\u043A\u0430 \u043F\u0440\u043E\u0431\u0435\u043B\u0430 \u043C\u0435\u0436\u0434\u0443 \u0430\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u0438\u043C\u0438 \u0441\u0438\u043C\u0432\u043E\u043B\u0430\u043C\u0438 \u0438 \u0447\u0438\u0441\u043B\u0430\u043C\u0438."
     },
+    quoteSpace: {
+      name: "\u041F\u0440\u043E\u0431\u0435\u043B \u043C\u0435\u0436\u0434\u0443 \u0441\u0438\u043C\u0432\u043E\u043B\u043E\u043C > \u0438 \u0442\u0435\u043A\u0441\u0442\u043E\u043C",
+      desc: "\u0412\u0441\u0442\u0430\u0432\u043A\u0430 \u043F\u0440\u043E\u0431\u0435\u043B\u0430 \u043C\u0435\u0436\u0434\u0443 \u0441\u0438\u043C\u0432\u043E\u043B\u043E\u043C > \u0438 \u0442\u0435\u043A\u0441\u0442\u043E\u043C."
+    },
     deleteSpaceBetweenChinese: {
       name: "\u0423\u0434\u0430\u043B\u0435\u043D\u0438\u0435 \u043F\u0440\u043E\u0431\u0435\u043B\u0430 \u043C\u0435\u0436\u0434\u0443 \u043A\u0438\u0442\u0430\u0439\u0441\u043A\u0438\u043C\u0438 \u0441\u0438\u043C\u0432\u043E\u043B\u0430\u043C\u0438",
       desc: "\u0423\u0434\u0430\u043B\u0435\u043D\u0438\u0435 \u043F\u0440\u043E\u0431\u0435\u043B\u043E\u0432 \u043C\u0435\u0436\u0434\u0443 \u043A\u0438\u0442\u0430\u0439\u0441\u043A\u0438\u043C\u0438 \u0441\u0438\u043C\u0432\u043E\u043B\u0430\u043C\u0438."
@@ -1830,8 +1848,8 @@ var locale3 = {
       desc: "\u0410\u0434\u0430\u043F\u0442\u0430\u0446\u0438\u044F \u0434\u043B\u044F \u0441\u0442\u0430\u0440\u044B\u0445 \u0432\u0435\u0440\u0441\u0438\u0439 Microsoft Input Method."
     },
     strictLineBreaks: {
-      name: "\u0420\u0435\u0436\u0438\u043C \u0441\u0442\u0440\u043E\u0433\u0438\u0445 \u0440\u0430\u0437\u0440\u044B\u0432\u043E\u0432 \u0441\u0442\u0440\u043E\u043A, \u0434\u0432\u0430\u0436\u0434\u044B \u043D\u0430\u0436\u043C\u0438\u0442\u0435 Enter",
-      desc: "\u0412 \u0440\u0435\u0436\u0438\u043C\u0435 \u0441\u0442\u0440\u043E\u0433\u0438\u0445 \u0440\u0430\u0437\u0440\u044B\u0432\u043E\u0432 \u0441\u0442\u0440\u043E\u043A, \u043E\u0434\u043D\u043E\u043A\u0440\u0430\u0442\u043D\u043E\u0435 \u043D\u0430\u0436\u0430\u0442\u0438\u0435 Enter \u0432 \u043E\u0431\u044B\u0447\u043D\u044B\u0445 \u0442\u0435\u043A\u0441\u0442\u043E\u0432\u044B\u0445 \u0441\u0442\u0440\u043E\u043A\u0430\u0445 \u0441\u043E\u0437\u0434\u0430\u0441\u0442 \u0434\u0432\u0430 \u0440\u0430\u0437\u0440\u044B\u0432\u0430 \u0441\u0442\u0440\u043E\u043A\u0438."
+      name: "\u0420\u0435\u0436\u0438\u043C \u0441\u0442\u0440\u043E\u0433\u0438\u0445 \u0440\u0430\u0437\u0440\u044B\u0432\u043E\u0432 \u0441\u0442\u0440\u043E\u043A",
+      desc: "\u0412 \u0440\u0435\u0436\u0438\u043C\u0435 \u0441\u0442\u0440\u043E\u0433\u0438\u0445 \u0440\u0430\u0437\u0440\u044B\u0432\u043E\u0432 \u0441\u0442\u0440\u043E\u043A, \u043E\u0434\u043D\u043E\u043A\u0440\u0430\u0442\u043D\u043E\u0435 \u043D\u0430\u0436\u0430\u0442\u0438\u0435 Enter \u0432 \u043E\u0431\u044B\u0447\u043D\u044B\u0445 \u0442\u0435\u043A\u0441\u0442\u043E\u0432\u044B\u0445 \u0441\u0442\u0440\u043E\u043A\u0430\u0445 \u0441\u043E\u0437\u0434\u0430\u0441\u0442 \u0434\u0432\u0430 \u0440\u0430\u0437\u0440\u044B\u0432\u0430 \u0441\u0442\u0440\u043E\u043A\u0438 \u0438\u043B\u0438 \u0434\u0432\u0430 \u043F\u0440\u043E\u0431\u0435\u043B\u0430 \u0438 Enter."
     },
     enhanceModA: {
       name: "\u0423\u043B\u0443\u0447\u0448\u0438\u0442\u044C \u0432\u044B\u0434\u0435\u043B\u0435\u043D\u0438\u0435 Mod+A \u0432 \u0442\u0435\u043A\u0441\u0442\u0435",
@@ -1897,6 +1915,9 @@ var locale3 = {
     editSelectionReplaceRule: "\u0420\u0435\u0434\u0430\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u0440\u0430\u0432\u0438\u043B\u0430 \u0437\u0430\u043C\u0435\u043D\u044B \u0432\u044B\u0434\u0435\u043B\u0435\u043D\u043D\u043E\u0433\u043E \u0442\u0435\u043A\u0441\u0442\u0430"
   },
   dropdownOptions: {
+    enterTwice: "\u0414\u0432\u0430\u0436\u0434\u044B \u043D\u0430\u0436\u043C\u0438\u0442\u0435 Enter",
+    twoSpace: "\u0414\u0432\u0430 \u043F\u0440\u043E\u0431\u0435\u043B\u0430",
+    mixMode: "\u0421\u043C\u0435\u0448\u0430\u043D\u043D\u044B\u0439 \u0440\u0435\u0436\u0438\u043C",
     onlyWhenTyping: "\u0422\u043E\u043B\u044C\u043A\u043E \u043F\u0440\u0438 \u043D\u0430\u0431\u043E\u0440\u0435 \u0442\u0435\u043A\u0441\u0442\u0430",
     globally: "\u0420\u0430\u0431\u043E\u0442\u0430\u0442\u044C \u0433\u043B\u043E\u0431\u0430\u043B\u044C\u043D\u043E",
     noRequire: "\u041D\u0435\u0442 \u0442\u0440\u0435\u0431\u043E\u0432\u0430\u043D\u0438\u0439",
@@ -1978,6 +1999,10 @@ var locale4 = {
       name: "\u82F1\u6587\u8207\u6578\u5B57\u4E4B\u9593\u7684\u7A7A\u683C",
       desc: "\u5728\u82F1\u6587\u548C\u6578\u5B57\u4E4B\u9593\u63D2\u5165\u7A7A\u683C\uFF0C\u53EF\u53D6\u6D88"
     },
+    quoteSpace: {
+      name: "\u5F15\u7528\u7B26\u865F > \u8207\u6587\u672C\u4E4B\u9593\u81EA\u52D5\u7A7A\u683C",
+      desc: "\u5728\u5F15\u7528\u7B26\u865F > \u8207\u6587\u672C\u4E4B\u9593\u81EA\u52D5\u63D2\u5165\u7A7A\u683C\uFF0C\u4E0D\u53EF\u53D6\u6D88"
+    },
     deleteSpaceBetweenChinese: {
       name: "\u522A\u9664\u4E2D\u6587\u5B57\u7B26\u9593\u7684\u7A7A\u683C",
       desc: "\u53BB\u9664\u4E2D\u6587\u5B57\u7B26\u4E4B\u9593\u7684\u7A7A\u683C\uFF0C\u4E0D\u53EF\u53D6\u6D88"
@@ -2023,8 +2048,8 @@ var locale4 = {
       desc: "\u9069\u914D\u820A\u7248\u5FAE\u8EDF\u8F38\u5165\u6CD5"
     },
     strictLineBreaks: {
-      name: "\u56B4\u683C\u63DB\u884C\u6A21\u5F0F\u4E0B\u6309\u5169\u6B21\u56DE\u8ECA",
-      desc: "\u56B4\u683C\u63DB\u884C\u7684\u8A2D\u7F6E\u4E0B\uFF0C\u5728\u666E\u901A\u6587\u672C\u884C\u9032\u884C\u4E00\u6B21\u56DE\u8ECA\u6703\u7522\u751F\u5169\u500B\u63DB\u884C\u7B26"
+      name: "\u56B4\u683C\u63DB\u884C\u6A21\u5F0F\u56DE\u8ECA\u589E\u5F37",
+      desc: "\u56B4\u683C\u63DB\u884C\u7684\u8A2D\u7F6E\u4E0B\uFF0C\u5728\u666E\u901A\u6587\u672C\u884C\u9032\u884C\u4E00\u6B21\u56DE\u8ECA\u6703\u6839\u64DA\u6A21\u5F0F\u7522\u751F\u5169\u500B\u63DB\u884C\u7B26\u6216\u8005\u5169\u500B\u7A7A\u683C\u548C\u56DE\u8ECA"
     },
     enhanceModA: {
       name: "\u589E\u5F37 Mod+A \u529F\u80FD",
@@ -2090,6 +2115,9 @@ var locale4 = {
     editSelectionReplaceRule: "\u7DE8\u8F2F\u9078\u4E2D\u66FF\u63DB\u898F\u5247"
   },
   dropdownOptions: {
+    enterTwice: "\u5169\u6B21\u56DE\u8ECA",
+    twoSpace: "\u52A0\u5169\u500B\u7A7A\u683C",
+    mixMode: "\u6DF7\u5408\u6A21\u5F0F",
     onlyWhenTyping: "\u8F38\u5165\u6642\u751F\u6548",
     globally: "\u5168\u5C40\u751F\u6548",
     noRequire: "\u7121\u8981\u6C42",
@@ -2140,6 +2168,7 @@ var DEFAULT_SETTINGS = {
   ChineseNumberSpace: true,
   EnglishNumberSpace: true,
   ChineseNoSpace: true,
+  QuoteSpace: true,
   PunctuationSpace: true,
   AutoCapital: true,
   AutoCapitalMode: "typing" /* OnlyWhenTyping */,
@@ -2158,7 +2187,8 @@ var DEFAULT_SETTINGS = {
   userSelRuleSettingsOpen: true,
   userDelRuleSettingsOpen: true,
   userCvtRuleSettingsOpen: true,
-  EnterTwice: false,
+  StrictModeEnter: false,
+  StrictLineMode: "enter_twice" /* EnterTwice */,
   EnhanceModA: false,
   TryFixChineseIM: true,
   PuncRectify: false,
@@ -2280,6 +2310,12 @@ var EasyTypingSettingTab = class extends import_obsidian2.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
+    new import_obsidian2.Setting(containerEl).setName(locale5.settings.quoteSpace.name).setDesc(locale5.settings.quoteSpace.desc).addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.QuoteSpace).onChange(async (value) => {
+        this.plugin.settings.QuoteSpace = value;
+        await this.plugin.saveSettings();
+      });
+    });
     new import_obsidian2.Setting(containerEl).setName(locale5.settings.capitalizeFirstLetter.name).setDesc(locale5.settings.capitalizeFirstLetter.desc).addDropdown((dropdown) => {
       dropdown.addOption("typing" /* OnlyWhenTyping */, locale5.dropdownOptions.onlyWhenTyping);
       dropdown.addOption("global" /* Globally */, locale5.dropdownOptions.globally);
@@ -2379,9 +2415,18 @@ var EasyTypingSettingTab = class extends import_obsidian2.PluginSettingTab {
       this.plugin.saveSettings();
     }));
     containerEl.createEl("h2", { text: locale5.headers.experimentalFeatures });
-    new import_obsidian2.Setting(containerEl).setName(locale5.settings.strictLineBreaks.name).setDesc(locale5.settings.strictLineBreaks.desc).addToggle((toggle) => {
-      toggle.setValue(this.plugin.settings.EnterTwice).onChange(async (value) => {
-        this.plugin.settings.EnterTwice = value;
+    new import_obsidian2.Setting(containerEl).setName(locale5.settings.strictLineBreaks.name).setDesc(locale5.settings.strictLineBreaks.desc).addDropdown((dropdown) => {
+      dropdown.addOption("enter_twice" /* EnterTwice */, locale5.dropdownOptions.enterTwice);
+      dropdown.addOption("two_space" /* TwoSpace */, locale5.dropdownOptions.twoSpace);
+      dropdown.addOption("mix_mode" /* Mix */, locale5.dropdownOptions.mixMode);
+      dropdown.setValue(this.plugin.settings.StrictLineMode);
+      dropdown.onChange(async (v) => {
+        this.plugin.settings.StrictLineMode = v;
+        await this.plugin.saveSettings();
+      });
+    }).addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.StrictModeEnter).onChange(async (value) => {
+        this.plugin.settings.StrictModeEnter = value;
         await this.plugin.saveSettings();
       });
     });
@@ -3385,7 +3430,7 @@ var EasyTypingPlugin = class extends import_obsidian3.Plugin {
         if (changeType.contains("EasyTyping") || changeType == "undo" || changeType == "redo")
           return;
         if (changeType != "none" && notSelected && !changeType.includes("delete")) {
-          if (this.triggerUserCvtRule(update.view, mainSelection.anchor))
+          if (this.triggerCvtRule(update.view, mainSelection.anchor))
             return;
           if (composeEnd && this.triggerPuncRectify(update.view, change_from))
             return;
@@ -3522,7 +3567,7 @@ var EasyTypingPlugin = class extends import_obsidian3.Plugin {
         });
         return true;
       }
-      if (!this.settings.EnterTwice)
+      if (!this.settings.StrictModeEnter)
         return false;
       let strictLineBreaks = this.app.vault.config.strictLineBreaks || false;
       if (!strictLineBreaks)
@@ -3531,9 +3576,49 @@ var EasyTypingPlugin = class extends import_obsidian3.Plugin {
         return false;
       if (pos == line.from)
         return false;
-      if (line.number < doc.lines && !/^\s*$/.test(doc.line(line.number + 1).text))
-        return false;
-      if (getPosLineType2(state, pos) == "text" /* text */ || codeBlockInfo && pos == codeBlockInfo.end_pos) {
+      if (getPosLineType2(state, pos) == "quote" /* quote */) {
+        let reg_quote = /^(\s*)(>+)/;
+        let quote_match = line.text.match(reg_quote);
+        if (!quote_match)
+          return false;
+        let quote_indent_str = (quote_match == null ? void 0 : quote_match[1]) || "";
+        let quote_level = (quote_match == null ? void 0 : quote_match[2].length) || 0;
+        let quote_content = line.text.slice(quote_match[0].length);
+        if (quote_content.trim() == "")
+          return false;
+        else {
+          let space_str2 = "  ";
+          if (quote_content.endsWith("  "))
+            space_str2 = "";
+          let inserted_str = space_str2 + "\n" + quote_match[0] + " ";
+          if (this.settings.StrictLineMode == "enter_twice" /* EnterTwice */) {
+            inserted_str = "\n" + quote_match[0] + " \n" + quote_match[0] + " ";
+          }
+          view.dispatch({
+            changes: { from: pos, to: pos, insert: inserted_str },
+            selection: { anchor: pos + inserted_str.length },
+            userEvent: "EasyTyping.handleEnter"
+          });
+          return true;
+        }
+      }
+      let space_str = "  ";
+      if (line.text.endsWith("  "))
+        space_str = "";
+      if (line.number < doc.lines && !/^\s*$/.test(doc.line(line.number + 1).text)) {
+        if (this.settings.StrictLineMode != "two_space" /* TwoSpace */)
+          return false;
+      }
+      if (this.settings.StrictLineMode == "two_space" /* TwoSpace */ && getPosLineType2(state, pos) == "text" /* text */) {
+        let inserted_str = space_str + "\n";
+        view.dispatch({
+          changes: { from: pos, to: pos, insert: inserted_str },
+          selection: { anchor: pos + inserted_str.length, head: pos + inserted_str.length },
+          userEvent: "EasyTyping.handleEnter"
+        });
+        return true;
+      }
+      if (getPosLineType2(state, pos) == "text" /* text */ || codeBlockInfo && pos == codeBlockInfo.end_pos && codeBlockInfo.indent == 0) {
         view.dispatch({
           changes: {
             from: pos,
@@ -3586,8 +3671,14 @@ var EasyTypingPlugin = class extends import_obsidian3.Plugin {
       }
       this.handleEndComposeTypeKey(event, view);
     };
-    this.triggerUserCvtRule = (view, cursor_pos) => {
-      for (let rule of this.UserConvertRules) {
+    this.triggerCvtRule = (view, cursor_pos) => {
+      let rules = [];
+      if (this.settings.BaseObEditEnhance)
+        rules = rules.concat(this.ExtraBasicConvRules);
+      if (this.settings.QuoteSpace)
+        rules = rules.concat(this.QuoteSpaceRules);
+      rules = rules.concat(this.UserConvertRules);
+      for (let rule of rules) {
         let leftDocStr = view.state.doc.sliceString(0, cursor_pos);
         let rightDocStr = view.state.doc.sliceString(cursor_pos);
         let leftRegexpStr = rule.before.left;
@@ -3660,7 +3751,7 @@ var EasyTypingPlugin = class extends import_obsidian3.Plugin {
           return;
         let insertedStr = view.state.doc.sliceString(this.compose_begin_pos, cursor.anchor);
         this.compose_need_handle = false;
-        if (this.triggerUserCvtRule(view, cursor.anchor))
+        if (this.triggerCvtRule(view, cursor.anchor))
           return;
         if (this.triggerPuncRectify(view, this.compose_begin_pos))
           return;
@@ -3886,11 +3977,13 @@ var EasyTypingPlugin = class extends import_obsidian3.Plugin {
       ["$\xA5|$", "$$\n|\n$$"],
       ["$$|$", "$$\n|\n$$"],
       ["$$|", "$|$"],
-      [">\u300B|", ">>|"],
-      ["\n\u300B|", "\n>|"],
-      [" \u300B|", " >|"],
+      ["\n\u300B|", "\n> |"],
       ["\n\u3001|", "\n/|"]
     ];
+    let ExtraBasicConvRuleStringList = [["r/(?<=^|\\n)(\\s*>*) ?[>\u300B]/|", "[[0]]> |"]];
+    let QuoteSpaceRuleStringList = [["r/(?<=^|\\n)(\\s*>+)([^ >\u300B]+)/|", "[[0]] [[1]]|"]];
+    this.ExtraBasicConvRules = ruleStringList2RuleList(ExtraBasicConvRuleStringList);
+    this.QuoteSpaceRules = ruleStringList2RuleList(QuoteSpaceRuleStringList);
     this.BasicConvRules = ruleStringList2RuleList(BasicConvRuleStringList);
     let FW2HWSymbolRulesStrList = [
       ["\u3002\u3002|", ".|"],
@@ -4020,6 +4113,13 @@ var EasyTypingPlugin = class extends import_obsidian3.Plugin {
       }]
     });
     this.addCommand({
+      id: "easy-typing-select-block",
+      name: command_name_map.get("select_block"),
+      editorCallback: (editor, view) => {
+        this.selectBlockInCurser(editor.cm);
+      }
+    });
+    this.addCommand({
       id: "easy-typing-format-selection",
       name: command_name_map.get("format_selection"),
       editorCallback: (editor, view) => {
@@ -4130,26 +4230,38 @@ var EasyTypingPlugin = class extends import_obsidian3.Plugin {
   getBlockLinesInPos(state, pos) {
     const strictLineBreaks = this.app.vault.config.strictLineBreaks || false;
     let line = state.doc.lineAt(pos);
-    if (!strictLineBreaks) {
-      return [line.number, line.number];
-    }
     let block_start = line.number;
     let block_end = line.number;
+    let reg_headings = /^#+ /;
     for (let i = line.number - 1; i >= 1; i--) {
-      if (getPosLineType2(state, state.doc.line(i).from) == "text" /* text */ && state.doc.line(i).text !== "") {
+      let line2 = state.doc.line(i);
+      if (getPosLineType2(state, line2.from) == "text" /* text */ && line2.text !== "" && !reg_headings.test(line2.text)) {
         block_start = i;
         continue;
       }
       break;
     }
     for (let i = line.number + 1; i <= state.doc.lines; i++) {
-      if (getPosLineType2(state, state.doc.line(i).from) == "text" /* text */ && state.doc.line(i).text !== "") {
+      let line2 = state.doc.line(i);
+      if (getPosLineType2(state, line2.from) == "text" /* text */ && line2.text !== "" && !reg_headings.test(line2.text)) {
         block_end = i;
         continue;
       }
       break;
     }
     return [block_start, block_end];
+  }
+  selectBlockInCurser(view) {
+    let selection = view.state.selection.main;
+    let line = view.state.doc.lineAt(selection.head);
+    if (/^\s*$/.test(line.text))
+      return false;
+    let [block_start, block_end] = this.getBlockLinesInPos(view.state, selection.head);
+    view.dispatch({
+      selection: { anchor: view.state.doc.line(block_start).from, head: view.state.doc.line(block_end).to },
+      userEvent: "EasyTyping.selectBlockInCurser"
+    });
+    return true;
   }
   toggleComment(view) {
     const state = view.state;
@@ -4342,22 +4454,39 @@ var EasyTypingPlugin = class extends import_obsidian3.Plugin {
       return false;
     const line = doc.lineAt(selection.from);
     const lineContent = line.text;
-    const listMatch = lineContent.match(/^\s*([-*+]|\d+\.) $/);
-    const quoteMatch = lineContent.match(/^\s*(> )+$/);
-    if ((listMatch || quoteMatch) && selection.anchor == line.to) {
+    const listMatchEmpty = lineContent.match(/^\s*([-*+]|\d+\.) $/);
+    const quoteMatchEmpty = lineContent.match(/^(\s*)(>+) ?$/);
+    if ((listMatchEmpty || quoteMatchEmpty) && selection.anchor == line.to) {
       let changes;
       let newCursorPos;
-      if (quoteMatch) {
-        const quoteLevel = (quoteMatch[0].match(/>/g) || []).length;
+      if (quoteMatchEmpty) {
+        const quote_indent_str = quoteMatchEmpty[1];
+        const quoteLevel = quoteMatchEmpty[2].length;
         if (quoteLevel > 1) {
-          const newQuotePrefix = "> ".repeat(quoteLevel - 1);
-          changes = [{ from: line.from, to: line.to, insert: newQuotePrefix }];
-          newCursorPos = line.from + newQuotePrefix.length;
+          if (line.number > 1) {
+            const prevLine = doc.line(line.number - 1);
+            const prevLineContent = prevLine.text;
+            const prevQuoteMatchEmpty = prevLineContent.match(/^(\s*)(>+) ?$/);
+            if (prevQuoteMatchEmpty && prevQuoteMatchEmpty[1] == quote_indent_str && prevQuoteMatchEmpty[2].length == quoteLevel) {
+              let temp_line = quote_indent_str + ">".repeat(quoteLevel - 1) + " ";
+              let inseted = temp_line + "\n" + temp_line;
+              changes = [{ from: prevLine.from, to: line.to, insert: inseted }];
+              newCursorPos = prevLine.from + inseted.length;
+            } else {
+              const newQuotePrefix = ">".repeat(quoteLevel - 1) + " ";
+              changes = [{ from: line.from, to: line.to, insert: newQuotePrefix }];
+              newCursorPos = line.from + newQuotePrefix.length;
+            }
+          } else {
+            const newQuotePrefix = ">".repeat(quoteLevel - 1) + " ";
+            changes = [{ from: line.from, to: line.to, insert: newQuotePrefix }];
+            newCursorPos = line.from + newQuotePrefix.length;
+          }
         } else {
           if (line.number > 1) {
             const prevLine = doc.line(line.number - 1);
             const prevLineContent = prevLine.text;
-            const prevQuoteMatch = prevLineContent.match(/^\s*(> )+/);
+            const prevQuoteMatch = prevLineContent.match(/^\s*(>+)/);
             if (prevQuoteMatch) {
               changes = [{ from: prevLine.to, to: line.to, insert: "" }];
               newCursorPos = prevLine.to;
@@ -4563,7 +4692,8 @@ var EasyTypingPlugin = class extends import_obsidian3.Plugin {
       ["switch_autoformat", "Switch autoformat"],
       ["paste_wo_format", "Paste without format"],
       ["toggle_comment", "Toggle comment"],
-      ["goto_new_line_after_cur_line", "Go to new line after current line"]
+      ["goto_new_line_after_cur_line", "Go to new line after current line"],
+      ["select_block", "Select current text block"]
     ]);
     let command_name_map_zh_TW = /* @__PURE__ */ new Map([
       ["format_article", "\u683C\u5F0F\u5316\u5168\u6587"],
@@ -4573,7 +4703,8 @@ var EasyTypingPlugin = class extends import_obsidian3.Plugin {
       ["switch_autoformat", "\u5207\u63DB\u81EA\u52D5\u683C\u5F0F\u5316\u958B\u95DC"],
       ["paste_wo_format", "\u7121\u683C\u5F0F\u5316\u7C98\u8CBC"],
       ["toggle_comment", "\u5207\u63DB\u8A3B\u91CB"],
-      ["goto_new_line_after_cur_line", "\u8DF3\u5230\u7576\u524D\u884C\u5F8C\u7684\u65B0\u884C"]
+      ["goto_new_line_after_cur_line", "\u8DF3\u5230\u7576\u524D\u884C\u5F8C\u7684\u65B0\u884C"],
+      ["select_block", "\u9078\u64C7\u7576\u524D\u6587\u672C\u584A"]
     ]);
     let command_name_map_zh = /* @__PURE__ */ new Map([
       ["format_article", "\u683C\u5F0F\u5316\u5168\u6587"],
@@ -4583,7 +4714,8 @@ var EasyTypingPlugin = class extends import_obsidian3.Plugin {
       ["switch_autoformat", "\u5207\u6362\u81EA\u52A8\u683C\u5F0F\u5316\u5F00\u5173"],
       ["paste_wo_format", "\u65E0\u683C\u5F0F\u5316\u7C98\u8D34"],
       ["toggle_comment", "\u5207\u6362\u6CE8\u91CA"],
-      ["goto_new_line_after_cur_line", "\u8DF3\u5230\u5F53\u524D\u884C\u540E\u65B0\u884C"]
+      ["goto_new_line_after_cur_line", "\u8DF3\u5230\u5F53\u524D\u884C\u540E\u65B0\u884C"],
+      ["select_block", "\u9009\u62E9\u5F53\u524D\u6587\u672C\u5757"]
     ]);
     let command_name_map_ru = /* @__PURE__ */ new Map([
       ["format_article", "\u0424\u043E\u0440\u043C\u0430\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0442\u0435\u043A\u0443\u0449\u0443\u044E \u0441\u0442\u0430\u0442\u044C\u044E"],
@@ -4593,7 +4725,8 @@ var EasyTypingPlugin = class extends import_obsidian3.Plugin {
       ["switch_autoformat", "\u041F\u0435\u0440\u0435\u043A\u043B\u044E\u0447\u0438\u0442\u044C \u0430\u0432\u0442\u043E\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435"],
       ["paste_wo_format", "\u0412\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0431\u0435\u0437 \u0444\u043E\u0440\u043C\u0430\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F"],
       ["toggle_comment", "\u041F\u0435\u0440\u0435\u043A\u043B\u044E\u0447\u0438\u0442\u044C \u043A\u043E\u043C\u043C\u0435\u043D\u0442\u0430\u0440\u0438\u0439"],
-      ["goto_new_line_after_cur_line", "\u041F\u0435\u0440\u0435\u0439\u0442\u0438 \u043A \u043D\u043E\u0432\u043E\u0439 \u0441\u0442\u0440\u043E\u043A\u0435 \u043F\u043E\u0441\u043B\u0435 \u0442\u0435\u043A\u0443\u0449\u0435\u0439"]
+      ["goto_new_line_after_cur_line", "\u041F\u0435\u0440\u0435\u0439\u0442\u0438 \u043A \u043D\u043E\u0432\u043E\u0439 \u0441\u0442\u0440\u043E\u043A\u0435 \u043F\u043E\u0441\u043B\u0435 \u0442\u0435\u043A\u0443\u0449\u0435\u0439"],
+      ["select_block", "\u0412\u044B\u0431\u0440\u0430\u0442\u044C \u0442\u0435\u043A\u0443\u0449\u0438\u0439 \u0442\u0435\u043A\u0441\u0442\u043E\u0432\u044B\u0439 \u0431\u043B\u043E\u043A"]
     ]);
     let command_name_map = command_name_map_en;
     if (lang == "zh") {

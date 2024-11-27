@@ -24,3 +24,29 @@ a_t & = r\alpha \\
 $$
 
 Une force appliquée sur le centre ou l'axe de rotation ne cause pas d'accélération angulaire.
+
+## Exemples
+
+Montrez que l'accélération de deux masses attachées à un poulie est égale à $\frac{m_2 - m_1}{m_2 + m_1 + \frac{1}{2M}} g$.
+
+$F_{g_1}$ & $F_{g_2}$ :
+
+$$
+\begin{align}
+\sum F & = ma \\
+F_{g_1} + F_{g_2} & = 0 \\
+m_1g + m_2g = 0
+\end{align}
+$$
+
+$\tau$ :
+
+$$
+\begin{align}
+\sum\tau & = I\alpha \\
+rF_{g_1} - rF_{g_2} & = \frac{1}{2}Mr^2\cdot ra \\
+m_1g - m_2g & = \frac{1}{2}Mr^2a \\
+a & = 2g\frac{m_1 - m_2}{Mr^2}
+\end{align}
+$$
+
