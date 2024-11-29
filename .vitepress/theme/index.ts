@@ -1,4 +1,5 @@
 import type { Theme } from 'vitepress'
+import { NolebaseBreadcrumbs } from '@nolebase/vitepress-plugin-breadcrumbs/client'
 import {
   InjectionKey as NolebaseEnhancedReadabilitiesInjectionKey,
   LayoutMode as NolebaseEnhancedReadabilitiesLayoutMode,
@@ -59,6 +60,9 @@ const ExtendedTheme: Theme = {
   extends: DefaultTheme,
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
+      'doc-before': () => [
+        h(NolebaseBreadcrumbs),
+      ],
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
       'doc-top': () => [
         h(NolebaseHighlightTargetedHeading),

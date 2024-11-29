@@ -17,6 +17,7 @@ export default defineConfig(async () => {
       // This needs to be excluded from optimization
       exclude: [
         'vitepress',
+        '@nolebase/vitepress-plugin-breadcrumbs/client',
       ],
     },
     plugins: [
@@ -56,6 +57,8 @@ export default defineConfig(async () => {
         '@nolebase/vitepress-plugin-highlight-targeted-heading',
         '@nolebase/vitepress-plugin-inline-link-preview',
         '@nolebase/vitepress-plugin-index',
+        '@nolebase/vitepress-plugin-breadcrumbs',
+        '@unlazy/vue',
       ],
     },
   }

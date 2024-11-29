@@ -1,6 +1,7 @@
 import process from 'node:process'
 import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links'
 import { UnlazyImages } from '@nolebase/markdown-it-unlazy-img'
+import { generateBreadcrumbsData } from '@nolebase/vitepress-plugin-breadcrumbs/vitepress'
 import { InlineLinkPreviewElementTransform } from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
 
 import { transformHeadMeta } from '@nolebase/vitepress-plugin-meta'
@@ -243,6 +244,9 @@ const config = defineConfig({
       head = returnedHead
 
     return head
+  },
+  async transformPageData(pageData, context) {
+    generateBreadcrumbsData(pageData, context)
   },
   // async buildEnd(siteConfig) {
   //   await buildEndGenerateOpenGraphImages({
