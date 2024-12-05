@@ -42,6 +42,23 @@ date: 2024-08-21T01:20:00
 *Normal* countries: *slightly more women than men*
 *South Asian* countries: *more men than women* due to patriarchy
 
+### Ethnicity
+
+|            | India                | Pakistan | Bangladesh | Sri Lanka |
+| ---------- | -------------------- | -------- | ---------- | --------- |
+| Majority   | -                    | Punjabi  | Bengali    | Sinhala   |
+| Minorities | Naga, Mizo, Kashmiri | Balochi  | Chakma     | Tamil     |
+
+## Politics
+
+Parliamentary system
+
+### Political parties
+
+- India: Indian National Congress (`abbr.` INC), Bharatiya Janata Party (`abbr.` BJP)
+- Pakistan: Muslim League, Pakistan People's Party
+- Bangladesh: Bangladesh Awami League
+
 ## History
 
 ### 1700–150 BCE: Vedic period
@@ -80,8 +97,16 @@ Muhammad bin Qasim conquered parts of modern Pakistan along Indus river -> great
 		- Largest and most rapid population transfer in history
 		- => creation of Hindu-Muslim conflict
 		- => increase of communalism
-- 1948: assassination of Gandhi
-- 1971: Proclamation of Bangladesh Independence
+		- => land reform
+- 1948:
+	- Assassination of Gandhi
+	- 1<sup>st</sup> war between India and Pakistan
+	- Independence of Sri Lanka
+- 1965: 2<sup>nd</sup> war between India and Pakistan
+- 1971: 3<sup>rd</sup> war between India and Pakistan & Proclamation of Bangladesh Independence
 	- Independence of Bangladesh from Pakistan
+	- <= same religion but different culture
+- 1975: Indira Gandhi declares Emergency rule in India => de-institutionalization
+- 1979: Islamisation of Pakistan
 - 1992: Hindus destroy Babri Masjid, a mosque in Ayodhya, India
 	- Intercommunal conflict between Hindus and Muslims

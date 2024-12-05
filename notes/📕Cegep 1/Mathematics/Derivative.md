@@ -84,7 +84,7 @@ The $n$ <sup>th</sup> order derivative of $f$ is:
 
 ## Examples
 
-Find $k'(1)$ of $k(x) = (x^2 + 3)^3(x - 2x^2)^2$.
+> Find $k'(1)$ of $k(x) = (x^2 + 3)^3(x - 2x^2)^2$.
 
 $$
 \begin{align}
@@ -101,7 +101,7 @@ $$
 
 ---
 
-Find the derivative of $h(y) = \tan(\sec((y^3 + 1)^4))$.
+> Find the derivative of $h(y) = \tan(\sec((y^3 + 1)^4))$.
 
 $$
 \begin{align}
@@ -114,7 +114,7 @@ $$
 
 ---
 
-Find the derivative of $y = \sqrt[4]{x + \sqrt[5]{x + \sqrt[4]{x}}}$.
+> Find the derivative of $y = \sqrt[4]{x + \sqrt[5]{x + \sqrt[4]{x}}}$.
 
 Let $4rt(x) = \sqrt[4]{x},\ 5rt(x) = \sqrt[5]{x}$,
 then $4rt'(x) = \frac{1}{4}x^{1/4 - 1} = \frac{1}{4}x^{-3/4},\ 5rt'(x) = \frac{1}{5}x^{1/5 - 1} = \frac{1}{5}x^{-4/5}$.

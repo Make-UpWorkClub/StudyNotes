@@ -13,7 +13,8 @@ Steps:
 
 1. Mitosis & prophase I: Chromatin fibres condense into discrete chromosomes
 2. Prophase I: homologous chromosomes form a pair called **tetrad**
-3. Prophase I: homologous chromosomes cross over and exchange segments at **chiasmata**
+3. Prophase I: **crossing over:** homologous chromosomes exchange segments at **chiasmata**
+	- Basis of independent assortment
 4. Nucleoli disappear
 5. Microtubules from centrosomes lengthen to form the mitotic spindle
 6. Animal cells: centrosomes move apart to two poles

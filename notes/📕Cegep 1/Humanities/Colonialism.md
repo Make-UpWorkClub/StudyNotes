@@ -15,12 +15,12 @@ The colonizer is often a country, but can also be companies, merchants, etc.
 
 ## In [[South Asia]]
 
-Motivation:
+### Motivation
 
 - Spices, muslin & calico
 - European trading rivalries
 
-Impact:
+### Consequence of colonialism
 
 - Political:
 	- Administration: civil service and legal system
@@ -46,3 +46,14 @@ Impact:
 	- Language
 		- English, French, Dutch, ...
 	- Social norms
+
+### Consequence of decolonization
+
+The South-Asian states adopted the Westminster parliamentary system.
+India inherited an *established* state structure. => more stable democracy
+Sri Lanka and Nepal inherited a *weak* state structure.
+Pakistan and Bangladesh had to *assemble* state structures.
+
+The states attempted to draw support by invoking social values and local cultures and forming distinct identities.
+
+The smaller states ally with larger powers outside of S.-A. => unstable regional relations

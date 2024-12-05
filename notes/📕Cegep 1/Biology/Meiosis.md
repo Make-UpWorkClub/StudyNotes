@@ -22,6 +22,7 @@ Phases:
 	- Anaphase I
 	- Telophase I
 	- Cytokinesis I
+		- **The daughter cells are already haploid.**
 - Meiosis II **(similar to [[mitosis]])**
 	- Prophase II
 	- Metaphase II
