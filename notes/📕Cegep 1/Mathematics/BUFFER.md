@@ -1,6 +1,5 @@
 ---
 tags:
-  - Cegep1
   - Mathematics
 date: 2024-08-21T14:27:00
 ---

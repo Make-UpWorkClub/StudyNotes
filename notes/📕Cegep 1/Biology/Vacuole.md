@@ -15,8 +15,10 @@ Part of the [[endomembrane system]]
 
 ### Food
 
-Digestion in protozoa
-Phagocytosis of a bacterium in a white blood cell
+Holds food from:
+
+- Digestion (in protozoa)
+- Phagocytosis of a bacterium (in a white blood cell)
 
 > [!abstract] Protozoa
 > Single celled animal-like organism
@@ -24,8 +26,8 @@ Phagocytosis of a bacterium in a white blood cell
 ### Central
 
 Big vacuole in plant cells
-Storage of organic compounds, inorganic ions, and metabolic by-products
+Stores of organic compounds, inorganic ions, and metabolic by-products
 
 ### Contractile
 
-Pump water out of freshwater single celled organisms
+Pumps water out of freshwater single celled organisms

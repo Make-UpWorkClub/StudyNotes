@@ -13,9 +13,15 @@ Process in which [[Nucleic Acid#Deoxyribonucleic acid|DNA]] makes [[Nucleic Acid
 
 ### Initiation
 
-[[Polymerase#RNA polymerase|RNA polymerase]] binds to the **promoter** region upstream of gene and begins unwinding DNA.
+1. **Transcription factors** help recruit RNA polymerase to gene.
+2. [[Polymerase#RNA polymerase|RNA polymerase]] binds to the promoter region upstream of gene and begins unwinding DNA.
+
+> [!abstract] Promoter
+> Region of DNA that includes the sequence `TATAAAA` in humans and start point
 
 ### Elongation
+
+5' to 3' continuous RNA synthesis
 
 ### Termination
 

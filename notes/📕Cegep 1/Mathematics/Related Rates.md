@@ -7,11 +7,18 @@ date: 2024-11-15T17:14:49
 
 # Related Rates
 
-Problem where the one rate depends on another
+Problem where one rate depends on another
+
+## Steps
+
+1. Draw the situation.
+2. Establish the equation that relates the quantities of interest.
+3. Implicitly differentiate the equation with respect to $t$.
+4. Substitute the given information and solve for the rate.
 
 ## Examples
 
-Two people on bikes are separated by 250 meters horizontally. Person A starts riding north at a rate of 5 m/sec and 7 minutes later Person B starts riding south at 3 m/sec. At what rate is the distance separating the two people changing 25 minutes after Person A starts riding?
+Two people on bikes are separated by 350 meters horizontally. Person A starts riding north at a rate of 5 m/sec and 7 minutes later Person B starts riding south at 3 m/sec. At what rate is the distance separating the two people changing 25 minutes after Person A starts riding?
 
 ![[Related Rates 1|300]]
 

@@ -12,10 +12,10 @@ Process during [[Interphase#S|S phase]] in which [[Nucleic Acid#Deoxyribonucleic
 
 ## Enzymes
 
-- **Helicase**: enzyme that unwinds DNA strands by breaking H-bonds
-- [[Polymerase#DNA polymerase|DNA polymerase]]
+- **Helicase**: unwinds DNA strands by breaking H-bonds
 - [[Polymerase#Primase|Primase]]
-- **Ligase**: enzyme that repairs phosphodiester bonds
+- [[Polymerase#DNA polymerase|DNA polymerase]]
+- **Ligase**: repairs phosphodiester bonds
 
 ## Steps
 
@@ -35,9 +35,9 @@ Different for the two strands
 *5' to 3' continuous* DNA synthesis in the *same* direction of DNA unwinding
 *One* RNA primer
 
-1. Primase makes a complementary RNA primer.
-2. DNA polymerase binds to the RNA primer and makes new strand.
-3. DNA polymerase replaces the RNA primer with DNA.
+1. Primase makes a complementary RNA primer on the template strand.
+2. DNA polymerase binds to RNA primer and synthesizes new strand.
+3. DNA polymerase replaces RNA primer with DNA.
 4. Ligase repairs link between replaced primer and rest of strand.
 
 #### Lagging strand
@@ -45,7 +45,15 @@ Different for the two strands
 *3' to 5' discontinuous* DNA synthesis in the *opposite* direction of DNA unwinding
 *Many* RNA primers
 
-1. Primase makes a complementary RNA primer
-2. DNA polymerase binds to 
+1. Repeat many times:
+	1. Primase makes a complementary RNA primer on the template strand.
+	2. DNA polymerase binds to the RNA primer and synthesizes short strand called **Okazaki fragment**.
+2. DNA polymerase replaces RNA primers with DNA.
+3. Ligase repairs link between replaced primers and Okazaki fragments.
 
 ### Termination
+
+In eukaryote DNA replication, removal of primer at beginning of lagging strand leaves a gap that cannot be filled by DNA polymerase.
+=> shortening of [[telomere]] & deletion of genes => limits lifespan
+
+> [!important] Not a problem for prokaryotes because they have circular DNA.

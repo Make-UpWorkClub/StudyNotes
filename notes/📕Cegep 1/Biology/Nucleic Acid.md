@@ -14,6 +14,10 @@ Formed by dehydration
 
 Function: stores & transmits hereditable information
 
+> [!abstract] Exon / intron
+> Exon: *coding* nucleotide sequence
+> Intron: *non-coding* nucleotide sequence
+
 ## Types
 
 ### Deoxyribonucleic acid
@@ -36,7 +40,7 @@ Functions:
 `Abbr.` RNA
 *One strand*
 Pentose: *ribose*
-N-bases: C-G & A-*U* pairs
+N-bases: C-G & A-*U*
 
 #### Messenger
 
@@ -56,6 +60,11 @@ Structure:
 `Abbr.` tRNA
 ~90 nt
 Acts as a delivery vehicle during protein translation
+
+![[tRNA.png|400]]
+
+> [!abstract] Anticodon
+> Sequence of 3 bases complementary to a codon on mRNA
 
 #### Ribosomal
 

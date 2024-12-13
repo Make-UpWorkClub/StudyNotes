@@ -12,8 +12,8 @@ Redox = reduction-oxidation
 
 ## Reduction
 
-*Loss* of electrons
+*Gain* of electrons
 
 ## Oxidation
 
-*Gain* of electrons
+*Loss* of electrons

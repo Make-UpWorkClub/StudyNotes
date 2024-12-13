@@ -9,6 +9,8 @@ date: 2024-10-09T08:28:19
 
 Dynamic network of [[protein]] fibres in the [[cytoplasm]]
 
+Function: maintains cell shape
+
 ## Types
 
 ### Microtubule
@@ -18,7 +20,6 @@ Dynamic network of [[protein]] fibres in the [[cytoplasm]]
 
 Functions:
 
-- Maintains cell shape
 - Organelle movement
 - Chromosome movement
 - Cell movement by cilia and flagella
@@ -30,7 +31,6 @@ Functions:
 
 Functions:
 
-- Maintains cell shape
 - Motility
 	- Muscle contraction
 	- Pseudopodia formation during phagocytosis
@@ -50,6 +50,5 @@ Diverse class of proteins, including **keratin**
 
 Functions:
 
-- Maintains cell shape
 - Fixes organelle location
 - Maintains the shape of nucleus as part of the nuclear lamina

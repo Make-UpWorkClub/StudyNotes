@@ -12,6 +12,8 @@ Structure that synthesizes proteins in [[Cell|cells]], made of [[Nucleic Acid#Ri
 
 Function: synthesizes proteins
 
+![[Ribosome.png]]
+
 ## Types
 
 Structurally and functionally identical

@@ -9,13 +9,17 @@ date: 2024-11-20T15:15:44
 
 Finding the [[extremum]] of the function representing the situation
 
-To find the extrema of $f$,
+## Steps
 
-1. Find $domf$.
-2. Find $f'$.
-3. Find critical values of $f$.
-4. Find endpoints of $f$ (use limit if open).
-5. Find extrema by observing monotonicity.
+1. Draw the situation if possible.
+2. Find the **target function**, i.e. the function to optimise.
+3. Find the **constraint equation** linking the variables.
+4. Rewrite the target function in terms of a single variable.
+5. Find the domain of the target function.
+6. Differentiate the target function to find the critical points in the domain.
+7. Identify the extremum by using:
+	- First / second derivative test
+	- Other arguments, e.g. vertex of a parabola
 
 > [!info] The $\frac{\mathrm{d}}{\mathrm{d}x}f(x) = f'(x)$ step can be omitted for optimisation.
 

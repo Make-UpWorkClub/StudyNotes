@@ -1,11 +1,11 @@
 {
   "collapse-filter": false,
-  "search": "Cegep1 -BUFFER",
+  "search": "tag:#Cegep1",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": true,
+  "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#French",
@@ -67,6 +67,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 150,
-  "scale": 0.9515660734460218,
-  "close": true
+  "scale": 0.9515660734460217,
+  "close": false
 }

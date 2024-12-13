@@ -15,7 +15,7 @@ Analogue de la force dans la [[rotation]]
 
 $$
 \begin{align}
-\tau & = r\times F \\
+\tau & = r\times F = ||r||\cdot||F||\sin \theta \\
 [\tau] & = N\cdot m
 \end{align}
 $$
@@ -23,7 +23,7 @@ $$
 **2<sup>e</sup> loi de Newton en rotation** :
 
 $$
-\sum\tau = I\alpha = \frac{\mathrm{d}L}{\mathrm{d}t} = I\frac{\mathrm{d}\omega}{\mathrm{d}t} = m\frac{\mathrm{d}^2\theta}{\mathrm{d}t^2}
+\sum\tau = I\alpha = \frac{\mathrm{d}L}{\mathrm{d}t} = I\frac{\mathrm{d}\omega}{\mathrm{d}t} = I\frac{\mathrm{d}^2\theta}{\mathrm{d}t^2}
 $$
 
 > [!info]- Traduction français-anglais

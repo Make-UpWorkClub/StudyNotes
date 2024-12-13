@@ -14,11 +14,11 @@ Recessiveness: *lesser* influence of an allele over the other
 ## Completeness
 
 Complete dominance: *complete* inhibition of the expression of recessive alleles
-Partial / incomplete dominance: *partial* inhibition of the expression of recessive alleles
+Partial / incomplete dominance: *partial* inhibition of the expression of recessive alleles resulting in *blended* expression of all alleles
 
 ## Codominance
 
-Mixed expression of multiple alleles
+Existence of multiple dominant alleles resulting in *clearly independent* expression of each allele
 
 > [!example] A rooster with white and black alleles exhibiting both colours
 
