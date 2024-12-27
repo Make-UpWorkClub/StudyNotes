@@ -15,7 +15,7 @@ hero:
   actions:
     - theme: brand
       text: Read
-      link: /notes/index
+      link: /en-US/notes/index
     - theme: alt
       text: View on GitHub
       link: https://github.com/Make-UpWorkClub/StudyNotes
