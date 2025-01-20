@@ -5,7 +5,8 @@ import UnoCSS from 'unocss/vite'
 
 import Components from 'unplugin-vue-components/vite'
 import { defineConfig } from 'vite'
-import Inspect from 'vite-plugin-inspect'
+// FIXME: cryptic error
+// import Inspect from 'vite-plugin-inspect'
 
 import { creators, githubRepoLink } from './.vitepress/metadata'
 
@@ -21,7 +22,7 @@ export default defineConfig(async () => {
       ],
     },
     plugins: [
-      Inspect(),
+      // Inspect(),
       GitChangelog({
         repoURL: () => githubRepoLink,
         mapAuthors: creators,

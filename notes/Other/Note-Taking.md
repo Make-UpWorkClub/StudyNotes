@@ -53,7 +53,8 @@ Shapes and arrows
 - Use snippets
 - Use buffers to temporarily store information, which is then extracted when complete
 	- Bullet points
-- Annotate with *italic*, **bold**, `quote`, blockquote, callout
+- Annotate with *italic*, **bold**, ==highlight==, quote `, blockquote, callout
+	- **importance**, ==relevance==
 - Prefer backlinks
 	- They show order of importance ("parent" nodes are bigger in the graph)
 	- More natural

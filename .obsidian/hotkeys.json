@@ -23,14 +23,7 @@
       "key": "/"
     }
   ],
-  "editor:toggle-comments": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": ";"
-    }
-  ],
+  "editor:toggle-comments": [],
   "obsidian-git:open-git-view": [
     {
       "modifiers": [
@@ -417,5 +410,14 @@
       ],
       "key": "+"
     }
-  ]
+  ],
+  "easy-typing-obsidian:easy-typing-toggle-comment": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": ";"
+    }
+  ],
+  "easy-typing-obsidian:easy-typing-goto-new-line-after-cur-line": []
 }
