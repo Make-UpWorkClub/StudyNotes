@@ -1,7 +1,9 @@
 ---
 tags:
   - Cegep1
+  - Cegep2
   - Mechanics
+  - Chemistry
 date: 2024-08-26T08:20:00
 ---
 

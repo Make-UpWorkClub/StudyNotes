@@ -387,14 +387,6 @@
     }
   ],
   "file-explorer:new-file-in-new-pane": [],
-  "editor:toggle-bold": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "B"
-    }
-  ],
   "editor:toggle-bullet-list": [
     {
       "modifiers": [
@@ -419,5 +411,7 @@
       "key": ";"
     }
   ],
-  "easy-typing-obsidian:easy-typing-goto-new-line-after-cur-line": []
+  "easy-typing-obsidian:easy-typing-goto-new-line-after-cur-line": [],
+  "app:open-help": [],
+  "editor:toggle-bold": []
 }

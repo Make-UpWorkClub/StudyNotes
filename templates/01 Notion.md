@@ -1,6 +1,6 @@
 ---
 tags:
-  - Cegep1
+  - Cegep2
   - 
 date: {{date}}T{{time}}
 ---

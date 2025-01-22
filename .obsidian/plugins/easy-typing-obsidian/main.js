@@ -1148,7 +1148,7 @@ function matchWithAbbr(text, type, inlineTypeArray, checkArray = false) {
 function splitTextWithLinkAndUserDefined(text, regExps) {
   let retArray = [];
   let regWikiLink = /\!{0,2}\[\[[^\[\]]*?\]\]/g;
-  let regMdLink = /\!{0,2}\[[^\[\]]*?\]\([^\s\)\(\[\]\{\}']*\)/g;
+  let regMdLink = /\!{0,2}\[[^\[\]]*?\]\([^\s]*\)/g;
   retArray = matchWithReg(text, regWikiLink, "wikilink" /* wikilink */, retArray);
   retArray = matchWithReg(text, regMdLink, "mdlink" /* mdlink */, retArray);
   let regExpList = [];
@@ -2838,6 +2838,50 @@ function getCodeBlocksInfos(state) {
   }
   return codeBlockInfos;
 }
+function getQuoteInfoInPos(state, pos) {
+  let quote_regex = /^(\s*)(>+) ?/;
+  let callout_regex = /^(\s*)(>)+ \[![^\s]+\][+-]? ?/;
+  let cur_line = state.doc.lineAt(pos);
+  let match = cur_line.text.match(quote_regex);
+  let is_callout = false;
+  let cur_start_pos = -1;
+  let cur_end_pos = -1;
+  if (match) {
+    let match_callout = cur_line.text.match(callout_regex);
+    cur_start_pos = cur_line.from + (match_callout ? match_callout[0].length : match[0].length);
+    cur_end_pos = cur_line.to;
+    let quote_start_line = cur_line.number;
+    let quote_end_line = quote_start_line;
+    for (let i = quote_start_line + 1; i <= state.doc.lines; i += 1) {
+      let line = state.doc.line(i);
+      if (line.text.match(quote_regex)) {
+        quote_end_line = i;
+      } else
+        break;
+    }
+    for (let i = quote_start_line; i >= 1; i -= 1) {
+      let line = state.doc.line(i);
+      let match_callout2 = line.text.match(callout_regex);
+      let match_quote = line.text.match(quote_regex);
+      if (match_callout2) {
+        is_callout = true;
+        quote_start_line = i;
+      } else if (match_quote) {
+        quote_start_line = i;
+      } else
+        break;
+    }
+    return {
+      start_pos: state.doc.line(quote_start_line).from,
+      end_pos: state.doc.line(quote_end_line).to,
+      is_callout,
+      cur_start_pos,
+      cur_end_pos
+    };
+  } else {
+    return null;
+  }
+}
 
 // src/tabstops_state_field.ts
 var import_view = require("@codemirror/view");
@@ -3101,6 +3145,67 @@ var EasyTypingPlugin = class extends import_obsidian3.Plugin {
                 return base_indent + trimmed_line;
               }
             });
+            let new_insertedStr = adjusted_lines.join("\n");
+            changes.push({
+              changes: { from: fromA, to: toA, insert: new_insertedStr },
+              selection: { anchor: fromA + new_insertedStr.length },
+              userEvent: "EasyTyping.change"
+            });
+            tr = tr.startState.update(...changes);
+            return tr;
+          }
+        }
+        if (this.settings.BaseObEditEnhance && changeTypeStr.contains("paste") && fromA == fromB && fromA == tr.startState.doc.lineAt(toA).to) {
+          const lineContent = tr.startState.doc.lineAt(toA).text;
+          const listMatch = lineContent.match(/^(\s*)([-*+] \[.\]|[-*+]|\d+\.)\s/);
+          const quoteMatch = lineContent.match(/^(\s*)(>+)(\s)?/);
+          if (listMatch || quoteMatch) {
+            let prefix = listMatch ? listMatch[1] + listMatch[2] + " " : quoteMatch[1] + quoteMatch[2] + " ";
+            let indent_num = listMatch ? listMatch[1].length : quoteMatch[1].length;
+            let indent_str = indent_num == 0 ? "" : " ".repeat(indent_num);
+            let inserted_lines = insertedStr.split("\n");
+            let min_indent_space = Infinity;
+            for (let line of inserted_lines) {
+              if (!/^\s*$/.test(line)) {
+                let indent = line.match(/^\s*/)[0].length;
+                min_indent_space = Math.min(min_indent_space, indent);
+              }
+            }
+            let paste_list = true;
+            for (let line of inserted_lines) {
+              if (line.match(/^(\s*)([-*+] \[.\]|[-*+]|\d+\.)\s/) || /^\s*$/.test(line)) {
+                continue;
+              } else {
+                let indent = line.match(/^\s*/)[0].length;
+                if (indent < min_indent_space + 2) {
+                  paste_list = false;
+                  break;
+                }
+              }
+            }
+            let adjusted_lines = [];
+            if (paste_list && listMatch) {
+              adjusted_lines = inserted_lines.map((line, index) => {
+                let trimmed_line = line.substring(min_indent_space);
+                trimmed_line = trimmed_line.replace(/[\t]/g, this.getDefaultIndentChar());
+                if (index === 0) {
+                  trimmed_line = trimmed_line.replace(/^([-*+] \[.\]|[-*+]|\d+\.)\s/, "");
+                  return trimmed_line;
+                } else {
+                  return indent_str + trimmed_line;
+                }
+              });
+            } else {
+              adjusted_lines = inserted_lines.map((line, index) => {
+                let trimmed_line = line.substring(min_indent_space);
+                trimmed_line = trimmed_line.replace(/[\t]/g, this.getDefaultIndentChar());
+                if (index === 0) {
+                  return trimmed_line;
+                } else {
+                  return prefix + trimmed_line;
+                }
+              });
+            }
             let new_insertedStr = adjusted_lines.join("\n");
             changes.push({
               changes: { from: fromA, to: toA, insert: new_insertedStr },
@@ -3635,8 +3740,10 @@ var EasyTypingPlugin = class extends import_obsidian3.Plugin {
     this.handleModA = (view) => {
       let selection = view.state.selection.main;
       let line = view.state.doc.lineAt(selection.head);
-      let [block_start, block_end] = this.getBlockLinesInPos(view.state, selection.head);
-      if (this.settings.EnhanceModA && getPosLineType2(view.state, selection.head) == "text" /* text */) {
+      let line_type = getPosLineType2(view.state, selection.head);
+      let is_in_code_block = isCodeBlockInPos(view.state, selection.head);
+      if (this.settings.EnhanceModA && line_type == "text" /* text */ && !is_in_code_block) {
+        let [block_start, block_end] = this.getBlockLinesInPos(view.state, selection.head);
         if (selection.anchor <= view.state.doc.line(block_start).from && selection.head >= view.state.doc.line(block_end).to) {
           return false;
         }
@@ -3659,9 +3766,28 @@ var EasyTypingPlugin = class extends import_obsidian3.Plugin {
         });
         return true;
       }
+      let quote_info = getQuoteInfoInPos(view.state, selection.head);
+      if (this.settings.EnhanceModA && quote_info) {
+        if (selection.anchor == quote_info.start_pos && selection.head == quote_info.end_pos) {
+          return false;
+        } else if (selection.anchor == quote_info.cur_start_pos && selection.head == quote_info.cur_end_pos) {
+          view.dispatch({
+            selection: { anchor: quote_info.start_pos, head: quote_info.end_pos },
+            userEvent: "EasyTyping.handleModA"
+          });
+          return true;
+        } else {
+          view.dispatch({
+            selection: { anchor: quote_info.cur_start_pos, head: quote_info.cur_end_pos },
+            userEvent: "EasyTyping.handleModA"
+          });
+          return true;
+        }
+      }
+      if (this.settings.EnhanceModA && line_type == "list" /* list */) {
+      }
       if (!this.settings.BetterCodeEdit)
         return false;
-      let selected = false;
       let mainSelection = view.state.selection.asSingle().main;
       return selectCodeBlockInPos(view, mainSelection);
     };
@@ -4285,34 +4411,88 @@ var EasyTypingPlugin = class extends import_obsidian3.Plugin {
     let changes = [];
     if (selection.from === selection.to) {
       const line = state.doc.lineAt(selection.from);
-      changes.push(this.toggleCodeBlockLineComment(line.from, line.to, state.doc.sliceString(line.from, line.to), commentSymbol));
+      let change = this.toggleCodeBlockLineComment(line.from, line.to, state.doc.sliceString(line.from, line.to), commentSymbol, selection.from);
+      if (change && change.selection) {
+        changes.push(change);
+        view.dispatch({
+          changes,
+          selection: change.selection,
+          userEvent: "EasyTyping.toggleComment"
+        });
+        return true;
+      } else if (change) {
+        changes.push(change);
+      }
     } else {
       const fromLine = state.doc.lineAt(selection.from);
       const toLine = state.doc.lineAt(selection.to);
       for (let i = fromLine.number; i <= toLine.number; i++) {
         const line = state.doc.line(i);
-        changes.push(this.toggleCodeBlockLineComment(line.from, line.to, state.doc.sliceString(line.from, line.to), commentSymbol));
+        let change = this.toggleCodeBlockLineComment(line.from, line.to, state.doc.sliceString(line.from, line.to), commentSymbol);
+        if (change) {
+          changes.push(change);
+        }
       }
     }
     view.dispatch({ changes, userEvent: "EasyTyping.toggleComment" });
     return true;
   }
-  toggleCodeBlockLineComment(from, to, text, commentSymbol) {
-    const trimmedText = text.trimStart();
-    if (trimmedText.startsWith(commentSymbol)) {
-      const commentIndex = text.indexOf(commentSymbol);
-      return {
-        from: from + commentIndex,
-        to: from + commentIndex + commentSymbol.length + (trimmedText.startsWith(commentSymbol + " ") ? 1 : 0),
-        insert: ""
-      };
+  toggleCodeBlockLineComment(from, to, text, commentSymbol, cursor_pos) {
+    if (text.trim() == "" && cursor_pos) {
+      if (typeof commentSymbol === "string") {
+        let new_pos = cursor_pos + commentSymbol.length + 1;
+        return {
+          from: cursor_pos,
+          to: cursor_pos,
+          insert: commentSymbol + " ",
+          selection: { anchor: new_pos, head: new_pos }
+        };
+      } else {
+        let new_pos = cursor_pos + commentSymbol.start.length + 1;
+        return {
+          from: cursor_pos,
+          to: cursor_pos,
+          insert: commentSymbol.start + "  " + commentSymbol.end,
+          selection: { anchor: new_pos, head: new_pos }
+        };
+      }
+    }
+    if (text.trim() == "")
+      return null;
+    if (typeof commentSymbol === "string") {
+      const trimmedText = text.trimStart();
+      if (trimmedText.startsWith(commentSymbol)) {
+        const commentIndex = text.indexOf(commentSymbol);
+        return {
+          from: from + commentIndex,
+          to: from + commentIndex + commentSymbol.length + (trimmedText.startsWith(commentSymbol + " ") ? 1 : 0),
+          insert: ""
+        };
+      } else {
+        const indent = text.length - trimmedText.length;
+        return {
+          from: from + indent,
+          to: from + indent,
+          insert: commentSymbol + " "
+        };
+      }
     } else {
-      const indent = text.length - trimmedText.length;
-      return {
-        from: from + indent,
-        to: from + indent,
-        insert: commentSymbol + " "
-      };
+      const trimmedText = text.trim();
+      if (trimmedText.startsWith(commentSymbol.start) && trimmedText.endsWith(commentSymbol.end)) {
+        const commentStartIndex = text.indexOf(commentSymbol.start);
+        return {
+          from: from + commentStartIndex,
+          to,
+          insert: trimmedText.slice(commentSymbol.start.length + 1, -commentSymbol.end.length - 1)
+        };
+      } else {
+        const indent = text.length - text.trimStart().length;
+        return {
+          from: from + indent,
+          to,
+          insert: `${commentSymbol.start} ${trimmedText} ${commentSymbol.end}`
+        };
+      }
     }
   }
   toggleMarkdownComment(from, to, view) {
@@ -4383,12 +4563,15 @@ var EasyTypingPlugin = class extends import_obsidian3.Plugin {
       "swift": "//",
       "kotlin": "//",
       "php": "//",
-      "css": "//",
-      "scss": "//",
+      "css": { start: "/*", end: "*/" },
+      "scss": { start: "/*", end: "*/" },
       "sql": "--",
       "shell": "#",
       "bash": "#",
-      "powershell": "#"
+      "powershell": "#",
+      "html": { start: "<!--", end: "-->" },
+      "matlab": "%",
+      "markdown": { start: "%%", end: "%%" }
     };
     return commentSymbols[language] || null;
   }
@@ -4420,7 +4603,7 @@ var EasyTypingPlugin = class extends import_obsidian3.Plugin {
     const line = doc.lineAt(selection.head);
     const lineContent = line.text;
     const listMatch = lineContent.match(/^(\s*)([-*+] \[.\]|[-*+]|\d+\.)\s/);
-    const quoteMatch = lineContent.match(/^(\s*>)+(\s)?/);
+    const quoteMatch = lineContent.match(/^(\s*)(>+)(\s)?/);
     let changes;
     let newCursorPos;
     let prefix = "";
@@ -4434,7 +4617,7 @@ var EasyTypingPlugin = class extends import_obsidian3.Plugin {
         prefix = indent + (parseInt(listMarker) + 1) + ". ";
       }
     } else if (quoteMatch) {
-      prefix = quoteMatch[0].replace(/>\s*/g, "> ");
+      prefix = quoteMatch[1] + quoteMatch[2] + " ";
     }
     changes = [{ from: line.to, insert: "\n" + prefix }];
     newCursorPos = line.to + 1 + prefix.length;
