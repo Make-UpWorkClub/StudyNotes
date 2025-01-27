@@ -7,7 +7,6 @@ date: 2024-08-22T16:21:00
 
 # Laboratoire
 
-Avant : soumettre Pré-labo sur Omnivox **la veille du labo avant 18h**
 Rapport : questions dirigées
 
 ## Calcul

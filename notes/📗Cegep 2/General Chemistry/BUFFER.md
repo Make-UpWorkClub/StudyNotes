@@ -7,4 +7,3 @@ date: 2025-01-20T13:15:11
 
 # Buffer
 
-- Read scientific writing guide

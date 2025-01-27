@@ -18,7 +18,3 @@ date: 2025-01-21T13:16:30
 	- Argumentation
 	- Devices
 	- Genres
-
-Buy:
-
-- Love and Information

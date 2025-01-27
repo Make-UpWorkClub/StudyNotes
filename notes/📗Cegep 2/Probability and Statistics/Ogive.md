@@ -1,0 +1,11 @@
+---
+tags:
+  - Cegep2
+  - ProbabilityAndStatistics
+date: 2025-01-23T20:23:55
+---
+
+# Ogive
+
+[[Graphic]] representing the *cumulative relative frequency* of *continuous quantitative data*
+Form: *connected dots*

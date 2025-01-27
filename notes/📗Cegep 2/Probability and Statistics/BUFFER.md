@@ -15,7 +15,3 @@ Property of an individual that is studied
 
 Study where variable is measured for all individuals in the population
 
-# Measure of Reliability
-
-Statement, usually quantitative, about the degree of uncertainty of a statistical inference
-

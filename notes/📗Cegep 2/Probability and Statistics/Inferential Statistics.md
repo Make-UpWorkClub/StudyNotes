@@ -15,3 +15,6 @@ Elements:
 - One or more variables
 - Inference about the population
 - Measure of reliability of the inference
+
+> [!abstract] Measure of Reliability
+> Statement, usually quantitative, about the degree of uncertainty of a statistical inference

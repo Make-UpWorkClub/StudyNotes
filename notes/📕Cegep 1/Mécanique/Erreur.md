@@ -29,14 +29,14 @@ Erreur causée par un défaut de l'instrument de mesure ou de la lecture de la m
 
 Influence la *précision*
 
-### Aléatoire
+### Aléatoire (random)
 
 Erreur causée par la fluctuation des valeurs aléatoires
 Nécessite une analyse statistique pour prendre en compte
 
 Influence la *précision*
 
-### Systématique
+### Systématique (systematic)
 
 Erreur qui influence le résultat de la même façon
 Peut être causée par un biais de l'expérimentateur ou un défaut de l'instrument

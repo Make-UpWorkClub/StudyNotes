@@ -9,11 +9,10 @@ date: 2025-01-22T16:02:33
 
 ## Glassware
 
-- Graduated cylinder
-	- *1* d.p.
-- Pipet
-	- *2* d.p.
-- Buret
-	- *2* d.p.
-- Volumetric flask
-	- *2* d.p.
+| Name               | Purpose                  | Precision (d.p.) |
+| ------------------ | ------------------------ | ---------------- |
+| Graduated cylinder | Stores any volume        | 1                |
+| Pipet              | Extracts specific volume | 2                |
+| Mohr pipet         | Extracts any volume      | 2                |
+| Buret              | Continuously add liquid  | 2                |
+| Volumetric flask   | Stores specific volume   | 2                |
