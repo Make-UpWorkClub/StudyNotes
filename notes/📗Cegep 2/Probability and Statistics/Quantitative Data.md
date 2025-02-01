@@ -7,7 +7,7 @@ date: 2025-01-21T20:29:54
 
 # Quantitative Data
 
-Measurements that are recorded on a numerical scale
+[[Measurement|Measurements]] recorded on a numerical scale
 Opposed to [[qualitative data]]
 
 ## Types

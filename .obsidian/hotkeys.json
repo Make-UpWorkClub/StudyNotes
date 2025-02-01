@@ -115,15 +115,6 @@
       "key": "ArrowUp"
     }
   ],
-  "editor:insert-callout": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "\\"
-    }
-  ],
   "file-explorer:open": [
     {
       "modifiers": [
@@ -413,5 +404,65 @@
   ],
   "easy-typing-obsidian:easy-typing-goto-new-line-after-cur-line": [],
   "app:open-help": [],
-  "editor:toggle-bold": []
+  "editor:toggle-bold": [],
+  "keyshots:better-insert-callout": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "\\"
+    }
+  ],
+  "keyshots:insert-line-above": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "keyshots:insert-line-below": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "keyshots:join-selected-lines": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "J"
+    }
+  ],
+  "keyshots:select-all-word-instances": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "W"
+    }
+  ],
+  "keyshots:expand-line-selections": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "keyshots:duplicate-line-up": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "D"
+    }
+  ]
 }

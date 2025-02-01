@@ -12,3 +12,13 @@ date: 2025-01-20T15:56:12
 - Ordinateur seulement pour prendre des notes
 - 5% par jour de retard
 - Salons littéraires
+
+## 2025-01-27
+
+# Signifiant
+
+Forme physique d'un mot (sons, rythmes, images, etc.)
+
+# Signifié
+
+Sens ou l'idée d'un mot (émotions, pensées, images mentales, etc.)

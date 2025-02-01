@@ -43,7 +43,7 @@ Deux paragraphes adoptant le même point de vue
 - Retranscrire l'énoncé sans reformuler
 - Ajouter le contexte aux citations
 - Souligner le titre d'un oeuvre si écrit à la main
-- Mettre entre guillemets le titre d'un chapitre
+- ==Mettre entre guillemets le titre d'un chapitre==
 - Madame -> madame ou Mme.
 - Expressions à éviter
 	- Démontrer -> montrer

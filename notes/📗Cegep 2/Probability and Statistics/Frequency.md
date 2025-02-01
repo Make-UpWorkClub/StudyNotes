@@ -12,12 +12,12 @@ date: 2025-01-23T20:39:31
 ### Class frequency
 
 Number of individuals in a particular class
-Denoted $n_i$
+`Sym.` $n_i$
 
 ### Class relative frequency
 
 Class frequency divided by sample size
-Denoted $f_i$
+`Sym.` $f_i$
 
 ### Cumulative relative frequency
 

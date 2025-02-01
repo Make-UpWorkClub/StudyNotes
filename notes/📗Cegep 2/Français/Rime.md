@@ -26,6 +26,11 @@ Alternance de rimes féminines et masculines
 Deux rimes séparées par deux rimes de différent genre
 `abba`
 
+## Genre
+
+- **Masculin** : *ne* se termine *pas* par un e muet
+- **Féminin** : se termine par un e muet
+
 ## Qualité
 
 Mesurée par le nombre de phonèmes

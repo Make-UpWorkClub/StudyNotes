@@ -78,16 +78,16 @@
       "**|**"
     ],
     [
-      "r/(?<=\\n[\\t ]*)-  /|",
-      "  |"
-    ],
-    [
       "==|",
       "==|=="
     ],
     [
       "~~|",
       "~~|~~"
+    ],
+    [
+      "r/!(example|important|warning|abstract|tip|info|note) /|",
+      "> [![[0]]]"
     ]
   ],
   "userSelRuleSettingsOpen": true,

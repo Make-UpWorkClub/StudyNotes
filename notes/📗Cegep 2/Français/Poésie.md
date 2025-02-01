@@ -9,3 +9,4 @@ date: 2025-01-27T03:11:20
 
 Art des mots
 Articulation des **significations**, des **rythmes** et des **images** pour former un tout
+Utilisation des figures de style (métaphore, comparaison, personnification, etc.)

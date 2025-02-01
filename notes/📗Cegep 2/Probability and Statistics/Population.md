@@ -10,9 +10,9 @@ date: 2025-01-21T20:38:04
 Set of all [[Individual|individuals]] in a study
 
 > [!abstract] Population size
-> Denoted $N$
+> `Sym.` $N$
 
 > [!abstract] Sample size
-> Denoted $n$
+> `Sym.` $n$
 
 > [!info] Use $N$ if $N = n$
