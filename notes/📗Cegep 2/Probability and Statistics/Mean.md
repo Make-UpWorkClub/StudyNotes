@@ -10,14 +10,26 @@ date: 2025-01-30T20:00:45
 Sum of measurements divided by the number of measurements
 Measure of [[central tendency]]
 
-For classless data:
+Sample mean:
 
 $$
 \overline{x} = \frac{\sum_{ i = 1 }^{ n } x_{i}}{n}
 $$
 
-For data grouped in classes:
+Population mean:
 
 $$
-\overline{x} = \frac{\sum_{ i = 1 }^{ n } n_ic_i}{n}
+\mu = \frac{\sum_{ i = 1 }^{ N } x_i}{N}
+$$
+
+For discrete classes
+
+$$
+\overline{x} = \frac{\sum_{ i = 1 }^{ c } n_ix_i}{n}
+$$
+
+For continuous classes:
+
+$$
+\overline{x} = \frac{\sum_{ i = 1 }^{ c } n_ic_i}{n}
 $$

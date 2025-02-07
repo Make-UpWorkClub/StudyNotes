@@ -14,45 +14,20 @@ date: 2025-01-20T13:15:11
 - Cd: cadmium
 - As: arsenic
 
-# Nomenclature
+## 2025-02-03
 
-Classified by compound type
+Percent composition: percentage of mass of an element in a compound
 
-## Ionic
+## 2025-02-06
 
-- Cation written first, then anion
-- *Monatomic anion* suffixed with `-ide`
+# Limiting Reagent
 
-### Type I
+Reagent that limits the amount of products as opposed to **excess reagent**
 
-*Constant* metal cation charge => charge *omitted*
+# Yield of Reaction
 
-> [!example]+
-> $KI$ -> potassium iod==ide==
-> $CaS$ -> calcium sulf==ide==
-> $Li_3N$ -> lithium nitr==ide==
+Efficiency of reaction
 
-### Type II
-
-*Variable* metal cation charge => charge *required*
-
-> [!example]+
-> $HgCl_2$ -> 
-
-## Ionic
-
-- First nonmetal written first, then second nonmetal
-- *Second nonmetal* suffixed with `-ide`
-- Number prefix
-	- `Mono-` not used on first nonmetal and on 
-
-> [!example]+ 
-> $N_2O_5$ -> dinitrogen pentoxide
-> 
-
-## Acid
-
-- If the acid contains oxygen:
-	- `Hydro-` + anion root + `-ic acid`
-- If the acid *does not* contain oxygen:
-	- 
+$$
+\text{yield of reaction} = \frac{\text{experimental yield}}{\text{theoretical yield}}\cdot100\%
+$$

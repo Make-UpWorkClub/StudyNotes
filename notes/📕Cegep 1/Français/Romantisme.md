@@ -1,6 +1,7 @@
 ---
 tags:
   - Cegep1
+  - Cegep2
   - French
 date: 2024-09-19T10:54:35
 ---
@@ -13,8 +14,8 @@ Inauguré par des jeunes nobles dépossédés en réponse à l'échec de la Rév
 
 Éléments :
 
-- Idéalisme: 
-- Liberté: idéal de vie fondé sur le refus de la raison
+- Idéalisme
+- Liberté : idéal de vie fondé sur le refus de la raison
 	- Personnages divers
 	- Société vue comme prison
 	- Évasion
@@ -22,7 +23,7 @@ Inauguré par des jeunes nobles dépossédés en réponse à l'échec de la Rév
 		- Par le temps
 		- Par le rêve
 		- Par la mort
-- Nature: miroir de l'intérieur du personnage principal 
+- Nature : miroir de l'intérieur du personnage principal 
 	- Divinité
 - Subjectivité
 	- Émotions c. raison
@@ -33,6 +34,7 @@ Inauguré par des jeunes nobles dépossédés en réponse à l'échec de la Rév
 	- Sensibilité
 	- Imagination
 		- Rêve
+		- Fantastique
 	- Individualisme
 		- Héroïsme
 

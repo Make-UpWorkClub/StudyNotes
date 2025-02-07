@@ -17,3 +17,8 @@ date: 2025-01-21T15:11:46
 - Presentation:
 	- Specific topic
 	- Kicker
+
+## 2025-02-04
+
+- Publishing sensitive or offensive information
+- Weaponisation of trauma

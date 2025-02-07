@@ -9,6 +9,7 @@
   "baseFontSizeAction": false,
   "enabledCssSnippets": [
     "kbd",
-    "highlight"
+    "highlight",
+    "no-csd"
   ]
 }

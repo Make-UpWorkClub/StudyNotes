@@ -8,6 +8,7 @@ date: 2025-01-30T20:33:34
 # Outlier
 
 [[Measurement]] that is unusually different than others
+Outside of $[Q_1 - 1.5IQR, Q_3 + 1.5IQR]$
 
 Causes:
 

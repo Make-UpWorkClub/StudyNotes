@@ -19,14 +19,53 @@ Study where variable is measured for all individuals in the population
 
 Ends of a data distribution
 
-# Skewness
+# Probability
 
-One tail of the distribution has more extreme observations than the other
+(Study of the) chance of an event to occur
+`Sym.` $P(E)$
 
-# Empirical Rule
+> [!abstract] Random experiment
+> Act that leads to a single outcome that cannot be predicted with certainty
 
-For data sets whose relative frequency distributions are **symmetric** and **bell-shaped**,
+> [!abstract] Sample point
+> Most basic outcome of an experiment
+> `A.k.a.` simple event
 
-- ~68% of measurements fall within 1 standard deviation from the mean;
-- ~95% of measurements fall within 2 standard deviation from the mean;
-- ~99.7% of measurements fall within 3 standard deviation from the mean.
+> [!abstract] Compound event
+> Event formed by sample points
+
+> [!abstract] Sample space
+> Collection of all sample points of an experiment
+> `Sym.` $\Omega$
+
+> [!abstract] Cardinality
+> Number of simple events that form a particular event
+
+> [!info] Set notation
+> $\Omega:\{ a, b, \dots \}$
+
+# Law of Large Numbers
+
+Relative frequency approaches true probability as the number of tries repeats
+
+# Combinations Rule
+
+The number of possibilities by choosing $n$ elements from set of $N$ elements is
+
+$$
+{N \choose n} = \frac{N!}{n!(N - n)!}
+$$
+
+`Read as` "N choose n"
+
+# Union
+
+Binary operation that yields the probability of at least one of A or B happening 
+
+`Sym.` $\cup$
+
+# Intersection
+
+Binary operation that yields the probability of A and B both occurring
+
+`Sym.` $\cap$

@@ -20,3 +20,15 @@ Population variance:
 $$
 \sigma^2 = \frac{\sum_{ i = 1 }^{ n } (x_i - \mu)^2}{N}
 $$
+
+For discrete classes:
+
+$$
+s^2 = \frac{\sum_{ i = 1 }^{ c } n_i(x_i - \overline{x})^2}{n - 1}
+$$
+
+For continuous classes:
+
+$$
+s^2 = \frac{\sum_{ i = 1 }^{ c } n_i(c_i - \overline{x})^2}{n - 1}
+$$

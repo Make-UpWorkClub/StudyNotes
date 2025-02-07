@@ -15,6 +15,8 @@ $$
 
 Derived from [[Riemann Sum]]
 
+> [!info] Subtraction notation: $\int_{a}^{b} f(x) \, dx = \left. F(x) \right|_a^b$
+
 ## Properties
 
 - $\int_a^bk \, dx = k(b - a)$
@@ -32,7 +34,7 @@ Derived from [[Riemann Sum]]
 
 ## Examples
 
-Suppose $\int_{0}^{1} f(x) \, dx = 2$, $\int_{1}^{2} f(x) \, dx = 3$, $\int_{0}^{1} g(x) \, dx = -1$, and $\int_{0}^{2} g(x) \, dx = 4$. Compute the following.
+> Suppose $\int_{0}^{1} f(x) \, dx = 2$, $\int_{1}^{2} f(x) \, dx = 3$, $\int_{0}^{1} g(x) \, dx = -1$, and $\int_{0}^{2} g(x) \, dx = 4$. Compute the following.
 
 $\int_{1}^{2} g(x) \, dx$
 
@@ -63,7 +65,7 @@ $$
 
 ---
 
-Simplify the following expressions.
+> Simplify the following expressions.
 
 $\int_{-2}^{2} f(x) \, dx + \int_{2}^{5} f(x) \, dx - \int_{-2}^{-1} f(x) \, dx$
 
@@ -84,7 +86,7 @@ $$
 
 ---
 
-Let $f(x)$ be an even function such that $\int_{0}^{2} 3f(x) \, dx = 6$ and $\int_{1}^{2} f(x) \, dx = 5$. Find $\int_{-2}^{1} f(x) \, dx$.
+> Let $f(x)$ be an even function such that $\int_{0}^{2} 3f(x) \, dx = 6$ and $\int_{1}^{2} f(x) \, dx = 5$. Find $\int_{-2}^{1} f(x) \, dx$.
 
 $$
 \begin{align}

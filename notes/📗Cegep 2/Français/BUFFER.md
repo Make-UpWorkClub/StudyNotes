@@ -22,3 +22,20 @@ Forme physique d'un mot (sons, rythmes, images, etc.)
 # Signifié
 
 Sens ou l'idée d'un mot (émotions, pensées, images mentales, etc.)
+
+## 2025-02-06
+
+# Symbolisme
+
+Association d'un objet à une chose abstraite
+
+Éléments :
+
+- Synesthésie
+- Musicalité
+	- Sonorité
+		- Le son plus important que le sens
+	- Rythme
+- Subjectivité
+- Subversive
+- « l'Art pour l'Art »

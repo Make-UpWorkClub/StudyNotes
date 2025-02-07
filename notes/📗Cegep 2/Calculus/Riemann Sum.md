@@ -17,7 +17,7 @@ $$
 
 ## Evaluation
 
-Evaluate the area under $f(x) = 5x + 2$ on $[0, 3]$.
+> Evaluate the area under $f(x) = 5x + 2$ on $[0, 3]$.
 
 $$
 \begin{align}
@@ -32,7 +32,7 @@ $$
 
 ---
 
-Evaluate the area under $f(x) = x^2 - 2x - 5$ on $[1, 4]$.
+> Evaluate the area under $f(x) = x^2 - 2x - 5$ on $[1, 4]$.
 
 $$
 \begin{align}
