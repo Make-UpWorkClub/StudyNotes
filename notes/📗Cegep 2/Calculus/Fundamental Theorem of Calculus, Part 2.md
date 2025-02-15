@@ -9,7 +9,7 @@ date: 2025-02-06T13:11:53
 
 `Abbr.` FTC2
 
-If $f$ is continuous on $[a, b]$ and $F$ is any antiderivative of $f$,
+If $f$ is continuous on $[a, b]$ and $F$ is any [[antiderivative]] of $f$,
 then $\int_{a}^{b} f(x) \, dx = F(b) - F(a)$.
 
 > [!important] $f(x)$ can be **any** antiderivative of $f$.

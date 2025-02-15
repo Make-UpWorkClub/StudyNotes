@@ -25,10 +25,10 @@ Classified by compound type
 > | $PO_4^{3-}$        | Phosphate    |
 > | $NCS^-$ or $SCN^-$ | Thiocyanate  |
 > | $CO_3^{2-}$        | Carbonate    |
-> | $CIO^-$ or $OCI^-$ | Hypochlorite |
-> | $CIO_2^-$          | Chlorite     |
-> | $CIO_3^-$          | Chlorate     |
-> | $CIO_4^-$          | Perchlorate  |
+> | $ClO^-$ or $OCl^-$ | Hypochlorite |
+> | $ClO_2^-$          | Chlorite     |
+> | $ClO_3^-$          | Chlorate     |
+> | $ClO_4^-$          | Perchlorate  |
 > | $C_2H_3O_2^-$      | Acetate      |
 > | $MnO_4^-$          | Permanganate |
 > | $Cr_2O_7^{2-}$     | Dichromate   |
@@ -50,17 +50,20 @@ Classified by compound type
 
 *Variable* metal cation charge => charge *required as roman numeral*
 
+- 
+
 > [!example]+
 > $HgCl_2$ -> mercury==(I)== chloride
 > $MnO_2$ -> magnesium==(I)== oxide
 > $CoBr_2$ -> cobalt==(II)== bromide
 
-## Convalent
+## Covalent
 
 - First nonmetal written first, then second nonmetal
 - *Second nonmetal* suffixed with `-ide`
 - Number of atoms required as prefix
 	- `Mono-` not used on first nonmetal and on 
+	- Special case: pentoxide
 
 > [!example]+ 
 > $N_2O_5$ -> dinitrogen pentoxide
@@ -68,7 +71,23 @@ Classified by compound type
 
 ## Acid
 
-- If the acid contains oxygen:
-	- `Hydro-` + anion root + `-ic acid`
-- If the acid *does not* contain oxygen:
-	- 
+- Binary acid *(solid or unknown state)* or oxyacid *(solid state)*:
+- Binary acid *(dissolved state)* or oxyacid *(dissolved or unknown state)*:
+	- If the acid contains oxygen:
+		- If anion ends in `-ite`:
+			- Anion root + `-ous acid`
+		- If anion ends in `-ate`:
+			- Anion root + `-ic acid`
+	- If the acid *does not* contain oxygen:
+		- `Hydro-` + anion root + `-ic acid`
+
+> [!abstract] Binary acid
+> Acid of the form $H$ + single atom anion
+
+> [!abstract] Oxyacid
+> Acid containing oxygen
+
+> [!example]
+> $CH_3COOH$ -> acet==ic== acid
+> $HNO_2$ -> nitr==ous== acid
+> $H_2SO_4$ -> sulfur==ic== acid

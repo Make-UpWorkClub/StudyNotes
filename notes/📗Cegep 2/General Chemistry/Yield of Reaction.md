@@ -1,0 +1,22 @@
+---
+tags:
+  - Cegep2
+  - Chemistry
+date: 2025-02-10T15:08:19
+---
+
+# Yield of Reaction
+
+Efficiency of reaction
+Limited by [[limiting reagent]]
+
+$$
+\text{yield of reaction} = \frac{\text{experimental yield}}{\text{theoretical yield}}\cdot100\%
+$$
+
+> [!example]+ $N_{2(g)} + 3H_{2(g)} \to 2NH_{3(g)}$
+> |     | $N_2$   | $3H_2$ | $2NH_3$ |
+> | ---:| ------- | ------ | ------- |
+> |   I | 0.107   | 0.223  | 0       |
+> |   C | -0.0743 | -0.223 | 0.149   |
+> |   F | 0.033   | 0      | 0.149   |

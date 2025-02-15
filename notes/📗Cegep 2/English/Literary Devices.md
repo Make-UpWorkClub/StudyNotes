@@ -12,13 +12,7 @@ date: 2025-01-24T15:13:15
 
 ## Types
 
-### Point of view
-
 ### Setting
-
-### Symbolism
-
-### Characterization
 
 ### Juxtaposition
 

@@ -1,7 +1,9 @@
 ---
 tags:
   - Cegep1
+  - Cegep2
   - Biology
+  - Chemistry
 date: 2024-10-17T18:53:08
 ---
 

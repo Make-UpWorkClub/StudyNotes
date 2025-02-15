@@ -5,6 +5,8 @@ tags:
 date: 2025-02-03T13:10:09
 ---
 
+%% [[Derivative]] [[Antiderivative]] %%
+
 # Fundamental Theorem of Calculus, Part 1
 
 `Abbr.` FTC1

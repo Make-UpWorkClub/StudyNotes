@@ -9,7 +9,7 @@ date: 2025-02-06T19:02:39
 
 Any body activity that spends energy
 
-Benefits:
+## Benefits
 
 - Body:
 	- Immune+
@@ -23,3 +23,11 @@ Benefits:
 	- Self-esteem+
 	- => decision-making+
 	- => academic performance+
+
+## Influencing factors
+
+- Social environment
+- Access to facilities
+- Addiction
+	- Technology
+- Free time

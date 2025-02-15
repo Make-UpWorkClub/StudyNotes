@@ -5,7 +5,7 @@
   "textFontFamily": "Open Sans,Inter,Noto Sans",
   "baseFontSize": 16,
   "interfaceFontFamily": "Open Sans",
-  "monospaceFontFamily": "Iosevka Term Extended",
+  "monospaceFontFamily": "Iosevka Inconsolata,Inconsolata",
   "baseFontSizeAction": false,
   "enabledCssSnippets": [
     "kbd",

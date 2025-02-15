@@ -36,7 +36,7 @@ Derived from [[Riemann Sum]]
 
 > Suppose $\int_{0}^{1} f(x) \, dx = 2$, $\int_{1}^{2} f(x) \, dx = 3$, $\int_{0}^{1} g(x) \, dx = -1$, and $\int_{0}^{2} g(x) \, dx = 4$. Compute the following.
 
-$\int_{1}^{2} g(x) \, dx$
+> $\int_{1}^{2} g(x) \, dx$
 
 $$
 \begin{align}
@@ -46,7 +46,7 @@ $$
 \end{align}
 $$
 
-$\int_{0}^{2} (2f(x) - 3g(x)) \, dx$
+> $\int_{0}^{2} (2f(x) - 3g(x)) \, dx$
 
 $$
 \begin{align}
@@ -57,7 +57,7 @@ $$
 \end{align}
 $$
 
-$\int_{1}^{1} g(x) \, dx$
+> $\int_{1}^{1} g(x) \, dx$
 
 $$
 \int_{1}^{1} g(x) \, dx = 0
@@ -67,13 +67,13 @@ $$
 
 > Simplify the following expressions.
 
-$\int_{-2}^{2} f(x) \, dx + \int_{2}^{5} f(x) \, dx - \int_{-2}^{-1} f(x) \, dx$
+> $\int_{-2}^{2} f(x) \, dx + \int_{2}^{5} f(x) \, dx - \int_{-2}^{-1} f(x) \, dx$
 
 $$
 \int_{-2}^{2} f(x) \, dx + \int_{2}^{5} f(x) \, dx - \int_{-2}^{-1} f(x) \, dx = \int_{-1}^{5} f(x) \, dx 
 $$
 
-$\int_{0}^{2} 3f(x) \, dx + \int_{1}^{3} 3f(x) \, dx - \int_{0}^{2} 2f(x) \, dx - \int_{1}^{2} 3f(x) \, dx - \int_{2}^{3} 2f(x) \, dx$
+> $\int_{0}^{2} 3f(x) \, dx + \int_{1}^{3} 3f(x) \, dx - \int_{0}^{2} 2f(x) \, dx - \int_{1}^{2} 3f(x) \, dx - \int_{2}^{3} 2f(x) \, dx$
 
 $$
 \begin{align}

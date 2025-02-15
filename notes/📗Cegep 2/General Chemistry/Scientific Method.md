@@ -5,6 +5,8 @@ tags:
 date: 2025-01-22T15:16:55
 ---
 
+%% [[Lab]] %%
+
 # Scientific Method
 
 1. Observation

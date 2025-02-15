@@ -60,12 +60,24 @@ $$
 
 # Union
 
-Binary operation that yields the probability of at least one of A or B happening 
-
+Event that occurs when at least one of $A$ or $B$ occurs
 `Sym.` $\cup$
+
+Additive rule of probability: $P(A\cup B) = P(A) + P(B) - P(A\cap B)$
 
 # Intersection
 
-Binary operation that yields the probability of A and B both occurring
-
+Event that occurs when $A$ and $B$ both occur
 `Sym.` $\cap$
+
+Mutual exclusivity: $P(A\cap B) = 0$
+`A.k.a.` disjoint sets
+
+# Complement
+
+Event that occurs when another doesn't
+`Sym.` $A^c$ or $\overline{A}$
+
+# Multiplicative Rule
+
+For independent events, $P(A\cap B) = P(A)\cdot P(B)$
