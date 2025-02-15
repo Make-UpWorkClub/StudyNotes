@@ -1,10 +1,6 @@
-import process from 'node:process'
-import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links'
-import { UnlazyImages } from '@nolebase/markdown-it-unlazy-img'
-import { generateBreadcrumbsData } from '@nolebase/vitepress-plugin-breadcrumbs/vitepress'
-import { InlineLinkPreviewElementTransform } from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
-
+import { presetMarkdownIt } from '@nolebase/integrations/vitepress/markdown-it'
 import { transformHeadMeta } from '@nolebase/vitepress-plugin-meta'
+import { generateBreadcrumbsData } from '@nolebase/vitepress-plugin-breadcrumbs/vitepress'
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 // import { buildEndGenerateOpenGraphImages } from '@nolebase/vitepress-plugin-og-image/vitepress'
 import MarkdownItFootnote from 'markdown-it-footnote'
@@ -14,6 +10,8 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 
 import head from './head'
 import { githubRepoLink, siteDescription, siteName } from './metadata'
+
+const nolebase = presetMarkdownIt()
 
 const config = defineConfig({
   vue: {
@@ -141,16 +139,12 @@ const config = defineConfig({
     },
     breaks: true,
     math: true,
+    preConfig: async (md) => {
+      await nolebase.install(md)
+    },
     config: (md) => {
       md.use(MarkdownItFootnote)
       md.use(MarkdownItMathjax3)
-      md.use(BiDirectionalLinks({
-        dir: process.cwd(),
-      }))
-      md.use(UnlazyImages(), {
-        imgElementTag: 'NolebaseUnlazyImg',
-      })
-      md.use(InlineLinkPreviewElementTransform)
     },
   },
   async transformHead(context) {
