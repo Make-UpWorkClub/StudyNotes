@@ -92,7 +92,7 @@ const ExtendedTheme: Theme = {
       ],
     })
   },
-  enhanceApp(ctx) {
+  async enhanceApp(ctx) {
     const { app } = ctx
 
     /**
@@ -102,7 +102,7 @@ const ExtendedTheme: Theme = {
      * https://github.com/vuejs/vitepress/issues/1918
      */
 
-    nolebase?.enhanceApp?.(ctx)
+    await nolebase?.enhanceApp?.(ctx)
 
     app.component('HomePage', HomePage)
     app.component('DocFooter', DocFooter)
