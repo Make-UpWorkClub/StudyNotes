@@ -11,7 +11,7 @@ date: 2025-01-27T01:33:24
 
 ### Ballade
 
-Trois strophes ou couplets au nombre équivalent de vers de même longueur et un envoi
+Trois strophes ou couplets semblables aux vers semblables + un envoi
 Strophes et envoi se terminent par un refrain
 
 > [!abstract] Envoi
@@ -51,12 +51,14 @@ Disposition des mots forment une image en lien avec le sujet
 ### Poème à [[Vers#Libre|vers libres]]
 
 Sans contraintes de la poésie traditionnelle
-Effets de sonorité (assonances et allitérations)
-Effets de refrain (parallélismes, répétitions et énumérations)
+
+- Effets de sonorité (assonances et allitérations)
+- Effets de refrain (parallélismes, répétitions et énumérations)
 
 ### Poème en prose
 
 Sans contraintes de la versification
-Contenu descriptif
-Effets de sonorité
-Effet de musicalité
+
+- Contenu descriptif
+- Effets de sonorité
+- Effets de musicalité
