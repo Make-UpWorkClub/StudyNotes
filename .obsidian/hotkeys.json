@@ -412,6 +412,13 @@
         "Shift"
       ],
       "key": "\\"
+    },
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "à"
     }
   ],
   "keyshots:insert-line-above": [
