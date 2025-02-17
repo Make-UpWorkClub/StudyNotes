@@ -67,6 +67,7 @@ export default defineConfig(async () => {
     ssr: {
       noExternal: [
         '@nolebase/vitepress-plugin-breadcrumbs',
+        '@unlazy/vue',
       ],
     },
   }
