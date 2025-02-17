@@ -2,4 +2,10 @@ import { createRecentUpdatesLoader } from '@nolebase/vitepress-plugin-index/vite
 
 export default createRecentUpdatesLoader({
   dir: 'en-US',
+  rewrites: [
+    {
+      from: /^en-US\/notes/,
+      to: 'notes',
+    },
+  ],
 })
