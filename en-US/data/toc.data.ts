@@ -6,7 +6,7 @@ export default createRecentUpdatesLoader({
     // wired, it wasn't designed to work like this.
     {
       from: /^en-US\/notes/,
-      to: 'en-US/notes',
+      to: 'StudyNotes/en-US/notes',
     },
   ],
 })

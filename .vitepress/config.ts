@@ -127,7 +127,7 @@ const config = defineConfig({
           { folderName: 'en-US/notes', separate: true },
         ], 'en-US'),
         footer: {
-          message: 'Written with <span style="color: #e25555;">&#9829;</span> 撰写',
+          message: 'Written with <span style="color: #e25555;">&#9829;</span>',
           copyright: '<a class="footer-cc-link" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> © 2024 Ajitani Hifumi',
         },
       },
