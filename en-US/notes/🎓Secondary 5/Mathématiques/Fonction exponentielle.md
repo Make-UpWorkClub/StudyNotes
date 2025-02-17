@@ -9,7 +9,7 @@ date: 2023-11-08 10:07
 
 Forme générale : $ac^x + k$ où $c > 0$ et $c \ne 1$
 [[Réciproque]] : [[Fonction logarithmique]]
-[[notes/🎓Secondary 5/Mathématiques/Asymptote|Asymptotes]] : horizontale
+[[en-US/notes/🎓Secondary 5/Mathématiques/Asymptote|Asymptotes]] : horizontale
 
 ## Recherche de la règle
 

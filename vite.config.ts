@@ -5,7 +5,7 @@ import UnoCSS from 'unocss/vite'
 import Components from 'unplugin-vue-components/vite'
 import { defineConfig } from 'vite'
 
-import Inspect from 'vite-plugin-inspect'
+// import Inspect from 'vite-plugin-inspect'
 
 import { creators, githubRepoLink } from './.vitepress/metadata'
 
@@ -19,8 +19,10 @@ export default defineConfig(async () => {
         },
         markdownSection: {
           excludes: [
-            join('zh-CN', 'toc.md'),
-            join('zh-CN', 'index.md'),
+            join('templates', '01 Notion.md'),
+            join('templates', '99 Extracted Notion.md'),
+            join('en-US', 'toc.md'),
+            join('en-US', 'index.md'),
           ],
         },
       },
@@ -29,8 +31,10 @@ export default defineConfig(async () => {
       options: {
         markdownSection: {
           excludes: [
-            join('zh-CN', 'toc.md'),
-            join('zh-CN', 'index.md'),
+            join('templates', '01 Notion.md'),
+            join('templates', '99 Extracted Notion.md'),
+            join('en-US', 'toc.md'),
+            join('en-US', 'index.md'),
           ],
         },
       },
@@ -50,7 +54,7 @@ export default defineConfig(async () => {
       ],
     },
     plugins: [
-      Inspect(),
+      // Inspect(),
       Components({
         include: [/\.vue$/, /\.md$/],
         dirs: '.vitepress/theme/components',
@@ -60,5 +64,10 @@ export default defineConfig(async () => {
       nolebase,
       ...nolebase.plugins(),
     ],
+    ssr: {
+      noExternal: [
+        '@nolebase/vitepress-plugin-breadcrumbs',
+      ],
+    },
   }
 })

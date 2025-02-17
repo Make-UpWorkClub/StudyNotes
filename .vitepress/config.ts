@@ -1,3 +1,4 @@
+/* eslint-disable perfectionist/sort-imports */
 import { presetMarkdownIt } from '@nolebase/integrations/vitepress/markdown-it'
 import { transformHeadMeta } from '@nolebase/vitepress-plugin-meta'
 import { generateBreadcrumbsData } from '@nolebase/vitepress-plugin-breadcrumbs/vitepress'
@@ -8,8 +9,8 @@ import MarkdownItMathjax3 from 'markdown-it-mathjax3'
 import { defineConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 
-import head from './head'
 import { githubRepoLink, siteDescription, siteName } from './metadata'
+import head from './head'
 
 const nolebase = presetMarkdownIt()
 

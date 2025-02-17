@@ -8,7 +8,7 @@ date: 2023-09-11
 # Réalisme
 
 [[Courant littéraire]] littéraire qui cherche à présenter la société tel qu’elle est
-[[XIXe Siècle]] après le [[notes/🎓Secondary 5/Français/Romantisme|romantisme]]
+[[XIXe Siècle]] après le [[en-US/notes/🎓Secondary 5/Français/Romantisme|romantisme]]
 
 > [!info] Le naturalisme est l’extension du réalisme.
 

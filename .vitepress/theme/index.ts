@@ -1,3 +1,4 @@
+/* eslint-disable perfectionist/sort-imports */
 import type { Theme } from 'vitepress'
 import { NolebaseBreadcrumbs } from '@nolebase/vitepress-plugin-breadcrumbs/client'
 import { presetClient } from '@nolebase/integrations/vitepress/client'

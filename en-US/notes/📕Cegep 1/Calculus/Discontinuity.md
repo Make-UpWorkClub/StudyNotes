@@ -25,4 +25,4 @@ $\lim_{ x \to c }f(x)$ exists, yet $\lim_{ x \to c }f(x) \ne f(c)$
 
 ### Infinite
 
-[[notes/📕Cegep 1/Calculus/Asymptote#Vertical (V. A.)|V. A.]] at $x = c$
+[[en-US/notes/📕Cegep 1/Calculus/Asymptote#Vertical (V. A.)|V. A.]] at $x = c$

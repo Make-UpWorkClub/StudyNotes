@@ -1,3 +1,4 @@
+/* eslint-disable perfectionist/sort-imports */
 import { defineComponent, toRefs } from 'vue'
 import giscusTalk from 'vitepress-plugin-comment-with-giscus/lib/giscus'
 import { useData, useRoute } from 'vitepress'
