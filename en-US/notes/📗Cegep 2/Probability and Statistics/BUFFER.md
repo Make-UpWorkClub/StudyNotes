@@ -19,34 +19,9 @@ Study where variable is measured for all individuals in the population
 
 Ends of a data distribution
 
-# Probability
-
-(Study of the) chance of an event to occur
-`Sym.` $P(E)$
-
-> [!abstract] Random experiment
-> Act that leads to a single outcome that cannot be predicted with certainty
-
-> [!abstract] Sample point
-> Most basic outcome of an experiment
-> `A.k.a.` simple event
-
-> [!abstract] Compound event
-> Event formed by sample points
-
-> [!abstract] Sample space
-> Collection of all sample points of an experiment
-> `Sym.` $\Omega$
-
-> [!abstract] Cardinality
-> Number of simple events that form a particular event
-
-> [!info] Set notation
-> $\Omega:\{ a, b, \dots \}$
-
 # Law of Large Numbers
 
-Relative frequency approaches true probability as the number of tries repeats
+[[Frequency#Class relative frequency|Relative frequency]] approaches true probability as the number of tries repeats
 
 # Combinations Rule
 
@@ -58,26 +33,25 @@ $$
 
 `Read as` "N choose n"
 
-# Union
-
-Event that occurs when at least one of $A$ or $B$ occurs
-`Sym.` $\cup$
-
-Additive rule of probability: $P(A\cup B) = P(A) + P(B) - P(A\cap B)$
-
-# Intersection
-
-Event that occurs when $A$ and $B$ both occur
-`Sym.` $\cap$
-
-Mutual exclusivity: $P(A\cap B) = 0$
-`A.k.a.` disjoint sets
-
-# Complement
-
-Event that occurs when another doesn't
-`Sym.` $A^c$ or $\overline{A}$
-
 # Multiplicative Rule
 
-For independent events, $P(A\cap B) = P(A)\cdot P(B)$
+The number of possibilities by choosing one element from $k$ sets of $n_i$ elements is
+
+$$
+n_1n_2n_3\dots n_k
+$$
+
+## Multiplicative rule of probability
+
+For independent events, $P(A\cap B) = P(A)P(B|A) = P(B)P(A|B)$
+
+# Law of True Probability
+
+Suppose event $A$ and partitions $B_1, B_2,\dots B_k$, then
+
+$$
+P(A) = \sum_{ i = 1 }^{ k } P(A\cap B_i)
+$$
+
+> [!abstract] Partition
+> Each of the pairwise disjoint events $E$ such that $E_1\cup E_2\cup\dots E_k = \Omega$

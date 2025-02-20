@@ -15,7 +15,7 @@ Any body activity that spends energy
 	- Immune+
 	- Chronic diseases-
 		- `E.g.` heart disease, diabetes, osteoporosis
-	- Strength
+	- Strength+
 	- Weight-
 - Mind:
 	- Concentration+

@@ -7,7 +7,7 @@ date: 2025-02-17T03:42:08
 
 # Personnage
 
-Être qui fait progresser l'intrigue dans le [[drame]]
+Être qui fait progresser l'intrigue dans le [[théâtre]]
 
 ## Caractéristiques
 

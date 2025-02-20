@@ -20,12 +20,13 @@ date: 2025-01-21T15:11:46
 
 # 2025-02-04
 
-- Publishing sensitive or offensive information
-- Weaponisation of trauma
+- Falling men
+	- Publication of sensitive or offensive information
+	- Weaponisation of trauma
 
 # 2025-02-07
 
-- Jon Stewart humorist:
+- Jon Stewart humorist
 	- Good:
 		- Makes serious topics more approchable
 		- Encourages people to follow the news
@@ -44,3 +45,13 @@ date: 2025-01-21T15:11:46
 	- Owned by Australian billionaire Rupert Murdock
 - Impossible to argue with people who believe in alternate facts
 - Vilifying ethnic group like Hitler
+
+# 2025-02-18
+
+- Pentagon Papers
+	- Leaked by Daniel Ellsberg
+	- Corrupt government
+	- Propaganda
+		- Illusion of winning
+	- Freedom of Press
+	- Middle-aged men sacrifice principles for career

@@ -1,27 +1,43 @@
 ---
 tags:
   - Sec4
+  - Cegep2
   - Sciences
+  - Chemistry
 ---
 
-## Électrolyte
+# Électrolyte
 
-Substance qui, dissoute dans l’eau, *se sépare en ions mobiles* qui conduisent l’électricité.
+## Électrolyte fort
 
-Exigences:
+Substance dont le molécule *se dissocie complètement en ions mobiles* dans l'eau
+*Conduit bien* l’électricité
+*Nécessairement* soluble et ionique
 
-- Présence d’une liaison ionique
-- Solubilité dans l’eau
+Types :
 
-Types:
+- Acide forte (le cation est H<sup>+</sup>)
+	- `E.g.` $\ce{NaCl}$
+- Base forte (l’anion est OH<sup>-</sup>)
+	- `E.g.` $\ce{HCl}$
+- Sel soluble
+	- `E.g.` $\ce{NaOH}$
 
-- Acide (le cation est H<sup>+</sup>)
-- Base (l’anion est OH<sup>-</sup>)
-- Sel
+## Électrolyte faible
 
-> [!attention] CH<sub>3</sub>COOH (acide acétique) = CH<sub>3</sub>COO<sup>-</sup> (acétate) + H<sup>+</sup>
+Substance dont le molécule *se dissocie partiellement en ions mobiles* dans l'eau
+*Conduit mal* l'électricité
+*Nécessairement* soluble et ionique
+
+Types :
+
+- Acide faible
+	- `E.g.` $\ce{CH_3COOH}$ **($\ce{CH_3COO^-} + \ce{H+}$)**
+- Base faible
+	- `E.g.` $\ce{NH_3}$
 
 ## Non-électrolyte
 
-Substance qui, dissoute dans l’eau, *subit une dissociation moléculaire*.
-La solution ne conduit donc pas l’électricité.
+Substance dont le molécule *ne se dissocie pas* dans l'eau
+*Ne conduit pas* l’électricité
+*Peut être* soluble ou ionique

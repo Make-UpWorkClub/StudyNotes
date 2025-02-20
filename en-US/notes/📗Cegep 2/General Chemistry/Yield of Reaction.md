@@ -2,7 +2,8 @@
 tags:
   - Cegep2
   - Chemistry
-date: 2025-02-10T15:08:19
+  - 
+date: 2025-02-19T13:45:25
 ---
 
 # Yield of Reaction

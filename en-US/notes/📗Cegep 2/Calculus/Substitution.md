@@ -19,6 +19,14 @@ To find the antiderivative of $f(x) = \int g(A)u' \, dx$,
 
 > [!important] The limits of integration must be adjusted when using substitution on a definite integral.
 
+> [!important] For trigonometric integrals
+> Use trigonometric identities before substitution:
+> 
+> - $\cos^2x = \frac{1}{2}(1 + \cos 2x)$
+> - $\sin^2x = \frac{1}{2}(1 - \cos 2x)$
+> - $\sec^2x = \tan^2x + 1$
+> - $\tan^2x = \sec^2x - 1$
+
 ## Examples
 
 > Evaluate the following integrals.
@@ -96,5 +104,50 @@ $$
 \int \sec^3x\tan x \, dx & = \int u^2 \, du \\
  & = \frac{u^3}{3} + c \\
  & = \frac{\sec^3x}{3} + c
+\end{align}
+$$
+
+> $\int \sin^2x\cos^2x \, dx$
+
+$$
+\begin{align}
+\int \sin^2x\cos^2x \, dx & = \frac{1}{4}\int (1 - \cos(2x))(1 + \cos(2x)) \, dx \\
+ & = \frac{1}{4}\int (1 - \cos^2x) \, dx \\
+ & = \frac{1}{4}x - \frac{1}{4}\int \cos^2(2x) \, dx \\
+ & = \frac{1}{4}x - \frac{1}{4}\left( \frac{1}{2} \right)\int (1 + \cos(4x)) \, dx \\
+ & = \frac{1}{4}x - \frac{1}{8}x - \frac{1}{8}\int \cos(4x) \, dx \\
+ & =
+\end{align}
+$$
+
+> $\int \tan^2x \, d\sec^2x$
+
+$$
+\begin{align}
+ \int \tan^5x\sec^7x & = dx\int \tan^4x\sec^6\sec x\tan x \, dx \\
+ & = \int (\sec^2x - 1)^2\sec^6x\sec x\tan x \, dx \\
+\end{align}
+$$
+
+Let $u = \sec x$, then $du = \sec x\tan x dx$.
+By substitution,
+
+$$
+\begin{align}
+ & = \int (u^2 - 1)^2 \, du \\
+ & = \int (u^4 - 2u^2 + 1) \, du \\
+ & = \int (u^{10} - 2u^8 + u^6) \, du \\
+ & = \frac{1}{11}\sec^{11}x - \frac{2}{9}\sec^9x + \frac{1}{7}\sec^7x + c
+\end{align}
+$$
+
+> $\int \cos^2x\tan^3x \, dx$
+
+$$
+\begin{align}
+\int \cos^2x\tan^3x \, dx & = \int \frac{\sin^3x}{\cos x} \, dx \\
+ & = \frac{1}{2}\int \frac{\sin x(1 - \cos 2x)}{\cos x} \, dx \\
+ & = \frac{1}{2}\int \tan x \, dx - \frac{1}{2} \int \frac{\sin x\cos2x}{\cos x} \, dx \\
+
 \end{align}
 $$

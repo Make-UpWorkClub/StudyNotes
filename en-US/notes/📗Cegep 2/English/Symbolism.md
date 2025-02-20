@@ -16,6 +16,10 @@ Giving character to objects
 Symbol part of general culture
 Immediately recognizable to those who belong to the culture
 
+In essay: quickly reminded + optionally situated in the culture
+
 ### Invented
 
 Complex symbol developed by a particular work
+
+In essay: explained through diction, nature or metaphor

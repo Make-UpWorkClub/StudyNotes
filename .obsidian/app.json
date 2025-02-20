@@ -22,11 +22,11 @@
     "README.md",
     "overrides/",
     "node_modules/",
-    "toc.md",
-    "index.md",
     "scripts/",
     "public/",
-    "templates/"
+    "templates/",
+    "index.md",
+    "toc.md"
   ],
   "newFileLocation": "current",
   "livePreview": false,
