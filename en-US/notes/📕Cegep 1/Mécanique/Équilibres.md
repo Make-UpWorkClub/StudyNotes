@@ -21,7 +21,7 @@ $$
 \sum \tau = 0
 $$
 
-> [!note] Un corps en équilibre de rotation ne tourne pas autour de n'importe quel axe.
+> [!info] Un corps en équilibre de rotation ne tourne pas autour de n'importe quel axe.
 
 ### ~ statique
 

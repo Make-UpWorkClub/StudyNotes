@@ -11,9 +11,13 @@ General form of all [[Antiderivative|antiderivatives]] of a function
 
 ## Properties & theorems
 
--  $\int x^n \, dx = \frac{x^{n + 1}}{n + 1} + c$
+- $\int 0 \, dx = c$
+- $\int x^n \, dx = \frac{x^{n + 1}}{n + 1} + c$
+- $\int a^x \, dx = \frac{a^x}{\ln a}$
 - $\int \frac{1}{x} \, dx = ln|x| + c$ for $x \ne 0$
 - $\int \ln(x) \, dx = x\ln(x) - x + c$
+- $\int \tan x \, dx = \ln \sec |x| + c$
+- $\int \sec \, dx = \ln |\sec x + \tan x| + c$
 
 ## Examples
 

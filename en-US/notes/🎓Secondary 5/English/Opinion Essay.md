@@ -1,6 +1,7 @@
 ---
 tags:
   - Sec5
+  - Cegep2
   - English
 date: 2023-12-05 10:55
 ---
@@ -25,8 +26,8 @@ Topic: opinion text
 
 First sentence of the introduction
 
-- Must captivate the readers
-- Clearly linked to the thesis
+- Interesting, captivating
+- Specific, clearly linked to the thesis
 
 Types:
 
@@ -40,6 +41,21 @@ Types:
 - Anecdote 
 	- **Not recommended**
 	- Must be shocking or relatable
+
+Ideas:
+
+- Explain the subject's importance
+- Carefully use personal stories
+
+### Fennel
+
+Alternative first sentence of the introduction
+Broad statement on the topic
+
+### Transition
+
+Optional identification of the author and work (otherwise in the thesis)
+Optional brief summary of the text
 
 ### Thesis
 

@@ -69,14 +69,18 @@ $$
 \end{align}
 $$
 
-> $\int x\mathrm{arcsec}x \, dx$
+> $\int \sec^3x \, dx$
 
-Let $u = \mathrm{arcsec}x$ and $dv = x$,
-then $du = \frac{dx}{|x|\sqrt{x^2 - 1}}$ and $v = \frac{x^2}{2}$.
+Let $u = \sec x$ and $dv = \sec^2xdx$,
+then $du = \sec x\tan xdx$ and $v = \tan x$.
 By IBP,
 
 $$
 \begin{align}
-\int x\mathrm{arcsec}x \, dx & = \mathrm{arcsec}x \cdot \frac{x^2}{2} - \int x \cdot \frac{dx}{|x|\sqrt{x^2 - 1}}
+\int \sec^3x \, dx & = \sec x\tan x - \int \sec x\tan^2x \, dx \\
+ & = \sec x\tan x - \int \sec x(\sec^2x - 1) \, dx \\
+ & = \sec x\tan x - \int \sec^3x \, dx + \int \sec x \, dx \\
+2\int \sec^3x \, dx & = \sec x\tan x + \ln |\sec x + \tan x| + c \\
+\int \sec^3x \, dx & = \frac{1}{2}(\sec x\tan x + \ln |\sec x + \tan x|) + c
 \end{align}
 $$

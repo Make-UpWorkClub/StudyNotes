@@ -26,7 +26,7 @@ Any body activity that spends energy
 
 ## Influencing factors
 
-- Social environment
+- ==Social environment==
 - Access to facilities
 - Addiction
 	- Technology

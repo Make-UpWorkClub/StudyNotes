@@ -18,11 +18,13 @@ Fiancée d'Hémon
 	- Maigre
 	- Noiraude
 - Personnalité :
+	- *Courageuse, digne*
+	- Beauté *d'âme*
+	- Religieuse
 	- Renfermée, rêveuse
 	- Pas prise au sérieux
 	- Menteuse
-	- Courageuse, digne
-	- « Folle »
+	- « Folle » ― Ismène
 	- Aime Polynice
 
 ### Ismène
@@ -30,10 +32,10 @@ Fiancée d'Hémon
 Sœur d'Antigone
 
 - Apparence :
-	- Belle
+	- Beauté *physique*
 	- Blonde
 - Personnalité :
-	- N'aime pas Polynice
+	- *Préfère profiter de la vie*
 
 ### Hémon
 
@@ -54,6 +56,9 @@ Roi de Thèbes
 	- Robuste
 	- Cheveux blancs
 	- Ridé
+- Personnalité :
+	- Symbole de l'ordre
+	- Sans ambition
 
 ### Eurydice
 

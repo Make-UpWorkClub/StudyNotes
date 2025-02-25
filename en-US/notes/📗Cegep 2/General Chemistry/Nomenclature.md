@@ -14,28 +14,27 @@ Classified by compound type
 - Cation written first, then anion
 - *Monatomic anion* suffixed with `-ide`
 
-> [!info]+ Polyatomic ions
+> [!info]+ Common polyatomic ions
 > | Ion                | Name         |
 > | ------------------ | ------------ |
-> | $NO_2^-$           | Nitrite      |
-> | $NO_3^-$           | Nitrate      |
-> | $SO_3^{2-}$        | Sulfite      |
-> | $SO_4^{2-}$        | Sulfate      |
 > | $CN^-$             | Cyanide      |
-> | $PO_4^{3-}$        | Phosphate    |
 > | $NCS^-$ or $SCN^-$ | Thiocyanate  |
-> | $CO_3^{2-}$        | Carbonate    |
-> | $ClO^-$ or $OCl^-$ | Hypochlorite |
-> | $ClO_2^-$          | Chlorite     |
-> | $ClO_3^-$          | Chlorate     |
-> | $ClO_4^-$          | Perchlorate  |
 > | $C_2H_3O_2^-$      | Acetate      |
-> | $MnO_4^-$          | Permanganate |
-> | $Cr_2O_7^{2-}$     | Dichromate   |
 > | $CrO_4^{2-}$       | Chromate     |
+> | $Cr_2O_7^{2-}$     | Dichromate   |
 > | $O_2^{2-}$         | Peroxide     |
 > | $C_2O_4^{2-}$      | Oxalate      |
 > | $S_2O_3^{2-}$      | Thiosulfate  |
+> 
+> | $\ce{O}$                                     | $\ce{O_2}$                 | $\ce{O_3}$                     | $\ce{O_4}$                     |
+> | -------------------------------------------- | -------------------------- | ------------------------------ | ------------------------------ |
+> |                                              | $\ce{NO_2^-}$<br>Nitrite   | $\ce{NO_3^-}$<br>Nitrate       |                                |
+> |                                              |                            | $\ce{SO_3^{2 -}}$<br>Sulfite   | $\ce{SO_4^{2 -}}$<br>Sulfate   |
+> | $\ce{ClO^-}$ or $\ce{OCl^-}$<br>Hypochlorite | $\ce{ClO_2^-}$<br>Chlorite | $\ce{ClO_3^-}$<br>Chlorate     | $\ce{ClO_4^-}$<br>Perchlorate  |
+> |                                              |                            |                                | $\ce{PO_4^{3 -}}$<br>Phosphate |
+> |                                              |                            | $\ce{CO_3^{2 -}}$<br>Carbonate |                                |
+> |                                              |                            |                                | $\ce{MnO_4^-}$<br>Permanganate |
+> |                                              |                            |                                |                                |
 
 ### Type I
 
@@ -50,7 +49,14 @@ Classified by compound type
 
 *Variable* metal cation charge => charge *required as roman numeral*
 
-- 
+Common variable metal cations:
+
+- $\ce{Fe^{3 +}, Fe^{2 +}}$
+- $\ce{Cu^{2 +}, Cu^+}$
+- $\ce{Co^{3 +}, Co^{2 +}}$
+- $\ce{Sn^{4 +}, Sn^{2 +}}$
+- $\ce{Pb^{4 +}, Pb^{2 +}}$
+- $\ce{Hg^{2 +}, Hg_2^{2 +}}$
 
 > [!example]+
 > $HgCl_2$ -> mercury==(I)== chloride
@@ -71,7 +77,7 @@ Classified by compound type
 
 ## Acid
 
-- Binary acid *(solid or unknown state)* or oxyacid *(solid state)*:
+- Binary acid *(solid or unknown state)* or oxyacid *(solid state)* -> use ionic nomenclature
 - Binary acid *(dissolved state)* or oxyacid *(dissolved or unknown state)*:
 	- If the acid contains oxygen:
 		- If anion ends in `-ite`:
@@ -87,7 +93,7 @@ Classified by compound type
 > [!abstract] Oxyacid
 > Acid containing oxygen
 
-> [!example]
+> [!example]+
 > $CH_3COOH$ -> acet==ic== acid
 > $HNO_2$ -> nitr==ous== acid
 > $H_2SO_4$ -> sulfur==ic== acid

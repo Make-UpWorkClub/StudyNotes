@@ -4,9 +4,9 @@ Hifumi's study notes, built with [Nólëbase](https://github.com/nolebase/noleba
 
 あはは ⋯
 
-> [!note] Some features of Obsidian-Flavoured Markdown are not supported by Vitepress, so a better way to read is to clone the repo and open with Obsidian.
+> [!info] Some features of Obsidian-Flavoured Markdown are not supported by Vitepress, so a better way to read is to clone the repo and open with Obsidian.
 
-> [!note] [How to take notes](notes/Other/Note-Taking)
+> [!info] [How to take notes](notes/Other/Note-Taking)
 
 ## License
 

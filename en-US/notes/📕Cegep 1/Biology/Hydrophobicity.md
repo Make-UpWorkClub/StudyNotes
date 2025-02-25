@@ -5,12 +5,13 @@ tags:
 date: 2024-08-22T16:38:00
 ---
 
-# Hydrosolubility
+# Hydrophobicity
 
 ## Hydrophobic
 
 *Repelled* by water
 *Insoluble* in water
+Tends to be non-polar
 
 Characterized by lots of *hydrocarbon* ($H$ &  $C$)
 
@@ -30,3 +31,5 @@ Charged
 ## Amphipathic
 
 Has both hydrophobic and hydrophilic regions
+
+##

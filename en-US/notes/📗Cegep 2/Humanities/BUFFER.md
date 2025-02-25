@@ -7,7 +7,7 @@ date: 2025-01-21T15:11:46
 
 # Buffer
 
-# 2025-01-28
+# Identifying key terminology related to the media
 
 - People are used to get entertainment for free
 - Media as fourth wing of government
@@ -18,15 +18,15 @@ date: 2025-01-21T15:11:46
 	- Specific topic
 	- Kicker
 
-# 2025-02-04
+# To Show or Not to Show: Ethical Dilemmas Surrounding Extreme Images
 
 - Falling men
 	- Publication of sensitive or offensive information
 	- Weaponisation of trauma
 
-# 2025-02-07
+# News as Comedy
 
-- Jon Stewart humorist
+- Jon Stewart
 	- Good:
 		- Makes serious topics more approchable
 		- Encourages people to follow the news
@@ -35,8 +35,9 @@ date: 2025-01-21T15:11:46
 	- Bad:
 		- Less information
 		- Downplays the serious consequences of news
+		- Viewers might develop cynical views and refuse to vote
 
-# 2025-02-11
+# Partisanship and the News
 
 - Fox News
 	- Own identity
@@ -46,9 +47,9 @@ date: 2025-01-21T15:11:46
 - Impossible to argue with people who believe in alternate facts
 - Vilifying ethnic group like Hitler
 
-# 2025-02-18
+# The Pentagon Papers and Press Freedom
 
-- Pentagon Papers
+- Pentagon Papers: 
 	- Leaked by Daniel Ellsberg
 	- Corrupt government
 	- Propaganda

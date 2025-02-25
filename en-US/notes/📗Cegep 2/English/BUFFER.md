@@ -18,3 +18,13 @@ date: 2025-01-21T13:16:30
 	- Argumentation
 	- Devices
 	- Genres
+
+# Poetry
+
+[[Literary Genre]] characterized by:
+
+- Patterns of rhythm and syntax
+
+# Rap
+
+`Exp.` rhythm and [[poetry]]

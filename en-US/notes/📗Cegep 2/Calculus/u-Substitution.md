@@ -5,7 +5,7 @@ tags:
 date: 2025-02-07T20:50:05
 ---
 
-# Substitution
+# u-Substitution
 
 Method of reversing an application of [[chain rule]] to find the [[antiderivative]]
 
@@ -141,13 +141,21 @@ $$
 \end{align}
 $$
 
-> $\int \cos^2x\tan^3x \, dx$
+>  $\int \tan^3x \, dx$
 
 $$
 \begin{align}
-\int \cos^2x\tan^3x \, dx & = \int \frac{\sin^3x}{\cos x} \, dx \\
- & = \frac{1}{2}\int \frac{\sin x(1 - \cos 2x)}{\cos x} \, dx \\
- & = \frac{1}{2}\int \tan x \, dx - \frac{1}{2} \int \frac{\sin x\cos2x}{\cos x} \, dx \\
+\int \tan^3x \, dx & = \int (\sec^2x - 1)\tan x \, dx \\
+ & = \int \sec^2x\tan x \, dx - \int \tan x \, dx
+\end{align}
+$$
 
+Let $u = \tan x$, then $du = \sec^2xdx$.
+By substitution,
+
+$$
+\begin{align}
+ & = \int u \, du - \ln |\sec x| + c \\
+ & = \frac{1}{2}\tan^2x - \ln |\sec x| + c
 \end{align}
 $$

@@ -18,7 +18,7 @@ $$
 
 Extension of linear approximation
 
-> [!note] $a$ is called the **center of approximation**.
+> [!info] $a$ is called the **center of approximation**.
 
 > [!abstract] Maclaurin Polynomial
 > Taylor Polynomial where $a = 0$

@@ -42,4 +42,6 @@ Can be organized by:
 - Character
 - Scene
 
+Acknowledge counterarguments but do not justify them
+No counterargument paragraph
 Last sentence explicitly connects to the theme
