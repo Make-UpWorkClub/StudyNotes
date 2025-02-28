@@ -19,7 +19,7 @@ To find the antiderivative of $f(x) = \int g(A)u' \, dx$,
 
 > [!important] The limits of integration must be adjusted when using substitution on a definite integral.
 
-> [!important] For trigonometric integrals
+> [!important]+ For trigonometric integrals
 > Use trigonometric identities before substitution:
 > 
 > - $\cos^2x = \frac{1}{2}(1 + \cos 2x)$

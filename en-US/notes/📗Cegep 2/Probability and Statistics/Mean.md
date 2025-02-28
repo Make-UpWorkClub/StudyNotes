@@ -22,7 +22,7 @@ $$
 \mu = \frac{\sum_{ i = 1 }^{ N } x_i}{N}
 $$
 
-For discrete classes
+For discrete classes:
 
 $$
 \overline{x} = \frac{\sum_{ i = 1 }^{ c } n_ix_i}{n}
@@ -33,3 +33,5 @@ For continuous classes:
 $$
 \overline{x} = \frac{\sum_{ i = 1 }^{ c } n_ic_i}{n}
 $$
+
+## 

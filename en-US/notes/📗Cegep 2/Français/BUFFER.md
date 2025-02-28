@@ -22,3 +22,12 @@ Forme physique d'un mot (sons, rythmes, images, etc.)
 # Signifié
 
 Sens ou l'idée d'un mot (émotions, pensées, images mentales, etc.)
+
+# Procédé d'écriture
+
+`Syn.` procédé littéraire, preuve formelle
+
+Types :
+
+- Figure de style
+- Choix de mot

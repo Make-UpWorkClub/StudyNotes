@@ -53,7 +53,7 @@ Deux paragraphes adoptant le même point de vue
 - Participe présent au milieu de la phrase rompt la fluidité de la phrase
 	- causant -> ce qui cause
 	- témoignant -> ce qui témoigne de
-- Formulation des idées à éviter
+- Formulation des idées à éviter :
 	- Éviter la description (résumé)
 	- Éviter la généralisation
 		- « on »

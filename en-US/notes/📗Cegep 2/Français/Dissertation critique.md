@@ -34,3 +34,6 @@ Deux paragraphes adoptant le *même* point de vue
 
 Deux paragraphes adoptant deux points de vue *opposés*
 
+## Conseils
+
+- **Ne pas utiliser un procédé d'écriture** dans les idées principales et idées secondaires

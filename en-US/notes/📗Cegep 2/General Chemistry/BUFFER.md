@@ -24,7 +24,15 @@ Percent composition: percentage of mass of an element in a compound
 
 # 2025-02-20
 
-# Acid Dissociation
+# Acid
+
+## Types
+
+### Organic acid
+
+## Classifications
+
+### By dissociation
 
 Monoprotic acid: gives *1* proton
 Diprotic acid: gives *2* protons
@@ -70,15 +78,31 @@ Method for balancing [[Oxidation-Reduction Reaction|redox reaction]] in **acidic
 
 ## Examples
 
-> Balance $\ce{MnO_4^- + Fe^{2 +} -> Fe^{3 +} + Mn^{2 +}}$.
+> Balance the following reactions.
+
+> $\ce{MnO_4^- + Fe^{2 +} -> Fe^{3 +} + Mn^{2 +}}$
 
 $$
 \begin{align}
-\ce{MnO_4^- &-> Mn^{2 +} \\
-MnO_4^- + 8H^+ &-> Mn^{2 +} + 4H_2O \\
+\ce{MnO_4^- &\to Mn^{2 +} \\
+MnO_4^- + 8H^+ &\to Mn^{2 +} + 4H_2O \\
  \\
-Fe^{2 +} &-> Fe^{3 +} + 1e^- \\
-5Fe^{2 +} &-> 5Fe^{3 +}}
+Fe^{2 +} &\to Fe^{3 +} + 1e^- \\
+5Fe^{2 +} &\to 5Fe^{3 +} \\
+ \\
+5Fe^{2 +} + MnO_4^- + 8H^+ & \to 5Fe^{3 +} + Mn^{2 +} + 4H_2O}
+\end{align}
+$$
+
+> $\ce{Ag + CN^- + O_2 \to Ag(CN)_2}$
+
+$$
+\begin{align}
+\ce{O_2 + 4H^+ + 4e^- & \to 2H_2O \\
+ \\
+Ag + CN^- + O_2 & \to Ag(CN)_2 \\
+Ag + 2CN^- + O_2 & \to Ag(CN)_2 \\
+}
 \end{align}
 $$
 
