@@ -10,11 +10,11 @@ date: 2025-02-12T22:26:42
 Method of reversing an application of [[product rule]] to find the [[antiderivative]]
 `Abbr.` IBP
 
-To find the antiderivative of $\int u \, dv$,
+To find the antiderivative of $\int ab \, \mathrm{d}x$,
 
-1. Set $u$ and $dv$ such that finding $du$ and $v$ is easiest.
+1. Set $u$ and $dv$ such that finding $du$ and $v$ is the easiest.
 2. Find $du$ by differentiation and $v$ by integration.
-3. 
+3. Substitute $\to uv - \int v \, du$.
 
 > [!tip]+ Priority of $u$
 > 1. Logarithmic

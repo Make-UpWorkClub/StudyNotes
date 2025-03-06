@@ -20,7 +20,3 @@ The probability of an event that can occur through mutually exclusive events is
 $$
 P(A) = P(A_1) + P(A_2)
 $$
-
-$$
-P(A^c | B^c) = \frac{1 - P(B) - P(A)(1 - P(B|A))}{1 - P(B)}
-$$

@@ -13,19 +13,11 @@ To find the antiderivative of $f(x) = \int g(A)u' \, dx$,
 
 1. Let $u = A$.
 2. Find $\frac{\mathrm{d}u}{\mathrm{d}x}$.
-3. Substitute $u$ into $A$ and $du$ into $u'dx$ -> $f(x) = \int g(u)du$.
-4. Integrate -> $G(u) + c$.
-5. Back-substitute $A$ into $u$ -> $G(A) + c$.
+3. Substitute $u$ into $A$ and $du$ into $u'dx \to f(x) = \int g(u)du$.
+4. Integrate $\to G(u) + c$.
+5. Back-substitute $A$ into $u \to G(A) + c$.
 
 > [!important] The limits of integration must be adjusted when using substitution on a definite integral.
-
-> [!important]+ For trigonometric integrals
-> Use trigonometric identities before substitution:
-> 
-> - $\cos^2x = \frac{1}{2}(1 + \cos 2x)$
-> - $\sin^2x = \frac{1}{2}(1 - \cos 2x)$
-> - $\sec^2x = \tan^2x + 1$
-> - $\tan^2x = \sec^2x - 1$
 
 ## Examples
 

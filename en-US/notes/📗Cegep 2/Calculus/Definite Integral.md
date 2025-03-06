@@ -7,6 +7,8 @@ date: 2025-01-29T19:49:07
 
 # Definite Integral
 
+Area under a curve between two boundaries
+
 The definite integral of $f$ on $[a, b]$ is
 
 $$
@@ -15,13 +17,9 @@ $$
 
 Derived from [[Riemann Sum]]
 
-> [!info] Subtraction notation: $\int_{a}^{b} f(x) \, dx = \left. F(x) \right|_a^b$
-
 ## Properties
 
 - $\int_a^bk \, dx = k(b - a)$
-- $\int_b^b kf(x) \, dx = k\int_{a}^{b} f(x) \, dx$
-- $\int_{a}^{b} (f(x) + g(x)) \, dx = \int_{a}^{b} f(x) \, dx + \int_{a}^{b} g(x) \, dx$
 - $\int_{a}^{a} f(x) \, dx = 0$
 - $\int_{a}^{b} f(x) \, dx = -\int_{b}^{a} f(x) \, dx$
 - $\int_{a}^{b} f(x) \, dx + \int_{b}^{c} f(x) \, dx = \int_{a}^{c} f(x) \, dx$

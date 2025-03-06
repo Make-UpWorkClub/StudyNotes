@@ -67,8 +67,8 @@ The $n$ <sup>th</sup> order derivative of $f$ is:
 - Quotient Rule: $\frac{d}{dx} \frac{f(x)}{g(x)} = \frac{g(x)f'(x) - f(x)g'(x)}{(g(x))^2}\text{, provided }g(x)\ne 0$
 - Chain Rule: $\frac{\mathrm{d}}{\mathrm{d}x}(f\circ g)(x) = (f'\circ g)(x)g'(x)$
 - General Power Rule: $\frac{d}{dx}f(x)^n = nf(x)^{n - 1}f'(x)$
-- $\frac{\mathrm{d}}{\mathrm{d}x}a^x = a^x\ln a$
 - $\frac{\mathrm{d}}{\mathrm{d}x}\log_bx = \frac{1}{x\ln b}$
+- $\frac{\mathrm{d}}{\mathrm{d}x}a^x = a^x\ln a$
 - $\frac{d}{dx}\sin x = \cos x$
 - $\frac{d}{dx}\cos x = -\sin x$
 - $\frac{d}{dx}\tan x = \sec ^2x$

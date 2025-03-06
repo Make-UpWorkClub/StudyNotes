@@ -10,9 +10,15 @@ date: 2025-02-06T13:11:53
 `Abbr.` FTC2
 
 If $f$ is continuous on $[a, b]$ and $F$ is any [[antiderivative]] of $f$,
-then $\int_{a}^{b} f(x) \, dx = F(b) - F(a)$.
+then the [[definite integral]] of $f$ between $a$ and $b$ is the difference between the antiderivatives at $a$ and $b$, i.e.
+
+$$
+\int_{a}^{b} f(x) \, dx = F(b) - F(a)
+$$
 
 > [!important] $f(x)$ can be **any** antiderivative of $f$.
+
+> [!info] Subtraction notation: $F(b) - F(a) = \left. F(x) \right|_a^b$
 
 ## Proof
 

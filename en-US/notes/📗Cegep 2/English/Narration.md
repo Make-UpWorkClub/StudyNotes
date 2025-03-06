@@ -18,6 +18,7 @@ date: 2025-02-07T14:32:02
 - First person
 - Second person
 	- The narrator represents everyone.
+	- Evokes empathy
 	- Rare
 
 ## Medium
