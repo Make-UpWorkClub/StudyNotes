@@ -2,11 +2,10 @@
 tags:
   - Cegep2
   - Chemistry
-  - 
 date: 2025-02-19T13:45:25
 ---
 
-# Yield of Reaction
+# Yield of [[Reaction]]
 
 Efficiency of reaction
 Limited by [[limiting reagent]]

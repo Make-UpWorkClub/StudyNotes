@@ -75,7 +75,7 @@ Common variable metal cations:
 > $N_2O_5$ -> dinitrogen pentoxide
 > 
 
-## Acid
+## [[Acid]]
 
 - Binary acid *(solid or unknown state)* or oxyacid *(solid state)* -> use ionic nomenclature
 - Binary acid *(dissolved state)* or oxyacid *(dissolved or unknown state)*:
@@ -86,12 +86,6 @@ Common variable metal cations:
 			- Anion root + `-ic acid`
 	- If the acid *does not* contain oxygen:
 		- `Hydro-` + anion root + `-ic acid`
-
-> [!abstract] Binary acid
-> Acid of the form $H$ + single atom anion
-
-> [!abstract] Oxyacid
-> Acid containing oxygen
 
 > [!example]+
 > $CH_3COOH$ -> acet==ic== acid

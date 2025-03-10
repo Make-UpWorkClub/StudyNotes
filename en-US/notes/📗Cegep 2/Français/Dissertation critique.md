@@ -7,6 +7,13 @@ date: 2025-01-30T13:39:08
 
 # Dissertation critique
 
+[[Dissertation]] pour prendre position sur une hypothèse et la justifier
+
+Formuler :
+
+- *Position sur l'hypothèse*
+- Justification de l'hypothèse
+
 ## Plans
 
 - Idée principale 1

@@ -24,21 +24,6 @@ Percent composition: percentage of mass of an element in a compound
 
 # 2025-02-20
 
-# Acid
-
-## Types
-
-### Organic acid
-
-## Classifications
-
-### By dissociation
-
-Monoprotic acid: gives *1* proton
-Diprotic acid: gives *2* protons
-Triprotic acid: gives *3* protons
-Polyprotic acid: gives *2+* protons
-
 # Titration
 
 Delivery of a measured volume of a solution of known concentration **(titrant)** into a solution being analyzed **(analyte)**

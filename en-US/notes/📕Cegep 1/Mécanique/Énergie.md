@@ -41,6 +41,8 @@ $$
 
 `Sym.` $U$
 
+- Chimique
+
 #### Élastique
 
 Énergie potentielle d'un ressort

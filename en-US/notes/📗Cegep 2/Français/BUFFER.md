@@ -31,3 +31,23 @@ Types :
 
 - Figure de style
 - Choix de mot
+
+# Citation
+
+## Règles
+
+- Guillemets anglais autour d'une citation intérieure
+- Attribuer et donner la page ou la ligne
+- Pour une citation longue (plus de trois lignes) :
+	- Retrait égal des deux côtés
+	- Sans guillemets
+- Éviter le mot « citation »
+
+## Types
+
+### Rapportée direct
+
+
+
+### Fusionnée
+
