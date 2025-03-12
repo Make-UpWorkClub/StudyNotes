@@ -7,7 +7,7 @@ date: 2025-02-11T17:48:38
 
 # Physical Fitness
 
-Ability to perform [[physical activity]] without undue fatigue
+Ability to perform physical activity without undue fatigue
 
 ## Components
 
@@ -17,14 +17,24 @@ Ability to perform [[physical activity]] without undue fatigue
 		- => +heart strength
 		- => +blood health, -blood pressure
 		- => +artery & vein health
-	- Muscle strength
-		- Muscular endurance
+		- => +concentration
+		- => +decision-making
+		- => -stress
+		- => +academic performance
+	- Muscle
+		- Endurance
+		- Strength
 		- Power (ability to use strength quickly)
 		- => +bone density
 	- Flexibility
 		- => -stiffness
 		- => +joint health
 	- Body composition (proportion of fat to total body weight)
+		- => -weight
+	- => +immune system
+	- => -chronic diseases
+		- `E.g.` heart disease, diabetes, osteoporosis
+	- => +self-esteem
 - Skill:
 	- Agility
 	- Balance

@@ -25,6 +25,19 @@ date: 2025-01-21T13:16:30
 
 - Patterns of rhythm and syntax
 
+> [!info] Narrator called **speaker**
+
 # Rap
 
 `Exp.` rhythm and [[poetry]]
+
+# Figurative Style
+
+## Types
+
+### Imagery
+
+- Metaphor
+- Simile
+- Hyperbole
+- Symbolism

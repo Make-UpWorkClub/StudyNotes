@@ -32,6 +32,7 @@ More insightful than textual interpretation
 - Specific
 - Single idea
 - Debatable
+- Has potential significant implications
 - ~~Summary~~
 
 ### Body paragraph
@@ -45,3 +46,11 @@ Can be organized by:
 Acknowledge counterarguments but do not justify them
 No counterargument paragraph
 Last sentence explicitly connects to the theme
+
+### Conclusion
+
+- Reword and expand the thesis
+- Suggest the significance
+	- Consider implications
+	- Evaluative claim allowed
+	- Further questions

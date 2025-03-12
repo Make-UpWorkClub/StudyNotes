@@ -34,14 +34,6 @@
     [
       "%%|r/ *%%/",
       "|"
-    ],
-    [
-      ")|",
-      "|)"
-    ],
-    [
-      "]|",
-      "|]"
     ]
   ],
   "userConvertRulesStrList": [
@@ -88,6 +80,10 @@
     [
       "r/!(example|important|warning|abstract|tip|info|note) /|",
       "> [![[0]]]"
+    ],
+    [
+      "r/(\\d)(st|nd|rd|th|er|re|e) /|",
+      "[[0]]<sup>[[1]]</sup> |"
     ]
   ],
   "userSelRuleSettingsOpen": true,

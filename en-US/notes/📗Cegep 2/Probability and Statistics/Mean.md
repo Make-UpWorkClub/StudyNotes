@@ -34,4 +34,20 @@ $$
 \overline{x} = \frac{\sum_{ i = 1 }^{ c } n_ic_i}{n}
 $$
 
-## 
+For discrete random variable (`a.k.a.` **expected value**):
+
+$$
+\mu = E(X) = \sum xp(x)
+$$
+
+For linear transformation:
+
+$$
+E(Y) = E(aX + b) = aE(X) + b
+$$
+
+For sum / difference of **independent** variables:
+
+$$
+E(T) = E(X \pm Y) = E(X) \pm E(Y)
+$$

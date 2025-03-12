@@ -10,6 +10,6 @@ date: 2025-02-25T13:07:53
 Planned and structured [[physical activity]] with the purpose of improving [[physical fitness]]
 
 - Phases:
-	- [[Warm-up]]
-	- [[Workout]]
-	- [[Cool-down]]
+	- Warm-up
+	- Workout
+	- Cool-down

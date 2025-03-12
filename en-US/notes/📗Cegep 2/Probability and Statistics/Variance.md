@@ -32,3 +32,21 @@ For continuous classes:
 $$
 s^2 = \frac{\sum_{ i = 1 }^{ c } n_i(c_i - \overline{x})^2}{n - 1}
 $$
+
+For discrete random variable:
+
+$$
+\sigma^2 = \sum x^2p(x) - \mu^2
+$$
+
+For linear transformation:
+
+$$
+\sigma^2(Y) = \sigma^2(aX + b) = a^2\sigma^2(X)
+$$
+
+For sum / difference of **independent** variables:
+
+$$
+\sigma^2(T) = \sigma^2(X + Y) = \sigma^2(X) + \sigma^2(Y)
+$$
