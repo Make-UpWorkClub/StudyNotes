@@ -24,6 +24,16 @@ Types :
 2. Annoter l'extrait
 3. Construire un plan
 4. Rédiger la dissertation
+5. Réviser
+	- Cohérence
+		- Respect des consignes
+		- Transition logique
+		- Facilité de compréhension
+	- Lexique
+		- Sens des mots
+		- Vocabulaire précis
+	- Orthographe
+	- Grammaire
 
 ## Conseils
 
@@ -31,6 +41,8 @@ Types :
 	- Trouver les idées principales et secondaires le plus tôt possible
 		- Bien annoter et comprendre l'extrait
 		- Former des champs lexicaux
+- Pour corriger :
+	- Signaler les éléments à vérifier au fil de la rédaction
 - ==*Souligner* / *mettre en italique* le titre d'un oeuvre non poétique si écrit *à la main* / *sur appareil électronique*==
 - ==Mettre entre guillemets les titres d'un oeuvre poétique et d'un chapitre==
 - Madame -> madame ou Mme.

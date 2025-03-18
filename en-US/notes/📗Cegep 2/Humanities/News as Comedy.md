@@ -5,6 +5,8 @@ tags:
 date: 2025-02-28T10:35:20
 ---
 
+%% [[Contemporary Issues in the Media]] %%
+
 # News as Comedy
 
 - Jon Stewart

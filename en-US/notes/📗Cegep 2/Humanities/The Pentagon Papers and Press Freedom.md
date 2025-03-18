@@ -5,6 +5,8 @@ tags:
 date: 2025-02-28T10:35:46
 ---
 
+%% [[Contemporary Issues in the Media]] %%
+
 # The Pentagon Papers and Press Freedom
 
 - Pentagon Papers: 

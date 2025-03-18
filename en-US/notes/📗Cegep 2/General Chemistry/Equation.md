@@ -16,12 +16,12 @@ Notation of [[reaction]]
 Balanced and with [[Molecular Formula|molecular formulae]]
 `Abbr.` C.M.E.
 
-### Complete ion equation
+### Complete ionic equation
 
-C.M.E. with separate ions
+C.M.E. with ions separated
 `Abbr.` C.I.E.
 
-### Net ion equation
+### Net ionic equation
 
 C.I.E. with spectator ions removed
 `Abbr.` N.I.E.

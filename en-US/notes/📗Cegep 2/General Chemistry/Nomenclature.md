@@ -34,7 +34,6 @@ Classified by compound type
 > |                                              |                            |                                | $\ce{PO_4^{3 -}}$<br>Phosphate |
 > |                                              |                            | $\ce{CO_3^{2 -}}$<br>Carbonate |                                |
 > |                                              |                            |                                | $\ce{MnO_4^-}$<br>Permanganate |
-> |                                              |                            |                                |                                |
 
 ### Type I
 

@@ -14,9 +14,9 @@ Opposed to [[qualitative data]]
 
 ### Discrete
 
-Possible values are finite
+Possible values are finitely or infinitely *countable*
 
 ### Continuous
 
-Can take any of the values in an interval
+Possible values are *uncountable*, i.e. can take any value in an interval
 

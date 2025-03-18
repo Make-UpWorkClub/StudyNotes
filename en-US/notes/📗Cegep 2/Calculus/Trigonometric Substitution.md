@@ -7,11 +7,17 @@ date: 2025-02-26T15:02:06
 
 # Trigonometric Substitution
 
-Method of reversing the following cases to find the [[antiderivative]]:
+Method of reversing applications of Pythagorean Theorem to find the [[antiderivative]]:
 
-- $\sqrt{a^2 - x^2} \to a\cos\theta, \theta = \arcsin \frac{x}{a}$
-- $\sqrt{a^2 + x^2} \to a\sec\theta, \theta = \arctan \frac{x}{a}$
-- $\sqrt{x^2 - a^2} \to a\tan\theta, \theta = \mathrm{arcsec} \frac{x}{a}$
+- $\sqrt{a^2 - x^2}$:
+	- $a\cos\theta\text{ where }\theta = \arcsin \frac{x}{a}$
+	- $a\sin \theta\text{ where }\theta = \arccos \frac{x}{a}$
+- $\sqrt{a^2 + x^2}$:
+	- $a\sec\theta\text{ where }\theta = \arctan \frac{x}{a}$
+	- $a\csc\theta\text{ where }\theta = \mathrm{arccot} \frac{x}{a}$
+- $\sqrt{x^2 - a^2}$:
+	- $a\tan\theta\text{ where }\theta = \mathrm{arcsec} \frac{x}{a}$
+	- $a\cot\theta\text{ where }\theta = \mathrm{arccsc} \frac{x}{a}$
 
 ## Proof
 
@@ -68,7 +74,7 @@ $$
 
 > $\int \frac{1}{(x^2 + 9)^{\frac{3}{2}}} \, dx$
 
-Let $x = \sqrt{x^2 + 9} = 3\sec\theta$, then $dx = 3\sec^2\theta d\theta$.
+Let $x = 3\tan\theta$, then $dx = 3\sec^2\theta d\theta$.
 By trig substitution,
 
 $$

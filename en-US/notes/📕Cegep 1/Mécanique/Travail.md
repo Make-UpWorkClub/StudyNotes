@@ -1,13 +1,15 @@
 ---
 tags:
   - Cegep1
+  - Cegep2
   - Mechanics
+  - Chemistry
 date: 2024-10-31T12:48:44
 ---
 
 # Travail
 
-Changement d'[[énergie]] d'un corps
+Changement d' [[énergie]] d'un corps par une force sur un déplacement
 `Sym.` $W$
 
 Produit scalaire de la force et du déplacement
@@ -15,7 +17,7 @@ Aussi aire sous la courbe de la force
 
 $$
 \begin{align}
-W & = \overset{\to}{F}\cdot \mathrm{d}\overset{\to}{r}\\
+W & = \overset{\to}{F}\cdot \mathrm{d}\overset{\to}{r} \\
 W_m & = \overset{\to}{F}\cdot\Delta \overset{\to}{r} \\
 [W] & = J
 \end{align}
@@ -41,3 +43,15 @@ $$
 > [!info] Le travail n'est pas considéré comme le moment de force.
 
 > [!important] La friction peut effectuer un travail positif.
+
+## Travail d'un gaz
+
+$$
+W = -P_\text{ext}\Delta V
+$$
+
+Aux pression et température constantes :
+
+$$
+W = -RT\Delta n_g
+$$

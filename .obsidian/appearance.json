@@ -11,5 +11,6 @@
     "kbd",
     "highlight",
     "no-csd"
-  ]
+  ],
+  "showRibbon": false
 }

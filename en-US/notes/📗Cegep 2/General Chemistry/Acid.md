@@ -7,11 +7,17 @@ date: 2025-03-10T10:05:20
 
 # Acid
 
+Proton donor
+
+> [!important] Can be covalent
+
 ## Types
 
 ### Binary acid
 
-Acid of the form $H$ + single atom anion
+Acid of the form $H$ + single element
+
+Mostly covalent
 
 ### Organic acid
 

@@ -21,3 +21,12 @@ $$
 > $$
 > Y = 10X - 15
 > $$
+
+## Properties
+
+$$
+\begin{align}
+E(Y) & = E(aX + b) = aE(X) + b \\
+Var(Y) & = Var(aX + b) = a^2Var(X)
+\end{align}
+$$

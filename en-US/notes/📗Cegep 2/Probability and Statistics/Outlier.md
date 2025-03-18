@@ -7,7 +7,7 @@ date: 2025-01-30T20:33:34
 
 # Outlier
 
-[[Measurement]] that is unusually different than others
+[[Experimental Data]] that is unusually different than others
 
 Outside of:
 

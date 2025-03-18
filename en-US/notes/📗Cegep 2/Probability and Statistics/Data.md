@@ -7,4 +7,4 @@ date: 2025-02-26T11:28:50
 
 # Data
 
-Collection of facts, observations or [[Measurement|measurements]] in [[statistics]]
+Collection of information through observation, measurement, etc. in [[statistics]]

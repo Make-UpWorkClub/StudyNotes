@@ -41,6 +41,7 @@ Types :
 - Pour une citation longue (plus de trois lignes) :
 	- Retrait égal des deux côtés
 	- Sans guillemets
+	- Simple interligne
 - Éviter le mot « citation »
 
 ## Types

@@ -40,15 +40,6 @@ Delivery of a measured volume of a solution of known concentration **(titrant)**
 Tendency for atom to attract shared electrons
 `Ant.` electropositivity
 
-# Hydrosolubility
-
-Rules:
-
-- Most nitrate salts are soluble.
-- Most salts containing alkali metal or ammonium are soluble.
-- Most chloride, bromide and iodide salts are soluble.
-	- Except $\ce{Ag^+}$, $\ce{Pb^{2 +}}$, $\ce{Hg_2^{2 +}}$
-
 # Half-Reaction Method
 
 Method for balancing [[Oxidation-Reduction Reaction|redox reaction]] in **acidic** aqueous solution
@@ -98,3 +89,43 @@ Mostly ionic
 
 > [!abstract] Halide ion
 > Halogen atom bearing a negative charge
+
+# 1<sup>st</sup> Law of Thermodynamics
+
+Energy can be transformed but not created nor destroyed
+Based on the law of [[conservation of energy]]
+
+# Internal Energy
+
+Sum of all kinetic and potential energies of all particles in a system
+`Sym.` $E$
+
+## Change of internal energy
+
+Two types of energy exchange:
+
+- Heat ($q$)
+- Work ($W$)
+
+$$
+\Delta E = q + w
+$$
+
+# Stochiometric Mixture
+
+Mixture balanced such that all reagents are consumed (no [[limiting reagent]])
+
+# Enthalpy
+
+Total heat of a system
+[[State function]]
+
+$$
+H = E + PV
+$$
+
+At constant pressure:
+
+$$
+\Delta H = \Delta E + P\Delta V = \Delta E + RT\Delta n_g
+$$
