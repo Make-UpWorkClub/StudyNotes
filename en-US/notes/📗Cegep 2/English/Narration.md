@@ -7,7 +7,7 @@ date: 2025-02-07T14:32:02
 
 # Narration
 
-[[Literary Devices|Literary device]]
+[[Literary Device|Literary device]]
 
 ## Types
 

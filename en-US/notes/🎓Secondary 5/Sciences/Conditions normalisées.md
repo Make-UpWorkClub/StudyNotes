@@ -1,7 +1,6 @@
 ---
 tags:
   - Sec5
-  - Cegep2
   - Chemistry
 date: 2023-10-13 10:32
 ---

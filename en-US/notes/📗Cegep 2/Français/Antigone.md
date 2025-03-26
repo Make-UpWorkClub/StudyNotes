@@ -20,6 +20,8 @@ Fiancée d'Hémon
 - Personnalité :
 	- *Courageuse, digne*
 	- Beauté *d'âme*
+	- *Idéaliste*
+	- Préfère le bonheur *absolu*
 	- Religieuse
 	- Renfermée, rêveuse
 	- Pas prise au sérieux
@@ -58,6 +60,8 @@ Roi de Thèbes
 	- Ridé
 - Personnalité :
 	- Symbole de l'ordre
+	- *Réaliste*
+	- Préfère le bonheur *collectif*
 	- Sans ambition
 
 ### Eurydice

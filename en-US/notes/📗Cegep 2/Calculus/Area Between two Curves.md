@@ -1,7 +1,7 @@
 ---
 tags:
   - Cegep2
-  - Humanities
+  - Calculus
 date: 2025-02-28T15:28:59
 ---
 

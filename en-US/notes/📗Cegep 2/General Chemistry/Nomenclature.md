@@ -9,6 +9,12 @@ date: 2025-02-03T13:11:06
 
 Classified by compound type
 
+> [!info]+ Elements
+> - Sr: strontium
+> - Sn: tin
+> - Cd: cadmium
+> - As: arsenic
+
 ## Ionic
 
 - Cation written first, then anion
@@ -26,14 +32,14 @@ Classified by compound type
 > | $C_2O_4^{2-}$      | Oxalate      |
 > | $S_2O_3^{2-}$      | Thiosulfate  |
 > 
-> | $\ce{O}$                                     | $\ce{O_2}$                 | $\ce{O_3}$                     | $\ce{O_4}$                     |
-> | -------------------------------------------- | -------------------------- | ------------------------------ | ------------------------------ |
-> |                                              | $\ce{NO_2^-}$<br>Nitrite   | $\ce{NO_3^-}$<br>Nitrate       |                                |
-> |                                              |                            | $\ce{SO_3^{2 -}}$<br>Sulfite   | $\ce{SO_4^{2 -}}$<br>Sulfate   |
-> | $\ce{ClO^-}$ or $\ce{OCl^-}$<br>Hypochlorite | $\ce{ClO_2^-}$<br>Chlorite | $\ce{ClO_3^-}$<br>Chlorate     | $\ce{ClO_4^-}$<br>Perchlorate  |
-> |                                              |                            |                                | $\ce{PO_4^{3 -}}$<br>Phosphate |
-> |                                              |                            | $\ce{CO_3^{2 -}}$<br>Carbonate |                                |
-> |                                              |                            |                                | $\ce{MnO_4^-}$<br>Permanganate |
+> | $\ce{O}$                                     | $\ce{O_2}$                 | $\ce{O_3}$                      | $\ce{O_4}$                     |
+> | -------------------------------------------- | -------------------------- | ------------------------------- | ------------------------------ |
+> |                                              | $\ce{NO_2^-}$<br>Nitrite   | $\ce{NO_3^-}$<br>Nitrate        |                                |
+> |                                              |                            | $\ce{SO_3^{2 -}}$<br>Sulfite    | $\ce{SO_4^{2 -}}$<br>Sulfate   |
+> | $\ce{ClO^-}$ or $\ce{OCl^-}$<br>Hypochlorite | $\ce{ClO_2^-}$<br>Chlorite | $\ce{ClO_3^-}$<br>Chlorate      | $\ce{ClO_4^-}$<br>Perchlorate  |
+> |                                              |                            | $\ce{PO_3^{3 -}}$ <br>Phosphite | $\ce{PO_4^{3 -}}$<br>Phosphate |
+> |                                              |                            | $\ce{CO_3^{2 -}}$<br>Carbonate  |                                |
+> |                                              |                            |                                 | $\ce{MnO_4^-}$<br>Permanganate |
 
 ### Type I
 

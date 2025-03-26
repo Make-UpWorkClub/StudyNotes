@@ -8,7 +8,7 @@ date: 2025-01-24T15:12:50
 # Plot
 
 Order of events in a story
-Type of [[Literary Devices|literary device]]
+Type of [[Literary Device|literary device]]
 
 - Destabilizes the understanding of readers
 - Complex plot line = more intrigue

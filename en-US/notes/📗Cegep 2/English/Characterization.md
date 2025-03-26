@@ -7,7 +7,7 @@ date: 2025-02-07T14:31:53
 
 # Characterization
 
-[[Literary Devices|Literary device]] giving attributes to a character
+[[Literary device]] giving attributes to a character
 
 > [!abstract] Character
 > Someone who plays a part in the story

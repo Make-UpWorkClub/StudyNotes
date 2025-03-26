@@ -38,7 +38,7 @@ $$
 \begin{align}
 \int e^{-x^4}(-4x^3) \, dx & = \int e^u \, du \\
 \implies & = e^u \\
- & = e^{-x^4}
+ & = e^{-x^4} + c
 \end{align}
 $$
 
@@ -62,7 +62,7 @@ $$
 \begin{align}
 \int e^{\tan2x}\sec^22x \, dx & = \frac{1}{2}\int e^u \, du \\
 \implies & = \frac{1}{2}e^u \\
- & = \frac{1}{2}e^{\tan2x}
+ & = \frac{1}{2}e^{\tan2x} + c
 \end{align}
 $$
 
@@ -83,7 +83,7 @@ $$
 \begin{align}
 \int \frac{2x + 3}{(2x^2 + 6x + 5)^{\frac{3}{2}}} \, dx & = \frac{1}{2}\int \frac{du}{u^{\frac{3}{2}}} \\
 \implies & = \frac{1}{5}u^{\frac{5}{2}} \\
- & = \frac{1}{5}(2x^2 + 6x + 5)^{\frac{5}{2}}
+ & = \frac{1}{5}(2x^2 + 6x + 5)^{\frac{5}{2}} + c
 \end{align}
 $$
 
@@ -104,11 +104,11 @@ $$
 $$
 \begin{align}
 \int \sin^2x\cos^2x \, dx & = \frac{1}{4}\int (1 - \cos(2x))(1 + \cos(2x)) \, dx \\
- & = \frac{1}{4}\int (1 - \cos^2x) \, dx \\
+ & = \frac{1}{4}\int (1 - \cos^2(2x)) \, dx \\
  & = \frac{1}{4}x - \frac{1}{4}\int \cos^2(2x) \, dx \\
  & = \frac{1}{4}x - \frac{1}{4}\left( \frac{1}{2} \right)\int (1 + \cos(4x)) \, dx \\
  & = \frac{1}{4}x - \frac{1}{8}x - \frac{1}{8}\int \cos(4x) \, dx \\
- & =
+ & = \frac{1}{8}x - \frac{1}{32}\sin(4x) + c
 \end{align}
 $$
 

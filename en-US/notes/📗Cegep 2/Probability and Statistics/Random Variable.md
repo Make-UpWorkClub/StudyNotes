@@ -8,8 +8,14 @@ date: 2025-03-11T15:17:10
 # Random Variable
 
 Function of [[Event|sample points]] to numerical values
+`Sym.` $X$
+`Sym.` for possible value: $x$
 
 > [!info] Can be the identity function
+
+> [!abstract] Support
+> Set of all possible values of $X$
+> `Sym.` $S(X)$
 
 ## Properties
 
@@ -17,8 +23,8 @@ For discrete random variable:
 
 $$
 \begin{align}
-\sigma^2 & = Var(X) & = \sum x^2p(x) - E^2(X) = E(X^2) - E^2(X) \\
-\mu & = E(X) & = \sum xp(x)
+\mu & = E(X) & = \sum xp(x) \\
+\sigma^2 & = Var(X) & = E(X^2) - E^2(X) = \sum x^2p(x) - \left( \sum xp(x) \right)^2
 \end{align}
 $$
 
@@ -36,13 +42,6 @@ $$
 ### Discrete
 
 Possible values are finitely or infinitely *countable*
-
-`Sym.` $X$
-Possible value denoted as $x$
-
-> [!abstract] Support
-> Set of all possible values of $X$
-> `Sym.` $S(X)$
 
 > [!example] Sum of two dice rolls
 

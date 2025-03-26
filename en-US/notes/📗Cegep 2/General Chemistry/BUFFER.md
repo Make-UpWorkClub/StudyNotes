@@ -7,13 +7,6 @@ date: 2025-01-20T13:15:11
 
 # Buffer
 
-# 2025-01-27
-
-- Sr: strontium
-- Sn: tin
-- Cd: cadmium
-- As: arsenic
-
 # 2025-02-03
 
 Percent composition: percentage of mass of an element in a compound
@@ -21,19 +14,6 @@ Percent composition: percentage of mass of an element in a compound
 # 2025-02-10
 
 ![[Cat-Ion.png]]
-
-# 2025-02-20
-
-# Titration
-
-Delivery of a measured volume of a solution of known concentration **(titrant)** into a solution being analyzed **(analyte)**
-
-> [!abstract]+ Equivalence point
-> Instant during titration where neutralisation of analyte is complete
-> `A.k.a.` stochiometric point
-
-> [!abstract] End point
-> Instant where titration ends
 
 # Electronegativity
 
@@ -115,17 +95,35 @@ $$
 
 Mixture balanced such that all reagents are consumed (no [[limiting reagent]])
 
-# Enthalpy
+# 2025-03-24
 
-Total heat of a system
-[[State function]]
+- Ch7:
+	- quantum number
+	- electron configuration
+	- periodic trends
+- Ch8:
+	- bonding
+	- lewis structures
+	- resonance structures
+	- polarity
+- Ch9:
+	- geometry
+- Ch10:
+	- intermolecular forces
+	- phase diagram
 
-$$
-H = E + PV
-$$
+# Standard State
 
-At constant pressure:
+- $\ce{Hg,\, Br_2}$ -> liquid
+- Noble gases, $\ce{H_2,\, N_2,\, O_2,\, Cl_2,\, F_2}$ -> gas
+- $\ce{C}$ -> graphite
 
-$$
-\Delta H = \Delta E + P\Delta V = \Delta E + RT\Delta n_g
-$$
+# Wavelength
+
+Distance between two peaks in a wave
+`Sym.` $\lambda$
+
+# Frequency
+
+Number of peaks that pass through a point in one second
+`Sym.` $v$
