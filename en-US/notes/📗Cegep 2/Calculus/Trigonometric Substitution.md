@@ -9,15 +9,15 @@ date: 2025-02-26T15:02:06
 
 Method of reversing applications of Pythagorean Theorem to find the [[antiderivative]]:
 
-- $\sqrt{a^2 - x^2}$:
-	- $a\cos\theta\text{ where }\theta = \arcsin \frac{x}{a}$
-	- $a\sin \theta\text{ where }\theta = \arccos \frac{x}{a}$
-- $\sqrt{a^2 + x^2}$:
-	- $a\sec\theta\text{ where }\theta = \arctan \frac{x}{a}$
-	- $a\csc\theta\text{ where }\theta = \mathrm{arccot} \frac{x}{a}$
-- $\sqrt{x^2 - a^2}$:
-	- $a\tan\theta\text{ where }\theta = \mathrm{arcsec} \frac{x}{a}$
-	- $a\cot\theta\text{ where }\theta = \mathrm{arccsc} \frac{x}{a}$
+- $a^2 - x^2$:
+	- Let $x = a\sin \theta$, then $a^2\cos^2\theta$
+	- Let $x = a\cos \theta$, then $a^2\sin^2\theta$
+- $a^2 + x^2$:
+	- Let $x = a\tan\theta$, then $a^2\sec^2\theta$
+	- Let $x = a\cot\theta$, then $a^2\csc^2\theta$
+- $x^2 - a^2$:
+	- Let $x = a\sec\theta$, then $a^2\tan^2$
+	- Let $x = a\csc\theta$, then $a^2\cot^2$
 
 ## Proof
 
@@ -140,5 +140,19 @@ $$
  & = \frac{1}{5}\int \frac{1}{u^2} \, du \\
  & = -\frac{1}{5}\left( \frac{1}{\sin \theta} \right) + c \\
  & = -\frac{1}{5}\left( \frac{\sqrt{x^2 + 5}}{x} \right) + c
+\end{align}
+$$
+
+> $\int \frac{x}{\sqrt{x^2 - 7}} \, \mathrm{d}x$
+
+Let $x = \sqrt{7}\sec\theta$, then $dx = \sqrt{7}\tan\theta \sec\theta d\theta$.
+By trig substitution,
+
+$$
+\begin{align}
+\int \frac{x}{\sqrt{x^2 - 7}} \, \mathrm{d}x & = \int \frac{\sqrt{7}\sec\theta}{\sqrt{7}\tan\theta}\sqrt{7}\tan\theta \sec\theta \, \mathrm{d}\theta \\
+ & = \sqrt{7}\int \sec^2\theta \, \mathrm{d}\theta \\
+ & = \sqrt{7}\tan\theta + c \\
+ & = \sqrt{x^2 - 7} + c
 \end{align}
 $$

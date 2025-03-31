@@ -11,7 +11,7 @@ Distance of a measurement from the [[mean]] in [[Standard Deviation|standard dev
 Measure of [[relative standing]]
 `Sym.` $Z$
 
-[[Random variable]] that follows [[Normal Distribution#^a4cfff|standard normal distribution]]
+==Follows [[Normal Distribution#^a4cfff|standard normal distribution]]==
 => $E(Z) = 0$
 => $Var(Z) = 1$
 

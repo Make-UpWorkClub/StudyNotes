@@ -19,9 +19,9 @@ Ability to perform physical activity without undue fatigue
 		- => +artery & vein health
 		- => +concentration
 		- => +decision-making
-		- => -stress
+		- => -[[stress]]
 		- => +academic performance
-	- Muscle
+	- [[Muscle]]
 		- Endurance
 		- Strength
 		- Power (ability to use strength quickly)

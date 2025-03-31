@@ -11,7 +11,8 @@ Hifumi's study notes, built with [Nólëbase](https://github.com/nolebase/noleba
 > git clone https://github.com/Make-UpWorkClub/StudyNotes.git
 > ```
 
-> [!note] [How to take notes](notes/Other/Note-Taking)
+> [!note]
+> [How to take notes](notes/Other/Note-Taking)
 
 ## License
 

@@ -10,7 +10,7 @@ date: 2025-01-30T20:05:09
 Spread of the [[data]]
 `A.k.a.` dispersion
 
-Measures of variability:
+Measures of variability (also [[Parameter|parameters]] or statistics):
 
 - Range
 - Variance

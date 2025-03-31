@@ -7,6 +7,8 @@ date: 2025-02-12T17:28:55
 
 # Antigone
 
+[[Tragédie]]
+
 ## Personnages
 
 ### Antigone

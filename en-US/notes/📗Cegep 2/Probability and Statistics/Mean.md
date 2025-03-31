@@ -9,26 +9,27 @@ date: 2025-01-30T20:00:45
 
 Sum of measurements divided by the number of measurements
 Measure of [[central tendency]]
+`Syn.` expected value (of a random variable)
 
-Sample mean:
+*Sample* mean:
 
 $$
 \overline{x} = \frac{\sum_{ i = 1 }^{ n } x_{i}}{n}
 $$
 
-Population mean:
+*Population* mean:
 
 $$
 \mu = \frac{\sum_{ i = 1 }^{ N } x_i}{N}
 $$
 
-For discrete classes:
+For *discrete* classes:
 
 $$
 \overline{x} = \frac{\sum_{ i = 1 }^{ c } n_ix_i}{n}
 $$
 
-For continuous classes:
+For *continuous* classes:
 
 $$
 \overline{x} = \frac{\sum_{ i = 1 }^{ c } n_ic_i}{n}

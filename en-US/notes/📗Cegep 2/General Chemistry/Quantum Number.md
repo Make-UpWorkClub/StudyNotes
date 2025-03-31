@@ -7,19 +7,28 @@ date: 2025-03-26T12:54:53
 
 # Quantum Number
 
-Simple number that determines the behaviour of an electron in the [[quantum mechanical model]]
+Simple number that determines the location and behaviour of an [[electron]] in the [[quantum mechanical model]]
+
+> [!abstract] Pauli exclusion principle
+> Each combination of the four quantum numbers uniquely designates an electron in an atom.
 
 ## Types
 
 ### Principal
 
-Strictly positive integer that determines *size of [[orbital]]* and *[[energy level]]*
-`Sym.` $n$
+Determines *[[Energy Level#Energy level|energy level]] (size of orbital)*
+
+$$
+n \in \mathbb{N}^*
+$$
 
 ### Angular
 
-Integer between 0 and n - 1 that determines *shape of orbital* and *[[Energy Level#Energy sublevel|energy sublevel]]*
-`Sym.` $l$
+Determines *[[Energy Level#Energy sublevel|energy sublevel]] (shape of orbital)*
+
+$$
+l \in \{0\dots n - 1\}
+$$
 
 - 1 -> $s$
 - 2 -> $p$
@@ -28,8 +37,19 @@ Integer between 0 and n - 1 that determines *shape of orbital* and *[[Energy Lev
 
 ### Magnetic
 
-`Sym.` $m_l$
+Determines *orientation of [[orbital]]*
+
+$$
+m_l \in \{-l\dots l\}
+$$
 
 ### Spin
 
-`Sym.` $m_s$
+Determines *orientation of magnetic moment*
+
+$$
+m_s = \pm \frac{1}{2}
+$$
+
+> [!abstract] Pair electron
+> One of two electrons with the same quantum numbers except spin

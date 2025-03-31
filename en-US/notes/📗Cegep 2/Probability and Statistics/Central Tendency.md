@@ -9,7 +9,7 @@ date: 2025-01-30T20:05:12
 
 Tendency of the [[data]] to cluster around a specific numerical value
 
-Measures of central tendency:
+Measures of central tendency (also [[Parameter|parameters]] or statistics):
 
 - Mean
 - Median

@@ -12,6 +12,10 @@ Set of all [[Individual|individuals]] in a study
 > [!abstract] Population size
 > `Sym.` $N$
 
+## Sample
+
+Subset of population to estimate characteristics of the whole population
+
 > [!abstract] Sample size
 > `Sym.` $n$
 

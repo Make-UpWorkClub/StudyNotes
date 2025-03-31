@@ -7,7 +7,7 @@ date: 2025-02-11T22:59:25
 
 # Symbolisme
 
-[[Courant littéraire]] littéraire qui associe un objet à une chose abstraite
+[[Courant littéraire]] qui associe un objet à une chose abstraite
 [[XIXe siècle]] après le [[réalisme]]
 
 ## Éléments

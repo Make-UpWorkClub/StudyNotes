@@ -9,7 +9,7 @@ date: 2025-01-30T20:05:00
 
 Relationship of a measurement to the rest of the [[data]]
 
-Measures of relative standing:
+Measures of relative standing (also [[Parameter|parameters]] or statistics):
 
 - Z-Score
 - Percentiles

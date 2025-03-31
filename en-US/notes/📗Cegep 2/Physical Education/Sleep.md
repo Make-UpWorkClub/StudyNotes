@@ -1,7 +1,7 @@
 ---
 tags:
   - Cegep2
-  - ProbabilityAndStatistics
+  - PhysicalEducation
 date: 2025-03-18T14:47:26
 ---
 

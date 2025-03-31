@@ -61,6 +61,9 @@ Long term:
 	- Intellectual:
 		- Problem solving / decision making
 		- Establish a plan
+	- Emotional:
+		- Be flexible
+		- Don't stress over details
 4. Get help
 
 > [!important] Do not cope with escapism
