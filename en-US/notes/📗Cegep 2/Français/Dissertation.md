@@ -35,6 +35,23 @@ Types :
 	- Orthographe
 	- Grammaire
 
+### Introduction
+
+#### Sujet amené
+
+- Contextes :
+	- Politique
+	- Social
+	- Économique
+	- Culturel
+	- Idéologique
+
+#### Sujet posé
+
+- Retranscrire l'énoncé sans reformuler
+
+#### Sujet divisé
+
 ## Conseils
 
 - Pour gagner du temps :

@@ -1,27 +1,51 @@
 ---
 tags:
   - Sec4
+  - Cegep2
   - Sciences
+  - Chemistry
 ---
 
-## Liaisons chimiques
+# Liaisons chimiques
 
-But: avoir la configuration électronique d’un gaz noble
+But: avoir la configuration électronique d’un gaz noble ou avoir 8 électrons dans la couche de covalence
 
-### Liaison covalente
+## Types
 
-|       Lieu d’apparition        | Force de liaison |
-|:------------------------------:|:----------------:|
-| 2 non-métaux / dans un ion p. |      Forte       |
+### Covalente
+
+*Partage* d'electron
+Force de liaison : *forte*
 
 ![[Liaison covalente.jpeg|150]]
 
-### Liaison ionique
+#### Non-polaire
 
-|                       Lieu d’apparition                       | Force de liaison |
-|:-------------------------------------------------------------:|:----------------:|
-| Métal / ion p.<sup>+</sup> + non-métal / ion p.<sup>-</sup> |      Faible      |
+Entre deux non-métaux avec des [[Electronegativity|électronégativités]] *similaires*
 
-Liaison par le don d’électrons du **cation(+)** à l’**anion(-)**
+$$
+0 \le \Delta EN < 0.4
+$$
+
+> [!example] $\ce{H_2 \to 0, S_8 \to 0, NCl_3 \to 0, PH_3 \to 0}$
+
+#### Polaire
+
+Entre deux éléments (typiquement non-métaux) avec des électronégativités *différentes*
+
+$$
+0.4 \le \Delta EN < 2
+$$
+
+### Ionique
+
+*Don* d'electron du **cation (+)** à l’**anion (-)**
+Force de liaison : *faible*
+
+$$
+2 \le \Delta EN
+$$
 
 ![[Liaison ionique 1.jpeg|150]] ![[Liaison ionique 2.jpeg|173]]
+
+![[Cat-Ion.png|400]]

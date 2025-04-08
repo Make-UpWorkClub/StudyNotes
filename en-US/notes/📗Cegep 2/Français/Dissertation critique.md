@@ -16,6 +16,7 @@ Formuler :
 
 ## Plans
 
+- Introduction
 - Idée principale 1
 	- Idée secondaire 1
 		- Procédé formel

@@ -38,3 +38,83 @@ date: 2025-01-21T15:11:46
 	- Reasons Trump changed his mind:
 		- 14.5 million followers on TikTok
 		- Republican donor holds 15% stake
+- NSA
+	- Edward Snowden exposes NSA surveillance
+	- Spying on:
+		- Americans
+		- Foreign countries
+		- Journalists
+	- Importance of encryption
+		- Protects whistleblowers
+- Social media trends
+	- Herd behaviour: conformism
+	- Youth likes challenges
+	- Examples:
+		- Tide pod challenge
+			- Ingest a tide pod
+		- Blue whale challenge
+			- 50 days extreme challenge
+			- Promotes suicide
+	- Media's role:
+		- Facilitates the spread
+		- Facilitates prevention and intervention
+	- Consequences:
+		- Physical and psychological danger
+		- Dependence on others' perception of self
+- Fyre Festival
+	- Music festival on private island
+	- Promotion:
+		- Instagram and YouTube
+		- Celebrities invited
+		- Deceptive FOMO trailer
+	- Reality:
+		- Problems with security, food, understaffing, medical care
+	- Censorship on social media
+- News deserts
+	- News desert: region with no local news outlets
+	- Role of local news:
+		- Key information: weather, crime, traffic, local electron, etc.
+		- Advertisement of local businesses
+	- Media governance in Canada:
+		- CBC
+		- Bell Media
+		- Governed by CRTC
+	- Causes:
+		- Less attention
+		- Dying business model
+	- Consequences:
+		- Increased nationalization of local elections (national politics affect local politics)
+		- People rely more on online sources prone to echo chamber and misinformation
+		- Difficulty to hold local powers accountable
+	- Solutions:
+		- Nonprofit organizations who run local news
+		- Bill C-18
+- MTV Lebanon attack
+	- July 2024, journalists attacked while filming in Dahieh
+	- Context:
+		- Media in Lebanon is heavily politicized
+		- Every major political party has its own outlet
+		- Angry Hezbollah supporters claim journalists caused strike
+	- Media problems:
+		- Danger journalists
+			- Assaults, arrests, lawsuits, threats, etc.
+		- Polarisation
+		- Propaganda
+		- Decline of independent journalism
+		- Fragility of freedom of speech in divided societies
+- Alex Jones
+	- Founded Infowars
+	- Made conspiracy theories:
+		- Sandy Hook Shooting
+		- 9/11 inside job
+		- Pizzagate
+		- COVID-19 hoax
+		- 2020 election fraud
+	- Was sued by victims
+	- Filed for bankruptcy
+	- Consequences:
+		- Harassment and threats
+		- Psychological trauma
+		- Financial damage
+		- Erosion of trust
+		- Erosion of critical thinking

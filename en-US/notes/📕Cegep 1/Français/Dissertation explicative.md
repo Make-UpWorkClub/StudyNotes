@@ -17,6 +17,7 @@ Formuler :
 
 Deux paragraphes adoptant le même point de vue
 
+- Introduction
 - Idée principale 1
 	- Idée secondaire 1
 		- Idée illustrée
@@ -31,7 +32,3 @@ Deux paragraphes adoptant le même point de vue
 	- Idée secondaire 2
 		- Idée illustrée
 			- Procédé formel
-
-## Conseils
-
-- Retranscrire l'énoncé sans reformuler

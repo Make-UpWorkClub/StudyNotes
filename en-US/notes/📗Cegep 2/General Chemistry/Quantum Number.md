@@ -37,7 +37,7 @@ $$
 
 ### Magnetic
 
-Determines *orientation of [[orbital]]*
+Determines *[[orbital]] (orientation)*
 
 $$
 m_l \in \{-l\dots l\}

@@ -11,15 +11,6 @@ date: 2025-01-20T13:15:11
 
 Percent composition: percentage of mass of an element in a compound
 
-# 2025-02-10
-
-![[Cat-Ion.png]]
-
-# Electronegativity
-
-Tendency for atom to attract shared electrons
-`Ant.` electropositivity
-
 # Half-Reaction Method
 
 Method for balancing [[Oxidation-Reduction Reaction|redox reaction]] in **acidic** aqueous solution
@@ -127,3 +118,15 @@ Distance between two peaks in a wave
 
 Number of peaks that pass through a point in one second
 `Sym.` $v$
+
+# Electrostatic Potential Map
+
+Visual representation of [[electron]] distribution of a molecule
+
+# Lewis Structure
+
+2D diagram of electron bonds in a molecule
+
+Steps:
+
+1. 

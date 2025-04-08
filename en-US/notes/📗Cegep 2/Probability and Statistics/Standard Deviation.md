@@ -8,7 +8,7 @@ date: 2025-01-30T19:52:57
 # Standard Deviation
 
 Positive square root of [[variance]]
-`Syn.` standard error (of a sample statistic)
+`Aka.` standard error (of a sample statistic)
 
 Sample standard deviation:
 

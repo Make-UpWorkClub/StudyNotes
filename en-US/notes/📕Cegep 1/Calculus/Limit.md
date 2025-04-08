@@ -16,10 +16,6 @@ Read as:
 - $L$ is the limit as $x$ approaches $a$ of $f$ of $x$
 - $L$ is the limit of $f$ of $x$ as $x$ approaches $a$
 
-> [!important]+
-> The limit must be a number
-> When the limit is equal to $\infty$, we say the limit **diverges**
-
 ## Sidedness
 
 By default, $x$ can approach from either side

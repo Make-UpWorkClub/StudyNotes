@@ -11,11 +11,6 @@ date: 2025-03-26T12:29:23
 
 ![[Energy Levels in Periodic Table.png|400]]
 
-> [!abstract]+ Aufbau principle
-> Electrons are added to atomic orbitals in increasing order of energy level.
-> 
-> ![[Electron Subshells Ordered by Energy Level.png|300]]
-
 ## Energy level
 
 Strictly positive integer that determines the [[electron shell]]

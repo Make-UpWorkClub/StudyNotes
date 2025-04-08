@@ -24,8 +24,8 @@ Chacun des trois est le bourreau pour les deux autres.
 	- Met la pression sur Estelle pour avouer le crime
 - Inès :
 	- Torture Garcin par son
-	- ==Enlève== Florence de son cousin => il se tue
-	  Torture Florence
+	- ==Enlève== Florence de son cousin
+	  Torture Florence => elle se tue
 	- Pousse Garcin et Estelle à se rompre
 - Estelle :
 	- Tue son enfant avec Roger => il se tue
@@ -56,12 +56,12 @@ Autres :
 - Analogie entre la situation d'Inès et la situation dans le salon enfermé
   & métaphore entre Estelle et Florence
 	- Un homme, deux femmes
+	- Garcin et le cousin d'Inès sont incapables de se tuer.
 	- Inès fait en sorte que Florence voit son cousin à travers ses yeux.
 	  Elle veut qu'Estelle voie Garcin à travers ses yeux.
-	- Estelle aux cheveux blonds
-	  Florence aux cheveux blonds
-	- Roger se tue pour Estelle
-	  Le cousin d'Inès se tue pour Florence
+	- Estelle et Florence ont des cheveux blonds.
+	- Roger se tue pour Estelle.
+	  Le cousin d'Inès se tue pour Florence.
 
 ### Chaleur
 
@@ -88,6 +88,7 @@ Elle est directement proportionnelle à l'émotivité des trois personnages et a
 	- Ils imaginent ce qui passe à l'extérieur.
 	- Le salon verrouillée protège Garcin de l'opinion publique.
 		- => il ne veut pas sortir quand la porte s'ouvre.
+	- Métaphore à l'enfer en comparant la chaleur
 
 ## Personnages
 
@@ -111,7 +112,7 @@ Employée des Postes
 - Caractères :
 	- Déterministe
 	- Conséquentialiste
-	- Méchante
+	- L'incarnation du mal et de la méchanceté
 	- Désespérée
 		- Accepte son destin
 	- Se sent *à l'intérieur* du corps

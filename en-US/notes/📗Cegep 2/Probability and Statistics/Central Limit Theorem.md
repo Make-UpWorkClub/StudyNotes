@@ -12,9 +12,27 @@ Consider a random sample of $n$ observations selected from **any** population wi
 $$
 \begin{align}
 \overline{X} & \sim N\left( \mu, \frac{\sigma^2}{n} \right) \\
-\frac{\overline{X} - E(\overline{X})}{\sigma(\overline{X})} & \sim N(0, 1) \\
 E(\overline{X}) & = \mu \\
 \sigma(\overline{X}) & = \frac{\sigma}{\sqrt{n}}
+\end{align}
+$$
+
+## Consequences
+
+[[Z-Score]] applied to sample mean:
+
+$$
+\begin{align} \\
+\frac{\overline{X} - \mu}{\frac{\sigma}{\sqrt{n}}} & \sim N(0, 1) \\
+\end{align}
+$$
+
+[[T-Statistic]] applied to sample mean:
+
+$$
+\begin{align}
+t_{n - 1} & = \frac{\overline{X} - \mu}{\frac{s}{\sqrt{n}}} \\
+df & = n - 1
 \end{align}
 $$
 

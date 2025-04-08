@@ -9,11 +9,7 @@ date: 2025-01-30T20:22:47
 
 Distance of a measurement from the [[mean]] in [[Standard Deviation|standard deviations]]
 Measure of [[relative standing]]
-`Sym.` $Z$
-
-==Follows [[Normal Distribution#^a4cfff|standard normal distribution]]==
-=> $E(Z) = 0$
-=> $Var(Z) = 1$
+`Sym.` $Z$ (as a random variable)
 
 Sample z-score:
 
@@ -27,9 +23,19 @@ $$
 z = \frac{x - \mu}{\sigma}
 $$
 
+==Follows [[Normal Distribution#^a4cfff|standard normal distribution]]:==
+
+$$
+\begin{align}
+Z & \sim N(0, 1) \\
+E(Z) & = 0 \\
+Var(Z) & = 1
+\end{align}
+$$
+
 ## Examples
 
-> Suppose the scores, X , on a college entrance exam are normally distributed with mean of 550 and standard deviation of 100. A prestigious university will only consider admitting applicants whose scores exceed the 90th percentile of the distribution. Find the minimum score an applicant must achieve in order to receive consideration for admission to the university.
+> Suppose the scores, X, on a college entrance exam are normally distributed with mean of 550 and standard deviation of 100. A prestigious university will only consider admitting applicants whose scores exceed the 90th percentile of the distribution. Find the minimum score an applicant must achieve in order to receive consideration for admission to the university.
 
 $$
 \begin{align}
