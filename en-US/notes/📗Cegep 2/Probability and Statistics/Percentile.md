@@ -12,5 +12,6 @@ The $k^{th}$ percentile is the number such that $k\%$ of measurements fall below
 Measure of [[relative standing]]
 
 The $k^{th}$ percentile is:
-	- $k\%(n + 1)$ is integer -> the value at $k\%(n + 1)$
-	- else -> estimated by interpolation: $P_k = L_c + \left( \frac{k - F_{c - 1}}{f_c} \right)w_c$
+
+- $k\%(n + 1)$ is integer -> the value at $k\%(n + 1)$
+- Else -> estimated by interpolation: $P_k = L_c + \left( \frac{k - F_{c - 1}}{f_c} \right)w_c$

@@ -37,8 +37,12 @@ Types :
 
 ### Introduction
 
+> [!example]+
+> La pièce *Huis Clos* de Jean-Paul Sartre demeure l'un des oeuvres existentialistes les plus influents de l'histoire. On y retrouve trois personnages pleins de défauts : Garcin, lâche et grossier, se fuit de sa responsabilité ; Inès, méchante et manipulatrice, tire son plaisir de la souffrance des autres ; Estelle, rebelle et délirante, dénie sa culpabilité. Ces antihéros représentent le mal de manières différentes, mais peut-on dire qu'ils ont en commun le défaut d'être dépendants du regard des autres ? Nous montrerons qu'Estelle est un bon exemple de 
+
 #### Sujet amené
 
+- Au moins deux phrases
 - Contextes :
 	- Politique
 	- Social

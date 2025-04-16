@@ -17,7 +17,7 @@ Used to simplify [[Derivative|differentiation]] or differentiate otherwise impos
 
 ## Examples
 
-Find $y'$ when $y = x^x$.
+> Find $y'$ when $y = x^x$.
 
 $$
 \begin{align}
@@ -32,9 +32,7 @@ y' & = y(\ln x + 1) \\
 \end{align}
 $$
 
----
-
-Find $y'$ when $y = x^{x^x}$.
+> Find $y'$ when $y = x^{x^x}$.
 
 $$
 \begin{align}
@@ -52,9 +50,7 @@ y' & = y\ln y\left( \ln x + 1 + \frac{1}{x\ln x} \right) \\
 \end{align}
 $$
 
----
-
-Find the derivative of $f(x) = \sqrt[3]{\frac{\sqrt{x}e^{x^2}(x^7 + 2)^{-3}}{\cos^2x}}$.
+> Find the derivative of $f(x) = \sqrt[3]{\frac{\sqrt{x}e^{x^2}(x^7 + 2)^{-3}}{\cos^2x}}$.
 
 $$
 \begin{align}

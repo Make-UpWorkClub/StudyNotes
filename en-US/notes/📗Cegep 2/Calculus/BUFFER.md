@@ -22,3 +22,18 @@ Then,
 
 1. If $\int_{a}^{\infty} f(x) \, \mathrm{d}x$ is convergent, then $\int_{a}^{\infty} g(x) \, \mathrm{d}x$ is also convergent.
 2. If $\int_{a}^{\infty} g(x) \, \mathrm{d}x$ is divergent, then $\int_{a}^{\infty} f(x) \, \mathrm{d}x$ is also divergent.
+
+# Newton's Law of Cooling
+
+The cooling rate of an object is proportional to the difference between the temperature of the object and the ambient temperature
+
+$$
+\begin{align}
+T' & \propto T - T_s \\
+T' & = k(T - T_s)
+\end{align}
+$$
+
+## Examples
+
+> A piece of chicken of 27°C is in a room that is 20°C. Two hours later, the chicken is 25.3°C.

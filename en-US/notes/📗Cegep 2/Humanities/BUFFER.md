@@ -118,3 +118,24 @@ date: 2025-01-21T15:11:46
 		- Financial damage
 		- Erosion of trust
 		- Erosion of critical thinking
+- Michelle Remembers
+	- Michelle Smith
+		- Had three miscarriages
+		- Suffered from satanic ritual
+	- Lawrence Pazder
+		- Manipulative psychiatrist who wrote Michelle Remembers
+		- Fame hungry
+	- Michelle Remembers:
+		- Lots of religious elements
+		- Drawings of Satan
+		- Funded by the church
+	- Media's role:
+		- Sensationalist reporting
+	- They married
+	- Pazder interviewed all the children at the McMartin school
+	- Demolishment of the McMartin school
+- Harvesting spaghetti
+	- BBC April Fools joke
+	- Importance:
+		- Critical thinking
+		- Media integrity

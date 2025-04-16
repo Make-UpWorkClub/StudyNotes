@@ -1,5 +1,5 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "tag:#Cegep2 -file:BUFFER ",
   "showTags": false,
   "showAttachments": false,
@@ -68,5 +68,5 @@
   "linkStrength": 1,
   "linkDistance": 150,
   "scale": 0.42091353189359315,
-  "close": true
+  "close": false
 }

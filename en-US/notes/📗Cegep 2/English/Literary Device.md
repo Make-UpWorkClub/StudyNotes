@@ -5,12 +5,17 @@ tags:
 date: 2025-01-24T15:13:15
 ---
 
-# Literary Devices
+# Literary Device
 
 - Like colours in that they characterize the text
-- Not just recognize but also analyze
+- Not just recognized, but also analyzed
 
 ## Types
+
+### Diction
+
+- Denotation vs connotation
+- Double-meaning
 
 ### Juxtaposition
 
