@@ -22,7 +22,7 @@ f(c) & = \frac{1}{b - a}\int_{a}^{b} f(x) \, \mathrm{d}x
 \end{align}
 $$
 
-## Proof
+## Proof for integrals
 
 We know that $f$ is continuous on $[a, b]$.
 Define $A(x) = \int_{a}^{x} f(t) \, \mathrm{d}t$, then by FTC1 we get:

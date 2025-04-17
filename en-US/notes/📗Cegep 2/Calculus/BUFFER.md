@@ -36,4 +36,3 @@ $$
 
 ## Examples
 
-> A piece of chicken of 27°C is in a room that is 20°C. Two hours later, the chicken is 25.3°C.

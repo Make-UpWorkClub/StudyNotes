@@ -11,7 +11,7 @@ date: 2024-08-22T16:38:00
 
 *Repelled* by water
 *Insoluble* in water
-Tends to be non-polar
+Tends to be [[Polarity|non-polar]]
 
 Characterized by lots of *hydrocarbon* ($H$ &  $C$)
 
@@ -31,5 +31,3 @@ Charged
 ## Amphipathic
 
 Has both hydrophobic and hydrophilic regions
-
-##

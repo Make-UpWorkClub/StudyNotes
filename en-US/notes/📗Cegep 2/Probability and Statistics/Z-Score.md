@@ -35,9 +35,7 @@ $$
 
 ## Examples
 
-> Suppose the scores, X, on a college> [!abstract] Bias
-> Difference between the mean of a point estimator and the parameter it estimates
- entrance exam are normally distributed with mean of 550 and standard deviation of 100. A prestigious university will only consider admitting applicants whose scores exceed the 90th percentile of the distribution. Find the minimum score an applicant must achieve in order to receive consideration for admission to the university.
+> Suppose the scores, X, on a college entrance exam are normally distributed with mean of 550 and standard deviation of 100. A prestigious university will only consider admitting applicants whose scores exceed the 90th percentile of the distribution. Find the minimum score an applicant must achieve in order to receive consideration for admission to the university.
 
 $$
 \begin{align}

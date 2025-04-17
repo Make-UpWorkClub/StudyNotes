@@ -7,7 +7,9 @@ date: 2025-04-03T11:14:03
 
 # Convergence
 
-Property of a [[limit]] that exists
+1. Property of a [[limit]] that exists
+2. Property of a [[sequence]] if $\lim_{ n \to \infty } a_n$ exists
+3. Property of a [[series]] if $\lim_{ N \to \infty }S_N$ exists
 `Ant.` **divergence**
 
 ## Proof
@@ -79,5 +81,54 @@ $$
  & = \left. \lim_{ t \to -\infty } \frac{1}{4}x^4 \right|_{t}^{0} + \left. \lim_{ s \to \infty } \frac{1}{4}x^4 \right|_{0}^{s} \\
  & = \lim_{ t \to \infty } \left( 0 - \frac{1}{4}t^4 \right) + \lim_{ s \to \infty } \left( \frac{1}{4}s^4 - 0 \right) \\
  & = \text{D.N.E.}
+\end{align}
+$$
+
+> Determine if the sequence converges or diverges:
+
+> $\left\{  e^{\frac{2n}{n + 2}}\arctan \frac{n}{2}  \right\}_{n = 1}^{\infty}$
+
+$$
+\lim_{ n \to \infty } e^{\frac{2n}{n + 2}}\arctan \frac{n}{2} = e^2 \frac{\pi}{2}
+$$
+
+> $\left\{  \frac{(n + 1)!}{(n + 4)!}  \right\}_{n = 1}^{\infty}$
+
+$$
+\begin{align}
+\lim_{ n \to \infty } \frac{(n + 1)!}{(n + 4)!} & = \lim_{ n \to \infty } \frac{(n + 1)!}{(n + 4)(n + 3)(n + 2)(n + 1)!} \\
+ & = \lim_{ n \to \infty } \frac{1}{(n + 4)(n + 3)(n + 2)} \\
+ & = 0
+\end{align}
+$$
+
+> $\left\{  \frac{(n + 2)!}{n!}  \right\}_{n = 1}^{\infty}$
+
+$$
+\begin{align}
+\lim_{ n \to \infty } \frac{(n + 2)!}{n!} & = \lim_{ n \to \infty } \frac{(n + 2)(n + 1)n!}{n!} \\
+ & = \lim_{ n \to \infty } (n + 2)(n + 1) \\
+ & = \infty
+\end{align}
+$$
+
+> $\left\{  \ln(1 + n^2) - \frac{1}{2}\ln(n^3 + 4n)  \right\}_{n = 1}^{\infty}$
+
+$$
+\lim_{ n \to \infty } \ln(1 + n^2) - \frac{1}{2}\ln(n^3 + 4n) = -\infty
+$$
+
+> $\left\{  (1 + 2n)^{\frac{1}{n}}  \right\}_{n = 1}^{\infty}$
+
+Let $x =(1 + 2n)^{\frac{1}{n}}$.
+
+$$
+\begin{align}
+\lim_{ n \to \infty } (1 + 2n)^{\frac{1}{n}} & = x \\
+\implies \lim_{ n \to \infty } \ln(1 + 2n)^{\frac{1}{n}} & = \ln x \\
+\lim_{ n \to \infty } \frac{1}{n}\ln(1 + 2n) & = \ln x \\
+\implies \lim_{ n \to \infty } \frac{1}{1 + 2n}\cdot2 & = \ln x \\
+0 & = \ln x \\
+x & = 1
 \end{align}
 $$

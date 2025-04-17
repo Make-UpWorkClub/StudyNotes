@@ -9,3 +9,6 @@ date: 2025-04-07T08:15:47
 
 Tendency for an atom to attract shared [[Electron|electrons]]
 `Ant.` electropositivity
+
+> [!abstract] Pauling scale
+> Dimensionless quantity of electronegativity from 0.79 to 3.98

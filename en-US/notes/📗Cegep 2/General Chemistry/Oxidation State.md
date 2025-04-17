@@ -8,7 +8,7 @@ date: 2025-02-24T14:10:17
 # Oxidation State
 
 Hypothetical charge of an atom if all of its bonds to other atoms are ionic, i.e. if electrons are completely transferred in the direction indicated by electronegativity
-`A.k.a.` oxidation number
+`Syn.` oxidation number
 
 Sum of oxidation numbers in a molecule = 0
 Sum of oxidation numbers in an ion = charge of ion

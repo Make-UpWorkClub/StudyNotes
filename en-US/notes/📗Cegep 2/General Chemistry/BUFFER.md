@@ -188,6 +188,7 @@ Rules:
 Steps:
 
 1. Draw Lewis structure
+2. Recognize the VSEPR model
 
 | Class of molecule | # electron pairs | # bonding pairs | # lone pairs |     Arrangement      |  Molecular geometry   |
 | ----------------- |:----------------:|:---------------:|:------------:|:--------------------:|:---------------------:|
@@ -204,6 +205,20 @@ Steps:
 | $\ce{AB_6}$       |        6         |        6        |      0       |      Octahedral      |      Octahedral       |
 | $\ce{AB_5E}$      |        6         |        5        |      1       |      Octahedral      |   Square pyramidal    |
 | $\ce{AB_4E_2}$    |        6         |        4        |      2       |      Octahedral      |     Square planar     |
+
+## Examples
+
+> Predict the arrangement of electron pairs, the geometry and polarity of $\ce{I_3^-}$.
+
+Number of valence electrons:
+
+$$
+3\cdot7 + 1 = 22
+$$
+
+- Arrangement: trigonal bipyramidal
+- Molecular geometry: linear
+- Non-polar because it has rotational symmetry
 
 # Electron Affinity
 

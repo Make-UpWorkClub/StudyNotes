@@ -13,7 +13,7 @@ Formula to estimate a [[Parameter|population parameter]] **(target parameter)** 
 
 ### Point
 
-*Point* estimate
+Estimates the parameter at a *point*
 
 > [!abstract] Bias
 > Difference between the mean of a point estimator and the parameter it estimates
@@ -24,7 +24,7 @@ Formula to estimate a [[Parameter|population parameter]] **(target parameter)** 
 
 ### Interval
 
-*Interval* estimate
+Estimates the parameter in an *interval*
 
 > [!abstract] Confidence interval
 > Interval estimator with a level of certainly attached to it
