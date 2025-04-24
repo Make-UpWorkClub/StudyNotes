@@ -43,3 +43,4 @@ $$
 ## 2024-10-01
 
 Point-slope form: $y - y_o = m(x - x_o)$
+

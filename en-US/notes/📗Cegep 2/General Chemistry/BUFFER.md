@@ -96,6 +96,7 @@ Mixture balanced such that all reagents are consumed (no [[limiting reagent]])
 	- bonding
 	- lewis structures
 	- resonance structures
+	- VSEPR
 	- polarity
 - Ch9:
 	- geometry
@@ -139,86 +140,49 @@ Steps:
 
 > $\ce{NF_3}$
 
-![[2025-04-09 08.34.00]]
+![[Lewis 1]]
 
 > $\ce{HNO_3}$
 
-![[2025-04-09 08.40.29]]
+![[Lewis 2]]
 
 > $\ce{CO_3^{2 -}}$
 
-![[2025-04-09 08.54.34]]
+![[Lewis 3]]
 
 > $\ce{H_3O^+}$
 
-![[2025-04-09 09.18.34]]
+![[Lewis 4]]
 
 $\ce{ClF_3}$
 
-![[2025-04-09 09.04.47]]
+![[Lewis 5]]
 
 $\ce{C_2H_4}$
 
-![[2025-04-09 09.26.20]]
+![[Lewis 6]]
 
 $\ce{H_2CO}$
 
-![[2025-04-09 09.28.36]]
+![[Lewis 7]]
 
 # Octet Rule
 
-1. An atom other than hydrogen tends to form bonds until it has eight valence electrons.
-2. Carbon usually forms four bonds.
+- An atom other than hydrogen tends to form bonds until it has eight valence electrons.
+- Carbon usually forms four bonds (no lone pairs).
+- Fluorine only involves in single bonds.
+
+Exceptions:
+
+- **Expanded octet**: more than eight valence electrons
+	- Central atoms from 3<sup>rd</sup> period and beyond might have an expanded octet.
+- **Incomplete octet**: less than eight valence electrons
 
 # Resonyance
 
-# Valence Shell Electron-Pair Repulsion Model
+Equal plausibility of multiple [[Lewis structure|Lewis structures]]
 
-Molecular geometry model
-`Abbr.` VSEPR model
-
-Rules:
-
-- Shape of molecule depends on number of electron pairs
-- Electron pairs repel each other to be as far apart as possible
-- Double and triple bonds considered as single bonds
-- Can be applied to any resonance model
-- Lone pairs repel more strongly than bonding pairs
-
-Steps:
-
-1. Draw Lewis structure
-2. Recognize the VSEPR model
-
-| Class of molecule | # electron pairs | # bonding pairs | # lone pairs |     Arrangement      |  Molecular geometry   |
-| ----------------- |:----------------:|:---------------:|:------------:|:--------------------:|:---------------------:|
-| $\ce{AB_2}$       |        2         |        2        |      0       |        Linear        |        Linear         |
-| $\ce{AB_3}$       |        3         |        3        |      0       |   Trigonal planar    |    Trigonal planar    |
-| $\ce{AB_2E}$      |        3         |        2        |      1       |   Trigonal planar    |         Bent          |
-| $\ce{AB_4}$       |        4         |        4        |      0       |     Tetrahedral      |      Tetrahedral      |
-| $\ce{AB_3E}$      |        4         |        3        |      1       |     Tetrahedral      |  Trigonal pyramidal   |
-| $\ce{AB_2E_2}$    |        4         |        2        |      2       |     Tetrahedral      |         Bent          |
-| $\ce{AB_5}$       |        5         |        5        |      0       | Trigonal bipyramidal | Trigonal bipyramidal  |
-| $\ce{AB_4E}$      |        5         |        4        |      1       | Trigonal bipyramidal | Distorted tetrahedron |
-| $\ce{AB_3E_2}$    |        5         |        3        |      2       | Trigonal bipyramidal |       T-shaped        |
-| $\ce{AB_2E_3}$    |        5         |        2        |      3       | Trigonal bipyramidal |        Linear         |
-| $\ce{AB_6}$       |        6         |        6        |      0       |      Octahedral      |      Octahedral       |
-| $\ce{AB_5E}$      |        6         |        5        |      1       |      Octahedral      |   Square pyramidal    |
-| $\ce{AB_4E_2}$    |        6         |        4        |      2       |      Octahedral      |     Square planar     |
-
-## Examples
-
-> Predict the arrangement of electron pairs, the geometry and polarity of $\ce{I_3^-}$.
-
-Number of valence electrons:
-
-$$
-3\cdot7 + 1 = 22
-$$
-
-- Arrangement: trigonal bipyramidal
-- Molecular geometry: linear
-- Non-polar because it has rotational symmetry
+Differ in the position of electrons
 
 # Electron Affinity
 
@@ -231,3 +195,22 @@ $$
 
 Horizontal trend:
 Vertical trend: 
+
+# Hybridization
+
+Mixing atomic orbitals to form new **hybrid orbitals**
+
+## Types
+
+Determined by electron pair arrangement
+
+- Linear -> $\ce{sp}$
+- Trigonal planar -> $\ce{sp^2}$
+- Tetrahedral -> $\ce{sp^3}$
+- Trigonal bipyramidal -> $\ce{sp^3d}$
+- Octahedral -> $\ce{sp^3d^2}$
+
+### $\ce{sp}$ hybridization
+
+### $\ce{sp^2}$ hybridization
+

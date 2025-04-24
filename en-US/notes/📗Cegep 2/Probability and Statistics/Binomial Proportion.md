@@ -16,6 +16,7 @@ p & = \frac{K}{N} \\
 \hat{P} & = \frac{X}{n} \\
 \hat{p} & = \frac{x}{n} \\
 E(\hat{P}) & = p \\
-Var(\hat{P}) & = \frac{p(1 - p)}{n}
+Var(\hat{P}) & = \frac{p(1 - p)}{n} \\
+Z & = \frac{\hat{p} - p}{\sqrt{\frac{p(1 - p)}{n}}}
 \end{align}
 $$

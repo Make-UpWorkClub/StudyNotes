@@ -7,13 +7,6 @@ date: 2025-01-24T21:03:47
 
 # Summation
 
-> [!abstract]+ Partial sum
-> The N-th partial sum of a [[series]] is the sum of its first N terms
-> 
-> $$
-> S_n = \sum_{ n = 1 }^{ N } a_n
-> $$
-
 ## Properties
 
 - $\sum_{ i = 1 }^{ n }k = kn$

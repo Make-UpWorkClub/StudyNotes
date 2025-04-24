@@ -24,6 +24,9 @@ $$
 P\left( T_{n - 1} < t_{n - 1, \frac{a}{2}} \cup T_{n - 1} > t_{n - 1, \frac{a}{2}} \right) = \alpha
 $$
 
+> [!abstract] Rejection region
+> Set of possible values of the test statistic for which $H_0$ is rejected in favour of $H_1$
+
 ## Tails
 
 *One-tailed* test: test whose alternative hypothesis *specifies* the direction ($<$ or $>$)

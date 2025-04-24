@@ -139,3 +139,10 @@ date: 2025-01-21T15:11:46
 	- Importance:
 		- Critical thinking
 		- Media integrity
+- Balenciaga
+	- Creates sexualizing toys
+	- "Garde-Robe" campaign to promote Hourglass Bag
+	- Michael Williams 
+	- John Phillip Fisher convicted for sexual assault
+	- Apologized
+	- Uses shockvertising
