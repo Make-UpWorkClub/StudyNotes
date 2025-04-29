@@ -26,7 +26,8 @@
     "public/",
     "templates/",
     "index.md",
-    "toc.md"
+    "toc.md",
+    "assets/excalidraw/"
   ],
   "newFileLocation": "current",
   "livePreview": false,

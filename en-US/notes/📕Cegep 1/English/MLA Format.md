@@ -9,10 +9,14 @@ date: 2024-09-29T14:10:26
 
 - Double spaced
 	- Use 2x spacing instead of actually inserting newlines
-- 12 pt
-- Bibliography reverse indented
+- 12 pt standard font
+- Content:
+	- Indented
+- Bibliography:
+	- Reverse indented
 
 ```html
+											<last-name> <page>
 <author>
 <instructor>
 <course>
@@ -25,4 +29,20 @@ date: 2024-09-29T14:10:26
 						  Works Cited
 
 <bibliography>
+```
+
+## Short citation
+
+End of sentence:  `(<author> <page-or-line>)`
+
+> [!example]
+> (Melville 70)
+
+## Block citation
+
+
+## Bibliography
+
+```html
+<authors>. <title-of-source>. <title-of-container>, <other-contributors>, <version>, <number>, <publisher>, <publication-date>, <location>.
 ```

@@ -27,7 +27,7 @@ Estimates the parameter at a *point*
 Estimates the parameter in an *interval*
 
 > [!abstract] Confidence interval
-> Interval estimator with a level of certainly attached to it
+> Interval estimator with a level of certainty attached to it
 
 > [!abstract] Confidence coefficient
 > Probability that an interval estimator encloses the target parameter

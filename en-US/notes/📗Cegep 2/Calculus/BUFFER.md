@@ -17,7 +17,3 @@ Then,
 
 1. If $\int_{a}^{\infty} f(x) \, \mathrm{d}x$ is convergent, then $\int_{a}^{\infty} g(x) \, \mathrm{d}x$ is also convergent.
 2. If $\int_{a}^{\infty} g(x) \, \mathrm{d}x$ is divergent, then $\int_{a}^{\infty} f(x) \, \mathrm{d}x$ is also divergent.
-
-# n-Term Test
-
-If $\lim_{ n \to \infty }a_n \ne 0$, then $\sum_{ n = 1 }^{ \infty } a_n$ diverges.

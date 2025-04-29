@@ -37,15 +37,14 @@ More insightful than textual interpretation
 
 ### Body paragraph
 
-Can be organized by:
-
-- Type of literary device, `e.g.` two paragraphes on symbolism and characterization
-- Character
-- Scene
-
-Acknowledge counterarguments but do not justify them
-No counterargument paragraph
-Last sentence explicitly connects to the theme
+- Can be organized by:
+	- Type of literary device, `e.g.` two paragraphes on symbolism and characterization
+	- Character
+	- Scene
+- ==Topic sentence contains device==
+- Acknowledge counterarguments but do not justify them
+- No counterargument paragraph
+- Last sentence explicitly connects to the theme
 
 ### Conclusion
 

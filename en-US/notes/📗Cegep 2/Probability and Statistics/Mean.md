@@ -34,3 +34,11 @@ For *continuous* classes:
 $$
 \overline{x} = \frac{\sum_{ i = 1 }^{ c } n_ic_i}{n}
 $$
+
+$$
+\begin{align}
+E(\overline{X}) & = \mu \\
+Var(\overline{X}) & = \frac{\sigma^2}{n} \\
+Z & = \frac{\overline{x} - \mu}{\frac{\sigma}{\sqrt{n}}}
+\end{align}
+$$

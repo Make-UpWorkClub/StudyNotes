@@ -12,3 +12,13 @@ date: 2025-04-22T08:55:20
 ### Interpretation of information
 
 - Information vs knowledge
+
+## Ch1
+
+## Ch2
+
+## Ch3
+
+## Ch4
+
+## Ch5

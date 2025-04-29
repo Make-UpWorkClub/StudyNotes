@@ -5,7 +5,7 @@ tags:
 date: 2025-04-23T08:58:29
 ---
 
-# Valence Shell Electron-Pair Repulsion Model
+# Valence Shell Electron Pair Repulsion Model
 
 Molecular geometry model
 `Abbr.` VSEPR model

@@ -56,6 +56,19 @@ Types :
 
 #### Sujet divisé
 
+### Conclusion
+
+#### Synthèse
+
+Reformulation brève du raisonnement
+
+#### Ouverture
+
+- Ne doit pas être trop générale
+- Types:
+	- Lien direct avec l'auteur, l'époque, ou le texte
+	- Lien vers une autre oeuvre, un autre thème ou d'autres aspects du thème
+
 ## Conseils
 
 - Pour gagner du temps :

@@ -124,63 +124,9 @@ Number of peaks that pass through a point in one second
 
 Visual representation of [[electron]] distribution of a molecule
 
-# Lewis Structure
-
-2D diagram of electron bonds in a molecule
-
-Steps:
-
-1. Determine the skeleton structure of the compound
-	- In general, ==the least electronegative atom occupies the central position.==
-	- Prefer symmetry if possible
-2. Compute the total number of valence electrons
-3. 
-
-## Examples
-
-> $\ce{NF_3}$
-
-![[Lewis 1]]
-
-> $\ce{HNO_3}$
-
-![[Lewis 2]]
-
-> $\ce{CO_3^{2 -}}$
-
-![[Lewis 3]]
-
-> $\ce{H_3O^+}$
-
-![[Lewis 4]]
-
-$\ce{ClF_3}$
-
-![[Lewis 5]]
-
-$\ce{C_2H_4}$
-
-![[Lewis 6]]
-
-$\ce{H_2CO}$
-
-![[Lewis 7]]
-
-# Octet Rule
-
-- An atom other than hydrogen tends to form bonds until it has eight valence electrons.
-- Carbon usually forms four bonds (no lone pairs).
-- Fluorine only involves in single bonds.
-
-Exceptions:
-
-- **Expanded octet**: more than eight valence electrons
-	- Central atoms from 3<sup>rd</sup> period and beyond might have an expanded octet.
-- **Incomplete octet**: less than eight valence electrons
-
 # Resonyance
 
-Equal plausibility of multiple [[Lewis structure|Lewis structures]]
+Equal plausibility of multiple [[Lewis Structure|Lewis structures]]
 
 Differ in the position of electrons
 
@@ -196,21 +142,6 @@ $$
 Horizontal trend:
 Vertical trend: 
 
-# Hybridization
+# Formal Charge
 
-Mixing atomic orbitals to form new **hybrid orbitals**
-
-## Types
-
-Determined by electron pair arrangement
-
-- Linear -> $\ce{sp}$
-- Trigonal planar -> $\ce{sp^2}$
-- Tetrahedral -> $\ce{sp^3}$
-- Trigonal bipyramidal -> $\ce{sp^3d}$
-- Octahedral -> $\ce{sp^3d^2}$
-
-### $\ce{sp}$ hybridization
-
-### $\ce{sp^2}$ hybridization
-
+Hypothetical charge of an atom if 

@@ -15,3 +15,18 @@ Study where variable is measured for all individuals in the population
 
 ## Examples
 
+# Dependence
+
+## Types
+
+### Functional
+
+$$
+Y = f(X)
+$$
+
+### Linear
+
+$$
+Y = aX + b
+$$

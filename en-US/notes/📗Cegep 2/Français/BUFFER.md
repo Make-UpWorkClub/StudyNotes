@@ -51,3 +51,7 @@ Types :
 
 
 ### Fusionnée
+
+# Hypotypose
+
+Procédé formel qui consiste à décrire de manière si vivante et détaillée à donner l'impression de voir la scène se dérouler sous les yeux

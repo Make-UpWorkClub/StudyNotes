@@ -8,26 +8,27 @@ date: 2025-01-30T19:52:50
 # Variance
 
 Measure of [[variability]]
+Special case of [[covariance]] in which the two variables are identical
 
-Sample variance:
+*Sample* variance:
 
 $$
 s^2 = \frac{\sum_{ i = 1 }^{ n } (x_i - \overline{x})^2}{n - 1}
 $$
 
-Population variance:
+*Population* variance:
 
 $$
 \sigma^2 = \frac{\sum_{ i = 1 }^{ n } (x_i - \mu)^2}{N}
 $$
 
-For discrete classes:
+For *discrete* classes:
 
 $$
 s^2 = \frac{\sum_{ i = 1 }^{ c } n_i(x_i - \overline{x})^2}{n - 1}
 $$
 
-For continuous classes:
+For *continuous* classes:
 
 $$
 s^2 = \frac{\sum_{ i = 1 }^{ c } n_i(c_i - \overline{x})^2}{n - 1}

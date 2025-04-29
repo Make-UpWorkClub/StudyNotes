@@ -146,3 +146,17 @@ date: 2025-01-21T15:11:46
 	- John Phillip Fisher convicted for sexual assault
 	- Apologized
 	- Uses shockvertising
+- Daniel Pearl
+	- Journalist kidnapped and murdered by Al-Qaeda
+	- US' foreign interference causes decline of democracy
+	- Can't fight terrorism with terror
+- Planned Parenthood
+	- Planned Parenthood: US' biggest sexual / reproductive health care provider
+	- CMP: anti-abortion group
+	- CMP exposed P.P for selling body tissues from abortion
+	- Counter evidence omitted
+	- Cherry-picking
+	- Impact:
+		- Lawsuit
+		- Wave of abortion ban
+		- Colorado clinic shooting
