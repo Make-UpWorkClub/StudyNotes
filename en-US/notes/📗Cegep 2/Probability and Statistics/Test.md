@@ -9,28 +9,28 @@ date: 2025-04-17T15:00:36
 
 [[Experiment]] to prove a [[hypothesis]]
 
-One-tailed:
-
-$$
-\begin{align}
-P(T_{n - 1} > t_{n - 1, a}) & = \alpha \\
-P(T_{n - 1} < t_{n - 1, a}) & = \alpha
-\end{align}
-$$
-
-Two-tailed:
-
-$$
-P\left( T_{n - 1} < t_{n - 1, \frac{a}{2}} \cup T_{n - 1} > t_{n - 1, \frac{a}{2}} \right) = \alpha
-$$
-
 > [!abstract] Rejection region
 > Set of possible values of the test statistic for which $H_0$ is rejected in favour of $H_1$
 
 ## Tails
 
 *One-tailed* test: test whose alternative hypothesis *specifies* the direction ($<$ or $>$)
+
+$$
+\begin{align}
+P(T_{n - 1} > t_{n - 1, \alpha}) & = 1 - \alpha \\
+P(T_{n - 1} < -t_{n - 1, \alpha}) & = 1 - \alpha
+\end{align}
+$$
+
 *Two-tailed* test: test whose alternative hypothesis *doesn't specify* the direction ($\ne$)
+
+$$
+\begin{align}
+P\left( -t_{n - 1, \frac{\alpha}{2}} < T_{n - 1} < t_{n - 1, \frac{\alpha}{2}} \right) & = 1 - \alpha \\
+P\left( T_{n - 1} < -t_{n - 1, \frac{\alpha}{2}} \cup T_{n - 1} > t_{n - 1, \frac{\alpha}{2}} \right) & = \alpha
+\end{align}
+$$
 
 ## Examples
 

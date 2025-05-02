@@ -33,3 +33,9 @@ For *continuous* classes:
 $$
 s^2 = \frac{\sum_{ i = 1 }^{ c } n_i(c_i - \overline{x})^2}{n - 1}
 $$
+
+## Properties
+
+$$
+Var(Y) = Var(aX + b) = a^2Var(X)
+$$

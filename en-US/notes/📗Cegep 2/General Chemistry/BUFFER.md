@@ -130,18 +130,10 @@ Equal plausibility of multiple [[Lewis Structure|Lewis structures]]
 
 Differ in the position of electrons
 
-# Electron Affinity
-
-Energy released when an electron is accepted by an atom in the gaseous state to form an anion
-`Abbr.` EA
-
-$$
-\ce{X_{(g)} + e^- \to X^-_{(g)} \, \Delta H = -EA}
-$$
-
-Horizontal trend:
-Vertical trend: 
-
 # Formal Charge
 
 Hypothetical charge of an atom if 
+
+# 2025-05-01
+
+- Melting point and boiling point increase when molar mass increases

@@ -11,7 +11,8 @@ Force ==between== molecules
 
 Types:
 
-- **Van der Walls forces**:
+- **Van der Waals forces**:
 	- Dispersion force
 	- Dipole-dipole force
 	- H-bond
+- Ionic bond

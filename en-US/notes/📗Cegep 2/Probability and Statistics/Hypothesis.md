@@ -17,11 +17,15 @@ Hypothesis assumed to be true *unless* the data provides convincing evidence tha
 Usually represents the *status quo*
 `Sym.` $H_0$
 
+Must *contain* equality *($\ge, \le, =$)*
+
 ### Alternative hypothesis
 
 Hypothesis assumed to be true *only if* the data provides convincing evidence that it is *true*
 Usually represents the *challenging view* the researcher tries to support
 `Sym.` $H_1$ or $H_a$
+
+Must *not contain* equality *($>, <, \ne$)*
 
 ## Examples
 

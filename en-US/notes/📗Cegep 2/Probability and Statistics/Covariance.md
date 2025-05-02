@@ -7,7 +7,7 @@ date: 2025-04-24T15:11:04
 
 # Covariance
 
- Measure of joint [[variability]] for two variables
+ Measure of joint [[variability]] of two variables
 
 *Sample* covariance:
 

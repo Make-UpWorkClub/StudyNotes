@@ -42,7 +42,7 @@ Electron arrangement: *trigonal bipyramidal*
 
 ### $\ce{sp^3d^2}$ hybridization
 
-Formation of *6* hybrid orbitals between 1$s$, *4*$p$ and *2*$d$ orbitals
+Formation of *6* hybrid orbitals between 1 $s$, *3*$p$ and *2*$d$ orbitals
 Electron arrangement: *octahedral*
 
 ## Bonds

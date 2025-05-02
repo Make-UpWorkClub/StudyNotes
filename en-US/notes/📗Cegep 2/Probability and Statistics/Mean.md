@@ -42,3 +42,9 @@ Var(\overline{X}) & = \frac{\sigma^2}{n} \\
 Z & = \frac{\overline{x} - \mu}{\frac{\sigma}{\sqrt{n}}}
 \end{align}
 $$
+
+## Properties
+
+$$
+E(Y) = E(aX + b) = aE(X) + b
+$$

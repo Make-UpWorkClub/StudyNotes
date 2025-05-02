@@ -8,8 +8,7 @@ date: 2025-03-11T15:17:10
 # Random Variable
 
 Function of [[Event|sample points]] to numerical values
-`Sym.` $X$
-`Sym.` for possible value: $x$
+`Sym.` ==$X$, $x$ for concrete value==
 
 > [!info] Can be the identity function
 

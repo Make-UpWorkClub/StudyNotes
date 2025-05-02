@@ -14,3 +14,4 @@ Measures of variability (also [[Parameter|parameters]] or statistics):
 
 - Range
 - Variance
+- Covariance

@@ -25,7 +25,8 @@ date: 2025-04-14T08:21:54
 - Colère des femmes de la famille Marwan
 - Guerre pour la vengeance
 	- Il ne faut pas nourrir le cycle de colère avec la douleur qui nous aveugle.
-	- Le loup rouge représente la colère.
+- Le rouge (le loup rouge et le feu) représente la colère.
+	- Il pleut dans le pays de Jeanne et de Simon => pas de feu c. il ne pleut jamais dans le pays d'origine => feu
 - Nawal (pacifisme) c. Sawda (violence)
 
 ### Éducation
@@ -48,6 +49,7 @@ date: 2025-04-14T08:21:54
 	- Elle apprend à parler, mais choisit de se taire.
 - Mutisme de Jeanne pour écouter le silence
 - Mutisme de Simon quand il apprend que son père et son frère
+- Mutisme de Nihad face à ses enfants
 
 ## Personnages
 
@@ -95,3 +97,4 @@ Frère et père de Jeanne et de Simon, fils de Nawal
 - Hypocrite
 	- Tue immédiatement pour ne pas faire souffrir, mais prend le temps de photographier le photographe blessé
 	- Tue tout le monde équitablement, mais ne tue pas les femmes fortes
+- Nihiliste

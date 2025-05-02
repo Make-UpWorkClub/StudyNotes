@@ -33,6 +33,9 @@ Var(Z) & = 1
 \end{align}
 $$
 
+> [!abstract] $z_a$
+> $z$ such that an area of $a$ lies to its right, i.e. $P(Z > z_a) = a$
+
 ## Examples
 
 > Suppose the scores, X, on a college entrance exam are normally distributed with mean of 550 and standard deviation of 100. A prestigious university will only consider admitting applicants whose scores exceed the 90th percentile of the distribution. Find the minimum score an applicant must achieve in order to receive consideration for admission to the university.

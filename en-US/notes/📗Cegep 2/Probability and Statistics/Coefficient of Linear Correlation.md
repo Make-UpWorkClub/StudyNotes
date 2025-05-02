@@ -8,6 +8,7 @@ date: 2025-04-24T15:07:45
 # Coefficient of Linear Correlation
 
 Measure of intensity of linear relationship between two variables
+Ratio of [[covariance]] to the product of [[Standard Deviation|standard deviations]]
 `Syn.` Pearson's correlation coefficient
 
 *Sample* coefficient of linear correlation:

@@ -160,3 +160,62 @@ date: 2025-01-21T15:11:46
 		- Lawsuit
 		- Wave of abortion ban
 		- Colorado clinic shooting
+
+## 2025-04-29
+
+- The National Enquirer
+	- Sensationalist news controlled by Italian mafia 
+	- 1971: moved to Florida from New York
+	- 9/11: became more patriotic
+	- Misdeeds:
+		- Focuses on:
+			- Gore
+			- Entertainment scandals
+			- Celebrity deaths
+			- Disinformation
+		- Pays money to information sources
+		- Blackmails celebrities to not ruin their reputation
+		- Exploits jealousy of success
+		- Demolishes privacy of celebrities
+		- Deceives the public by hiding their political agenda
+		- Became political propaganda
+	- Goods:
+		- Promotes diversity by focusing on different celebrities
+		- Got some stories right
+	- Job:
+		- Controlled chaos in the office
+		- Highly competitive but highly paid
+	- Trump:
+		- Focuses on Trump
+		- Used by trump as microphone to a different group
+	- Consequences:
+		- Changed national election history
+		- O.J. Simpson fined
+
+## 2025-05-02
+
+- ???
+	- Benefits:
+		- Representation of marginalized groups
+- The Hays Code
+	- Very conservative film censorship code created by film studios
+	- Ruled Hollywood for decades
+	- History:
+		- Pre-code:
+			- Immorality in films, especially sex and violence
+			- Great Depression: more sex and violence to bring back the audience
+			- Concerned Catholics create the Catholic legion of decency
+			- Will Hays appointed lead
+				- Wants to avoid federal censorship
+				- Relatively permissive
+		- 1930-1934: pre-Breen era
+			- 1930: creation, no enforcement
+		- 1934-1954: Breen era
+			- 1934: Joseph Breen appointed executive officer
+				- Ruthless
+			- 1934: enforcement
+			- Puritanical morality with some exceptions
+			- => filmmakers more creative and subtle
+		- Post-code:
+			- 1960: Psycho breaks the code
+			- Rise of independent films

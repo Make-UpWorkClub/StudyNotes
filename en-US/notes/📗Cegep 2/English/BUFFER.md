@@ -41,9 +41,3 @@ date: 2025-01-21T13:16:30
 - Simile
 - Hyperbole
 - Symbolism
-
-# 2025-04-01
-
-- Grandad
-	- Individualism vs relationship
-	- Unhelpful parents

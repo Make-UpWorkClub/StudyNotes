@@ -7,6 +7,8 @@ date: 2025-04-25T16:03:07
 
 # Limit Comparison Test
 
+Test to determine whether a [[series]] diverges
+
 Let $\sum_{ n = 1 }^{ \infty } a_n$ and $\sum_{ n = 1 }^{ \infty }b_n$ be two series with only positive terms.
 Then if $\lim_{ n \to \infty } \frac{a_n}{b_n}$ exists, $\sum a \sim \sum b$.
 

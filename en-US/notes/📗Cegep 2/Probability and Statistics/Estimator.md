@@ -30,9 +30,14 @@ Estimates the parameter in an *interval*
 > Interval estimator with a level of certainty attached to it
 
 > [!abstract] Confidence coefficient
-> Probability that an interval estimator encloses the target parameter
-> `Sym.` $(1 - a)$
+> Probability that a confidence interval encloses the target parameter
+> `Sym.` $(1 - \alpha)$
 
 > [!abstract] Confidence level
 > Confidence coefficient as a percentage
-> `Sym.` $(1 - a)\cdot100\%$
+> `Sym.` $(1 - \alpha)\cdot100\%$
+
+> [!abstract] Margin of error
+> Half the width of a confidence interval
+> `Syn.` sampling error
+> `Sym.` $\Delta$

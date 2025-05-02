@@ -1,6 +1,7 @@
 ---
 tags:
   - Cegep1
+  - Cegep2
   - Calculus
 date: 2024-11-26T10:32:00
 ---
@@ -9,19 +10,23 @@ date: 2024-11-26T10:32:00
 
 # Taylor Series
 
-Series of polynomials used to approximate functions
+[[Series]] of polynomials used to approximate functions
+
 The Taylor polynomial of degree $n$ at $x = a$ is
 
 $$
 P_n(x) = \sum_{ i = 0 }^{ n } \frac{f^{(i)}(a)}{i!}(x - a)^i
 $$
 
+The Taylor series at $x = a$ is
+
+$$
+f(x) = \sum_{ n = 0 }^{ \infty } \frac{f^{(n)}(a)}{n!}(x - a)^n
+$$
+
 Extension of linear approximation
 
 > [!info] $a$ is called the **center of approximation**.
-
-> [!abstract] Maclaurin Polynomial
-> Taylor Polynomial where $a = 0$
 
 ## Examples
 
