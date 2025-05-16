@@ -10,7 +10,10 @@ date: 2025-04-30T15:49:04
 [[Series]] with the form
 
 $$
-S_N = \sum_{ n = 0 }^{ N - 1 } C_n(x - a)^n
+\begin{align}
+S & = \sum_{ n = 0 }^{ \infty } C_n(x - a)^n \\
+S_N & = \sum_{ n = 0 }^{ N - 1 } C_n(x - a)^n
+\end{align}
 $$
 
 > [!important]+ Only three possibilities of convergence
@@ -26,8 +29,8 @@ If $f(x) = \sum_{ n = 0 }^{ \infty } C_n(x - a)^n$ with radius $R > 0$, then $f$
 
 Also,
 
-1. $f'(x) = \frac{\mathrm{d}}{\mathrm{d}x}\left[ \sum_{ n = 0 }^{ \infty }C_n(x - a)^n \right] = \sum_{ n = 0 }^{ \infty } \frac{\mathrm{d}}{\mathrm{d}x}[C_0(x - a)^n]$
-2. $\int f(x) \, \mathrm{d} x = \int \sum_{ n = 0 }^{ \infty } \, C_n(x - a)^n = \sum_{ n = 0 }^{ \infty } \int C_n(x - a) \, \mathrm{d} x$
+1. $f'(x) = \frac{\mathrm{d}}{\mathrm{d}x}\left[ \sum_{ n = 0 }^{ \infty }C_n(x - a)^n \right] = \sum_{ n = 0 }^{ \infty } \frac{\mathrm{d}}{\mathrm{d}x}[C_n(x - a)^n]$
+2. $\int f(x) \, \mathrm{d} x = \int \sum_{ n = 0 }^{ \infty } \, C_n(x - a)^n dx = \sum_{ n = 0 }^{ \infty } \int C_n(x - a) \, \mathrm{d} x$
 
 With the same radius of convergence.
 

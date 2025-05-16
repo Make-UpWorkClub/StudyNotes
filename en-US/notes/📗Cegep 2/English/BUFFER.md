@@ -7,18 +7,6 @@ date: 2025-01-21T13:16:30
 
 # Buffer
 
-- Short stories, Gothic tales poetry, drama
-- Almost no homework
-- In-class essays
-- Write 150 words paragraph analysis or interpretation every class
-	- Practice speed
-	- 3 are marked
-- Laptop in last row
-- Content:
-	- Argumentation
-	- Devices
-	- Genres
-
 # Poetry
 
 [[Literary Genre]] characterized by:
@@ -41,3 +29,23 @@ date: 2025-01-21T13:16:30
 - Simile
 - Hyperbole
 - Symbolism
+
+# 2025-05-08
+
+- P1: Lack of negative emotions
+	- Child fear
+		- Symbolism of child
+		- Eaten by a lion due to lack of fear => fear is an essential emotional response
+	- Child pain
+		- 
+- P2: Lack of positive emotions
+	- Wife
+	- Depression
+		- Depressed person passively accepts everything
+		- Depression causes lack of emotions
+- P3: Lack of all emotions
+	- Savant
+		- Information overload
+		- Connect with chaotic structure
+		- Connect with Schizophrenic
+			- Desperate for information

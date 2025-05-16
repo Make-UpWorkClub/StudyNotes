@@ -1,4 +1,4 @@
-> ---
+---
 tags:
   - Cegep2
   - Calculus
@@ -15,7 +15,7 @@ $$
 \int_a^b\, f(x) dx  = \lim_{ n \to \infty } \sum_{ i = 1 }^{ n } f(x_i)\Delta x
 $$
 
-Derived from [[Riemann Sum]]
+Derived from [[Riemann sum]]
 
 ## Properties
 
@@ -92,5 +92,26 @@ $$
 2\int_{0}^{2} f(x) \, dx & = 4 \\
 \int_{-2}^{2} f(x) \, dx & = 4 \\
 \int_{-2}^{1} f(x) \, dx & = -1
+\end{align}
+$$
+
+---
+
+> Show that $\frac{1}{17} \le \int_{1}^{2} \frac{1}{1 + x^4} \, \mathrm{d} x \le \frac{1}{2}$.
+
+$$
+\begin{align}
+\frac{1}{1 + 2^4} & \le \frac{1}{1 + x^4} & \le \frac{1}{1 + 1^4} & \text{ on }[1, 2] \\
+\implies \frac{1}{17}(2 - 1) & \le \int_{1}^{2} \frac{1}{1 + x^4} \, \mathrm{d} x & \le \frac{1}{2}(2 - 1)
+\end{align}
+$$
+
+---
+
+> Find a definite integral that represents $\lim_{ n \to \infty }\sum_{ i = 1 }^{ n } \frac{2}{n}e^{\left( \frac{4i^2}{n^2} + \frac{4i}{n} + 1 \right)}$.
+
+$$
+\begin{align}
+\int_{0}^{2} e^{(x + 1)^2} \, \mathrm{d} x
 \end{align}
 $$

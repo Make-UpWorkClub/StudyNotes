@@ -16,8 +16,8 @@ Method of reversing applications of Pythagorean Theorem to find the [[antideriva
 	- Let $x = a\tan\theta$, then $a^2\sec^2\theta$
 	- Let $x = a\cot\theta$, then $a^2\csc^2\theta$
 - $x^2 - a^2$:
-	- Let $x = a\sec\theta$, then $a^2\tan^2$
-	- Let $x = a\csc\theta$, then $a^2\cot^2$
+	- Let $x = a\sec\theta$, then $a^2\tan^2\theta$
+	- Let $x = a\csc\theta$, then $a^2\cot^2\theta$
 
 ## Proof
 
@@ -83,8 +83,8 @@ $$
  & = \int \frac{3\sec^2\theta}{(3\sec\theta)^3} \, d\theta \\
  & = \frac{1}{9}\int \frac{1}{\sec\theta} \, d\theta \\
  & = \frac{1}{9}\int \cos\theta \, d\theta \\
- & = \frac{1}{9}\sin \theta + c \\
- & = \frac{1}{9}\left( \frac{x}{\sqrt{x^2 + 9}} \right) + c
+ & = \frac{1}{9}\sin \theta + C \\
+ & = \frac{1}{9}\left( \frac{x}{\sqrt{x^2 + 9}} \right) + C
 \end{align}
 $$
 
@@ -99,9 +99,9 @@ $$
  & = \frac{1}{\sqrt{2}}\int \frac{\tan^2\theta}{\sec^2\theta} \, d\theta \\
  & = \frac{1}{\sqrt{2}}\int \sin^2\theta \, d\theta \\
  & = \frac{1}{\sqrt{2}}\cdot \frac{1}{2}\int (1 - \cos2\theta) \, d\theta \\
- & = \frac{1}{2\sqrt{2}}\left( \theta - \frac{\sin 2\theta}{2} \right) + c \\
- & = \frac{1}{2\sqrt{2}}\sqrt{\mathrm{arcsec} \frac{x}{\sqrt{2}} - \sin \theta \cos\theta} + c \\
- & = \frac{1}{2\sqrt{2}}\left( \mathrm{arcsec} \frac{x}{\sqrt{2}} - \left( \frac{\sqrt{x^2 - 2}}{x} \right)\left( \frac{\sqrt{2}}{x} \right) \right) + c
+ & = \frac{1}{2\sqrt{2}}\left( \theta - \frac{\sin 2\theta}{2} \right) + C \\
+ & = \frac{1}{2\sqrt{2}}\sqrt{\mathrm{arcsec} \frac{x}{\sqrt{2}} - \sin \theta \cos\theta} + C \\
+ & = \frac{1}{2\sqrt{2}}\left( \mathrm{arcsec} \frac{x}{\sqrt{2}} - \left( \frac{\sqrt{x^2 - 2}}{x} \right)\left( \frac{\sqrt{2}}{x} \right) \right) + C
 \end{align}
 $$
 
@@ -114,8 +114,8 @@ $$
 \begin{align}
 \int \sqrt{16 - x^2} \, dx & = \int 4\cos\theta \cdot4\cos\theta \, d\theta \\
  & = 8\int (1 + \cos2\theta) \, d\theta \\
- & = 8\left( \theta + \frac{\sin 2\theta}{2} \right) + c \\
- & = 8\left( \arcsin \frac{x}{4} + \left( \frac{x}{4} \right)\left( \frac{\sqrt{16 - x^2}}{4} \right) \right) + c
+ & = 8\left( \theta + \frac{\sin 2\theta}{2} \right) + C \\
+ & = 8\left( \arcsin \frac{x}{4} + \left( \frac{x}{4} \right)\left( \frac{\sqrt{16 - x^2}}{4} \right) \right) + C
 \end{align}
 $$
 
@@ -138,8 +138,8 @@ By substitution,
 $$
 \begin{align}
  & = \frac{1}{5}\int \frac{1}{u^2} \, du \\
- & = -\frac{1}{5}\left( \frac{1}{\sin \theta} \right) + c \\
- & = -\frac{1}{5}\left( \frac{\sqrt{x^2 + 5}}{x} \right) + c
+ & = -\frac{1}{5}\left( \frac{1}{\sin \theta} \right) + C \\
+ & = -\frac{1}{5}\left( \frac{\sqrt{x^2 + 5}}{x} \right) + C
 \end{align}
 $$
 
@@ -152,7 +152,20 @@ $$
 \begin{align}
 \int \frac{x}{\sqrt{x^2 - 7}} \, \mathrm{d}x & = \int \frac{\sqrt{7}\sec\theta}{\sqrt{7}\tan\theta}\sqrt{7}\tan\theta \sec\theta \, \mathrm{d}\theta \\
  & = \sqrt{7}\int \sec^2\theta \, \mathrm{d}\theta \\
- & = \sqrt{7}\tan\theta + c \\
- & = \sqrt{x^2 - 7} + c
+ & = \sqrt{7}\tan\theta + C \\
+ & = \sqrt{x^2 - 7} + C
+\end{align}
+$$
+
+> $\int \frac{\ln(\arcsin t)}{\sqrt{1 - t^2}} \, \mathrm{d} t$
+
+Let $t = \sin\theta \implies dt = \cos\theta \, d\theta$.
+
+$$
+\begin{align}
+\int \frac{\ln(\arcsin t)}{\sqrt{1 - t^2}} \, \mathrm{d} t & = \int \frac{\ln(\arcsin(\sin\theta))}{\cos\theta}\cos\theta \, \mathrm{d} \theta \\
+ & = \int \ln\theta \, \mathrm{d} \theta \\
+ & = \theta ln\theta - \theta + C \\
+ & = \arcsin t\cdot\ln(\arcsin t) - \arcsin t + C
 \end{align}
 $$

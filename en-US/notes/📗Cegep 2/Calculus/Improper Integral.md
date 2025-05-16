@@ -31,6 +31,33 @@ $$
 
 ## Examples
 
+> Evaluate the following infinite integrals:
+
+> $\int_{\ln2}^{\infty} \frac{e^x}{(e^{2x} + 4)^{\frac{3}{2}}} \, \mathrm{d} x$
+
+$$
+\int_{\ln2}^{\infty} \frac{e^x}{(e^{2x} + 4)^{\frac{3}{2}}} \, \mathrm{d} x = \lim_{ t \to \infty } \int_{\ln2}^{t} \frac{e^x}{(e^{2x} + 4)^{\frac{3}{2}}} \, \mathrm{d} x
+$$
+
+Let $u = e^x$, then $du = e^x \, dx$.
+
+$$
+= \lim_{ t \to \infty } \int_{2}^{e^t} \frac{1}{(u^2 + 4)^{\frac{3}{2}}} \, \mathrm{d} u
+$$
+
+Let $u = 2\tan \theta$.
+
+$$
+\begin{align}
+ & = \lim_{ t \to \infty } \int_{\frac{\pi}{4}}^{\arctan \frac{e^t}{2}} \frac{2\sec^2\theta}{(2\sec\theta)^3} \, \mathrm{d} \theta \\
+ & = \lim_{ t \to \infty } \frac{1}{4} \int_{\frac{\pi}{4}}^{\arctan \frac{e^t}{2}} \cos \theta \, \mathrm{d} \theta \\
+ & = \lim_{ t \to \infty } \left. \frac{1}{4}\sin\theta \right|_{\frac{\pi}{4}}^{\arctan \frac{e^t}{2}} \\
+ & = \lim_{ t \to \infty } \frac{1}{4}\left[ \sin\left( \arctan \frac{e^t}{2} \right) - \sin \frac{\pi}{4} \right] \\
+ & = \frac{1}{4}\left[ \sin \frac{\pi}{2} - \sin \frac{\pi}{4} \right] \\
+ & = \frac{1}{4}\left( 1 - \frac{\sqrt{2}}{2} \right)
+\end{align}
+$$
+
 > Evaluate the following discontinuous integrals:
 
 > $\int_{-1}^{1} \frac{1}{x^2} \, \mathrm{d}x$

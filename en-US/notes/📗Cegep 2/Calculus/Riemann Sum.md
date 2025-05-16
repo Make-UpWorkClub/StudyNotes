@@ -46,3 +46,18 @@ A & = \lim_{ n \to \infty } \sum_{ i = 1 }^{ n } f(x_i)\Delta x \\
  & = -9
 \end{align}
 $$
+
+---
+
+> Use a limit of Riemann sums to compute $\int_{-3}^{1} (5 - x^2) \, \mathrm{d} x$.
+
+$$
+\begin{align}
+\int_{-3}^{1} (5 - x^2) \, \mathrm{d} x & = \lim_{ n \to \infty } \sum_{ i = 1 }^{ n } \left( 5 - \left( -3 + \frac{1 + 3}{n}i \right)^2 \right)\left( \frac{1 + 3}{n} \right) \\
+ & = \lim_{ n \to \infty } \sum_{ i = 1 }^{ n } \frac{-16 + \frac{96}{n}i - \frac{64}{n^2}i^2}{n} \\
+ & = \lim_{ n \to \infty } \left( -16 + \frac{96}{n^2}\sum i - \frac{64}{n^3}\sum i^2 \right) \\
+ & = \lim_{ n \to \infty } \left( -16 + \frac{96}{n^2} \frac{n(n + 1)}{2} - \frac{64}{n^3} \frac{n(n + 1)(2n + 1)}{6} \right) \\
+ & = -16 + \frac{96}{2} - \frac{64\cdot2}{6} \\
+ & = \frac{32}{3}
+\end{align}
+$$

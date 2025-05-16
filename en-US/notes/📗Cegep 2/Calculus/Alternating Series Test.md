@@ -7,9 +7,9 @@ date: 2025-04-30T14:57:45
 
 # Alternating Series Test
 
-Test to determine whether a [[series]] diverges
+Test to determine whether a [[series]] that alternates between positive and negative diverges
 
-Let $\sum_{ n = 1 }^{ \infty } a_n = \sum_{ n = 1 }^{ \infty }(-1)^nb_n\text{ or }\sum_{ n = 1 }^{ \infty }(-1)^{n + 1}b_n$.
+Let $\sum_{ n = 1 }^{ \infty } b_n = \sum_{ n = 1 }^{ \infty }(-1)^na_n\text{ or }\sum_{ n = 1 }^{ \infty }(-1)^{n + 1}a_n$.
 Then if
 
 1. $\lim_{ n \to \infty } b_n = 0$

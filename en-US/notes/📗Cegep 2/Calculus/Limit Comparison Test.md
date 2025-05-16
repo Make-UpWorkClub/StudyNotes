@@ -7,10 +7,10 @@ date: 2025-04-25T16:03:07
 
 # Limit Comparison Test
 
-Test to determine whether a [[series]] diverges
+Test to determine whether a [[series]] diverges by considering a simplified general term with same convergence / divergence
 
 Let $\sum_{ n = 1 }^{ \infty } a_n$ and $\sum_{ n = 1 }^{ \infty }b_n$ be two series with only positive terms.
-Then if $\lim_{ n \to \infty } \frac{a_n}{b_n}$ exists, $\sum a \sim \sum b$.
+If $\lim_{ n \to \infty } \frac{a_n}{b_n}$ exists and is non zero, then $\sum a \sim \sum b$.
 
 ## Examples
 
@@ -39,7 +39,7 @@ $$
 \lim_{ n \to \infty } \frac{a_n}{b_n} & = \lim_{ n \to \infty } \frac{\cos \frac{1}{\sqrt{n}}}{1} \\
  & = \cos \lim_{ n \to \infty } \frac{1}{\sqrt{n}} \\
  & = \cos 0 \\
- & = 1
+ & = 1 \ne 0
 \end{align}
 $$
 
@@ -51,7 +51,7 @@ $$
 \begin{align}
 \sum_{ n = 1 }^{ \infty } \frac{3n + 4^n}{5^n + 5} & \implies a_n = \frac{3n + 4^n}{5^n + 5} \\
 \sum_{ n = 1 }^{ \infty } \frac{4^n}{5^n} & \implies b_n = \frac{4^n}{5^n} \\
-|r| & = \frac{5}{4} > 1 \therefore \text{convergent geometric series} \\
+|r| & = \frac{4}{5} < 1 \therefore \text{convergent geometric series} \\
  \\
 \lim_{ n \to \infty } \left( \frac{3n + 4^n}{5^n + 5} \right)\left( \frac{5^n}{4^n} \right) & = \lim_{ n \to \infty } \frac{\frac{3n}{4^n} + 1}{1 + \frac{5}{5^n}} \\
  & = 1 \ne 0

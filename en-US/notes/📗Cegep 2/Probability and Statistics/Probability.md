@@ -14,11 +14,11 @@ date: 2025-02-18T18:50:08
 
 ### Unconditional
 
-Event has no given precondition
+Event has *no* given precondition
 
 ### Conditional
 
-Event is given some precondition
+Event is given *some* precondition
 Sample space is reduced to that of the precondition
 
 $$

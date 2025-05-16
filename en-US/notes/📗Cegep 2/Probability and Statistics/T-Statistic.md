@@ -11,12 +11,11 @@ Distance of a random variable from its mean in standard errors
 Similar to [[z-score]], but used when ==the sample size is small== or ==the population standard deviation is unknown==
 
 $$
-t = \frac{x - \mu}{s}
+\begin{align}
+t & = \frac{x - \mu}{s} \\
+df & = n - 1
+\end{align}
 $$
-
-> [!abstract] Degrees of freedom
-> Number of values in an estimate of a parameter that are free to vary
-> `Sym.` $df$
 
 > [!info] The higher the degrees of freedom, the closer the t-distribution to the z-distribution.
 

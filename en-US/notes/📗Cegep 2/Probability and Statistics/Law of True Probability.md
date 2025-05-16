@@ -5,7 +5,7 @@ tags:
 date: 2025-02-26T11:01:27
 ---
 
-# Law of True [[Probability]]
+# Law of Total [[Probability]]
 
 Suppose event $A$ and partitions $B_1, B_2,\dots B_k$, then
 

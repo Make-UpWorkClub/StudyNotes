@@ -41,7 +41,7 @@ $$
 
 $$
 \begin{align}
-A & = \pi\int_{-r}^{r} f^2(x) \, \mathrm{d}x \\
+V & = \pi\int_{-r}^{r} f^2(x) \, \mathrm{d}x \\
  & = 2\pi \int_{0}^{r} f^2(x) \, \mathrm{d}x \\
  & = 2\pi\int_{0}^{r} |r^2 - x^2| \, \mathrm{d}x \\
  & = 2\pi\left| r^3 - \frac{x^3}{3} \right|_0^r \\
@@ -60,7 +60,7 @@ x axis:
 
 $$
 \begin{align}
-A & = \pi \int_{0}^{3} (9x^2 - x^4) \, \mathrm{d}x \\
+V & = \pi \int_{0}^{3} (9x^2 - x^4) \, \mathrm{d}x \\
  & = \pi\left[ 3x^3 - \frac{x^5}{5} \right]_0^3 \\
  & = \pi\left( 3\cdot3^3 - \frac{3^5}{5} \right) \\
  & = 32.4\pi
@@ -71,7 +71,7 @@ y axis:
 
 $$
 \begin{align}
-A & = \pi \int_0^9 \left( y - \frac{y^2}{9} \right) \, \mathrm{d}y \\
+V & = \pi \int_0^9 \left( y - \frac{y^2}{9} \right) \, \mathrm{d}y \\
  & = \pi \left[ \frac{y^2}{2} - \frac{y^3}{27} \right]_0^9 \\
  & = \pi\left( \frac{9^2}{2} - \frac{9^3}{27} \right) \\
  & = 13.5\pi
@@ -80,7 +80,7 @@ $$
 
 $$
 \begin{align}
-A & = \pi \int_{0}^{4} ((\sqrt{y} + 1 - 6)^2 - (1 - 6)^2) \, \mathrm{d}y \\
+V & = \pi \int_{0}^{4} ((\sqrt{y} + 1 - 6)^2 - (1 - 6)^2) \, \mathrm{d}y \\
  & = \pi \int_{0}^{4} (y - 10\sqrt{y}) \, \mathrm{d}y \\
  & = \pi\left[ \frac{y^2}{2} - \frac{20y^{\frac{3}{2}}}{3} \right]_0^4 \\
  & = \pi\left( \frac{4^2}{2} - \frac{20\cdot4^{\frac{3}{2}}}{3} \right) \\
@@ -92,7 +92,7 @@ $$
 
 $$
 \begin{align}
-A & = \pi \int_{0}^{1} f^2(y) \, \mathrm{d}y \\
+V & = \pi \int_{0}^{1} f^2(y) \, \mathrm{d}y \\
  & = \pi \int_{0}^{1} (0 - y^2 + 4)^2 \, \mathrm{d}y \\
  & = \pi\left[ \frac{y^5}{5} - \frac{8y^3}{3} + 16y \right]_0^1 \\
  & = \pi\left( \frac{1^5}{5} - \frac{8\cdot1^3}{3} + 16\cdot1 \right) \\
@@ -104,7 +104,7 @@ $$
 
 $$
 \begin{align}
-A & = \pi \int_{0}^{2} (f^2(x) - g^2(x)) \, \mathrm{d}x \\
+V & = \pi \int_{0}^{2} (f^2(x) - g^2(x)) \, \mathrm{d}x \\
  & = \pi \int_{0}^{2} (1 - (e^{-x})^{2}) \, \mathrm{d}x \\
  & = \pi \left[ x + \frac{e^{-2x}}{2} \right]_0^2 \\
  & = \pi\left( 2 + \frac{e^{-2\cdot2}}{2} - 0 - \frac{e^{-2\cdot0}}{2} \right) \\
@@ -112,11 +112,22 @@ A & = \pi \int_{0}^{2} (f^2(x) - g^2(x)) \, \mathrm{d}x \\
 \end{align}
 $$
 
+> $x^2 + y^2 - 2x = 0$ about the y axis.
+
+$$
+\begin{align}
+V & = 2\pi \int_{a}^{b} r(x)h(x) \, \mathrm{d} x \\
+ & = 2\pi \int_{0}^{2} x(2\sqrt{2x - x^2}) \, \mathrm{d} x \\
+ & = 4\pi \int_{0}^{2} x\sqrt{2x - x^2} \, \mathrm{d} x \\
+ & = 4\pi \int_{0}^{2} x\sqrt{-(x^2 - 2x + 1) + 1} \, \mathrm{d} x
+\end{align}
+$$
+
 > Find the volume of a right circular cone with height $h$ and base radius $r$.
 
 $$
 \begin{align}
-A & = 2\pi \int_{0}^{r} r(x)h(x) \, \mathrm{d}x \\
+V & = 2\pi \int_{0}^{r} r(x)h(x) \, \mathrm{d}x \\
  & = 2\pi \int_{0}^{r} xh\left( 1 - \frac{x}{r} \right) \, \mathrm{d}x \\
  & = 2\pi h \int_{0}^{r} \left( x - \frac{x^2}{r} \right) \, \mathrm{d}x \\
  & = 2\pi h \left[ \frac{x^2}{2} - \frac{x^3}{3r} \right]_0^r \\

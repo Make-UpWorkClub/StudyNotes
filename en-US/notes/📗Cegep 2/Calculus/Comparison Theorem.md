@@ -2,15 +2,12 @@
 tags:
   - Cegep2
   - Calculus
-date: 2025-01-22T19:06:56
+date: 2025-05-08T16:20:30
 ---
 
-# Buffer
-
-- No cellphones
-- Weekly assignment on Crowdmark
-
 # Comparison Theorem
+
+Theorem that determines [[convergence]] of a function by comparing it to another function of known convergence
 
 Suppose that $f$ and $g$ are functions such that $f(x) \ge g(x) \ge 0$ for $x\in [a, \infty)$.
 Then,

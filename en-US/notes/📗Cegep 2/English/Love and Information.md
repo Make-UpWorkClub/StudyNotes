@@ -17,7 +17,7 @@ date: 2025-04-22T08:55:20
 ### Depression
 
 - Schizophrenic, manic
-- Result of broken structure
+- <= broken structure <= broken society
 
 ## Devices
 
@@ -33,6 +33,8 @@ date: 2025-04-22T08:55:20
 	- => information overload
 - Ellipsis
 	- Luxury of information
+	- Condensed important information => overwhelming
+	- Leaves room to interpretation
 
 ## Ch1
 
@@ -45,6 +47,7 @@ Topic: *secret or lack of information*
 5. Lab: doing everything to fill holes in scientific knowledge
 6. Sleep: social media addiction = addiction to have information on others' life
 7. Remote: satisfaction with ignorance; is all information necessary?
+	- Shows the negative emotional impact of information overload
 
 ## Ch2
 
@@ -69,19 +72,18 @@ Topic: *trust in information*
 2. Spies: confirmation bias I: more trust towards information we want to be true
 	- Allusion to 9/11
 3. Dream: confirmation bias II: interpretation of information in a way that validates one's beliefs
-4. Recluse:
-5. God's voice:
-6. Manic: different interpretation of cultural symbols; ???
-7. Grief: ???
-8. Fate: free will
-9. Stone: special meaning of an ordinary object to someone
-10. Virtual: meaning of virtual information; valuing existence vs. valuing the feelings it makes one experience
-11. The child who didn't know fear:
-12. Star:
+4. Recluse: breach of personal privacy; pressure to tell lies
+5. God's voice: complete trust in a superior being
+6. The child who didn't know fear: danger of the lack of fear; necessity of fear
+	- Complete lack of interpretation
+7. Star: ???
 
 ## Ch4
 
 Topic: *memory (persistence or fading of information)*
+
+1. Wedding video: 
+2. Savant
 
 ## Ch5
 

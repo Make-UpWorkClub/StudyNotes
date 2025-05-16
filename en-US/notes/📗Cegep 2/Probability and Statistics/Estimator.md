@@ -9,6 +9,10 @@ date: 2025-03-28T11:26:53
 
 Formula to estimate a [[Parameter|population parameter]] **(target parameter)** from [[Population#Sample|sample data]]
 
+> [!abstract] Degrees of freedom
+> Number of values in an estimate of a parameter that are free to vary
+> `Sym.` $df$
+
 ## Types
 
 ### Point

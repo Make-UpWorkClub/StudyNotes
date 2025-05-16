@@ -9,7 +9,7 @@ date: 2025-03-29T21:40:22
 
 [[Drame|Pièce]] [[Existentialisme|existentialiste]]
 
-## Topiques
+## Thèmes
 
 ### Infliction de souffrance
 
@@ -40,13 +40,13 @@ Autres :
 
 ### Mutisme
 
-- Tous les trois ne mentent pas de façon ordinaire, mais seulement par omission.
 - Les trois ne veulent pas révéler leurs crimes.
 - Garcin veut se fuir par le silence.
 - Abondance d'ellipses
 
 ### Miroir
 
+- Réflète soi-même
 - Inès est le miroir pour les autres.
 	- Réaliste et désillusionnée, elle fait remarquer aux autres ce qu'ils évitent.
 - Estelle se soucie de son image <= elle a besoin du miroir.
@@ -75,11 +75,13 @@ Elle est directement proportionnelle à l'émotivité des trois personnages et a
 - À la fin, l'ouverture de la porte intensifie la chaleur.
 	- => le conflit monte à un niveau extrême.
 
-### Existentialisme
+### Canapé
 
-- Antihéros
-- Philosophie
-- Angoisse
+- Extension de soi
+- Couleur :
+	- Vert épinard pour Estelle => malaise, espoir de revenir en vie => mauvaise foi
+	- Bordeaux pour Inès => désir, violence, lucidité crue
+- Disposition en triangle => sans échappatoire au regard des autres
 
 ## Lieu : le salon enfermé
 
@@ -88,7 +90,7 @@ Elle est directement proportionnelle à l'émotivité des trois personnages et a
 	- Ils imaginent ce qui passe à l'extérieur.
 	- Le salon verrouillée protège Garcin de l'opinion publique.
 		- => il ne veut pas sortir quand la porte s'ouvre.
-	- Métaphore à l'enfer en comparant la chaleur
+	- Chaleur de l'enfer
 
 ## Personnages
 

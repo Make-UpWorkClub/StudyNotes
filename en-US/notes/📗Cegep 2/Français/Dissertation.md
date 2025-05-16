@@ -17,6 +17,7 @@ Types :
 
 1. Comprendre le sujet
 	- Consigne
+		- Définition des mots
 	- Éléments à considérer
 	- Problématique
 	- Extrait
@@ -68,6 +69,7 @@ Reformulation brève du raisonnement
 - Types:
 	- Lien direct avec l'auteur, l'époque, ou le texte
 	- Lien vers une autre oeuvre, un autre thème ou d'autres aspects du thème
+	- Lien avec l'actualité
 
 ## Conseils
 

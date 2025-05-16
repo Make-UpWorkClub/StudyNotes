@@ -23,4 +23,8 @@ date: 2025-04-16T15:31:54
 Tools:
 
 - Known series types
+	- p-series
+	- Geometric series
+- Tests
+	- n-term test
 	- 

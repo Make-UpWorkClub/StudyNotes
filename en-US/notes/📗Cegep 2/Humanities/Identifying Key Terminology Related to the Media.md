@@ -26,6 +26,3 @@ date: 2025-02-28T10:32:50
 		- Public media through government subsidy
 		- Link economy: value added to articles by using the Web's ability to link content
 		- Crowd sourcing
-- Presentation:
-	- Specific topic
-	- Kicker

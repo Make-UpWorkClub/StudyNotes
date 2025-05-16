@@ -17,6 +17,8 @@ E(\overline{X}) & = \mu \\
 \end{align}
 $$
 
+> [!important] Explicitly assume $n$ is normal when $n < 30$
+
 ## Consequences
 
 [[Z-Score]] applied to sample mean:
