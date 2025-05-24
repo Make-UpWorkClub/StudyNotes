@@ -10,9 +10,9 @@ tags:
 
 ## Électrolyte fort
 
-Substance dont le molécule *se dissocie complètement en ions mobiles* dans l'eau
+Substance qui *se dissocie complètement en ions mobiles* dans l'eau
 *Conduit bien* l’électricité
-*Nécessairement* soluble et ionique
+*Ionique soluble* ou *polaire soluble*
 
 Types :
 
@@ -25,9 +25,9 @@ Types :
 
 ## Électrolyte faible
 
-Substance dont le molécule *se dissocie partiellement en ions mobiles* dans l'eau
+Substance qui *se dissocie partiellement en ions mobiles* dans l'eau
 *Conduit mal* l'électricité
-*Nécessairement* soluble et ionique
+*Ionique* ou *polaire*
 
 Types :
 
@@ -38,6 +38,6 @@ Types :
 
 ## Non-électrolyte
 
-Substance dont le molécule *ne se dissocie pas* dans l'eau
+Substance qui *ne se dissocie pas* dans l'eau
 *Ne conduit pas* l’électricité
-*Peut être* soluble ou ionique
+*Covalent* ou *ionique insoluble*

@@ -9,7 +9,7 @@ date: 2024-10-31T12:48:44
 
 # Travail
 
-Changement d' [[énergie]] d'un corps par une force sur un déplacement
+Changement d'[[énergie]] d'un corps par une force sur un déplacement
 `Sym.` $W$
 
 Produit scalaire de la force et du déplacement
@@ -29,6 +29,10 @@ $$
 \sum E_f = \sum E_i + \sum W_a
 $$
 
+> [!info] Le travail n'est pas considéré comme le moment de force.
+
+> [!important] La friction peut effectuer un travail positif.
+
 > [!note]- Analyse dimensionnelle
 > $$
 > \begin{align}
@@ -39,10 +43,6 @@ $$
 >  & = J
 > \end{align}
 > $$
-
-> [!info] Le travail n'est pas considéré comme le moment de force.
-
-> [!important] La friction peut effectuer un travail positif.
 
 ## Travail d'un gaz
 
@@ -55,3 +55,5 @@ Aux pression et température constantes :
 $$
 W = -RT\Delta n_g
 $$
+
+> [!important] Il n'y a pas de travail quand la pression varie.

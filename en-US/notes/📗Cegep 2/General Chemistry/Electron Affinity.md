@@ -14,5 +14,5 @@ $$
 \ce{X_{(g)} + e^- \to X^-_{(g)} \, \Delta H = -EA}
 $$
 
-*Horizontal* [[Periodic Trend|trend]]: **
-*Vertical* trend: 
+*Horizontal* [[Periodic Trend|trend]]: *increasing*
+*Vertical* trend: *decreasing*

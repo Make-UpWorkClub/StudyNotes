@@ -7,7 +7,7 @@ date: 2025-03-24T09:55:02
 
 # Hess's Law
 
-Change in [[enthalpy]] is the same whether a [[reaction]] happens in one step or in multiple steps
+Change in [[enthalpy]] is the same whether a [[reaction]] happens in one step or in multiple steps.
 
 $$
 \Delta H_T = \sum a_i\Delta H_i

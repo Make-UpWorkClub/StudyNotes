@@ -7,15 +7,20 @@ date: 2025-02-19T13:45:47
 
 # Reaction
 
+Reorganization of atoms in one or more molecules
+
 Types:
 
 - Precipitation
 - Acid-base reaction
 - Redox reaction
 
+> [!abstract] Stochiometric Mixture
+> Mixture balanced such that all reagents are consumed (no limiting reagent)
+
 ## Examples
 
-> What volume of a 0.100-M $\ce{HCl}$ solution is needed to neutralize 25.0 mL of 0.350 M $\ce{NaOH}$?
+> What volume of a 0.100M $\ce{HCl}$ solution is needed to neutralize 25.0 mL of 0.350M $\ce{NaOH}$?
 
 $$
 \begin{align}
