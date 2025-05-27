@@ -8,7 +8,7 @@ date: 2025-03-17T14:24:16
 # Geometric Distribution
 
 [[Probability Distribution#Discrete|Discrete probability distribution]] of the number of [[Bernoulli Trial|Bernoulli trials]] needed for one success
-Follows a geometric series
+Follows a [[geometric series]]
 
 ![[Geometric Distribution.png]]
 

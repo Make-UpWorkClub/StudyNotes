@@ -16,23 +16,6 @@ Function of [[Event|sample points]] to numerical values
 > Set of all possible values of $X$
 > `Sym.` $S(X)$
 
-## Properties
-
-$$
-\begin{align}
-\sigma^2 & = Var(X) & = E(X^2) - E^2(X) = \sum x^2p(x) - \left( \sum xp(x) \right)^2
-\end{align}
-$$
-
-For sum / difference of **independent** variables:
-
-$$
-\begin{align}
-E(T) & = E(X \pm Y) & = E(X) \pm E(Y) \\
-Var(T) & = Var(X \pm Y) & = Var(X) \pm Var(Y)
-\end{align}
-$$
-
 ## Types
 
 ### Discrete

@@ -37,5 +37,17 @@ $$
 ## Properties
 
 $$
+Var(X) = E(X^2) - E^2(X) = \sum x^2p(x) - \left( \sum xp(x) \right)^2
+$$
+
+For linear transformation:
+
+$$
 Var(Y) = Var(aX + b) = a^2Var(X)
+$$
+
+For independent variables:
+
+$$
+Var(T) = Var(X \pm Y) = Var(X) \pm Var(Y)
 $$

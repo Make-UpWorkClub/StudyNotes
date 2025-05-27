@@ -13,6 +13,5 @@ Measure of [[relative standing]]
 
 The $k^{th}$ percentile is:
 
-- Discrete -> value at $k\%(n + 1)$ (interpolate if non integer)
-- Discrete grouped -> first value whose $F > k$ (interpolate if $F = k$)
+- Discrete -> first value whose $F > k$ (interpolate with next value if $F = k$)
 - Continuous grouped -> $P_k = L_c + \left( \frac{k - F_{c - 1}}{f_c} \right)w_c$

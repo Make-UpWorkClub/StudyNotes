@@ -35,6 +35,8 @@ $$
 \overline{x} = \frac{\sum_{ i = 1 }^{ c } n_ic_i}{n}
 $$
 
+## Properties
+
 $$
 \begin{align}
 E(\overline{X}) & = \mu \\
@@ -43,8 +45,14 @@ Z & = \frac{\overline{x} - \mu}{\frac{\sigma}{\sqrt{n}}}
 \end{align}
 $$
 
-## Properties
+For linear transformation:
 
 $$
 E(Y) = E(aX + b) = aE(X) + b
+$$
+
+For independent variables:
+
+$$
+E(T) = E(X \pm Y) = E(X) \pm E(Y)
 $$

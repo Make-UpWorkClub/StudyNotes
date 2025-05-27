@@ -19,24 +19,6 @@ Mostly ionic
 > [!abstract] Halide ion
 > Halogen atom bearing a negative charge
 
-# 2025-03-24
-
-- Ch7:
-	- quantum number
-	- electron configuration
-	- periodic trends
-- Ch8:
-	- bonding
-	- lewis structures
-	- resonance structures
-	- VSEPR
-	- polarity
-- Ch9:
-	- geometry
-- Ch10:
-	- intermolecular forces
-	- phase diagram
-
 # Wavelength
 
 Distance between two peaks in a wave
@@ -100,7 +82,7 @@ Point in the phase diagram at which *all three* phases coexist in dynamic equili
 
 # Critical Point
 
-Point in the phase diagram above which 
+Point in the phase diagram above which the substance becomes a [[supercritical fluid]]
 
 > [!abstract] Critical temperature
 > `Sym.` $T_c$

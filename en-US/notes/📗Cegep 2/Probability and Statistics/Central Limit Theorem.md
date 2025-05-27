@@ -7,7 +7,7 @@ date: 2025-03-27T15:02:39
 
 # Central Limit Theorem
 
-Consider a random sample of $n$ observations selected from **any** population with mean $\mu$ and standard deviation $\sigma$. Then, when $n$ is sufficiently large, the sampling distribution of [[Mean|sample mean]] will be approximately [[Normal Distribution|normal]]:
+Consider a random sample of $n$ observations selected from **any** population with mean $\mu$ and standard deviation $\sigma$. Then, when $n$ is sufficiently large (typically >= 30), the sampling distribution of [[Mean|sample mean]] will be approximately [[Normal Distribution|normal]]:
 
 $$
 \begin{align}
@@ -17,7 +17,7 @@ E(\overline{X}) & = \mu \\
 \end{align}
 $$
 
-> [!important] Explicitly assume $n$ is normal when $n < 30$
+> [!important] Explicitly assume the population is normal when $n < 30$
 
 ## Consequences
 
@@ -25,7 +25,7 @@ $$
 
 $$
 \begin{align} \\
-\frac{\overline{X} - \mu}{\frac{\sigma}{\sqrt{n}}} & \sim N(0, 1) \\
+Z & \sim \frac{\overline{X} - \mu}{\frac{\sigma}{\sqrt{n}}} \\
 \end{align}
 $$
 
@@ -33,7 +33,7 @@ $$
 
 $$
 \begin{align}
-t_{n - 1} & = \frac{\overline{X} - \mu}{\frac{s}{\sqrt{n}}} \\
+T_{n - 1} & \sim \frac{\overline{X} - \mu}{\frac{s}{\sqrt{n}}} \\
 df & = n - 1
 \end{align}
 $$
