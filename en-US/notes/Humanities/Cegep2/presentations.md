@@ -1,0 +1,164 @@
+---
+tags:
+  - Humanities
+  - Cegep/2
+date: 2025-05-06T10:40:20
+---
+
+%% [[Contemporary Issues in the Media]] %%
+
+# Presentations
+
+- Memecoin
+	- Dogecoin, Trump coin, etc.
+	- Rugpull: hype up then sell
+	- Exploits ignorance and influence and "get rich quick" mentality
+- Charles Stuart
+	- Orchestrated the murder of his wife for insurance
+	- Claimed the attacker is a Black man
+	- Media's role:
+		- Rushed the story
+		- Reinforced racial stereotypes
+		- Prioritized sensationalism
+	- Consequences:
+		- Police raids targeting Black people
+		- Street searches of Black people
+		- Detainment of innocent people
+		- Fueled anger, with some demanding death penalty
+- TikTok
+	- Reasons for ban:
+		- National security
+		- Misinformation / disinformation
+		- Censorship
+			- Limits topics about China and Hong Kong
+		- Addictiveness
+	- History:
+		- 2020: India bans TikTok
+		- 2020: Trumps demands selling of TikTok
+		- 2022: ByteDance accessed nonpublic data (birthdays, phone numbers, etc.)
+		- 2025: Trump delays the ban
+	- Reasons Trump changed his mind:
+		- 14.5 million followers on TikTok
+		- Republican donor holds 15% stake
+- NSA
+	- Edward Snowden exposes NSA surveillance
+	- Spying on:
+		- Americans
+		- Foreign countries
+		- Journalists
+	- Importance of encryption
+		- Protects whistleblowers
+- Social media trends
+	- Herd behaviour: conformism
+	- Youth likes challenges
+	- Examples:
+		- Tide pod challenge
+			- Ingest a tide pod
+		- Blue whale challenge
+			- 50 days extreme challenge
+			- Promotes suicide
+	- Media's role:
+		- Facilitates the spread
+		- Facilitates prevention and intervention
+	- Consequences:
+		- Physical and psychological danger
+		- Dependence on others' perception of self
+- Fyre Festival
+	- Music festival on private island
+	- Promotion:
+		- Instagram and YouTube
+		- Celebrities invited
+		- Deceptive FOMO trailer
+	- Reality:
+		- Problems with security, food, understaffing, medical care
+	- Censorship on social media
+- News deserts
+	- News desert: region with no local news outlets
+	- Role of local news:
+		- Key information: weather, crime, traffic, local electron, etc.
+		- Advertisement of local businesses
+	- Media governance in Canada:
+		- CBC
+		- Bell Media
+		- Governed by CRTC
+	- Causes:
+		- Less attention
+		- Dying business model
+	- Consequences:
+		- Increased nationalization of local elections (national politics affect local politics)
+		- People rely more on online sources prone to echo chamber and misinformation
+		- Difficulty to hold local powers accountable
+	- Solutions:
+		- Nonprofit organizations who run local news
+		- Bill C-18
+- MTV Lebanon attack
+	- July 2024, journalists attacked while filming in Dahieh
+	- Context:
+		- Media in Lebanon is heavily politicized
+		- Every major political party has its own outlet
+		- Angry Hezbollah supporters claim journalists caused strike
+	- Media problems:
+		- Danger journalists
+			- Assaults, arrests, lawsuits, threats, etc.
+		- Polarisation
+		- Propaganda
+		- Decline of independent journalism
+		- Fragility of freedom of speech in divided societies
+- Alex Jones
+	- Founded Infowars
+	- Made conspiracy theories:
+		- Sandy Hook Shooting
+		- 9/11 inside job
+		- Pizzagate
+		- COVID-19 hoax
+		- 2020 election fraud
+	- Was sued by victims
+	- Filed for bankruptcy
+	- Consequences:
+		- Harassment and threats
+		- Psychological trauma
+		- Financial damage
+		- Erosion of trust
+		- Erosion of critical thinking
+- Michelle Remembers
+	- Michelle Smith
+		- Had three miscarriages
+		- Suffered from satanic ritual
+	- Lawrence Pazder
+		- Manipulative psychiatrist who wrote Michelle Remembers
+		- Fame hungry
+	- Michelle Remembers:
+		- Lots of religious elements
+		- Drawings of Satan
+		- Funded by the church
+	- Media's role:
+		- Sensationalist reporting
+	- They married
+	- Pazder interviewed all the children at the McMartin school
+	- Demolishment of the McMartin school
+- Harvesting spaghetti
+	- BBC April Fools joke
+	- Importance:
+		- Critical thinking
+		- Media integrity
+- Balenciaga
+	- Creates sexualizing toys
+	- "Garde-Robe" campaign to promote Hourglass Bag
+	- Michael Williams
+	- John Phillip Fisher convicted for sexual assault
+	- Apologized
+	- Uses shockvertising
+- Daniel Pearl
+	- Journalist kidnapped and murdered by Al-Qaeda
+	- US' foreign interference causes decline of democracy
+	- Can't fight terrorism with terror
+- Planned Parenthood
+	- Planned Parenthood: US' biggest sexual / reproductive health care provider
+	- CMP: anti-abortion group
+	- CMP exposed P.P for selling body tissues from abortion
+	- Counter evidence omitted
+	- Cherry-picking
+	- Impact:
+		- Lawsuit
+		- Wave of abortion ban
+		- Colorado clinic shooting

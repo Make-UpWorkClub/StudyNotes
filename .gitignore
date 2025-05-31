@@ -1,0 +1,19 @@
+.direnv/
+.trash/
+*.log
+.temp
+
+# Obsidian
+.obsidian/workspace*.json
+
+# Vitepress
+.vitepress/cache/
+.vitepress/dist/
+.vitepress/docsMetadata.json
+
+# Node.js
+node_modules/
+.npmrc
+
+# Generated files
+components.d.ts

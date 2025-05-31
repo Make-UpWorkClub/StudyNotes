@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"type":"group","id":"d989ba6317dffded","x":1000,"y":600,"width":840,"height":960,"color":"#fdc700","label":"Mairie éclairée"},
+		{"type":"group","id":"cd03e6da79ac4b9b","x":-840,"y":-20,"width":960,"height":840,"color":"5","label":"Modèles atomiques"},
+		{"type":"group","id":"c45531bc5e4e5067","x":140,"y":-20,"width":840,"height":920,"color":"1","label":"Limites planétaires"},
+		{"type":"group","id":"d54db7c8191f80bc","x":1860,"y":-20,"width":940,"height":760,"color":"#474747","label":"Technologie"},
+		{"type":"group","id":"e0feeef4b6ed51d4","x":-840,"y":880,"width":960,"height":700,"color":"4","label":"Agriculture hors-sol"},
+		{"type":"group","id":"57300b5db44f3860","x":1000,"y":-20,"width":840,"height":560,"color":"6","label":"Fondements de l'électricité"},
+		{"type":"file","file":"en-US/notes/Chemistry/Sec4/parties par million.md","id":"9732fa40c45be615","x":-400,"y":940,"width":360,"height":360},
+		{"type":"file","file":"en-US/notes/Chemistry/Sec4/classification périodique.md","id":"ff9c01c0be47bad3","x":-820,"y":40,"width":440,"height":540},
+		{"type":"file","file":"en-US/notes/Chemistry/électrolyte.md","id":"02766e707a917e99","x":-820,"y":940,"width":400,"height":620},
+		{"type":"file","file":"assets/img/Notation de Berzelius.png","id":"ba43aa8159be32a2","x":-820,"y":640,"width":442,"height":160},
+		{"type":"file","file":"en-US/notes/Chemistry/liaisons chimiques.md","id":"5c54a427e13aa47d","x":-360,"y":40,"width":460,"height":760},
+		{"type":"file","file":"en-US/notes/Chemistry/Sec4/pluies acides.md","id":"dcee7c39ed103617","x":600,"y":680,"width":360,"height":200},
+		{"type":"file","file":"en-US/notes/Chemistry/Sec4/eutrophisation.md","id":"5f0517ae08df6fc2","x":600,"y":40,"width":360,"height":580},
+		{"type":"file","file":"en-US/notes/Physics/énergie cinétique.md","id":"8631a2e4cba40de2","x":1020,"y":660,"width":340,"height":260},
+		{"type":"file","file":"en-US/notes/Physics/Sec4/électricité.md","id":"6d05fc9fdf617477","x":1020,"y":40,"width":400,"height":480},
+		{"type":"file","file":"en-US/notes/Physics/Sec4/énergie mécanique.md","id":"09c2547d8344874c","x":1020,"y":1140,"width":520,"height":400},
+		{"type":"file","file":"📙Secondary 4/Sciences/Technologie - Propriétés des matériaux.md","id":"0cf1d98d820b5c78","x":1880,"y":40,"width":900,"height":440},
+		{"type":"file","file":"en-US/notes/Chemistry/Sec4/contamination.md","id":"7d9776a14d938485","x":160,"y":40,"width":420,"height":780},
+		{"type":"file","file":"en-US/notes/Physics/énergie potentielle.md","id":"96178ea52bddee02","x":1380,"y":660,"width":440,"height":460},
+		{"type":"file","file":"en-US/notes/Physics/Sec4/lois de Kirchhoff.md","id":"22b7343754dfa0d7","x":1440,"y":40,"width":380,"height":260}
+	],
+	"edges":[
+		{"id":"9c4709465e6674e8","fromNode":"57300b5db44f3860","fromSide":"bottom","toNode":"d989ba6317dffded","toSide":"top"},
+		{"id":"470e74289cec3a92","fromNode":"09c2547d8344874c","fromSide":"top","toNode":"8631a2e4cba40de2","toSide":"bottom"},
+		{"id":"9de4223cecc508d0","fromNode":"09c2547d8344874c","fromSide":"right","toNode":"96178ea52bddee02","toSide":"bottom"},
+		{"id":"f87ef8d12d0ff88d","fromNode":"cd03e6da79ac4b9b","fromSide":"bottom","toNode":"e0feeef4b6ed51d4","toSide":"top"}
+	]
+}

@@ -1,0 +1,8 @@
+{
+  "pinned": [
+    "note-composer:split-file",
+    "note-composer:extract-heading",
+    "insert-template",
+    "obsidian-git:push"
+  ]
+}

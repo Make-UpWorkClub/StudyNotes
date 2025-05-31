@@ -1,0 +1,39 @@
+{
+  "promptDelete": false,
+  "showFrontmatter": true,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "assets/img",
+  "mobileToolbarCommands": [
+    "editor:undo",
+    "editor:redo",
+    "editor:unindent-list",
+    "editor:indent-list",
+    "editor:insert-link",
+    "editor:attach-file",
+    "editor:insert-callout",
+    "note-composer:split-file",
+    "note-composer:extract-heading",
+    "table-editor-obsidian:format-table"
+  ],
+  "showInlineTitle": false,
+  "foldIndent": true,
+  "strictLineBreaks": false,
+  "userIgnoreFilters": [
+    "README.md",
+    "overrides/",
+    "node_modules/",
+    "scripts/",
+    "public/",
+    "templates/",
+    "index.md",
+    "toc.md",
+    "assets/excalidraw/"
+  ],
+  "newFileLocation": "current",
+  "livePreview": false,
+  "defaultViewMode": "preview",
+  "readableLineLength": true,
+  "spellcheckLanguages": null,
+  "vimMode": false,
+  "showLineNumber": false
+}

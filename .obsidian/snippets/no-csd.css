@@ -1,0 +1,17 @@
+.mod-linux {  
+  div.titlebar-button-container {
+    display: none;
+  }
+
+  div.workspace-tab-header-container {
+    padding-right: var(--size-4-2) !important;
+  }
+  
+  div.workspace-tab-header-container::after {
+    display: none !important;
+  }
+
+  div.workspace-tab-header-container-inner {
+    flex-shrink: 0;
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "items": [
+    {
+      "type": "graph",
+      "ctime": 1748721897471,
+      "title": "All",
+      "options": {
+        "collapse-filter": true,
+        "search": "-file:.canvas -file:BUFFER -file:index -file:toc",
+        "showTags": false,
+        "showAttachments": false,
+        "hideUnresolved": true,
+        "showOrphans": true,
+        "collapse-color-groups": true,
+        "colorGroups": [
+          {
+            "query": "tag:#French",
+            "color": {
+              "a": 1,
+              "rgb": 6726655
+            }
+          },
+          {
+            "query": "tag:#English",
+            "color": {
+              "a": 1,
+              "rgb": 16741882
+            }
+          },
+          {
+            "query": "tag:#Calculus",
+            "color": {
+              "a": 1,
+              "rgb": 5408511
+            }
+          },
+          {
+            "query": "tag:#PAS",
+            "color": {
+              "a": 1,
+              "rgb": 11757311
+            }
+          },
+          {
+            "query": "tag:#Chem",
+            "color": {
+              "a": 1,
+              "rgb": 16753485
+            }
+          },
+          {
+            "query": "tag:#Humanities",
+            "color": {
+              "a": 1,
+              "rgb": 15442468
+            }
+          },
+          {
+            "query": "tag:#PE",
+            "color": {
+              "a": 1,
+              "rgb": 16675213
+            }
+          },
+          {
+            "query": "tag:#Biology",
+            "color": {
+              "a": 1,
+              "rgb": 6941016
+            }
+          },
+          {
+            "query": "tag:#Algebra",
+            "color": {
+              "a": 1,
+              "rgb": 11757311
+            }
+          },
+          {
+            "query": "tag:#CCQ",
+            "color": {
+              "a": 1,
+              "rgb": 15442468
+            }
+          },
+          {
+            "query": "tag:#Physics",
+            "color": {
+              "a": 1,
+              "rgb": 16663574
+            }
+          },
+          {
+            "query": "tag:#Finance",
+            "color": {
+              "a": 1,
+              "rgb": 16774912
+            }
+          }
+        ],
+        "collapse-display": true,
+        "showArrow": true,
+        "textFadeMultiplier": 0,
+        "nodeSizeMultiplier": 1.64344029244517,
+        "lineSizeMultiplier": 5,
+        "collapse-forces": true,
+        "centerStrength": 0.5,
+        "repelStrength": 10,
+        "linkStrength": 1,
+        "linkDistance": 150,
+        "scale": 0.3823011426223652,
+        "close": true
+      }
+    },
+    {
+      "type": "graph",
+      "ctime": 1748722059342,
+      "title": "Sec",
+      "options": {
+        "collapse-filter": true,
+        "search": "-file:.canvas -file:BUFFER tag:#Sec",
+        "showTags": false,
+        "showAttachments": false,
+        "hideUnresolved": true,
+        "showOrphans": true,
+        "collapse-color-groups": true,
+        "colorGroups": [
+          {
+            "query": "tag:#French",
+            "color": {
+              "a": 1,
+              "rgb": 6726655
+            }
+          },
+          {
+            "query": "tag:#English",
+            "color": {
+              "a": 1,
+              "rgb": 16741882
+            }
+          },
+          {
+            "query": "tag:#Calculus",
+            "color": {
+              "a": 1,
+              "rgb": 5408511
+            }
+          },
+          {
+            "query": "tag:#PAS",
+            "color": {
+              "a": 1,
+              "rgb": 11757311
+            }
+          },
+          {
+            "query": "tag:#Chem",
+            "color": {
+              "a": 1,
+              "rgb": 16753485
+            }
+          },
+          {
+            "query": "tag:#Humanities",
+            "color": {
+              "a": 1,
+              "rgb": 15442468
+            }
+          },
+          {
+            "query": "tag:#PE",
+            "color": {
+              "a": 1,
+              "rgb": 16675213
+            }
+          },
+          {
+            "query": "tag:#Biology",
+            "color": {
+              "a": 1,
+              "rgb": 6941016
+            }
+          },
+          {
+            "query": "tag:#Algebra",
+            "color": {
+              "a": 1,
+              "rgb": 11757311
+            }
+          },
+          {
+            "query": "tag:#CCQ",
+            "color": {
+              "a": 1,
+              "rgb": 15442468
+            }
+          },
+          {
+            "query": "tag:#Physics",
+            "color": {
+              "a": 1,
+              "rgb": 16663574
+            }
+          },
+          {
+            "query": "tag:#Finance",
+            "color": {
+              "a": 1,
+              "rgb": 16774912
+            }
+          }
+        ],
+        "collapse-display": true,
+        "showArrow": true,
+        "textFadeMultiplier": 0,
+        "nodeSizeMultiplier": 1.64344029244517,
+        "lineSizeMultiplier": 5,
+        "collapse-forces": true,
+        "centerStrength": 0.5,
+        "repelStrength": 10,
+        "linkStrength": 1,
+        "linkDistance": 150,
+        "scale": 0.3823011426223652,
+        "close": true
+      }
+    },
+    {
+      "type": "graph",
+      "ctime": 1748721970636,
+      "title": "Cegep/1",
+      "options": {
+        "collapse-filter": true,
+        "search": "-file:.canvas -file:BUFFER tag:#Cegep/1",
+        "showTags": false,
+        "showAttachments": false,
+        "hideUnresolved": true,
+        "showOrphans": true,
+        "collapse-color-groups": true,
+        "colorGroups": [
+          {
+            "query": "tag:#French",
+            "color": {
+              "a": 1,
+              "rgb": 6726655
+            }
+          },
+          {
+            "query": "tag:#English",
+            "color": {
+              "a": 1,
+              "rgb": 16741882
+            }
+          },
+          {
+            "query": "tag:#Calculus",
+            "color": {
+              "a": 1,
+              "rgb": 5408511
+            }
+          },
+          {
+            "query": "tag:#PAS",
+            "color": {
+              "a": 1,
+              "rgb": 11757311
+            }
+          },
+          {
+            "query": "tag:#Chem",
+            "color": {
+              "a": 1,
+              "rgb": 16753485
+            }
+          },
+          {
+            "query": "tag:#Humanities",
+            "color": {
+              "a": 1,
+              "rgb": 15442468
+            }
+          },
+          {
+            "query": "tag:#PE",
+            "color": {
+              "a": 1,
+              "rgb": 16675213
+            }
+          },
+          {
+            "query": "tag:#Biology",
+            "color": {
+              "a": 1,
+              "rgb": 6941016
+            }
+          },
+          {
+            "query": "tag:#Algebra",
+            "color": {
+              "a": 1,
+              "rgb": 11757311
+            }
+          },
+          {
+            "query": "tag:#CCQ",
+            "color": {
+              "a": 1,
+              "rgb": 15442468
+            }
+          },
+          {
+            "query": "tag:#Physics",
+            "color": {
+              "a": 1,
+              "rgb": 16663574
+            }
+          },
+          {
+            "query": "tag:#Finance",
+            "color": {
+              "a": 1,
+              "rgb": 16774912
+            }
+          }
+        ],
+        "collapse-display": true,
+        "showArrow": true,
+        "textFadeMultiplier": 0,
+        "nodeSizeMultiplier": 1.64344029244517,
+        "lineSizeMultiplier": 5,
+        "collapse-forces": true,
+        "centerStrength": 0.5,
+        "repelStrength": 10,
+        "linkStrength": 1,
+        "linkDistance": 150,
+        "scale": 0.3823011426223652,
+        "close": true
+      }
+    },
+    {
+      "type": "graph",
+      "ctime": 1748721982137,
+      "title": "Cegep/2",
+      "options": {
+        "collapse-filter": true,
+        "search": "-file:.canvas -file:BUFFER tag:#Cegep/2",
+        "showTags": false,
+        "showAttachments": false,
+        "hideUnresolved": true,
+        "showOrphans": true,
+        "collapse-color-groups": true,
+        "colorGroups": [
+          {
+            "query": "tag:#French",
+            "color": {
+              "a": 1,
+              "rgb": 6726655
+            }
+          },
+          {
+            "query": "tag:#English",
+            "color": {
+              "a": 1,
+              "rgb": 16741882
+            }
+          },
+          {
+            "query": "tag:#Calculus",
+            "color": {
+              "a": 1,
+              "rgb": 5408511
+            }
+          },
+          {
+            "query": "tag:#PAS",
+            "color": {
+              "a": 1,
+              "rgb": 11757311
+            }
+          },
+          {
+            "query": "tag:#Chem",
+            "color": {
+              "a": 1,
+              "rgb": 16753485
+            }
+          },
+          {
+            "query": "tag:#Humanities",
+            "color": {
+              "a": 1,
+              "rgb": 15442468
+            }
+          },
+          {
+            "query": "tag:#PE",
+            "color": {
+              "a": 1,
+              "rgb": 16675213
+            }
+          },
+          {
+            "query": "tag:#Biology",
+            "color": {
+              "a": 1,
+              "rgb": 6941016
+            }
+          },
+          {
+            "query": "tag:#Algebra",
+            "color": {
+              "a": 1,
+              "rgb": 11757311
+            }
+          },
+          {
+            "query": "tag:#CCQ",
+            "color": {
+              "a": 1,
+              "rgb": 15442468
+            }
+          },
+          {
+            "query": "tag:#Physics",
+            "color": {
+              "a": 1,
+              "rgb": 16663574
+            }
+          },
+          {
+            "query": "tag:#Finance",
+            "color": {
+              "a": 1,
+              "rgb": 16774912
+            }
+          }
+        ],
+        "collapse-display": true,
+        "showArrow": true,
+        "textFadeMultiplier": 0,
+        "nodeSizeMultiplier": 1.64344029244517,
+        "lineSizeMultiplier": 5,
+        "collapse-forces": true,
+        "centerStrength": 0.5,
+        "repelStrength": 10,
+        "linkStrength": 1,
+        "linkDistance": 150,
+        "scale": 0.3823011426223652,
+        "close": true
+      }
+    }
+  ]
+}

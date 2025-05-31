@@ -1,0 +1,4 @@
+*.md linguist-detectable
+.obsidian/** linguist-generated
+.obsidian/plugins linguist-vendored
+.obsidian/themes linguist-vendored

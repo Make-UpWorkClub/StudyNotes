@@ -1,0 +1,16 @@
+span.cm-highlight, mark, span.search-result-file-matched-text {
+	background-color: transparent !important;
+	color: inherit !important;
+}
+
+.theme-light {
+	span.cm-highlight, mark, span.search-result-file-matched-text {
+		background-image: linear-gradient(to bottom, transparent 60%, rgba(244, 219, 214, 0.8) 60%) !important;
+	}
+}
+
+.theme-dark {
+	span.cm-highlight, mark, span.search-result-file-matched-text {
+		background-image: linear-gradient(to bottom, transparent 60%, rgba(220, 138, 120, 0.4) 60%) !important;
+	}
+}
