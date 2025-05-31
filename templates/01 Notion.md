@@ -1,7 +1,7 @@
 ---
 tags:
-  - Cegep2
   - 
+  - Cegep/2
 date: {{date}}T{{time}}
 ---
 
