@@ -202,20 +202,20 @@ var require_react_development = __commonJS({
         {
           Object.freeze(emptyObject);
         }
-        function Component3(props, context, updater) {
+        function Component4(props, context, updater) {
           this.props = props;
           this.context = context;
           this.refs = emptyObject;
           this.updater = updater || ReactNoopUpdateQueue;
         }
-        Component3.prototype.isReactComponent = {};
-        Component3.prototype.setState = function(partialState, callback) {
+        Component4.prototype.isReactComponent = {};
+        Component4.prototype.setState = function(partialState, callback) {
           if (typeof partialState !== "object" && typeof partialState !== "function" && partialState != null) {
             throw new Error("setState(...): takes an object of state variables to update or a function which returns an object of state variables.");
           }
           this.updater.enqueueSetState(this, partialState, callback, "setState");
         };
-        Component3.prototype.forceUpdate = function(callback) {
+        Component4.prototype.forceUpdate = function(callback) {
           this.updater.enqueueForceUpdate(this, callback, "forceUpdate");
         };
         {
@@ -224,7 +224,7 @@ var require_react_development = __commonJS({
             replaceState: ["replaceState", "Refactor your code to use setState instead (see https://github.com/facebook/react/issues/3236)."]
           };
           var defineDeprecationWarning = function(methodName, info) {
-            Object.defineProperty(Component3.prototype, methodName, {
+            Object.defineProperty(Component4.prototype, methodName, {
               get: function() {
                 warn("%s(...) is deprecated in plain JavaScript React classes. %s", info[0], info[1]);
                 return void 0;
@@ -239,7 +239,7 @@ var require_react_development = __commonJS({
         }
         function ComponentDummy() {
         }
-        ComponentDummy.prototype = Component3.prototype;
+        ComponentDummy.prototype = Component4.prototype;
         function PureComponent(props, context, updater) {
           this.props = props;
           this.context = context;
@@ -248,7 +248,7 @@ var require_react_development = __commonJS({
         }
         var pureComponentPrototype = PureComponent.prototype = new ComponentDummy();
         pureComponentPrototype.constructor = PureComponent;
-        assign(pureComponentPrototype, Component3.prototype);
+        assign(pureComponentPrototype, Component4.prototype);
         pureComponentPrototype.isPureReactComponent = true;
         function createRef() {
           var refObject = {
@@ -1286,8 +1286,8 @@ var require_react_development = __commonJS({
             return describeNativeComponentFrame(fn, false);
           }
         }
-        function shouldConstruct(Component4) {
-          var prototype = Component4.prototype;
+        function shouldConstruct(Component5) {
+          var prototype = Component5.prototype;
           return !!(prototype && prototype.isReactComponent);
         }
         function describeUnknownElementTypeFrameInDEV(type, source, ownerFn) {
@@ -1791,7 +1791,7 @@ var require_react_development = __commonJS({
           only: onlyChild
         };
         exports.Children = Children;
-        exports.Component = Component3;
+        exports.Component = Component4;
         exports.Fragment = REACT_FRAGMENT_TYPE;
         exports.Profiler = REACT_PROFILER_TYPE;
         exports.PureComponent = PureComponent;
@@ -3155,8 +3155,8 @@ var require_react_dom_development = __commonJS({
             return describeNativeComponentFrame(fn, false);
           }
         }
-        function shouldConstruct(Component3) {
-          var prototype = Component3.prototype;
+        function shouldConstruct(Component4) {
+          var prototype = Component4.prototype;
           return !!(prototype && prototype.isReactComponent);
         }
         function describeUnknownElementTypeFrameInDEV(type, source, ownerFn) {
@@ -10305,9 +10305,9 @@ var require_react_dom_development = __commonJS({
         var contextStackCursor = createCursor(emptyContextObject);
         var didPerformWorkStackCursor = createCursor(false);
         var previousContext = emptyContextObject;
-        function getUnmaskedContext(workInProgress2, Component3, didPushOwnContextIfProvider) {
+        function getUnmaskedContext(workInProgress2, Component4, didPushOwnContextIfProvider) {
           {
-            if (didPushOwnContextIfProvider && isContextProvider(Component3)) {
+            if (didPushOwnContextIfProvider && isContextProvider(Component4)) {
               return previousContext;
             }
             return contextStackCursor.current;
@@ -10444,8 +10444,8 @@ var require_react_dom_development = __commonJS({
                 case HostRoot:
                   return node.stateNode.context;
                 case ClassComponent: {
-                  var Component3 = node.type;
-                  if (isContextProvider(Component3)) {
+                  var Component4 = node.type;
+                  if (isContextProvider(Component4)) {
                     return node.stateNode.__reactInternalMemoizedMergedChildContext;
                   }
                   break;
@@ -11170,10 +11170,10 @@ var require_react_dom_development = __commonJS({
             pendingLegacyContextWarning = /* @__PURE__ */ new Map();
           };
         }
-        function resolveDefaultProps(Component3, baseProps) {
-          if (Component3 && Component3.defaultProps) {
+        function resolveDefaultProps(Component4, baseProps) {
+          if (Component4 && Component4.defaultProps) {
             var props = assign({}, baseProps);
-            var defaultProps = Component3.defaultProps;
+            var defaultProps = Component4.defaultProps;
             for (var propName in defaultProps) {
               if (props[propName] === void 0) {
                 props[propName] = defaultProps[propName];
@@ -13425,7 +13425,7 @@ var require_react_dom_development = __commonJS({
           }
           return true;
         }
-        function renderWithHooks(current2, workInProgress2, Component3, props, secondArg, nextRenderLanes) {
+        function renderWithHooks(current2, workInProgress2, Component4, props, secondArg, nextRenderLanes) {
           renderLanes = nextRenderLanes;
           currentlyRenderingFiber$1 = workInProgress2;
           {
@@ -13445,7 +13445,7 @@ var require_react_dom_development = __commonJS({
               ReactCurrentDispatcher$1.current = HooksDispatcherOnMountInDEV;
             }
           }
-          var children = Component3(props, secondArg);
+          var children = Component4(props, secondArg);
           if (didScheduleRenderPhaseUpdateDuringThisPass) {
             var numberOfReRenders = 0;
             do {
@@ -13465,7 +13465,7 @@ var require_react_dom_development = __commonJS({
                 hookTypesUpdateIndexDev = -1;
               }
               ReactCurrentDispatcher$1.current = HooksDispatcherOnRerenderInDEV;
-              children = Component3(props, secondArg);
+              children = Component4(props, secondArg);
             } while (didScheduleRenderPhaseUpdateDuringThisPass);
           }
           ReactCurrentDispatcher$1.current = ContextOnlyDispatcher;
@@ -15564,16 +15564,16 @@ var require_react_dom_development = __commonJS({
           workInProgress2.child = reconcileChildFibers(workInProgress2, current2.child, null, renderLanes2);
           workInProgress2.child = reconcileChildFibers(workInProgress2, null, nextChildren, renderLanes2);
         }
-        function updateForwardRef(current2, workInProgress2, Component3, nextProps, renderLanes2) {
+        function updateForwardRef(current2, workInProgress2, Component4, nextProps, renderLanes2) {
           {
             if (workInProgress2.type !== workInProgress2.elementType) {
-              var innerPropTypes = Component3.propTypes;
+              var innerPropTypes = Component4.propTypes;
               if (innerPropTypes) {
-                checkPropTypes(innerPropTypes, nextProps, "prop", getComponentNameFromType(Component3));
+                checkPropTypes(innerPropTypes, nextProps, "prop", getComponentNameFromType(Component4));
               }
             }
           }
-          var render2 = Component3.render;
+          var render2 = Component4.render;
           var ref = workInProgress2.ref;
           var nextChildren;
           var hasId;
@@ -15611,10 +15611,10 @@ var require_react_dom_development = __commonJS({
           reconcileChildren(current2, workInProgress2, nextChildren, renderLanes2);
           return workInProgress2.child;
         }
-        function updateMemoComponent(current2, workInProgress2, Component3, nextProps, renderLanes2) {
+        function updateMemoComponent(current2, workInProgress2, Component4, nextProps, renderLanes2) {
           if (current2 === null) {
-            var type = Component3.type;
-            if (isSimpleFunctionComponent(type) && Component3.compare === null && Component3.defaultProps === void 0) {
+            var type = Component4.type;
+            if (isSimpleFunctionComponent(type) && Component4.compare === null && Component4.defaultProps === void 0) {
               var resolvedType = type;
               {
                 resolvedType = resolveFunctionForHotReloading(type);
@@ -15632,14 +15632,14 @@ var require_react_dom_development = __commonJS({
                 checkPropTypes(innerPropTypes, nextProps, "prop", getComponentNameFromType(type));
               }
             }
-            var child = createFiberFromTypeAndProps(Component3.type, null, nextProps, workInProgress2, workInProgress2.mode, renderLanes2);
+            var child = createFiberFromTypeAndProps(Component4.type, null, nextProps, workInProgress2, workInProgress2.mode, renderLanes2);
             child.ref = workInProgress2.ref;
             child.return = workInProgress2;
             workInProgress2.child = child;
             return child;
           }
           {
-            var _type = Component3.type;
+            var _type = Component4.type;
             var _innerPropTypes = _type.propTypes;
             if (_innerPropTypes) {
               checkPropTypes(_innerPropTypes, nextProps, "prop", getComponentNameFromType(_type));
@@ -15649,7 +15649,7 @@ var require_react_dom_development = __commonJS({
           var hasScheduledUpdateOrContext = checkScheduledUpdateOrContext(current2, renderLanes2);
           if (!hasScheduledUpdateOrContext) {
             var prevProps = currentChild.memoizedProps;
-            var compare = Component3.compare;
+            var compare = Component4.compare;
             compare = compare !== null ? compare : shallowEqual;
             if (compare(prevProps, nextProps) && current2.ref === workInProgress2.ref) {
               return bailoutOnAlreadyFinishedWork(current2, workInProgress2, renderLanes2);
@@ -15662,7 +15662,7 @@ var require_react_dom_development = __commonJS({
           workInProgress2.child = newChild;
           return newChild;
         }
-        function updateSimpleMemoComponent(current2, workInProgress2, Component3, nextProps, renderLanes2) {
+        function updateSimpleMemoComponent(current2, workInProgress2, Component4, nextProps, renderLanes2) {
           {
             if (workInProgress2.type !== workInProgress2.elementType) {
               var outerMemoType = workInProgress2.elementType;
@@ -15695,7 +15695,7 @@ var require_react_dom_development = __commonJS({
               }
             }
           }
-          return updateFunctionComponent(current2, workInProgress2, Component3, nextProps, renderLanes2);
+          return updateFunctionComponent(current2, workInProgress2, Component4, nextProps, renderLanes2);
         }
         function updateOffscreenComponent(current2, workInProgress2, renderLanes2) {
           var nextProps = workInProgress2.pendingProps;
@@ -15785,18 +15785,18 @@ var require_react_dom_development = __commonJS({
             }
           }
         }
-        function updateFunctionComponent(current2, workInProgress2, Component3, nextProps, renderLanes2) {
+        function updateFunctionComponent(current2, workInProgress2, Component4, nextProps, renderLanes2) {
           {
             if (workInProgress2.type !== workInProgress2.elementType) {
-              var innerPropTypes = Component3.propTypes;
+              var innerPropTypes = Component4.propTypes;
               if (innerPropTypes) {
-                checkPropTypes(innerPropTypes, nextProps, "prop", getComponentNameFromType(Component3));
+                checkPropTypes(innerPropTypes, nextProps, "prop", getComponentNameFromType(Component4));
               }
             }
           }
           var context;
           {
-            var unmaskedContext = getUnmaskedContext(workInProgress2, Component3, true);
+            var unmaskedContext = getUnmaskedContext(workInProgress2, Component4, true);
             context = getMaskedContext(workInProgress2, unmaskedContext);
           }
           var nextChildren;
@@ -15808,12 +15808,12 @@ var require_react_dom_development = __commonJS({
           {
             ReactCurrentOwner$1.current = workInProgress2;
             setIsRendering(true);
-            nextChildren = renderWithHooks(current2, workInProgress2, Component3, nextProps, context, renderLanes2);
+            nextChildren = renderWithHooks(current2, workInProgress2, Component4, nextProps, context, renderLanes2);
             hasId = checkDidRenderIdHook();
             if (workInProgress2.mode & StrictLegacyMode) {
               setIsStrictModeForDevtools(true);
               try {
-                nextChildren = renderWithHooks(current2, workInProgress2, Component3, nextProps, context, renderLanes2);
+                nextChildren = renderWithHooks(current2, workInProgress2, Component4, nextProps, context, renderLanes2);
                 hasId = checkDidRenderIdHook();
               } finally {
                 setIsStrictModeForDevtools(false);
@@ -15835,7 +15835,7 @@ var require_react_dom_development = __commonJS({
           reconcileChildren(current2, workInProgress2, nextChildren, renderLanes2);
           return workInProgress2.child;
         }
-        function updateClassComponent(current2, workInProgress2, Component3, nextProps, renderLanes2) {
+        function updateClassComponent(current2, workInProgress2, Component4, nextProps, renderLanes2) {
           {
             switch (shouldError(workInProgress2)) {
               case false: {
@@ -15858,14 +15858,14 @@ var require_react_dom_development = __commonJS({
               }
             }
             if (workInProgress2.type !== workInProgress2.elementType) {
-              var innerPropTypes = Component3.propTypes;
+              var innerPropTypes = Component4.propTypes;
               if (innerPropTypes) {
-                checkPropTypes(innerPropTypes, nextProps, "prop", getComponentNameFromType(Component3));
+                checkPropTypes(innerPropTypes, nextProps, "prop", getComponentNameFromType(Component4));
               }
             }
           }
           var hasContext;
-          if (isContextProvider(Component3)) {
+          if (isContextProvider(Component4)) {
             hasContext = true;
             pushContextProvider(workInProgress2);
           } else {
@@ -15876,15 +15876,15 @@ var require_react_dom_development = __commonJS({
           var shouldUpdate;
           if (instance === null) {
             resetSuspendedCurrentOnMountInLegacyMode(current2, workInProgress2);
-            constructClassInstance(workInProgress2, Component3, nextProps);
-            mountClassInstance(workInProgress2, Component3, nextProps, renderLanes2);
+            constructClassInstance(workInProgress2, Component4, nextProps);
+            mountClassInstance(workInProgress2, Component4, nextProps, renderLanes2);
             shouldUpdate = true;
           } else if (current2 === null) {
-            shouldUpdate = resumeMountClassInstance(workInProgress2, Component3, nextProps, renderLanes2);
+            shouldUpdate = resumeMountClassInstance(workInProgress2, Component4, nextProps, renderLanes2);
           } else {
-            shouldUpdate = updateClassInstance(current2, workInProgress2, Component3, nextProps, renderLanes2);
+            shouldUpdate = updateClassInstance(current2, workInProgress2, Component4, nextProps, renderLanes2);
           }
-          var nextUnitOfWork = finishClassComponent(current2, workInProgress2, Component3, shouldUpdate, hasContext, renderLanes2);
+          var nextUnitOfWork = finishClassComponent(current2, workInProgress2, Component4, shouldUpdate, hasContext, renderLanes2);
           {
             var inst = workInProgress2.stateNode;
             if (shouldUpdate && inst.props !== nextProps) {
@@ -15896,19 +15896,19 @@ var require_react_dom_development = __commonJS({
           }
           return nextUnitOfWork;
         }
-        function finishClassComponent(current2, workInProgress2, Component3, shouldUpdate, hasContext, renderLanes2) {
+        function finishClassComponent(current2, workInProgress2, Component4, shouldUpdate, hasContext, renderLanes2) {
           markRef(current2, workInProgress2);
           var didCaptureError = (workInProgress2.flags & DidCapture) !== NoFlags;
           if (!shouldUpdate && !didCaptureError) {
             if (hasContext) {
-              invalidateContextProvider(workInProgress2, Component3, false);
+              invalidateContextProvider(workInProgress2, Component4, false);
             }
             return bailoutOnAlreadyFinishedWork(current2, workInProgress2, renderLanes2);
           }
           var instance = workInProgress2.stateNode;
           ReactCurrentOwner$1.current = workInProgress2;
           var nextChildren;
-          if (didCaptureError && typeof Component3.getDerivedStateFromError !== "function") {
+          if (didCaptureError && typeof Component4.getDerivedStateFromError !== "function") {
             nextChildren = null;
             {
               stopProfilerTimerIfRunning();
@@ -15942,7 +15942,7 @@ var require_react_dom_development = __commonJS({
           }
           workInProgress2.memoizedState = instance.state;
           if (hasContext) {
-            invalidateContextProvider(workInProgress2, Component3, true);
+            invalidateContextProvider(workInProgress2, Component4, true);
           }
           return workInProgress2.child;
         }
@@ -16042,76 +16042,76 @@ var require_react_dom_development = __commonJS({
           var lazyComponent = elementType;
           var payload = lazyComponent._payload;
           var init = lazyComponent._init;
-          var Component3 = init(payload);
-          workInProgress2.type = Component3;
-          var resolvedTag = workInProgress2.tag = resolveLazyComponentTag(Component3);
-          var resolvedProps = resolveDefaultProps(Component3, props);
+          var Component4 = init(payload);
+          workInProgress2.type = Component4;
+          var resolvedTag = workInProgress2.tag = resolveLazyComponentTag(Component4);
+          var resolvedProps = resolveDefaultProps(Component4, props);
           var child;
           switch (resolvedTag) {
             case FunctionComponent: {
               {
-                validateFunctionComponentInDev(workInProgress2, Component3);
-                workInProgress2.type = Component3 = resolveFunctionForHotReloading(Component3);
+                validateFunctionComponentInDev(workInProgress2, Component4);
+                workInProgress2.type = Component4 = resolveFunctionForHotReloading(Component4);
               }
-              child = updateFunctionComponent(null, workInProgress2, Component3, resolvedProps, renderLanes2);
+              child = updateFunctionComponent(null, workInProgress2, Component4, resolvedProps, renderLanes2);
               return child;
             }
             case ClassComponent: {
               {
-                workInProgress2.type = Component3 = resolveClassForHotReloading(Component3);
+                workInProgress2.type = Component4 = resolveClassForHotReloading(Component4);
               }
-              child = updateClassComponent(null, workInProgress2, Component3, resolvedProps, renderLanes2);
+              child = updateClassComponent(null, workInProgress2, Component4, resolvedProps, renderLanes2);
               return child;
             }
             case ForwardRef: {
               {
-                workInProgress2.type = Component3 = resolveForwardRefForHotReloading(Component3);
+                workInProgress2.type = Component4 = resolveForwardRefForHotReloading(Component4);
               }
-              child = updateForwardRef(null, workInProgress2, Component3, resolvedProps, renderLanes2);
+              child = updateForwardRef(null, workInProgress2, Component4, resolvedProps, renderLanes2);
               return child;
             }
             case MemoComponent: {
               {
                 if (workInProgress2.type !== workInProgress2.elementType) {
-                  var outerPropTypes = Component3.propTypes;
+                  var outerPropTypes = Component4.propTypes;
                   if (outerPropTypes) {
-                    checkPropTypes(outerPropTypes, resolvedProps, "prop", getComponentNameFromType(Component3));
+                    checkPropTypes(outerPropTypes, resolvedProps, "prop", getComponentNameFromType(Component4));
                   }
                 }
               }
-              child = updateMemoComponent(null, workInProgress2, Component3, resolveDefaultProps(Component3.type, resolvedProps), renderLanes2);
+              child = updateMemoComponent(null, workInProgress2, Component4, resolveDefaultProps(Component4.type, resolvedProps), renderLanes2);
               return child;
             }
           }
           var hint = "";
           {
-            if (Component3 !== null && typeof Component3 === "object" && Component3.$$typeof === REACT_LAZY_TYPE) {
+            if (Component4 !== null && typeof Component4 === "object" && Component4.$$typeof === REACT_LAZY_TYPE) {
               hint = " Did you wrap a component in React.lazy() more than once?";
             }
           }
-          throw new Error("Element type is invalid. Received a promise that resolves to: " + Component3 + ". " + ("Lazy element type must resolve to a class or function." + hint));
+          throw new Error("Element type is invalid. Received a promise that resolves to: " + Component4 + ". " + ("Lazy element type must resolve to a class or function." + hint));
         }
-        function mountIncompleteClassComponent(_current, workInProgress2, Component3, nextProps, renderLanes2) {
+        function mountIncompleteClassComponent(_current, workInProgress2, Component4, nextProps, renderLanes2) {
           resetSuspendedCurrentOnMountInLegacyMode(_current, workInProgress2);
           workInProgress2.tag = ClassComponent;
           var hasContext;
-          if (isContextProvider(Component3)) {
+          if (isContextProvider(Component4)) {
             hasContext = true;
             pushContextProvider(workInProgress2);
           } else {
             hasContext = false;
           }
           prepareToReadContext(workInProgress2, renderLanes2);
-          constructClassInstance(workInProgress2, Component3, nextProps);
-          mountClassInstance(workInProgress2, Component3, nextProps, renderLanes2);
-          return finishClassComponent(null, workInProgress2, Component3, true, hasContext, renderLanes2);
+          constructClassInstance(workInProgress2, Component4, nextProps);
+          mountClassInstance(workInProgress2, Component4, nextProps, renderLanes2);
+          return finishClassComponent(null, workInProgress2, Component4, true, hasContext, renderLanes2);
         }
-        function mountIndeterminateComponent(_current, workInProgress2, Component3, renderLanes2) {
+        function mountIndeterminateComponent(_current, workInProgress2, Component4, renderLanes2) {
           resetSuspendedCurrentOnMountInLegacyMode(_current, workInProgress2);
           var props = workInProgress2.pendingProps;
           var context;
           {
-            var unmaskedContext = getUnmaskedContext(workInProgress2, Component3, false);
+            var unmaskedContext = getUnmaskedContext(workInProgress2, Component4, false);
             context = getMaskedContext(workInProgress2, unmaskedContext);
           }
           prepareToReadContext(workInProgress2, renderLanes2);
@@ -16121,8 +16121,8 @@ var require_react_dom_development = __commonJS({
             markComponentRenderStarted(workInProgress2);
           }
           {
-            if (Component3.prototype && typeof Component3.prototype.render === "function") {
-              var componentName = getComponentNameFromType(Component3) || "Unknown";
+            if (Component4.prototype && typeof Component4.prototype.render === "function") {
+              var componentName = getComponentNameFromType(Component4) || "Unknown";
               if (!didWarnAboutBadClass[componentName]) {
                 error("The <%s /> component appears to have a render method, but doesn't extend React.Component. This is likely to cause errors. Change %s to extend React.Component instead.", componentName, componentName);
                 didWarnAboutBadClass[componentName] = true;
@@ -16133,7 +16133,7 @@ var require_react_dom_development = __commonJS({
             }
             setIsRendering(true);
             ReactCurrentOwner$1.current = workInProgress2;
-            value = renderWithHooks(null, workInProgress2, Component3, props, context, renderLanes2);
+            value = renderWithHooks(null, workInProgress2, Component4, props, context, renderLanes2);
             hasId = checkDidRenderIdHook();
             setIsRendering(false);
           }
@@ -16143,7 +16143,7 @@ var require_react_dom_development = __commonJS({
           workInProgress2.flags |= PerformedWork;
           {
             if (typeof value === "object" && value !== null && typeof value.render === "function" && value.$$typeof === void 0) {
-              var _componentName = getComponentNameFromType(Component3) || "Unknown";
+              var _componentName = getComponentNameFromType(Component4) || "Unknown";
               if (!didWarnAboutModulePatternComponent[_componentName]) {
                 error("The <%s /> component appears to be a function component that returns a class instance. Change %s to a class that extends React.Component instead. If you can't use a class try assigning the prototype on the function as a workaround. `%s.prototype = React.Component.prototype`. Don't use an arrow function since it cannot be called with `new` by React.", _componentName, _componentName, _componentName);
                 didWarnAboutModulePatternComponent[_componentName] = true;
@@ -16152,7 +16152,7 @@ var require_react_dom_development = __commonJS({
           }
           if (typeof value === "object" && value !== null && typeof value.render === "function" && value.$$typeof === void 0) {
             {
-              var _componentName2 = getComponentNameFromType(Component3) || "Unknown";
+              var _componentName2 = getComponentNameFromType(Component4) || "Unknown";
               if (!didWarnAboutModulePatternComponent[_componentName2]) {
                 error("The <%s /> component appears to be a function component that returns a class instance. Change %s to a class that extends React.Component instead. If you can't use a class try assigning the prototype on the function as a workaround. `%s.prototype = React.Component.prototype`. Don't use an arrow function since it cannot be called with `new` by React.", _componentName2, _componentName2, _componentName2);
                 didWarnAboutModulePatternComponent[_componentName2] = true;
@@ -16162,7 +16162,7 @@ var require_react_dom_development = __commonJS({
             workInProgress2.memoizedState = null;
             workInProgress2.updateQueue = null;
             var hasContext = false;
-            if (isContextProvider(Component3)) {
+            if (isContextProvider(Component4)) {
               hasContext = true;
               pushContextProvider(workInProgress2);
             } else {
@@ -16171,15 +16171,15 @@ var require_react_dom_development = __commonJS({
             workInProgress2.memoizedState = value.state !== null && value.state !== void 0 ? value.state : null;
             initializeUpdateQueue(workInProgress2);
             adoptClassInstance(workInProgress2, value);
-            mountClassInstance(workInProgress2, Component3, props, renderLanes2);
-            return finishClassComponent(null, workInProgress2, Component3, true, hasContext, renderLanes2);
+            mountClassInstance(workInProgress2, Component4, props, renderLanes2);
+            return finishClassComponent(null, workInProgress2, Component4, true, hasContext, renderLanes2);
           } else {
             workInProgress2.tag = FunctionComponent;
             {
               if (workInProgress2.mode & StrictLegacyMode) {
                 setIsStrictModeForDevtools(true);
                 try {
-                  value = renderWithHooks(null, workInProgress2, Component3, props, context, renderLanes2);
+                  value = renderWithHooks(null, workInProgress2, Component4, props, context, renderLanes2);
                   hasId = checkDidRenderIdHook();
                 } finally {
                   setIsStrictModeForDevtools(false);
@@ -16191,16 +16191,16 @@ var require_react_dom_development = __commonJS({
             }
             reconcileChildren(null, workInProgress2, value, renderLanes2);
             {
-              validateFunctionComponentInDev(workInProgress2, Component3);
+              validateFunctionComponentInDev(workInProgress2, Component4);
             }
             return workInProgress2.child;
           }
         }
-        function validateFunctionComponentInDev(workInProgress2, Component3) {
+        function validateFunctionComponentInDev(workInProgress2, Component4) {
           {
-            if (Component3) {
-              if (Component3.childContextTypes) {
-                error("%s(...): childContextTypes cannot be defined on a function component.", Component3.displayName || Component3.name || "Component");
+            if (Component4) {
+              if (Component4.childContextTypes) {
+                error("%s(...): childContextTypes cannot be defined on a function component.", Component4.displayName || Component4.name || "Component");
               }
             }
             if (workInProgress2.ref !== null) {
@@ -16219,15 +16219,15 @@ var require_react_dom_development = __commonJS({
                 error("Function components cannot be given refs. Attempts to access this ref will fail. Did you mean to use React.forwardRef()?%s", info);
               }
             }
-            if (typeof Component3.getDerivedStateFromProps === "function") {
-              var _componentName3 = getComponentNameFromType(Component3) || "Unknown";
+            if (typeof Component4.getDerivedStateFromProps === "function") {
+              var _componentName3 = getComponentNameFromType(Component4) || "Unknown";
               if (!didWarnAboutGetDerivedStateOnFunctionComponent[_componentName3]) {
                 error("%s: Function components do not support getDerivedStateFromProps.", _componentName3);
                 didWarnAboutGetDerivedStateOnFunctionComponent[_componentName3] = true;
               }
             }
-            if (typeof Component3.contextType === "object" && Component3.contextType !== null) {
-              var _componentName4 = getComponentNameFromType(Component3) || "Unknown";
+            if (typeof Component4.contextType === "object" && Component4.contextType !== null) {
+              var _componentName4 = getComponentNameFromType(Component4) || "Unknown";
               if (!didWarnAboutContextTypeOnFunctionComponent[_componentName4]) {
                 error("%s: Function components do not support contextType.", _componentName4);
                 didWarnAboutContextTypeOnFunctionComponent[_componentName4] = true;
@@ -16947,8 +16947,8 @@ var require_react_dom_development = __commonJS({
               pushHostContext(workInProgress2);
               break;
             case ClassComponent: {
-              var Component3 = workInProgress2.type;
-              if (isContextProvider(Component3)) {
+              var Component4 = workInProgress2.type;
+              if (isContextProvider(Component4)) {
                 pushContextProvider(workInProgress2);
               }
               break;
@@ -17072,10 +17072,10 @@ var require_react_dom_development = __commonJS({
               return mountLazyComponent(current2, workInProgress2, elementType, renderLanes2);
             }
             case FunctionComponent: {
-              var Component3 = workInProgress2.type;
+              var Component4 = workInProgress2.type;
               var unresolvedProps = workInProgress2.pendingProps;
-              var resolvedProps = workInProgress2.elementType === Component3 ? unresolvedProps : resolveDefaultProps(Component3, unresolvedProps);
-              return updateFunctionComponent(current2, workInProgress2, Component3, resolvedProps, renderLanes2);
+              var resolvedProps = workInProgress2.elementType === Component4 ? unresolvedProps : resolveDefaultProps(Component4, unresolvedProps);
+              return updateFunctionComponent(current2, workInProgress2, Component4, resolvedProps, renderLanes2);
             }
             case ClassComponent: {
               var _Component = workInProgress2.type;
@@ -17374,8 +17374,8 @@ var require_react_dom_development = __commonJS({
               bubbleProperties(workInProgress2);
               return null;
             case ClassComponent: {
-              var Component3 = workInProgress2.type;
-              if (isContextProvider(Component3)) {
+              var Component4 = workInProgress2.type;
+              if (isContextProvider(Component4)) {
                 popContext(workInProgress2);
               }
               bubbleProperties(workInProgress2);
@@ -17683,8 +17683,8 @@ var require_react_dom_development = __commonJS({
           popTreeContext(workInProgress2);
           switch (workInProgress2.tag) {
             case ClassComponent: {
-              var Component3 = workInProgress2.type;
-              if (isContextProvider(Component3)) {
+              var Component4 = workInProgress2.type;
+              if (isContextProvider(Component4)) {
                 popContext(workInProgress2);
               }
               var flags = workInProgress2.flags;
@@ -21332,18 +21332,18 @@ var require_react_dom_development = __commonJS({
         var createFiber = function(tag, pendingProps, key, mode) {
           return new FiberNode(tag, pendingProps, key, mode);
         };
-        function shouldConstruct$1(Component3) {
-          var prototype = Component3.prototype;
+        function shouldConstruct$1(Component4) {
+          var prototype = Component4.prototype;
           return !!(prototype && prototype.isReactComponent);
         }
         function isSimpleFunctionComponent(type) {
           return typeof type === "function" && !shouldConstruct$1(type) && type.defaultProps === void 0;
         }
-        function resolveLazyComponentTag(Component3) {
-          if (typeof Component3 === "function") {
-            return shouldConstruct$1(Component3) ? ClassComponent : FunctionComponent;
-          } else if (Component3 !== void 0 && Component3 !== null) {
-            var $$typeof = Component3.$$typeof;
+        function resolveLazyComponentTag(Component4) {
+          if (typeof Component4 === "function") {
+            return shouldConstruct$1(Component4) ? ClassComponent : FunctionComponent;
+          } else if (Component4 !== void 0 && Component4 !== null) {
+            var $$typeof = Component4.$$typeof;
             if ($$typeof === REACT_FORWARD_REF_TYPE) {
               return ForwardRef;
             }
@@ -21777,9 +21777,9 @@ var require_react_dom_development = __commonJS({
           var fiber = get(parentComponent);
           var parentContext = findCurrentUnmaskedContext(fiber);
           if (fiber.tag === ClassComponent) {
-            var Component3 = fiber.type;
-            if (isContextProvider(Component3)) {
-              return processChildContext(fiber, Component3, parentContext);
+            var Component4 = fiber.type;
+            if (isContextProvider(Component4)) {
+              return processChildContext(fiber, Component4, parentContext);
             }
           }
           return parentContext;
@@ -22672,823 +22672,184 @@ __export(plugin_exports, {
   default: () => KeyshotsPlugin
 });
 module.exports = __toCommonJS(plugin_exports);
-var import_obsidian11 = require("obsidian");
+var import_obsidian15 = require("obsidian");
 
-// src/mappings/hotkeys.ts
-var HotKey = (key, ...modifiers) => [{ key, modifiers }];
-var DEFAULT_MAP = {
-  add_caret_down: HotKey("ArrowDown", "Mod", "Alt"),
-  add_caret_up: HotKey("ArrowUp", "Mod", "Alt"),
-  better_insert_callout: HotKey("C", "Shift", "Alt"),
-  change_keyshots_preset: HotKey("P", "Mod", "Shift"),
-  close_all_foldable_callouts: HotKey("L", "Shift", "Alt"),
-  duplicate_line_down: HotKey("ArrowDown", "Shift", "Alt"),
-  duplicate_line_up: HotKey("ArrowUp", "Shift", "Alt"),
-  duplicate_selection_or_line: HotKey("D", "Mod", "Alt"),
-  expand_line_selections: HotKey("E", "Alt"),
-  go_to_next_fold: HotKey("]", "Mod", "Alt"),
-  go_to_previous_fold: HotKey("[", "Mod", "Alt"),
-  go_to_parent_fold: HotKey("P", "Mod", "Alt"),
-  insert_table: HotKey("T", "Shift", "Alt"),
-  insert_code_block: HotKey("`", "Mod", "Shift"),
-  insert_line_above: HotKey("Enter", "Mod", "Shift"),
-  insert_line_below: HotKey("Enter", "Shift"),
-  insert_ordinal_numbering: HotKey("N", "Shift", "Alt"),
-  join_selected_lines: HotKey("J", "Mod", "Shift"),
-  move_line_down: HotKey("ArrowDown", "Alt"),
-  move_line_up: HotKey("ArrowUp", "Alt"),
-  multi_toggle_bold: HotKey("B", "Mod", "Shift"),
-  multi_toggle_code: HotKey("C", "Mod", "Shift"),
-  multi_toggle_comment: HotKey("/", "Mod", "Shift"),
-  multi_toggle_highlight: HotKey("H", "Mod", "Shift"),
-  multi_toggle_italic: HotKey("I", "Mod", "Shift"),
-  multi_toggle_strikethrough: HotKey("M", "Mod", "Shift"),
-  open_all_foldable_callouts: HotKey("O", "Shift", "Alt"),
-  open_dev_tools: HotKey("F12"),
-  open_keyshots_settings_tab: HotKey(",", "Mod", "Alt"),
-  reopen_current_note: HotKey("Q", "Alt"),
-  replace_by_regex: HotKey("H", "Mod", "Alt"),
-  reverse_selected_lines: HotKey("R", "Alt"),
-  search_by_regex: HotKey("S", "Mod", "Alt"),
-  select_all_word_instances: HotKey("L", "Mod", "Shift"),
-  select_multiple_word_instances: HotKey("D", "Mod"),
-  shuffle_selected_lines: HotKey("S", "Mod", "Shift", "Alt"),
-  sort_selected_lines: HotKey("S", "Mod", "Shift"),
-  split_selections_by_lines: HotKey("L", "Mod", "Alt"),
-  split_selections_on_new_line: HotKey("S", "Alt"),
-  switch_inline_title_setting: HotKey("T", "Mod", "Alt"),
-  switch_keyshots_case_sensitivity: HotKey("I", "Mod", "Alt"),
-  switch_line_numbers_setting: HotKey("N", "Mod", "Alt"),
-  switch_readable_length_setting: HotKey("R", "Mod", "Alt"),
-  toggle_all_callouts_fold_state: HotKey("K", "Shift", "Alt"),
-  toggle_case_jetbrains: HotKey("U", "Mod", "Shift"),
-  toggle_focus_mode: HotKey("F", "Mod", "Alt"),
-  toggle_kebabcase: HotKey("-", "Alt"),
-  toggle_keyboard_input: HotKey("K", "Mod", "Shift"),
-  toggle_snakecase: HotKey("-", "Shift", "Alt"),
-  toggle_underline: HotKey("N", "Alt"),
-  toggle_uri_encoded_or_decoded: HotKey("U", "Mod", "Alt"),
-  transform_selections_to_lowercase: HotKey("L", "Alt"),
-  transform_selections_to_titlecase: HotKey("C", "Alt"),
-  transform_selections_to_uppercase: HotKey("U", "Alt"),
-  trim_selections: HotKey("T", "Alt")
-};
-var KEYSHOTS_MAPS = {
-  "clear": {},
-  "keyshots": DEFAULT_MAP,
-  "vscode": {
-    add_caret_down: HotKey("ArrowDown", "Mod", "Alt"),
-    add_caret_up: HotKey("ArrowUp", "Mod", "Alt"),
-    duplicate_line_down: HotKey("ArrowDown", "Shift", "Alt"),
-    duplicate_line_up: HotKey("ArrowUp", "Shift", "Alt"),
-    duplicate_selection_or_line: void 0,
-    expand_line_selections: HotKey("L", "Mod"),
-    insert_line_above: HotKey("Enter", "Mod", "Shift"),
-    insert_line_below: HotKey("Enter", "Mod"),
-    join_selected_lines: HotKey("J", "Mod"),
-    move_line_down: HotKey("ArrowDown", "Alt"),
-    move_line_up: HotKey("ArrowUp", "Alt"),
-    select_all_word_instances: HotKey("L", "Mod", "Shift"),
-    select_multiple_word_instances: HotKey("D", "Mod"),
-    toggle_case_jetbrains: void 0
-  },
-  "jetbrains": {
-    add_caret_down: void 0,
-    add_caret_up: void 0,
-    duplicate_line_down: void 0,
-    duplicate_line_up: void 0,
-    duplicate_selection_or_line: HotKey("D", "Mod"),
-    expand_line_selections: HotKey("W", "Mod"),
-    insert_line_above: HotKey("Enter", "Mod", "Alt"),
-    insert_line_below: HotKey("Enter", "Shift"),
-    join_selected_lines: HotKey("J", "Mod", "Shift"),
-    move_line_down: HotKey("ArrowDown", "Shift", "Alt"),
-    move_line_up: HotKey("ArrowUp", "Shift", "Alt"),
-    select_all_word_instances: HotKey("J", "Mod", "Shift", "Alt"),
-    select_multiple_word_instances: HotKey("J", "Alt"),
-    toggle_case_jetbrains: HotKey("U", "Mod", "Shift")
-  },
-  "visual_studio": {
-    add_caret_down: HotKey("ArrowDown", "Shift", "Alt"),
-    add_caret_up: HotKey("ArrowUp", "Shift", "Alt"),
-    duplicate_line_down: void 0,
-    duplicate_line_up: void 0,
-    duplicate_selection_or_line: HotKey("D", "Mod"),
-    expand_line_selections: HotKey("=", "Shift", "Alt"),
-    insert_line_above: HotKey("Enter", "Mod"),
-    insert_line_below: HotKey("Enter", "Shift"),
-    move_line_down: HotKey("ArrowDown", "Alt"),
-    move_line_up: HotKey("ArrowUp", "Alt"),
-    select_all_word_instances: HotKey(";", "Shift", "Alt"),
-    select_multiple_word_instances: HotKey(".", "Shift", "Alt"),
-    toggle_case_jetbrains: void 0,
-    transform_selections_to_lowercase: HotKey("U", "Mod"),
-    transform_selections_to_uppercase: HotKey("U", "Mod", "Shift")
-  }
-};
-var mapBySettings = (plugin) => {
-  return ["clear", "keyshots"].contains(plugin.settings.ide_mappings) ? KEYSHOTS_MAPS[plugin.settings.ide_mappings] : { ...plugin.settings.keyshot_mappings ? DEFAULT_MAP : {}, ...KEYSHOTS_MAPS[plugin.settings.ide_mappings] };
-};
-
-// src/settings.ts
-var DEFAULT_SETTINGS = {
-  ide_mappings: "clear",
-  keyshot_mappings: true,
-  case_sensitive: true,
-  shuffle_rounds_amount: 10,
-  carets_via_double_ctrl: false,
-  quick_switch_via_double_shift: false,
-  command_palette_via_double_ctrl: false,
-  callouts_list: [],
-  open_file_command: "",
-  modal_table_last_used_rows: 2,
-  modal_table_last_used_columns: 2,
-  modal_regex_last_used_pattern: "",
-  modal_regex_last_used_replacer: "",
-  modal_regex_last_used_case_sensitivity: true,
-  modal_regex_last_used_selections_only: false,
-  modal_regex_last_used_preview: false
-};
-
-// src/commands.ts
-var import_obsidian9 = require("obsidian");
-
-// src/classes/editor-position-manipulator.ts
-var EditorPositionManipulator = class {
-  constructor(position, editor) {
-    this.ch = position.ch;
-    this.line = position.line;
-    this.editor = editor;
-  }
-  clone() {
-    return new EditorPositionManipulator({ ch: this.ch, line: this.line }, this.editor);
-  }
-  equals(pos) {
-    return this.line === pos.line && this.ch === pos.ch;
-  }
-  asEditorRange() {
-    return { from: this.toEditorPosition(), to: this.toEditorPosition() };
-  }
-  getLine() {
-    return this.editor.getLine(this.line);
-  }
-  setLine(text) {
-    this.editor.setLine(this.line, text);
-    return this;
-  }
-  movePos(line, ch) {
-    this.line += line;
-    this.ch += ch;
-    return this;
-  }
-  setPos(line, ch) {
-    this.line = line;
-    this.ch = ch;
-    return this;
-  }
-  moveToEndOfLine() {
-    this.ch = this.editor.getLine(this.line).length;
-    return this;
-  }
-  moveToStartOfLine() {
-    this.ch = 0;
-    return this;
-  }
-  toOffset() {
-    return this.editor.posToOffset(this);
-  }
-  toEditorPosition() {
-    return { line: this.line, ch: this.ch };
-  }
-  static documentStart(editor) {
-    return new EditorPositionManipulator({ ch: 0, line: 0 }, editor);
-  }
-  static mainCursor(editor) {
-    return new EditorPositionManipulator(editor.getCursor(), editor);
-  }
-};
-
-// src/classes/editor-selection-manipulator.ts
-var EditorSelectionManipulator = class {
-  constructor(selection, editor) {
-    this.sizeChange = 0;
-    this.anchor = new EditorPositionManipulator(selection.anchor, editor);
-    this.head = new EditorPositionManipulator(selection.head, editor);
-    this.editor = editor;
-  }
-  clone() {
-    return new EditorSelectionManipulator({ anchor: this.anchor.clone(), head: this.head.clone() }, this.editor);
-  }
-  equals(sel) {
-    return this.anchor.equals(sel.anchor) && this.head.equals(sel.head);
-  }
-  isCaret() {
-    return this.anchor.ch === this.head.ch && this.anchor.line === this.head.line;
-  }
-  isNormalized() {
-    return !(this.isOneLine() && this.anchor.ch > this.head.ch || this.anchor.line > this.head.line);
-  }
-  isOneLine() {
-    return this.anchor.line === this.head.line;
-  }
-  isOnSameLine(sel) {
-    return this.asNormalized().head.line === sel.asNormalized().anchor.line;
-  }
-  normalize() {
-    if (!this.isNormalized()) {
-      const [tAnchor, tHead] = [this.anchor, this.head];
-      this.anchor = tHead;
-      this.head = tAnchor;
-    }
-    return this;
-  }
-  asNormalized() {
-    return this.clone().normalize();
-  }
-  expand(addLine = false) {
-    this.normalize();
-    if (this.anchor.ch === 0 && this.head.ch === this.editor.getLine(this.head.line).length && addLine)
-      this.moveLines(0, 1);
-    this.setChars(0, this.editor.getLine(this.head.line).length);
-    return this;
-  }
-  asEditorRange() {
-    return { from: this.anchor, to: this.head };
-  }
-  asFromToPoints() {
-    const norm = this.asNormalized();
-    return [norm.anchor, norm.head];
-  }
-  toEditorSelection() {
-    return { anchor: this.anchor, head: this.head };
-  }
-  moveLines(anchor, head) {
-    this.anchor.line += anchor;
-    this.head.line += head != null ? head : anchor;
-    return this;
-  }
-  moveChars(anchor, head) {
-    this.anchor = new EditorPositionManipulator(this.editor.offsetToPos(this.editor.posToOffset(this.anchor) + anchor), this.editor);
-    this.head = new EditorPositionManipulator(this.editor.offsetToPos(this.editor.posToOffset(this.head) + (head != null ? head : anchor)), this.editor);
-    return this;
-  }
-  setLines(anchor, head) {
-    this.anchor.line = anchor;
-    this.head.line = head != null ? head : anchor;
-    return this;
-  }
-  setChars(anchor, head) {
-    this.anchor.ch = anchor;
-    this.head.ch = head != null ? head : anchor;
-    return this;
-  }
-  getText() {
-    return this.editor.getRange(...this.asFromToPoints());
-  }
-  replaceText(to, resize = false) {
-    this.sizeChange = to.length - this.getText().length;
-    this.editor.replaceRange(to, ...this.asFromToPoints());
-    if (resize)
-      this.moveChars(0, this.sizeChange);
-    return this;
-  }
-  selectWord() {
-    var _a, _b;
-    if (this.isCaret()) {
-      const txt = this.anchor.getLine();
-      const postCh = ((_a = txt.substring(this.anchor.ch).match(/^[^ ()[\]{},;]+/i)) != null ? _a : [""])[0].length;
-      const preCh = ((_b = txt.substring(0, this.anchor.ch).match(/[^ ()[\]{},;]+$/i)) != null ? _b : [""])[0].length;
-      this.moveChars(-preCh, postCh);
-    }
-    return this;
-  }
-  collapse() {
-    if (!this.isCaret())
-      this.head = this.anchor.clone();
-    return this;
-  }
-  get linesCount() {
-    const norm = this.asNormalized();
-    return norm.head.line - norm.anchor.line + 1;
-  }
-  get replaceSizeChange() {
-    return this.sizeChange;
-  }
-  static listSelections(editor) {
-    return editor.listSelections().map((s) => new EditorSelectionManipulator(s, editor));
-  }
-  static documentStart(editor) {
-    return new EditorSelectionManipulator({
-      anchor: EditorPositionManipulator.documentStart(editor),
-      head: EditorPositionManipulator.documentStart(editor)
-    }, editor);
-  }
-};
-
-// src/functions.ts
+// src/classes/DoubleKeyRegistry.ts
 var import_obsidian = require("obsidian");
-
-// src/classes/selections-processing.ts
-var SelectionsProcessing = class {
-  static selectionsProcessor(editor, arrCallback, fct) {
-    const selections = EditorSelectionManipulator.listSelections(editor);
-    const newSelections = [];
-    let lastSelection = void 0;
-    let shift = 0;
-    (arrCallback ? arrCallback(selections) : selections).forEach((sel, index) => {
-      if (lastSelection && lastSelection.isOnSameLine(sel) && sel.isOneLine()) {
-        shift += lastSelection.replaceSizeChange;
-        sel.moveChars(shift);
-      } else if (lastSelection && lastSelection.isOnSameLine(sel)) {
-        shift += lastSelection.replaceSizeChange;
-        sel.moveChars(shift, 0);
-        shift = 0;
-      } else
-        shift = 0;
-      lastSelection = fct(sel.clone(), index);
-      newSelections.push(lastSelection.toEditorSelection());
+var DoubleKeyRegistry = class extends import_obsidian.Component {
+  constructor(plugin) {
+    super();
+    this.cmds = {};
+    this.app = app;
+    this.cancelAction = false;
+    this.lastReleasedKey = void 0;
+    this.lastPressedKey = void 0;
+    this.activeCommands = [];
+    this.pressedKeys = /* @__PURE__ */ new Set();
+    this.lastAction = void 0;
+    this.plugin = plugin;
+    this.statusBarItem = this.plugin.addStatusBarItem();
+    this.statusBarIcon = this.statusBarItem.createSpan({ cls: "status-bar-item-icon" });
+    (0, import_obsidian.setIcon)(this.statusBarIcon, "keyboard");
+    this.statusBarItem.setAttr("data-tooltip-position", "top");
+    this.setStatusBarState();
+    const elem = window;
+    this.plugin.registerDomEvent(elem, "keydown", (ev) => this.onKeyPress(ev));
+    this.plugin.registerDomEvent(elem, "keyup", (ev) => this.onKeyRelease(ev));
+    this.plugin.registerDomEvent(elem, "mousedown", () => {
+      if (!this.hasAnyCommandRegistered)
+        return;
+      this.cancelCurrentCommand(true);
     });
-    if (newSelections.length > 0)
-      editor.setSelections(newSelections);
-  }
-  static selectionsReplacer(editor, fct) {
-    this.selectionsProcessor(editor, (arr) => arr.filter((s) => !s.isCaret()), (sel) => sel.replaceText(fct(sel.getText()), true));
-  }
-  static selectionsUpdater(editor, arrCallback, fct) {
-    const selections = EditorSelectionManipulator.listSelections(editor);
-    const newSelections = [];
-    (arrCallback ? arrCallback(selections) : selections).forEach((sel, index) => newSelections.push(...fct(new EditorSelectionManipulator(sel, editor), index).map((sel2) => sel2.toEditorSelection())));
-    if (newSelections.length > 0)
-      editor.setSelections(newSelections);
-  }
-  static lowestSelection(selections) {
-    return selections.sort((a, b) => a.asNormalized().head.toOffset() - b.asNormalized().head.toOffset()).reverse()[0];
-  }
-  static selectionValuesEqual(selections, case_sensitive) {
-    return selections.every((val, _i, arr) => {
-      const [one, two] = [arr[0], val].map((s) => s.asNormalized().getText());
-      if (!case_sensitive)
-        return one.toLowerCase() === two.toLowerCase();
-      return one === two;
+    this.plugin.app.workspace.on("editor-change", () => {
+      if (!this.hasAnyCommandRegistered)
+        return;
+      this.cancelCurrentCommand(true);
     });
+  }
+  createKeyRecord(ev) {
+    return {
+      key: ev.key,
+      timeStamp: ev.timeStamp
+    };
+  }
+  setStatusBarState(commandName) {
+    this.statusBarItem.style.color = `var(--color-${commandName ? "green" : "orange"})`;
+    this.statusBarItem.setAttr("aria-label", "Keyshots: " + (commandName ? `command "${commandName}" is active` : `no double-key command active`));
+  }
+  onKeyPress(ev) {
+    if (!this.hasAnyCommandRegistered) {
+      return;
+    }
+    this.pressedKeys.add(ev.key);
+    this.cancelAction = false;
+    if (this.activeCommands.length > 0 && ev.key == this.activeCommands[0].key && this.pressedKeys.has(ev.key)) {
+      return;
+    }
+    this.lastPressedKey = this.createKeyRecord(ev);
+    if (this.lastReleasedKey && this.activeCommands.length === 0 && this.lastReleasedKey.key === ev.key) {
+      this.activeCommands = Object.values(this.cmds).filter((cmd) => cmd.key === ev.key);
+      this.activeCommands = this.activeCommands.filter((activeCommand) => {
+        return this.lastReleasedKey && Math.abs(ev.timeStamp - this.lastReleasedKey.timeStamp) <= activeCommand.maxDelay;
+      });
+      const firstCommandWithAnotherKeyPressedCallback2 = this.activeCommands.find((activeCommand) => {
+        return activeCommand.anotherKeyPressedCallback;
+      });
+      if (firstCommandWithAnotherKeyPressedCallback2) {
+        this.setStatusBarState(firstCommandWithAnotherKeyPressedCallback2.name);
+      }
+      const firstCommandWithLastPressedCallback = this.activeCommands.find((activeCommand) => {
+        return activeCommand.lastPressedCallback;
+      });
+      if (firstCommandWithLastPressedCallback && firstCommandWithLastPressedCallback.lastPressedCallback) {
+        this.lastAction = "lastPressed";
+        firstCommandWithLastPressedCallback.lastPressedCallback();
+        this.lastAction = void 0;
+      }
+      return;
+    }
+    const firstCommandWithAnotherKeyPressedCallback = this.activeCommands.find((activeCommand) => {
+      return activeCommand.anotherKeyPressedCallback;
+    });
+    if (firstCommandWithAnotherKeyPressedCallback && firstCommandWithAnotherKeyPressedCallback.anotherKeyPressedCallback) {
+      this.lastAction = "anotherKeyPressed";
+      firstCommandWithAnotherKeyPressedCallback.anotherKeyPressedCallback(ev);
+      this.lastAction = void 0;
+    } else if (this.lastReleasedKey && this.lastReleasedKey.key !== ev.key) {
+      this.cancelCurrentCommand();
+    }
+  }
+  onKeyRelease(ev) {
+    var _a, _b;
+    if (!this.hasAnyCommandRegistered) {
+      return;
+    }
+    this.pressedKeys.delete(ev.key);
+    if (this.cancelAction) {
+      return;
+    }
+    if (((_a = this.lastPressedKey) == null ? void 0 : _a.key) != ev.key && this.activeCommands.length > 0) {
+      this.cancelCurrentCommand();
+      return;
+    }
+    if (this.activeCommands.length === 0 && Object.values(this.cmds).map((c) => c.key).includes(ev.key)) {
+      this.lastReleasedKey = this.createKeyRecord(ev);
+    } else if (this.activeCommands.length > 0 && this.activeCommands[0].key === ev.key) {
+      const firstCommandWithLastReleasedCallback = this.activeCommands.find((activeCommand) => {
+        return activeCommand.lastReleasedCallback;
+      });
+      if (firstCommandWithLastReleasedCallback && this.lastPressedKey && Math.abs(ev.timeStamp - this.lastPressedKey.timeStamp) <= firstCommandWithLastReleasedCallback.maxDelay && firstCommandWithLastReleasedCallback.lastReleasedCallback) {
+        this.lastAction = "lastReleased";
+        firstCommandWithLastReleasedCallback.lastReleasedCallback(((_b = this.lastPressedKey) == null ? void 0 : _b.key) != ev.key);
+        this.lastAction = void 0;
+      }
+      this.cancelCurrentCommand(true);
+    }
+  }
+  cancelCurrentCommand(ingoreNextKeyUp = false) {
+    this.setStatusBarState();
+    this.cancelAction = ingoreNextKeyUp;
+    this.activeCommands = [];
+    this.lastReleasedKey = void 0;
+    this.lastAction = void 0;
+  }
+  onload() {
+    this.originalExecuteCommand = app.commands.executeCommand;
+    this.app.commands.executeCommand = (command, t) => {
+      var _a;
+      if (this.activeCommands.length > 0) {
+        for (const activeCommand of this.activeCommands) {
+          const whitelist = (_a = activeCommand.whitelistedCommands) != null ? _a : [];
+          const actionMatchesCommand = this.lastAction === "anotherKeyPressed" && activeCommand.anotherKeyPressedCallback || this.lastAction === "lastPressed" && activeCommand.lastPressedCallback || this.lastAction === "lastReleased" && activeCommand.lastReleasedCallback;
+          if (actionMatchesCommand && !whitelist.includes(command.id)) {
+            return false;
+          }
+        }
+      }
+      return this.originalExecuteCommand(command, t);
+    };
+  }
+  onunload() {
+    this.app.commands.executeCommand = this.originalExecuteCommand;
+  }
+  registerCommand(cmd) {
+    this.cmds[cmd.id] = cmd;
+    this.cancelCurrentCommand();
+  }
+  unregisterAllCommands() {
+    this.cancelCurrentCommand(true);
+    Object.keys(this.cmds).forEach((i) => delete this.cmds[i]);
+  }
+  get hasAnyCommandRegistered() {
+    return Object.keys(this.cmds).length !== 0;
   }
 };
 
-// src/functions.ts
-function moveLine(editor, direction, border) {
-  SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => {
-    if (direction === 1 ? sel.asNormalized().head.line === border : sel.asNormalized().anchor.line === border)
-      return sel;
-    const replaceSel = sel.asNormalized().moveLines(direction === -1 ? direction : 0, direction === 1 ? direction : 0).expand();
-    const tx = replaceSel.getText();
-    if (sel.isCaret())
-      replaceSel.replaceText(tx.split("\n").reverse().join("\n"));
-    else {
-      const pieces = [
-        tx.split("\n").slice(...direction === 1 ? [-1] : [0, 1])[0],
-        tx.split("\n").slice(...direction === 1 ? [void 0, -1] : [1]).join("\n")
-      ];
-      if (direction === -1)
-        pieces.reverse();
-      replaceSel.replaceText(pieces.join("\n"));
-    }
-    return sel.moveLines(direction);
-  });
-}
-function jetBrainsDuplicate(editor) {
-  SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => {
-    if (sel.isCaret()) {
-      const tx = sel.anchor.getLine();
-      sel.anchor.setLine(tx + "\n" + tx);
-      return sel.moveLines(1);
-    } else {
-      const tx = sel.asNormalized().getText();
-      return sel.asNormalized().replaceText(tx + tx).moveChars(tx.length);
-    }
-  });
-}
-function vscodeDuplicate(editor, direction) {
-  SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => {
-    if (sel.isCaret()) {
-      const tx = sel.anchor.getLine();
-      sel.anchor.setLine(tx + "\n" + tx);
-      if (direction > 0)
-        return sel.moveLines(1);
-    } else {
-      const replaceSel = sel.asNormalized().expand();
-      const tx = replaceSel.getText();
-      replaceSel.replaceText(tx + "\n" + tx);
-      if (direction > 0)
-        return sel.moveLines(sel.linesCount + 1);
-    }
-    return sel;
-  });
-}
-function addCarets(editor, direction, border) {
-  const selections = EditorSelectionManipulator.listSelections(editor).sort((a, b) => a.anchor.toOffset() - b.anchor.toOffset());
-  if (selections.filter((s) => !s.isCaret()).length > 0)
-    return;
-  const main = selections.filter((s) => s.anchor.line === editor.getCursor().line && s.anchor.ch === editor.getCursor().ch)[0];
-  let mainIndex = selections.indexOf(main);
-  const newSel = selections[direction > 0 ? selections.length - 1 : 0].clone();
-  if (newSel.anchor.line === border)
-    return;
-  newSel.moveLines(direction).setChars(Math.min(editor.getLine(newSel.anchor.line).length, main.anchor.ch));
-  if (direction === 1 /* DOWN */ && mainIndex !== 0)
-    selections.shift();
-  else if (direction === -1 /* UP */ && mainIndex !== selections.length - 1)
-    selections.pop();
-  else if (direction === 1 /* DOWN */)
-    selections.push(newSel);
-  else {
-    selections.unshift(newSel);
-    mainIndex++;
-  }
-  selections.splice(mainIndex, 1);
-  selections.unshift(main);
-  editor.setSelections(selections);
-  editor.scrollIntoView(newSel.anchor.clone().setPos(Math.min(editor.lineCount() - 1, newSel.anchor.line + direction * 2), newSel.anchor.ch).asEditorRange());
-}
-function insertLine(editor, direction) {
-  SelectionsProcessing.selectionsProcessor(editor, (s) => s.sort((a, b) => a.anchor.line - b.anchor.line), (sel, index) => {
-    const a = (ln) => {
-      const tx = [editor.getLine(ln), "\n"];
-      if (direction < 0)
-        tx.reverse();
-      editor.setLine(ln, tx.join(""));
-      return EditorSelectionManipulator.documentStart(editor).setLines(ln + (direction > 0 ? direction : 0));
-    };
-    if (sel.isCaret())
-      return a(sel.anchor.line + index);
-    else {
-      const normSel = sel.asNormalized();
-      return a((direction > 0 ? normSel.anchor.line : normSel.head.line) + index);
-    }
-  });
-}
-function flipBooleanSetting(app2, setting) {
-  app2.vault.setConfig(setting, !app2.vault.getConfig(setting));
-}
-function replaceSelections(editor, transformFct) {
-  SelectionsProcessing.selectionsReplacer(editor, transformFct);
-}
-function convertURI(editor) {
-  SelectionsProcessing.selectionsReplacer(editor, (s) => {
-    try {
-      const decoded = decodeURI(s);
-      if (decoded === s)
-        return encodeURI(s);
-      return decoded;
-    } catch (e) {
-      return encodeURI(s);
-    }
-  });
-}
-function splitSelectedTextOnNewLine(editor) {
-  let index = 0;
-  SelectionsProcessing.selectionsProcessor(editor, (arr) => arr.sort((a, b) => a.anchor.line - b.anchor.line), (sel) => {
-    if (sel.isCaret())
-      return sel;
-    else {
-      const replaceSel = sel.moveLines(index).normalize();
-      const tx = replaceSel.getText();
-      replaceSel.replaceText("\n" + tx + "\n");
-      index += (tx.split("\n") || []).length + 1;
-      return sel.moveLines(1).expand();
-    }
-  });
-}
-function sortSelectedLines(editor) {
-  SelectionsProcessing.selectionsProcessor(editor, (arr) => arr.filter((s) => !s.isCaret()), (sel) => {
-    const replaceSel = sel.asNormalized().expand();
-    replaceSel.replaceText(replaceSel.getText().split("\n").sort((a, b) => a.localeCompare(b, void 0, { numeric: true, sensitivity: "base" })).join("\n"));
-    return sel;
-  });
-}
-function selectWordInstances(editor, case_sensitive) {
-  var _a, _b;
-  const selections = EditorSelectionManipulator.listSelections(editor);
-  let range;
-  if (selections.filter((s) => s.isCaret()).length > 0) {
-    selections.filter((s) => s.isCaret()).forEach((sel, i) => selections[i] = sel.selectWord());
-  } else if (selections.filter((s) => !s.isCaret()).length === selections.length && SelectionsProcessing.selectionValuesEqual(selections, case_sensitive)) {
-    const sel = SelectionsProcessing.lowestSelection(selections).normalize();
-    const tx = !case_sensitive ? sel.getText().toLowerCase() : sel.getText();
-    const match = (!case_sensitive ? editor.getValue().toLowerCase() : editor.getValue()).substring(sel.head.toOffset()).match(tx);
-    if (match !== null) {
-      const matchSel = EditorSelectionManipulator.documentStart(editor).setChars(sel.head.toOffset()).moveChars((_a = match.index) != null ? _a : 0, ((_b = match.index) != null ? _b : 0) + tx.length);
-      selections.push(matchSel);
-      range = matchSel.asEditorRange();
-    } else {
-      let editorSearchText = !case_sensitive ? editor.getValue().toLowerCase() : editor.getValue();
-      let shift = 0;
-      let match2 = editorSearchText.match(tx);
-      while (match2 !== null) {
-        const prevTx = (!case_sensitive ? editor.getValue().toLowerCase() : editor.getValue()).substring(0, shift + ((match2 == null ? void 0 : match2.index) || 0));
-        const sel2 = EditorSelectionManipulator.documentStart(editor).moveChars(prevTx.length, prevTx.length + tx.length);
-        if (selections.filter((s) => s.equals(sel2)).length === 0) {
-          selections.push(sel2);
-          range = sel2.asEditorRange();
-          break;
-        } else {
-          shift += ((match2 == null ? void 0 : match2.index) || 0) + tx.length;
-          editorSearchText = editorSearchText.substring(((match2 == null ? void 0 : match2.index) || 0) + tx.length);
-        }
-        match2 = editorSearchText.match(tx);
-      }
-    }
-  } else
-    return;
-  editor.setSelections(selections);
-  if (range !== void 0)
-    editor.scrollIntoView(range);
-}
-function selectAllWordInstances(editor, case_sensitive) {
-  const selections = EditorSelectionManipulator.listSelections(editor);
-  selections.filter((s) => s.isCaret()).forEach((sel, i) => selections[i] = sel.selectWord());
-  if (selections.filter((s) => !s.isCaret()).length === selections.length && SelectionsProcessing.selectionValuesEqual(selections, case_sensitive)) {
-    const tx = selections[0].getText();
-    Array.from(editor.getValue().matchAll(new RegExp(tx, "g" + (case_sensitive ? "" : "i"))), (v) => v.index || 0).forEach((v) => {
-      selections.push(EditorSelectionManipulator.documentStart(editor).moveChars(v, v + tx.length));
-    });
-  } else
-    return;
-  editor.setSelections(selections);
-}
-function expandSelections(editor) {
-  SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => sel.expand(true));
-}
-async function toggleCaseSensitivity(plugin) {
-  plugin.settings.case_sensitive = !plugin.settings.case_sensitive;
-  const val = plugin.settings.case_sensitive;
-  new import_obsidian.Notice(`${val ? "\u{1F512}" : "\u{1F513}"} Keyshots actions are now case ${val ? "" : "in"}sensitive!`);
-  await plugin.saveSettings();
-}
-function splitSelectionsByLines(editor) {
-  SelectionsProcessing.selectionsUpdater(editor, void 0, (sel) => {
-    const selections = [];
-    if (sel.isCaret() || sel.isOneLine())
-      selections.push(sel);
-    else {
-      sel.normalize();
-      selections.push(sel.clone().setLines(sel.anchor.line).setChars(sel.anchor.ch, editor.getLine(sel.anchor.line).length));
-      for (let i = sel.anchor.line + 1; i < sel.head.line; i++)
-        selections.push(sel.clone().setLines(i).setChars(0, editor.getLine(i).length));
-      selections.push(sel.clone().setLines(sel.head.line).setChars(0, sel.head.ch));
-    }
-    return selections;
-  });
-}
-function shuffleSelectedLines(editor, rounds) {
-  SelectionsProcessing.selectionsProcessor(editor, (arr) => arr.filter((s) => !s.isCaret()), (sel) => {
-    const replaceSel = sel.asNormalized().expand();
-    let txt = replaceSel.getText();
-    for (let i = 0; i < rounds; i++)
-      txt = txt.split("\n").sort(() => Math.random() - 0.5).join("\n");
-    replaceSel.replaceText(txt);
-    return sel;
-  });
-}
-function openKeyshotsSettings(app2) {
-  if (app2.setting.activeTab === null)
-    app2.setting.open();
-  app2.setting.openTabById("keyshots");
-}
-function convertOneToOtherChars(editor, first, second) {
-  replaceSelections(editor, (tx) => {
-    const [underI, spaceI] = [tx.indexOf(first), tx.indexOf(second)];
-    const replaceFromTo = (s, ch1, ch2) => s.replace(new RegExp(ch1, "gm"), ch2);
-    if (underI !== -1 || spaceI !== -1)
-      return tx;
-    if (underI === -1)
-      return replaceFromTo(tx, second, first);
-    if (spaceI === -1)
-      replaceFromTo(tx, first, second);
-    if (underI > spaceI)
-      return replaceFromTo(tx, second, first);
-    return replaceFromTo(tx, first, second);
-  });
-}
-function surroundWithChars(editor, chars, endchars) {
-  SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => {
-    const surroundSel = sel.clone().normalize().moveChars(-chars.length, (endchars != null ? endchars : chars).length);
-    if (surroundSel.getText().startsWith(chars) && surroundSel.getText().endsWith(endchars != null ? endchars : chars)) {
-      return surroundSel.replaceText(surroundSel.getText().substring(chars.length, surroundSel.getText().length - (endchars != null ? endchars : chars).length)).moveChars(0, -chars.length - (endchars != null ? endchars : chars).length);
-    }
-    return sel.replaceText(chars + sel.getText() + (endchars != null ? endchars : chars)).moveChars(chars.length, sel.isOneLine() ? chars.length : 0);
-  });
-}
-function insertCodeBlock(editor, lang) {
-  let moveLine2 = 0;
-  SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => {
-    sel.moveLines(moveLine2);
-    moveLine2 += sel.linesCount + 1;
-    return sel.normalize().replaceText(`
-\`\`\`${lang.id}
-${sel.getText()}
-\`\`\`
-`).moveLines(2).setChars(0).expand();
-  });
-  editor.focus();
-}
-function addCaretsViaDoubleKey(plugin, ev) {
-  if (!["ArrowUp", "ArrowDown"].includes(ev.key))
-    return;
-  ev.preventDefault();
-  const view = plugin.app.workspace.getActiveViewOfType(import_obsidian.MarkdownView);
-  if (!view)
-    return;
-  addCarets(view.editor, ev.key === "ArrowUp" ? -1 /* UP */ : 1 /* DOWN */, ev.key === "ArrowUp" ? 0 : view.editor.lineCount());
-}
-function runCommandById(keyshotsPlugin, id, notAvailableCallback) {
-  if (Object.keys(keyshotsPlugin.app.commands.commands).contains(id))
-    keyshotsPlugin.app.commands.executeCommandById(id);
-  else
-    notAvailableCallback();
-}
-function insertOrdinalNumbering(editor) {
-  SelectionsProcessing.selectionsProcessor(editor, void 0, (sel, index) => {
-    return sel.replaceText((index + 1).toString(), true);
-  });
-}
-function reverseSelectedLines(editor) {
-  SelectionsProcessing.selectionsProcessor(editor, (arr) => arr.filter((s) => !s.isCaret()), (sel) => {
-    const replaceSel = sel.asNormalized().expand();
-    replaceSel.replaceText(replaceSel.getText().split("\n").reverse().join("\n"));
-    return sel;
-  });
-}
-function insertCallout(editor, id) {
-  let moveLine2 = 0;
-  SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => {
-    sel.moveLines(moveLine2);
-    moveLine2 += sel.linesCount - 2;
-    return sel.normalize().replaceText(`
->[!${id}]
-${sel.getText().split("\n").map((p) => "> " + p).join("\n")}
-`).moveLines(2).expand().moveChars(2, 0);
-  });
-  editor.focus();
-}
-function insertTable(editor, rows, column) {
-  SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => sel.normalize().replaceText(`
-|${"     |".repeat(column)}
-|${" --- |".repeat(column)}${("\n|" + "     |".repeat(column)).repeat(rows)}
-`).moveLines(1).moveChars(2));
-  editor.focus();
-}
-function replaceRegex(editor, regex, replacer, onlySelection) {
-  if (onlySelection)
-    SelectionsProcessing.selectionsReplacer(editor, (val) => val.replace(regex, replacer));
-  else
-    editor.setValue(editor.getValue().replace(regex, replacer));
-  editor.focus();
-}
-function selectByRegex(editor, regex, onlySelection) {
-  const selections = [];
-  if (onlySelection) {
-    EditorSelectionManipulator.listSelections(editor).forEach((sel) => {
-      Array.from(sel.getText().matchAll(regex)).forEach((value) => {
-        var _a;
-        const i = (_a = value.index) != null ? _a : 0;
-        selections.push(EditorSelectionManipulator.documentStart(editor).moveChars(sel.asNormalized().anchor.toOffset()).moveChars(i, i + value[0].length));
-      });
-    });
-  } else {
-    Array.from(editor.getValue().matchAll(regex)).forEach((value) => {
-      var _a;
-      const i = (_a = value.index) != null ? _a : 0;
-      selections.push(EditorSelectionManipulator.documentStart(editor).moveChars(i, i + value[0].length));
-    });
-  }
-  editor.setSelections(selections.map((v) => v.toEditorSelection()));
-  editor.focus();
-}
-function countRegexMatches(editor, regex, onlySelection) {
-  return (onlySelection ? EditorSelectionManipulator.listSelections(editor).map((s) => s.getText()) : [editor.getValue()]).map((v) => (v.match(regex) || []).length).reduce((part, a) => part + a, 0);
-}
-function toggleFocusMode() {
-  const isFocus = window.document.body.classList.contains("keyshots-focus-mode");
-  electron.remote.BrowserWindow.getAllWindows().forEach((w) => w.setFullScreen(!isFocus));
-  Array.of("left", "right").forEach((side) => {
-    const sideBar = document.querySelector(`div.mod-${side}-split`);
-    if (sideBar && !sideBar.classList.contains(`is-sidedock-collapsed`) && !isFocus)
-      app.commands.executeCommandById(`app:toggle-${side}-sidebar`);
-  });
-  const cls = window.document.body.classList;
-  if (isFocus)
-    cls.remove("keyshots-focus-mode");
-  else
-    cls.add("keyshots-focus-mode");
-}
-var FOLDING_REGEX = /#{1,6} .+/;
-function goToFolding(editor, direction) {
-  const cursor = EditorPositionManipulator.mainCursor(editor);
-  const isDown = () => direction == 1 /* DOWN */;
-  if (!editor.getValue().substring(isDown() ? cursor.toOffset() : 0, isDown() ? void 0 : cursor.toOffset()).includes("\n"))
-    return;
-  const browseDoc = editor.getValue().substring(isDown() ? cursor.clone().movePos(1, 0).moveToStartOfLine().toOffset() : 0, isDown() ? void 0 : cursor.clone().moveToEndOfLine().toOffset());
-  const lines = browseDoc.split("\n");
-  if (!isDown())
-    lines.reverse();
-  const currLine = editor.getLine(cursor.line);
-  const HEAD_REGEX = /^(#{1,6})\s/;
-  const LIST_REGEX = /^([\s\t]*)(?:[0-9]+\.|-(?=\s[^[])|- \[[ x]])\s/;
-  const ALL_FOLDING_REGEX = new RegExp(`${HEAD_REGEX.source}|${LIST_REGEX.source}`);
-  let currLineMatch = currLine.match(HEAD_REGEX);
-  if (currLineMatch) {
-    if (!lines.every((v, i) => {
-      const m = v.match(HEAD_REGEX);
-      if (!m)
-        return true;
-      if (m[1].length < (currLineMatch == null ? void 0 : currLineMatch[1].length))
-        return false;
-      if (m[1] != (currLineMatch == null ? void 0 : currLineMatch[1]))
-        return true;
-      editor.setCursor(cursor.setPos(isDown() ? cursor.line + 1 + i : cursor.line - i, m == null ? void 0 : m[0].length).toEditorPosition());
-      return false;
-    }))
-      return;
-  }
-  currLineMatch = currLine.match(LIST_REGEX);
-  if (currLineMatch) {
-    if (!lines.every((v, i, arr) => {
-      const m = v.match(LIST_REGEX);
-      if (!m)
-        return true;
-      if (m[1].length < (currLineMatch == null ? void 0 : currLineMatch[1].length))
-        return false;
-      if (m[1] != (currLineMatch == null ? void 0 : currLineMatch[1]))
-        return true;
-      const possibleChild = arr[i + direction] ? arr[i + direction].match(LIST_REGEX) : void 0;
-      const indentFactor = currLineMatch[0].startsWith("	") || possibleChild && possibleChild[0].startsWith("	") ? 1 : app.vault.getConfig("tabSize");
-      if (!(possibleChild && possibleChild[1].length == m[1].length + indentFactor))
-        return true;
-      editor.setCursor(cursor.setPos(isDown() ? cursor.line + 1 + i : cursor.line - i, m == null ? void 0 : m[0].length).toEditorPosition());
-      return false;
-    }))
-      return;
-  }
-  lines.every((v, i, arr) => {
-    const m = v.match(ALL_FOLDING_REGEX);
-    if (!m)
-      return true;
-    const indent = m[1] ? m[1] : m[2];
-    if (v.match(LIST_REGEX)) {
-      const possibleChild = arr[i + direction] ? arr[i + direction].match(LIST_REGEX) : void 0;
-      const indentFactor = possibleChild && possibleChild[0].startsWith("	") ? 1 : app.vault.getConfig("tabSize");
-      if (!(possibleChild && possibleChild[1].length == indent.length + indentFactor))
-        return true;
-    }
-    editor.setCursor(cursor.setPos(isDown() ? cursor.line + 1 + i : cursor.line - i, m == null ? void 0 : m[0].length).toEditorPosition());
-    return false;
-  });
-}
-function goToParentFolding(editor) {
-  const cursor = EditorPositionManipulator.mainCursor(editor);
-  if (!editor.getValue().substring(0, cursor.toOffset()).includes("\n"))
-    return;
-  const browseDoc = editor.getValue().substring(0, cursor.clone().movePos(-1, 0).moveToEndOfLine().toOffset());
-  const line = editor.getLine(cursor.line);
-  const listMatch = line.match(/^((?:\t| {4})*)(-|\d+\.|- \[[x ]]) /);
-  if (listMatch) {
-    const indentString = listMatch[1];
-    const indent = indentString.includes(" ") ? indentString.length / 4 : indentString.length;
-    if (!browseDoc.split("\n").reverse().every((v, i) => {
-      const prevMatch = v.match(new RegExp(`^(?:\\t| {4}){${indent - 1}}(-|\\d+\\.) `));
-      if (!prevMatch)
-        return true;
-      cursor.setPos(cursor.line - 1 - i, (indentString.includes(" ") ? indent * 4 : indent) + prevMatch[1].length);
-      editor.setCursor(cursor.line, cursor.ch);
-      return false;
-    }))
-      return;
-  }
-  const headingMatch = line.match(/^(#{1,6}) /);
-  if (headingMatch) {
-    const headingLevel = headingMatch[1].length;
-    if (!browseDoc.split("\n").reverse().every((v, i) => {
-      const prevMatch = v.match(new RegExp(`^#{1,${headingLevel - 1}} `));
-      if (!prevMatch)
-        return true;
-      cursor.setPos(cursor.line - 1 - i, prevMatch[0].length);
-      editor.setCursor(cursor.line, cursor.ch);
-      return false;
-    }))
-      return;
-  }
-  browseDoc.split("\n").reverse().every((v, i) => {
-    if (!v.match(FOLDING_REGEX))
-      return true;
-    editor.setCursor(cursor.movePos(-1 - i, 0).moveToStartOfLine().toEditorPosition());
-    return false;
-  });
-}
-
-// src/components/ide-preset-modal.tsx
+// src/components/settings-tab.ts
 var import_obsidian2 = require("obsidian");
 
-// src/svgs.ts
+// src/classes/DocumentFragmentBuilder.ts
+var _fragment;
+var DocumentFragmentBuilder = class {
+  constructor() {
+    __privateAdd(this, _fragment, void 0);
+    __privateSet(this, _fragment, document.createDocumentFragment());
+  }
+  appendText(text) {
+    __privateGet(this, _fragment).append(text);
+    return this;
+  }
+  createElem(tag, o) {
+    __privateGet(this, _fragment).createEl(tag, o);
+    return this;
+  }
+  toFragment() {
+    return __privateGet(this, _fragment);
+  }
+};
+_fragment = new WeakMap();
+
+// src/constants/SVGs.ts
 var VSCODE_SVG = `
 
 <svg height="32" width="32" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -23663,71 +23024,981 @@ var EMPTY_SVG = `
 <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
 `;
 
-// src/mappings/ide-info.ts
-var IDE_LABELS = {
-  "clear": {
+// src/utils.ts
+var HotKey = (key, ...mods) => ({ key, modifiers: mods });
+var satisfies = () => (u) => u;
+function flipBooleanSetting(app2, setting) {
+  app2.vault.setConfig(setting, !app2.vault.getConfig(setting));
+}
+function runCommandById(keyshotsPlugin, id, notAvailableCallback) {
+  if (Object.keys(keyshotsPlugin.app.commands.commands).contains(id))
+    keyshotsPlugin.app.commands.executeCommandById(id);
+  else
+    notAvailableCallback();
+}
+
+// src/constants/Presets.ts
+var presetsInfo = satisfies()({
+  clear: {
     name: "Clear",
     description: "Everything is blank, default preset when you install Keyshots",
-    svg_icon_content: EMPTY_SVG
+    iconSvgContent: EMPTY_SVG
   },
-  "keyshots": {
+  keyshots: {
     name: "Keyshots Default Mappings",
     description: "Hotkeys designed by creator of Keyshots that are 100% conflict free with Obsidian",
-    svg_icon_content: KEYSHOTS_SVG(32)
+    iconSvgContent: KEYSHOTS_SVG(32)
   },
-  "vscode": {
+  vscode: {
     name: "Visual Studio Code",
     description: "Compact text editor and light IDE for Web or Python development",
-    svg_icon_content: VSCODE_SVG
+    iconSvgContent: VSCODE_SVG
   },
-  "jetbrains": {
+  jetbrains: {
     name: "JetBrains IDEs",
     description: "Family of IDEs (IntelliJ IDEA, Pycharm, PhpStorm, WebStorm, ...) made by company JetBrains",
-    svg_icon_content: JETBRAINS_SVG
+    iconSvgContent: JETBRAINS_SVG
   },
-  "visual_studio": {
+  visual_studio: {
     name: "Microsoft Visual Studio",
     description: "IDE for making Windows desktop apps, or any other programs using C-Family languages or Visual Basic",
-    svg_icon_content: VS_SVG
+    iconSvgContent: VS_SVG
+  }
+});
+var PRESETS_INFO = presetsInfo;
+
+// src/constants/DefaultKeyshotsSettings.ts
+var DEFAULT_KEYSHOTS_SETTINGS = {
+  ide_mappings: "clear",
+  keyshot_mappings: true,
+  case_sensitive: true,
+  shuffle_rounds_amount: 10,
+  enable_carets_via_double_key_cmd: false,
+  key_carets_via_double_key_cmd: "Control",
+  enable_quick_switch_via_double_key_cmd: false,
+  key_quick_switch_via_double_key_cmd: "Shift",
+  enable_command_palette_via_double_key_cmd: false,
+  key_command_palette_via_double_key_cmd: "Control",
+  callouts_list: [],
+  open_file_command: "",
+  modal_table_last_used_rows: 2,
+  modal_table_last_used_columns: 2,
+  modal_regex_last_used_pattern: "",
+  modal_regex_last_used_replacer: "",
+  modal_regex_last_used_case_sensitivity: true,
+  modal_regex_last_used_selections_only: false,
+  modal_regex_last_used_preview: false
+};
+var DefaultKeyshotsSettings_default = DEFAULT_KEYSHOTS_SETTINGS;
+
+// src/components/settings-tab.ts
+function getOpenCommands() {
+  const cmds = {};
+  Array.of("switcher", "omnisearch", "darlal-switcher-plus").forEach((pluginId) => {
+    Object.values(app.commands.commands).filter((v) => v.id.startsWith(pluginId)).forEach((v) => cmds[v.id] = v.name);
+  });
+  return cmds;
+}
+var DOUBLE_KEY_OPTIONS = {
+  "Control": "Control",
+  "Shift": "Shift",
+  "Alt": "Alt"
+};
+var KeyshotsSettingTab = class extends import_obsidian2.PluginSettingTab {
+  constructor(app2, plugin) {
+    super(app2, plugin);
+    this.plugin = plugin;
+  }
+  display() {
+    const { containerEl } = this;
+    containerEl.classList.add("keyshots-settings");
+    containerEl.empty();
+    const title = containerEl.createEl("h1", { text: "Keyshots Settings" });
+    title.innerHTML = KEYSHOTS_SVG(48) + title.innerHTML;
+    title.setCssProps({ "display": "flex", "align-items": "center", "gap": "10px" });
+    containerEl.createEl("h2", { text: "\u2328\uFE0F Default keys" });
+    new import_obsidian2.Setting(containerEl).setName("IDE Keys Mapping").setDesc("Change default hotkeys based on IDE, that you are comfortable with. This does not overwrite your custom hotkeys!").setDesc(new DocumentFragmentBuilder().appendText("Change default hotkeys based on IDE, that you are comfortable with.").createElem("br").createElem("b", { text: "\u2757This does not overwrite your custom Keyshots hotkeys configuration!" }).toFragment()).addDropdown((cb) => cb.addOptions(Object.entries(PRESETS_INFO).reduce((acc, [id, presetInfo]) => {
+      acc[id] = presetInfo.name;
+      return acc;
+    }, {})).setValue(this.plugin.settings.ide_mappings).onChange(async (value) => {
+      await this.plugin.changePreset(value);
+    }));
+    new import_obsidian2.Setting(containerEl).setName("Default Keyshots hotkeys").setDesc(new DocumentFragmentBuilder().appendText("Sets default hotkeys for keyshots commands, that are not modified by IDE preset.").createElem("br").createElem("b", { text: "\u2757If you select clear preset, this setting will be ignored!" }).toFragment()).addToggle((cb) => cb.setValue(this.plugin.settings.keyshot_mappings).onChange(async (value) => {
+      this.plugin.settings.keyshot_mappings = value;
+      this.plugin.loadCommands();
+      await this.plugin.saveSettings();
+    }));
+    containerEl.createEl("h2", { text: "\u{1F527} Commands settings" });
+    new import_obsidian2.Setting(containerEl).setName("Case sensitivity").setDesc(new DocumentFragmentBuilder().appendText("Determines if Keyshots commands should be case sensitive. For toggling while editing text just simply use ").createElem("kbd", { text: " Ctrl + Alt + I" }).appendText(" hotkey if you are using default Keyshots binding!").toFragment()).addToggle((cb) => cb.setValue(this.plugin.settings.case_sensitive).onChange(async (value) => {
+      this.plugin.settings.case_sensitive = value;
+      await this.plugin.saveSettings();
+    }));
+    let slider;
+    new import_obsidian2.Setting(containerEl).setName("Shuffle rounds amount").setDesc(new DocumentFragmentBuilder().appendText("Number of rounds that will ").createElem("code", { text: "Shuffle selected lines" }).appendText(" command take. The more rounds it will take, the more random it will be!").toFragment()).addSlider((cb) => {
+      slider = cb;
+      slider.setValue(this.plugin.settings.shuffle_rounds_amount).setLimits(1, 50, 1).setDynamicTooltip().onChange(async (value) => {
+        this.plugin.settings.shuffle_rounds_amount = value;
+        await this.plugin.saveSettings();
+      });
+    }).addButton((cb) => cb.setIcon("refresh-ccw").setTooltip("Reset to default").onClick(async () => {
+      this.plugin.settings.shuffle_rounds_amount = DefaultKeyshotsSettings_default.shuffle_rounds_amount;
+      slider.setValue(DefaultKeyshotsSettings_default.shuffle_rounds_amount);
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian2.Setting(containerEl).setName("Custom callout types list").setDesc(new DocumentFragmentBuilder().appendText("Adds new callout types defined by user separated by new line (").createElem("kbd", { text: "Enter" }).appendText("), you can specify aliases as well on same line separated by comma ( ").createElem("kbd", { text: "," }).appendText(" ). These will be used in ").createElem("code", { text: "Better insert callout" }).appendText(" command to expand it's choice with user defined callouts.").toFragment()).addTextArea((cb) => cb.setValue(this.plugin.settings.callouts_list.join("\n")).onChange(async (v) => {
+      this.plugin.settings.callouts_list = v.split("\n");
+      await this.plugin.saveSettings();
+    }));
+    containerEl.createEl("h2", { text: "\u{1F527} JetBrains Features" });
+    let addCaretKeybinding = null;
+    new import_obsidian2.Setting(containerEl).setName(new DocumentFragmentBuilder().appendText("Double key caret adding shortcut").toFragment()).setDesc(new DocumentFragmentBuilder().appendText("Everytime when you press key twice and second one you'll hold, then when you press ").createElem("kbd", { text: "\u2193" }).appendText(" or ").createElem("kbd", { text: "\u2191" }).appendText(' keys, Obsidian will add carets like will normaly do with "').createElem("b", { text: "Add carets up/down" }).appendText('" command.').toFragment()).addToggle((cb) => cb.setValue(this.plugin.settings.enable_carets_via_double_key_cmd).onChange(async (value) => {
+      this.plugin.settings.enable_carets_via_double_key_cmd = value;
+      await this.plugin.saveSettings();
+      addCaretKeybinding == null ? void 0 : addCaretKeybinding.setDisabled(!value);
+      this.plugin.loadDoubleKeyCommands();
+    }));
+    addCaretKeybinding = new import_obsidian2.Setting(containerEl).setClass("indent").setName("Keybinding").setDesc("Sets the modifier key for triggering caret placement using a double keypress.").addDropdown((cb) => cb.addOptions(DOUBLE_KEY_OPTIONS).setValue(this.plugin.settings.key_carets_via_double_key_cmd).onChange(async (value) => {
+      this.plugin.settings.key_carets_via_double_key_cmd = value;
+      await this.plugin.saveSettings();
+      this.plugin.loadDoubleKeyCommands();
+    }));
+    if (!this.plugin.settings.enable_carets_via_double_key_cmd) {
+      addCaretKeybinding.setDisabled(true);
+    }
+    let searchEngineEl = null;
+    let openSwitchKeybinding = null;
+    new import_obsidian2.Setting(containerEl).setName(new DocumentFragmentBuilder().appendText("Opening switch modal via double key shortcut").toFragment()).setDesc(new DocumentFragmentBuilder().appendText("If you have any of switch engine selected, hitting key twice will select open switch modal window.").toFragment()).addToggle((cb) => cb.setValue(this.plugin.settings.enable_quick_switch_via_double_key_cmd).onChange(async (value) => {
+      this.plugin.settings.enable_quick_switch_via_double_key_cmd = value;
+      await this.plugin.saveSettings();
+      searchEngineEl == null ? void 0 : searchEngineEl.setDisabled(!value);
+      openSwitchKeybinding == null ? void 0 : openSwitchKeybinding.setDisabled(!value);
+      this.plugin.loadDoubleKeyCommands();
+    }));
+    openSwitchKeybinding = new import_obsidian2.Setting(containerEl).setClass("indent").setName("Keybinding").setDesc("Sets the modifier key for opening the switch modal with a double keypress.").addDropdown((cb) => cb.addOptions(DOUBLE_KEY_OPTIONS).setValue(this.plugin.settings.key_quick_switch_via_double_key_cmd).onChange(async (value) => {
+      this.plugin.settings.key_quick_switch_via_double_key_cmd = value;
+      await this.plugin.saveSettings();
+      this.plugin.loadDoubleKeyCommands();
+    }));
+    searchEngineEl = new import_obsidian2.Setting(containerEl).setName(new DocumentFragmentBuilder().appendText("Engine selection").toFragment()).setDesc(new DocumentFragmentBuilder().appendText("Here you can select any of supported switch engines.").createElem("br").appendText("Currently supported: Quick switcher, ").createElem("a", { text: "Omnisearch", href: "https://obsidian.md/plugins?id=omnisearch" }).appendText(", ").createElem("a", { text: "Quick Switcher++", href: "https://obsidian.md/plugins?id=darlal-switcher-plus" }).appendText(".").toFragment()).setClass("indent").addDropdown((cb) => {
+      const cmds = getOpenCommands();
+      const currSetting = this.plugin.settings.open_file_command;
+      cb.addOption("", "-- No engine selected --");
+      cb.addOptions(cmds);
+      cb.setValue(Object.keys(cmds).contains(currSetting) ? currSetting : "");
+      cb.onChange(async (value) => {
+        this.plugin.settings.open_file_command = value;
+        await this.plugin.saveSettings();
+      });
+    });
+    if (!this.plugin.settings.enable_quick_switch_via_double_key_cmd) {
+      searchEngineEl.setDisabled(true);
+      openSwitchKeybinding.setDisabled(true);
+    }
+    let commandPaletteKeybinding = null;
+    new import_obsidian2.Setting(containerEl).setName(new DocumentFragmentBuilder().appendText("Opening Command-Palette via double key shortcut").toFragment()).setDesc(new DocumentFragmentBuilder().appendText("If you have Command Palette plugin enabled, hitting twice will open command palette window.").toFragment()).addToggle((cb) => cb.setValue(this.plugin.settings.enable_command_palette_via_double_key_cmd).onChange(async (value) => {
+      this.plugin.settings.enable_command_palette_via_double_key_cmd = value;
+      await this.plugin.saveSettings();
+      commandPaletteKeybinding == null ? void 0 : commandPaletteKeybinding.setDisabled(!value);
+      this.plugin.loadDoubleKeyCommands();
+    }));
+    commandPaletteKeybinding = new import_obsidian2.Setting(containerEl).setClass("indent").setName("Keybinding").setDesc("Sets the modifier key for opening the command palette with a double keypress.").addDropdown((cb) => cb.addOptions(DOUBLE_KEY_OPTIONS).setValue(this.plugin.settings.key_command_palette_via_double_key_cmd).onChange(async (value) => {
+      this.plugin.settings.key_command_palette_via_double_key_cmd = value;
+      await this.plugin.saveSettings();
+      this.plugin.loadDoubleKeyCommands();
+    }));
+    if (!this.plugin.settings.enable_command_palette_via_double_key_cmd) {
+      commandPaletteKeybinding.setDisabled(true);
+    }
   }
 };
 
-// src/components/ide-preset-modal.tsx
-var import_client = __toESM(require_client());
-var React = __toESM(require_react());
-var IDEPresetModal = class extends import_obsidian2.SuggestModal {
-  constructor(plugin) {
+// src/constants/VerticalDirection.ts
+var VerticalDirection = /* @__PURE__ */ ((VerticalDirection2) => {
+  VerticalDirection2[VerticalDirection2["UP"] = -1] = "UP";
+  VerticalDirection2[VerticalDirection2["DOWN"] = 1] = "DOWN";
+  return VerticalDirection2;
+})(VerticalDirection || {});
+var VerticalDirection_default = VerticalDirection;
+
+// src/classes/EditorPositionManipulator.ts
+var EditorPositionManipulator = class {
+  constructor(position, editor) {
+    this.ch = position.ch;
+    this.line = position.line;
+    this.editor = editor;
+  }
+  clone() {
+    return new EditorPositionManipulator({ ch: this.ch, line: this.line }, this.editor);
+  }
+  equals(pos) {
+    return this.line === pos.line && this.ch === pos.ch;
+  }
+  asEditorRange() {
+    return { from: this.toEditorPosition(), to: this.toEditorPosition() };
+  }
+  getLine() {
+    return this.editor.getLine(this.line);
+  }
+  setLine(text) {
+    this.editor.setLine(this.line, text);
+    return this;
+  }
+  movePos(line, ch) {
+    this.line += line;
+    this.ch += ch;
+    return this;
+  }
+  setPos(line, ch) {
+    this.line = line;
+    this.ch = ch;
+    return this;
+  }
+  moveToEndOfLine() {
+    this.ch = this.editor.getLine(this.line).length;
+    return this;
+  }
+  moveToStartOfLine() {
+    this.ch = 0;
+    return this;
+  }
+  toOffset() {
+    return this.editor.posToOffset(this);
+  }
+  toEditorPosition() {
+    return { line: this.line, ch: this.ch };
+  }
+  static documentStart(editor) {
+    return new EditorPositionManipulator({ ch: 0, line: 0 }, editor);
+  }
+  static mainCursor(editor) {
+    return new EditorPositionManipulator(editor.getCursor(), editor);
+  }
+};
+
+// src/classes/EditorSelectionManipulator.ts
+var EditorSelectionManipulator = class {
+  constructor(selection, editor) {
+    this.sizeChange = 0;
+    this.lineDifference = 0;
+    this.anchor = new EditorPositionManipulator(selection.anchor, editor);
+    this.head = new EditorPositionManipulator(selection.head, editor);
+    this.editor = editor;
+  }
+  clone() {
+    return new EditorSelectionManipulator({ anchor: this.anchor.clone(), head: this.head.clone() }, this.editor);
+  }
+  equals(sel) {
+    return this.anchor.equals(sel.anchor) && this.head.equals(sel.head);
+  }
+  isCaret() {
+    return this.anchor.ch === this.head.ch && this.anchor.line === this.head.line;
+  }
+  isNormalized() {
+    return !(this.isOneLine() && this.anchor.ch > this.head.ch || this.anchor.line > this.head.line);
+  }
+  isOneLine() {
+    return this.anchor.line === this.head.line;
+  }
+  isOnSameLine(sel) {
+    return this.asNormalized().head.line === sel.asNormalized().anchor.line;
+  }
+  normalize() {
+    if (!this.isNormalized()) {
+      const [tAnchor, tHead] = [this.anchor, this.head];
+      this.anchor = tHead;
+      this.head = tAnchor;
+    }
+    return this;
+  }
+  asNormalized() {
+    return this.clone().normalize();
+  }
+  expand(addLine = false) {
+    this.normalize();
+    if (this.anchor.ch === 0 && this.head.ch === this.editor.getLine(this.head.line).length && addLine)
+      this.moveLines(0, 1);
+    this.setChars(0, this.editor.getLine(this.head.line).length);
+    return this;
+  }
+  asEditorRange() {
+    return { from: this.anchor, to: this.head };
+  }
+  asFromToPoints() {
+    const norm = this.asNormalized();
+    return [norm.anchor, norm.head];
+  }
+  toEditorSelection() {
+    return { anchor: this.anchor, head: this.head };
+  }
+  moveLines(anchor, head) {
+    this.anchor.line += anchor;
+    this.head.line += head != null ? head : anchor;
+    return this;
+  }
+  moveChars(anchor, head) {
+    this.anchor = new EditorPositionManipulator(this.editor.offsetToPos(this.editor.posToOffset(this.anchor) + anchor), this.editor);
+    this.head = new EditorPositionManipulator(this.editor.offsetToPos(this.editor.posToOffset(this.head) + (head != null ? head : anchor)), this.editor);
+    return this;
+  }
+  setLines(anchor, head) {
+    this.anchor.line = anchor;
+    this.head.line = head != null ? head : anchor;
+    return this;
+  }
+  setChars(anchor, head) {
+    this.anchor.ch = anchor;
+    this.head.ch = head != null ? head : anchor;
+    return this;
+  }
+  getText() {
+    return this.editor.getRange(...this.asFromToPoints());
+  }
+  replaceText(to, resize = false) {
+    this.sizeChange = to.length - this.getText().length;
+    this.lineDifference = to.split("\n").length - this.linesCount;
+    this.editor.replaceRange(to, ...this.asFromToPoints());
+    if (resize)
+      this.moveChars(0, this.sizeChange);
+    return this;
+  }
+  selectWord() {
+    var _a, _b;
+    if (this.isCaret()) {
+      const txt = this.anchor.getLine();
+      const postCh = ((_a = txt.substring(this.anchor.ch).match(/^[^ ()[\]{},;]+/i)) != null ? _a : [""])[0].length;
+      const preCh = ((_b = txt.substring(0, this.anchor.ch).match(/[^ ()[\]{},;]+$/i)) != null ? _b : [""])[0].length;
+      this.moveChars(-preCh, postCh);
+    }
+    return this;
+  }
+  collapse() {
+    if (!this.isCaret())
+      this.head = this.anchor.clone();
+    return this;
+  }
+  withLineDifference(diff) {
+    this.lineDifference += diff;
+    return this;
+  }
+  get linesCount() {
+    const norm = this.asNormalized();
+    return norm.head.line - norm.anchor.line + 1;
+  }
+  get replaceSizeChange() {
+    return this.sizeChange;
+  }
+  get replaceLineDifference() {
+    return this.lineDifference;
+  }
+  static listSelections(editor) {
+    return editor.listSelections().map((s) => new EditorSelectionManipulator(s, editor));
+  }
+  static documentStart(editor) {
+    return new EditorSelectionManipulator({
+      anchor: EditorPositionManipulator.documentStart(editor),
+      head: EditorPositionManipulator.documentStart(editor)
+    }, editor);
+  }
+};
+
+// src/classes/SelectionsProcessing.ts
+var SelectionsProcessing = class {
+  static selectionsProcessor(editor, arrCallback, fct) {
+    const selections = EditorSelectionManipulator.listSelections(editor);
+    const newSelections = [];
+    let lastSelection = void 0;
+    let characterShift = 0;
+    let totalLineShift = 0;
+    (arrCallback ? arrCallback(selections) : selections).forEach((sel, index) => {
+      var _a;
+      if (lastSelection && lastSelection.isOnSameLine(sel) && sel.isOneLine()) {
+        characterShift += lastSelection.replaceSizeChange;
+        sel.moveChars(characterShift);
+      } else if (lastSelection && lastSelection.isOnSameLine(sel)) {
+        characterShift += lastSelection.replaceSizeChange;
+        sel.moveChars(characterShift, 0);
+        characterShift = 0;
+      } else
+        totalLineShift += (_a = lastSelection == null ? void 0 : lastSelection.replaceLineDifference) != null ? _a : 0;
+      sel.moveLines(totalLineShift);
+      lastSelection = fct(sel.clone(), index);
+      newSelections.push(lastSelection.toEditorSelection());
+    });
+    if (newSelections.length > 0)
+      editor.setSelections(newSelections);
+  }
+  static selectionsReplacer(editor, fct) {
+    this.selectionsProcessor(editor, (arr) => arr.filter((s) => !s.isCaret()), (sel) => sel.replaceText(fct(sel.getText()), true));
+  }
+  static selectionsUpdater(editor, arrCallback, fct) {
+    const selections = EditorSelectionManipulator.listSelections(editor);
+    const newSelections = [];
+    (arrCallback ? arrCallback(selections) : selections).forEach((sel, index) => newSelections.push(...fct(new EditorSelectionManipulator(sel, editor), index).map((sel2) => sel2.toEditorSelection())));
+    if (newSelections.length > 0)
+      editor.setSelections(newSelections);
+  }
+  static lowestSelection(selections) {
+    return selections.sort((a, b) => a.asNormalized().head.toOffset() - b.asNormalized().head.toOffset()).reverse()[0];
+  }
+  static selectionValuesEqual(selections, case_sensitive) {
+    return selections.every((val, _i, arr) => {
+      const [one, two] = [arr[0], val].map((s) => s.asNormalized().getText());
+      if (!case_sensitive)
+        return one.toLowerCase() === two.toLowerCase();
+      return one === two;
+    });
+  }
+  static surroundWithChars(editor, chars, endchars) {
+    SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => {
+      const surroundSel = sel.clone().normalize().moveChars(-chars.length, (endchars != null ? endchars : chars).length);
+      if (surroundSel.getText().startsWith(chars) && surroundSel.getText().endsWith(endchars != null ? endchars : chars)) {
+        return surroundSel.replaceText(surroundSel.getText().substring(chars.length, surroundSel.getText().length - (endchars != null ? endchars : chars).length)).moveChars(0, -chars.length - (endchars != null ? endchars : chars).length);
+      }
+      return sel.replaceText(chars + sel.getText() + (endchars != null ? endchars : chars)).moveChars(chars.length, sel.isOneLine() ? chars.length : 0);
+    });
+  }
+  static convertOneToOtherChars(editor, first, second) {
+    SelectionsProcessing.selectionsReplacer(editor, (tx) => {
+      const [underI, spaceI] = [tx.indexOf(first), tx.indexOf(second)];
+      const replaceFromTo = (s, ch1, ch2) => s.replace(new RegExp(ch1, "gm"), ch2);
+      if (underI !== -1 || spaceI !== -1)
+        return tx;
+      if (underI === -1)
+        return replaceFromTo(tx, second, first);
+      if (spaceI === -1)
+        replaceFromTo(tx, first, second);
+      if (underI > spaceI)
+        return replaceFromTo(tx, second, first);
+      return replaceFromTo(tx, first, second);
+    });
+  }
+};
+
+// src/commands/duplicate-line.ts
+function vscodeDuplicate(editor, direction) {
+  SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => {
+    if (sel.isCaret()) {
+      const tx = sel.anchor.getLine();
+      sel.anchor.setLine(tx + "\n" + tx);
+      if (direction > 0)
+        return sel.moveLines(1).withLineDifference(1);
+    } else {
+      const replaceSel = sel.asNormalized().expand();
+      const tx = replaceSel.getText();
+      replaceSel.replaceText(tx + "\n" + tx);
+      if (direction > 0)
+        return sel.moveLines(sel.linesCount).withLineDifference(sel.linesCount);
+    }
+    return sel.withLineDifference(sel.linesCount);
+  });
+}
+var duplicateLineDown = {
+  category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
+  id: "duplicate-line-down",
+  name: "Duplicate line down (Visual Studio Code)",
+  repeatable: true,
+  hotkeys: {
+    keyshots: [HotKey("ArrowDown", "Shift", "Alt")],
+    vscode: [HotKey("ArrowDown", "Shift", "Alt")],
+    jetbrains: null,
+    visual_studio: null
+  },
+  editorCallback: (editor) => vscodeDuplicate(editor, VerticalDirection_default.DOWN)
+};
+var duplicateLineUp = {
+  category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
+  id: "duplicate-line-up",
+  name: "Duplicate line up (Visual Studio Code)",
+  repeatable: true,
+  hotkeys: {
+    keyshots: [HotKey("ArrowUp", "Shift", "Alt")],
+    vscode: [HotKey("ArrowUp", "Shift", "Alt")],
+    jetbrains: null,
+    visual_studio: null
+  },
+  editorCallback: (editor) => vscodeDuplicate(editor, VerticalDirection_default.UP)
+};
+
+// src/commands/duplicate-selection-or-line.ts
+var duplicateSelectionOrLine = {
+  category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
+  id: "duplicate-selection-or-line",
+  name: "Duplicate selection or line (JetBrains IDEs)",
+  repeatable: true,
+  hotkeys: {
+    keyshots: [HotKey("D", "Mod", "Alt")],
+    vscode: null,
+    jetbrains: [HotKey("D", "Mod")],
+    visual_studio: [HotKey("D", "Mod")]
+  },
+  editorCallback: (editor) => {
+    SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => {
+      if (sel.isCaret()) {
+        const tx = sel.anchor.getLine();
+        sel.anchor.setLine(tx + "\n" + tx);
+        return sel.moveLines(1).withLineDifference(1);
+      } else {
+        const tx = sel.asNormalized().getText();
+        return sel.asNormalized().replaceText(tx + tx).moveChars(tx.length);
+      }
+    });
+  }
+};
+
+// src/commands/insert-line.ts
+function insertLine(editor, direction) {
+  SelectionsProcessing.selectionsProcessor(editor, (s) => s.sort((a, b) => a.anchor.line - b.anchor.line), (sel, index) => {
+    const a = (ln) => {
+      const tx = [editor.getLine(ln), "\n"];
+      if (direction < 0)
+        tx.reverse();
+      editor.setLine(ln, tx.join(""));
+      return EditorSelectionManipulator.documentStart(editor).setLines(ln + (direction > 0 ? direction : 0));
+    };
+    if (sel.isCaret())
+      return a(sel.anchor.line + index);
+    else {
+      const normSel = sel.asNormalized();
+      return a((direction > 0 ? normSel.anchor.line : normSel.head.line) + index);
+    }
+  });
+}
+var insertLineAbove = {
+  category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
+  id: "insert-line-above",
+  name: "Insert line above",
+  repeatable: true,
+  hotkeys: {
+    keyshots: [HotKey("Enter", "Mod", "Shift")],
+    vscode: [HotKey("Enter", "Mod", "Shift")],
+    jetbrains: [HotKey("Enter", "Mod", "Alt")],
+    visual_studio: [HotKey("Enter", "Mod")]
+  },
+  editorCallback: (editor) => insertLine(editor, VerticalDirection_default.UP)
+};
+var insertLineBelow = {
+  category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
+  id: "insert-line-below",
+  name: "Insert line below",
+  repeatable: true,
+  hotkeys: {
+    keyshots: [HotKey("Enter", "Shift")],
+    vscode: [HotKey("Enter", "Mod")],
+    jetbrains: [HotKey("Enter", "Shift")],
+    visual_studio: [HotKey("Enter", "Shift")]
+  },
+  editorCallback: (editor) => insertLine(editor, VerticalDirection_default.DOWN)
+};
+
+// src/commands/join-selected-lines.ts
+var joinSelectedLines = {
+  category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
+  id: "join-selected-lines",
+  name: "Join selected lines",
+  hotkeys: {
+    keyshots: [HotKey("J", "Mod", "Shift")],
+    vscode: [HotKey("J", "Mod")],
+    jetbrains: [HotKey("J", "Mod", "Shift")]
+  },
+  editorCallback: (editor) => {
+    SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => {
+      if (sel.isCaret() || sel.isOneLine()) {
+        if (sel.anchor.line === editor.lineCount() - 1) {
+          return sel;
+        }
+        const currentLineLength = editor.getLine(sel.anchor.line).length;
+        const expandedSelection = sel.clone().moveLines(0, 1).expand();
+        expandedSelection.replaceText(expandedSelection.getText().replace(/\n/g, " "));
+        if (sel.isOneLine() && !sel.isCaret()) {
+          return sel.withLineDifference(-1);
+        }
+        return sel.clone().setChars(currentLineLength, currentLineLength);
+      }
+      const len = sel.getText().length;
+      return sel.replaceText(sel.getText().replace(/\n/g, " ")).setLines(sel.anchor.line).moveChars(0, len);
+    });
+  }
+};
+
+// src/commands/move-selected-lines.ts
+function moveLine(editor, direction, border) {
+  SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => {
+    if (direction === 1 ? sel.asNormalized().head.line === border : sel.asNormalized().anchor.line === border)
+      return sel;
+    const replaceSel = sel.asNormalized().moveLines(direction === -1 ? direction : 0, direction === 1 ? direction : 0).expand();
+    const tx = replaceSel.getText();
+    if (sel.isCaret())
+      replaceSel.replaceText(tx.split("\n").reverse().join("\n"));
+    else {
+      const pieces = [
+        tx.split("\n").slice(...direction === 1 ? [-1] : [0, 1])[0],
+        tx.split("\n").slice(...direction === 1 ? [void 0, -1] : [1]).join("\n")
+      ];
+      if (direction === -1)
+        pieces.reverse();
+      replaceSel.replaceText(pieces.join("\n"));
+    }
+    return sel.moveLines(direction);
+  });
+}
+var moveSelectedLinesDown = {
+  category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
+  id: "move-selected-lines-down",
+  name: "Move selected lines down",
+  repeatable: true,
+  hotkeys: {
+    keyshots: [HotKey("ArrowDown", "Alt")],
+    vscode: [HotKey("ArrowDown", "Alt")],
+    jetbrains: [HotKey("ArrowDown", "Shift", "Alt")],
+    visual_studio: [HotKey("ArrowDown", "Alt")]
+  },
+  editorCallback: (editor) => moveLine(editor, VerticalDirection_default.DOWN, editor.lineCount() - 1)
+};
+var moveSelectedLinesUp = {
+  category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
+  id: "move-selected-lines-up",
+  name: "Move selected lines up",
+  repeatable: true,
+  hotkeys: {
+    keyshots: [HotKey("ArrowUp", "Alt")],
+    vscode: [HotKey("ArrowUp", "Alt")],
+    jetbrains: [HotKey("ArrowUp", "Shift", "Alt")],
+    visual_studio: [HotKey("ArrowUp", "Alt")]
+  },
+  editorCallback: (editor) => moveLine(editor, VerticalDirection_default.UP, 0)
+};
+
+// src/commands/reverse-selected-lines.ts
+var reverseSelectedLines = {
+  category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
+  id: "reverse-selected-lines",
+  name: "Reverse selected lines",
+  hotkeys: {
+    keyshots: [HotKey("R", "Alt")]
+  },
+  editorCallback: (editor) => SelectionsProcessing.selectionsProcessor(editor, (arr) => arr.filter((s) => !s.isCaret()), (sel) => {
+    const replaceSel = sel.asNormalized().expand();
+    replaceSel.replaceText(replaceSel.getText().split("\n").reverse().join("\n"));
+    return sel;
+  })
+};
+
+// src/commands/shuffle-selected-lines.ts
+var shuffleSelectedLines = (plugin) => ({
+  category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
+  id: "shuffle-selected-lines",
+  name: "Shuffle selected lines",
+  hotkeys: {
+    keyshots: [HotKey("S", "Mod", "Shift", "Alt")]
+  },
+  editorCallback: (editor) => SelectionsProcessing.selectionsProcessor(editor, (arr) => arr.filter((s) => !s.isCaret()), (sel) => {
+    const replaceSel = sel.asNormalized().expand();
+    let txt = replaceSel.getText();
+    const rounds = plugin.settings.shuffle_rounds_amount;
+    for (let i = 0; i < rounds; i++)
+      txt = txt.split("\n").sort(() => Math.random() - 0.5).join("\n");
+    replaceSel.replaceText(txt);
+    return sel;
+  })
+});
+
+// src/commands/sort-selected-lines.ts
+var sortSelectedLines = {
+  category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
+  id: "sort-selected-lines",
+  name: "Sort selected lines",
+  hotkeys: {
+    keyshots: [HotKey("S", "Mod", "Shift")]
+  },
+  editorCallback: (editor) => SelectionsProcessing.selectionsProcessor(editor, (arr) => arr.filter((s) => !s.isCaret()), (sel) => {
+    const replaceSel = sel.asNormalized().expand();
+    replaceSel.replaceText(replaceSel.getText().split("\n").sort((a, b) => a.localeCompare(b, void 0, { numeric: true, sensitivity: "base" })).join("\n"));
+    return sel;
+  })
+};
+
+// src/components/callout-picker-modal.ts
+var import_obsidian4 = require("obsidian");
+
+// src/components/abstract/callback-suggest-modal.ts
+var import_obsidian3 = require("obsidian");
+var CallbackSuggestModal = class extends import_obsidian3.SuggestModal {
+  constructor(plugin, onSelectCallback) {
     super(plugin.app);
-    this.root = null;
     this.plugin = plugin;
-    this.setPlaceholder("Choose one of these presets to use...");
+    this.onSelectCallback = onSelectCallback;
+  }
+  onChooseSuggestion(item, evt) {
+    this.onSelectCallback(item, evt);
+  }
+};
+var CallbackFuzzySuggestModal = class extends import_obsidian3.FuzzySuggestModal {
+  constructor(app2, onSelectCallback) {
+    super(app2.app);
+    this.onSelectCallback = onSelectCallback;
+  }
+  onChooseItem(item, evt) {
+    this.onSelectCallback(item, evt);
+  }
+};
+
+// src/components/callout-picker-modal.ts
+var _CalloutPickerModal = class extends CallbackSuggestModal {
+  constructor(plugin, onSelectCallback) {
+    super(plugin, onSelectCallback);
+    this.setPlaceholder("Select one of the callouts... (callouts are searchable by it's id or aliases)");
   }
   getSuggestions(query) {
-    return Object.values(IDE_LABELS).filter((v) => v.name.toLowerCase().includes(query.toLowerCase()));
-  }
-  async onChooseSuggestion(item, evt) {
-    await this.plugin.changePreset(Object.keys(IDE_LABELS).filter((f) => IDE_LABELS[f] === item)[0]);
-    new import_obsidian2.Notice(`\u2705 Preset successfully changed to "${item.name}"!`);
+    return _CalloutPickerModal.ROOT_CALLOUTS.concat(this.plugin.settings.callouts_list.filter((v) => v.length > 0 && v.replace(/\s/g, "").length != 0).map((v) => v.split(","))).filter((ids) => ids.filter((id) => id.includes(query.toLowerCase())).length > 0).map((ids) => ids[0]);
   }
   renderSuggestion(value, el) {
-    this.root = (0, import_client.createRoot)(el);
-    this.root.render(/* @__PURE__ */ React.createElement("div", {
-      style: { "display": "flex", "gap": "10px", "alignItems": "center" }
-    }, /* @__PURE__ */ React.createElement("div", {
-      style: { display: "flex" },
-      dangerouslySetInnerHTML: { __html: value.svg_icon_content }
-    }), /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("div", null, value.name), /* @__PURE__ */ React.createElement("small", {
-      style: { opacity: 0.8 }
-    }, value.description))));
+    import_obsidian4.MarkdownRenderer.renderMarkdown(`>[!${value}]`, el, "", new import_obsidian4.Component()).then(() => {
+      const callout = el.childNodes.item(0);
+      callout.setCssProps({ "margin": "0" });
+    });
   }
-  onClose() {
-    var _a;
-    (_a = this.root) == null ? void 0 : _a.unmount();
+};
+var CalloutPickerModal = _CalloutPickerModal;
+CalloutPickerModal.ROOT_CALLOUTS = [
+  ["note"],
+  ["abstract", "summary", "tldr"],
+  ["info"],
+  ["tip", "hint", "important"],
+  ["success", "check", "done"],
+  ["question", "help", "faq"],
+  ["warning", "caution", "attention"],
+  ["failure", "fail", "missing"],
+  ["danger", "error"],
+  ["bug"],
+  ["example"],
+  ["quote", "cite"]
+];
+
+// src/commands/better-insert-callout.ts
+var betterInsertCallout = (plugin) => ({
+  category: "Insert Components" /* INSERT_COMPONENTS */,
+  id: "better-insert-callout",
+  name: "Better insert callout",
+  hotkeys: {
+    keyshots: [HotKey("C", "Shift", "Alt")]
+  },
+  editorCallback: (editor) => new CalloutPickerModal(plugin, (calloutId) => {
+    SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => {
+      return sel.normalize().replaceText(`
+>[!${calloutId}]
+${sel.getText().split("\n").map((p) => "> " + p).join("\n")}
+`).moveLines(2).expand().moveChars(2, 0);
+    });
+    editor.focus();
+  }).open()
+});
+
+// src/commands/add-caret.ts
+function addCarets(editor, direction, border) {
+  const selections = EditorSelectionManipulator.listSelections(editor).sort((a, b) => a.anchor.toOffset() - b.anchor.toOffset());
+  if (selections.filter((s) => !s.isCaret()).length > 0)
+    return;
+  const main = selections.filter((s) => s.anchor.line === editor.getCursor().line && s.anchor.ch === editor.getCursor().ch)[0];
+  let mainIndex = selections.indexOf(main);
+  const newSel = selections[direction > 0 ? selections.length - 1 : 0].clone();
+  if (newSel.anchor.line === border)
+    return;
+  newSel.moveLines(direction).setChars(Math.min(editor.getLine(newSel.anchor.line).length, main.anchor.ch));
+  if (direction === VerticalDirection_default.DOWN && mainIndex !== 0)
+    selections.shift();
+  else if (direction === VerticalDirection_default.UP && mainIndex !== selections.length - 1)
+    selections.pop();
+  else if (direction === VerticalDirection_default.DOWN)
+    selections.push(newSel);
+  else {
+    selections.unshift(newSel);
+    mainIndex++;
+  }
+  selections.splice(mainIndex, 1);
+  selections.unshift(main);
+  editor.setSelections([newSel]);
+  editor.setSelections(selections);
+  editor.scrollIntoView(newSel.anchor.clone().setPos(Math.min(editor.lineCount() - 1, newSel.anchor.line + direction * 2), newSel.anchor.ch).asEditorRange());
+}
+var addCaretDown = {
+  category: "Selection Adding or Removing" /* SELECTION_ADD_OR_REMOVE */,
+  id: "add-caret-down",
+  name: "Add caret cursor down",
+  repeatable: true,
+  hotkeys: {
+    keyshots: [HotKey("ArrowDown", "Mod", "Alt")],
+    vscode: [HotKey("ArrowDown", "Mod", "Alt")],
+    jetbrains: null,
+    visual_studio: [HotKey("ArrowDown", "Shift", "Alt")]
+  },
+  editorCallback: (editor) => addCarets(editor, VerticalDirection_default.DOWN, editor.lineCount())
+};
+var addCaretUp = {
+  category: "Selection Adding or Removing" /* SELECTION_ADD_OR_REMOVE */,
+  id: "add-caret-up",
+  name: "Add caret cursor up",
+  repeatable: true,
+  hotkeys: {
+    keyshots: [HotKey("ArrowUp", "Mod", "Alt")],
+    vscode: [HotKey("ArrowUp", "Mod", "Alt")],
+    jetbrains: null,
+    visual_studio: [HotKey("ArrowUp", "Shift", "Alt")]
+  },
+  editorCallback: (editor) => addCarets(editor, VerticalDirection_default.UP, 0)
+};
+
+// src/commands/expand-line-selection.ts
+var expandLineSelection = {
+  category: "Transform Selections" /* TRANSFORM_SELECTIONS */,
+  id: "expand-line-selections",
+  name: "Expand line selections",
+  hotkeys: {
+    keyshots: [HotKey("E", "Alt")],
+    vscode: [HotKey("L", "Mod")],
+    jetbrains: [HotKey("W", "Mod")],
+    visual_studio: [HotKey("=", "Shift", "Alt")]
+  },
+  editorCallback: (editor) => SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => sel.expand(true))
+};
+
+// src/commands/select-all-word-instances.ts
+var selectAllWordInstances = (plugin) => ({
+  category: "Selection Adding or Removing" /* SELECTION_ADD_OR_REMOVE */,
+  id: "select-all-word-instances",
+  name: "Select all word instances",
+  hotkeys: {
+    keyshots: [HotKey("L", "Mod", "Shift")],
+    vscode: [HotKey("L", "Mod", "Shift")],
+    jetbrains: [HotKey("J", "Mod", "Shift", "Alt")],
+    visual_studio: [HotKey(";", "Shift", "Alt")]
+  },
+  editorCallback: (editor) => {
+    const case_sensitive = plugin.settings.case_sensitive;
+    const selections = EditorSelectionManipulator.listSelections(editor);
+    selections.filter((s) => s.isCaret()).forEach((sel, i) => selections[i] = sel.selectWord());
+    if (selections.filter((s) => !s.isCaret()).length === selections.length && SelectionsProcessing.selectionValuesEqual(selections, case_sensitive)) {
+      const tx = selections[0].getText();
+      Array.from(editor.getValue().matchAll(new RegExp(tx, "g" + (case_sensitive ? "" : "i"))), (v) => v.index || 0).forEach((v) => {
+        selections.push(EditorSelectionManipulator.documentStart(editor).moveChars(v, v + tx.length));
+      });
+    } else
+      return;
+    editor.setSelections(selections);
+  }
+});
+
+// src/commands/select-multiple-word-instances.ts
+var selectMultipleWordInstances = (plugin) => ({
+  category: "Selection Adding or Removing" /* SELECTION_ADD_OR_REMOVE */,
+  id: "select-multiple-word-instances",
+  name: "Select multiple word instances",
+  hotkeys: {
+    keyshots: [HotKey("D", "Mod")],
+    vscode: [HotKey("D", "Mod")],
+    jetbrains: [HotKey("J", "Alt")],
+    visual_studio: [HotKey(".", "Shift", "Alt")]
+  },
+  editorCallback: (editor) => {
+    var _a, _b;
+    const case_sensitive = plugin.settings.case_sensitive;
+    const selections = EditorSelectionManipulator.listSelections(editor);
+    let range;
+    if (selections.filter((s) => s.isCaret()).length > 0) {
+      selections.filter((s) => s.isCaret()).forEach((sel, i) => selections[i] = sel.selectWord());
+    } else if (selections.filter((s) => !s.isCaret()).length === selections.length && SelectionsProcessing.selectionValuesEqual(selections, case_sensitive)) {
+      const sel = SelectionsProcessing.lowestSelection(selections).normalize();
+      const tx = !case_sensitive ? sel.getText().toLowerCase() : sel.getText();
+      const match = (!case_sensitive ? editor.getValue().toLowerCase() : editor.getValue()).substring(sel.head.toOffset()).match(tx);
+      if (match !== null) {
+        const matchSel = EditorSelectionManipulator.documentStart(editor).setChars(sel.head.toOffset()).moveChars((_a = match.index) != null ? _a : 0, ((_b = match.index) != null ? _b : 0) + tx.length);
+        selections.push(matchSel);
+        range = matchSel.asEditorRange();
+      } else {
+        let editorSearchText = !case_sensitive ? editor.getValue().toLowerCase() : editor.getValue();
+        let shift = 0;
+        let match2 = editorSearchText.match(tx);
+        while (match2 !== null) {
+          const prevTx = (!case_sensitive ? editor.getValue().toLowerCase() : editor.getValue()).substring(0, shift + ((match2 == null ? void 0 : match2.index) || 0));
+          const sel2 = EditorSelectionManipulator.documentStart(editor).moveChars(prevTx.length, prevTx.length + tx.length);
+          if (selections.filter((s) => s.equals(sel2)).length === 0) {
+            selections.push(sel2);
+            range = sel2.asEditorRange();
+            break;
+          } else {
+            shift += ((match2 == null ? void 0 : match2.index) || 0) + tx.length;
+            editorSearchText = editorSearchText.substring(((match2 == null ? void 0 : match2.index) || 0) + tx.length);
+          }
+          match2 = editorSearchText.match(tx);
+        }
+      }
+    } else
+      return;
+    editor.setSelections(selections);
+    if (range !== void 0)
+      editor.scrollIntoView(range);
+  }
+});
+
+// src/commands/toggle-case-jetbrains.ts
+var toggleCaseJetbrains = {
+  category: "Replace Selections" /* REPLACE_SELECTIONS */,
+  id: "toggle-case-jetbrains",
+  name: "Toggle case (JetBrains)",
+  hotkeys: {
+    keyshots: [HotKey("U", "Mod", "Shift")],
+    vscode: void 0,
+    jetbrains: [HotKey("U", "Mod", "Shift")],
+    visual_studio: void 0
+  },
+  editorCallback: (editor) => SelectionsProcessing.selectionsReplacer(editor, (str) => str === str.toLowerCase() ? str.toUpperCase() : str.toLowerCase())
+};
+
+// src/commands/transform-selections-to-lowercase.ts
+var transformSelectionsToLowercase = {
+  category: "Replace Selections" /* REPLACE_SELECTIONS */,
+  id: "transform-selections-to-lowercase",
+  name: "Transform selections to lowercase",
+  hotkeys: {
+    keyshots: [HotKey("L", "Alt")],
+    visual_studio: [HotKey("U", "Mod")]
+  },
+  editorCallback: (editor) => SelectionsProcessing.selectionsReplacer(editor, (s) => s.toLowerCase())
+};
+
+// src/commands/transform-selections-to-uppercase.ts
+var transformSelectionsToUppercase = {
+  category: "Replace Selections" /* REPLACE_SELECTIONS */,
+  id: "transform-selections-to-lowercase",
+  name: "Transform selections to lowercase",
+  hotkeys: {
+    keyshots: [HotKey("U", "Alt")],
+    visual_studio: [HotKey("U", "Mod", "Shift")]
+  },
+  editorCallback: (editor) => SelectionsProcessing.selectionsReplacer(editor, (s) => s.toUpperCase())
+};
+
+// src/commands/reopen-current-note.ts
+var reopenCurrentNote = {
+  category: "Other" /* OTHER */,
+  id: "reopen-current-note",
+  name: "Reopen current note",
+  hotkeys: {
+    keyshots: [HotKey("Q", "Alt")]
+  },
+  checkCallback: (checking) => {
+    const file = app.workspace.getActiveFile();
+    if (file) {
+      if (!checking)
+        app.workspace.getLeaf(false).rebuildView();
+      else
+        return true;
+    }
+    return false;
   }
 };
 
-// src/mappings/prism-langs.ts
-var PRISM_LANGS = [
+// src/constants/PrismLanguages.ts
+var PRISM_LANGUAGES = [
   {
     id: "",
     name: "Blank"
@@ -24923,28 +25194,7 @@ var PRISM_LANGS = [
     }
   ].sort((a, b) => a.name.localeCompare(b.name))
 ];
-
-// src/components/abstract/callback-suggest-modal.ts
-var import_obsidian3 = require("obsidian");
-var CallbackSuggestModal = class extends import_obsidian3.SuggestModal {
-  constructor(plugin, onSelectCallback) {
-    super(plugin.app);
-    this.plugin = plugin;
-    this.onSelectCallback = onSelectCallback;
-  }
-  onChooseSuggestion(item, evt) {
-    this.onSelectCallback(item, evt);
-  }
-};
-var CallbackFuzzySuggestModal = class extends import_obsidian3.FuzzySuggestModal {
-  constructor(app2, onSelectCallback) {
-    super(app2.app);
-    this.onSelectCallback = onSelectCallback;
-  }
-  onChooseItem(item, evt) {
-    this.onSelectCallback(item, evt);
-  }
-};
+var PrismLanguages_default = PRISM_LANGUAGES;
 
 // src/components/code-block-modal.ts
 var CodeBlockModal = class extends CallbackFuzzySuggestModal {
@@ -24957,42 +25207,42 @@ var CodeBlockModal = class extends CallbackFuzzySuggestModal {
     return item.name;
   }
   getItems() {
-    return PRISM_LANGS;
+    return PrismLanguages_default;
   }
 };
 
-// src/components/callout-picker-modal.ts
-var import_obsidian4 = require("obsidian");
-var _CalloutPickerModal = class extends CallbackSuggestModal {
-  constructor(plugin, onSelectCallback) {
-    super(plugin, onSelectCallback);
-    this.setPlaceholder("Select one of the callouts... (callouts are searchable by it's id or aliases)");
-  }
-  getSuggestions(query) {
-    return _CalloutPickerModal.ROOT_CALLOUTS.concat(this.plugin.settings.callouts_list.filter((v) => v.length > 0 && v.replace(/\s/g, "").length != 0).map((v) => v.split(","))).filter((ids) => ids.filter((id) => id.includes(query.toLowerCase())).length > 0).map((ids) => ids[0]);
-  }
-  renderSuggestion(value, el) {
-    import_obsidian4.MarkdownRenderer.renderMarkdown(`>[!${value}]`, el, "", new import_obsidian4.Component()).then(() => {
-      const callout = el.childNodes.item(0);
-      callout.setCssProps({ "margin": "0" });
+// src/commands/insert-code-block.ts
+var insertCodeBlock = (plugin) => ({
+  category: "Insert Components" /* INSERT_COMPONENTS */,
+  id: "insert-code-block",
+  name: "Insert code block",
+  hotkeys: {
+    keyshots: [HotKey("`", "Mod", "Shift")]
+  },
+  editorCallback: (editor) => new CodeBlockModal(plugin, (lang) => {
+    SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => {
+      return sel.normalize().replaceText(`
+\`\`\`${lang.id}
+${sel.getText()}
+\`\`\`
+`).moveLines(2).setChars(0).expand();
     });
-  }
+    editor.focus();
+  }).open()
+});
+
+// src/commands/insert-ordinal-numbering.ts
+var insertOrdinalNumbering = {
+  category: "Insert Components" /* INSERT_COMPONENTS */,
+  id: "insert-ordinal-numbering",
+  name: "Insert ordinal numbering",
+  hotkeys: {
+    keyshots: [HotKey("N", "Shift", "Alt")]
+  },
+  editorCallback: (editor) => SelectionsProcessing.selectionsProcessor(editor, void 0, (sel, index) => {
+    return sel.replaceText((index + 1).toString(), true);
+  })
 };
-var CalloutPickerModal = _CalloutPickerModal;
-CalloutPickerModal.ROOT_CALLOUTS = [
-  ["note"],
-  ["abstract", "summary", "tldr"],
-  ["info"],
-  ["tip", "hint", "important"],
-  ["success", "check", "done"],
-  ["question", "help", "faq"],
-  ["warning", "caution", "attention"],
-  ["failure", "fail", "missing"],
-  ["danger", "error"],
-  ["bug"],
-  ["example"],
-  ["quote", "cite"]
-];
 
 // src/components/table-modal.tsx
 var import_obsidian6 = require("obsidian");
@@ -25021,13 +25271,13 @@ var CallbackModal = class extends import_obsidian5.Modal {
 };
 
 // src/components/table-modal.tsx
-var import_client2 = __toESM(require_client());
-var React3 = __toESM(require_react());
+var import_client = __toESM(require_client());
+var React2 = __toESM(require_react());
 var import_react = __toESM(require_react());
 
 // src/components/react/Repeater.tsx
-var React2 = __toESM(require_react());
-var Repeater = ({ elem, times }) => /* @__PURE__ */ React2.createElement(React2.Fragment, null, new Array(times).fill(0).map((_, i) => elem(i)));
+var React = __toESM(require_react());
+var Repeater = ({ elem, times }) => /* @__PURE__ */ React.createElement(React.Fragment, null, new Array(times).fill(0).map((_, i) => elem(i)));
 var Repeater_default = Repeater;
 
 // src/components/table-modal.tsx
@@ -25038,13 +25288,13 @@ var TableModal = class extends CallbackModal {
     this.TablePicker = () => {
       const [hoverPos, setHoverPos] = (0, import_react.useState)({ rows: 0, columns: 0 });
       const isHover = () => hoverPos.rows > 0 && hoverPos.columns > 0;
-      return /* @__PURE__ */ React3.createElement(React3.Fragment, null, /* @__PURE__ */ React3.createElement("table", null, /* @__PURE__ */ React3.createElement("tbody", null, /* @__PURE__ */ React3.createElement(Repeater_default, {
+      return /* @__PURE__ */ React2.createElement(React2.Fragment, null, /* @__PURE__ */ React2.createElement("table", null, /* @__PURE__ */ React2.createElement("tbody", null, /* @__PURE__ */ React2.createElement(Repeater_default, {
         times: 10,
-        elem: (i) => /* @__PURE__ */ React3.createElement("tr", {
+        elem: (i) => /* @__PURE__ */ React2.createElement("tr", {
           key: i
-        }, /* @__PURE__ */ React3.createElement(Repeater_default, {
+        }, /* @__PURE__ */ React2.createElement(Repeater_default, {
           times: 10,
-          elem: (j) => /* @__PURE__ */ React3.createElement("td", {
+          elem: (j) => /* @__PURE__ */ React2.createElement("td", {
             key: j,
             className: i < hoverPos.rows && j < hoverPos.columns ? "hovered" : "nope",
             onClick: j != 0 ? () => this.successClose({ rows: i + 1, columns: j + 1 }) : void 0,
@@ -25052,7 +25302,7 @@ var TableModal = class extends CallbackModal {
             onMouseOut: () => setHoverPos({ rows: 0, columns: 0 })
           })
         }))
-      }))), /* @__PURE__ */ React3.createElement("div", {
+      }))), /* @__PURE__ */ React2.createElement("div", {
         className: "geometry-label"
       }, isHover() && `${hoverPos.rows}R x ${hoverPos.columns}C`));
     };
@@ -25075,8 +25325,8 @@ var TableModal = class extends CallbackModal {
     });
     const divider = contentEl.createEl("div", "divider");
     const table = divider.createEl("div", "table-selector-container");
-    this.root = (0, import_client2.createRoot)(table);
-    this.root.render(/* @__PURE__ */ React3.createElement(this.TablePicker, null));
+    this.root = (0, import_client.createRoot)(table);
+    this.root.render(/* @__PURE__ */ React2.createElement(this.TablePicker, null));
     const optEl = divider.createEl("div", { "cls": "opt" });
     new import_obsidian6.Setting(optEl).setName("Rows").setDesc("Does not include headings row.").addText((cb) => cb.setValue(this.rows.toString()).onChange((v) => {
       this.rows = parseInt(v);
@@ -25110,31 +25360,59 @@ var TableModal = class extends CallbackModal {
   }
 };
 
+// src/commands/insert-table.ts
+var insertTable = (plugin) => ({
+  category: "Insert Components" /* INSERT_COMPONENTS */,
+  id: "insert-table",
+  name: "Insert Table",
+  hotkeys: {
+    keyshots: [HotKey("T", "Shift", "Alt")]
+  },
+  editorCallback: (editor) => new TableModal(plugin, (data) => {
+    const { rows, columns } = data;
+    SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => sel.normalize().replaceText(`
+|${"     |".repeat(columns)}
+|${" --- |".repeat(columns)}${("\n|" + "     |".repeat(columns)).repeat(rows)}
+`).moveLines(1).moveChars(2));
+    editor.focus();
+  }).open()
+});
+
+// src/commands/close-all-foldable-callouts.ts
+var closeAllFoldableCallouts = {
+  category: "Rendered Controling" /* RENDERED_CONTROLING */,
+  id: "close-all-foldable-callouts",
+  name: "Close all foldable callouts",
+  hotkeys: {
+    keyshots: [HotKey("L", "Shift", "Alt")]
+  },
+  callback: () => document.querySelectorAll("div.callout.is-collapsible:not(.is-collapsed) div.callout-title").forEach((c) => c.click())
+};
+
+// src/commands/open-all-foldable-callouts.ts
+var openAllFoldableCallouts = {
+  category: "Rendered Controling" /* RENDERED_CONTROLING */,
+  id: "open-all-foldable-callouts",
+  name: "Open all foldable callouts",
+  hotkeys: {
+    keyshots: [HotKey("O", "Shift", "Alt")]
+  },
+  callback: () => document.querySelectorAll("div.callout.is-collapsible.is-collapsed div.callout-title").forEach((c) => c.click())
+};
+
+// src/commands/toggle-all-callouts-fold-state.ts
+var toggleAllCalloutsFoldState = {
+  category: "Rendered Controling" /* RENDERED_CONTROLING */,
+  id: "toggle-all-callouts-fold-state",
+  name: "Toggle all callouts fold state",
+  hotkeys: {
+    keyshots: [HotKey("K", "Shift", "Alt")]
+  },
+  callback: () => document.querySelectorAll("div.callout div.callout-title").forEach((c) => c.click())
+};
+
 // src/components/abstract/regex-modal.ts
 var import_obsidian7 = require("obsidian");
-
-// src/classes/document-fragment-builder.ts
-var _fragment;
-var DocumentFragmentBuilder = class {
-  constructor() {
-    __privateAdd(this, _fragment, void 0);
-    __privateSet(this, _fragment, document.createDocumentFragment());
-  }
-  appendText(text) {
-    __privateGet(this, _fragment).append(text);
-    return this;
-  }
-  createElem(tag, o) {
-    __privateGet(this, _fragment).createEl(tag, o);
-    return this;
-  }
-  toFragment() {
-    return __privateGet(this, _fragment);
-  }
-};
-_fragment = new WeakMap();
-
-// src/components/abstract/regex-modal.ts
 var RegexModal = class extends CallbackModal {
   constructor(plugin, editorContent, modalTitle, confirmCallback, matchesCountCallback) {
     super(plugin, modalTitle, confirmCallback);
@@ -25263,6 +25541,111 @@ var RegexReplaceModal = class extends RegexModal {
   }
 };
 
+// src/commands/replace-by-regex.ts
+var replaceByRegex = (plugin) => ({
+  category: "Replace Selections" /* REPLACE_SELECTIONS */,
+  id: "replace-by-regex",
+  name: "Replace by Regular Expression (Regex)",
+  hotkeys: {
+    keyshots: [HotKey("H", "Mod", "Alt")]
+  },
+  editorCallback: (editor) => new RegexReplaceModal(plugin, editor.getValue(), "Replace by Regular Expression", (data) => {
+    if (data.only_selections)
+      SelectionsProcessing.selectionsReplacer(editor, (val) => val.replace(data.pattern, data.replacer));
+    else
+      editor.setValue(editor.getValue().replace(data.pattern, data.replacer));
+    editor.focus();
+  }, (data) => {
+    return (data.only_selections ? EditorSelectionManipulator.listSelections(editor).map((s) => s.getText()) : [editor.getValue()]).map((v) => (v.match(data.pattern) || []).length).reduce((part, a) => part + a, 0);
+  }).open()
+});
+
+// src/commands/toggle-kebab-case.ts
+var toggleKebabCase = {
+  category: "Replace Selections" /* REPLACE_SELECTIONS */,
+  id: "toggle-kebab-case",
+  name: "Toggle selections kebabcase",
+  hotkeys: {
+    keyshots: [HotKey("-", "Alt")]
+  },
+  editorCallback: (editor) => SelectionsProcessing.convertOneToOtherChars(editor, " ", "-")
+};
+
+// src/commands/toggle-keyboard-input.ts
+var toggleKeyboardInput = {
+  category: "Replace Selections" /* REPLACE_SELECTIONS */,
+  id: "toggle-keyboard-input",
+  name: "Toggle keyboard input (<kbd>)",
+  hotkeys: {
+    keyshots: [HotKey("K", "Mod", "Shift")]
+  },
+  editorCallback: (editor) => SelectionsProcessing.surroundWithChars(editor, "<kbd>", "</kbd>")
+};
+
+// src/commands/toggle-snake-case.ts
+var toggleSnakeCase = {
+  category: "Replace Selections" /* REPLACE_SELECTIONS */,
+  id: "toggle-snake-case",
+  name: "Toggle selections snakecase",
+  hotkeys: {
+    keyshots: [HotKey("-", "Shift", "Alt")]
+  },
+  editorCallback: (editor) => SelectionsProcessing.convertOneToOtherChars(editor, " ", "_")
+};
+
+// src/commands/toggle-underline.ts
+var toggleUnderline = {
+  category: "Replace Selections" /* REPLACE_SELECTIONS */,
+  id: "toggle-underline",
+  name: "Toggle underline",
+  hotkeys: {
+    keyshots: [HotKey("N", "Alt")]
+  },
+  editorCallback: (editor) => SelectionsProcessing.surroundWithChars(editor, "<u>", "</u>")
+};
+
+// src/commands/toggle-uri-encoded-or-decoded.ts
+var toggleUriEncodedOrDecoded = {
+  category: "Replace Selections" /* REPLACE_SELECTIONS */,
+  id: "toggle-uri-encoded-or-decoded",
+  name: "Toggle selections URI encoded/decoded string",
+  hotkeys: {
+    keyshots: [HotKey("U", "Mod", "Alt")]
+  },
+  editorCallback: (editor) => SelectionsProcessing.selectionsReplacer(editor, (s) => {
+    try {
+      const decoded = decodeURI(s);
+      if (decoded === s)
+        return encodeURI(s);
+      return decoded;
+    } catch (e) {
+      return encodeURI(s);
+    }
+  })
+};
+
+// src/commands/transform-selections-to-titlecase.ts
+var transformSelectionsToTitlecase = {
+  category: "Replace Selections" /* REPLACE_SELECTIONS */,
+  id: "transform-selections-to-titlecase",
+  name: "Transform selections to titlecase (capitalize)",
+  hotkeys: {
+    keyshots: [HotKey("C", "Alt")]
+  },
+  editorCallback: (editor) => SelectionsProcessing.selectionsReplacer(editor, (s) => s.replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substring(1).toLowerCase()))
+};
+
+// src/commands/trim-selections.ts
+var trimSelections = {
+  category: "Replace Selections" /* REPLACE_SELECTIONS */,
+  id: "trim-selections",
+  name: "Trim selections",
+  hotkeys: {
+    keyshots: [HotKey("T", "Alt")]
+  },
+  editorCallback: (editor) => SelectionsProcessing.selectionsReplacer(editor, (s) => s.trim())
+};
+
 // src/components/regex/regex-search-modal.ts
 var RegexSearchModal = class extends RegexModal {
   constructor(plugin, editorContent, modalTitle, confirmCallback, matchesCountCallback) {
@@ -25287,655 +25670,592 @@ var RegexSearchModal = class extends RegexModal {
   }
 };
 
-// src/commands.ts
-var COMMANDS = (plugin, map) => [
-  {
-    category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
-    id: "duplicate-line-down",
-    name: "Duplicate line down (Visual Studio Code)",
-    repeatable: true,
-    hotkeys: map.duplicate_line_down,
-    editorCallback: (editor) => vscodeDuplicate(editor, 1 /* DOWN */)
+// src/commands/search-by-regex.ts
+var searchByRegex = (plugin) => ({
+  category: "Selection Adding or Removing" /* SELECTION_ADD_OR_REMOVE */,
+  id: "search-by-regex",
+  name: "Search by Regular Expression (Regex)",
+  hotkeys: {
+    keyshots: [HotKey("S", "Mod", "Alt")]
   },
-  {
-    category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
-    id: "duplicate-line-up",
-    name: "Duplicate line up (Visual Studio Code)",
-    repeatable: true,
-    hotkeys: map.duplicate_line_up,
-    editorCallback: (editor) => vscodeDuplicate(editor, -1 /* UP */)
+  editorCallback: (editor) => new RegexSearchModal(plugin, editor.getValue(), "Search by Regular Expression", (data) => {
+    const { only_selections, pattern } = data;
+    const selections = [];
+    if (only_selections) {
+      EditorSelectionManipulator.listSelections(editor).forEach((sel) => {
+        Array.from(sel.getText().matchAll(pattern)).forEach((value) => {
+          var _a;
+          const i = (_a = value.index) != null ? _a : 0;
+          selections.push(EditorSelectionManipulator.documentStart(editor).moveChars(sel.asNormalized().anchor.toOffset()).moveChars(i, i + value[0].length));
+        });
+      });
+    } else {
+      Array.from(editor.getValue().matchAll(pattern)).forEach((value) => {
+        var _a;
+        const i = (_a = value.index) != null ? _a : 0;
+        selections.push(EditorSelectionManipulator.documentStart(editor).moveChars(i, i + value[0].length));
+      });
+    }
+    editor.setSelections(selections.map((v) => v.toEditorSelection()));
+    editor.focus();
+  }, (data) => (data.only_selections ? EditorSelectionManipulator.listSelections(editor).map((s) => s.getText()) : [editor.getValue()]).map((v) => (v.match(data.pattern) || []).length).reduce((part, a) => part + a, 0)).open()
+});
+
+// src/commands/split-selections-by-lines.ts
+var splitSelectionsByLines = {
+  category: "Selection Adding or Removing" /* SELECTION_ADD_OR_REMOVE */,
+  id: "split-selections-by-lines",
+  name: "Split selections by lines",
+  hotkeys: {
+    keyshots: [HotKey("L", "Mod", "Alt")]
   },
-  {
-    category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
-    id: "duplicate-selection-or-line",
-    name: "Duplicate selection or line (JetBrains IDEs)",
-    repeatable: true,
-    hotkeys: map.duplicate_selection_or_line,
-    editorCallback: (editor) => jetBrainsDuplicate(editor)
-  },
-  {
-    category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
-    id: "insert-line-above",
-    name: "Insert line above",
-    repeatable: true,
-    hotkeys: map.insert_line_above,
-    editorCallback: (editor) => insertLine(editor, -1 /* UP */)
-  },
-  {
-    category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
-    id: "insert-line-below",
-    name: "Insert line below",
-    repeatable: true,
-    hotkeys: map.insert_line_below,
-    editorCallback: (editor) => insertLine(editor, 1 /* DOWN */)
-  },
-  {
-    category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
-    id: "join-selected-lines",
-    name: "Join selected lines",
-    hotkeys: map.join_selected_lines,
-    editorCallback: (editor) => replaceSelections(editor, (s) => s.replace(/\n/g, ""))
-  },
-  {
-    category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
-    id: "move-line-down",
-    name: "Move line down",
-    repeatable: true,
-    hotkeys: map.move_line_down,
-    editorCallback: (editor) => moveLine(editor, 1 /* DOWN */, editor.lineCount() - 1)
-  },
-  {
-    category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
-    id: "move-line-up",
-    name: "Move line up",
-    repeatable: true,
-    hotkeys: map.move_line_up,
-    editorCallback: (editor) => moveLine(editor, -1 /* UP */, 0)
-  },
-  {
-    category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
-    id: "reverse-selected-lines",
-    name: "Reverse selected lines",
-    hotkeys: map.reverse_selected_lines,
-    editorCallback: (editor) => reverseSelectedLines(editor)
-  },
-  {
-    category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
-    id: "shuffle-selected-lines",
-    name: "Shuffle selected lines",
-    hotkeys: map.shuffle_selected_lines,
-    editorCallback: (editor) => shuffleSelectedLines(editor, plugin.settings.shuffle_rounds_amount)
-  },
-  {
-    category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
-    id: "sort-selected-lines",
-    name: "Sort selected lines",
-    hotkeys: map.sort_selected_lines,
-    editorCallback: (editor) => sortSelectedLines(editor)
-  },
-  {
-    category: "Insert Components" /* INSERT_COMPONENTS */,
-    id: "better-insert-callout",
-    name: "Better insert callout",
-    hotkeys: map.better_insert_callout,
-    editorCallback: (editor) => new CalloutPickerModal(plugin, (item) => insertCallout(editor, item)).open()
-  },
-  {
-    category: "Insert Components" /* INSERT_COMPONENTS */,
-    id: "insert-code-block",
-    name: "Insert code block",
-    hotkeys: map.insert_code_block,
-    editorCallback: (editor) => new CodeBlockModal(plugin, (item) => insertCodeBlock(editor, item)).open()
-  },
-  {
-    category: "Insert Components" /* INSERT_COMPONENTS */,
-    id: "insert-ordinal-numbering",
-    name: "Insert ordinal numbering",
-    hotkeys: map.insert_ordinal_numbering,
-    editorCallback: (editor) => insertOrdinalNumbering(editor)
-  },
-  {
-    category: "Insert Components" /* INSERT_COMPONENTS */,
-    id: "insert-table",
-    name: "Insert Table",
-    hotkeys: map.insert_table,
-    editorCallback: (editor) => new TableModal(plugin, (data) => insertTable(editor, data.rows, data.columns)).open()
-  },
-  {
-    category: "Rendered Controling" /* RENDERED_CONTROLING */,
-    id: "close-all-foldable-callouts",
-    name: "Close all foldable callouts",
-    hotkeys: map.close_all_foldable_callouts,
-    callback: () => document.querySelectorAll("div.callout.is-collapsible:not(.is-collapsed) div.callout-title").forEach((c) => c.click())
-  },
-  {
-    category: "Rendered Controling" /* RENDERED_CONTROLING */,
-    id: "open-all-foldable-callouts",
-    name: "Open all foldable callouts",
-    hotkeys: map.open_all_foldable_callouts,
-    callback: () => document.querySelectorAll("div.callout.is-collapsible.is-collapsed div.callout-title").forEach((c) => c.click())
-  },
-  {
-    category: "Rendered Controling" /* RENDERED_CONTROLING */,
-    id: "toggle-all-callouts-fold-state",
-    name: "Toggle all callouts fold state",
-    hotkeys: map.toggle_all_callouts_fold_state,
-    callback: () => document.querySelectorAll("div.callout div.callout-title").forEach((c) => c.click())
-  },
-  {
-    category: "Replace Selections" /* REPLACE_SELECTIONS */,
-    id: "multi-toggle-bold",
-    name: "Multi-toggle bold",
-    hotkeys: map.multi_toggle_bold,
-    editorCallback: (editor) => surroundWithChars(editor, "**")
-  },
-  {
-    category: "Replace Selections" /* REPLACE_SELECTIONS */,
-    id: "multi-toggle-code",
-    name: "Multi-toggle code",
-    hotkeys: map.multi_toggle_code,
-    editorCallback: (editor) => surroundWithChars(editor, "``")
-  },
-  {
-    category: "Replace Selections" /* REPLACE_SELECTIONS */,
-    id: "multi-toggle-comment",
-    name: "Multi-toggle comment",
-    hotkeys: map.multi_toggle_comment,
-    editorCallback: (editor) => surroundWithChars(editor, "%%")
-  },
-  {
-    category: "Replace Selections" /* REPLACE_SELECTIONS */,
-    id: "multi-toggle-highlight",
-    name: "Multi-toggle highlight",
-    hotkeys: map.multi_toggle_highlight,
-    editorCallback: (editor) => surroundWithChars(editor, "==")
-  },
-  {
-    category: "Replace Selections" /* REPLACE_SELECTIONS */,
-    id: "multi-toggle-italic",
-    name: "Multi-toggle italic",
-    hotkeys: map.multi_toggle_italic,
-    editorCallback: (editor) => surroundWithChars(editor, "*")
-  },
-  {
-    category: "Replace Selections" /* REPLACE_SELECTIONS */,
-    id: "multi-toggle-strikethrough",
-    name: "Multi-toggle strikethrough",
-    hotkeys: map.multi_toggle_strikethrough,
-    editorCallback: (editor) => surroundWithChars(editor, "~~")
-  },
-  {
-    category: "Replace Selections" /* REPLACE_SELECTIONS */,
-    id: "replace-by-regex",
-    name: "Replace by Regular Expression (Regex)",
-    hotkeys: map.replace_by_regex,
-    editorCallback: (editor) => new RegexReplaceModal(plugin, editor.getValue(), "Replace by Regular Expression", (data) => replaceRegex(editor, data.pattern, data.replacer, data.only_selections), (data) => countRegexMatches(editor, data.pattern, data.only_selections)).open()
-  },
-  {
-    category: "Replace Selections" /* REPLACE_SELECTIONS */,
-    id: "toggle-case-jetbrains",
-    name: "Toggle case (JetBrains)",
-    hotkeys: map.toggle_case_jetbrains,
-    editorCallback: (editor) => replaceSelections(editor, (str) => str === str.toLowerCase() ? str.toUpperCase() : str.toLowerCase())
-  },
-  {
-    category: "Replace Selections" /* REPLACE_SELECTIONS */,
-    id: "toggle-kebab-case",
-    name: "Toggle selections kebabcase",
-    hotkeys: map.toggle_kebabcase,
-    editorCallback: (editor) => convertOneToOtherChars(editor, " ", "-")
-  },
-  {
-    category: "Replace Selections" /* REPLACE_SELECTIONS */,
-    id: "toggle-keyboard-input",
-    name: "Toggle keyboard input (<kbd>)",
-    hotkeys: map.toggle_keyboard_input,
-    editorCallback: (editor) => surroundWithChars(editor, "<kbd>", "</kbd>")
-  },
-  {
-    category: "Replace Selections" /* REPLACE_SELECTIONS */,
-    id: "toggle-snake-case",
-    name: "Toggle selections snakecase",
-    hotkeys: map.toggle_snakecase,
-    editorCallback: (editor) => convertOneToOtherChars(editor, " ", "_")
-  },
-  {
-    category: "Replace Selections" /* REPLACE_SELECTIONS */,
-    id: "toggle-underline",
-    name: "Toggle underline",
-    hotkeys: map.toggle_underline,
-    editorCallback: (editor) => surroundWithChars(editor, "<u>", "</u>")
-  },
-  {
-    category: "Replace Selections" /* REPLACE_SELECTIONS */,
-    id: "toggle-uri-encoded-or-decoded",
-    name: "Toggle selections URI encoded/decoded string",
-    hotkeys: map.toggle_uri_encoded_or_decoded,
-    editorCallback: (editor) => convertURI(editor)
-  },
-  {
-    category: "Replace Selections" /* REPLACE_SELECTIONS */,
-    id: "transform-selections-to-lowercase",
-    name: "Transform selections to lowercase",
-    hotkeys: map.transform_selections_to_lowercase,
-    editorCallback: (editor) => replaceSelections(editor, (s) => s.toLowerCase())
-  },
-  {
-    category: "Replace Selections" /* REPLACE_SELECTIONS */,
-    id: "transform-selections-to-titlecase",
-    name: "Transform selections to titlecase (capitalize)",
-    hotkeys: map.transform_selections_to_titlecase,
-    editorCallback: (editor) => replaceSelections(editor, (s) => s.replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substring(1).toLowerCase()))
-  },
-  {
-    category: "Replace Selections" /* REPLACE_SELECTIONS */,
-    id: "transform-selections-to-uppercase",
-    name: "Transform selections to uppercase",
-    hotkeys: map.transform_selections_to_uppercase,
-    editorCallback: (editor) => replaceSelections(editor, (s) => s.toUpperCase())
-  },
-  {
-    category: "Replace Selections" /* REPLACE_SELECTIONS */,
-    id: "trim-selections",
-    name: "Trim selections",
-    hotkeys: map.trim_selections,
-    editorCallback: (editor) => replaceSelections(editor, (s) => s.trim())
-  },
-  {
-    category: "Selection Adding or Removing" /* SELECTION_ADD_OR_REMOVE */,
-    id: "add-caret-down",
-    name: "Add caret cursor down",
-    repeatable: true,
-    hotkeys: map.add_caret_down,
-    editorCallback: (editor) => addCarets(editor, 1 /* DOWN */, editor.lineCount())
-  },
-  {
-    category: "Selection Adding or Removing" /* SELECTION_ADD_OR_REMOVE */,
-    id: "add-caret-up",
-    name: "Add caret cursor up",
-    repeatable: true,
-    hotkeys: map.add_caret_up,
-    editorCallback: (editor) => addCarets(editor, -1 /* UP */, 0)
-  },
-  {
-    category: "Selection Adding or Removing" /* SELECTION_ADD_OR_REMOVE */,
-    id: "search-by-regex",
-    name: "Search by Regular Expression (Regex)",
-    hotkeys: map.search_by_regex,
-    editorCallback: (editor) => new RegexSearchModal(plugin, editor.getValue(), "Search by Regular Expression", (data) => selectByRegex(editor, data.pattern, data.only_selections), (data) => countRegexMatches(editor, data.pattern, data.only_selections)).open()
-  },
-  {
-    category: "Selection Adding or Removing" /* SELECTION_ADD_OR_REMOVE */,
-    id: "select-all-word-instances",
-    name: "Select all word instances",
-    hotkeys: map.select_all_word_instances,
-    editorCallback: (editor) => selectAllWordInstances(editor, plugin.settings.case_sensitive)
-  },
-  {
-    category: "Selection Adding or Removing" /* SELECTION_ADD_OR_REMOVE */,
-    id: "select-multiple-word-instances",
-    name: "Select multiple word instances",
-    hotkeys: map.select_multiple_word_instances,
-    editorCallback: (editor) => selectWordInstances(editor, plugin.settings.case_sensitive)
-  },
-  {
-    category: "Selection Adding or Removing" /* SELECTION_ADD_OR_REMOVE */,
-    id: "split-selections-by-lines",
-    name: "Split selections by lines",
-    hotkeys: map.split_selections_by_lines,
-    editorCallback: (editor) => splitSelectionsByLines(editor)
-  },
-  {
-    category: "Transform Selections" /* TRANSFORM_SELECTIONS */,
-    id: "expand-line-selections",
-    name: "Expand line selections",
-    hotkeys: map.expand_line_selections,
-    editorCallback: (editor) => expandSelections(editor)
-  },
-  {
-    category: "Transform Selections" /* TRANSFORM_SELECTIONS */,
-    id: "split-selections-on-new-line",
-    name: "Split selections on new line",
-    hotkeys: map.split_selections_on_new_line,
-    editorCallback: (editor) => splitSelectedTextOnNewLine(editor)
-  },
-  {
-    category: "Transform Selections" /* TRANSFORM_SELECTIONS */,
-    id: "go-to-next-fold",
-    name: "Go to next fold",
-    hotkeys: map.go_to_next_fold,
-    editorCallback: (editor) => goToFolding(editor, 1 /* DOWN */)
-  },
-  {
-    category: "Transform Selections" /* TRANSFORM_SELECTIONS */,
-    id: "go-to-previous-fold",
-    name: "Go to previous fold",
-    hotkeys: map.go_to_previous_fold,
-    editorCallback: (editor) => goToFolding(editor, -1 /* UP */)
-  },
-  {
-    category: "Transform Selections" /* TRANSFORM_SELECTIONS */,
-    id: "go-to-parent-fold",
-    name: "Go to parent fold",
-    hotkeys: map.go_to_parent_fold,
-    editorCallback: (editor) => goToParentFolding(editor)
-  },
-  {
-    category: "Obsidian Settings" /* OBSIDIAN_SETTINGS */,
-    id: "switch-inline-title-setting",
-    name: "Switch 'inline title' setting",
-    hotkeys: map.switch_inline_title_setting,
-    callback: () => flipBooleanSetting(plugin.app, "showInlineTitle")
-  },
-  {
-    category: "Obsidian Settings" /* OBSIDIAN_SETTINGS */,
-    id: "switch-line-numbers-setting",
-    name: "Switch 'line numbers' setting",
-    hotkeys: map.switch_line_numbers_setting,
-    callback: () => flipBooleanSetting(plugin.app, "showLineNumber")
-  },
-  {
-    category: "Obsidian Settings" /* OBSIDIAN_SETTINGS */,
-    id: "switch-readable-length-setting",
-    name: "Switch 'readable line length' setting",
-    hotkeys: map.switch_readable_length_setting,
-    callback: () => flipBooleanSetting(plugin.app, "readableLineLength")
-  },
-  {
-    category: "Other" /* OTHER */,
-    id: "open-dev-tools",
-    name: "Open developer tools",
-    hotkeys: map.open_dev_tools,
-    callback: () => electron.remote.getCurrentWindow().webContents.openDevTools()
-  },
-  {
-    category: "Other" /* OTHER */,
-    id: "reopen-current-note",
-    name: "Reopen current note",
-    hotkeys: map.reopen_current_note,
-    checkCallback: (checking) => {
-      const file = app.workspace.getActiveFile();
-      if (file) {
-        if (!checking)
-          app.workspace.getLeaf(false).rebuildView();
-        else
-          return true;
+  editorCallback: (editor) => {
+    SelectionsProcessing.selectionsUpdater(editor, void 0, (sel) => {
+      const selections = [];
+      if (sel.isCaret() || sel.isOneLine())
+        selections.push(sel);
+      else {
+        sel.normalize();
+        selections.push(sel.clone().setLines(sel.anchor.line).setChars(sel.anchor.ch, editor.getLine(sel.anchor.line).length));
+        for (let i = sel.anchor.line + 1; i < sel.head.line; i++)
+          selections.push(sel.clone().setLines(i).setChars(0, editor.getLine(i).length));
+        selections.push(sel.clone().setLines(sel.head.line).setChars(0, sel.head.ch));
       }
+      return selections;
+    });
+  }
+};
+
+// src/commands/split-selections-on-new-line.ts
+var splitSelectionsOnNewLine = {
+  category: "Transform Selections" /* TRANSFORM_SELECTIONS */,
+  id: "split-selections-on-new-line",
+  name: "Split selections on new line",
+  hotkeys: {
+    keyshots: [HotKey("S", "Alt")]
+  },
+  editorCallback: (editor) => {
+    let index = 0;
+    SelectionsProcessing.selectionsProcessor(editor, (arr) => arr.sort((a, b) => a.anchor.line - b.anchor.line), (sel) => {
+      if (sel.isCaret())
+        return sel;
+      else {
+        const replaceSel = sel.moveLines(index).normalize();
+        const tx = replaceSel.getText();
+        replaceSel.replaceText("\n" + tx + "\n");
+        index += (tx.split("\n") || []).length + 1;
+        return sel.moveLines(1).expand();
+      }
+    });
+  }
+};
+
+// src/commands/go-to-prev-next-fold.ts
+function goToFolding(editor, direction) {
+  const cursor = EditorPositionManipulator.mainCursor(editor);
+  const isDown = () => direction == VerticalDirection_default.DOWN;
+  if (!editor.getValue().substring(isDown() ? cursor.toOffset() : 0, isDown() ? void 0 : cursor.toOffset()).includes("\n"))
+    return;
+  const browseDoc = editor.getValue().substring(isDown() ? cursor.clone().movePos(1, 0).moveToStartOfLine().toOffset() : 0, isDown() ? void 0 : cursor.clone().moveToEndOfLine().toOffset());
+  const lines = browseDoc.split("\n");
+  if (!isDown())
+    lines.reverse();
+  const currLine = editor.getLine(cursor.line);
+  const HEAD_REGEX = /^(#{1,6})\s/;
+  const LIST_REGEX = /^([\s\t]*)(?:[0-9]+\.|-(?=\s[^[])|- \[[ x]])\s/;
+  const ALL_FOLDING_REGEX = new RegExp(`${HEAD_REGEX.source}|${LIST_REGEX.source}`);
+  let currLineMatch = currLine.match(HEAD_REGEX);
+  if (currLineMatch) {
+    if (!lines.every((v, i) => {
+      const m = v.match(HEAD_REGEX);
+      if (!m)
+        return true;
+      if (m[1].length < (currLineMatch == null ? void 0 : currLineMatch[1].length))
+        return false;
+      if (m[1] != (currLineMatch == null ? void 0 : currLineMatch[1]))
+        return true;
+      editor.setCursor(cursor.setPos(isDown() ? cursor.line + 1 + i : cursor.line - i, m == null ? void 0 : m[0].length).toEditorPosition());
       return false;
+    }))
+      return;
+  }
+  currLineMatch = currLine.match(LIST_REGEX);
+  if (currLineMatch) {
+    if (!lines.every((v, i, arr) => {
+      const m = v.match(LIST_REGEX);
+      if (!m)
+        return true;
+      if (m[1].length < (currLineMatch == null ? void 0 : currLineMatch[1].length))
+        return false;
+      if (m[1] != (currLineMatch == null ? void 0 : currLineMatch[1]))
+        return true;
+      const possibleChild = arr[i + direction] ? arr[i + direction].match(LIST_REGEX) : void 0;
+      const indentFactor = currLineMatch[0].startsWith("	") || possibleChild && possibleChild[0].startsWith("	") ? 1 : app.vault.getConfig("tabSize");
+      if (!(possibleChild && possibleChild[1].length == m[1].length + indentFactor))
+        return true;
+      editor.setCursor(cursor.setPos(isDown() ? cursor.line + 1 + i : cursor.line - i, m == null ? void 0 : m[0].length).toEditorPosition());
+      return false;
+    }))
+      return;
+  }
+  lines.every((v, i, arr) => {
+    const m = v.match(ALL_FOLDING_REGEX);
+    if (!m)
+      return true;
+    const indent2 = m[1] ? m[1] : m[2];
+    if (v.match(LIST_REGEX)) {
+      const possibleChild = arr[i + direction] ? arr[i + direction].match(LIST_REGEX) : void 0;
+      const indentFactor = possibleChild && possibleChild[0].startsWith("	") ? 1 : app.vault.getConfig("tabSize");
+      if (!(possibleChild && possibleChild[1].length == indent2.length + indentFactor))
+        return true;
     }
-  },
-  {
-    category: "Other" /* OTHER */,
-    id: "toggle-focus-mode",
-    name: "Toggle focus mode",
-    hotkeys: map.toggle_focus_mode,
-    callback: () => toggleFocusMode()
-  },
-  {
-    category: "Keyshots Settings" /* KEYSHOTS_SETTINGS */,
-    id: "change-keyshots-preset",
-    name: "Change Keyshots preset",
-    hotkeys: map.change_keyshots_preset,
-    callback: () => new IDEPresetModal(plugin).open()
-  },
-  {
-    category: "Keyshots Settings" /* KEYSHOTS_SETTINGS */,
-    id: "open-keyshots-settings-tab",
-    name: "Open Keyshots settings tab",
-    hotkeys: map.open_keyshots_settings_tab,
-    callback: () => openKeyshotsSettings(app)
-  },
-  {
-    category: "Keyshots Settings" /* KEYSHOTS_SETTINGS */,
-    id: "switch-keyshots-case-sensitivity",
-    name: "Switch Keyshots case sensitivity",
-    hotkeys: map.switch_keyshots_case_sensitivity,
-    callback: () => toggleCaseSensitivity(plugin)
-  }
-];
-var DOUBLE_KEY_COMMANDS = (plugin) => [
-  {
-    conditional: (plugin2) => plugin2.settings.carets_via_double_ctrl || plugin2.settings.command_palette_via_double_ctrl,
-    object: {
-      id: "add-caret-and-open-command-palette",
-      name: "Add caret cursors and open Command-Palette",
-      key: "Control",
-      maxDelay: 400,
-      anotherKeyPressedCallback: plugin.settings.carets_via_double_ctrl ? (ev) => addCaretsViaDoubleKey(plugin, ev) : void 0,
-      lastReleasedCallback: plugin.settings.command_palette_via_double_ctrl ? (interrupted) => {
-        if (!interrupted)
-          runCommandById(plugin, "command-palette:open", () => new import_obsidian9.Notice("Command Pallete plugin is not enabled!"));
-      } : void 0
-    }
-  },
-  {
-    conditional: (plugin2) => plugin2.settings.quick_switch_via_double_shift,
-    object: {
-      id: "quick-open",
-      name: "Open Quick-Switcher",
-      key: "Shift",
-      maxDelay: 400,
-      lastReleasedCallback: (interrupted) => {
-        if (!interrupted) {
-          if (plugin.settings.open_file_command === "") {
-            new import_obsidian9.Notice("You have no selected switch engine to use with double shift command!");
-            return;
-          }
-          runCommandById(plugin, plugin.settings.open_file_command, () => new import_obsidian9.Notice("Selected switch engine is no longer available, please select another one in settings!"));
-        }
-      }
-    }
-  }
-];
-
-// src/classes/double-key-registry.ts
-var DoubleKeyRegistry = class {
-  constructor(plugin) {
-    this.cmds = {};
-    this.cancelAction = false;
-    this.lastReleasedKey = void 0;
-    this.lastPressedKey = void 0;
-    this.activeCmdId = void 0;
-    this.pressedKeys = [];
-    this.plugin = plugin;
-    this.statusBarItem = this.plugin.addStatusBarItem();
-    this.statusBarItem.setAttr("aria-label-position", "top");
-    this.setStatusBarState();
-    const elem = window;
-    this.plugin.registerDomEvent(elem, "keydown", (ev) => {
-      if (Object.keys(this.cmds).length === 0)
-        return;
-      this.pressedKeys.push(ev.key);
-      if (this.cancelAction)
-        this.cancelAction = false;
-      const currCmd = this.activeCmdId ? this.cmds[this.activeCmdId] : void 0;
-      if (currCmd && ev.key == currCmd.key && this.pressedKeys.includes(ev.key))
-        return;
-      this.lastPressedKey = this.createKeyRecord(ev);
-      if (this.lastReleasedKey && !currCmd && this.lastReleasedKey.key === ev.key) {
-        this.activeCmdId = Object.keys(this.cmds).filter((cmd) => this.cmds[cmd].key === ev.key)[0];
-        const currCmd2 = this.cmds[this.activeCmdId];
-        if (Math.abs(ev.timeStamp - this.lastReleasedKey.timeStamp) > currCmd2.maxDelay) {
-          this.activeCmdId = void 0;
-          return;
-        }
-        if (currCmd2.anotherKeyPressedCallback)
-          this.setStatusBarState(currCmd2.name);
-        if (currCmd2.lastPressedCallback)
-          currCmd2.lastPressedCallback();
-      } else if (currCmd && ev.key !== currCmd.key && currCmd.anotherKeyPressedCallback)
-        currCmd.anotherKeyPressedCallback(ev);
-      else if (this.lastReleasedKey && this.lastReleasedKey.key !== ev.key)
-        this.cancelCurrentCommand();
-    }, {});
-    this.plugin.registerDomEvent(elem, "keyup", (ev) => {
-      var _a, _b;
-      if (Object.keys(this.cmds).length === 0)
-        return;
-      this.pressedKeys.remove(ev.key);
-      if (this.cancelAction)
-        return;
-      if (((_a = this.lastPressedKey) == null ? void 0 : _a.key) != ev.key && !this.activeCmdId) {
-        this.cancelCurrentCommand();
-        return;
-      }
-      const currCmd = this.activeCmdId ? this.cmds[this.activeCmdId] : void 0;
-      if (!currCmd && Object.values(this.cmds).map((c) => c.key).includes(ev.key)) {
-        this.lastReleasedKey = this.createKeyRecord(ev);
-      } else if (currCmd && currCmd.key === ev.key) {
-        if (this.lastPressedKey && Math.abs(ev.timeStamp - this.lastPressedKey.timeStamp) <= currCmd.maxDelay && currCmd.lastReleasedCallback)
-          currCmd.lastReleasedCallback(((_b = this.lastPressedKey) == null ? void 0 : _b.key) != ev.key);
-        this.cancelCurrentCommand(true);
-      }
-    });
-    this.plugin.registerDomEvent(elem, "mousedown", () => {
-      if (Object.keys(this.cmds).length === 0)
-        return;
-      this.cancelCurrentCommand(true);
-    });
-    this.plugin.app.workspace.on("editor-change", () => {
-      if (Object.keys(this.cmds).length === 0)
-        return;
-      this.cancelCurrentCommand(true);
-    });
-  }
-  createKeyRecord(ev) {
-    return {
-      key: ev.key,
-      timeStamp: ev.timeStamp
-    };
-  }
-  setStatusBarState(commandName) {
-    this.statusBarItem.setText(commandName ? "\u{1F7E9}" : "\u{1F7E8}");
-    this.statusBarItem.setAttr("aria-label", "Keyshots: " + (commandName ? `command "${commandName}" is active` : `no double-key command active`));
-  }
-  cancelCurrentCommand(ingoreNextKeyUp = false) {
-    this.setStatusBarState();
-    this.cancelAction = ingoreNextKeyUp;
-    this.activeCmdId = void 0;
-    this.lastReleasedKey = void 0;
-  }
-  registerCommand(cmd) {
-    this.cmds[cmd.id] = cmd;
-    this.cancelCurrentCommand();
-  }
-  unregisterAllCommands() {
-    this.cancelCurrentCommand(true);
-    Object.keys(this.cmds).forEach((i) => delete this.cmds[i]);
-  }
-};
-
-// src/components/settings-tab.ts
-var import_obsidian10 = require("obsidian");
-function getOpenCommands() {
-  const cmds = {};
-  Array.of("switcher", "omnisearch", "darlal-switcher-plus").forEach((pluginId) => {
-    Object.values(app.commands.commands).filter((v) => v.id.startsWith(pluginId)).forEach((v) => cmds[v.id] = v.name);
+    editor.setCursor(cursor.setPos(isDown() ? cursor.line + 1 + i : cursor.line - i, m == null ? void 0 : m[0].length).toEditorPosition());
+    return false;
   });
-  return cmds;
 }
-var KeyshotsSettingTab = class extends import_obsidian10.PluginSettingTab {
-  constructor(app2, plugin) {
-    super(app2, plugin);
-    this.plugin = plugin;
-  }
-  display() {
-    const { containerEl } = this;
-    containerEl.classList.add("keyshots-settings");
-    containerEl.empty();
-    const title = containerEl.createEl("h1", { text: "Keyshots Settings" });
-    title.innerHTML = KEYSHOTS_SVG(48) + title.innerHTML;
-    title.setCssProps({ "display": "flex", "align-items": "center", "gap": "10px" });
-    containerEl.createEl("h2", { text: "\u2328\uFE0F Default keys" });
-    new import_obsidian10.Setting(containerEl).setName("IDE Keys Mapping").setDesc("Change default hotkeys based on IDE, that you are comfortable with. This does not overwrite your custom hotkeys!").setDesc(new DocumentFragmentBuilder().appendText("Change default hotkeys based on IDE, that you are comfortable with.").createElem("br").createElem("b", { text: "\u2757This does not overwrite your custom Keyshots hotkeys configuration!" }).toFragment()).addDropdown((cb) => cb.addOptions(Object.entries(IDE_LABELS).reduce((acc, [key, ideInfo]) => {
-      acc[key] = ideInfo.name;
-      return acc;
-    }, {})).setValue(this.plugin.settings.ide_mappings).onChange(async (value) => {
-      await this.plugin.changePreset(value);
-    }));
-    new import_obsidian10.Setting(containerEl).setName("Default Keyshots hotkeys").setDesc(new DocumentFragmentBuilder().appendText("Sets default hotkeys for keyshots commands, that are not modified by IDE preset.").createElem("br").createElem("b", { text: "\u2757If you select clear preset, this setting will be ignored!" }).toFragment()).addToggle((cb) => cb.setValue(this.plugin.settings.keyshot_mappings).onChange(async (value) => {
-      this.plugin.settings.keyshot_mappings = value;
-      this.plugin.loadCommands();
-      await this.plugin.saveSettings();
-    }));
-    containerEl.createEl("h2", { text: "\u{1F527} Commands settings" });
-    new import_obsidian10.Setting(containerEl).setName("Case sensitivity").setDesc(new DocumentFragmentBuilder().appendText("Determines if Keyshots commands should be case sensitive. For toggling while editing text just simply use ").createElem("kbd", { text: " Ctrl + Alt + I" }).appendText(" hotkey if you are using default Keyshots binding!").toFragment()).addToggle((cb) => cb.setValue(this.plugin.settings.case_sensitive).onChange(async (value) => {
-      this.plugin.settings.case_sensitive = value;
-      await this.plugin.saveSettings();
-    }));
-    let slider;
-    new import_obsidian10.Setting(containerEl).setName("Shuffle rounds amount").setDesc(new DocumentFragmentBuilder().appendText("Number of rounds that will ").createElem("code", { text: "Shuffle selected lines" }).appendText(" command take. The more rounds it will take, the more random it will be!").toFragment()).addSlider((cb) => {
-      slider = cb;
-      slider.setValue(this.plugin.settings.shuffle_rounds_amount).setLimits(1, 50, 1).setDynamicTooltip().onChange(async (value) => {
-        this.plugin.settings.shuffle_rounds_amount = value;
-        await this.plugin.saveSettings();
-      });
-    }).addButton((cb) => cb.setIcon("refresh-ccw").setTooltip("Reset to default").onClick(async () => {
-      this.plugin.settings.shuffle_rounds_amount = DEFAULT_SETTINGS.shuffle_rounds_amount;
-      slider.setValue(DEFAULT_SETTINGS.shuffle_rounds_amount);
-      await this.plugin.saveSettings();
-    }));
-    new import_obsidian10.Setting(containerEl).setName("Custom callout types list").setDesc(new DocumentFragmentBuilder().appendText("Adds new callout types defined by user separated by new line (").createElem("kbd", { text: "Enter" }).appendText("), you can specify aliases as well on same line separated by comma ( ").createElem("kbd", { text: "," }).appendText(" ). These will be used in ").createElem("code", { text: "Better insert callout" }).appendText(" command to expand it's choice with user defined callouts.").toFragment()).addTextArea((cb) => cb.setValue(this.plugin.settings.callouts_list.join("\n")).onChange(async (v) => {
-      this.plugin.settings.callouts_list = v.split("\n");
-      await this.plugin.saveSettings();
-    }));
-    containerEl.createEl("h2", { text: "\u{1F527} JetBrains Features" });
-    new import_obsidian10.Setting(containerEl).setName(new DocumentFragmentBuilder().appendText("Double ").createElem("kbd", { text: "Ctrl" }).appendText(" caret adding shortcut").toFragment()).setDesc(new DocumentFragmentBuilder().appendText("Everytime when you press ").createElem("kbd", { text: "Ctrl" }).appendText(" twice and second one you'll hold, then when you press ").createElem("kbd", { text: "\u2193" }).appendText(" or ").createElem("kbd", { text: "\u2191" }).appendText(' keys, Obsidian will add carets like will normaly do with "').createElem("b", { text: "Add carets up/down" }).appendText('" command.').toFragment()).addToggle((cb) => cb.setValue(this.plugin.settings.carets_via_double_ctrl).onChange(async (value) => {
-      this.plugin.settings.carets_via_double_ctrl = value;
-      await this.plugin.saveSettings();
-      this.plugin.loadDoubleKeyCommands();
-    }));
-    let searchEngineEl = null;
-    new import_obsidian10.Setting(containerEl).setName(new DocumentFragmentBuilder().appendText("Opening switch modal via double ").createElem("kbd", { text: "Shift" }).appendText(" shortcut").toFragment()).setDesc(new DocumentFragmentBuilder().appendText("If you have any of switch engine selected, hitting ").createElem("kbd", { text: "Shift" }).appendText(" twice will select open switch modal window.").toFragment()).addToggle((cb) => cb.setValue(this.plugin.settings.quick_switch_via_double_shift).onChange(async (value) => {
-      this.plugin.settings.quick_switch_via_double_shift = value;
-      await this.plugin.saveSettings();
-      searchEngineEl == null ? void 0 : searchEngineEl.setDisabled(!value);
-      this.plugin.loadDoubleKeyCommands();
-    }));
-    searchEngineEl = new import_obsidian10.Setting(containerEl).setName(new DocumentFragmentBuilder().appendText("Switch engine for double ").createElem("kbd", { text: "Shift" }).appendText(" shortcut").toFragment()).setDesc(new DocumentFragmentBuilder().appendText("Here you can select any of supported switch engines.").createElem("br").appendText("Currently supported: Quick switcher, ").createElem("a", { text: "Omnisearch", href: "https://obsidian.md/plugins?id=omnisearch" }).appendText(", ").createElem("a", { text: "Quick Switcher++", href: "https://obsidian.md/plugins?id=darlal-switcher-plus" }).appendText(".").toFragment()).setClass("indent").addDropdown((cb) => {
-      const cmds = getOpenCommands();
-      const currSetting = this.plugin.settings.open_file_command;
-      cb.addOption("", "-- No engine selected --");
-      cb.addOptions(cmds);
-      cb.setValue(Object.keys(cmds).contains(currSetting) ? currSetting : "");
-      cb.onChange(async (value) => {
-        this.plugin.settings.open_file_command = value;
-        await this.plugin.saveSettings();
-      });
-    });
-    if (!this.plugin.settings.quick_switch_via_double_shift) {
-      searchEngineEl.setDisabled(true);
+var goToNextFold = {
+  category: "Transform Selections" /* TRANSFORM_SELECTIONS */,
+  id: "go-to-next-fold",
+  name: "Go to next fold",
+  hotkeys: {
+    keyshots: [HotKey("]", "Mod", "Alt")]
+  },
+  editorCallback: (editor) => goToFolding(editor, VerticalDirection_default.DOWN)
+};
+var goToPreviousFold = {
+  category: "Transform Selections" /* TRANSFORM_SELECTIONS */,
+  id: "go-to-previous-fold",
+  name: "Go to previous fold",
+  hotkeys: {
+    keyshots: [HotKey("[", "Mod", "Alt")]
+  },
+  editorCallback: (editor) => goToFolding(editor, VerticalDirection_default.UP)
+};
+
+// src/commands/go-to-parent-fold.ts
+var goToParentFold = {
+  category: "Transform Selections" /* TRANSFORM_SELECTIONS */,
+  id: "go-to-parent-fold",
+  name: "Go to parent fold",
+  hotkeys: {
+    keyshots: [HotKey("P", "Mod", "Alt")]
+  },
+  editorCallback: (editor) => {
+    const cursor = EditorPositionManipulator.mainCursor(editor);
+    if (!editor.getValue().substring(0, cursor.toOffset()).includes("\n"))
+      return;
+    const browseDoc = editor.getValue().substring(0, cursor.clone().movePos(-1, 0).moveToEndOfLine().toOffset());
+    const line = editor.getLine(cursor.line);
+    const listMatch = line.match(/^((?:\t| {4})*)(-|\d+\.|- \[[x ]]) /);
+    if (listMatch) {
+      const indentString = listMatch[1];
+      const indent2 = indentString.includes(" ") ? indentString.length / 4 : indentString.length;
+      if (!browseDoc.split("\n").reverse().every((v, i) => {
+        const prevMatch = v.match(new RegExp(`^(?:\\t| {4}){${indent2 - 1}}(-|\\d+\\.) `));
+        if (!prevMatch)
+          return true;
+        cursor.setPos(cursor.line - 1 - i, (indentString.includes(" ") ? indent2 * 4 : indent2) + prevMatch[1].length);
+        editor.setCursor(cursor.line, cursor.ch);
+        return false;
+      }))
+        return;
     }
-    new import_obsidian10.Setting(containerEl).setName(new DocumentFragmentBuilder().appendText("Opening Command-Palette via double ").createElem("kbd", { text: "Ctrl" }).appendText(" shortcut").toFragment()).setDesc(new DocumentFragmentBuilder().appendText("If you have Command Palette plugin enabled, hitting ").createElem("kbd", { text: "Ctrl" }).appendText(" twice will open command palette window.").toFragment()).addToggle((cb) => cb.setValue(this.plugin.settings.command_palette_via_double_ctrl).onChange(async (value) => {
-      this.plugin.settings.command_palette_via_double_ctrl = value;
-      await this.plugin.saveSettings();
-      this.plugin.loadDoubleKeyCommands();
-    }));
+    const headingMatch = line.match(/^(#{1,6}) /);
+    if (headingMatch) {
+      const headingLevel = headingMatch[1].length;
+      if (!browseDoc.split("\n").reverse().every((v, i) => {
+        const prevMatch = v.match(new RegExp(`^#{1,${headingLevel - 1}} `));
+        if (!prevMatch)
+          return true;
+        cursor.setPos(cursor.line - 1 - i, prevMatch[0].length);
+        editor.setCursor(cursor.line, cursor.ch);
+        return false;
+      }))
+        return;
+    }
+    browseDoc.split("\n").reverse().every((v, i) => {
+      if (!v.match(/#{1,6} .+/))
+        return true;
+      editor.setCursor(cursor.movePos(-1 - i, 0).moveToStartOfLine().toEditorPosition());
+      return false;
+    });
   }
 };
+
+// src/commands/switch-inline-title-setting.ts
+var switchInlineTitleSetting = (plugin) => ({
+  category: "Obsidian Settings" /* OBSIDIAN_SETTINGS */,
+  id: "switch-inline-title-setting",
+  name: "Switch 'inline title' setting",
+  hotkeys: {
+    keyshots: [HotKey("T", "Mod", "Alt")]
+  },
+  callback: () => flipBooleanSetting(plugin.app, "showInlineTitle")
+});
+
+// src/commands/switch-line-numbers-setting.ts
+var switchLineNumbersSetting = (plugin) => ({
+  category: "Obsidian Settings" /* OBSIDIAN_SETTINGS */,
+  id: "switch-line-numbers-setting",
+  name: "Switch 'line numbers' setting",
+  hotkeys: {
+    keyshots: [HotKey("N", "Mod", "Alt")]
+  },
+  callback: () => flipBooleanSetting(plugin.app, "showLineNumber")
+});
+
+// src/commands/switch-readable-line-length.ts
+var switchReadableLineLength = (plugin) => ({
+  category: "Obsidian Settings" /* OBSIDIAN_SETTINGS */,
+  id: "switch-readable-length-setting",
+  name: "Switch 'readable line length' setting",
+  hotkeys: {
+    keyshots: [HotKey("R", "Mod", "Alt")]
+  },
+  callback: () => flipBooleanSetting(plugin.app, "readableLineLength")
+});
+
+// src/commands/open-dev-tools.ts
+var openDevTools = {
+  category: "Other" /* OTHER */,
+  id: "open-dev-tools",
+  name: "Open developer tools",
+  hotkeys: {
+    keyshots: [HotKey("F12")]
+  },
+  callback: () => electron.remote.getCurrentWindow().webContents.openDevTools()
+};
+
+// src/commands/toggle-focus-mode.ts
+var toggleFocusMode = {
+  category: "Other" /* OTHER */,
+  id: "toggle-focus-mode",
+  name: "Toggle focus mode",
+  hotkeys: {
+    keyshots: [HotKey("F", "Mod", "Alt")]
+  },
+  callback: () => {
+    const isFocus = window.document.body.classList.contains("keyshots-focus-mode");
+    electron.remote.BrowserWindow.getAllWindows().forEach((w) => w.setFullScreen(!isFocus));
+    Array.of("left", "right").forEach((side) => {
+      const sideBar = document.querySelector(`div.mod-${side}-split`);
+      if (sideBar && !sideBar.classList.contains(`is-sidedock-collapsed`) && !isFocus)
+        app.commands.executeCommandById(`app:toggle-${side}-sidebar`);
+    });
+    const cls = window.document.body.classList;
+    if (isFocus)
+      cls.remove("keyshots-focus-mode");
+    else
+      cls.add("keyshots-focus-mode");
+  }
+};
+
+// src/components/ide-preset-modal.tsx
+var import_obsidian9 = require("obsidian");
+var import_client2 = __toESM(require_client());
+var React3 = __toESM(require_react());
+var IDEPresetModal = class extends import_obsidian9.SuggestModal {
+  constructor(plugin) {
+    super(plugin.app);
+    this.root = null;
+    this.plugin = plugin;
+    this.setPlaceholder("Choose one of these presets to use...");
+  }
+  getSuggestions(query) {
+    return Object.values(PRESETS_INFO).filter((v) => v.name.toLowerCase().includes(query.toLowerCase()));
+  }
+  async onChooseSuggestion(item) {
+    await this.plugin.changePreset(Object.keys(PRESETS_INFO).filter((f) => PRESETS_INFO[f] === item)[0]);
+    new import_obsidian9.Notice(`\u2705 Preset successfully changed to "${item.name}"!`);
+  }
+  renderSuggestion(value, el) {
+    this.root = (0, import_client2.createRoot)(el);
+    this.root.render(/* @__PURE__ */ React3.createElement("div", {
+      style: { "display": "flex", "gap": "10px", "alignItems": "center" }
+    }, /* @__PURE__ */ React3.createElement("div", {
+      style: { display: "flex" },
+      dangerouslySetInnerHTML: { __html: value.iconSvgContent }
+    }), /* @__PURE__ */ React3.createElement("div", null, /* @__PURE__ */ React3.createElement("div", null, value.name), /* @__PURE__ */ React3.createElement("small", {
+      style: { opacity: 0.8 }
+    }, value.description))));
+  }
+  onClose() {
+    var _a;
+    (_a = this.root) == null ? void 0 : _a.unmount();
+  }
+};
+
+// src/commands/change-keyshots-preset.ts
+var changeKeyshotsPreset = (plugin) => ({
+  category: "Keyshots Settings" /* KEYSHOTS_SETTINGS */,
+  id: "change-keyshots-preset",
+  name: "Change Keyshots preset",
+  hotkeys: { keyshots: [HotKey("P", "Mod", "Shift")] },
+  callback: () => new IDEPresetModal(plugin).open()
+});
+
+// src/commands/open-keyshots-settings-tab.ts
+var openKeyshotsSettingsTab = {
+  category: "Keyshots Settings" /* KEYSHOTS_SETTINGS */,
+  id: "open-keyshots-settings-tab",
+  name: "Open Keyshots settings tab",
+  hotkeys: { keyshots: [HotKey(",", "Mod", "Alt")] },
+  callback: () => {
+    if (app.setting.activeTab === null)
+      app.setting.open();
+    app.setting.openTabById("keyshots");
+  }
+};
+
+// src/commands/switch-keyshots-case-sensitivity.ts
+var import_obsidian10 = require("obsidian");
+var switchKeyshotsCaseSensitivity = (plugin) => ({
+  category: "Keyshots Settings" /* KEYSHOTS_SETTINGS */,
+  id: "switch-keyshots-case-sensitivity",
+  name: "Switch Keyshots case sensitivity",
+  hotkeys: { keyshots: [HotKey("I", "Mod", "Alt")] },
+  callback: async () => {
+    plugin.settings.case_sensitive = !plugin.settings.case_sensitive;
+    const val = plugin.settings.case_sensitive;
+    new import_obsidian10.Notice(`${val ? "\u{1F512}" : "\u{1F513}"} Keyshots actions are now case ${val ? "" : "in"}sensitive!`);
+    await plugin.saveSettings();
+  }
+});
+
+// src/commands/double-key/add-carets.ts
+var import_obsidian11 = require("obsidian");
+var addCaretDK = (plugin) => ({
+  id: "add-carets",
+  name: "Add carets",
+  key: plugin.settings.key_carets_via_double_key_cmd,
+  maxDelay: 400,
+  whitelistedCommands: [
+    "keyshots:" + addCaretUp.id,
+    "keyshots:" + addCaretDown.id
+  ],
+  anotherKeyPressedCallback: plugin.settings.enable_carets_via_double_key_cmd ? (ev) => {
+    if (!["ArrowUp", "ArrowDown"].includes(ev.key))
+      return;
+    ev.preventDefault();
+    const view = plugin.app.workspace.getActiveViewOfType(import_obsidian11.MarkdownView);
+    if (!view)
+      return;
+    runCommandById(plugin, "keyshots:" + (ev.key === "ArrowUp" ? addCaretUp.id : addCaretDown.id), () => {
+    });
+  } : void 0
+});
+
+// src/commands/double-key/quick-open.ts
+var import_obsidian12 = require("obsidian");
+var quickOpen = (plugin) => ({
+  id: "quick-open",
+  name: "Open Quick-Switcher",
+  key: plugin.settings.key_quick_switch_via_double_key_cmd,
+  maxDelay: 400,
+  whitelistedCommands: [
+    plugin.settings.open_file_command
+  ],
+  lastReleasedCallback: (interrupted) => {
+    if (!interrupted) {
+      if (plugin.settings.open_file_command === "") {
+        new import_obsidian12.Notice("You have no selected switch engine to use with double shift command!");
+        return;
+      }
+      runCommandById(plugin, plugin.settings.open_file_command, () => new import_obsidian12.Notice("Selected switch engine is no longer available, please select another one in settings!"));
+    }
+  }
+});
+
+// src/commands/duplicate-tab.ts
+var import_obsidian13 = require("obsidian");
+var duplicateTab = {
+  category: "Other" /* OTHER */,
+  id: "duplicate-tab",
+  name: "Duplicate tab",
+  hotkeys: {
+    keyshots: [HotKey("D", "Ctrl", "Alt")]
+  },
+  checkCallback: (checking) => {
+    const view = app.workspace.getActiveViewOfType(import_obsidian13.View);
+    if (checking) {
+      return !!view;
+    }
+    if (!view) {
+      return;
+    }
+    const leaf = app.workspace.getLeaf(true);
+    leaf.setViewState({
+      type: view.getViewType(),
+      state: view.getState(),
+      active: true
+    });
+    app.workspace.revealLeaf(leaf);
+  }
+};
+var duplicate_tab_default = duplicateTab;
+
+// src/commands/indent.ts
+var indent = {
+  category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
+  id: "indent",
+  name: "Indent",
+  hotkeys: {
+    keyshots: [HotKey("]", "Alt")]
+  },
+  editorCallback: (editor) => {
+    const useTabs = app.vault.getConfig("useTabs");
+    SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => {
+      const expandedSelection = sel.clone().normalize().expand();
+      if (sel.isCaret()) {
+        expandedSelection.replaceText(((useTabs != null ? useTabs : false) ? "	" : "    ") + expandedSelection.getText());
+        return sel.moveChars((useTabs != null ? useTabs : false) ? 1 : 4);
+      }
+      expandedSelection.replaceText(expandedSelection.getText().split("\n").map((line) => {
+        return ((useTabs != null ? useTabs : false) ? "	" : "    ") + line;
+      }).join("\n"));
+      return sel.expand();
+    });
+  }
+};
+var unindent = {
+  category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
+  id: "unindent",
+  name: "Unindent",
+  hotkeys: {
+    keyshots: [HotKey("[", "Alt")]
+  },
+  editorCallback: (editor) => {
+    const useTabs = app.vault.getConfig("useTabs");
+    const unindentLine = (line) => {
+      if (useTabs && line.startsWith("	"))
+        return line.substring(1);
+      else if (!useTabs && line.startsWith("    "))
+        return line.substring(4);
+      return line;
+    };
+    SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => {
+      const expandedSelection = sel.clone().normalize().expand();
+      if (sel.isCaret()) {
+        expandedSelection.replaceText(unindentLine(expandedSelection.getText()));
+        return sel.moveChars((useTabs != null ? useTabs : false) ? -1 : -4);
+      }
+      expandedSelection.replaceText(expandedSelection.getText().split("\n").map((line) => unindentLine(line)).join("\n"));
+      return sel.expand();
+    });
+  }
+};
+
+// src/commands/double-key/open-command-palette.ts
+var import_obsidian14 = require("obsidian");
+var openCommandPaletteDK = (plugin) => ({
+  id: "open-command-palette",
+  name: "Open command-palette",
+  key: plugin.settings.key_command_palette_via_double_key_cmd,
+  whitelistedCommands: ["command-palette:open"],
+  maxDelay: 400,
+  lastReleasedCallback: plugin.settings.enable_command_palette_via_double_key_cmd ? (interrupted) => {
+    if (!interrupted)
+      runCommandById(plugin, "command-palette:open", () => new import_obsidian14.Notice("Command Pallete plugin is not enabled!"));
+  } : void 0
+});
 
 // src/plugin.ts
-var KeyshotsPlugin = class extends import_obsidian11.Plugin {
+var KeyshotsPlugin = class extends import_obsidian15.Plugin {
+  keyshotsCommandToObsidianCommand(cmd, preset, includeKeyshots) {
+    let hotkeys = void 0;
+    if (cmd.hotkeys) {
+      hotkeys = cmd.hotkeys[preset];
+      if (includeKeyshots && hotkeys === void 0)
+        hotkeys = cmd.hotkeys["keyshots"];
+    }
+    if (hotkeys === null)
+      hotkeys = void 0;
+    return { ...cmd, ...{ hotkeys } };
+  }
+  getCommands() {
+    return [
+      duplicateLineUp,
+      duplicateLineDown,
+      duplicateSelectionOrLine,
+      insertLineAbove,
+      insertLineBelow,
+      joinSelectedLines,
+      moveSelectedLinesDown,
+      moveSelectedLinesUp,
+      reverseSelectedLines,
+      shuffleSelectedLines(this),
+      sortSelectedLines,
+      betterInsertCallout(this),
+      addCaretDown,
+      addCaretUp,
+      expandLineSelection,
+      selectAllWordInstances(this),
+      selectMultipleWordInstances(this),
+      toggleCaseJetbrains,
+      transformSelectionsToLowercase,
+      transformSelectionsToUppercase,
+      reopenCurrentNote,
+      insertCodeBlock(this),
+      insertOrdinalNumbering,
+      insertTable(this),
+      closeAllFoldableCallouts,
+      openAllFoldableCallouts,
+      toggleAllCalloutsFoldState,
+      replaceByRegex(this),
+      toggleKebabCase,
+      toggleKeyboardInput,
+      toggleSnakeCase,
+      toggleUnderline,
+      toggleUriEncodedOrDecoded,
+      transformSelectionsToTitlecase,
+      trimSelections,
+      searchByRegex(this),
+      splitSelectionsByLines,
+      splitSelectionsOnNewLine,
+      goToNextFold,
+      goToPreviousFold,
+      goToParentFold,
+      switchInlineTitleSetting(this),
+      switchLineNumbersSetting(this),
+      switchReadableLineLength(this),
+      openDevTools,
+      toggleFocusMode,
+      changeKeyshotsPreset(this),
+      openKeyshotsSettingsTab,
+      switchKeyshotsCaseSensitivity(this),
+      duplicate_tab_default,
+      indent,
+      unindent
+    ];
+  }
   async onload() {
     await this.loadSettings();
     this.addSettingTab(new KeyshotsSettingTab(this.app, this));
     this.doubleKeyRegistry = new DoubleKeyRegistry(this);
+    this.addChild(this.doubleKeyRegistry);
     this.loadDoubleKeyCommands();
     this.loadCommands();
   }
   loadCommands() {
-    if (this.commandIds !== void 0) {
-      this.commandIds.forEach((cmd) => this.app.commands.removeCommand(cmd));
-      this._events = this._events.filter((e) => !e.toString().contains(".removeCommand("));
-    }
-    this.commandIds = new Set(COMMANDS(this, mapBySettings(this)).map((cmd) => this.addCommand(cmd).id));
+    const preset = this.settings.ide_mappings;
+    this._events = this._events.filter((e) => !e.toString().contains(".removeCommand("));
+    this.getCommands().forEach((c) => {
+      app.commands.removeCommand("keyshots:" + c.id);
+      this.addCommand(this.keyshotsCommandToObsidianCommand(c, preset, this.settings.keyshot_mappings));
+    });
   }
   loadDoubleKeyCommands() {
     this.doubleKeyRegistry.unregisterAllCommands();
-    DOUBLE_KEY_COMMANDS(this).filter((cmd) => cmd.conditional(this)).forEach((cmd) => this.doubleKeyRegistry.registerCommand(cmd.object));
+    if (this.settings.enable_carets_via_double_key_cmd) {
+      this.doubleKeyRegistry.registerCommand(addCaretDK(this));
+      this.doubleKeyRegistry.registerCommand(openCommandPaletteDK(this));
+    }
+    if (this.settings.enable_quick_switch_via_double_key_cmd) {
+      this.doubleKeyRegistry.registerCommand(quickOpen(this));
+    }
   }
   async changePreset(presetId) {
-    if (!Object.keys(IDE_LABELS).contains(presetId)) {
+    if (!Object.keys(PRESETS_INFO).contains(presetId)) {
       console.warn("Keyshots: Invalid attempt to change Keyshots mappings preset, incorrect preset ID.");
       return;
     }
@@ -25944,13 +26264,13 @@ var KeyshotsPlugin = class extends import_obsidian11.Plugin {
     await this.saveSettings();
   }
   availablePresets() {
-    return Object.keys(IDE_LABELS);
+    return Object.keys(PRESETS_INFO);
   }
   getPresetTitle(presetId) {
-    return IDE_LABELS[presetId].name;
+    return PRESETS_INFO[presetId].name;
   }
   async loadSettings() {
-    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+    this.settings = Object.assign({}, DefaultKeyshotsSettings_default, await this.loadData());
   }
   async saveSettings() {
     await this.saveData(this.settings);

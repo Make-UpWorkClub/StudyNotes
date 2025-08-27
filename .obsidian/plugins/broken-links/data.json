@@ -1,0 +1,30 @@
+{
+  "version": "1.2.2",
+  "previousVersion": "1.0.0",
+  "groupBy": 0,
+  "expandedFolderItems": [
+    "en-US",
+    "en-US/notes",
+    "en-US/notes/biology",
+    "en-US/notes/biology/cegep1",
+    "en-US/notes/biology/cegep1/cytoplasm.md",
+    "en-US/notes/biology/cegep1/organelle.md",
+    "en-US/notes/biology/cegep1/endomembrane system.md",
+    "en-US/notes/biology/cegep1/zygote.md",
+    "en-US/notes/english",
+    "en-US/notes/english/cegep1",
+    "en-US/notes/english/cegep1/BUFFER.md",
+    "en-US/notes/index.md"
+  ],
+  "expandedFileItems": [],
+  "expandedLinkItems": [],
+  "folderSort": 0,
+  "fileSort": 3,
+  "linkSort": 3,
+  "linkFilter": {
+    "filterString": "",
+    "matchCase": false
+  },
+  "ignoredFolders": [],
+  "consolidateLinks": true
+}
