@@ -7,42 +7,45 @@ date: 2025-08-20T16:18:17
 
 # Buffer
 
-# oscillatory motion
+# 2025-08-27
 
-Periodic back and forth motion
-Caused by a restoring force (directed towards equilibrium) 
+- $\cos\theta = \cos(-\theta)$
+- $\sin\theta = \sin(\pi - \theta)$
+- $\tan\theta = \tan(\theta + \pi)$
 
-> [!abstract] restoring force
-> Force directed towards equilibrium
-> Common ones include tension
+# 2025-08-28
 
-> [!abstract] oscillator
-> object that undergoes oscillatory motion
+# wave
 
-# simple harmonic motion
+Travelling disturbance that carries energy without transfer of mass
 
-[[Oscillatory motion]] whose restoring force is directly proportional to displacement
-Sinusoidal
-`Abbr.` SHM
+> [!abstract] wave pulse
+> Single disturbance, e.g. one jerk of a rope
 
-$$
-\begin{align}
-x(t) & = A\cos\left( \omega t + \phi_0 \right) \\
-\omega & = \frac{2\pi}{T} \\
-F & = -kx
-\end{align}
-$$
+> [!abstract] periodic wave
+> Continuous stream of pulses
 
-# angular frequency
+## Types
 
-rad/s
+- Mechanical
+- Electromagnetic
+- Gravitational
+- Matter
 
-# phase constant
+### Mechanical
 
-`Sym.` $\phi_0$
+Propagates through a physical medium
 
-# phase
+### Electromagnetic
 
-$$
-\phi = \omega t + \phi_0
-$$
+Propagate through the electromagnetic field
+
+## Direction
+
+**Transverse**: motion of medium *perpendicular* to direction of propagation
+**Longitudinal**: motion of medium *parallel* to the direction of propagation
+
+## Representation
+
+**Snapshot**: displacement as a function of *position* at a given *moment in time*
+**History graph**: displacement as a function of *time* at a given *point in space*

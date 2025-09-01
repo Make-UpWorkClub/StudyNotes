@@ -7,15 +7,14 @@ date: 2025-08-19T16:09:26
 
 # Buffer
 
-- bird recording sep 1-14
 - quiz sep 16
 - test sep 30
 - lab test nov 20
 - 4 units
-	- 1. evolution
-	- 1.6. biodiversity
-	- 2. ecology
-	- 3. human factor
+	- 1 evolution
+	- 1.6 biodiversity
+	- 2 ecology
+	- 3 human factor
 
 ## 2025-08-19
 
@@ -24,16 +23,6 @@ date: 2025-08-19T16:09:26
 	- Electrically charged
 	- Hot
 	- CO2, H2, N2, water vapor
-- Abiogenesis
-	- Abiotic synthesis
-		- Spontaneous formation of small organic molecules from inorganic molecules
-		- 2 hypotheses:
-			- Prebiotic soup hypothesis
-				- Organic molecules formed in the atmosphere
-			- Iron-sulfur world hypothesis
-				- Organic molecules formed at hydrothermal vents on the ocean floor
-	- Joined to form proteins and nucleic acids
-	- Packaged into protocells
 - Protocell
 	- Origin of first cells
 	- Packaged into vesicles surrounded by membrane

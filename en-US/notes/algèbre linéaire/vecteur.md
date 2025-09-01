@@ -198,3 +198,74 @@ $$
 -\frac{12\vec{w}}{||\vec{w}||} & = < \frac{18\sqrt{38}}{19}, - \frac{30\sqrt{38}}{19}, \frac{12\sqrt{38}}{19} >
 \end{align}
 $$
+
+> Soit $P = (1, 1, 2)$ et $Q = (8, 15, - 12)$.
+
+> 1. Trouver le point $R$ situé au $\frac{2}{7}$ du chemin entre $P$ et $Q$.
+
+$$
+\begin{align}
+\vec{PQ} & = < 8 - 1, 15 - 1, -12 - 2 > \\
+ & = < 7, 14, -14 > \\
+ \\
+\vec{PR} & = \frac{2}{7}\vec{PQ} \\
+ & = < 2, 4, -4 > \\
+ \\
+R & = P + \vec{PR} \\
+ & = (3, 5, -2)
+\end{align}
+$$
+
+> 2. Trouver le point $S$ entre $P$ et $Q$ et à une distance de 3 de $P$.
+
+$$
+\begin{align}
+3 & = ||\vec{PS}|| \\
+ & = ||x \vec{PQ}|| \\
+ & = \sqrt{(7x)^2 + (14x)^2 + (-14x)^2} \\
+ & = \pm21x \\
+x & = \frac{\pm1}{7}
+\end{align}
+$$
+
+Puisque $\vec{PS}$ et $\vec{PQ}$ pointent dans la même direction, $x$ et positif.
+
+$$
+\begin{align}
+\vec{PS} & = x \vec{PQ} \\
+ & = < 1, 2, -2 > \\
+ \\
+S & = P + \vec{PS} \\
+ & = (2, 3, 0)
+\end{align}
+$$
+
+> Soit $A = (1, 2), \ B = (6, 4), \ C = (2, 5), \ D = (5, 1)$.
+
+> 1. Vérifier que $ABCD$ forme un parallélogramme.
+
+$$
+\begin{align}
+\vec{AC} & = \vec{DB} \\
+< 2 - 1, 5 - 2 > & = < 6 - 5, 4 - 1 > \\
+< 1, 3 > & = < 1, 3 > \\
+ \\
+\vec{AD} & = \vec{CB} \\
+< 5 - 1, 1 - 2 > & = < 6 - 2, 4 - 5 > \\
+< 4, -1 > & = < 4, -1 >
+\end{align}
+$$
+
+Puisque les côtés opposés sont les mêmes vecteurs, $ABCD$ est un parallélogramme.
+
+> 2. Calculer les longueurs des diagonales de $ABCD$.
+
+$$
+\begin{align}
+||\vec{AB}|| & = \sqrt{(6 - 1)^2 + (4 - 2)^2} \\
+ & = \sqrt{29} \\
+ \\
+||\vec{CD}|| & = \sqrt{(5 - 2)^2 + (1 - 5)^2} \\
+ & = 5
+\end{align}
+$$
