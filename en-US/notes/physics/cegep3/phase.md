@@ -8,3 +8,4 @@ date: 2025-08-27T16:49:56
 # phase
 
 Angle of [[uniform circular motion]]
+`Sym.` $\phi$

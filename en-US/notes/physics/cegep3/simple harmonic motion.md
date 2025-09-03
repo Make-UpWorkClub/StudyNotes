@@ -8,7 +8,7 @@ date: 2025-08-27T16:43:11
 # simple harmonic motion
 
 [[Oscillatory motion]] whose restoring force is directly proportional to displacement
-Sinusoidal
+Creates [[sinusoidal wave|sinusoidal waves]]
 One-dimensional projection of [[uniform circular motion]]
 `Abbr.` SHM
 
@@ -32,7 +32,7 @@ $$
 
 > [!info] Oscillation around the equilibrium is symmetrical even for vertical SHM.
 
-> [!info] No work being done by non-conservative forces => mechanical energy is conserved
+> [!info] No work is done by non-conservative forces => mechanical energy is conserved
 
 ## Examples
 

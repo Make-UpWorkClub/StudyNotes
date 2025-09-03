@@ -21,7 +21,7 @@ Composed of:
 		- Guanine (`abbr.` G)
 - Pentose sugar
 	- Deoxyribose (DNA only)
-	- Ribose (RNA only)
+	- Ribose (one extra OH) (RNA only)
 - Phosphate
 
 > [!abstract] Nucleoside

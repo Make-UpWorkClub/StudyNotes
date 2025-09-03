@@ -19,19 +19,6 @@ date: 2025-08-20T12:20:03
 		- Liquid water
 		- Eccentricity of planet not too high
 
-# life
-
-Characteristics:
-
-- Organization
-- Information
-	- Erwin Schrodinger: only aperiodic solids hold information
-- Metabolism
-	- Energy transformation
-	- Reaction
-- Evolution
-	- Change in the information
-
 # 2025-08-27
 
 # source of elements

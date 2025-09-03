@@ -24,11 +24,6 @@ Mostly ionic
 Distance between two peaks in a wave
 `Sym.` $\lambda$
 
-# Frequency
-
-Number of peaks that pass through a point in one second
-`Sym.` $v$
-
 # Electrostatic Potential Map
 
 Visual representation of [[electron]] distribution of a molecule
