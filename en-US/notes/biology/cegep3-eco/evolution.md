@@ -1,6 +1,6 @@
 ---
 tags:
-  - eco
+  - bio/eco
   - cegep/3
 date: 2025-08-26T16:33:20
 ---
@@ -15,10 +15,9 @@ Changes in the gene pool and adaptations of a population over time
 
 Types:
 
-- Microevolution: changes in allele frequencies
-  No new species
-- Speciation: emergence of new species
-- Macroevolution: emergence of new groups of species
+- Microevolution
+- Speciation
+- Macroevolution
 
 ## Evidences
 

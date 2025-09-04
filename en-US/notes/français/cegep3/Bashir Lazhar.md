@@ -11,6 +11,7 @@ Théâtre d'[[écriture migrante]] par Evelyne de la Chenelière
 
 ## Contexte
 
+Evelyne est née ici
 Avant 9/11 => sans préjugé à la communauté arabe
 
 ## Thèmes

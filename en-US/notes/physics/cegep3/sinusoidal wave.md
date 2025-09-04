@@ -13,6 +13,8 @@ Every particle oscillates in [[simple harmonic motion|SHM]]
 $$
 \begin{align}
 y(x, t) & = A\sin(kx \pm\omega t + \phi_0) \\
+\frac{\mathrm{d}y}{\mathrm{d}t} & = -A\omega \cos(kx - \omega t + \phi_0) \\
+\frac{\mathrm{d}^2y}{\mathrm{d}t^2} & = -A\omega^2\sin(kx - \omega t + \phi_0) \\
  \\
 \lambda & = vT \\
 k & = \frac{2\pi}{\lambda} \\
