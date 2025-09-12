@@ -58,14 +58,9 @@ Optional brief summary of the text
 
 #### Thesis
 
-`Sec` last sentence of the introduction that states the theme (opinion on the topic) and the arguments
+`Sec` last sentence of the introduction that states the [[interpretation|theme]] and the arguments
 `Cegep` last sentence that states the theme and opt. arguments
 
-- Specific
-- Debatable
-- Has potentially significant implications
-- Supported by evidence
-- Single idea
 - No summary; prefer [[interpretation#Thematic|thematic interpretation]]
 - `Sec` only one side of the argument, i.e. no opposite perspective
 

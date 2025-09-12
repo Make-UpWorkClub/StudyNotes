@@ -25,9 +25,3 @@ Position
 > $$
 > O = \underbrace{(0, 0,\dots0)}_{n}
 > $$
-
-# 2025-08-29
-
-# parallélogramme
-
-Quadrilatère dont les côtés opposés sont les mêmes vecteurs (même longueur et direction)

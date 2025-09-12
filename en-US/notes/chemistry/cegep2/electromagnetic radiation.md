@@ -7,6 +7,7 @@ date: 2025-03-26T13:24:01
 
 # Electromagnetic Radiation
 
+[[Wave]] of the electromagnetic field
 Form of energy
 Exhibits wave-particle duality
 `Sym.` EMR

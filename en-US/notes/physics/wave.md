@@ -17,21 +17,22 @@ Travelling [[oscillatory motion|oscillating]] disturbance that carries energy wi
 > [!abstract] periodic wave
 > Continuous stream of pulses
 
+
 ## Properties
 
 ![[Onde.png|300]]
 
-### Wavelength
+### wavelength
 
 Distance between two successive identical points
 `Sym.` $\lambda$
 
-### Amplitude
+### amplitude
 
 Maximum displacement of particles
 `Sym.` $A$
 
-### Frequency
+### frequency
 
 Number of peaks that pass through a point in one second
 `Ant.` period
@@ -40,7 +41,7 @@ $$
 f = \frac{1}{T}
 $$
 
-### Period
+### period
 
 Time taken for one peak to pass through a point
 `Ant.` frequency
@@ -49,55 +50,18 @@ $$
 T = \frac{1}{f}
 $$
 
-### Speed
-
-Travelled distance per time
-**Property of the medium** (determined by the restoring force and the inertia)
-
-$$
-\begin{align}
-v & = \sqrt{\frac{F_\text{restoring}}{I}} \\
-v & = \frac{\lambda}{T} \\
-v & = \lambda f
-\end{align}
-$$
-
-For a wave propagating along a string under tension:
-
-$$
-\begin{align}
-v & = \sqrt{\frac{T_s}{\mu}} \\
-\mu & = \frac{m}{l}
-\end{align}
-$$
-
-Where $\mu$ is the **linear density** in kg/m.
-
-> [!warning] Wave speed != speed of particle
-
-### Direction
+### wave direction
 
 **Transverse**: motion of medium *perpendicular* to direction of propagation
 **Longitudinal**: motion of medium *parallel* to the direction of propagation
 
 ## Types
 
-- Mechanical
+- Mechanical: propagates through a physical medium
+  > [!example] Sound, ocean wave
 - Electromagnetic
 - Gravitational
 - Matter
-
-### Mechanical
-
-Propagates through *a physical medium*
-
-> [!example] Sound, ocean wave
-
-### Electromagnetic
-
-Propagate through *the electromagnetic field*
-
-> [!example] Light, radio
 
 ## Representation
 

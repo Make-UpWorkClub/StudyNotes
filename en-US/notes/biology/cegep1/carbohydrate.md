@@ -1,7 +1,8 @@
 ---
 tags:
-  - bio
+  - bio/eco
   - cegep/1
+  - cegep/3
 date: 2024-08-19T10:58:00
 ---
 
@@ -11,5 +12,5 @@ Family of [[macromolecule|macromolecules]] consisting of monosaccharide & polysa
 
 Functions:
 
-- Fuel for cells
-- Carbon source to build other molecules
+- Energy: fuel for cells
+- Structural: carbon source to build other molecules

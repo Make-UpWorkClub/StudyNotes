@@ -14,6 +14,10 @@ date: 2025-08-20T10:10:55
 - Monday 8-10
 - Tuesday 10-11:30
 
-# theme
+# To the Virgins, to Make Much of Time
 
-Insight
+[[Carpe Diem]] poem by Robert Herrick that tries to convince virgins to have sex while they can
+
+# To His Coy Mistress
+
+[[Carpe Diem]] poem that praises and tries to convince a mistress to have sex

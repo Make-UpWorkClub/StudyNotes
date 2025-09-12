@@ -32,3 +32,15 @@ Ploidy levels:
 > [!abstract]+ Chromosome number
 > Number of chromosomes in a cell
 > = ploidy * monoploid number
+
+## Polyploidy
+
+Usually due to errors in meiosis
+
+### Autopolyploidy
+
+Acquisition of haploid set from the *same* species
+
+### Allopolyploidy
+
+Acquisition of haploid set from a *different* species

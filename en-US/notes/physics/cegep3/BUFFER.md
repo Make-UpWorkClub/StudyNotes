@@ -50,3 +50,7 @@ v_\text{transmitted} > v_\text{reflected}
 $$
 
 ![[lighter string propagation.png]]
+
+# wave front
+
+Crest of wave

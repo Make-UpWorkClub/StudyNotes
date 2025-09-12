@@ -9,18 +9,24 @@ date: 2025-06-30T01:39:01
 
 Perspective on the information presented by a literary work
 
-Themes are interpretations
-Thematic analysis produces interpretations
+Themes are interpretations.
+Thematic analysis produces interpretations.
 
 ## Types
 
 ### Textual
 
+Derived from *topics*
 > [!example] Red Riding Hood represents a victim of sexual assault.
 
 ### Thematic
 
-Based on textual interpretation
+Derived from *textual interpretations*
 More insightful than textual interpretation
+
+- Single idea, specific
+- Debatable
+- Supported by evidence
+- Has potentially significant implications
 
 > [!example] "Little Red Riding Hood" suggests that the real threat of sexual violence is from the familiar.

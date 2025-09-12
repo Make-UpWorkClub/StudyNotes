@@ -25,7 +25,7 @@ Types:
 
 ### Fossil record
 
-### Biogeograpy
+### Biogeography
 
 ### Comparative morphology
 
