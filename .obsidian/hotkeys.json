@@ -446,15 +446,7 @@
       "key": "J"
     }
   ],
-  "keyshots:select-all-word-instances": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "W"
-    }
-  ],
+  "keyshots:select-all-word-instances": [],
   "keyshots:expand-line-selections": [
     {
       "modifiers": [
@@ -464,10 +456,88 @@
       "key": "L"
     }
   ],
-  "keyshots:duplicate-line-up": [
+  "keyshots:duplicate-line-up": [],
+  "obsidian-excalidraw-plugin:insert-link": [],
+  "keyshots:duplicate-tab": [],
+  "keyshots:duplicate-line-down": [
     {
       "modifiers": [
         "Mod"
+      ],
+      "key": "D"
+    }
+  ],
+  "keyshots:duplicate-selection-or-line": [],
+  "keyshots:indent": [],
+  "keyshots:close-all-foldable-callouts": [],
+  "keyshots:unindent": [],
+  "keyshots:sort-selected-lines": [],
+  "keyshots:toggle-focus-mode": [],
+  "keyshots:toggle-kebab-case": [],
+  "keyshots:toggle-snake-case": [],
+  "keyshots:select-multiple-word-instances": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "W"
+    }
+  ],
+  "keyshots:shuffle-selected-lines": [],
+  "keyshots:reopen-current-note": [],
+  "keyshots:open-keyshots-settings-tab": [],
+  "keyshots:open-dev-tools": [],
+  "keyshots:open-all-foldable-callouts": [],
+  "keyshots:move-selected-lines-down": [],
+  "keyshots:move-selected-lines-up": [],
+  "keyshots:change-keyshots-preset": [],
+  "keyshots:switch-keyshots-case-sensitivity": [],
+  "keyshots:toggle-all-callouts-fold-state": [],
+  "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-new-tab": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "K"
+    }
+  ],
+  "keyshots:switch-line-numbers-setting": [],
+  "keyshots:toggle-keyboard-input": [],
+  "keyshots:toggle-case-jetbrains": [],
+  "keyshots:go-to-next-fold": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "keyshots:go-to-parent-fold": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "keyshots:go-to-previous-fold": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "keyshots:insert-code-block": [],
+  "keyshots:insert-table": [],
+  "keyshots:switch-readable-length-setting": [],
+  "keyshots:switch-inline-title-setting": [],
+  "keyshots:toggle-uri-encoded-or-decoded": [],
+  "editor:insert-table": [
+    {
+      "modifiers": [
+        "Alt"
       ],
       "key": "D"
     }

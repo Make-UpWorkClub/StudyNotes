@@ -24,19 +24,30 @@ $$
 
 > $\vec{v}, \ \vec{w}\perp \vec{v}\times \vec{w}$
 
-> $\vec{v}\times \vec{v} = \vec{0}$
+> $\vec{v} \parallel \vec{w} \implies \vec{v}\times \vec{w} = \vec{0}$
+
+Par définition, $\vec{w} = k\vec{v}$ pour un $k \in \mathbb{R}$.
 
 $$
 \begin{align}
-\vec{v}\times \vec{v} & = -\vec{v}\times \vec{v} \\
-2(\vec{v}\times \vec{v}) & = \vec{0} \\
-\vec{v}\times \vec{v} & = \vec{0}
+\vec{v}\times \vec{w} & = -\vec{w} \times \vec{v} \\
+\vec{v} \times (k\vec{v}) & = -k \vec{v}\times \vec{v} \\
+2k(\vec{v}\times \vec{v}) & = \vec{0} \\
+\vec{w}\times \vec{v} & = \vec{0}
 \end{align}
 $$
 
 ### Anticommutativité
 
 > $\vec{v}\times \vec{w} = -\vec{w}\times \vec{v}$
+
+### Distributivité
+
+> $\vec{u}\times(\vec{v} + \vec{w}) = \vec{u}\times \vec{v} + \vec{u}\times \vec{w}$
+
+### Associativité avec multiple scalaire
+
+> $(k\vec{u}) \times \vec{w} = k(\vec{u} \times \vec{w}) = \vec{u}(k\vec{v})$
 
 ### Formule de norme
 
@@ -57,7 +68,7 @@ $$
 ### Formule d'aire
 
 > ![[assets/excalidraw/parallélogramme]]
-> L'aire du [[parallélogramme]] est $||\vec{v}\times \vec{w}||$.
+> L'aire du [[en-US/notes/mathematics/cegep3/parallélogramme|parallélogramme]] est $||\vec{v}\times \vec{w}||$.
 > L'aire du triangle formé par $\vec{v}$, $\vec{w}$ et $\vec{v} - \vec{w}$
 
 Soit $\theta$ l'angle entre $\vec{v}$ et $\vec{w}$,

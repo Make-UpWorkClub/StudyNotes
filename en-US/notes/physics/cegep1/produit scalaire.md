@@ -1,6 +1,7 @@
 ---
 tags:
   - Physics/Mechanics
+  - algebra/linear
   - cegep/1
   - cegep/3
 date: 2024-10-21T09:07:53

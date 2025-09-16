@@ -19,10 +19,10 @@ date: 2025-08-19T16:09:26
 ## 2025-08-19
 
 - Early Earth
+	- CO2, H2, N2, water vapor
 	- Reducing atmosphere (no oxygen)
 	- Electrically charged
 	- Hot
-	- CO2, H2, N2, water vapor
 - Protocell
 	- Origin of first cells
 	- Packaged into vesicles surrounded by membrane

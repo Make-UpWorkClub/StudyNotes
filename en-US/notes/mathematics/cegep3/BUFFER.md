@@ -14,14 +14,3 @@ date: 2025-08-19T10:08:35
 - vendredi 12:15-13:15
 
 # 2025-08-22
-
-# point
-
-Position
-
-> [!abstract]+ origine
-> L'origine $O\in \mathbb{R}^n$ est
-> 
-> $$
-> O = \underbrace{(0, 0,\dots0)}_{n}
-> $$

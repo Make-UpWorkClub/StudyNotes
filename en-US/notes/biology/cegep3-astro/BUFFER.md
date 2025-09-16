@@ -90,3 +90,11 @@ Therefore, to determine the mass of a planet:
 $$
 m_p\sin i \approx \frac{(v_*\sin i)\sqrt{1 - e^2}}{28.4 \frac{m}{s}}\left( \frac{T}{1\pu{year}} \right)^{\frac{1}{3}}\left( \frac{M_*}{M_{\circ}} \right)^{\frac{2}{3}}M_J
 $$
+
+# nebular theorem
+
+The Solar System forms from a nebula that collapses on itself.
+
+# Hot Jupiter
+
+Gas giant exoplanets physically similar to Jupiter but extremely close to their star

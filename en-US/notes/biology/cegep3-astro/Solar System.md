@@ -22,6 +22,7 @@ date: 2025-09-10T14:16:21
 - Looks like the Moon
 - Tidally locked
 - No atmosphere => big temperature variation
+- 
 
 ### Venus
 
@@ -39,6 +40,8 @@ date: 2025-09-10T14:16:21
 ## Asteroid belt
 
 Belt of asteroids between Mars and Jupiter
+
+- It exists because it is where all the asteroids happen to survive.
 
 ## Jovian planets
 
@@ -58,6 +61,7 @@ Belt of asteroids between Mars and Jupiter
 ### Uranus
 
 - Mostly hydrogen compounds (water, methane, ammonia)
+- Spins in a different direction <= big collision
 
 ### Neptune
 
