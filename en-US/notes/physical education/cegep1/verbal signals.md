@@ -1,6 +1,6 @@
 ---
 tags:
-  - PE
+  - PE/cycling
   - cegep/1
 date: 2024-09-17T17:41:54
 ---

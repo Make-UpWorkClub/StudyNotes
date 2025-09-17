@@ -1,0 +1,16 @@
+formulas:
+  Position: tags.filter(value.startsWith("PE/exercise/")).map(value.split("/")[2])
+properties:
+  formula.Position:
+    displayName: target
+views:
+  - type: cards
+    name: Main
+    filters:
+      and:
+        - file.tags.contains("PE/exercise")
+    order:
+      - file.name
+      - formula.Position
+    imageFit: ""
+    image: note.image

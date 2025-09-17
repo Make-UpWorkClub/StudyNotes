@@ -54,3 +54,19 @@ $$
 # wave front
 
 Crest of wave
+
+# standing sound wave
+
+## Mediums
+
+### Closed-closed
+
+`Abbr.` C-C
+
+### Open-open
+
+`Abbr.` O-O
+
+### Open-closed
+
+`Abbr.` O-C

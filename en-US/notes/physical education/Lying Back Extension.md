@@ -1,13 +1,14 @@
 ---
 tags:
   - "clipping"
-  - PE
+  - PE/exercise/erector
 authors:
   - "Croppio"
 published:
 created: 2025-09-03T15:25:26-04:00
 source: "https://croppio.com/exercises/lying-back-extension"
 description: "Lying Back Extension is an exercise for lower-back and done with the body weight."
+image: "https://croppio.com/images/exercises/resized/Lying%20Back%20Extension.webp"
 ---
 
 # Lying Back Extension

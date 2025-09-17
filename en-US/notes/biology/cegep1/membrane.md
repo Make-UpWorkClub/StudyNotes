@@ -8,7 +8,7 @@ date: 2024-09-05T16:48:39
 # Membrane
 
 Outer layer of a [[cell]] or of an [[organelle]] made of a [[lipid]] bilayer
-Selectively permeable
+Allows **homeostasis** (selective permeability)
 
 > [!abstract]+ Lipid bilayer
 > Double layer of mainly phospholipid, also cholesterol, glycolipid molecules (incl. fat) and proteins
@@ -23,6 +23,9 @@ Selectively permeable
 > At *low* temperature, cholesterol *increases* fluidity by preventing solidification.
 > 
 > ![[Cholesterol in lipid bilayer.png]]
+
+> [!abstract] Archaea membrane
+> Some [[archaea]] have phospholipid monolayer, which makes them more resistant in extreme environments. 
 
 ## Associated proteins
 

@@ -11,4 +11,4 @@ One of the categories in which data falls into
 For quantitative data: 5-12 classes recommended
 
 > [!abstract] Modal class
-> Class containing the [[mode]]
+> Class containing the [[en-US/notes/probability and statistics/mode]]

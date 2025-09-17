@@ -1,13 +1,14 @@
 ---
 tags:
   - "clipping"
-  - PE
+  - PE/exercise/quads
 authors:
   - "Croppio"
 published:
 created: 2025-09-03T15:42:21-04:00
 source: "https://croppio.com/exercises/dumbbell-goblet-squat-muscles"
 description: "Dumbbell Goblet Squat Muscles is an exercise for quadriceps and done with the dumbbell."
+image: "https://croppio.com/images/exercises/resized/Dumbbell%20Goblet%20Squat%20Muscles.webp"
 ---
 
 # Dumbbell Goblet Squat Muscles

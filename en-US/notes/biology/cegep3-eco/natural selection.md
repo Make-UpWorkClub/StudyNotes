@@ -12,15 +12,16 @@ Adaptation of organisms to the environment by competition
 
 Mechanism:
 
-- Phenotypic variation: individuals of a population vary
-- [[gene#Genetic variation|Genetic variation]]: some of the differences are inheritable
-	- <= mutation
-- Overproduction: species tend to produce more offsprings than can survive
-- Competition: individuals must compete for limited resources
+- Variation
+	- Phenotypic variation: individuals of a population vary.
+	- [[gene#Genetic variation|Genetic variation]]: some of the differences are inheritable.
+		- <= mutation
+- Overproduction: species tend to produce more offsprings than can survive.
+- Competition: individuals must compete for limited resources.
 	- Food
 	- Territory
 	- Mate
-- Differential success: the most fit survives and reproduces
+- Differential success: the fittest survives and reproduces.
 
 > [!abstract] fitness
 > Ability to survive and to reproduce
@@ -31,7 +32,7 @@ Mechanism:
 
 Trait evolves towards *one extreme*
 
-> [!example] Evolution of horse towards larger size and one toed
+> [!example] Evolution of horse towards larger size and one toe
 
 > [!example] Industrial melanization of moths
 > Environment becomes darker => moths become darker
@@ -41,7 +42,6 @@ Trait evolves towards *one extreme*
 Trait evolves towards *both extremes*
 
 > [!example] Adaptive radiation
-> Rapid evolution of 
 
 > [!example] Batesian mimicry
 > Mimicry where a harmless species mimics the warning signals of a toxic species

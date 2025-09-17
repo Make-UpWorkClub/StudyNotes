@@ -9,9 +9,10 @@ date: 2025-08-26T16:33:20
 
 Changes in the gene pool and adaptations of a population over time
 
-- Responsible for biodiversity
 - Slow
-- Non-linear
+- Not goal oriented but adaptive
+- Branching
+- Responsible for biodiversity
 
 Types:
 

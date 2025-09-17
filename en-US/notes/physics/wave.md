@@ -14,32 +14,14 @@ Travelling [[oscillatory motion|oscillating]] disturbance that carries energy wi
 > [!abstract] wave pulse
 > Single disturbance, e.g. one jerk of a rope
 
-> [!abstract] periodic wave
-> Continuous stream of pulses
-
-
 ## Properties
 
 ![[Onde.png|300]]
-
-### wavelength
-
-Distance between two successive identical points
-`Sym.` $\lambda$
 
 ### amplitude
 
 Maximum displacement of particles
 `Sym.` $A$
-
-### frequency
-
-Number of peaks that pass through a point in one second
-`Ant.` period
-
-$$
-f = \frac{1}{T}
-$$
 
 ### period
 

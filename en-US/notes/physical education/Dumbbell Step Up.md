@@ -1,13 +1,14 @@
 ---
 tags:
   - "clipping"
-  - PE
+  - PE/exercise/quads
 authors:
   - "Croppio"
 published:
 created: 2025-09-03T15:31:17-04:00
 source: "https://croppio.com/exercises/dumbbell-step-up"
 description: "Dumbbell Step Up is an exercise for quadriceps and done with the dumbbell."
+image: "https://croppio.com/images/exercises/resized/Dumbbell%20Step%20Up.webp"
 ---
 
 # Dumbbell Step Up

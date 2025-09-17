@@ -1,13 +1,14 @@
 ---
 tags:
   - "clipping"
-  - PE
+  - PE/exercise/traps
 authors:
   - "Croppio"
 published:
 created: 2025-09-03T15:22:45-04:00
 source: "https://croppio.com/exercises/dumbbell-shrug"
 description: "Dumbbell Shrug is an exercise for traps and done with the dumbbell."
+image: "https://croppio.com/images/exercises/resized/Dumbbell%20Shrug.webp"
 ---
 
 # Dumbbell Shrug

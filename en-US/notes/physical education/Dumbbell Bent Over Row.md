@@ -1,13 +1,14 @@
 ---
 tags:
   - "clipping"
-  - PE
+  - PE/exercise/lats
 authors:
   - "Croppio"
 published:
 created: 2025-09-03T15:16:27-04:00
 source: "https://croppio.com/exercises/dumbbell-bent-over-row"
 description: "Dumbbell Bent Over Row is an exercise for lats and done with the dumbbell."
+image: "https://croppio.com/images/exercises/resized/Dumbbell%20Bent%20Over%20Row.webp"
 ---
 
 # Dumbbell Bent Over Row

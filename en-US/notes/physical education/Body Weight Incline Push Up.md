@@ -1,13 +1,14 @@
 ---
 tags:
   - "clipping"
-  - PE
+  - PE/exercise/pecs
 authors:
   - "Croppio"
 published:
 created: 2025-09-03T15:08:06-04:00
 source: "https://croppio.com/exercises/body-weight-incline-push-up"
 description: "Body Weight Incline Push Up is an exercise for chest and done with the body weight."
+image: "https://croppio.com/images/exercises/resized/Body%20Weight%20Incline%20Push%20Up.webp"
 ---
 
 # Body Weight Incline Push Up

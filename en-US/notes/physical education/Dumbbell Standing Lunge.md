@@ -1,13 +1,14 @@
 ---
 tags:
   - "clipping"
-  - PE
+  - PE/exercise/quads
 authors:
   - "Croppio"
 published:
 created: 2025-09-03T15:35:02-04:00
 source: "https://croppio.com/exercises/dumbbell-standing-lunge"
 description: "Dumbbell Standing Lunge is an exercise for quadriceps and done with the dumbbell."
+image: "https://croppio.com/images/exercises/resized/Dumbbell%20Standing%20Lunge.webp"
 ---
 
 # Dumbbell Standing Lunge

@@ -13,3 +13,5 @@ Planned and structured [[physical activity]] with the purpose of improving [[phy
 	- Warm-up
 	- Workout
 	- Cool-down
+
+![[exercises.base]]
