@@ -20,9 +20,12 @@ $$
 
 ## Fundamental frequency
 
-Lowest frequency of a [[periodic wave]]
-`Aka.` 1<sup>st</sup> harmonic
+Lowest frequency of a periodic signal
+`Syn.` 1<sup>st</sup> harmonic
 
 $$
-f_1 = \frac{v}{2L}
+\begin{align}
+f_1 & = \frac{v}{2L} \\
+f_1 & = \Delta f  = f_{m + 1} - f_m
+\end{align}
 $$

@@ -11,11 +11,13 @@ date: 2024-11-20T08:27:27
 
 1<sup>er</sup> [[moment]] de [[force]]
 Analogue de la force dans la [[rotation]]
+[[Produit vectoriel]] du rayon et de la force
 `Sym.` $\tau$
 
 $$
 \begin{align}
-\tau & = r\times F = ||r||\cdot||F||\sin \theta \\
+\tau & = r \times F \\
+||\tau|| & = ||r||\ ||F||\sin \theta \\
 [\tau] & = N\cdot m
 \end{align}
 $$

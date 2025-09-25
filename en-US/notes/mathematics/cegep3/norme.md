@@ -5,7 +5,7 @@ tags:
 date: 2025-09-05T10:55:49
 ---
 
-# longueur vectoriel
+# norme
 
 Opération [[vecteur|vectorielle]]
 Soit $\vec{v} \in \mathbb{R}^n$,

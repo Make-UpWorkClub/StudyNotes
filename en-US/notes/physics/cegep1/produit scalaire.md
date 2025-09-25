@@ -15,7 +15,7 @@ Soit $\vec{u}, \vec{v}, \vec{w} \in \mathbb{R}^n$,
 $$
 \begin{align}
 \vec{v} \cdot \vec{w} & = v_1w_1 + v_2w_2 +\dots v_nw_n \\
- & = ||\vec{v}|| \cdot||\vec{w}||\cos\theta
+ & = ||\vec{v}||\ ||\vec{w}||\cos\theta
 \end{align}
 $$
 

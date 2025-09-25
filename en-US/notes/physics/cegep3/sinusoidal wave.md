@@ -27,6 +27,10 @@ $\omega t$ is *negative* for a wave travelling in the *positive* x direction, *p
 Snapshot: $t$ is fixed
 History graph: $x$ is fixed
 
+## Harmonic
+
+Sinusoidal wave with a frequency that is a multiple of the [[en-US/notes/physics/frequency#Fundamental frequency|fundamental frequency]]
+
 ## Examples
 
 > Find the wave function for this wave.

@@ -2,6 +2,7 @@
 tags:
   - fr
   - sec/4
+  - cegep/3
 ---
 
 # Là où je me terre

@@ -1,6 +1,7 @@
 ---
 tags:
   - bio/astro
+  - bio/eco
   - cegep/3
 date: 2025-09-17T13:07:44
 ---
@@ -12,6 +13,7 @@ date: 2025-09-17T13:07:44
 - Prokaryotic
 - No pathogenic Archaea discovered
 - Tolerates or even thrives in extreme environments
-	- Hydrothermal vents
-	- Hypersaline lakes
+	- Methanogen: guts of herbivores
+	- Thermophile: hydrothermal vents
+	- Halophile: hypersaline lakes
 - Many shapes

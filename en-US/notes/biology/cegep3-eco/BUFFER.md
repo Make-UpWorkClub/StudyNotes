@@ -7,7 +7,6 @@ date: 2025-08-19T16:09:26
 
 # Buffer
 
-- quiz sep 16
 - test sep 30
 - lab test nov 20
 - 4 units
@@ -15,3 +14,17 @@ date: 2025-08-19T16:09:26
 	- 1.6 biodiversity
 	- 2 ecology
 	- 3 human factor
+
+# plant cycle
+
+```mermaid
+graph
+A-->B-->C-->D-->A
+A(**Gametophyte**
+Monoploid)
+B(Fertilization)
+C(**Sporophyte**
+Diploid)
+D(Meiosis)
+```
+

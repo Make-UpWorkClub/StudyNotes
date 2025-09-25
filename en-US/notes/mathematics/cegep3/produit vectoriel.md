@@ -65,25 +65,6 @@ $$
 \end{align}
 $$
 
-### Formule d'aire
-
-> ![[assets/excalidraw/parallélogramme]]
-> L'aire du [[en-US/notes/mathematics/cegep3/parallélogramme|parallélogramme]] est $||\vec{v}\times \vec{w}||$.
-> L'aire du triangle formé par $\vec{v}$, $\vec{w}$ et $\vec{v} - \vec{w}$
-
-Soit $\theta$ l'angle entre $\vec{v}$ et $\vec{w}$,
-
-$$
-\begin{align}
-A_\text{parallélogramme} & = bh \\
- & = ||\vec{v}||\ ||\vec{w}||\cos\theta \\
- & = ||\vec{v}\times \vec{w}|| \\
-\implies A_\text{triangle} & = \frac{||\vec{v}\times \vec{w}||}{2}
-\end{align}
-$$
-
-$\square$
-
 ## Exemples
 
 > Soit $\vec{v} = < 1, 2, 4 >, \ \vec{w} = < 3, 5, -6 >$.
@@ -141,6 +122,37 @@ $$
 \vec{v} \cdot(\vec{v}\times \vec{w}) & = < 1, 2, 4 > \cdot < -32, 18, -1 > \\
  & = 0 \\
 \implies\theta & = \arccos0 \\
- & =
+ & = 90°
+\end{align}
+$$
+
+Similairement, l'angle entre $\vec{w}$ et $\vec{v} \times \vec{w}$ est $90°$.
+
+> Soit les vecteurs $\vec{u}$ et $\vec{v}$ tels que $\vec{u} \times \vec{v} = \langle 1, 7, -13 \rangle$, évaluer $(-4\vec{u} - 2\vec{v}) \times (4\vec{u} + 2\vec{v})$.
+
+$$
+\begin{align}
+(-4\vec{u} - 2\vec{v}) \times (4\vec{u} + 2\vec{v}) & = \underbrace{-16\vec{u} \times \vec{u}}_{\vec{0}} - 8\vec{u} \times \vec{v} - 8\vec{v} \times \vec{u} - \underbrace{4\vec{v} \times \vec{v}}_{\vec{0}} \\
+ & = -8\vec{u} \times \vec{v} + 8\vec{u} \times \vec{v} \\
+ & = \vec{0}
+\end{align}
+$$
+
+> Trouver l'aire du triangle dont les sommets sont les points $A = (2, 1, -3), B = (4, 2, -3), C = (8, 1, 2)$.
+
+$$
+\begin{align}
+\vec{AB} & = \vec{OB} - \vec{OA} & = \langle 2, 1, 0 \rangle \\
+\vec{AC} & = \vec{OC} - \vec{OA} & = \langle 6, 0, 5 \rangle \\
+\vec{AB} \times \vec{AC} & = \begin{bmatrix}
+1 \cdot 5 - 0 \cdot 0 \\
+0 \cdot 6 - 5 \cdot 2 \\
+2 \cdot 0 - 6 \cdot 1
+\end{bmatrix} & = \begin{bmatrix}
+5 \\
+-10 \\
+-6
+\end{bmatrix} \\
+\frac{||\vec{AB} \times \vec{AC}||}{2} & = \frac{\sqrt{5^2 + (-10)^2 + (-6)^2}}{2} & = \frac{\sqrt{161}}{2}
 \end{align}
 $$

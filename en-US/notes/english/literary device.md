@@ -2,6 +2,7 @@
 tags:
   - en
   - cegep/1
+  - cegep/3
 date: 2025-01-24T15:13:15
 ---
 
@@ -13,6 +14,21 @@ date: 2025-01-24T15:13:15
 ## Types
 
 - Repetition
+- In film:
+	- POV
+	- Set
+	- Efects
+	- Blocking
+	- Costumes
+	- Lighting
+	- Props
+	- Music
+	- Scenes
+	- Dialogue / monologue
+
+### Blocking
+
+Position of characters / objects in the scene, e.g. being in the back = ignored
 
 ### Diction
 

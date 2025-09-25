@@ -31,4 +31,6 @@ Agents:
 - Natural selection (competition for food leads to occupation of different niches)
 - Nonrandom breeding
 
+> [!abstract] niche
+> Lifestyle / 
 > [!example] Small fishes mate with small fishes, and large ones mate with large ones.

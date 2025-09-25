@@ -55,18 +55,10 @@ $$
 
 Crest of wave
 
-# standing sound wave
+# resonance
 
-## Mediums
+Amplification of an oscillating system when an outside force matches one of the natural frequencies
 
-### Closed-closed
+> [!example] Pushing a child on a swing
 
-`Abbr.` C-C
-
-### Open-open
-
-`Abbr.` O-O
-
-### Open-closed
-
-`Abbr.` O-C
+> [!example] Plucking a guitar string

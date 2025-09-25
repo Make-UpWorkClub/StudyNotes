@@ -36,6 +36,7 @@ Ploidy levels:
 ## Polyploidy
 
 Usually due to errors in meiosis
+Type of [[speciation]]
 
 ### Autopolyploidy
 

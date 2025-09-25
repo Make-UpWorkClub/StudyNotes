@@ -25,7 +25,7 @@ Allows **homeostasis** (selective permeability)
 > ![[Cholesterol in lipid bilayer.png]]
 
 > [!abstract] Archaea membrane
-> Some [[archaea]] have phospholipid monolayer, which makes them more resistant in extreme environments. 
+> Some [[Archaea]] have phospholipid monolayer, which makes them more resistant in extreme environments. 
 
 ## Associated proteins
 

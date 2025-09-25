@@ -14,14 +14,20 @@ Formuler :
 - *Position sur l'hypothèse*
 - Justification de l'hypothèse
 
+> [!abstract] dissertation critique comparatif
+> Dissertation critique où sont comparés deux sujets du même oeuvre ou de deux oeuvres différents
+
 ## Plans
 
 - Introduction
 - Idée principale 1
+  `Par ex.` similitude / différence
 	- Idée secondaire 1
+	  `Par ex.` texte 1
 		- Procédé formel
 		- Explication
 	- Idée secondaire 2
+	  `Par ex.` texte 2
 		- Procédé formel
 		- Explication
 	- Conclusion partielle
@@ -33,6 +39,9 @@ Formuler :
 		- Procédé formel
 		- Explication
 	- Conclusion partielle
+- Conclusion
+	- Synthèse
+	- Ouverture
 
 ### Par accumulation
 

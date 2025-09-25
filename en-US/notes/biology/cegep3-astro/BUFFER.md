@@ -99,18 +99,15 @@ The Solar System forms from a nebula that collapses on itself.
 
 Gas giant exoplanets physically similar to Jupiter but extremely close to their star
 
-# Bacteria
-
-[[taxonomy|Domain]] of life
-
-- Prokaryotic
-- Most are non pathogenic
-- Shapes:
-	- Spherical
-	- Rod-shaped
-	- Spiral
-
 # 2025-09-17
 
 - Three codons for 22 amino acids
-- 
+
+# pathways
+
+- Calvin cycle: used by photosynthesizers
+- Reverse TCA cycle:
+- Reductive acetyl-COA pathway
+
+# 2025-09-24
+

@@ -8,7 +8,7 @@ date: 2025-02-11T15:20:50
 # Symbolism
 
 Giving character to objects
-[[Literary device]]
+[[literary device]]
 
 ## Types
 

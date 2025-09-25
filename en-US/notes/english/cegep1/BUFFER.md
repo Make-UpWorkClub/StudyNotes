@@ -7,7 +7,7 @@ date: 2025-01-21T13:16:30
 
 # Buffer
 
-# Poetry
+# poetry
 
 [[literary genre]] characterized by:
 
@@ -15,7 +15,7 @@ date: 2025-01-21T13:16:30
 
 > [!info] Narrator called **speaker**
 
-# Figurative Style
+# figurative style
 
 ## Types
 

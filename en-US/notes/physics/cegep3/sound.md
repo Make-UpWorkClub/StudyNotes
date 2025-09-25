@@ -9,7 +9,7 @@ date: 2025-09-10T17:57:26
 
 Longitudinal mechanical [[wave]] that consists of compressions and rarefactions of the medium
 
-- Travelling speed in air at 20°C is $243\pu{m/s}$.
+- Travelling speed in air at 20°C is ==$243\pu{m/s}$==.
 - Travels faster at higher temperatures
 - Human audible frequency: 20-20000Hz
 

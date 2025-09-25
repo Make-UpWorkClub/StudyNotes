@@ -18,25 +18,7 @@ $$
 
 > $\vec{u} \cdot (\vec{v} \times \vec{w}) = -\vec{v} \cdot (\vec{u} \times \vec{w}) = -\vec{w} \cdot (\vec{v} \times \vec{u}) =\dots$
 
-### Formule de volume
-
-> ![[assets/img/parallélépipède]]
-> Le volume du [[assets/img/parallélépipède|parallélépipède]] est $|\vec{AB} \cdot (\vec{AC} \times \vec{AD})|$.
-
-$$
-\begin{align}
-A_B & = ||\vec{AB} \times \vec{AC}|| \\
- \\
-h & = ||\vec{AD}||\cos\theta \\
- \\
-V & = A_Bh \\
- & = ||\vec{AB} \times  \vec{AC}||\ ||\vec{AD}||\cos\theta \\
- & = \vec{AD} \cdot (\vec{AB} \times  \vec{AC}) \\
- & = |\vec{AB} \cdot (\vec{AC} \times  \vec{AD})|
-\end{align}
-$$
-
-$\square$
+> $\vec{v} \cdot (\vec{v} \times \vec{w}) = \vec{v} \cdot (\vec{w} \times \vec{v}) = \vec{w} \cdot (\vec{v} \times \vec{v}) = 0$
 
 ## Exemples
 

@@ -1,5 +1,6 @@
 ---
 tags:
+  - bio/astro
   - bio/eco
   - cegep/3
 date: 2025-09-16T13:18:08
@@ -9,31 +10,37 @@ date: 2025-09-16T13:18:08
 
 Source of energy and molecules
 
-> [!example] Chemoautotrophy: prokaryotes like methanogen
-
 > [!example] Photoheterotrophy: prokaryotes like green and purple non-sulfur bacteria
-
-## Energy source
 
 ### Chemotrophy
 
-Dependency on *chemical* energy
+#### Chemoautotrophy
+
+Dependency on *chemical* energy and *inorganic* molecules
+
+- Aerobic:
+	- Sulfur oxidizer
+	- Nitrificator
+- Anaerobic:
+	- Methanogen
+	- Iron oxidizer
+	- Sulphate reducer
+
+#### Chemoheterotrophy
+
+Dependency on *chemical* energy and *organic* molecules
 
 ### Phototrophy
 
-Dependency on *light* energy
+#### Photoautotrophy
 
-## Carbon source
+Dependency on *light* energy and *inorganic* molecules
 
-### Autotrophy
+#### Photoheterotrophy
 
-Dependency on *inorganic* energy and molecules
-
-- Uses photosynthesis or chemosynthesis
-
-### Heterotrophy
-
-Dependency on *organic* energy and molecules from other organisms
+Dependency on *light* energy and *organic* molecules from other organisms
 
 - Mostly aerobic
 - Includes consumers and decomposers
+
+##

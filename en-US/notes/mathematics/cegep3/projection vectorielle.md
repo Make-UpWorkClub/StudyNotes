@@ -12,7 +12,7 @@ La projection de $\vec{v}$ sur $\vec{d}$ est donnée par:
 
 $$
 \begin{align}
-proj_{\vec{d}}\vec{v} & = \frac{\vec{v} \cdot \vec{d}}{||\vec{d}||^2}\vec{d} = \frac{\vec{v} \cdot \vec{d}}{\vec{d} \cdot \vec{d}}\vec{d} \\
+proj_{\vec{d}}\vec{v} & = \frac{\vec{v} \cdot \vec{d}}{||\vec{d}||^2}\vec{d} = \frac{\vec{v} \cdot \vec{d}}{\vec{d} \cdot \vec{d}}\vec{d} = \frac{||\vec{v}||\cos\theta}{||\vec{d}||}\vec{d} \\
 orth_{\vec{d}}\vec{v} & = \vec{v} - proj_{\vec{d}}\vec{v} = \vec{v} - \frac{\vec{v} \cdot \vec{d}}{||\vec{d}||^2}\vec{d}
 \end{align}
 $$
