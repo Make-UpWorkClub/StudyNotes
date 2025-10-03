@@ -62,3 +62,11 @@ Amplification of an oscillating system when an outside force matches one of the 
 > [!example] Pushing a child on a swing
 
 > [!example] Plucking a guitar string
+
+# beat
+
+$$
+y = 2A\cos\left( 2\pi \frac{f_1 - f_2}{2}t \right)\cos\left( 2\pi \frac{f_1 + f_2}{2}t \right)
+$$
+
+# 

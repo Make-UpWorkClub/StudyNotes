@@ -25,11 +25,15 @@ By metabolism
 - **Paramecia**: has cilia and contractile vacuole
 - **Euglenozoan**: has flagella
 
+#### Fungi like
+
+- **Mould**
+
 ### Photoautotroph
 
 #### Plant like
 
-- **Diatom**: 
-- **Dinoflagellate**: 
-- **Red algae**:
-- **Green algae**:
+- **Diatom**: has fractal shapes
+- **Dinoflagellate**
+- **Red algae**: used for food
+- **Green algae**

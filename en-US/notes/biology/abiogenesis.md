@@ -16,6 +16,7 @@ Origin of [[life]] from inorganic compounds
 - Reducing atmosphere (no oxygen)
 - Electrically charged
 - Hot
+- Sun may be only 70% as hot
 
 ## abiotic synthesis
 
@@ -23,9 +24,10 @@ Spontaneous formation of small organic molecules from inorganic molecules
 
 2 hypotheses:
 
-- **Prebiotic soup hypothesis**
+- **Prebiotic (primordial) soup hypothesis**
 	- Organic molecules formed in the atmosphere
 	- Supported by Urey-Miller experiment that forms sugar, nucleotides and amino acids
+	- Hydrogen cyanide may have formed amino acids
 - **Iron-sulfur world hypothesis**
 	- Organic molecules formed at hydrothermal vents on the ocean floor
 
@@ -50,6 +52,7 @@ Origin of first cells
 
 ## oxygen revolution
 
+Decline of anaerobes 
 Allows evolution of aerobes
 
 ![[Oxygen Level Timeline.png]]

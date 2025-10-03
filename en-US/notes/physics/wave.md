@@ -14,6 +14,14 @@ Travelling [[oscillatory motion|oscillating]] disturbance that carries energy wi
 > [!abstract] wave pulse
 > Single disturbance, e.g. one jerk of a rope
 
+## Types
+
+- Mechanical: propagates through a physical medium
+  > [!example] Sound, ocean wave
+- Electromagnetic
+- Gravitational
+- Matter
+
 ## Properties
 
 ![[Onde.png|300]]
@@ -36,14 +44,6 @@ $$
 
 **Transverse**: motion of medium *perpendicular* to direction of propagation
 **Longitudinal**: motion of medium *parallel* to the direction of propagation
-
-## Types
-
-- Mechanical: propagates through a physical medium
-  > [!example] Sound, ocean wave
-- Electromagnetic
-- Gravitational
-- Matter
 
 ## Representation
 

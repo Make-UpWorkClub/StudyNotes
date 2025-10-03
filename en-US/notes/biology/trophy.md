@@ -10,8 +10,6 @@ date: 2025-09-16T13:18:08
 
 Source of energy and molecules
 
-> [!example] Photoheterotrophy: prokaryotes like green and purple non-sulfur bacteria
-
 ### Chemotrophy
 
 #### Chemoautotrophy
@@ -30,11 +28,17 @@ Dependency on *chemical* energy and *inorganic* molecules
 
 Dependency on *chemical* energy and *organic* molecules
 
+- Decomposer
+- Parasite
+- Mutualistic symbionn
+
 ### Phototrophy
 
 #### Photoautotrophy
 
 Dependency on *light* energy and *inorganic* molecules
+
+- Cyanobacteria
 
 #### Photoheterotrophy
 
@@ -42,5 +46,3 @@ Dependency on *light* energy and *organic* molecules from other organisms
 
 - Mostly aerobic
 - Includes consumers and decomposers
-
-##

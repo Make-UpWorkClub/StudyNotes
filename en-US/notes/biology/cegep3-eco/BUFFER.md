@@ -27,4 +27,3 @@ C(**Sporophyte**
 Diploid)
 D(Meiosis)
 ```
-

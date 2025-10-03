@@ -7,6 +7,8 @@ date: 2025-09-22T12:44:32
 
 # Annihilation
 
+## Scenes
+
 - Interrogation
 	- Unsettling & fear-inducing
 		- <= music: weird shift from white noise to melancholic (?)
@@ -91,16 +93,20 @@ date: 2025-09-22T12:44:32
 - Interrogation
 - Reunion with "Kane"
 
-## Themes
+## Topic
 
 ### Self-destruction and change
 
-- Team members go into 
+- Cancer is self-destruction
+	- Situational irony: cancer in cervix
+	- Shimmer is cancer
+	- Underground room = cervix
 - Death is self-destruction coded into genes
 - Suicide mission
-- Contrary to other members, Josie chooses acceptance of death or change
-	- => the Shimmer reflects inner desires?
 - Self-destruction is actually change
+	- Contrary to other members, Josie accepts the Shimmer change
+		- => the Shimmer reflects inner desires?
+	- Cancer can be beautiful
 - Lena rejects her new self, but still changes => change is inevitable
 - The one who escaped is Lena's mirror
 	- <= as she realizes that her motivation is guilt towards her husband, she chooses self-destruction and dies with her husband.
@@ -109,8 +115,41 @@ date: 2025-09-22T12:44:32
 
 ### Refraction
 
+- Lena means light
 - The Shimmer refracts electromagnetic wave and DNA like a prism
 - Motif: glass of water
 	- Refracts light like the Shimmer
 - Motif: Lena is a liar
+	- => light is deceptive
 - Cell division as mirror of self
+- Mirror of self reflects every action
+	- Mechanistic materialism
+
+## Characters
+
+### Cassie Sheppard
+
+- Geomorphologist
+- "Died" when daughter died of Leukaemia
+	- => death is inevitable even if immortal
+- Acts as the voice of reason in the group
+- Dies first
+
+### Anya Thorensen
+
+- Paramedic
+- Sober/addict => self-destruction
+- Situational irony: ties others up with bandage
+- Falls apart physically & emotionally
+
+### Josie Radek
+
+- Physicist
+- Self-harms
+- Turns into a tree
+
+### Dr Ventress
+
+- Psychologist
+- Has cancer
+- Explodes into light

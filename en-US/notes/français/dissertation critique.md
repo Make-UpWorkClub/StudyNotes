@@ -2,6 +2,7 @@
 tags:
   - fr
   - cegep/2
+  - cegep/3
 date: 2025-01-30T13:39:08
 ---
 

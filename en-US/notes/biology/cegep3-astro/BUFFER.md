@@ -109,5 +109,8 @@ Gas giant exoplanets physically similar to Jupiter but extremely close to their 
 - Reverse TCA cycle:
 - Reductive acetyl-COA pathway
 
-# 2025-09-24
+# 2025-09-26
 
+- glace is less dense than liquid water => glace floats above 
+- Ga = billion years ago
+- 

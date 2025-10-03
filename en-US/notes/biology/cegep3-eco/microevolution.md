@@ -23,4 +23,6 @@ date: 2025-09-04T16:37:11
 	- **Bottleneck effect**: random elimination by catastrophic event
 		- => reduced genetic diversity
 - Nonrandom breeding
-	- <= homozygote is usually less fit
+	- *Positive* assortment: *homozygous* preference
+	- *Negative* assortment: *heterozygous* preference
+		- <= heterozygote advantage

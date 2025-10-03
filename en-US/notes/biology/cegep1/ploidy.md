@@ -42,6 +42,14 @@ Type of [[speciation]]
 
 Acquisition of haploid set from the *same* species
 
+> [!example] Two sperms fertilize the same egg.
+
+> [!example] A sperm fertilizes a diploid egg.
+
 ### Allopolyploidy
 
 Acquisition of haploid set from a *different* species
+
+> [!example] Wheat
+
+> [!example] White sturgeon

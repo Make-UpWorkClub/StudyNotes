@@ -5,7 +5,7 @@ tags:
 date: 2025-09-18T16:24:02
 ---
 
-# interaction
+# interspecific interaction
 
 Interaction between [[species]]
 
@@ -19,5 +19,6 @@ Interaction between [[species]]
 | Symbiosis      |              ~ |             |
 | - Parasitism   |          + / - |             |
 | - Mutualism    |          + / + |             |
+| - Syntrophy    |          + / + |             |
 | - Commensalism |          + / = |             |
 | Facilitation   | + / + or + / = |             |

@@ -10,18 +10,15 @@ date: 2025-08-28T16:43:24
 Adaptation of organisms to the environment by competition
 `Ant.` artificial selection, e.g. breeding dogs
 
-Mechanism:
+Forces:
 
-- Variation
-	- Phenotypic variation: individuals of a population vary.
-	- [[gene#Genetic variation|Genetic variation]]: some of the differences are inheritable.
-		- <= mutation
-- Overproduction: species tend to produce more offsprings than can survive.
-- Competition: individuals must compete for limited resources.
-	- Food
-	- Territory
-	- Mate
-- Differential success: the fittest survives and reproduces.
+- Competition
+	- Interspecific
+	- Intraspecific
+		- Sexual selection: competition for mates
+- Predation
+- Parasitism
+- Mutualism
 
 > [!abstract] fitness
 > Ability to survive and to reproduce
@@ -52,8 +49,8 @@ Trait evolves towards *both extremes*
 
 Trait evolves towards the *center*
 
-> [!example]+ Sickle cell disease
-> Homozygous dominant: suffers from sickle cell
+> [!example]+ Sickle cell anemia
+> Homozygous dominant: suffers from sickle cell anemia
 > Homozygous recessive: suffers from malaria
 > Heterozygous: protected from both
 > => evolution of humans in malaria regions to be heterozygous

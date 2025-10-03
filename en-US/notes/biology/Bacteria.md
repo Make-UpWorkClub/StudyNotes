@@ -9,9 +9,12 @@ date: 2025-09-18T16:30:08
 # Bacteria
 
 [[taxonomy|Domain]] of life
-
+  
 - Prokaryotic
 - Most are non pathogenic
+
+> [!abstract] capsule
+> Sticky polysaccharide that helps pathogens adhere to respiratory tract
 
 ## Classification
 
@@ -20,8 +23,9 @@ date: 2025-09-18T16:30:08
 	- Rod: **bacilli**
 	- Spiral: **spirillum**
 - By metabolism:
-	- 
 	- Chemoheterotroph: decomposers, parasites, mutualistic symbionts
+	- Photoautotroph: cyanobacteria
+	- Chemoautotroph
 - Presence of flagella
 - **Gram staining**
 	- Positive:

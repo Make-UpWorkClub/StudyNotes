@@ -17,3 +17,9 @@ date: 2025-08-20T10:10:55
 # To the Virgins, to Make Much of Time
 
 [[Carpe Diem]] poem by Robert Herrick that tries to convince virgins to have sex while they can
+
+# 2025-10-01
+
+# Ode to a Nightingale
+
+- 

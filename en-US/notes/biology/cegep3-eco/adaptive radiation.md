@@ -7,7 +7,10 @@ date: 2025-09-16T15:30:40
 
 # adaptive radiation
 
-Rapid diversification of different groups of species
+Rapid diversification of organisms from a single ancestral species, particularly when new resources or biological niches are available
+
+- Rapid = millions of years instead of 100 millions—billions of years
+- Characterizes many geological period changes
 
 Historical causes:
 
