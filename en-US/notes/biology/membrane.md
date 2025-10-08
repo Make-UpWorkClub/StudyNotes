@@ -1,7 +1,8 @@
 ---
 tags:
-  - bio
+  - bio/astro
   - cegep/1
+  - cegep/3
 date: 2024-09-05T16:48:39
 ---
 

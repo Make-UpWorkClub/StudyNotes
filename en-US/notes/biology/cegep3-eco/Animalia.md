@@ -16,18 +16,18 @@ Kingdom of [[Eukarya]]
 
 ## Classification
 
-| Phylum         | Symmetry  | Triploblast | Coelom | Protostome | C.D.S. |
-| -------------- | --------- | ----------- | ------ | ---------- | ------ |
-| Porifera       | No        | No          | No     | No         | No     |
-| Cnidaria       | Rad.      | No          | No     | No         | No     |
-| Echinodermata  | Bi & Rad. | Yes         | Yes    | No         | Yes    |
-| Chordata       | Bi.       | Yes         | Yes    | No         | No     |
-| Platyhelmintes | Bi.       | Yes         | No     | Yes        | No     |
-| Rotifera       | Bi.       | Yes         | Pseudo | Yes        | Yes    |
-| Mollusca       | Bi.       | Yes         | Yes    | Yes        | Yes    |
-| Annelida       | Bi.       | Yes         | Yes    | Yes        | Yes    |
-| Nematoda       | Bi.       | Yes         | Pseudo | Yes        | Yes    |
-| Arthropoda     | Bi.       | Yes         | Yes    | Yes        | Yes    |
+| Phylum         | Symmetry  | [[tissue#Triploblast\|Triploblast]] | [[Coelom]] | Protostome | C.D.S. |
+| -------------- | --------- | ----------------------------------- | ---------- | ---------- | ------ |
+| Porifera       | No        | No                                  | No         | No         | No     |
+| Cnidaria       | Rad.      | No                                  | No         | No         | No     |
+| Echinodermata  | Bi & Rad. | Yes                                 | Yes        | No         | Yes    |
+| Chordata       | Bi.       | Yes                                 | Yes        | No         | No     |
+| Platyhelmintes | Bi.       | Yes                                 | No         | Yes        | No     |
+| Rotifera       | Bi.       | Yes                                 | Pseudo     | Yes        | Yes    |
+| Mollusca       | Bi.       | Yes                                 | Yes        | Yes        | Yes    |
+| Annelida       | Bi.       | Yes                                 | Yes        | Yes        | Yes    |
+| Nematoda       | Bi.       | Yes                                 | Pseudo     | Yes        | Yes    |
+| Arthropoda     | Bi.       | Yes                                 | Yes        | Yes        | Yes    |
 
 #### Porifera
 
@@ -61,6 +61,9 @@ Deuterostome
 
 - `E.g.` starfish, sea urchin, sea cucumber
 - **Water vascular system** for locomotion and grabbing food
+	- **Madreporite** acts as the pressure-equalizing valve.
+	- **Tube feet** sticks onto substrate with adhesive chemicals.
+- No mouth; **cardiac stomach** inverts to unleash digestive enzyme on preys, then regurgitates
 
 #### Chordata
 

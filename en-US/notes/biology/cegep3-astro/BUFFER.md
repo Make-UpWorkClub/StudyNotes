@@ -11,34 +11,6 @@ date: 2025-08-20T12:20:03
 - solar system: stars and planets that orbit it
 - astrobiology: study of life in the universe
 
-## 2025-08-22
-
-- Criteria:
-	- Habitable zone
-	- Adequate temperature
-		- Liquid water
-		- Eccentricity of planet not too high
-
-# 2025-08-27
-
-# source of elements
-
-- Big Bang nucleosynthesis
-	- Matter made from extremely intense light within the first 5 minutes => *proton (hydrogen), electron & neutron*
-	- Nuclear fusion: collision of hydrogen within the first few hours => *helium*
-- Low mass star (red giant)
-	- CNO cycle => *helium*
-- High mass star (supergiant)
-	- Helium capture => *elements until iron*
-	- Star explodes to become neutron star => *gold & uranium*
-- White dwarf supernovae => *iron-group elements*
-- Radioactive decay => *radioactive elements*
-- Neutron star
-	- => neutron
-	- R-process: merge of neutron stars => *radioactive elements*
-- Cosmic ray spallation => *beryllium & bore*
-- Human-made => *synthetic elements like technetium*
-
 # 2025-08-29
 
 # escape speed
@@ -103,14 +75,7 @@ Gas giant exoplanets physically similar to Jupiter but extremely close to their 
 
 - Three codons for 22 amino acids
 
-# pathways
-
-- Calvin cycle: used by photosynthesizers
-- Reverse TCA cycle:
-- Reductive acetyl-COA pathway
-
 # 2025-09-26
 
 - glace is less dense than liquid water => glace floats above 
 - Ga = billion years ago
-- 

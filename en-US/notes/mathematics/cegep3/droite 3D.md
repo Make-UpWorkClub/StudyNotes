@@ -30,6 +30,14 @@ $$
 
 > [!warning] Si $\vec{d}$ contient une composante nulle, on omet cette composante dans l'équation symétrique.
 
+### Propriétés
+
+> Deux droites qui s'intersectent sont coplanaires, donc le [[triple produit scalaire]] du vecteur entre deux points sur les droites et deux vecteurs directeurs est 0.
+> 
+> $$
+> \vec{P_1P_2} \cdot (\vec{d_1} \times \vec{d_2}) = 0
+> $$
+
 ## Exemples
 
 > Soit la droite $D = < -3, 6, 1 > + t < -1, 0, 2 >$.

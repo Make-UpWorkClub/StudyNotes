@@ -20,7 +20,7 @@ $C_6H_{12}O_6$ (glucose) + 6 $O_2$ -> 6 $CO_2$ + 6 $H_2O$ + 30-32 ATP + heat
 
 ![[Cellular Respiration.png]]
 
-Throughout glycolysis, pyruvate oxidation and Krebs cycle, glucose is oxidized and **electron carriers** ($\mathrm{NAD^+}$ and $\mathrm{FAD}$) are reduced. They then transport the electrons to the ETC. 
+Throughout glycolysis, pyruvate oxidation and Krebs cycle, glucose is oxidized and **electron carriers** ($\ce{NAD^+}$ and $\ce{FAD}$) are reduced. They then transport the electrons to the ETC. 
 
 ### Glycolysis
 
@@ -36,13 +36,13 @@ Phases:
 
 ### Pyruvate oxidation
 
-2 Pyruvate -> 2 Acetyl-CoA + 2 $\mathrm{NADH}$ + 2 $\mathrm{CO_2}$
+2 Pyruvate -> 2 Acetyl-CoA + 2 $\ce{NADH}$ + 2 $\ce{CO_2}$
 
 In *mitochondria*
 
 ### Krebs cycle
 
-2 Acetyl-CoA -> 6 $\mathrm{NADH}$ + 2 $\mathrm{FADH_2}$ + 2 ATP + 4 $\mathrm{CO_2}$
+2 Acetyl-CoA -> 6 $\ce{NADH}$ + 2 $\ce{FADH_2}$ + 2 ATP + 4 $\ce{CO_2}$
 [[phosphorylation#Substrate-level phosphorylation|Substrate-level phosphorylation]]
 A.k.a. citric acid cycle
 
@@ -50,7 +50,7 @@ In *mitochondria*
 
 ### Electron transport & chemiosmosis
 
-10 $\mathrm{NADH}$ + 2 $\mathrm{FADH_2}$ + 6 $\mathrm{O_2}$ -> 6 $\mathrm{H_2O}$ + 26-28 ATP
+10 $\ce{NADH}$ + 2 $\ce{FADH_2}$ + 6 $\ce{O_2}$ -> 6 $\ce{H_2O}$ + 26-28 ATP
 [[phosphorylation#Oxidative phosphorylation|Oxidative phosphorylation]]
 
 In *mitochondria*
@@ -58,7 +58,7 @@ In *mitochondria*
 
 Steps:
 
-1. Complex *I* / *II* transfers electrons from *$\mathrm{NADH}$* / *$\mathrm{FADH_2}$* to ETC.
+1. Complex *I* / *II* transfers electrons from *$\ce{NADH}$* / *$\ce{FADH_2}$* to ETC.
 2. Electrons flow through ETC and gives energy to complexes I, III and IV to pump protons to the intermembrane space to generate a proton gradient.
 3. Protons flow through ATP synthase into the matrix, powering phosphorylation.
 

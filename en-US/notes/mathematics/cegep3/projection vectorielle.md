@@ -35,7 +35,7 @@ $$
 Selon la définition de $\cos\theta$,
 
 $$
-\cos\theta = \frac{\vec{p}}{||\vec{v}||} \implies p = ||\vec{v}||\cos\theta
+\cos\theta = \frac{p}{||\vec{v}||} \implies p = ||\vec{v}||\cos\theta
 $$
 
 Soit $\vec{e} = \frac{\vec{d}}{||\vec{d}||}$,
@@ -59,7 +59,6 @@ Pour vérifier que $\vec{a}\perp \vec{b}$,
 $$
 \begin{align}
 \vec{a} \cdot \vec{b} & = \vec{a} \cdot(\vec{v} - \vec{a}) \\
- & = \vec{a} \cdot \vec{v} - \vec{a} \cdot \vec{a} \\
  & = \vec{a} \cdot \vec{v} - \vec{a} \cdot \vec{a} \\
  & = \left( \frac{\vec{v} \cdot \vec{d}}{||\vec{d}||^2}\vec{d} \right) \cdot \vec{v} - \left( \frac{\vec{v} \cdot \vec{d}}{||\vec{d}||^2}\vec{d} \right) \cdot \left( \frac{\vec{v} \cdot \vec{d}}{||\vec{d}||^2}\vec{d} \right) \\
  & = \frac{(\vec{v} \cdot \vec{d})^2}{||\vec{d}||^2} - \frac{(\vec{v} \cdot \vec{d})^2}{||\vec{d}||^4}(\vec{d} \cdot \vec{d}) \\

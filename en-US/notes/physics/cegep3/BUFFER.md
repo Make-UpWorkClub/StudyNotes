@@ -69,4 +69,24 @@ $$
 y = 2A\cos\left( 2\pi \frac{f_1 - f_2}{2}t \right)\cos\left( 2\pi \frac{f_1 + f_2}{2}t \right)
 $$
 
-# 
+# 2025-10-06
+
+# light interference
+
+$$
+\begin{align}
+d\sin\theta_\text{bright} & = m\lambda \\
+d\sin\theta_\text{dark}  & = \left( m + \frac{1}{2} \right)\lambda \\
+\end{align}
+$$
+
+For small angles:
+
+$$
+\begin{align}
+y_\text{bright} & = m \frac{\lambda L}{d} \\
+y_\text{dark} & = \left( m + \frac{1}{2} \right)\frac{\lambda L}{d}
+\end{align}
+$$
+
+Where $m$ is the **order** of the fringe.

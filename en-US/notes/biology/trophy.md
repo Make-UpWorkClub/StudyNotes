@@ -15,22 +15,25 @@ Source of energy and molecules
 #### Chemoautotrophy
 
 Dependency on *chemical* energy and *inorganic* molecules
+Use of inorganic molecules as electron donors
 
-- Aerobic:
-	- Sulfur oxidizer
-	- Nitrificator
-- Anaerobic:
-	- Methanogen
-	- Iron oxidizer
-	- Sulphate reducer
+- Prokaryotes
+	- Aerobic:
+		- Sulfur oxidizer
+		- Nitrificator
+	- Anaerobic:
+		- Methanogen
+		- Iron oxidizer
+		- Sulphate reducer
 
 #### Chemoheterotrophy
 
 Dependency on *chemical* energy and *organic* molecules
 
-- Decomposer
-- Parasite
-- Mutualistic symbionn
+- Animals
+- Fungi
+- Protists
+- Prokaryotes
 
 ### Phototrophy
 
@@ -38,7 +41,13 @@ Dependency on *chemical* energy and *organic* molecules
 
 Dependency on *light* energy and *inorganic* molecules
 
-- Cyanobacteria
+- O2 produced:
+	- Plants
+	- Protists
+	- Cyanobacteria
+- O2 not produced:
+	- Bacteria
+		- Green and purple sulphur bacteria
 
 #### Photoheterotrophy
 

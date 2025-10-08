@@ -13,78 +13,107 @@ date: 2025-08-19T10:08:35
 - mercredi 11:15-13:15
 - vendredi 12:15-13:15
 
-# distance
-
-## Entre une droite et un point
-
-![[distance droite-point]]
-
-$$
-\begin{align}
-dist(A, D) & = ||orth_{\vec{d}}\vec{PA}|| = ||\vec{PA} - \frac{\vec{PA} \cdot \vec{d}}{||\vec{d}||^2}\vec{d}|| \\
- & = \frac{||\vec{PA} \times \vec{d}||}{||\vec{d}||} \\
-P_D(A) & = \vec{OP} + proj_{\vec{d}}\vec{PA}
-\end{align}
-$$
+# intersection
 
 ## Entre deux droites
 
-- Coïncidentes parallèles ou intersectées : 0
-- Distinctes parallèles: distance entre un point quelconque sur une droite et l'autre
-- Obliques : $$
-dist(D_1, D_2) = ||proj_{\vec{d_1} \times \vec{d_2}}\vec{P_1P_2}||
-$$
+Forme paramétrique
+
+## Entre un plan et une droite
+
+Plan : forme générale
+Droite : forme paramétrique
+
+## Entre deux plans
+
+Forme générale
 
 ## Exemples
 
 > $$
 > \begin{align}
-> A & = (2, 1, 1) \\
-> D: & \begin{cases}
-x & = -1 + t \\
-y & = 8 + 2t \\
-z & = 8 + t
-\end{cases}
+> D_1 & \langle x, y, z \rangle = \langle 7, - 3, -2 \rangle + t \langle t, -1, -1 \rangle \\
+> D_2: & x - 1 = y - 6 = -z - 1
 > \end{align}
 > $$
 
-> 1. Montrer que $A \notin D$.
+> 1. Démontrer que $D_1 \cap D_2$ est un point.
 
 $$
 \begin{align}
-x & = -1 + t \\
-2 & = -1 + t \\
-t & = 3 \\
+\vec{d_1} & = \langle 2, -1, -1 \rangle \\
+\vec{d_2} & = \langle 1, 1, -1 \rangle \\
+P_1: & (7, -3, -2) \\
+P_2: &  (1, 6, -1) \\
  \\
-y & = 8 + 2t \\
-1 & = 8 + 2t \\
-t & = -\frac{7}{2} \\
+\vec{d_1} \times \vec{d_2} & = \begin{bmatrix}
+2 \\
+1 \\
+3
+\end{bmatrix} \ne \vec{0} \\
+D_1 & \nparallel D_2 \\
  \\
-3 & \ne -\frac{7}{2}
+\vec{P_1P_2} & = \langle 1, 6, -1 \rangle - \langle 7, -3, -2 \rangle \\
+ & = \langle -6, 9, 1 \rangle \\
+\implies \vec{P_1P_2} \cdot (\vec{d_1 \times \vec{d_2}}) & = \langle -6, 9, 1 \rangle \cdot \langle 2, 1, 3 \rangle = 0 \\
+\therefore D_1 \cap D_2 & = \{ A \}
 \end{align}
 $$
 
-> 2. Trouver le point $P_D(A)$.
+> 2. Déterminer les coordonnées du point d'intersection.
 
 $$
 \begin{align}
-\vec{d} & = \langle 1, 2, 1 \rangle \\
-P & = (-1, 8, 8) \\
-\vec{PA} & = \vec{OA} - \vec{OP} = \langle 3, -7, -7 \rangle \\
-\vec{OP_D(A)} & = \vec{OP} + proj_{\vec{d}}\vec{PA} \\
- & = \langle -1, 8, 8 \rangle + \frac{\vec{PA} \cdot \vec{d}}{\vec{d} \cdot \vec{d}}\vec{d} \\
- & = \langle -1, 8, 8 \rangle - \frac{18}{6}\langle -3, -6, -3 \rangle \\
- & = \langle 4, 2, 5 \rangle \\
-\implies P_D(A) & = (4, 2, 5)
+7 + 2t_1 & = 1 + t_2 \\
+-3 - t_1 & = 6 + t_2 \\
+\implies 10 + 3t_1 & = -5 \\
+t_1 & = -5 \\
+ \\
+\vec{OA} & = \langle 7, -3, -2 \rangle + - 5\langle 2, -1, -1 \rangle \\
+ & = \langle -3, 2, 3 \rangle \\
+\implies A & = (-3, 2, 3)
 \end{align}
 $$
 
-> 3. Trouver la distance entre $A$ et $D$.
+> $$
+> \begin{align}
+> \pi: & x + 2y - z = -9 \\
+> D: & \langle x, y, z \rangle = \langle 2, -3, -3 \rangle + t \langle -1, 1, 3 \rangle
+> \end{align}
+> $$
+> 
+> Trouver $D \cap \pi$.
+
+> $$
+> \begin{align}
+> \pi_1: & x + y - z = 2 \\
+> \pi_2: & x + y + z = 1
+> \end{align}
+> $$
+> 
+> Trouver $\pi_1 \cap \pi_2$.
 
 $$
 \begin{align}
-dist(A, D) & = ||\vec{OA} - \vec{OP_D(A)}|| \\
- & = ||\langle 2, 1, 1 \rangle - \langle -4, 2, 5 \rangle|| \\
- & = \sqrt{53}
+\implies 2x + 2y & = 3 \\
+x + y & = \frac{3}{2}
+\end{align}
+$$
+
+Poser $x = t$, alors
+
+$$
+\begin{align}
+t + y & = \frac{3}{2} \\
+y & = \frac{3}{2} - t \\
+ \\
+t + \left( \frac{3}{2} - t \right) - z & = 2 \\
+z & = -\frac{1}{2} \\
+ \\
+\implies D: & \begin{cases}
+x & = t \\
+y & = \frac{3}{2} - t \\
+z & = -\frac{1}{2}
+\end{cases}
 \end{align}
 $$

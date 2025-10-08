@@ -17,6 +17,9 @@ $$
 > *In* phase: $\Delta\phi_0 = 0$
 > *Out* of phase: $\Delta\phi_0 = \pi$
 
+> [!abstract] coherence
+> Property of two waves that maintain a constant phase difference
+
 > [!abstract] node / antinode
 > Locations where amplitude is always zero / maximal
 

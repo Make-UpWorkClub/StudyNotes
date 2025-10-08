@@ -17,7 +17,7 @@ Travelling [[oscillatory motion|oscillating]] disturbance that carries energy wi
 ## Types
 
 - Mechanical: propagates through a physical medium
-  > [!example] Sound, ocean wave
+	- `E.g.` sound, ocean wave
 - Electromagnetic
 - Gravitational
 - Matter

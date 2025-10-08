@@ -24,6 +24,22 @@ $$
 
 > $\vec{v}, \ \vec{w}\perp \vec{v}\times \vec{w}$
 
+$$
+\begin{align}
+\vec{v} \cdot (\vec{v} \times \vec{w}) & = \vec{v} \cdot \begin{bmatrix}
+v_2w_3 - w_2v_3 \\
+v_3w_1 - w_3v_1 \\
+v_1w_2 - w_1v_2
+\end{bmatrix} \\
+ & = v_1(v_2w_3 - w_2v_3) + v_2(v_3w_1 - w_3v_1) + v_3(v_1w_2 - w_1v_2) \\
+ & = \cancel{v_1v_2w_3 - v_1w_2v_3 + w_1v_2v_3 - v_1v_2w_3 + v_1w_2v_3 - w_1v_2v_3K} \\
+ & = 0 \\
+\implies \vec{v} & \perp \vec{v} \times \vec{w}
+\end{align}
+$$
+
+Similairement, $\vec{w} \perp \vec{v} \times \vec{w}$.
+
 > $\vec{v} \parallel \vec{w} \implies \vec{v}\times \vec{w} = \vec{0}$
 
 Par définition, $\vec{w} = k\vec{v}$ pour un $k \in \mathbb{R}$.
@@ -59,11 +75,13 @@ $$
 \begin{align}
 ||\vec{v}\times\vec{w}||^2 & = ||\vec{v}||^2||\vec{w}||^2 - (\vec{v} \cdot \vec{w})^2 \\
  & = ||\vec{v}||^2||\vec{w}||^2 - (||\vec{v}||\ ||\vec{w}||\cos\theta)^2 \\
- & = |\vec{v}||^2||\vec{w}||^2(1 - \cos^2\theta) \\
+ & = ||\vec{v}||^2||\vec{w}||^2(1 - \cos^2\theta) \\
  & = ||\vec{v}||^2||\vec{w}||^2\sin^2\theta \\
 ||\vec{v}\times \vec{w}|| & = ||\vec{v}||\ ||\vec{w}||\sin\theta
 \end{align}
 $$
+
+$\square$
 
 ## Exemples
 

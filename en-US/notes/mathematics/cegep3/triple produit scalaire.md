@@ -8,6 +8,7 @@ date: 2025-09-16T10:46:46
 # triple produit scalaire
 
 Opération [[vecteur|vectorielle]]
+[[Produit scalaire]] avec un [[produit vectoriel]]
 Soit $\vec{u}, \vec{v}, \vec{w} \in \mathbb{R}^3, \ k \in \mathbb{R}$,
 
 $$

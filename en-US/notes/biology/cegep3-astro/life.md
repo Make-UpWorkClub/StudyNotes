@@ -11,28 +11,65 @@ Characteristics:
 
 - Organization
 - Information
-	- Erwin Schrodinger: only aperiodic solids hold information
+	- Erwin Schrodinger: ==only aperiodic solids hold information==
 - Metabolism
 	- Energy transformation
 	- Reaction
 - Evolution
 	- Change in the information
 
-> [!info] Viruses don't metabolize so are not considered as alive.
-
-> [!info] Viking mission
+> [!info]+ Viking mission
 > Experiment #1: presence of metabolism on Mars
 > Experiment #2: absence of organic molecules on Mars
-> => d
+> => if no life: evidence of metabolism may be produced inorganically
+> => if life: life may exist in inorganic form
+> => possible contamination
 
-## Essential elements
+## Criteria
 
-- Carbon
-- Hydrogen
-- Nitrogen
-- Oxygen
-- Phosphorus
-- Silicon
+- Habitable zone
+- Adequate temperature
+	- <= liquid water
+	- <= eccentricity of planet not too high
+- Essential elements:
+	- Carbon
+	- Hydrogen
+	- Nitrogen
+	- Oxygen
+	- Phosphorus
+	- Silicon
+- Water:
+	- <= very polar; forms H-bonds
+	- <= cohesive and adhesive
+	- <= high heat capacity => stable atmosphere / ocean / organism temperature
+	- <= denser as a liquid than a solid => allows ice to float
 
+## Alternative forms
 
-Life on earth is not silicon-based because it readily reacts with oxygen to form silicate.
+- Silicon based
+	- More reactive than carbon; forms weaker bonds
+		- Advantage ==in low-temperature environments==
+	- Disadvantage: ==spontaneous reaction with oxygen== to form the very stable silicate
+		- Si-O stronger than C-O bonds
+- Should have a similar set of proteinogenic [[amino acid|amino acids]] to cover a wide range of properties
+- Ammonia as solvent
+	- Abundant
+	- Disadvantage: smaller liquid range
+- Methane as solvent
+	- Abundant
+	- Advantage: liquid in low-temperature environments
+	- Disadvantage: smaller liquid range
+	- Disadvantage: non-polar
+		- **Azotosome**: theoretical nitrogen-based inside-out membrane that form in methane
+- May have similar adaptations to Archaea
+- Probably not wheeled
+
+## Search
+
+- High homochirality of biological molecules
+	- <= homochiral preference of life on Earth
+	- <= non-biological reaction typically produces equal chirality
+- **Hopanoids**: lipids in bacterial membranes
+	- <= very resilient to extreme conditions; can be preserved for millions of years
+- Simultaneous presence of methane and oxygen
+	- <= exothermic reaction of methane with oxygen; the half-life of methane on Earth is only ~10 years

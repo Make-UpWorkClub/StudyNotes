@@ -14,3 +14,7 @@ Distance between two successive identical points on a [[wave]]
 $$
 \lambda_m = \frac{\lambda_1}{m}
 $$
+
+> [!abstract] monochromatic
+> (Of a wave source) only emitting one wavelength
+> `E.g.` laser

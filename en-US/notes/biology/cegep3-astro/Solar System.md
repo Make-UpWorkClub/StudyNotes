@@ -15,6 +15,10 @@ date: 2025-09-10T14:16:21
 ## Terrestrial planets
 
 - *Solid*
+- Layers:
+	- Crust
+	- Mantle
+	- Core
 
 ### Mercury
 
@@ -22,12 +26,11 @@ date: 2025-09-10T14:16:21
 - Looks like the Moon
 - Tidally locked
 - No atmosphere => big temperature variation
-- 
 
 ### Venus
 
+- Thick atmosphere => very hot
 - May have had a ocean that evaporated due to runaway greenhouse effect
-- Very hot
 
 > [!abstract] runaway greenhouse effect
 > Heat increases vapour concentration in atmosphere, which in turn traps more heat, finally leading to evaporation of oceans
@@ -47,6 +50,11 @@ Belt of asteroids between Mars and Jupiter
 
 - *Gaseous*
 - All four have ring systems
+- Layers:
+	- Gaseous hydrogen
+	- Liquid hydrogen
+	- Metallic hydrogen (Jupiter and Saturn only)
+	- Rock, metal and hydrogen compound core
 
 ### Jupiter
 
