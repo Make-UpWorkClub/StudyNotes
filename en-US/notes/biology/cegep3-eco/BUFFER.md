@@ -27,3 +27,13 @@ C(**Sporophyte**
 Diploid)
 D(Meiosis)
 ```
+
+# climate
+
+- Sunlight
+- Season
+- Wind current
+- Water current
+- Altitude
+- Mountain range: more frequent precipitation
+- Vegetation: absorbs solar radiation and cools the surface

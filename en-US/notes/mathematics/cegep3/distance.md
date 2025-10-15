@@ -21,11 +21,13 @@ $$
 
 ## Entre deux droites
 
+![[distance droite-droite]]
+
 - Coïncidentes parallèles ou intersectées : 0
 - Distinctes parallèles : distance entre un point quelconque sur une droite et l'autre
 - Obliques : $$
-dist(D_1, D_2) = ||proj_{\vec{d_1} \times \vec{d_2}}\vec{P_1P_2}||
-$$
+  dist(D_1, D_2) = ||proj_{\vec{d_1} \times \vec{d_2}}\vec{P_1P_2}||
+  $$
 
 ## Entre un plan et un point
 
@@ -42,7 +44,7 @@ $$
 > $$
 > \begin{align}
 > dist(A, \pi) & = ||proj_{\vec{n}}\vec{AP}|| \\
->  & = || \frac{\vec{n} \cdot \vec{AP}}{\mathrm{\vec{n}}^2}\vec{n}|| \\
+>  & = || \frac{\vec{n} \cdot \vec{AP}}{||\vec{n}||^2}\vec{n}|| \\
 >  & = \frac{|\vec{n} \cdot \vec{AP}|}{||\vec{n}||} \\
 >  & = \frac{|\vec{n} \cdot \vec{OA} - \vec{n} \cdot \vec{OP}|}{\sqrt{a^2 + b^2 + c^2}} \\
 >  & = \frac{|ax + by + cz - d|}{\sqrt{a^2 + b^2 + c^2}}
@@ -57,7 +59,11 @@ $$
 ## Entre deux plans
 
 - Coïncidents parallèles ou intersectés : 0
-- Distincts parallèles : distance entre un point quelconque sur un plan et l'autre
+- Distincts parallèles :
+	- Distance entre un point quelconque sur un plan et l'autre
+	- Si l'équation générale des deux plans partage le même $\vec{n}$ : $$
+      dist(D_1, D_2) = \frac{|d_1 - d_2|}{||\vec{n}||}
+      $$
 
 ## Exemples
 

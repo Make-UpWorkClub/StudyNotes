@@ -11,7 +11,7 @@ date: 2025-09-23T11:32:31
 
 ### Générale
 
-Soit $P = (x_0, y_0, z_0) \in \pi$ et un **vecteur normal** $\vec{n} = (a, b, c)$,
+Soit $P = (x_0, y_0, z_0) \in \pi$ et un **vecteur normal** $\vec{n} = \langle a, b, c \rangle$,
 
 $$
 \begin{align}
@@ -23,6 +23,7 @@ $$
 
 ### Vectorielle
 
+`Aka.` paramétrique
 Soit $P = (x_0, y_0, z_0) \in \pi$ et deux ==vecteurs directeurs== $\vec{u}, \vec{v} \parallel \pi$ de sorte que $\vec{u} \nparallel \vec{v}$,
 
 $$

@@ -24,7 +24,7 @@ Most stable state
 ### *Excited* state
 
 Higher energy level ($E_2, E_3, \dots$)
-Excited atoms can absorb or emit energy in the form of [[Photon|photons]] to change state
+Excited atoms can absorb or emit energy in the form of [[photon|photons]] to change state
 
 ## Energy sublevel
 

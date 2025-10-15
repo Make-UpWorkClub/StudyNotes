@@ -9,8 +9,9 @@ date: 2025-09-19T11:53:16
 
 ## Équations
 
-### Paramétrique
+### Vectorielle
 
+`Aka.` paramétrique
 Soit un point $P = (x_0, y_0, z_0) \in D$ et un **vecteur directeur** $\vec{d} = \langle \Delta x, \Delta y, \Delta z \rangle\parallel D$,
 
 $$

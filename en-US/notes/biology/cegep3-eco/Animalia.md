@@ -22,11 +22,11 @@ Kingdom of [[Eukarya]]
 | Cnidaria       | Rad.      | No                                  | No         | No         | No     |
 | Echinodermata  | Bi & Rad. | Yes                                 | Yes        | No         | Yes    |
 | Chordata       | Bi.       | Yes                                 | Yes        | No         | No     |
-| Platyhelmintes | Bi.       | Yes                                 | No         | Yes        | No     |
-| Rotifera       | Bi.       | Yes                                 | Pseudo     | Yes        | Yes    |
+| Platyhelmintes | Bi.       | Yes                                 | *No*       | Yes        | No     |
+| Rotifera       | Bi.       | Yes                                 | *Pseudo*   | Yes        | Yes    |
 | Mollusca       | Bi.       | Yes                                 | Yes        | Yes        | Yes    |
 | Annelida       | Bi.       | Yes                                 | Yes        | Yes        | Yes    |
-| Nematoda       | Bi.       | Yes                                 | Pseudo     | Yes        | Yes    |
+| Nematoda       | Bi.       | Yes                                 | *Pseudo*   | Yes        | Yes    |
 | Arthropoda     | Bi.       | Yes                                 | Yes        | Yes        | Yes    |
 
 #### Porifera
@@ -67,7 +67,7 @@ Deuterostome
 
 #### Chordata
 
-Vertebrate
+With cords
 
 ### Lophotrochozoa
 
@@ -80,9 +80,12 @@ Vertebrate
 
 Flatworm
 
-- **Planarian**: *free*
-- **Fluke**: *parasitic*
-- **Tapeworm**: *parasitic*
+- ==Exceptionally doesn't have two stages==
+- Can regenerate from a body fragment
+- Members:
+	- **Planarian**: *free*
+	- **Fluke**: *parasitic*
+	- **Tapeworm**: *parasitic*
 
 #### Rotifera
 
@@ -92,37 +95,47 @@ Wheel animal
 
 Softbody
 
-Groups:
-
-- **Snail**: snail, slug
-- **Bivalve**: clam, oyster
-- **Cephalopod**: octopus, squid
+- Groups:
+	- **Snail**: snail, slug
+	- **Bivalve**: clam, oyster
+	- **Cephalopod**: octopus, squid
+		- Intelligent
+		- **Chromatophore**: specialized cell that allows for camouflage
 
 #### Annelida
 
 Segmented worm
 
-- Possible **parapodia**: protrusions from the body
-
-Groups:
-
-- **Leech**: *freshwater*
-- **Earthworm**: *soil*
-- **Sandworm**: *marine*
+- Groups:
+	- **Leech**: *freshwater*
+	- **Earthworm**: *soil*
+	- **Sandworm**: *marine*
+		- **Parapodia**: protrusions from the body for gas exchange
 
 ### Ecdysozoa
 
-- **Ecdysis**: growth by melting cuticle or exoskeleton
+- **Ecdysis**: growth by moulting (shedding) the cuticle or exoskeleton
 
 #### Nematoda
 
 Roundworm
 
 - Smooth cuticle
+- Many are parasites
 
 #### Arthropoda
 
-- `E.g.` insects, spiders, centipedes, crustaceans
 - [[polysaccharide#Chitin|Chitin]] exoskeleton
 - Segmented body
 - Jointed leg
+- Groups:
+	- Crustaceans
+	- Centipedes
+	- Spiders
+	- Insects
+		- **Compound eye**: better at detecting motion
+		- **Metamorphosis**: Transformation to next stage of development
+		- Excretory system:
+			- **Malpighian tubule** allows for reabsorption of water, ions and organic molecules.
+		- Respiratory system:
+			- **Spiracle** <-> **tracheal tube** <-> **tracheole** <-> body cell

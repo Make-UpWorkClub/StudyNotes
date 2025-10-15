@@ -23,13 +23,12 @@ Collection of stories
 - Men:
 	- Generally upright
 - Women:
-	- Cunning & deceptive
+	- Cunning, deceptive & manipulative
 		- Feared by men
-	- Often obstinate
+	- Have own will, often obstinate
 		- <= will reach their objective by any means
-	- Wicked
+	- Often educated and use knowledge for good or evil
 		- <= only women use magic
-		- <= she-demon in disguise
 	- Often jealous
 
 ### God
@@ -44,6 +43,7 @@ Collection of stories
 
 - Death seen as sorrowful
 - Death as motivation
+- Loss of purpose leads to death
 
 ## Characters
 
@@ -59,6 +59,9 @@ Collection of stories
 ### Donkey
 
 - Analogous to Shahrazad
+- Too clever
+- Neither good nor bad
+- Willing to help -> self-interested
 
 ### Ox
 
@@ -135,6 +138,7 @@ Collection of stories
 - The Tale of the Ox and the Donkey
 - The Tale of the Merchant and His Wife
 	- Beating of wife reveals fear of death
+	- Better not get involved than helping others
 - The First Night: The Story of the Merchant and the Demon
 	- Peace -> worry, wariness -> happiness?
 - The Second Night
