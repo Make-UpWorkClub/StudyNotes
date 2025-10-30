@@ -1,6 +1,6 @@
 ---
 tags:
-  - PAS
+  - mat/PAS
   - cegep/2
 date: 2025-04-17T14:21:07
 ---

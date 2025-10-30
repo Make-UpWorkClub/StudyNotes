@@ -1,6 +1,6 @@
 ---
 tags:
-  - Calculus
+  - mat/calculus
   - cegep/1
 date: 2024-10-07T15:01:08
 ---

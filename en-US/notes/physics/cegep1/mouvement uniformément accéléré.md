@@ -1,6 +1,6 @@
 ---
 tags:
-  - Physics/Mechanics
+  - phys/mech
   - cegep/1
 date: 2024-09-03T09:25:15
 ---

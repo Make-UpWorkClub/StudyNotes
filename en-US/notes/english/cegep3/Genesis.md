@@ -14,13 +14,20 @@ Contains the story of Adam and Eve and Noah
 	- Different beginning than vol 1
 - Vol 6-9: Noah
 
-## Trees
+## Symbolism
 
+- Breath of life
+	- Expresses the shortness and insignificance of life
+- Serpent
+	- Malice
+	- Doesn't lie but tells the truth
 - Tree of life
-	- => universal knowledge
+	- Choice between eternal life and knowledge?
 - Tree of knowledge of good and evil
 	- Fruit as symbol of sex?
-	- => moral absolutism
+	- Knowledge makes humans equal to God
+		- => with knowledge comes responsibility
+	- => universal knowledge (moral absolutism)
 
 ## Comparison with [[Gilgamesh]]
 

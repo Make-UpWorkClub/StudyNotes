@@ -1,6 +1,6 @@
 ---
 tags:
-  - Physics/Mechanics
+  - phys/mech
   - chem
   - sec/4
   - cegep/1

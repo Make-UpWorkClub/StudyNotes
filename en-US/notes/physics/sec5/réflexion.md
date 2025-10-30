@@ -1,6 +1,6 @@
 ---
 tags:
-  - Physics/Light
+  - phys/light
   - sec/5
 date: 2023-11-06 23:13
 ---

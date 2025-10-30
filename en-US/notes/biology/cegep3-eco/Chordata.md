@@ -16,7 +16,15 @@ Phylum of [[Animalia#Deuterostomia]]
 
 ## Classification
 
-### Vertebrate
+#### Cephalochordata
+
+Lancelet
+
+#### Urochordata
+
+Tunicate
+
+### Vertebrata
 
 - Circulatory system:
 	- **Countercurrent**:
@@ -24,8 +32,32 @@ Phylum of [[Animalia#Deuterostomia]]
 	- Double circulation amphibian
 	- Double circulation mammal
 
+#### Myxini
+
+Hagfish
+
+#### Petromyzontida
+
+Lamprey
+
+#### Chondrichthyes
+
+Cartilaginous fish
+
+- Shark, ray
+
+#### Actinopterygii
+
+Ray-finned fish
+
 #### Actinistia
 
-- **Parabronchi** ensures one way movement of air.
+- **Parabronchi** ensure one way movement of air.
 
-#### 
+#### Amphibia
+
+Frog, salamander
+
+#### Reptilia
+
+#### Mammalia

@@ -1,8 +1,8 @@
 ---
 tags:
-  - Humanities
+  - hum
   - cegep/2
-  - Stub
+  - stub
 date: 2025-03-14T08:26:44
 ---
 

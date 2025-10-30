@@ -1,7 +1,7 @@
 ---
 tags:
-  - Algebra
-  - Calculus
+  - mat/algebra
+  - mat/calculus
   - sec/5
   - cegep/1
 date: 2024-09-13T14:48:57

@@ -11,9 +11,15 @@ Longitudinal mechanical [[wave]] that consists of compressions and rarefactions 
 
 - Travelling speed in air at 20°C is ==$243\pu{m/s}$==.
 - Travels faster at higher temperatures
-- Human audible frequency: 20-20000Hz
+- Frequency -> pitch
+	- Human audible frequency: 20-20000Hz
+- Intensity -> loudness
+	- Human audible intensity: $I_o = 10^{-12}$ to $1\pu{W/m^2}$
 
-## Intensity
+> [!abstract] wave front
+> Crest of a sound wave
+
+## Intensity level
 
 Measured in **decibels**:
 
@@ -21,8 +27,34 @@ $$
 \beta = 10\pu{dB}\log \frac{I}{I_o} 
 $$
 
-- Human audible intensity: $I_o = 10^{-12}$ to $1\pu{W/m^2}$
-- Low frequencies correspond to lower pitch, high frequencies correspond to higher pitch
+## [[Standing wave]] in a tube
+
+Boundary condition: reflection at closed ends => the ends must be *nodes*
+Boundary condition: balance of internal and external pressure at open ends => the ends must be *antinodes*
+
+### Closed-closed
+
+`Abbr.` C-C
+
+$$
+\lambda = \frac{2L}{n}\text{ where }n = 1, 2, 3\dots
+$$
+
+### Open-open
+
+`Abbr.` O-O
+
+$$
+\lambda = \frac{2L}{n}\text{ where }n = 1, 2, 3\dots
+$$
+
+### Open-closed
+
+`Abbr.` O-C
+
+$$
+\lambda = \frac{4L}{n}\text{ where }n = 1, 3, 5, \dots
+$$
 
 ## Examples
 

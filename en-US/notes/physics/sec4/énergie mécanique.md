@@ -1,6 +1,6 @@
 ---
 tags:
-  - Physics/Mechanics
+  - phys/mech
   - sec/4
 ---
 

@@ -11,10 +11,14 @@ date: 2025-09-02T12:17:51
 
 Travelling [[oscillatory motion|oscillating]] disturbance that carries energy without transfer of mass
 
+![[Onde.png|300]]
+
 > [!abstract] wave pulse
 > Single disturbance, e.g. one jerk of a rope
 
 ## Types
+
+### By medium
 
 - Mechanical: propagates through a physical medium
 	- `E.g.` sound, ocean wave
@@ -22,34 +26,18 @@ Travelling [[oscillatory motion|oscillating]] disturbance that carries energy wi
 - Gravitational
 - Matter
 
-## Properties
+### By direction
 
-![[Onde.png|300]]
-
-### amplitude
-
-Maximum displacement of particles
-`Sym.` $A$
-
-### period
-
-Time taken for one peak to pass through a point
-`Ant.` frequency
-
-$$
-T = \frac{1}{f}
-$$
-
-### wave direction
-
-**Transverse**: motion of medium *perpendicular* to direction of propagation
-**Longitudinal**: motion of medium *parallel* to the direction of propagation
+- **Transverse**: motion of medium *perpendicular* to direction of propagation
+- **Longitudinal**: motion of medium *parallel* to the direction of propagation
+- Combination of transverse and longitudinal
+	- `E.g.` surface wave
 
 ## Representation
 
-**Snapshot**: displacement as a function of *position* at a given *moment in time*
-**History graph**: displacement as a function of *time* at a given *point in space*
-**3D**: both time and space
+- **Snapshot**: displacement as a function of *position* at a given *moment in time*
+- **History graph**: displacement as a function of *time* at a given *point in space*
+- **3D**: both time and space
 
 ![[wave representations.png]]
 

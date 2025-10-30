@@ -1,6 +1,6 @@
 ---
 tags:
-  - algebra/linear
+  - mat/algebra
   - cegep/3
 date: 2025-10-07T10:17:19
 ---

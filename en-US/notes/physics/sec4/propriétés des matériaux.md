@@ -1,6 +1,6 @@
 ---
 tags:
-  - Physics
+  - phys
   - sec/4
 ---
 

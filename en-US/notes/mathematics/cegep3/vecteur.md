@@ -1,6 +1,6 @@
 ---
 tags:
-  - algebra/linear
+  - mat/algebra
   - cegep/2
 date: 2025-08-19T12:50:16
 ---
@@ -17,7 +17,7 @@ Flèche avec longueur (magnitude) & direction
 Algébriquement, un vecteur $\vec{v}\in \mathbb{R}^n$ est une liste
 
 $$
-\vec{v} = < v_1, v_2, v_3,\dots v_n > = \begin{bmatrix}
+\vec{v} = \langle v_1, v_2, v_3,\dots v_n \rangle = \begin{bmatrix}
 v_1 \\
 v_2 \\
 v_3 \\
@@ -34,7 +34,7 @@ $n$ est la **dimension** de $\vec{v}$.
 > Le vecteur nul dans $\mathbb{R}^n$ est
 > 
 > $$
-> \vec{0} = \underbrace{< 0, 0, \dots0 >}_{n}
+> \vec{0} = \underbrace{\langle 0, 0, \dots0 \rangle}_{n}
 > $$
 
 > [!abstract]+ vecteur unitaire
@@ -45,12 +45,12 @@ $n$ est la **dimension** de $\vec{v}$.
 Le vecteur entre deux points $A$ et $B$ est
 
 $$
-\vec{AB} = < B_1 - A_1, B_2 - A_2,\dots B_n - A_n >
+\vec{AB} = \langle B_1 - A_1, B_2 - A_2,\dots B_n - A_n \rangle
 $$
 
 > [!abstract]+ vecteur position
 > Le vecteur position du point $P\in \mathbb{R}^n$ est
 > 
 > $$
-> \vec{OP} = < P_1, P_2,\dots P_n >
+> \vec{OP} = \langle P_1, P_2,\dots P_n \rangle
 > $$

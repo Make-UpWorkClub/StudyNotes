@@ -34,6 +34,8 @@ $$
 
 ## Slit grating
 
+Patterns: many **principal maxima** with many smaller maxima in-between 
+
 ## Examples
 
 > Light of wavelength 587.5 nm illuminates a single slit 0.750 mm in width.

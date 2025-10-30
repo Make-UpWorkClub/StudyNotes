@@ -2,7 +2,7 @@
 tags:
   - fr
   - cegep/2
-  - Stub
+  - stub
 date: 2025-02-17T02:41:28
 ---
 

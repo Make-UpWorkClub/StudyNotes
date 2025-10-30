@@ -1,6 +1,6 @@
 ---
 tags:
-  - 
+  - mat/algebra
   - cegep/3
 date: 2025-10-10T10:42:44
 ---

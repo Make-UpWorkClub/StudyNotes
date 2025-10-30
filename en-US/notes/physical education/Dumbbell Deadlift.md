@@ -1,7 +1,7 @@
 ---
 tags:
   - "clipping"
-  - PE/exercises/hams
+  - PE/exercise/hams
 authors:
   - "Croppio"
 published:

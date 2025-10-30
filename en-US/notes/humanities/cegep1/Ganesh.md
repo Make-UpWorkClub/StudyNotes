@@ -1,6 +1,6 @@
 ---
 tags:
-  - Humanities
+  - hum
   - cegep/1
 date: 2024-09-11T08:34:16
 ---

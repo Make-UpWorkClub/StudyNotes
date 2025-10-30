@@ -1,6 +1,6 @@
 ---
 tags:
-  - Algebra
+  - mat/algebra
   - sec/5
 date: 2024-02-05 14:09
 ---

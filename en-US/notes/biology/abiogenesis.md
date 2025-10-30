@@ -52,8 +52,11 @@ Origin of first cells
 
 ## oxygen revolution
 
-Decline of anaerobes 
-Allows evolution of aerobes
+Decline of anaerobes
+
+- <= appearance of oxygenic photosynthesis
+- => allows evolution of aerobes
+- => allows more complex lifeforms
 
 ![[Oxygen Level Timeline.png]]
 
@@ -61,10 +64,18 @@ Allows evolution of aerobes
 
 - UV forms O3 from O2 in the upper atmosphere
 - O3 absorbs UV
-- Decreases mutagenesis
-- Enables living in surface waters and on land
+- => decreases mutagenesis
+- => enables living in surface waters and on land
 
 ## LUCA
 
 Last common ancestor of all life on Earth
-Very similar to modern bacteria
+
+- Very similar to modern bacteria
+- Likely autotrophic
+- Likely chemotrophic
+- Anaerobic
+- Horizontal gene transfer likely
+- Believed to have existed because:
+	- All bacteria and archaea share ~30 genes
+	- All organisms use the same amino acids

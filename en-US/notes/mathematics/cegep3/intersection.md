@@ -1,6 +1,6 @@
 ---
 tags:
-  - algebra/linear
+  - mat/algebra
   - cegep/3
 date: 2025-10-10T10:17:41
 ---
@@ -24,8 +24,8 @@ Forme générale
 
 > $$
 > \begin{align}
-> D_1 & \langle x, y, z \rangle = \langle 7, - 3, -2 \rangle + t \langle t, -1, -1 \rangle \\
-> D_2: & x - 1 = y - 6 = -z - 1
+> D_1: \langle x, y, z \rangle & = \langle 7, - 3, -2 \rangle + t \langle t, -1, -1 \rangle \\
+> D_2: x - 1 & = y - 6 = -z - 1
 > \end{align}
 > $$
 
@@ -35,8 +35,8 @@ $$
 \begin{align}
 \vec{d_1} & = \langle 2, -1, -1 \rangle \\
 \vec{d_2} & = \langle 1, 1, -1 \rangle \\
-P_1: & (7, -3, -2) \\
-P_2: &  (1, 6, -1) \\
+P_1 & = (7, -3, -2) \\
+P_2 & = (1, 6, -1) \\
  \\
 \vec{d_1} \times \vec{d_2} & = \begin{bmatrix}
 2 \\

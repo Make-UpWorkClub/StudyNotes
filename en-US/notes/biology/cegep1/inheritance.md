@@ -7,6 +7,9 @@ date: 2024-11-21T16:58:02
 
 # Inheritance
 
+Vertical gene transfer
+`Ant.` [[horizontal gene transfer]]
+
 ## Laws of Inheritance
 
 Discovered by Mendel

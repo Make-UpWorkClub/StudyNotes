@@ -1,8 +1,8 @@
 ---
 tags:
-  - PAS
+  - mat/PAS
   - cegep/2
-  - Stub
+  - stub
 date: 2025-02-26T11:11:02
 ---
 

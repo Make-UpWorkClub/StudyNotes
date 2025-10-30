@@ -19,11 +19,6 @@ Mostly ionic
 > [!abstract] Halide ion
 > Halogen atom bearing a negative charge
 
-# Wavelength
-
-Distance between two peaks in a wave
-`Sym.` $\lambda$
-
 # Electrostatic Potential Map
 
 Visual representation of [[electron]] distribution of a molecule

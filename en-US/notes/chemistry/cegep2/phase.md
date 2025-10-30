@@ -2,7 +2,7 @@
 tags:
   - chem/phase
   - cegep/2
-  - Stub
+  - stub
 date: 2025-05-31T18:32:43
 ---
 

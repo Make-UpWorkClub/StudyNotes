@@ -11,7 +11,7 @@ date: 2025-03-26T13:24:01
 
 [[Wave]] of the electromagnetic field
 Form of energy
-Exhibits wave-particle duality
+Exhibits [[wave-particle duality]]
 `Abbr.` EMR
 
 - Gamma ray

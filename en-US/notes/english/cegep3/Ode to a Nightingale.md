@@ -12,7 +12,7 @@ Ode by John Keats as he was dying due to tuberculosis
 - 3
 	- Both young and old suffer from aging and death
 - 4
-	- Imagery: wings of poesy allows escape from reality
+	- Imagery: wings of poesy allow escape from reality
 	- Metaphor: poetry as light from heaven in an otherwise dark world of despair
 - 6
 	- Silent death of the speaker vs loud singing of the nightingale

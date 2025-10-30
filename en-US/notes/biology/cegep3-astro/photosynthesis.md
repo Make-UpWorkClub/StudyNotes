@@ -29,7 +29,9 @@ CO2 is reduced to glucose while H2O is oxidized.
 
 ## Non-oxygenic
 
-In haleoarchaea, **bacteriorhodopsin** (a retinal molecule) pumps protons to generate a proton gradient, which powers ATP synthase.
+Photosynthesis without producing oxygen
+
+In haleoarchaea, **bacteriorhodopsin** (a retinal molecule) absorbs light directly to pump protons to generate a proton gradient, which powers ATP synthase. Then, ATP provides energy to reduce CO2.
 
 > [!abstract] retinal molecule
 > Molecule that changes shape when absorbing photons

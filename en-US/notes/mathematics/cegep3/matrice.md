@@ -1,6 +1,6 @@
 ---
 tags:
-  - algebra/linear
+  - mat/algebra
   - cegep/3
 date: 2025-10-10T11:31:35
 ---
@@ -10,7 +10,20 @@ date: 2025-10-10T11:31:35
 Une matrice de $m$ lignes et de $n$ colonnes est un tableau de forme :
 
 $$
-\begin{bmatrix}
+A = [a_{ij}]_{mn} = \begin{bmatrix}
+a_{11} & a_{12} & \dots & a_{1n} \\
+a_{21} & a_{22} & \dots & a_{2n} \\
+\vdots & \vdots & & \vdots \\
+a_{m_1} & a_{m_2} & \dots & a_{mn}
+\end{bmatrix}
+$$
+
+## Matrice des coefficients
+
+La matrice des coefficients d'un [[système linéaire]] $A$ est
+
+$$
+A = \begin{bmatrix}
 a_{11} & a_{12} & \dots & a_1n \\
 a_{21} & a_{22} & \dots & a_{2n} \\
 \vdots & \vdots & & \vdots \\
@@ -18,23 +31,38 @@ a_{m_1} & a_{m_2} & \dots & a_{mn}
 \end{bmatrix}
 $$
 
+La matrice augmentée de $A$ est
+
+$$
+[A|\vec{B}] = \begin{bmatrix}
+a_{11} & a_{12} & \dots & a_1n & \bigm| & b_1 \\
+a_{21} & a_{22} & \dots & a_{2n} & \bigm| & b_2 \\
+\vdots & \vdots & & \vdots & \bigm| \\
+a_{m_1} & a_{m_2} & \dots & a_{mn} & \bigm| & b_m
+\end{bmatrix}
+$$
+
 ## Formes
 
 ### Échelonnée
+
+Matrice dont :
 
 1. Toutes les lignes nulles sont en dessous des lignes non-nulles.
 2. Le pivot d'une ligne est à droite du pivot de la ligne au dessus.
 
 `Abbr.` FE
 
+- Si $A$ et $B$ se réduisent à la même FE, $A \sim B$.
+- Si $[A|\vec{b}] \sim [C|\vec{d}]$, ils ont les mêmes solutions.
+
 > [!abstract] pivot
-> Premier coefficient non-nul
+> Premier coefficient non-nul d'une ligne
 
-> [!info]
-> - Si $A$ et $B$ se réduisent à la même FE, $A \sim B$.
-> - Si $[A|\vec{b}] \sim [C|\vec{d}]$, ils ont les mêmes solutions.
+> [!abstract] rang
+> Nombre de pivots de la forme échelonnée
 
-> [!example]+
+> [!example]-
 > $$
 > \begin{bmatrix}
 > -1 & 2 & 3 & 7 & 0 \\
@@ -50,6 +78,33 @@ $$
 > 0 & 3 \\
 > 0 & 0 \\
 > 0 & 0
+> \end{bmatrix}
+> $$
+
+#### Réduite
+
+Matrice échelonnée dont :
+
+1. Le pivot de chaque ligne est 1.
+2. Toutes les coefficients d'une colonne sauf le pivot sont nuls.
+
+`Abbr.` FER
+
+- ==Unique==
+
+> [!example]-
+> $$
+> \begin{bmatrix}
+> 1 & 0 & 0 & \bigm| & 2 \\
+> 0 & 1 & 0 & \bigm| & 3 \\
+> 0 & 0 & 1 & \bigm| & -1
+> \end{bmatrix}
+> $$
+> 
+> $$
+> \begin{bmatrix}
+> 1 & - 2 & 7 & 0 & 9 \\
+> 0 & 0 & 0 & 1 & 2
 > \end{bmatrix}
 > $$
 

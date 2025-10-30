@@ -1,6 +1,6 @@
 ---
 tags:
-  - Physics/Electricity
+  - phys/elec
   - sec/4
 ---
 

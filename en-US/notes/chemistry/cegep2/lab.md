@@ -2,7 +2,7 @@
 tags:
   - chem
   - cegep/2
-  - Stub
+  - stub
 date: 2025-02-11T23:19:03
 ---
 

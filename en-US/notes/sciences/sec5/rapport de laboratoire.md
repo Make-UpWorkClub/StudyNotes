@@ -1,7 +1,7 @@
 ---
 tags:
   - chem
-  - Physics
+  - phys
   - sec/5
 date: 2023-09-15
 ---

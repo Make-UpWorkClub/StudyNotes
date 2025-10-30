@@ -22672,7 +22672,7 @@ __export(plugin_exports, {
   default: () => KeyshotsPlugin
 });
 module.exports = __toCommonJS(plugin_exports);
-var import_obsidian15 = require("obsidian");
+var import_obsidian16 = require("obsidian");
 
 // src/classes/DoubleKeyRegistry.ts
 var import_obsidian = require("obsidian");
@@ -22689,9 +22689,11 @@ var DoubleKeyRegistry = class extends import_obsidian.Component {
     this.lastAction = void 0;
     this.plugin = plugin;
     this.statusBarItem = this.plugin.addStatusBarItem();
+    this.statusBarItem.style.padding = "0 var(--size-2-2)";
     this.statusBarIcon = this.statusBarItem.createSpan({ cls: "status-bar-item-icon" });
     (0, import_obsidian.setIcon)(this.statusBarIcon, "keyboard");
     this.statusBarItem.setAttr("data-tooltip-position", "top");
+    this.setStatusBarVisibility(false);
     this.setStatusBarState();
     const elem = window;
     this.plugin.registerDomEvent(elem, "keydown", (ev) => this.onKeyPress(ev));
@@ -22716,6 +22718,9 @@ var DoubleKeyRegistry = class extends import_obsidian.Component {
   setStatusBarState(commandName) {
     this.statusBarItem.style.color = `var(--color-${commandName ? "green" : "orange"})`;
     this.statusBarItem.setAttr("aria-label", "Keyshots: " + (commandName ? `command "${commandName}" is active` : `no double-key command active`));
+  }
+  setStatusBarVisibility(state) {
+    this.statusBarItem.style.display = state ? "inline-flex" : "none";
   }
   onKeyPress(ev) {
     if (!this.hasAnyCommandRegistered) {
@@ -22794,7 +22799,7 @@ var DoubleKeyRegistry = class extends import_obsidian.Component {
     this.lastAction = void 0;
   }
   onload() {
-    this.originalExecuteCommand = app.commands.executeCommand;
+    this.originalExecuteCommand = this.plugin.app.commands.executeCommand;
     this.app.commands.executeCommand = (command, t) => {
       var _a;
       if (this.activeCommands.length > 0) {
@@ -22813,11 +22818,13 @@ var DoubleKeyRegistry = class extends import_obsidian.Component {
     this.app.commands.executeCommand = this.originalExecuteCommand;
   }
   registerCommand(cmd) {
+    this.setStatusBarVisibility(true);
     this.cmds[cmd.id] = cmd;
     this.cancelCurrentCommand();
   }
   unregisterAllCommands() {
     this.cancelCurrentCommand(true);
+    this.setStatusBarVisibility(false);
     Object.keys(this.cmds).forEach((i) => delete this.cmds[i]);
   }
   get hasAnyCommandRegistered() {
@@ -23028,13 +23035,32 @@ var EMPTY_SVG = `
 var HotKey = (key, ...mods) => ({ key, modifiers: mods });
 var satisfies = () => (u) => u;
 function flipBooleanSetting(app2, setting) {
-  app2.vault.setConfig(setting, !app2.vault.getConfig(setting));
+  var _a;
+  app2.vault.setConfig(setting, !((_a = app2.vault.getConfig(setting)) != null ? _a : false));
 }
 function runCommandById(keyshotsPlugin, id, notAvailableCallback) {
   if (Object.keys(keyshotsPlugin.app.commands.commands).contains(id))
     keyshotsPlugin.app.commands.executeCommandById(id);
   else
     notAvailableCallback();
+}
+function getEditorValueWithoutFrontmatter(editor) {
+  const FRONTMATTER_CLOSING_LINES = "---";
+  const lines = editor.getValue().split("\n");
+  if (lines[0] === FRONTMATTER_CLOSING_LINES) {
+    let start = 1;
+    while (start < lines.length && lines[start] !== FRONTMATTER_CLOSING_LINES) {
+      start++;
+    }
+    if (start !== lines.length) {
+      start++;
+      lines.splice(0, start);
+    }
+  }
+  return lines.join("\n");
+}
+function escapeRegExp(string) {
+  return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
 // src/constants/Presets.ts
@@ -23092,10 +23118,10 @@ var DEFAULT_KEYSHOTS_SETTINGS = {
 var DefaultKeyshotsSettings_default = DEFAULT_KEYSHOTS_SETTINGS;
 
 // src/components/settings-tab.ts
-function getOpenCommands() {
+function getOpenCommands(plugin) {
   const cmds = {};
   Array.of("switcher", "omnisearch", "darlal-switcher-plus").forEach((pluginId) => {
-    Object.values(app.commands.commands).filter((v) => v.id.startsWith(pluginId)).forEach((v) => cmds[v.id] = v.name);
+    Object.values(plugin.app.commands.commands).filter((v) => v.id.startsWith(pluginId)).forEach((v) => cmds[v.id] = v.name);
   });
   return cmds;
 }
@@ -23180,7 +23206,7 @@ var KeyshotsSettingTab = class extends import_obsidian2.PluginSettingTab {
       this.plugin.loadDoubleKeyCommands();
     }));
     searchEngineEl = new import_obsidian2.Setting(containerEl).setName(new DocumentFragmentBuilder().appendText("Engine selection").toFragment()).setDesc(new DocumentFragmentBuilder().appendText("Here you can select any of supported switch engines.").createElem("br").appendText("Currently supported: Quick switcher, ").createElem("a", { text: "Omnisearch", href: "https://obsidian.md/plugins?id=omnisearch" }).appendText(", ").createElem("a", { text: "Quick Switcher++", href: "https://obsidian.md/plugins?id=darlal-switcher-plus" }).appendText(".").toFragment()).setClass("indent").addDropdown((cb) => {
-      const cmds = getOpenCommands();
+      const cmds = getOpenCommands(this.plugin);
       const currSetting = this.plugin.settings.open_file_command;
       cb.addOption("", "-- No engine selected --");
       cb.addOptions(cmds);
@@ -23278,8 +23304,6 @@ var EditorPositionManipulator = class {
 // src/classes/EditorSelectionManipulator.ts
 var EditorSelectionManipulator = class {
   constructor(selection, editor) {
-    this.sizeChange = 0;
-    this.lineDifference = 0;
     this.anchor = new EditorPositionManipulator(selection.anchor, editor);
     this.head = new EditorPositionManipulator(selection.head, editor);
     this.editor = editor;
@@ -23340,6 +23364,11 @@ var EditorSelectionManipulator = class {
     this.head = new EditorPositionManipulator(this.editor.offsetToPos(this.editor.posToOffset(this.head) + (head != null ? head : anchor)), this.editor);
     return this;
   }
+  moveCharsWithoutOffset(anchor, head = anchor) {
+    this.anchor.ch += anchor;
+    this.head.ch += head;
+    return this;
+  }
   setLines(anchor, head) {
     this.anchor.line = anchor;
     this.head.line = head != null ? head : anchor;
@@ -23352,14 +23381,6 @@ var EditorSelectionManipulator = class {
   }
   getText() {
     return this.editor.getRange(...this.asFromToPoints());
-  }
-  replaceText(to, resize = false) {
-    this.sizeChange = to.length - this.getText().length;
-    this.lineDifference = to.split("\n").length - this.linesCount;
-    this.editor.replaceRange(to, ...this.asFromToPoints());
-    if (resize)
-      this.moveChars(0, this.sizeChange);
-    return this;
   }
   selectWord() {
     var _a, _b;
@@ -23376,19 +23397,16 @@ var EditorSelectionManipulator = class {
       this.head = this.anchor.clone();
     return this;
   }
-  withLineDifference(diff) {
-    this.lineDifference += diff;
-    return this;
+  toEditorRangeOrCaret() {
+    const [from, to] = this.asFromToPoints();
+    return {
+      from,
+      to
+    };
   }
   get linesCount() {
     const norm = this.asNormalized();
     return norm.head.line - norm.anchor.line + 1;
-  }
-  get replaceSizeChange() {
-    return this.sizeChange;
-  }
-  get replaceLineDifference() {
-    return this.lineDifference;
   }
   static listSelections(editor) {
     return editor.listSelections().map((s) => new EditorSelectionManipulator(s, editor));
@@ -23403,39 +23421,77 @@ var EditorSelectionManipulator = class {
 
 // src/classes/SelectionsProcessing.ts
 var SelectionsProcessing = class {
-  static selectionsProcessor(editor, arrCallback, fct) {
-    const selections = EditorSelectionManipulator.listSelections(editor);
-    const newSelections = [];
-    let lastSelection = void 0;
-    let characterShift = 0;
-    let totalLineShift = 0;
-    (arrCallback ? arrCallback(selections) : selections).forEach((sel, index) => {
-      var _a;
-      if (lastSelection && lastSelection.isOnSameLine(sel) && sel.isOneLine()) {
-        characterShift += lastSelection.replaceSizeChange;
-        sel.moveChars(characterShift);
-      } else if (lastSelection && lastSelection.isOnSameLine(sel)) {
-        characterShift += lastSelection.replaceSizeChange;
-        sel.moveChars(characterShift, 0);
-        characterShift = 0;
-      } else
-        totalLineShift += (_a = lastSelection == null ? void 0 : lastSelection.replaceLineDifference) != null ? _a : 0;
-      sel.moveLines(totalLineShift);
-      lastSelection = fct(sel.clone(), index);
-      newSelections.push(lastSelection.toEditorSelection());
+  static selectionsProcessorTransaction(editor, fct, arrayCallback, transactionForEachExecution = true) {
+    let selections = EditorSelectionManipulator.listSelections(editor);
+    if (arrayCallback)
+      selections = arrayCallback(selections);
+    const changes = selections.map((selection, index) => fct(selection, index));
+    const transactionObject = {};
+    const editorChanges = changes.filter((change) => change.replaceSelection && change.replaceText).map((v) => {
+      const [from, to] = v.replaceSelection.asFromToPoints();
+      return {
+        from,
+        to,
+        text: v.replaceText
+      };
     });
-    if (newSelections.length > 0)
-      editor.setSelections(newSelections);
+    if (editorChanges.length > 0) {
+      transactionObject.changes = editorChanges;
+    }
+    let linesShift = 0;
+    let characterShift = 0;
+    let lastFinalSelection;
+    const ranges = changes.filter((change) => change.finalSelection).map((change) => {
+      const finalSelection = change.finalSelection;
+      if (!change.replaceSelection || !change.replaceText) {
+        return finalSelection.toEditorRangeOrCaret();
+      }
+      const textLengthBefore = change.replaceSelection.getText().length;
+      const textLengthAfter = change.replaceText.length;
+      finalSelection.moveLines(linesShift);
+      if (lastFinalSelection && lastFinalSelection.isOnSameLine(finalSelection) && finalSelection.isOneLine()) {
+        characterShift += textLengthAfter - textLengthBefore;
+        finalSelection.setChars(finalSelection.anchor.ch + characterShift, finalSelection.head.ch + characterShift);
+      } else if (lastFinalSelection && lastFinalSelection.isOnSameLine(finalSelection)) {
+        characterShift += textLengthAfter - textLengthBefore;
+        finalSelection.moveCharsWithoutOffset(characterShift, 0);
+        characterShift = 0;
+      } else {
+        const linesCountBefore = change.replaceSelection.getText().split("\n").length;
+        const linesCountAfter = change.replaceText.split("\n").length;
+        linesShift += linesCountAfter - linesCountBefore;
+      }
+      lastFinalSelection = finalSelection;
+      return finalSelection.toEditorRangeOrCaret();
+    });
+    if (ranges.length > 0) {
+      transactionObject.selections = ranges;
+    }
+    let transactionOriginString;
+    if (transactionForEachExecution) {
+      transactionOriginString = `keyshots-action-${Date.now()}`;
+    }
+    editor.transaction(transactionObject, transactionOriginString);
   }
   static selectionsReplacer(editor, fct) {
-    this.selectionsProcessor(editor, (arr) => arr.filter((s) => !s.isCaret()), (sel) => sel.replaceText(fct(sel.getText()), true));
+    this.selectionsProcessorTransaction(editor, (sel) => {
+      return {
+        replaceSelection: sel,
+        replaceText: fct(sel.getText())
+      };
+    }, (array) => array.filter((sel) => !sel.isCaret()));
   }
-  static selectionsUpdater(editor, arrCallback, fct) {
-    const selections = EditorSelectionManipulator.listSelections(editor);
+  static selectionsUpdater(editor, arrayCallback, fct) {
+    let selections = EditorSelectionManipulator.listSelections(editor);
+    if (arrayCallback) {
+      selections = arrayCallback(selections);
+    }
     const newSelections = [];
-    (arrCallback ? arrCallback(selections) : selections).forEach((sel, index) => newSelections.push(...fct(new EditorSelectionManipulator(sel, editor), index).map((sel2) => sel2.toEditorSelection())));
+    selections.forEach((sel, index) => newSelections.push(...fct(new EditorSelectionManipulator(sel, editor), index).map((sel2) => sel2.toEditorRangeOrCaret())));
     if (newSelections.length > 0)
-      editor.setSelections(newSelections);
+      editor.transaction({
+        selections: newSelections
+      });
   }
   static lowestSelection(selections) {
     return selections.sort((a, b) => a.asNormalized().head.toOffset() - b.asNormalized().head.toOffset()).reverse()[0];
@@ -23448,13 +23504,21 @@ var SelectionsProcessing = class {
       return one === two;
     });
   }
-  static surroundWithChars(editor, chars, endchars) {
-    SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => {
-      const surroundSel = sel.clone().normalize().moveChars(-chars.length, (endchars != null ? endchars : chars).length);
-      if (surroundSel.getText().startsWith(chars) && surroundSel.getText().endsWith(endchars != null ? endchars : chars)) {
-        return surroundSel.replaceText(surroundSel.getText().substring(chars.length, surroundSel.getText().length - (endchars != null ? endchars : chars).length)).moveChars(0, -chars.length - (endchars != null ? endchars : chars).length);
+  static surroundWithChars(editor, chars, endchars = chars) {
+    SelectionsProcessing.selectionsProcessorTransaction(editor, (sel) => {
+      const surroundSel = sel.clone().normalize().moveCharsWithoutOffset(-chars.length, endchars.length);
+      if (surroundSel.getText().startsWith(chars) && surroundSel.getText().endsWith(endchars)) {
+        return {
+          replaceSelection: surroundSel,
+          replaceText: surroundSel.getText().substring(chars.length, surroundSel.getText().length - endchars.length),
+          finalSelection: sel.moveCharsWithoutOffset(-chars.length, sel.isOneLine() ? -chars.length : 0)
+        };
       }
-      return sel.replaceText(chars + sel.getText() + (endchars != null ? endchars : chars)).moveChars(chars.length, sel.isOneLine() ? chars.length : 0);
+      return {
+        replaceSelection: sel,
+        replaceText: chars + sel.getText() + endchars,
+        finalSelection: sel.clone().moveCharsWithoutOffset(chars.length, sel.isOneLine() ? chars.length : 0)
+      };
     });
   }
   static convertOneToOtherChars(editor, first, second) {
@@ -23476,20 +23540,13 @@ var SelectionsProcessing = class {
 
 // src/commands/duplicate-line.ts
 function vscodeDuplicate(editor, direction) {
-  SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => {
-    if (sel.isCaret()) {
-      const tx = sel.anchor.getLine();
-      sel.anchor.setLine(tx + "\n" + tx);
-      if (direction > 0)
-        return sel.moveLines(1).withLineDifference(1);
-    } else {
-      const replaceSel = sel.asNormalized().expand();
-      const tx = replaceSel.getText();
-      replaceSel.replaceText(tx + "\n" + tx);
-      if (direction > 0)
-        return sel.moveLines(sel.linesCount).withLineDifference(sel.linesCount);
-    }
-    return sel.withLineDifference(sel.linesCount);
+  SelectionsProcessing.selectionsProcessorTransaction(editor, (sel) => {
+    const finalSel = sel.clone();
+    return {
+      finalSelection: direction > 0 ? finalSel.moveLines(finalSel.linesCount) : finalSel,
+      replaceSelection: sel.normalize().expand(),
+      replaceText: sel.getText() + "\n" + sel.getText()
+    };
   });
 }
 var duplicateLineDown = {
@@ -23526,20 +23583,25 @@ var duplicateSelectionOrLine = {
   name: "Duplicate selection or line (JetBrains IDEs)",
   repeatable: true,
   hotkeys: {
-    keyshots: [HotKey("D", "Mod", "Alt")],
+    keyshots: [HotKey("D", "Mod", "Shift")],
     vscode: null,
     jetbrains: [HotKey("D", "Mod")],
     visual_studio: [HotKey("D", "Mod")]
   },
   editorCallback: (editor) => {
-    SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => {
+    SelectionsProcessing.selectionsProcessorTransaction(editor, (sel) => {
       if (sel.isCaret()) {
-        const tx = sel.anchor.getLine();
-        sel.anchor.setLine(tx + "\n" + tx);
-        return sel.moveLines(1).withLineDifference(1);
+        return {
+          replaceSelection: sel.clone().expand(),
+          replaceText: sel.anchor.getLine() + "\n" + sel.anchor.getLine(),
+          finalSelection: sel.moveLines(1)
+        };
       } else {
-        const tx = sel.asNormalized().getText();
-        return sel.asNormalized().replaceText(tx + tx).moveChars(tx.length);
+        return {
+          replaceSelection: sel,
+          replaceText: sel.getText() + sel.getText(),
+          finalSelection: sel.clone().moveCharsWithoutOffset(sel.getText().length)
+        };
       }
     });
   }
@@ -23547,21 +23609,20 @@ var duplicateSelectionOrLine = {
 
 // src/commands/insert-line.ts
 function insertLine(editor, direction) {
-  SelectionsProcessing.selectionsProcessor(editor, (s) => s.sort((a, b) => a.anchor.line - b.anchor.line), (sel, index) => {
-    const a = (ln) => {
-      const tx = [editor.getLine(ln), "\n"];
-      if (direction < 0)
-        tx.reverse();
-      editor.setLine(ln, tx.join(""));
-      return EditorSelectionManipulator.documentStart(editor).setLines(ln + (direction > 0 ? direction : 0));
-    };
-    if (sel.isCaret())
-      return a(sel.anchor.line + index);
-    else {
-      const normSel = sel.asNormalized();
-      return a((direction > 0 ? normSel.anchor.line : normSel.head.line) + index);
+  SelectionsProcessing.selectionsProcessorTransaction(editor, (sel) => {
+    const expandedSelection = sel.clone().expand();
+    let replaceText = expandedSelection.getText();
+    if (direction > 0) {
+      replaceText = replaceText + "\n";
+    } else {
+      replaceText = "\n" + replaceText;
     }
-  });
+    return {
+      replaceSelection: expandedSelection,
+      replaceText,
+      finalSelection: sel.collapse().setChars(0).moveLines(direction > 0 ? expandedSelection.linesCount : 0)
+    };
+  }, (array) => array.sort((a, b) => a.anchor.line - b.anchor.line));
 }
 var insertLineAbove = {
   category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
@@ -23601,44 +23662,83 @@ var joinSelectedLines = {
     jetbrains: [HotKey("J", "Mod", "Shift")]
   },
   editorCallback: (editor) => {
-    SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => {
+    const joinLines = (text) => {
+      return text.split("\n").map((line) => line.trim()).filter((line) => line !== "").join(" ");
+    };
+    SelectionsProcessing.selectionsProcessorTransaction(editor, (sel) => {
       if (sel.isCaret() || sel.isOneLine()) {
         if (sel.anchor.line === editor.lineCount() - 1) {
-          return sel;
+          return {
+            finalSelection: sel,
+            replaceSelection: sel,
+            replaceText: sel.getText()
+          };
         }
-        const currentLineLength = editor.getLine(sel.anchor.line).length;
-        const expandedSelection = sel.clone().moveLines(0, 1).expand();
-        expandedSelection.replaceText(expandedSelection.getText().replace(/\n/g, " "));
         if (sel.isOneLine() && !sel.isCaret()) {
-          return sel.withLineDifference(-1);
+          return {
+            finalSelection: sel.clone(),
+            replaceSelection: sel.moveLines(0, 1).expand(),
+            replaceText: joinLines(sel.getText())
+          };
         }
-        return sel.clone().setChars(currentLineLength, currentLineLength);
+        return {
+          finalSelection: sel.clone().setChars(sel.anchor.getLine().length),
+          replaceSelection: sel.moveLines(0, 1).expand(),
+          replaceText: joinLines(sel.getText())
+        };
       }
-      const len = sel.getText().length;
-      return sel.replaceText(sel.getText().replace(/\n/g, " ")).setLines(sel.anchor.line).moveChars(0, len);
-    });
+      const anchor = sel.asNormalized().anchor;
+      const length = sel.getText().length;
+      return {
+        finalSelection: sel.asNormalized().collapse().setChars(anchor.ch, anchor.ch + length),
+        replaceText: sel.getText().split("\n").join(" "),
+        replaceSelection: sel
+      };
+    }, (array) => {
+      let lastIndex = -1;
+      return array.sort((a, b) => a.anchor.line - b.anchor.line).filter((sel, i, arr) => {
+        if (i === 0)
+          return true;
+        const prev = arr[i - 1];
+        if (prev.anchor.line === sel.anchor.line - 1 && lastIndex !== i - 1) {
+          if (!prev.isCaret()) {
+            prev.head = sel.head;
+          }
+          lastIndex = i;
+          return false;
+        }
+        return true;
+      });
+    }, false);
   }
 };
 
 // src/commands/move-selected-lines.ts
 function moveLine(editor, direction, border) {
-  SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => {
-    if (direction === 1 ? sel.asNormalized().head.line === border : sel.asNormalized().anchor.line === border)
-      return sel;
-    const replaceSel = sel.asNormalized().moveLines(direction === -1 ? direction : 0, direction === 1 ? direction : 0).expand();
-    const tx = replaceSel.getText();
-    if (sel.isCaret())
-      replaceSel.replaceText(tx.split("\n").reverse().join("\n"));
-    else {
-      const pieces = [
-        tx.split("\n").slice(...direction === 1 ? [-1] : [0, 1])[0],
-        tx.split("\n").slice(...direction === 1 ? [void 0, -1] : [1]).join("\n")
-      ];
-      if (direction === -1)
-        pieces.reverse();
-      replaceSel.replaceText(pieces.join("\n"));
+  SelectionsProcessing.selectionsProcessorTransaction(editor, (sel) => {
+    if (direction === 1 ? sel.asNormalized().head.line === border : sel.asNormalized().anchor.line === border) {
+      return {
+        finalSelection: sel
+      };
     }
-    return sel.moveLines(direction);
+    const replaceSel = sel.asNormalized().moveLines(direction === VerticalDirection_default.UP ? direction : 0, direction === VerticalDirection_default.DOWN ? direction : 0).expand();
+    let replaceText = replaceSel.getText();
+    if (sel.isCaret()) {
+      replaceText = replaceText.split("\n").reverse().join("\n");
+    } else {
+      const lines = replaceText.split("\n");
+      if (direction === VerticalDirection_default.DOWN) {
+        lines.unshift(lines.pop());
+      } else {
+        lines.push(lines.shift());
+      }
+      replaceText = lines.join("\n");
+    }
+    return {
+      replaceSelection: replaceSel,
+      replaceText,
+      finalSelection: sel.clone().moveLines(direction)
+    };
   });
 }
 var moveSelectedLinesDown = {
@@ -23676,11 +23776,14 @@ var reverseSelectedLines = {
   hotkeys: {
     keyshots: [HotKey("R", "Alt")]
   },
-  editorCallback: (editor) => SelectionsProcessing.selectionsProcessor(editor, (arr) => arr.filter((s) => !s.isCaret()), (sel) => {
-    const replaceSel = sel.asNormalized().expand();
-    replaceSel.replaceText(replaceSel.getText().split("\n").reverse().join("\n"));
-    return sel;
-  })
+  editorCallback: (editor) => {
+    SelectionsProcessing.selectionsProcessorTransaction(editor, (sel) => {
+      return {
+        replaceSelection: sel.clone().expand(),
+        replaceText: sel.clone().expand().getText().split("\n").reverse().join("\n")
+      };
+    }, (arr) => arr.filter((sel) => !sel.isCaret()));
+  }
 };
 
 // src/commands/shuffle-selected-lines.ts
@@ -23691,15 +23794,21 @@ var shuffleSelectedLines = (plugin) => ({
   hotkeys: {
     keyshots: [HotKey("S", "Mod", "Shift", "Alt")]
   },
-  editorCallback: (editor) => SelectionsProcessing.selectionsProcessor(editor, (arr) => arr.filter((s) => !s.isCaret()), (sel) => {
-    const replaceSel = sel.asNormalized().expand();
-    let txt = replaceSel.getText();
-    const rounds = plugin.settings.shuffle_rounds_amount;
-    for (let i = 0; i < rounds; i++)
-      txt = txt.split("\n").sort(() => Math.random() - 0.5).join("\n");
-    replaceSel.replaceText(txt);
-    return sel;
-  })
+  editorCallback: (editor) => {
+    const shuffleLines = (text, rounds) => {
+      for (let i = 0; i < rounds; i++) {
+        text = text.split("\n").sort(() => Math.random() - 0.5).join("\n");
+      }
+      return text;
+    };
+    SelectionsProcessing.selectionsProcessorTransaction(editor, (sel) => {
+      const shuffledText = shuffleLines(sel.clone().expand().getText(), plugin.settings.shuffle_rounds_amount);
+      return {
+        replaceSelection: sel.clone().expand(),
+        replaceText: shuffledText
+      };
+    }, (arr) => arr.filter((s) => !s.isCaret()), false);
+  }
 });
 
 // src/commands/sort-selected-lines.ts
@@ -23710,11 +23819,14 @@ var sortSelectedLines = {
   hotkeys: {
     keyshots: [HotKey("S", "Mod", "Shift")]
   },
-  editorCallback: (editor) => SelectionsProcessing.selectionsProcessor(editor, (arr) => arr.filter((s) => !s.isCaret()), (sel) => {
-    const replaceSel = sel.asNormalized().expand();
-    replaceSel.replaceText(replaceSel.getText().split("\n").sort((a, b) => a.localeCompare(b, void 0, { numeric: true, sensitivity: "base" })).join("\n"));
-    return sel;
-  })
+  editorCallback: (editor) => {
+    SelectionsProcessing.selectionsProcessorTransaction(editor, (sel) => {
+      return {
+        replaceSelection: sel.expand(),
+        replaceText: sel.getText().split("\n").sort((a, b) => a.localeCompare(b, void 0, { numeric: true, sensitivity: "base" })).join("\n")
+      };
+    }, (arr) => arr.filter((s) => !s.isCaret()));
+  }
 };
 
 // src/components/callout-picker-modal.ts
@@ -23733,8 +23845,8 @@ var CallbackSuggestModal = class extends import_obsidian3.SuggestModal {
   }
 };
 var CallbackFuzzySuggestModal = class extends import_obsidian3.FuzzySuggestModal {
-  constructor(app2, onSelectCallback) {
-    super(app2.app);
+  constructor(plugin, onSelectCallback) {
+    super(plugin.app);
     this.onSelectCallback = onSelectCallback;
   }
   onChooseItem(item, evt) {
@@ -23744,9 +23856,25 @@ var CallbackFuzzySuggestModal = class extends import_obsidian3.FuzzySuggestModal
 
 // src/components/callout-picker-modal.ts
 var _CalloutPickerModal = class extends CallbackSuggestModal {
+  selectCurrentSuggestion(evt) {
+    this.selectSuggestion(this.chooser.values[this.chooser.selectedItem], evt);
+    return false;
+  }
   constructor(plugin, onSelectCallback) {
     super(plugin, onSelectCallback);
     this.setPlaceholder("Select one of the callouts... (callouts are searchable by it's id or aliases)");
+    this.setInstructions([
+      {
+        command: "Shift \u21B5",
+        purpose: "to insert callout as fold-open"
+      },
+      {
+        command: "Ctrl \u21B5",
+        purpose: "to insert callout as fold-closed"
+      }
+    ]);
+    this.scope.register(["Shift"], "Enter", (evt) => this.selectCurrentSuggestion(evt));
+    this.scope.register(["Mod"], "Enter", (evt) => this.selectCurrentSuggestion(evt));
   }
   getSuggestions(query) {
     return _CalloutPickerModal.ROOT_CALLOUTS.concat(this.plugin.settings.callouts_list.filter((v) => v.length > 0 && v.replace(/\s/g, "").length != 0).map((v) => v.split(","))).filter((ids) => ids.filter((id) => id.includes(query.toLowerCase())).length > 0).map((ids) => ids[0]);
@@ -23782,12 +23910,24 @@ var betterInsertCallout = (plugin) => ({
   hotkeys: {
     keyshots: [HotKey("C", "Shift", "Alt")]
   },
-  editorCallback: (editor) => new CalloutPickerModal(plugin, (calloutId) => {
-    SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => {
-      return sel.normalize().replaceText(`
->[!${calloutId}]
+  editorCallback: (editor) => new CalloutPickerModal(plugin, (calloutId, evt) => {
+    let foldingState = "";
+    if (evt instanceof KeyboardEvent) {
+      if (evt.shiftKey) {
+        foldingState = "+";
+      } else if (evt.ctrlKey) {
+        foldingState = "-";
+      }
+    }
+    SelectionsProcessing.selectionsProcessorTransaction(editor, (sel) => {
+      return {
+        replaceSelection: sel,
+        replaceText: `
+>[!${calloutId}]${foldingState}
 ${sel.getText().split("\n").map((p) => "> " + p).join("\n")}
-`).moveLines(2).expand().moveChars(2, 0);
+`,
+        finalSelection: sel.clone().expand().moveLines(2).moveCharsWithoutOffset(2)
+      };
     });
     editor.focus();
   }).open()
@@ -23858,7 +23998,9 @@ var expandLineSelection = {
     jetbrains: [HotKey("W", "Mod")],
     visual_studio: [HotKey("=", "Shift", "Alt")]
   },
-  editorCallback: (editor) => SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => sel.expand(true))
+  editorCallback: (editor) => SelectionsProcessing.selectionsProcessorTransaction(editor, (sel) => ({
+    finalSelection: sel.expand(true)
+  }))
 };
 
 // src/commands/select-all-word-instances.ts
@@ -23872,14 +24014,22 @@ var selectAllWordInstances = (plugin) => ({
     jetbrains: [HotKey("J", "Mod", "Shift", "Alt")],
     visual_studio: [HotKey(";", "Shift", "Alt")]
   },
-  editorCallback: (editor) => {
+  editorCallback: (editor, view) => {
     const case_sensitive = plugin.settings.case_sensitive;
     const selections = EditorSelectionManipulator.listSelections(editor);
+    let noteContent = editor.getValue();
+    let frontmatterShift = 0;
+    const isLivePreview = !view.getState().source;
+    if (isLivePreview) {
+      const noteWithoutFrontmatter = getEditorValueWithoutFrontmatter(editor);
+      frontmatterShift = noteContent.length - noteWithoutFrontmatter.length;
+      noteContent = noteWithoutFrontmatter;
+    }
     selections.filter((s) => s.isCaret()).forEach((sel, i) => selections[i] = sel.selectWord());
     if (selections.filter((s) => !s.isCaret()).length === selections.length && SelectionsProcessing.selectionValuesEqual(selections, case_sensitive)) {
       const tx = selections[0].getText();
-      Array.from(editor.getValue().matchAll(new RegExp(tx, "g" + (case_sensitive ? "" : "i"))), (v) => v.index || 0).forEach((v) => {
-        selections.push(EditorSelectionManipulator.documentStart(editor).moveChars(v, v + tx.length));
+      Array.from(noteContent.matchAll(new RegExp(escapeRegExp(tx), "g" + (case_sensitive ? "" : "i"))), (v) => v.index || 0).forEach((v) => {
+        selections.push(EditorSelectionManipulator.documentStart(editor).moveChars(frontmatterShift).moveChars(v, v + tx.length));
       });
     } else
       return;
@@ -23898,44 +24048,52 @@ var selectMultipleWordInstances = (plugin) => ({
     jetbrains: [HotKey("J", "Alt")],
     visual_studio: [HotKey(".", "Shift", "Alt")]
   },
-  editorCallback: (editor) => {
+  editorCallback: (editor, view) => {
     var _a, _b;
     const case_sensitive = plugin.settings.case_sensitive;
     const selections = EditorSelectionManipulator.listSelections(editor);
-    let range;
+    let rangeToScroll;
+    let noteContent = editor.getValue();
+    let frontmatterShift = 0;
+    const isLivePreview = !view.getState().source;
+    if (isLivePreview) {
+      const noteWithoutFrontmatter = getEditorValueWithoutFrontmatter(editor);
+      frontmatterShift = noteContent.length - noteWithoutFrontmatter.length;
+      noteContent = noteWithoutFrontmatter;
+    }
     if (selections.filter((s) => s.isCaret()).length > 0) {
       selections.filter((s) => s.isCaret()).forEach((sel, i) => selections[i] = sel.selectWord());
     } else if (selections.filter((s) => !s.isCaret()).length === selections.length && SelectionsProcessing.selectionValuesEqual(selections, case_sensitive)) {
       const sel = SelectionsProcessing.lowestSelection(selections).normalize();
       const tx = !case_sensitive ? sel.getText().toLowerCase() : sel.getText();
-      const match = (!case_sensitive ? editor.getValue().toLowerCase() : editor.getValue()).substring(sel.head.toOffset()).match(tx);
+      const match = (!case_sensitive ? noteContent.toLowerCase() : noteContent).substring(sel.head.toOffset() - frontmatterShift).match(escapeRegExp(tx));
       if (match !== null) {
-        const matchSel = EditorSelectionManipulator.documentStart(editor).setChars(sel.head.toOffset()).moveChars((_a = match.index) != null ? _a : 0, ((_b = match.index) != null ? _b : 0) + tx.length);
+        const matchSel = EditorSelectionManipulator.documentStart(editor).setChars(sel.head.toOffset() - frontmatterShift).moveChars(frontmatterShift).moveChars((_a = match.index) != null ? _a : 0, ((_b = match.index) != null ? _b : 0) + tx.length);
         selections.push(matchSel);
-        range = matchSel.asEditorRange();
+        rangeToScroll = matchSel.asEditorRange();
       } else {
-        let editorSearchText = !case_sensitive ? editor.getValue().toLowerCase() : editor.getValue();
+        let editorSearchText = !case_sensitive ? noteContent.toLowerCase() : noteContent;
         let shift = 0;
-        let match2 = editorSearchText.match(tx);
+        let match2 = editorSearchText.match(escapeRegExp(tx));
         while (match2 !== null) {
-          const prevTx = (!case_sensitive ? editor.getValue().toLowerCase() : editor.getValue()).substring(0, shift + ((match2 == null ? void 0 : match2.index) || 0));
-          const sel2 = EditorSelectionManipulator.documentStart(editor).moveChars(prevTx.length, prevTx.length + tx.length);
+          const prevTx = (!case_sensitive ? noteContent.toLowerCase() : noteContent).substring(0, shift + ((match2 == null ? void 0 : match2.index) || 0));
+          const sel2 = EditorSelectionManipulator.documentStart(editor).moveChars(frontmatterShift).moveChars(prevTx.length, prevTx.length + tx.length);
           if (selections.filter((s) => s.equals(sel2)).length === 0) {
             selections.push(sel2);
-            range = sel2.asEditorRange();
+            rangeToScroll = sel2.asEditorRange();
             break;
           } else {
             shift += ((match2 == null ? void 0 : match2.index) || 0) + tx.length;
             editorSearchText = editorSearchText.substring(((match2 == null ? void 0 : match2.index) || 0) + tx.length);
           }
-          match2 = editorSearchText.match(tx);
+          match2 = editorSearchText.match(escapeRegExp(tx));
         }
       }
     } else
       return;
     editor.setSelections(selections);
-    if (range !== void 0)
-      editor.scrollIntoView(range);
+    if (rangeToScroll !== void 0)
+      editor.scrollIntoView(rangeToScroll);
   }
 });
 
@@ -23968,8 +24126,8 @@ var transformSelectionsToLowercase = {
 // src/commands/transform-selections-to-uppercase.ts
 var transformSelectionsToUppercase = {
   category: "Replace Selections" /* REPLACE_SELECTIONS */,
-  id: "transform-selections-to-lowercase",
-  name: "Transform selections to lowercase",
+  id: "transform-selections-to-uppercase",
+  name: "Transform selections to uppercase",
   hotkeys: {
     keyshots: [HotKey("U", "Alt")],
     visual_studio: [HotKey("U", "Mod", "Shift")]
@@ -23978,7 +24136,7 @@ var transformSelectionsToUppercase = {
 };
 
 // src/commands/reopen-current-note.ts
-var reopenCurrentNote = {
+var reopenCurrentNote = (plugin) => ({
   category: "Other" /* OTHER */,
   id: "reopen-current-note",
   name: "Reopen current note",
@@ -23986,16 +24144,16 @@ var reopenCurrentNote = {
     keyshots: [HotKey("Q", "Alt")]
   },
   checkCallback: (checking) => {
-    const file = app.workspace.getActiveFile();
+    const file = plugin.app.workspace.getActiveFile();
     if (file) {
       if (!checking)
-        app.workspace.getLeaf(false).rebuildView();
+        plugin.app.workspace.getLeaf(false).rebuildView();
       else
         return true;
     }
     return false;
   }
-};
+});
 
 // src/constants/PrismLanguages.ts
 var PRISM_LANGUAGES = [
@@ -25220,12 +25378,16 @@ var insertCodeBlock = (plugin) => ({
     keyshots: [HotKey("`", "Mod", "Shift")]
   },
   editorCallback: (editor) => new CodeBlockModal(plugin, (lang) => {
-    SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => {
-      return sel.normalize().replaceText(`
+    SelectionsProcessing.selectionsProcessorTransaction(editor, (sel) => {
+      return {
+        replaceSelection: sel,
+        replaceText: `
 \`\`\`${lang.id}
 ${sel.getText()}
 \`\`\`
-`).moveLines(2).setChars(0).expand();
+`,
+        finalSelection: sel.clone().moveLines(2)
+      };
     });
     editor.focus();
   }).open()
@@ -25239,9 +25401,14 @@ var insertOrdinalNumbering = {
   hotkeys: {
     keyshots: [HotKey("N", "Shift", "Alt")]
   },
-  editorCallback: (editor) => SelectionsProcessing.selectionsProcessor(editor, void 0, (sel, index) => {
-    return sel.replaceText((index + 1).toString(), true);
-  })
+  editorCallback: (editor) => {
+    SelectionsProcessing.selectionsProcessorTransaction(editor, (sel, index) => {
+      return {
+        replaceSelection: sel,
+        replaceText: (index + 1).toString()
+      };
+    });
+  }
 };
 
 // src/components/table-modal.tsx
@@ -25370,10 +25537,16 @@ var insertTable = (plugin) => ({
   },
   editorCallback: (editor) => new TableModal(plugin, (data) => {
     const { rows, columns } = data;
-    SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => sel.normalize().replaceText(`
+    SelectionsProcessing.selectionsProcessorTransaction(editor, (sel) => {
+      return {
+        replaceSelection: sel,
+        replaceText: `
 |${"     |".repeat(columns)}
 |${" --- |".repeat(columns)}${("\n|" + "     |".repeat(columns)).repeat(rows)}
-`).moveLines(1).moveChars(2));
+`,
+        finalSelection: sel.clone().moveLines(1).moveCharsWithoutOffset(2)
+      };
+    });
     editor.focus();
   }).open()
 });
@@ -25735,23 +25908,23 @@ var splitSelectionsOnNewLine = {
     keyshots: [HotKey("S", "Alt")]
   },
   editorCallback: (editor) => {
-    let index = 0;
-    SelectionsProcessing.selectionsProcessor(editor, (arr) => arr.sort((a, b) => a.anchor.line - b.anchor.line), (sel) => {
-      if (sel.isCaret())
-        return sel;
-      else {
-        const replaceSel = sel.moveLines(index).normalize();
-        const tx = replaceSel.getText();
-        replaceSel.replaceText("\n" + tx + "\n");
-        index += (tx.split("\n") || []).length + 1;
-        return sel.moveLines(1).expand();
+    SelectionsProcessing.selectionsProcessorTransaction(editor, (sel) => {
+      if (sel.isCaret()) {
+        return {
+          finalSelection: sel
+        };
       }
+      return {
+        replaceSelection: sel,
+        replaceText: "\n" + sel.getText() + "\n",
+        finalSelection: sel.moveCharsWithoutOffset(1, 0)
+      };
     });
   }
 };
 
 // src/commands/go-to-prev-next-fold.ts
-function goToFolding(editor, direction) {
+function goToFolding(plugin, editor, direction) {
   const cursor = EditorPositionManipulator.mainCursor(editor);
   const isDown = () => direction == VerticalDirection_default.DOWN;
   if (!editor.getValue().substring(isDown() ? cursor.toOffset() : 0, isDown() ? void 0 : cursor.toOffset()).includes("\n"))
@@ -25790,7 +25963,7 @@ function goToFolding(editor, direction) {
       if (m[1] != (currLineMatch == null ? void 0 : currLineMatch[1]))
         return true;
       const possibleChild = arr[i + direction] ? arr[i + direction].match(LIST_REGEX) : void 0;
-      const indentFactor = currLineMatch[0].startsWith("	") || possibleChild && possibleChild[0].startsWith("	") ? 1 : app.vault.getConfig("tabSize");
+      const indentFactor = currLineMatch[0].startsWith("	") || possibleChild && possibleChild[0].startsWith("	") ? 1 : plugin.app.vault.getConfig("tabSize");
       if (!(possibleChild && possibleChild[1].length == m[1].length + indentFactor))
         return true;
       editor.setCursor(cursor.setPos(isDown() ? cursor.line + 1 + i : cursor.line - i, m == null ? void 0 : m[0].length).toEditorPosition());
@@ -25805,7 +25978,7 @@ function goToFolding(editor, direction) {
     const indent2 = m[1] ? m[1] : m[2];
     if (v.match(LIST_REGEX)) {
       const possibleChild = arr[i + direction] ? arr[i + direction].match(LIST_REGEX) : void 0;
-      const indentFactor = possibleChild && possibleChild[0].startsWith("	") ? 1 : app.vault.getConfig("tabSize");
+      const indentFactor = possibleChild && possibleChild[0].startsWith("	") ? 1 : plugin.app.vault.getConfig("tabSize");
       if (!(possibleChild && possibleChild[1].length == indent2.length + indentFactor))
         return true;
     }
@@ -25813,24 +25986,24 @@ function goToFolding(editor, direction) {
     return false;
   });
 }
-var goToNextFold = {
+var goToNextFold = (plugin) => ({
   category: "Transform Selections" /* TRANSFORM_SELECTIONS */,
   id: "go-to-next-fold",
   name: "Go to next fold",
   hotkeys: {
     keyshots: [HotKey("]", "Mod", "Alt")]
   },
-  editorCallback: (editor) => goToFolding(editor, VerticalDirection_default.DOWN)
-};
-var goToPreviousFold = {
+  editorCallback: (editor) => goToFolding(plugin, editor, VerticalDirection_default.DOWN)
+});
+var goToPreviousFold = (plugin) => ({
   category: "Transform Selections" /* TRANSFORM_SELECTIONS */,
   id: "go-to-previous-fold",
   name: "Go to previous fold",
   hotkeys: {
     keyshots: [HotKey("[", "Mod", "Alt")]
   },
-  editorCallback: (editor) => goToFolding(editor, VerticalDirection_default.UP)
-};
+  editorCallback: (editor) => goToFolding(plugin, editor, VerticalDirection_default.UP)
+});
 
 // src/commands/go-to-parent-fold.ts
 var goToParentFold = {
@@ -25927,7 +26100,7 @@ var openDevTools = {
 };
 
 // src/commands/toggle-focus-mode.ts
-var toggleFocusMode = {
+var toggleFocusMode = (plugin) => ({
   category: "Other" /* OTHER */,
   id: "toggle-focus-mode",
   name: "Toggle focus mode",
@@ -25940,7 +26113,7 @@ var toggleFocusMode = {
     Array.of("left", "right").forEach((side) => {
       const sideBar = document.querySelector(`div.mod-${side}-split`);
       if (sideBar && !sideBar.classList.contains(`is-sidedock-collapsed`) && !isFocus)
-        app.commands.executeCommandById(`app:toggle-${side}-sidebar`);
+        plugin.app.commands.executeCommandById(`app:toggle-${side}-sidebar`);
     });
     const cls = window.document.body.classList;
     if (isFocus)
@@ -25948,7 +26121,7 @@ var toggleFocusMode = {
     else
       cls.add("keyshots-focus-mode");
   }
-};
+});
 
 // src/components/ide-preset-modal.tsx
 var import_obsidian9 = require("obsidian");
@@ -25995,17 +26168,17 @@ var changeKeyshotsPreset = (plugin) => ({
 });
 
 // src/commands/open-keyshots-settings-tab.ts
-var openKeyshotsSettingsTab = {
+var openKeyshotsSettingsTab = (plugin) => ({
   category: "Keyshots Settings" /* KEYSHOTS_SETTINGS */,
   id: "open-keyshots-settings-tab",
   name: "Open Keyshots settings tab",
   hotkeys: { keyshots: [HotKey(",", "Mod", "Alt")] },
   callback: () => {
-    if (app.setting.activeTab === null)
-      app.setting.open();
-    app.setting.openTabById("keyshots");
+    if (plugin.app.setting.activeTab === null)
+      plugin.app.setting.open();
+    plugin.app.setting.openTabById("keyshots");
   }
-};
+});
 
 // src/commands/switch-keyshots-case-sensitivity.ts
 var import_obsidian10 = require("obsidian");
@@ -26047,7 +26220,7 @@ var addCaretDK = (plugin) => ({
 
 // src/commands/double-key/quick-open.ts
 var import_obsidian12 = require("obsidian");
-var quickOpen = (plugin) => ({
+var quickOpenDK = (plugin) => ({
   id: "quick-open",
   name: "Open Quick-Switcher",
   key: plugin.settings.key_quick_switch_via_double_key_cmd,
@@ -26068,7 +26241,7 @@ var quickOpen = (plugin) => ({
 
 // src/commands/duplicate-tab.ts
 var import_obsidian13 = require("obsidian");
-var duplicateTab = {
+var duplicateTab = (plugin) => ({
   category: "Other" /* OTHER */,
   id: "duplicate-tab",
   name: "Duplicate tab",
@@ -26076,22 +26249,22 @@ var duplicateTab = {
     keyshots: [HotKey("D", "Ctrl", "Alt")]
   },
   checkCallback: (checking) => {
-    const view = app.workspace.getActiveViewOfType(import_obsidian13.View);
+    const view = plugin.app.workspace.getActiveViewOfType(import_obsidian13.View);
     if (checking) {
       return !!view;
     }
     if (!view) {
       return;
     }
-    const leaf = app.workspace.getLeaf(true);
+    const leaf = plugin.app.workspace.getLeaf(true);
     leaf.setViewState({
       type: view.getViewType(),
       state: view.getState(),
       active: true
     });
-    app.workspace.revealLeaf(leaf);
+    plugin.app.workspace.revealLeaf(leaf);
   }
-};
+});
 var duplicate_tab_default = duplicateTab;
 
 // src/commands/indent.ts
@@ -26102,20 +26275,7 @@ var indent = {
   hotkeys: {
     keyshots: [HotKey("]", "Alt")]
   },
-  editorCallback: (editor) => {
-    const useTabs = app.vault.getConfig("useTabs");
-    SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => {
-      const expandedSelection = sel.clone().normalize().expand();
-      if (sel.isCaret()) {
-        expandedSelection.replaceText(((useTabs != null ? useTabs : false) ? "	" : "    ") + expandedSelection.getText());
-        return sel.moveChars((useTabs != null ? useTabs : false) ? 1 : 4);
-      }
-      expandedSelection.replaceText(expandedSelection.getText().split("\n").map((line) => {
-        return ((useTabs != null ? useTabs : false) ? "	" : "    ") + line;
-      }).join("\n"));
-      return sel.expand();
-    });
-  }
+  editorCallback: (editor) => editor.exec("indentMore")
 };
 var unindent = {
   category: "Editor Lines Manipulation" /* EDITOR_LINES_MANIPULATION */,
@@ -26124,25 +26284,7 @@ var unindent = {
   hotkeys: {
     keyshots: [HotKey("[", "Alt")]
   },
-  editorCallback: (editor) => {
-    const useTabs = app.vault.getConfig("useTabs");
-    const unindentLine = (line) => {
-      if (useTabs && line.startsWith("	"))
-        return line.substring(1);
-      else if (!useTabs && line.startsWith("    "))
-        return line.substring(4);
-      return line;
-    };
-    SelectionsProcessing.selectionsProcessor(editor, void 0, (sel) => {
-      const expandedSelection = sel.clone().normalize().expand();
-      if (sel.isCaret()) {
-        expandedSelection.replaceText(unindentLine(expandedSelection.getText()));
-        return sel.moveChars((useTabs != null ? useTabs : false) ? -1 : -4);
-      }
-      expandedSelection.replaceText(expandedSelection.getText().split("\n").map((line) => unindentLine(line)).join("\n"));
-      return sel.expand();
-    });
-  }
+  editorCallback: (editor) => editor.exec("indentLess")
 };
 
 // src/commands/double-key/open-command-palette.ts
@@ -26159,14 +26301,92 @@ var openCommandPaletteDK = (plugin) => ({
   } : void 0
 });
 
+// src/commands/promote-demote-headings.ts
+var CONTAINS_HEADING_REGEX = /^(#{1,6})(.*)$/gm;
+function getHeadingLevelFromLine(line) {
+  var _a;
+  const match = line.matchAll(CONTAINS_HEADING_REGEX).next().value;
+  if (!match) {
+    return 0;
+  }
+  return (_a = match[1].length) != null ? _a : 0;
+}
+function changeHeadingLevelForSelections(editor, action) {
+  SelectionsProcessing.selectionsProcessorTransaction(editor, (sel) => {
+    const text = sel.isCaret() ? sel.anchor.getLine() : sel.clone().expand().getText();
+    const replaceText = text.replace(CONTAINS_HEADING_REGEX, (_, hashtags, title) => {
+      if (action === "promote" && hashtags.length < 6) {
+        hashtags += "#";
+      } else if (action === "demote" && hashtags.length > 1) {
+        hashtags = hashtags.substring(1);
+      }
+      return hashtags + title;
+    });
+    const finalSelection = sel.clone();
+    if (sel.isCaret()) {
+      finalSelection.setChars(getHeadingLevelFromLine(replaceText));
+    }
+    return {
+      finalSelection,
+      replaceSelection: sel.clone().expand(),
+      replaceText
+    };
+  });
+}
+var promoteHeading = {
+  id: "promote-heading",
+  name: "Promote heading",
+  hotkeys: {
+    keyshots: [
+      HotKey("0", "Mod", "Alt")
+    ]
+  },
+  editorCallback: (editor) => changeHeadingLevelForSelections(editor, "promote")
+};
+var demoteHeading = {
+  id: "demote-heading",
+  name: "Demote heading",
+  hotkeys: {
+    keyshots: [
+      HotKey("9", "Mod", "Alt")
+    ]
+  },
+  editorCallback: (editor) => changeHeadingLevelForSelections(editor, "demote")
+};
+
+// src/commands/switch-default-editing-mode-setting.ts
+var import_obsidian15 = require("obsidian");
+var switchDefaultEditingModeSetting = (plugin) => ({
+  category: "Obsidian Settings" /* OBSIDIAN_SETTINGS */,
+  id: "switch-default-editing-mode-setting",
+  name: "Switch 'Default editing mode' setting",
+  hotkeys: {
+    keyshots: [HotKey("E", "Mod", "Alt")]
+  },
+  callback: () => {
+    flipBooleanSetting(plugin.app, "livePreview");
+    const view = plugin.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
+    if (!view) {
+      return;
+    }
+    const isSetToLivePreview = plugin.app.vault.getConfig("livePreview");
+    const isLivePreviewView = view.getState().source;
+    if (isSetToLivePreview === isLivePreviewView) {
+      return;
+    }
+    view.setState({ mode: "source", source: isSetToLivePreview }, {});
+  }
+});
+
 // src/plugin.ts
-var KeyshotsPlugin = class extends import_obsidian15.Plugin {
+var KeyshotsPlugin = class extends import_obsidian16.Plugin {
   keyshotsCommandToObsidianCommand(cmd, preset, includeKeyshots) {
     let hotkeys = void 0;
     if (cmd.hotkeys) {
       hotkeys = cmd.hotkeys[preset];
-      if (includeKeyshots && hotkeys === void 0)
+      if (includeKeyshots && hotkeys === void 0 && preset !== "clear") {
         hotkeys = cmd.hotkeys["keyshots"];
+      }
     }
     if (hotkeys === null)
       hotkeys = void 0;
@@ -26194,7 +26414,7 @@ var KeyshotsPlugin = class extends import_obsidian15.Plugin {
       toggleCaseJetbrains,
       transformSelectionsToLowercase,
       transformSelectionsToUppercase,
-      reopenCurrentNote,
+      reopenCurrentNote(this),
       insertCodeBlock(this),
       insertOrdinalNumbering,
       insertTable(this),
@@ -26212,20 +26432,23 @@ var KeyshotsPlugin = class extends import_obsidian15.Plugin {
       searchByRegex(this),
       splitSelectionsByLines,
       splitSelectionsOnNewLine,
-      goToNextFold,
-      goToPreviousFold,
+      goToNextFold(this),
+      goToPreviousFold(this),
       goToParentFold,
       switchInlineTitleSetting(this),
       switchLineNumbersSetting(this),
       switchReadableLineLength(this),
       openDevTools,
-      toggleFocusMode,
+      toggleFocusMode(this),
       changeKeyshotsPreset(this),
-      openKeyshotsSettingsTab,
+      openKeyshotsSettingsTab(this),
       switchKeyshotsCaseSensitivity(this),
-      duplicate_tab_default,
+      duplicate_tab_default(this),
       indent,
-      unindent
+      unindent,
+      promoteHeading,
+      demoteHeading,
+      switchDefaultEditingModeSetting(this)
     ];
   }
   async onload() {
@@ -26240,19 +26463,27 @@ var KeyshotsPlugin = class extends import_obsidian15.Plugin {
     const preset = this.settings.ide_mappings;
     this._events = this._events.filter((e) => !e.toString().contains(".removeCommand("));
     this.getCommands().forEach((c) => {
-      app.commands.removeCommand("keyshots:" + c.id);
+      this.app.commands.removeCommand("keyshots:" + c.id);
       this.addCommand(this.keyshotsCommandToObsidianCommand(c, preset, this.settings.keyshot_mappings));
     });
   }
   loadDoubleKeyCommands() {
+    const {
+      enable_carets_via_double_key_cmd,
+      enable_command_palette_via_double_key_cmd,
+      enable_quick_switch_via_double_key_cmd
+    } = this.settings;
+    const DOUBLE_KEY_COMMANDS_MULTI_MAP = [
+      [enable_carets_via_double_key_cmd, addCaretDK],
+      [enable_command_palette_via_double_key_cmd, openCommandPaletteDK],
+      [enable_quick_switch_via_double_key_cmd, quickOpenDK]
+    ];
     this.doubleKeyRegistry.unregisterAllCommands();
-    if (this.settings.enable_carets_via_double_key_cmd) {
-      this.doubleKeyRegistry.registerCommand(addCaretDK(this));
-      this.doubleKeyRegistry.registerCommand(openCommandPaletteDK(this));
-    }
-    if (this.settings.enable_quick_switch_via_double_key_cmd) {
-      this.doubleKeyRegistry.registerCommand(quickOpen(this));
-    }
+    DOUBLE_KEY_COMMANDS_MULTI_MAP.forEach(([isCommandEnabled, commandFunction]) => {
+      if (!isCommandEnabled)
+        return;
+      this.doubleKeyRegistry.registerCommand(commandFunction(this));
+    });
   }
   async changePreset(presetId) {
     if (!Object.keys(PRESETS_INFO).contains(presetId)) {

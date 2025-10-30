@@ -1,6 +1,6 @@
 ---
 tags:
-  - Finance
+  - fin
   - sec/5
 date: 2023-11-10 13:57
 ---

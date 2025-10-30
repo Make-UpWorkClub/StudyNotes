@@ -10,12 +10,29 @@ date: 2025-10-15T13:13:08
 Phenomenon where [[electron|electrons]] are emitted by shining [[electromagnetic radiation|light]] on some surfaces
 
 $$
-E_{light} = hf = K_{max} + E_0
+E_\text{light} = hf = K_\text{max} + E_0
 $$
 
-- $E_0$: minimum energy to free an electron
-- Light intensity influences frequency of emission
-- Light frequency influences speed of electrons
+- $K_\text{max}$: maximum kinetic energy of freed electron
+- $E_0$: minimum energy to free an electron, `aka.` work function
+	- Depends on surface
+
+## Continuous vs discrete models
+
+==Incorrect== model using continuous classical physics:
+
+- Light intensity *positively* influences $K_\text{max}$.
+- Light intensity positively influences frequency of ejection.
+- Light frequency *doesn't matter*.
+
+==Correct== model using discrete quantum physics:
+
+- Light intensity *doesn't* influence $K_\text{max}$.
+- Light intensity positively influences frequency of ejection.
+- Light frequency *positively influences* $K_\text{max}$.
+- There exists a **cutoff frequency** $f_0$ (minimum frequency for ejection).
+	- $f > f_0$: electrons get ejected right away.
+	- $f < f_0$: electrons never get ejected.
 
 ## Examples
 

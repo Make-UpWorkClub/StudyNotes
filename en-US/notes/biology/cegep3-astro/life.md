@@ -43,6 +43,8 @@ Characteristics:
 	- <= cohesive and adhesive
 	- <= high heat capacity => stable atmosphere / ocean / organism temperature
 	- <= denser as a liquid than a solid => allows ice to float
+- Final electron acceptor
+	- O2
 
 ## Alternative forms
 
@@ -63,13 +65,3 @@ Characteristics:
 		- **Azotosome**: theoretical nitrogen-based inside-out membrane that form in methane
 - May have similar adaptations to Archaea
 - Probably not wheeled
-
-## Search
-
-- High homochirality of biological molecules
-	- <= homochiral preference of life on Earth
-	- <= non-biological reaction typically produces equal chirality
-- **Hopanoids**: lipids in bacterial membranes
-	- <= very resilient to extreme conditions; can be preserved for millions of years
-- Simultaneous presence of methane and oxygen
-	- <= exothermic reaction of methane with oxygen; the half-life of methane on Earth is only ~10 years

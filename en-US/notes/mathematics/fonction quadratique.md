@@ -1,9 +1,9 @@
 ---
 tags:
-  - Algebra
+  - mat/algebra
   - sec/4
   - sec/5
-  - Stub
+  - stub
 date: 2024-02-05 14:38
 ---
 

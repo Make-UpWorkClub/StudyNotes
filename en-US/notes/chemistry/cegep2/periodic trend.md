@@ -2,7 +2,7 @@
 tags:
   - chem/atom
   - cegep/2
-  - Stub
+  - stub
 date: 2025-05-01T09:19:56
 ---
 

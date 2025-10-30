@@ -1,6 +1,6 @@
 ---
 tags:
-  - algebra
+  - mat/algebra
   - cegep/3
 date: 2025-09-05T10:47:27
 ---
@@ -32,8 +32,18 @@ $$
 
 ### Commutativité
 
-> $\vec{v} \pm \vec{w} = \vec{w} \pm \vec{v}$
+$$
+\begin{align}
+A \pm B & = B \pm A \\
+\vec{v} \pm \vec{w} & = \vec{w} \pm \vec{v}
+\end{align}
+$$
 
 ### Associativité
 
-> $(\vec{u} \pm \vec{v}) + \vec{w} = \vec{u} + (\vec{v} + \vec{w})$
+$$
+\begin{align}
+(A \pm B) \pm C & = A \pm (B \pm C) \\
+(\vec{u} \pm \vec{v}) \pm \vec{w} & = \vec{u} \pm (\vec{v} \pm \vec{w})
+\end{align}
+$$

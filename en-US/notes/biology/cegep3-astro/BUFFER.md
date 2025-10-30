@@ -79,3 +79,6 @@ Gas giant exoplanets physically similar to Jupiter but extremely close to their 
 
 - glace is less dense than liquid water => glace floats above 
 - Ga = billion years ago
+
+# 2025-10-17
+

@@ -18,15 +18,30 @@ x(t) & = A\cos\left( \omega t + \phi_0 \right) \\
 v(t) & = -A\omega \sin(\omega t + \phi_0) \\
 a(t) & = -A\omega^2\cos(\omega t + \phi_0) \\
  \\
-\omega & = 2\pi f = \frac{2\pi}{T} \\
- & = \sqrt{\frac{k}{m}} \\
 \phi & = \omega t + \phi_0 \\
-F & = -kx  \\
  \\
-\frac{\mathrm{d}^2x}{\mathrm{d}t^2} + \frac{g}{L}\theta & = 0 \\
 E = K + U & = \frac{1}{2}mv^2 + \frac{1}{2}kx^2 \\
  & = \frac{1}{2}mv_\text{max}^2 \\
  & = \frac{1}{2}kA^2
+\end{align}
+$$
+
+For a spring-mass system:
+
+$$
+\begin{align}
+\frac{\mathrm{d}^2x}{\mathrm{d}t^2} + \frac{k}{m}x & = 0 \\
+\omega & = \sqrt{\frac{k}{m}} \\
+F & = -kx
+\end{align}
+$$
+
+For a pendulum that **oscillates at $\theta < 15\deg$**:
+
+$$
+\begin{align}
+\frac{\mathrm{d}^2x}{\mathrm{d}t^2} + \frac{g}{L}\theta & = 0 \\
+\omega & = \sqrt{\frac{g}{L}}
 \end{align}
 $$
 

@@ -13,48 +13,6 @@ date: 2025-08-20T16:18:17
 - $\sin\theta = \sin(\pi - \theta)$
 - $\tan\theta = \tan(\theta + \pi)$
 
-# 2025-09-02
-
-# wave
-
-## Propagation
-
-### Fixed string end
-
-*Inverted* reflection
-
-![[fixed string propagation.png|400]]
-
-### Free string end
-
-*Non inverted* reflection
-
-![[free string propagation.png|400]]
-
-### Heavier string
-
-Partial transmission, partial *inverted* reflection
-
-$$
-v_\text{transmitted} < v_\text{reflected}
-$$
-
-![[heavier string propagation.png]]
-
-### Lighter string
-
-Partial transmission, partial *non inverted* reflection
-
-$$
-v_\text{transmitted} > v_\text{reflected}
-$$
-
-![[lighter string propagation.png]]
-
-# wave front
-
-Crest of wave
-
 # resonance
 
 Amplification of an oscillating system when an outside force matches one of the natural frequencies

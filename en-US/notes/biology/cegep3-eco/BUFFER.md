@@ -28,12 +28,7 @@ Diploid)
 D(Meiosis)
 ```
 
-# climate
+# foodchain
 
-- Sunlight
-- Season
-- Wind current
-- Water current
-- Altitude
-- Mountain range: more frequent precipitation
-- Vegetation: absorbs solar radiation and cools the surface
+> [!abstract] trophic cascade
+> Phenomenon where decrease / increase of a population leads to alternating increase / decrease of adjacent populations

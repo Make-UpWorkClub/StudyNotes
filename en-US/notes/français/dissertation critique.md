@@ -15,20 +15,17 @@ Formuler :
 - *Position sur l'hypothèse*
 - Justification de l'hypothèse
 
-> [!abstract] dissertation critique comparatif
+> [!abstract] dissertation critique comparative
 > Dissertation critique où sont comparés deux sujets du même oeuvre ou de deux oeuvres différents
 
 ## Plans
 
 - Introduction
 - Idée principale 1
-  `Par ex.` similitude / différence
 	- Idée secondaire 1
-	  `Par ex.` texte 1
 		- Procédé formel
 		- Explication
 	- Idée secondaire 2
-	  `Par ex.` texte 2
 		- Procédé formel
 		- Explication
 	- Conclusion partielle
@@ -51,6 +48,24 @@ Deux paragraphes adoptant le *même* point de vue
 ### À thèse nuancée
 
 Deux paragraphes adoptant deux points de vue *opposés*
+
+## Analyse
+
+### Séquentielle
+
+Idées principales sur chaque texte
+Idées secondaires sur des idées individuelles
+
+- Permet les idées individuelles
+- Permet la thèse nuancée par texte
+
+### Simultanée
+
+Idées principales sur des idées partagées
+Idées secondaires sur chaque texte
+
+- Permet la comparaison implicite
+- Permet la thèse nuancée par idée
 
 ## Conseils
 

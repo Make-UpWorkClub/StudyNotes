@@ -2,11 +2,11 @@
   "items": [
     {
       "type": "graph",
-      "ctime": 1748721897471,
-      "title": "All",
+      "ctime": 1761855940011,
+      "title": "sec",
       "options": {
-        "collapse-filter": true,
-        "search": "-file:.canvas -file:BUFFER -file:index -file:toc",
+        "collapse-filter": false,
+        "search": "-file:.canvas -file:BUFFER tag:#sec",
         "showTags": false,
         "showAttachments": false,
         "hideUnresolved": true,
@@ -14,66 +14,52 @@
         "collapse-color-groups": true,
         "colorGroups": [
           {
-            "query": "tag:#French",
+            "query": "tag:#fr",
             "color": {
               "a": 1,
               "rgb": 6726655
             }
           },
           {
-            "query": "tag:#English",
+            "query": "tag:#en",
             "color": {
               "a": 1,
-              "rgb": 16741882
+              "rgb": 16662126
             }
           },
           {
-            "query": "tag:#Calculus",
+            "query": "tag:#mat",
             "color": {
               "a": 1,
-              "rgb": 5408511
+              "rgb": 6449150
             }
           },
           {
-            "query": "tag:#PAS",
+            "query": "tag:#chem",
             "color": {
               "a": 1,
-              "rgb": 11757311
+              "rgb": 16540414
             }
           },
           {
-            "query": "tag:#Chem",
-            "color": {
-              "a": 1,
-              "rgb": 16753485
-            }
-          },
-          {
-            "query": "tag:#Humanities",
+            "query": "tag:#hum",
             "color": {
               "a": 1,
               "rgb": 15442468
             }
           },
           {
-            "query": "tag:#PE",
+            "query": "tag:#phys",
             "color": {
               "a": 1,
               "rgb": 16675213
             }
           },
           {
-            "query": "tag:#Biology",
+            "query": "tag:#bio",
             "color": {
               "a": 1,
               "rgb": 6941016
-            }
-          },
-          {
-            "query": "tag:#Algebra",
-            "color": {
-              "a": 1,
-              "rgb": 11757311
             }
           },
           {
@@ -84,14 +70,14 @@
             }
           },
           {
-            "query": "tag:#Physics",
+            "query": "tag:#PE",
             "color": {
               "a": 1,
-              "rgb": 16663574
+              "rgb": 16728878
             }
           },
           {
-            "query": "tag:#Finance",
+            "query": "tag:#fin",
             "color": {
               "a": 1,
               "rgb": 16774912
@@ -100,25 +86,25 @@
         ],
         "collapse-display": true,
         "showArrow": true,
-        "textFadeMultiplier": 0,
+        "textFadeMultiplier": -0.5,
         "nodeSizeMultiplier": 1.64344029244517,
-        "lineSizeMultiplier": 5,
+        "lineSizeMultiplier": 3.99779952422145,
         "collapse-forces": true,
         "centerStrength": 0.5,
-        "repelStrength": 10,
+        "repelStrength": 7.99524221453287,
         "linkStrength": 1,
-        "linkDistance": 150,
-        "scale": 0.3823011426223652,
-        "close": true
+        "linkDistance": 100,
+        "scale": 0.6756111122050232,
+        "close": false
       }
     },
     {
       "type": "graph",
-      "ctime": 1748722059342,
-      "title": "Sec",
+      "ctime": 1761855953778,
+      "title": "cegep/1",
       "options": {
-        "collapse-filter": true,
-        "search": "-file:.canvas -file:BUFFER tag:#Sec",
+        "collapse-filter": false,
+        "search": "-file:.canvas -file:BUFFER tag:#cegep/1",
         "showTags": false,
         "showAttachments": false,
         "hideUnresolved": true,
@@ -126,66 +112,52 @@
         "collapse-color-groups": true,
         "colorGroups": [
           {
-            "query": "tag:#French",
+            "query": "tag:#fr",
             "color": {
               "a": 1,
               "rgb": 6726655
             }
           },
           {
-            "query": "tag:#English",
+            "query": "tag:#en",
             "color": {
               "a": 1,
-              "rgb": 16741882
+              "rgb": 16662126
             }
           },
           {
-            "query": "tag:#Calculus",
+            "query": "tag:#mat",
             "color": {
               "a": 1,
-              "rgb": 5408511
+              "rgb": 6449150
             }
           },
           {
-            "query": "tag:#PAS",
+            "query": "tag:#chem",
             "color": {
               "a": 1,
-              "rgb": 11757311
+              "rgb": 16540414
             }
           },
           {
-            "query": "tag:#Chem",
-            "color": {
-              "a": 1,
-              "rgb": 16753485
-            }
-          },
-          {
-            "query": "tag:#Humanities",
+            "query": "tag:#hum",
             "color": {
               "a": 1,
               "rgb": 15442468
             }
           },
           {
-            "query": "tag:#PE",
+            "query": "tag:#phys",
             "color": {
               "a": 1,
               "rgb": 16675213
             }
           },
           {
-            "query": "tag:#Biology",
+            "query": "tag:#bio",
             "color": {
               "a": 1,
               "rgb": 6941016
-            }
-          },
-          {
-            "query": "tag:#Algebra",
-            "color": {
-              "a": 1,
-              "rgb": 11757311
             }
           },
           {
@@ -196,14 +168,14 @@
             }
           },
           {
-            "query": "tag:#Physics",
+            "query": "tag:#PE",
             "color": {
               "a": 1,
-              "rgb": 16663574
+              "rgb": 16728878
             }
           },
           {
-            "query": "tag:#Finance",
+            "query": "tag:#fin",
             "color": {
               "a": 1,
               "rgb": 16774912
@@ -212,25 +184,25 @@
         ],
         "collapse-display": true,
         "showArrow": true,
-        "textFadeMultiplier": 0,
+        "textFadeMultiplier": -0.5,
         "nodeSizeMultiplier": 1.64344029244517,
-        "lineSizeMultiplier": 5,
+        "lineSizeMultiplier": 3.99779952422145,
         "collapse-forces": true,
         "centerStrength": 0.5,
-        "repelStrength": 10,
+        "repelStrength": 7.99524221453287,
         "linkStrength": 1,
-        "linkDistance": 150,
-        "scale": 0.3823011426223652,
-        "close": true
+        "linkDistance": 100,
+        "scale": 0.48752663679426383,
+        "close": false
       }
     },
     {
       "type": "graph",
-      "ctime": 1748721970636,
-      "title": "Cegep/1",
+      "ctime": 1761856021482,
+      "title": "cegep/2",
       "options": {
-        "collapse-filter": true,
-        "search": "-file:.canvas -file:BUFFER tag:#Cegep/1",
+        "collapse-filter": false,
+        "search": "-file:.canvas -file:BUFFER tag:#cegep/2",
         "showTags": false,
         "showAttachments": false,
         "hideUnresolved": true,
@@ -238,66 +210,52 @@
         "collapse-color-groups": true,
         "colorGroups": [
           {
-            "query": "tag:#French",
+            "query": "tag:#fr",
             "color": {
               "a": 1,
               "rgb": 6726655
             }
           },
           {
-            "query": "tag:#English",
+            "query": "tag:#en",
             "color": {
               "a": 1,
-              "rgb": 16741882
+              "rgb": 16662126
             }
           },
           {
-            "query": "tag:#Calculus",
+            "query": "tag:#mat",
             "color": {
               "a": 1,
-              "rgb": 5408511
+              "rgb": 6449150
             }
           },
           {
-            "query": "tag:#PAS",
+            "query": "tag:#chem",
             "color": {
               "a": 1,
-              "rgb": 11757311
+              "rgb": 16540414
             }
           },
           {
-            "query": "tag:#Chem",
-            "color": {
-              "a": 1,
-              "rgb": 16753485
-            }
-          },
-          {
-            "query": "tag:#Humanities",
+            "query": "tag:#hum",
             "color": {
               "a": 1,
               "rgb": 15442468
             }
           },
           {
-            "query": "tag:#PE",
+            "query": "tag:#phys",
             "color": {
               "a": 1,
               "rgb": 16675213
             }
           },
           {
-            "query": "tag:#Biology",
+            "query": "tag:#bio",
             "color": {
               "a": 1,
               "rgb": 6941016
-            }
-          },
-          {
-            "query": "tag:#Algebra",
-            "color": {
-              "a": 1,
-              "rgb": 11757311
             }
           },
           {
@@ -308,14 +266,14 @@
             }
           },
           {
-            "query": "tag:#Physics",
+            "query": "tag:#PE",
             "color": {
               "a": 1,
-              "rgb": 16663574
+              "rgb": 16728878
             }
           },
           {
-            "query": "tag:#Finance",
+            "query": "tag:#fin",
             "color": {
               "a": 1,
               "rgb": 16774912
@@ -324,25 +282,25 @@
         ],
         "collapse-display": true,
         "showArrow": true,
-        "textFadeMultiplier": 0,
+        "textFadeMultiplier": -0.5,
         "nodeSizeMultiplier": 1.64344029244517,
-        "lineSizeMultiplier": 5,
+        "lineSizeMultiplier": 3.99779952422145,
         "collapse-forces": true,
         "centerStrength": 0.5,
-        "repelStrength": 10,
+        "repelStrength": 7.99524221453287,
         "linkStrength": 1,
-        "linkDistance": 150,
-        "scale": 0.3823011426223652,
-        "close": true
+        "linkDistance": 100,
+        "scale": 0.3849400431721318,
+        "close": false
       }
     },
     {
       "type": "graph",
-      "ctime": 1748721982137,
-      "title": "Cegep/2",
+      "ctime": 1761856042115,
+      "title": "cegep/3",
       "options": {
-        "collapse-filter": true,
-        "search": "-file:.canvas -file:BUFFER tag:#Cegep/2",
+        "collapse-filter": false,
+        "search": "-file:.canvas -file:BUFFER tag:#cegep/3",
         "showTags": false,
         "showAttachments": false,
         "hideUnresolved": true,
@@ -350,66 +308,52 @@
         "collapse-color-groups": true,
         "colorGroups": [
           {
-            "query": "tag:#French",
+            "query": "tag:#fr",
             "color": {
               "a": 1,
               "rgb": 6726655
             }
           },
           {
-            "query": "tag:#English",
+            "query": "tag:#en",
             "color": {
               "a": 1,
-              "rgb": 16741882
+              "rgb": 16662126
             }
           },
           {
-            "query": "tag:#Calculus",
+            "query": "tag:#mat",
             "color": {
               "a": 1,
-              "rgb": 5408511
+              "rgb": 6449150
             }
           },
           {
-            "query": "tag:#PAS",
+            "query": "tag:#chem",
             "color": {
               "a": 1,
-              "rgb": 11757311
+              "rgb": 16540414
             }
           },
           {
-            "query": "tag:#Chem",
-            "color": {
-              "a": 1,
-              "rgb": 16753485
-            }
-          },
-          {
-            "query": "tag:#Humanities",
+            "query": "tag:#hum",
             "color": {
               "a": 1,
               "rgb": 15442468
             }
           },
           {
-            "query": "tag:#PE",
+            "query": "tag:#phys",
             "color": {
               "a": 1,
               "rgb": 16675213
             }
           },
           {
-            "query": "tag:#Biology",
+            "query": "tag:#bio",
             "color": {
               "a": 1,
               "rgb": 6941016
-            }
-          },
-          {
-            "query": "tag:#Algebra",
-            "color": {
-              "a": 1,
-              "rgb": 11757311
             }
           },
           {
@@ -420,14 +364,14 @@
             }
           },
           {
-            "query": "tag:#Physics",
+            "query": "tag:#PE",
             "color": {
               "a": 1,
-              "rgb": 16663574
+              "rgb": 16728878
             }
           },
           {
-            "query": "tag:#Finance",
+            "query": "tag:#fin",
             "color": {
               "a": 1,
               "rgb": 16774912
@@ -436,16 +380,16 @@
         ],
         "collapse-display": true,
         "showArrow": true,
-        "textFadeMultiplier": 0,
+        "textFadeMultiplier": -0.5,
         "nodeSizeMultiplier": 1.64344029244517,
-        "lineSizeMultiplier": 5,
+        "lineSizeMultiplier": 3.99779952422145,
         "collapse-forces": true,
         "centerStrength": 0.5,
-        "repelStrength": 10,
+        "repelStrength": 7.99524221453287,
         "linkStrength": 1,
-        "linkDistance": 150,
-        "scale": 0.3823011426223652,
-        "close": true
+        "linkDistance": 100,
+        "scale": 0.57391498788074,
+        "close": false
       }
     }
   ]
