@@ -14,7 +14,7 @@ Flèche avec longueur (magnitude) & direction
 
 ### Algébrique
 
-Algébriquement, un vecteur $\vec{v}\in \mathbb{R}^n$ est une liste
+Algébriquement, un vecteur $\vec{v}\in \mathbb{R}^n$ est une [[matrice]] d'une seule colonne
 
 $$
 \vec{v} = \langle v_1, v_2, v_3,\dots v_n \rangle = \begin{bmatrix}

@@ -14,7 +14,7 @@ date: 2025-10-07T10:17:19
 $$
 \begin{align}
 dist(A, D) & = ||orth_{\vec{d}}\vec{PA}|| = ||\vec{PA} - \frac{\vec{PA} \cdot \vec{d}}{||\vec{d}||^2}\vec{d}|| \\
- & = \frac{||\vec{PA} \times \vec{d}||}{||\vec{d}||} \\
+ & = ||\vec{PA}||\sin\theta = \frac{||\vec{PA} \times \vec{d}||}{||\vec{d}||} \\
 \vec{OP_D(A)} & = \vec{OP} + proj_{\vec{d}}\vec{PA}
 \end{align}
 $$
@@ -24,7 +24,7 @@ $$
 ![[distance droite-droite]]
 
 - Coïncidentes parallèles ou intersectées : 0
-- Distinctes parallèles : distance entre un point quelconque sur une droite et l'autre
+- Distinctes parallèles : distance entre une droite et un point quelconque sur l'autre
 - Obliques : $$
   dist(D_1, D_2) = ||proj_{\vec{d_1} \times \vec{d_2}}\vec{P_1P_2}||
   $$

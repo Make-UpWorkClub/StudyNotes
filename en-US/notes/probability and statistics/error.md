@@ -14,6 +14,7 @@ Error in the conclusion of a [[test]]
 ### I
 
 Incorrect acceptance of the *alternative* hypothesis
+`Syn.` significance level
 `Sym.` $P = \alpha$
 
 ### II

@@ -9,7 +9,7 @@ date: 2025-03-26T12:06:04
 
 # Bohr Model
 
-Atomic model where electrons orbit the nucleus
+Atomic model where [[electron|electrons]] orbit the [[atomic nucleus|nucleus]]
 Incorrect for atoms other than hydrogen
 
 Properties:

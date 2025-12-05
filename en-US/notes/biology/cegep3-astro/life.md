@@ -29,8 +29,11 @@ Characteristics:
 
 - Habitable zone
 - Adequate temperature
+	- Eccentricity of planet not too high
+	- Greenhouse gas effect
 	- <= liquid water
-	- <= eccentricity of planet not too high
+	- <= fluid membrane
+- Adequate pH
 - Essential elements:
 	- Carbon
 	- Hydrogen
@@ -38,7 +41,7 @@ Characteristics:
 	- Oxygen
 	- Phosphorus
 	- Silicon
-- Water:
+- Water
 	- <= very polar; forms H-bonds
 	- <= cohesive and adhesive
 	- <= high heat capacity => stable atmosphere / ocean / organism temperature

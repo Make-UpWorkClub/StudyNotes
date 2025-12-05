@@ -16,24 +16,24 @@ Kingdom of [[Eukarya]]
 
 ## Classification
 
-| Phylum         | Symmetry  | [[tissue#Triploblast\|Triploblast]] | [[Coelom]] | Protostome | C.D.S. |
-| -------------- | --------- | ----------------------------------- | ---------- | ---------- | ------ |
-| Porifera       | No        | No                                  | No         | No         | No     |
-| Cnidaria       | Rad.      | No                                  | No         | No         | No     |
-| Echinodermata  | Bi & Rad. | Yes                                 | Yes        | No         | Yes    |
-| Chordata       | Bi.       | Yes                                 | Yes        | No         | No     |
-| Platyhelmintes | Bi.       | Yes                                 | *No*       | Yes        | No     |
-| Rotifera       | Bi.       | Yes                                 | *Pseudo*   | Yes        | Yes    |
-| Mollusca       | Bi.       | Yes                                 | Yes        | Yes        | Yes    |
-| Annelida       | Bi.       | Yes                                 | Yes        | Yes        | Yes    |
-| Nematoda       | Bi.       | Yes                                 | *Pseudo*   | Yes        | Yes    |
-| Arthropoda     | Bi.       | Yes                                 | Yes        | Yes        | Yes    |
+| Phylum         | Symmetry    | [[Tissue]]   | [[Coelom]] | Stomia       | C.D.S. |
+| -------------- | ----------- | ------------ | ---------- | ------------ | ------ |
+| Porifera       | No          | *No tissue*  | No         | No           | No     |
+| Cnidaria       | Rad.        | *Diploblast* | No         | No           | No     |
+| Echinodermata  | Bi. -> Rad. | Triploblast  | Yes        | Deuterostome | Yes    |
+| Chordata       | Bi.         | Triploblast  | Yes        | Deuterostome | No     |
+| Platyhelmintes | Bi.         | Triploblast  | *No*       | Protostome   | No     |
+| Rotifera       | Bi.         | Triploblast  | *Pseudo*   | Protostome   | Yes    |
+| Mollusca       | Bi.         | Triploblast  | Yes        | Protostome   | Yes    |
+| Annelida       | Bi.         | Triploblast  | Yes        | Protostome   | Yes    |
+| Nematoda       | Bi.         | Triploblast  | *Pseudo*   | Protostome   | Yes    |
+| Arthropoda     | Bi.         | Triploblast  | Yes        | Protostome   | Yes    |
 
 #### Porifera
 
 Sponge
 
-  - Lightweight
+  - *Lightweight*
   - No tissues nor organs
   - **Spicule**: crystalline endoskeleton
   - Consists of 3 layers of cells:
@@ -43,7 +43,9 @@ Sponge
 
 #### Cnidaria
 
-- Heavyweight
+- *Heavyweight*
+- **Cnidocyte**: stinging cell
+	- **Nematocyst**
 - Two body types:
 	- **Polyp**: largely *stationary*, *upwards* tentacle
 	- **Medusa**: *floating*, *downwards* tentacle
@@ -67,7 +69,7 @@ Deuterostome
 
 #### Chordata
 
-With cords
+Cordate
 
 ### Lophotrochozoa
 
@@ -95,10 +97,13 @@ Wheel animal
 
 Softbody
 
+- Visceral mass
+- Muscular feet
+- Open circulatory system (except cephalopoda)
 - Groups:
 	- **Snail**: snail, slug
 	- **Bivalve**: clam, oyster
-	- **Cephalopod**: octopus, squid
+	- **Cephalopoda**: octopus, squid
 		- Intelligent
 		- **Chromatophore**: specialized cell that allows for camouflage
 

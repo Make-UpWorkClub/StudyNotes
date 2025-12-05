@@ -19,15 +19,15 @@ $\ce{H_2O + CO_2 -> O_2 + C_6H_{12}O_6}$
 
 $\ce{H_2O + NADP+ + ADP -> O_2 + NADPH + ATP}$
 
-Chlorophyll absorbs solar energy and excites an electron. The electron releases energy via ETC to make ATP.
+Chlorophyll absorbs solar energy and excites an electron. NADP+ is reduced and carries the electron down the ETC. The electron releases energy to make ATP. H2O is oxidized to refill the electron in chlorophyll.
 
 ### Calvin cycle
 
 $\ce{CO_2 + NADPH + ATP -> C_6H_{12}O_6}$
 
-CO2 is reduced to glucose while H2O is oxidized.
+CO2 is reduced to glucose while NADPH is oxidized.
 
-## Non-oxygenic
+## Anoxygenic
 
 Photosynthesis without producing oxygen
 

@@ -5,7 +5,7 @@ tags:
 date: 2024-09-04T09:51:25
 ---
 
-# Nucleus
+# cell nucleus
 
 Membrane-bound [[organelle]] that contains most of the genes
 Contains one or more nucleoli

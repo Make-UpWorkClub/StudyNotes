@@ -1,6 +1,6 @@
 ---
 tags:
-  - en
+  - bio/eco
   - cegep/3
 date: 2025-10-07T16:33:23
 ---
@@ -21,7 +21,7 @@ Muscle and circulatory system
 
 Digestive tract
 
-## Number
+## By number
 
 ### Diploblast
 

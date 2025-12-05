@@ -9,10 +9,15 @@ date: 2025-09-16T10:46:46
 
 Opération [[vecteur|vectorielle]]
 [[Produit scalaire]] avec un [[produit vectoriel]]
+[[Déterminant]] de la matrice des trois vecteurs
 Soit $\vec{u}, \vec{v}, \vec{w} \in \mathbb{R}^3, \ k \in \mathbb{R}$,
 
 $$
-\vec{u} \cdot (\vec{v} \times \vec{w})
+\vec{u} \cdot (\vec{v} \times \vec{w}) = \begin{vmatrix}
+u_1 & u_2 & u_3 \\
+v_1 & v_2 & v_3 \\
+w_1 & w_2 & w_3
+\end{vmatrix}
 $$
 
 ## Propriétés

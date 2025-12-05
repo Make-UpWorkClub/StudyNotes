@@ -28,13 +28,38 @@ $$
 
 > [!abstract] consistence
 > - Une ou une infinité de solutions -> système ==consistent==
-> - Aucune solution -> système ==inconsistent==
+> - Aucune solution -> système ==inconsistent (incompatible)==
 
 > [!abstract] solution générale
 > Équation paramétrique qui donne toutes les solutions possibles d'un système ayant une infinité de solutions
 
 > [!abstract] solution particulière
 > Solution obtenue à partir de la solution générale en fixant les paramètres
+
+> Soit $(A)$ un système linéaire. Alors, $(A)$ admet une unique solution, une infinité de solutions ou aucune solution.
+
+On peut écrire $(A)$ comme
+
+$$
+AX = B
+$$
+
+Si $A$ est inversible,
+
+$$
+X = A^{-1}B
+$$
+
+Donc, $X$ est la solution unique.
+
+Si $A$ n'est pas inversible,
+Il est possible que $A$ n'admet aucune solution.
+Sinon, il y a au moins deux solutions $X_1$ et $X_2$.
+Soit $\vec{X_t}$ un point sur la droite passant par $X_1$ et $X_2$:
+
+$$
+X_t = X_1 + t(X_2 - X_1)
+$$
 
 ## Homogénité
 
@@ -62,6 +87,13 @@ Pour résoudre un système linéaire :
 ### Élimination de Gauss-Jordan
 
 Même que l'élimination de Gauss mais utilisant la FER
+
+### Multiplication matricielle
+
+Pour résoudre un système linéaire ==réversible== :
+
+1. Poser les matrices $A$ = matrice des coefficients, $X$ = vecteur variable, $B$ = vecteur constant.
+2. $AX = B \implies X = A^{-1}B$
 
 ## Exemples
 

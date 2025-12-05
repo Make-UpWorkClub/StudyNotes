@@ -51,4 +51,4 @@ Diverse class of proteins, including **keratin**
 Functions:
 
 - Fixes organelle location
-- Maintains the shape of nucleus as part of the nuclear lamina
+- Maintains the shape of [[cell nucleus|nucleus]] as part of the nuclear lamina

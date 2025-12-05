@@ -7,7 +7,7 @@ date: 2024-09-05T01:35:55
 
 # Nuclear Envelope
 
-Membrane of the [[nucleus]]
+Membrane of the [[cell nucleus|nucleus]]
 Part of the [[endomembrane system]]
 
 Contains pores to allow large molecules to pass through

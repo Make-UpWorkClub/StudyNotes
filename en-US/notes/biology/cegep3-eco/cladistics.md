@@ -13,12 +13,6 @@ Steps:
 
 1. Select an **outgroup** (taxon known to have diverged before the group in study, `ant.` **ingroup**).
 2. Select derived characters.
-	- `E.g.` for flowers:
-		- Clear distinction between sepal and petal
-		- Fusion petals
-		- Type of venation (reticulate vs parallel) of leaf
-		- Position of gynoecium
-		- Angle between petals
 3. Make a matrix of presence of characters in the groups.
 4. Construct the [[phylogenetics#^c3e48f|phylogenetic tree]] based on common characters.
 	- **Maximum parsimony** favours the simplest tree (with the least character state changes).

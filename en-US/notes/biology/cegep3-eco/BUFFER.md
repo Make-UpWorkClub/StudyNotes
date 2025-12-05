@@ -30,5 +30,27 @@ D(Meiosis)
 
 # foodchain
 
+Flow chart from prey to predator
+
+# trophic cascade
+
 > [!abstract] trophic cascade
 > Phenomenon where decrease / increase of a population leads to alternating increase / decrease of adjacent populations
+
+# bioremediation
+
+Cleanup of environmental pollution using living organisms like bacteria and fungi
+
+# ocean seeding
+
+Technique of carbon sequenstration
+Addition of limiting resource like iron to the ocean to cause phytoplankton boom
+
+# Genetically Modified Organism
+
+Genetic modification of crops and livestock
+`Abbr.` GMO
+
+- Longer shell life
+- Resistance to pests
+- Resistance to her

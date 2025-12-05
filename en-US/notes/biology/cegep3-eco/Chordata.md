@@ -9,10 +9,10 @@ date: 2025-10-14T16:15:44
 
 Phylum of [[Animalia#Deuterostomia]]
 
-- **Notochord**
-- Dorsal nerve cord (spinal cord in humans)
-- Pharyngeal slits
-- Muscular tail
+- **Notochord** for support
+- **Dorsal nerve cord** (spinal cord in humans) for nervous system
+- **Pharyngeal slits** for filter feeding
+- Muscular post-anal tail
 
 ## Classification
 
@@ -26,6 +26,8 @@ Tunicate
 
 ### Vertebrata
 
+- Endoskeleton
+	- **Vertebrae**: bone around the spinal cord derived from notochord
 - Circulatory system:
 	- **Countercurrent**:
 	- Single circulation
@@ -35,6 +37,9 @@ Tunicate
 #### Myxini
 
 Hagfish
+
+- Rudimentary vertebrate
+- Slime glands
 
 #### Petromyzontida
 

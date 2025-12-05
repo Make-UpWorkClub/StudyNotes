@@ -8,6 +8,7 @@ date: 2025-09-09T12:02:58
 # produit vectoriel
 
 Opération [[vecteur|vectorielle]]
+[[Déterminant]] de la matrice des deux vecteurs
 Soit $\vec{v}, \ \vec{w} \in \mathbb{R}^3$,
 
 $$
@@ -16,7 +17,12 @@ $$
 v_2w_3 - w_2v_3 \\
 v_3w_1 - w_3v_1 \\
 v_1w_2 - w_1v_2
-\end{bmatrix}
+\end{bmatrix} \\
+ & = \begin{vmatrix}
+\hat{i} & \hat{j} & \hat{k} \\
+v_1 & v_2 & v_3 \\
+w_1 & w_2 & w_3
+\end{vmatrix}
 \end{align}
 $$
 
@@ -32,13 +38,15 @@ v_3w_1 - w_3v_1 \\
 v_1w_2 - w_1v_2
 \end{bmatrix} \\
  & = v_1(v_2w_3 - w_2v_3) + v_2(v_3w_1 - w_3v_1) + v_3(v_1w_2 - w_1v_2) \\
- & = \cancel{v_1v_2w_3 - v_1w_2v_3 + w_1v_2v_3 - v_1v_2w_3 + v_1w_2v_3 - w_1v_2v_3K} \\
+ & = \cancel{v_1v_2w_3 - v_1w_2v_3 + w_1v_2v_3 - v_1v_2w_3 + v_1w_2v_3 - w_1v_2v_3} \\
  & = 0 \\
 \implies \vec{v} & \perp \vec{v} \times \vec{w}
 \end{align}
 $$
 
 Similairement, $\vec{w} \perp \vec{v} \times \vec{w}$.
+
+$\square$
 
 > $\vec{v} \parallel \vec{w} \implies \vec{v}\times \vec{w} = \vec{0}$
 
@@ -53,13 +61,15 @@ $$
 \end{align}
 $$
 
+$\square$
+
 ### Anticommutativité
 
 > $\vec{v}\times \vec{w} = -\vec{w}\times \vec{v}$
 
 ### Distributivité
 
-> $\vec{u}\times(\vec{v} + \vec{w}) = \vec{u}\times \vec{v} + \vec{u}\times \vec{w}$
+> $\vec{u} \times (\vec{v} + \vec{w}) = \vec{u} \times \vec{v} + \vec{u} \times \vec{w}$
 
 ### Associativité avec multiple scalaire
 
@@ -67,9 +77,19 @@ $$
 
 ### Formule de norme
 
-> $||\vec{v}\times \vec{w}||^2 = ||\vec{v}||^2||\vec{w}||^2 - (\vec{v} \cdot \vec{w})^2$
+> $||\vec{v} \times \vec{w}||^2 = ||\vec{v}||^2||\vec{w}||^2 - (\vec{v} \cdot \vec{w})^2$
 
-> $||\vec{v}\times \vec{w}|| = ||\vec{v}||\ ||\vec{w}||\sin\theta$
+$$
+\begin{align}
+||\vec{v} \times \vec{w}||^2 & = (v_2w_3 - w_2v_3)^2 + (v_3w_1 - w_3v_1)^2 + (v_1w_2 - w_1v_2)^2 \\
+ & = \text{(expansion longue...)} \\
+ & = ||\vec{v}||^2||\vec{w}||^2 - (\vec{v} \cdot \vec{w})^2
+\end{align}
+$$
+
+$\square$
+
+> $||\vec{v} \times \vec{w}|| = ||\vec{v}||\ ||\vec{w}||\sin\theta$
 
 $$
 \begin{align}
@@ -85,12 +105,12 @@ $\square$
 
 ## Exemples
 
-> Soit $\vec{v} = < 1, 2, 4 >, \ \vec{w} = < 3, 5, -6 >$.
+> Soit $\vec{v} = \langle 1, 2, 4 \rangle, \ \vec{w} = \langle 3, 5, -6 \rangle$.
 
 > 1. Calculer $\vec{v}\times \vec{w}$.
 
 $$
-\vec{v}x\vec{w} = \begin{bmatrix}
+\vec{v} \times \vec{w} = \begin{bmatrix}
 1 \\
 2 \\
 4
@@ -137,9 +157,9 @@ On sait que $\theta = \arccos \frac{\vec{v} \cdot(\vec{v}\times \vec{w})}{||\vec
 
 $$
 \begin{align}
-\vec{v} \cdot(\vec{v}\times \vec{w}) & = < 1, 2, 4 > \cdot < -32, 18, -1 > \\
+\vec{v} \cdot(\vec{v}\times \vec{w}) & = \langle 1, 2, 4 \rangle \cdot \langle -32, 18, -1 \rangle \\
  & = 0 \\
-\implies\theta & = \arccos0 \\
+\implies \theta & = \arccos0 \\
  & = 90°
 \end{align}
 $$

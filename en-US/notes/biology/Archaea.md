@@ -12,7 +12,7 @@ date: 2025-09-17T13:07:44
 
 - Prokaryotic
 - No pathogenic Archaea discovered
-- Tolerates or even thrives in extreme environments
+- Many are extremophiles () or even thrives in extreme environments
 	- Methanogen: guts of herbivores
 	- Thermophile: hydrothermal vents
 	- Halophile: hypersaline lakes

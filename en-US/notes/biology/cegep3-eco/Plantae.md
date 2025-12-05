@@ -40,7 +40,7 @@ Defining features:
 - Gymnosperm: conifer
 	- Microscopic gametophyte inside cone
 	- **Cone is not a fruit**
-- Angiosperm: flowering plant
+- Angiosperm: [[flower|flowering]] plant
 	- Microscopic gametophyte dependent on sporophyte for nutrition
 	- Mutualism with pollinators
 		- Flowers produce nectar that rewards pollinators.
@@ -48,7 +48,7 @@ Defining features:
 	- Fleshy fruits get eaten by animals for seed dispersal via feces.
 	- Non fleshy fruits develop specialized structures for windborne or animal dispersal.
 
-| Taxon                  | Alternation of generations | Vascular                                 | Sporophyte dominant                   | Flagellated sperm -> pollen            | Seed                                           |
+| Taxon                  | Alternation of generations | Vascular system                          | Sporophyte dominance                  | Flagellated sperm -> pollen            | Seed                                           |
 | ---------------------- | -------------------------- | ---------------------------------------- | ------------------------------------- | -------------------------------------- | ---------------------------------------------- |
 | Green algae (outgroup) | No                         | No                                       | No                                    | No                                     | No                                             |
 | Moss                   | Yes                        | No                                       | No                                    | No                                     | No                                             |

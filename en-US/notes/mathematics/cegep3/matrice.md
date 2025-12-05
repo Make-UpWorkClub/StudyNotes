@@ -18,29 +18,31 @@ a_{m_1} & a_{m_2} & \dots & a_{mn}
 \end{bmatrix}
 $$
 
-## Matrice des coefficients
+## Parties
 
-La matrice des coefficients d'un [[système linéaire]] $A$ est
-
-$$
-A = \begin{bmatrix}
-a_{11} & a_{12} & \dots & a_1n \\
-a_{21} & a_{22} & \dots & a_{2n} \\
-\vdots & \vdots & & \vdots \\
-a_{m_1} & a_{m_2} & \dots & a_{mn}
-\end{bmatrix}
-$$
-
-La matrice augmentée de $A$ est
+Diagonale principale :
 
 $$
-[A|\vec{B}] = \begin{bmatrix}
-a_{11} & a_{12} & \dots & a_1n & \bigm| & b_1 \\
-a_{21} & a_{22} & \dots & a_{2n} & \bigm| & b_2 \\
-\vdots & \vdots & & \vdots & \bigm| \\
-a_{m_1} & a_{m_2} & \dots & a_{mn} & \bigm| & b_m
-\end{bmatrix}
+\{ a_{ii} \}_{n \times n} = \{ a_{11}, a_{22}, \dots a_{nn} \}
 $$
+
+Coefficients supérieurs :
+
+$$
+\{ a_{ij} \}_{j > i}
+$$
+
+Coefficients inférieurs :
+
+$$
+\{ a_{ij} \}_{j < i}
+$$
+
+Une matrice est :
+
+- **Triangulaire supérieure** si les coefficients *inférieurs* sont nuls.
+- **Triangulaire inférieure** si les coefficients *supérieurs* sont nuls.
+- **Diagonale** si les coefficients *supérieurs et inférieurs* sont nuls.
 
 ## Formes
 
