@@ -35,7 +35,7 @@ jobs:
         run: nix develop -c bash -c 'echo STORE_PATH=$(pnpm store path --silent) | tee -a $GITHUB_OUTPUT'
 
       - name: Setup pnpm cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: ${{ steps.get-pnpm-store-path.outputs.STORE_PATH }}
           key: pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
