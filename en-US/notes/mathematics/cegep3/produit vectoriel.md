@@ -48,7 +48,8 @@ Similairement, $\vec{w} \perp \vec{v} \times \vec{w}$.
 
 $\square$
 
-> $\vec{v} \parallel \vec{w} \implies \vec{v}\times \vec{w} = \vec{0}$
+> $A_1, A_2, A_3$ sont [[colinéarité|colinéaires]] $\implies \vec{A_1A_2} \times \vec{A_1A_3} = 0$
+> $\vec{v} \parallel \vec{w} \implies \vec{v} \times \vec{w} = \vec{0}$
 
 Par définition, $\vec{w} = k\vec{v}$ pour un $k \in \mathbb{R}$.
 

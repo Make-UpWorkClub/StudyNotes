@@ -51,7 +51,8 @@ var ResultWidget = class extends import_view.WidgetType {
     this.resultText = this.text;
     div.innerText = this.text;
     this.keyListener = (event) => {
-      if (event.key !== CalctexPlugin.INSTANCE.settings.completionTriggerKey) return;
+      if (event.key !== CalctexPlugin.INSTANCE.settings.completionTriggerKey)
+        return;
       event.preventDefault();
       this.insertToDOM();
     };
@@ -14159,8 +14160,7 @@ var CalctexHintRenderer = class {
         enter(node) {
           var _a2;
           const nodeTags = node.type.name.split("_");
-          if (nodeTags.contains("formatting-math-begin"))
-            mathBegin = node.to;
+          if (nodeTags.contains("formatting-math-begin")) mathBegin = node.to;
           if (nodeTags.contains("formatting-math-end") && mathBegin != null) {
             const mathEnd = node.from;
             if (cursorPos < mathBegin || mathEnd < cursorPos) return;
@@ -14170,10 +14170,22 @@ var CalctexHintRenderer = class {
               (_line, i) => relativeCursorPos < latexContentLines.slice(0, i + 1).join("\n").length + 1
             )) != null ? _a2 : "";
             const trimmedLatexLine = focusedLatexLine.replace("\\\\", "").trim();
-            const previousLatexLines = latexContentLines.slice(0, latexContentLines.indexOf(focusedLatexLine));
-            if (!trimmedLatexLine.endsWith(CalctexPlugin.INSTANCE.settings.calculationTriggerString) && !trimmedLatexLine.endsWith(CalctexPlugin.INSTANCE.settings.approxCalculationTriggerString)) return;
-            const calcTrigger = new RegExp(`${CalctexPlugin.INSTANCE.settings.calculationTriggerString}|${CalctexPlugin.INSTANCE.settings.approxCalculationTriggerString.replace("\\", "\\\\")}`);
-            const isApproximation = trimmedLatexLine.endsWith(CalctexPlugin.INSTANCE.settings.approxCalculationTriggerString);
+            const previousLatexLines = latexContentLines.slice(
+              0,
+              latexContentLines.indexOf(focusedLatexLine)
+            );
+            if (!trimmedLatexLine.endsWith(
+              CalctexPlugin.INSTANCE.settings.calculationTriggerString
+            ) && !trimmedLatexLine.endsWith(
+              CalctexPlugin.INSTANCE.settings.approxCalculationTriggerString
+            ))
+              return;
+            const calcTrigger = new RegExp(
+              `${CalctexPlugin.INSTANCE.settings.calculationTriggerString}|${CalctexPlugin.INSTANCE.settings.approxCalculationTriggerString.replace("\\", "\\\\")}`
+            );
+            const isApproximation = trimmedLatexLine.endsWith(
+              CalctexPlugin.INSTANCE.settings.approxCalculationTriggerString
+            );
             const splitFormula = focusedLatexLine.split(calcTrigger).filter((part) => part.replace("\\\\", "").trim().length > 0);
             const formula = splitFormula[splitFormula.length - 1];
             const calculationEngine = new ir();
@@ -14182,28 +14194,38 @@ var CalctexHintRenderer = class {
               multiply: CalctexPlugin.INSTANCE.settings.multiplicationSymbol,
               decimalSeparator: CalctexPlugin.INSTANCE.settings.decimalSeparator,
               digitGroupSeparator: CalctexPlugin.INSTANCE.settings.groupSeparator,
-              fractionalDigits: isApproximation && CalctexPlugin.INSTANCE.settings.approxDecimalPrecision !== -1 ? CalctexPlugin.INSTANCE.settings.approxDecimalPrecision : "auto"
+              fractionalDigits: isApproximation && CalctexPlugin.INSTANCE.settings.approxDecimalPrecision !== -1 ? CalctexPlugin.INSTANCE.settings.approxDecimalPrecision : "max"
             };
             const formattedFormula = formula.replace("\\\\", "").replace("&", "");
-            let expression = calculationEngine.parse(formattedFormula);
+            let expressionSupJson = {};
             for (const previousLine of previousLatexLines) {
               try {
                 const formattedPreviousLine = previousLine.replace("\\\\", "").replace("&", "");
+                if (formattedPreviousLine.indexOf(":=") > -1) {
+                  calculationEngine.parse(formattedPreviousLine).evaluate();
+                  continue;
+                }
                 const lineExpression = calculationEngine.parse(formattedPreviousLine).simplify();
                 const lineExpressionParts = lineExpression.latex.split("=");
                 if (lineExpressionParts.length <= 1) continue;
-                const jsonValue = calculationEngine.parse(lineExpressionParts[lineExpressionParts.length - 1].trim()).json;
-                expression = expression.subs({
+                const jsonValue = calculationEngine.parse(
+                  lineExpressionParts[lineExpressionParts.length - 1].trim()
+                ).json;
+                expressionSupJson = Object.assign(expressionSupJson, {
                   [lineExpressionParts[0].trim()]: jsonValue
                 });
               } catch (e12) {
                 console.error(e12);
               }
             }
+            let expression = calculationEngine.parse(formattedFormula);
+            expression = expression.subs(expressionSupJson);
             let result = null;
             if (expression.isValid) {
               const evaluation = expression.evaluate();
-              result = (isApproximation ? evaluation.N() : evaluation).toLatex(latexOptions);
+              result = (isApproximation ? evaluation.N() : evaluation).toLatex(
+                latexOptions
+              );
             } else {
               expression.print();
               result = "\u26A1";
@@ -14287,7 +14309,9 @@ var CalctexSettingTab = class extends import_obsidian.PluginSettingTab {
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian.Setting(containerEl).setName("Decimal Separator").setDesc("The symbol used for defining where the decimal point is (e.g. , or .)").addText(
+    new import_obsidian.Setting(containerEl).setName("Decimal Separator").setDesc(
+      "The symbol used for defining where the decimal point is (e.g. , or .)"
+    ).addText(
       (text) => text.setPlaceholder("Type a symbol here").setValue(this.plugin.settings.decimalSeparator).onChange(async (value) => {
         this.plugin.settings.decimalSeparator = value;
         await this.plugin.saveSettings();

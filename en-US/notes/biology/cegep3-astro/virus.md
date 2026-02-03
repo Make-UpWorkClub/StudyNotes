@@ -19,4 +19,6 @@ Obligate parasite consisting of:
 	- Acquired from an intracellular membrane from the host
 	- Contains viral proteins and glycoproteins
 
-> [!info] Viruses don't metabolize so are not considered as [[life|alive]].
+[[Biosignature]]
+
+> [!info] Viruses don't metabolize so are not considered as alive.

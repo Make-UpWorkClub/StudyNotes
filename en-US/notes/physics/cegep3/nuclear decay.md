@@ -8,7 +8,7 @@ date: 2025-11-05T16:50:26
 # nuclear decay
 
 Process by which an unstable [[atomic nucleus|nucleus]] tries to achieve a more stable configuration by emitting radiation
-=> lower [[nuclear binding energy]]
+=> lower [[binding energy]]
 
 $$
 N(t) = N_0e^{-rt}

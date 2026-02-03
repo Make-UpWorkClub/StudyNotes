@@ -30,18 +30,19 @@ $$
 v = \frac{c}{n}
 $$
 
-Where $n$ is the **index of refraction** of the physical medium.
+- $c = 3.00 \cdot 10^8\pu{m/s}$: speed of light in vacuum
+-  $n$: **index of refraction** of the physical medium
 
 ## Polarization
 
-Property of an EMR that has the same direction of oscillation of the electric field
+Property of EMRs that have the same plane of oscillation of the electric field
 
 - Most natural light is unpolarized.
 - Polarizing filter absorbs all but the light polarized parallel to the polarizer axis.
-- The intensity of polarized EMR that passed through a polarizing filter is $$
+- The intensity of polarized EMR passed through a polarizing filter is $$
 I = I_0\cos^2\theta
 $$
-- The intensity of unpolarized EMR that passed through a polarizing filter is $$
+- The intensity of unpolarized EMR passed through a polarizing filter is $$
 I = \frac{1}{2}I_0
 $$
 

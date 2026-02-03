@@ -16,18 +16,75 @@ Kingdom of [[Eukarya]]
 
 ## Classification
 
+```mermaid
+graph RL
+
+A(Porifera) --> a
+B(Cnidaria) --> a
+C(Echinodermata) --> c
+D(Chordata) --> c
+E(Platyhelmintes) --> e
+F(Rotifera) --> e
+G(Mollusca) --> e
+H(Annelida) --> e
+I(Nematoda) --> f
+J(Arthropoda) --> f
+
+a(*Animalia*)
+b(*Bilateria*) --> a
+c(*Deuterostomia*) --> b
+d(*Protostomia*) --> b
+e(*Lophotrochozoa*) --> d
+f(*Ecdysozoa*) --> d
+```
+
 | Phylum         | Symmetry    | [[Tissue]]   | [[Coelom]] | Stomia       | C.D.S. |
 | -------------- | ----------- | ------------ | ---------- | ------------ | ------ |
-| Porifera       | No          | *No tissue*  | No         | No           | No     |
-| Cnidaria       | Rad.        | *Diploblast* | No         | No           | No     |
+| Porifera       | No          | *No tissue*  | -          | -            | -      |
+| Cnidaria       | Rad.        | *Diploblast* | -          | -            | No     |
 | Echinodermata  | Bi. -> Rad. | Triploblast  | Yes        | Deuterostome | Yes    |
-| Chordata       | Bi.         | Triploblast  | Yes        | Deuterostome | No     |
-| Platyhelmintes | Bi.         | Triploblast  | *No*       | Protostome   | No     |
+| Chordata       | Bi.         | Triploblast  | Yes        | Deuterostome | Yes    |
+| Platyhelmintes | Bi.         | Triploblast  | *No*       | Protostome   | *No*   |
 | Rotifera       | Bi.         | Triploblast  | *Pseudo*   | Protostome   | Yes    |
 | Mollusca       | Bi.         | Triploblast  | Yes        | Protostome   | Yes    |
 | Annelida       | Bi.         | Triploblast  | Yes        | Protostome   | Yes    |
 | Nematoda       | Bi.         | Triploblast  | *Pseudo*   | Protostome   | Yes    |
 | Arthropoda     | Bi.         | Triploblast  | Yes        | Protostome   | Yes    |
+
+### Clades
+
+#### Bilateria
+
+- Bilateral symmetry
+
+#### Deuterostomia
+
+Deuterostome
+
+- *Radial* and *indeterminate* eight-cell stage
+- Coelom formed from *folds of archenteron* 
+- Blastopore develops into *anus*
+
+#### Protostomia
+
+Protostome
+
+- *Spiral* and *determinate* eight-cell stage
+- Coelom formed from *split circular mesoderm*
+- Blastopore develops into *mouth*
+
+#### Lophotrochozoa
+
+  - Two stages:
+	  - **Trochophore**: larva
+	  - **Lophophore**: adult
+  - Ciliated
+
+#### Ecdysozoa
+
+- **Ecdysis**: growth by moulting (shedding) the cuticle or exoskeleton
+
+### Phyla
 
 #### Porifera
 
@@ -45,19 +102,15 @@ Sponge
 
 - *Heavyweight*
 - **Cnidocyte**: stinging cell
-	- **Nematocyst**
+	- **Nematocyst**: capsule containing the irritant
 - Two body types:
-	- **Polyp**: largely *stationary*, *upwards* tentacle
-	- **Medusa**: *floating*, *downwards* tentacle
+	- **Polyp**: largely *stationary*, *upwards* oral side (tentacles)
+	- **Medusa**: *floating*, *downwards* oral side (tentacles)
 - Members:
 	- Jellyfish: predominantly medusa
 	- Obelia: alternating between polyp and medusa
 	- Coral: polyp only
 	- Sea anemone: polyp only
-
-### Deuterostomia
-
-Deuterostome
 
 #### Echinodermata
 
@@ -70,13 +123,6 @@ Deuterostome
 #### Chordata
 
 Cordate
-
-### Lophotrochozoa
-
-  - Two stages:
-	  - **Trochophore**: larva
-	  - **Lophophore**: adult
-  - Ciliated
 
 #### Platyhelminthes
 
@@ -116,10 +162,6 @@ Segmented worm
 	- **Earthworm**: *soil*
 	- **Sandworm**: *marine*
 		- **Parapodia**: protrusions from the body for gas exchange
-
-### Ecdysozoa
-
-- **Ecdysis**: growth by moulting (shedding) the cuticle or exoskeleton
 
 #### Nematoda
 

@@ -12,7 +12,7 @@ date: 2025-09-10T14:16:21
 - 99.9% of total mass
 - Mostly gas
 
-## Terrestrial planets
+## Terrestrial [[planet|planets]]
 
 - *Solid*
 - Layers:
@@ -32,13 +32,11 @@ date: 2025-09-10T14:16:21
 - Thick atmosphere => very hot
 - May have had a ocean that evaporated due to runaway greenhouse effect
 
-> [!abstract] runaway greenhouse effect
-> Heat increases vapour concentration in atmosphere, which in turn traps more heat, finally leading to evaporation of oceans
+### Earth
 
 ### Mars
 
-- Ice cap; may have had water flow in the past
-- Thin atmosphere
+See Mars
 
 ## Asteroid belt
 

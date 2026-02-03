@@ -24,6 +24,7 @@ $$
 
 > $\vec{u} \cdot (\vec{v} \times \vec{w}) = -\vec{v} \cdot (\vec{u} \times \vec{w}) = -\vec{w} \cdot (\vec{v} \times \vec{u}) =\dots$
 
+> $A_1, A_2, A_3, A_4$ sont [[coplanarité|coplanaires]] $\implies \vec{A_1A_2} \cdot (\vec{A_1A_3} \times  \vec{A_1A_4}) = 0$
 > $\vec{v} \cdot (\vec{v} \times \vec{w}) = \vec{v} \cdot (\vec{w} \times \vec{v}) = \vec{w} \cdot (\vec{v} \times \vec{v}) = 0$
 
 ## Exemples

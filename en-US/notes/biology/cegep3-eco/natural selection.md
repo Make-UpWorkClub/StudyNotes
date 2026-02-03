@@ -8,6 +8,7 @@ date: 2025-08-28T16:43:24
 # natural selection
 
 Adaptation of organisms to the environment by competition
+Agent of [[microevolution]] and [[speciation]]
 `Ant.` artificial selection, e.g. breeding dogs
 
 Forces:
@@ -38,7 +39,7 @@ Trait evolves towards *one extreme*
 
 Trait evolves towards *both extremes*
 
-> [!example] Adaptive radiation
+> [!example] [[Adaptive radiation]]
 
 > [!example] Batesian mimicry
 > Mimicry where a harmless species mimics the warning signals of a toxic species
@@ -56,4 +57,4 @@ Trait evolves towards the *center*
 > => evolution of humans in malaria regions to be heterozygous
 > 
 > > [!abstract] Heterozygote advantage
-> > Genetic advantage of being heterozygous for a specific trait
+> > Genetic advantage of being [[zygosity#Homozygosity / heterozygosity|heterozygous]] for a specific trait

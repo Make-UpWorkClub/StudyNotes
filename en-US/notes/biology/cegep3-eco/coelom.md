@@ -7,6 +7,9 @@ date: 2025-10-07T16:31:58
 
 # coelom
 
+Body cavity
+Only applies to [[tissue#Triploblasty|triploblasts]]
+
 ## Acoelomate
 
 *Doesn't have* cavity

@@ -2,11 +2,19 @@
 tags:
   - phys/elec
   - sec/4
+  - cegep/4
 ---
 
 # Électricité
 
 Mouvement d'[[electron|électrons]]
+
+## Charging
+
+- Friction for insulators
+- Conduction
+	- Discharging
+- Induction
 
 ## Symboles
 

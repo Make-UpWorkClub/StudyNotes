@@ -23,10 +23,10 @@ Digestive tract
 
 ## By number
 
-### Diploblast
+### Diploblasty
 
-Has two tissues
+Has *two* germ layers (ectoderm and endoderm)
 
-### Triploblast
+### Triploblasty
 
-Has ectoderm, mesoderm and endoderm
+Has *three* germ layers (ectoderm, mesoderm and endoderm)

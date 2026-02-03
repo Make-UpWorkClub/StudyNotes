@@ -7,10 +7,6 @@ date: 2025-01-20T13:15:11
 
 # Buffer
 
-# 2025-02-03
-
-Percent composition: percentage of mass of an element in a compound
-
 # Halide
 
 Binary compound containing a halogen

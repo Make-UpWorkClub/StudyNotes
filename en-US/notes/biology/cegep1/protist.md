@@ -7,7 +7,7 @@ date: 2025-09-18T16:57:58
 
 # protist
 
-Polyphyletic group
+Polyphyletic group of [[Eukarya]]
 
 - Mostly unicellular and eukaryotic
 - Mostly monoploid
@@ -22,8 +22,8 @@ By metabolism
 #### Animal like
 
 - **Amoeba**: engulfs food by phagocytosis
-- **Paramecia**: has cilia and contractile vacuole
-- **Euglenozoan**: has flagella
+- **Paramecium**: has cilia and contractile vacuole
+- **Euglenozoan**: has flagella for locomotion
 
 #### Fungi like
 
@@ -33,7 +33,10 @@ By metabolism
 
 #### Plant like
 
-- **Diatom**: has fractal shapes
+- **Diatom**
+	- Has fractal shapes
+	- Produces most oxygen
+	- Slowly forms oil
 - **Dinoflagellate**
 - **Red algae**: used for food
 - **Green algae**

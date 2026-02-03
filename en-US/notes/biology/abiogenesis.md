@@ -35,9 +35,10 @@ Spontaneous formation of small organic molecules from inorganic molecules
 
 Origin of first cells
 
-- Spontaneous assembly of macromolecules from small organic molecules
-- Packaged into vesicles surrounded by [[membrane|phospholipid bilayer]]
-	- Maintains homeostasis
+- Formation:
+	- Spontaneous assembly of macromolecules from small organic molecules
+	- Packaging into vesicles surrounded by [[membrane|phospholipid bilayer]]
+		- Maintains homeostasis
 - Information: may have RNA
 - Metabolism: RNA because more catalytic than DNA, e.g. ribozymes
 - Reproduction: **binary fission**
@@ -47,7 +48,7 @@ Origin of first cells
 1. Anaerobic prokaryotic heterotroph feeding on prebiotic soup
 2. Prokaryotic autotroph using photosynthesis and producing O2
 3. Aerobic prokaryotic heterotroph capable of cellular respiration
-4. Eukaryotic heterotroph (endosymbiosis with mitochondria)
+4. Eukaryotic heterotroph (endosymbiosis with mitochondrion)
 5. Eukaryotic autotroph (endosymbiosis with chloroplast)
 
 ## oxygen revolution

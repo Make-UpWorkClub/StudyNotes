@@ -30,9 +30,9 @@ date: 2025-09-18T16:30:08
 - **Gram staining**
 	- Positive:
 		- *Purple* stain
-		- Plasma membrane < *thick* cell wall
+		- Plasma membrane < *thick* peptidoglycan layer
 		- Penicillin *sensitive*
 	- Negative:
 		- *Pink* stain
-		- Plasma membrane < *thin* cell wall < outer membrane
+		- Plasma membrane < *thin* peptidoglycan layer < outer membrane
 		- Penicillin *resistant*

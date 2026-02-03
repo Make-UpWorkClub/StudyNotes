@@ -17,6 +17,9 @@ $$
 - $\sigma = 5.67 \cdot 10^{-8}\pu{W/m^2K^4}$: **Stefan-Boltzmann constant**
 - $A$: surface area of material
 
+> [!abstract] albedo
+> Fraction of energy reflected by the surface of a material
+
 ## Blackbody radiation
 
 EM emission of a blackbody (an object with an emissivity of 1)

@@ -11,14 +11,18 @@ Passing light through slits to observe the effect of [[diffraction]] and [[inter
 
 ## Single slit
 
-Pattern: wide **central maximum** with progressively narrower maxima
+Pattern: wide **central maximum** with progressively larger minima and narrower maxima
 
 $$
 \begin{align}
 a\sin\theta_\text{dark} & = m\lambda \\
-y & = L\tan\theta \approx L\sin\theta \text{ (S.A.A.)}
+y_\text{dark} & = \frac{m\lambda L}{a}\text{ (S.A.A.)} \\
+m & = \pm 1, \pm 2, \dots
 \end{align}
 $$
+
+> [!info] small angle approximation
+> For angle $\theta$ up to 0.2 rad or 10° $\sin\theta \approx \tan\theta \approx \theta \text{ (rad)}$.
 
 > [!info] For a single obstacle, the diffraction pattern is the same as for a single slit.
 
@@ -28,13 +32,24 @@ Pattern: like single slit but with fringes
 
 $$
 \begin{align}
-d\sin\theta & = m\lambda
+d\sin\theta_\text{bright} & = m\lambda \\
+d\sin\theta_\text{dark} & = \left( m + \frac{1}{2} \right)\lambda \\
+y_\text{bright} & = \frac{m\lambda L}{d}\text{ (S.A.A.)} \\
+y_\text{dark} & = \frac{\left( m + \frac{1}{2} \right)\lambda L}{d}\text{ (S.A.A.)} \\
+m & = 0, \pm 1, \pm 2, ..
 \end{align}
 $$
 
 ## Slit grating
 
-Patterns: many **principal maxima** with many smaller maxima in-between 
+Patterns: **principal maxima** with many smaller maxima in-between 
+
+$$
+\begin{align}
+d\sin\theta_\text{bright} & = m\lambda \\
+m & = 0, \pm 1, \pm 2, \dots
+\end{align}
+$$
 
 ## Examples
 

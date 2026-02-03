@@ -7,5 +7,5 @@ date: 2025-05-01T11:20:02
 
 # Dipole-Dipole Force
 
-Attraction of two dipoles
+Attraction of two [[dipole|dipoles]]
 [[Intermolecular force]]

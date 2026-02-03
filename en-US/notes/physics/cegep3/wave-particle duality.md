@@ -12,6 +12,11 @@ Property of [[wave|waves]] and [[particle|particles]] exhibiting the properties 
 - Particle-like when emitted / absorbed
 - Wave-like interference when travelling
 
+> [!abstract]+ wave packet
+> Representation of particles as localized superposition of many waves of different frequencies
+> 
+> ![[wave packet.png|500]]
+
 > [!abstract]+ Heisenberg's uncertainty principle
 > 
 > The product of the uncertainties of position and momentum have a minimum value. 

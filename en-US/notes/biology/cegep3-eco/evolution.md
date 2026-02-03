@@ -7,7 +7,7 @@ date: 2025-08-26T16:33:20
 
 # evolution
 
-Changes in the gene pool and adaptations of a population over time
+Changes in the gene pool and adaptations of a [[population]] over time
 
 - Not instantaneous, but slow incremental changes accumulating over time
 - Not goal oriented but adaptive

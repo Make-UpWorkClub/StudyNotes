@@ -43,6 +43,7 @@ Agents:
 	- Temporal isolation
 		- `E.g.` different mating seasons
 	- Behavioral isolation
+		- `E.g.` different mating signals
 	- Mechanical isolation
 		- `E.g.` incompatible mating organs
 		- `E.g.` flowers: different animal pollinators

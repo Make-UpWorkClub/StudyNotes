@@ -8,6 +8,7 @@ date: 2025-03-27T10:39:33
 
 # Electron
 
+Negative [[electric charge|charge]]
 Exhibits [[wave-particle duality]]
 
 > [!abstract]+ electronvolt

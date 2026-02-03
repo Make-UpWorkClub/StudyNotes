@@ -9,8 +9,12 @@ date: 2025-09-25T17:18:14
 
 Kingdom of [[Eukarya]]
 
-- Heterotroph
+- Heterotroph: decomposers, mutualistic and parasitic symbionts, pathogens
 - Haploid
 - Mostly multicellular
+- Asexual or sexual reproduction
 - Cell wall made of [[polysaccharide#Chitin|chitin]]
-- Large portion is underground
+- **Hypha** (`pl.` hyphae): tissue for food digestion
+- **Mycelium**: network of hyphae
+	- Large portion is underground
+- Mushroom: reproductive organ containing spores

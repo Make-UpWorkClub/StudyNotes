@@ -4,6 +4,6 @@ tags:
   - sec/4
 ---
 
-# [[Électricité]] statique
+# [[électricité]] statique
 
 Électrons immobiles

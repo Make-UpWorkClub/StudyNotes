@@ -27,12 +27,22 @@ Characteristics:
 
 ## Criteria
 
-- Habitable zone
-- Adequate temperature
+- **Habitable zone**: zone around the star with adequate temperature
+	- $$
+	  \begin{align}
+	  d_\text{inner,opt} & = \sqrt{\frac{L_*}{1.776L_{\circ}}} \\
+	  d_\text{outer,opt} & = \sqrt{\frac{L_*}{0.320L_{\circ}}}
+	  \end{align}
+	  $$
 	- Eccentricity of planet not too high
 	- Greenhouse gas effect
 	- <= liquid water
 	- <= fluid membrane
+- $M_* \nless 0.29M_\odot$
+	- <= HZ very close to the star
+	- <= tidal locking
+- $M_* \ngtr 5M_\odot$
+	- <= star burns out too quickly
 - Adequate pH
 - Essential elements:
 	- Carbon
@@ -56,7 +66,7 @@ Characteristics:
 		- Advantage ==in low-temperature environments==
 	- Disadvantage: ==spontaneous reaction with oxygen== to form the very stable silicate
 		- Si-O stronger than C-O bonds
-- Should have a similar set of proteinogenic [[amino acid|amino acids]] to cover a wide range of properties
+		- Possible use of silicate by organisms
 - Ammonia as solvent
 	- Abundant
 	- Disadvantage: smaller liquid range
@@ -66,5 +76,6 @@ Characteristics:
 	- Disadvantage: smaller liquid range
 	- Disadvantage: non-polar
 		- **Azotosome**: theoretical nitrogen-based inside-out membrane that form in methane
+- Should have a similar set of proteinogenic [[amino acid|amino acids]] to cover a wide range of properties
 - May have similar adaptations to Archaea
 - Probably not wheeled

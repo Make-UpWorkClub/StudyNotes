@@ -17,8 +17,10 @@ date: 2025-09-10T14:50:09
 
 ## Cooling
 
-**Convection**: hot materials rise and cold materials lower
+- **Convection**: hot materials rise and cold materials lower
 
 ## Heating
 
-**Tidal heating**: planets are stretched and squished => volcanic activities
+- **Tidal heating**: planets are stretched and squished => volcanic activities
+- Greenhouse effect
+	- **Runaway greenhouse effect**: heat increases vapour concentration in atmosphere, which in turn traps more heat, finally leading to evaporation of oceans

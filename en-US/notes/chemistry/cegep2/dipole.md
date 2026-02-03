@@ -7,7 +7,7 @@ date: 2025-04-17T10:22:26
 
 # Dipole
 
-Separation of positive and negative charges in a system
+Separation of positive and negative [[electric charge|charges]] in a system
 
 > [!abstract] Dipole moment
 > In *chemistry*: vector pointing from the *positive* charge to the *negative* charge

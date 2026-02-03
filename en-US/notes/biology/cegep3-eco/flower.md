@@ -7,6 +7,8 @@ date: 2025-11-20T15:01:05
 
 # flower
 
+Reproductive organ of [[Plantae|angiosperms]]
+
 [[phylogenetics|Characters]]:
 
 - Clear distinction between sepal and petal

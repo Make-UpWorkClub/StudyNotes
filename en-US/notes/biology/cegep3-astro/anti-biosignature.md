@@ -13,4 +13,4 @@ Evidence of absence of [[life]]
 	- Simultaneous presence of hydrogen and carbon dioxide
 		- <= redox couple for methanogenesis
 	- High level of carbon monoxide
-		- <= Readily used by microorganisms
+		- <= readily used by microorganisms
