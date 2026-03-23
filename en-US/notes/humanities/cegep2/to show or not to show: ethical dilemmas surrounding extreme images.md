@@ -5,7 +5,7 @@ tags:
 date: 2025-02-28T10:34:54
 ---
 
-%% [[Contemporary Issues in the Media]] %%
+%% [[contemporary issues in the media]] %%
 
 # To Show or Not to Show: Ethical Dilemmas Surrounding Extreme Images
 

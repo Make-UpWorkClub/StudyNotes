@@ -5,7 +5,7 @@ tags:
 date: 2025-02-28T11:10:49
 ---
 
-%% [[Contemporary Issues in the Media]] %%
+%% [[contemporary issues in the media]] %%
 
 # New Forms of Censorship: Challenges of Fake News and News Overload
 

@@ -42,6 +42,7 @@
   "isLeftHanded": false,
   "desktopUIMode": "tray",
   "tabletUIMode": "compact",
+  "phoneUIMode": "mobile",
   "iframeMatchExcalidrawTheme": true,
   "matchTheme": false,
   "matchThemeAlways": false,
@@ -112,7 +113,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.19.2",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.5",
     "libraryItems": []
   },
   "imageElementNotice": true,
@@ -123,7 +124,7 @@
   "mdBorderColor": "Black",
   "mdCSS": "",
   "scriptEngineSettings": {},
-  "previousRelease": "2.20.0",
+  "previousRelease": "2.21.2",
   "showReleaseNotes": true,
   "compareManifestToPluginVersion": true,
   "showNewVersionNotification": false,

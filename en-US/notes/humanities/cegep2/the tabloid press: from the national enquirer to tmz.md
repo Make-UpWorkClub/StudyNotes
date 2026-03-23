@@ -5,7 +5,7 @@ tags:
 date: 2025-05-12T17:34:17
 ---
 
-%% [[Contemporary Issues in the Media]] %%
+%% [[contemporary issues in the media]] %%
 
 # The Tabloid Press: From The National Enquirer to TMZ
 

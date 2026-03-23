@@ -7,7 +7,7 @@ date: 2025-02-19T13:46:00
 
 # Acid-Base Reaction
 
-Aqueous [[reaction]] from [[acid]] and base to salt and water
+Aqueous [[reaction]] from [[acid]] and [[en-US/notes/chemistry/cegep4/base|base]] to salt and water
 
 $$
 \begin{align}

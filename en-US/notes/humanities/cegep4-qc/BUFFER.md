@@ -10,7 +10,7 @@ date: 2026-01-19T08:22:03
 # 2026-01-21
 
 - 1608 : colonie française (Nouvelle France)
-- Mercantilisme : envoi de la richesse au pays patri
+	- Mercantilisme : envoi de la richesse au pays patri
 - 1759 : conquête britannique
 - 1763 : Traité de Paris
 	- Serment du test : affirmation de loyauté au roi

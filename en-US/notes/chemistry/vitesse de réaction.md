@@ -2,6 +2,7 @@
 tags:
   - chem/reaction
   - sec/5
+  - cegep/4
 date: 2024-02-29 08:32
 ---
 
@@ -11,7 +12,7 @@ Influencée par :
 
 - Nature
 	- Énergie d’activation (liens à briser)
-	- Angle
+	- Angle de collision
 	- Phase (solide < liquide < gazeux < aqueux)
 - Température
 - Concentration (gazeux et aqueux seulement)
@@ -35,14 +36,14 @@ Influencée par :
 $$
 \begin{align}
 v &= k[A]^m[B]^n\dots \\
-\text{où v}&\text{ est la vitesse de réaction en }\frac{mol}{L \cdot s} \\
-k&\text{ est la constante de vitesse de réaction} \\
-[A], [B]\dots&\text{ sont la concentration des réactifs en }\frac{mol}{L} \\
-m, n\dots&\text{ sont l’ordre de réaction des réactifs}
 \end{align}
 $$
 
-$k$ est influencé par la température et la nature.
+- $v$: vitesse de réaction en $\frac{mol}{L \cdot s}$
+- $k$: constante de vitesse de réaction
+	- Influencé par la température et la nature
+- $[A], [B]\dots$: concentration des réactifs en $\frac{mol}{L}$
+- $m, n\dots$: l’ordre de réaction des réactifs
 
 Unité de $k$ varie selon l’ordre global de la réaction :
 

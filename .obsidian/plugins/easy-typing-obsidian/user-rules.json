@@ -1,0 +1,69 @@
+[
+  {
+    "trigger": "(!example|important|warning|abstract|tip|info|note) ",
+    "replacement": "> [[[1]]]$0",
+    "options": "rt",
+    "priority": 100,
+    "description": "Callout",
+    "enabled": true,
+    "id": "user-1773942843215-01vj"
+  },
+  {
+    "trigger": "(\\d)(st|nd|rd|th|er|re|e)",
+    "replacement": "[[1]]<sup>[[2]]</sup>$0",
+    "options": "rt",
+    "priority": 100,
+    "description": "Ordinal superscript",
+    "enabled": true,
+    "id": "user-1773942481358-vwd6"
+  },
+  {
+    "trigger": "***",
+    "replacement": "**$0**",
+    "options": "t",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1773943564136-n5qr"
+  },
+  {
+    "trigger": "==",
+    "replacement": "==$0==",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1773941970560-c0fl"
+  },
+  {
+    "trigger": "~~",
+    "replacement": "~~$0~~",
+    "options": "t",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1773943324172-qydp"
+  },
+  {
+    "trigger": "%%",
+    "replacement": "%%$0%%",
+    "options": "t",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1773943753075-rotk"
+  },
+  {
+    "trigger": "~~",
+    "trigger_right": "~~",
+    "replacement": "",
+    "options": "d",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1773943363228-2n3v"
+  },
+  {
+    "trigger": "%%",
+    "trigger_right": "%%",
+    "replacement": "",
+    "options": "dt",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1773943820939-5rq2"
+  }
+]

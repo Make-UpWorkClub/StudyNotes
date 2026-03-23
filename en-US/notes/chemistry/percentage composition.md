@@ -13,6 +13,6 @@ Percentage of an element in a compound
 Units:
 
 - Molarity: $M = \frac{\pu{mol}\text{ solute}}{\pu{L}\text{ solution}}$
-- Molality: $m = \frac{\pu{mol}\text{ solute}}{\pu{kg}\text{ solution}}$
+- Molality: $m = \frac{\pu{mol}\text{ solute}}{\pu{kg}\text{ solvent}}$
 - Mass percent: $\mathrm{mass}\% = \frac{\text{mass solute}}{\text{mass solution}}$
 - Mole fraction: $\chi_A = \frac{n_A}{n_A + n_B}$

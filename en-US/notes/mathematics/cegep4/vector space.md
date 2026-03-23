@@ -18,8 +18,8 @@ $V$ is a real vector space if and only if the following axioms are satisfied for
 	- $u + v \in V$
 	- Commutativity: $u + v = v + u$
 	- Associativity: $u + (v + w) = (u + v) + w$
-	- $\exists o \in V \implies o + u = u + o = u$
-	- $\exists -u \implies u + (-u) = 0$
+	- $\exists 0 \in V\text{ s.t. }0 + u = u + 0 = u$
+	- $\exists -u \in V\text{ s.t. }u + (-u) = 0$
 - Axioms of scalar multiplication:
 	- $au \in V$
 	- Scalar distributivity: $(a + b)u = au + bu$
@@ -28,9 +28,6 @@ $V$ is a real vector space if and only if the following axioms are satisfied for
 	- $1u = u$
 
 > [!info] The smallest vector space is $\{ \vec{0} \}$.
-
-> [!abstract] basis
-> Linearly independent subset of a vector space that spans the vector space
 
 ## Examples
 

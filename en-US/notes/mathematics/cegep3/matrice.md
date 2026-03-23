@@ -18,6 +18,15 @@ a_{m_1} & a_{m_2} & \dots & a_{mn}
 \end{bmatrix}
 $$
 
+The [[linear transformation]] corresponding to a matrix $A_{n \times m}$ is
+
+$$
+\begin{align}
+T: &\quad \mathbb{R}^m \to \mathbb{R}^n \\
+T(\vec{v}) & = A_{n \times m}\vec{v}_{m \times 1}
+\end{align}
+$$
+
 ## Parties
 
 Diagonale principale :
@@ -60,9 +69,6 @@ Matrice dont :
 
 > [!abstract] pivot
 > Premier coefficient non-nul d'une ligne
-
-> [!abstract] rang
-> Nombre de pivots de la forme échelonnée
 
 > [!example]-
 > $$

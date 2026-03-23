@@ -36,7 +36,7 @@ $\det(A_{n \times n})$ est l'[[expansion en cofacteurs]] de n'importe quelle lig
 ## Propriétés
 
 > $$
-> A^{-1} \exists \iff \det A \ne 0
+> \exists A^{-1} \iff \det A \ne 0
 > $$
 
 > $$

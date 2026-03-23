@@ -7,17 +7,23 @@ date: 2026-01-21T16:30:47
 
 # Buffer
 
-# Differential Rate Law
-
-Rate depending on concentration
+# reaction rate
 
 $$
-Rt = k\prod_{ i \in \text{Reactants} }[i]n^i
+\mathrm{Rate} = \frac{\Delta[\text{Solute}]}{\Delta t}
+$$
+
+# Differential Rate Law
+
+Reaction rate depending on concentration of reactants
+
+$$
+Rt = k\prod_{ i \in \text{Reactants} }[i]^{n_i}
 $$
 
 # Integrated Rate Law
 
-Concentration depending on time
+Concentration of reactant in a reaction depending on time
 
 0<sup>th</sup> order:
 
@@ -69,3 +75,19 @@ $$
 \ln k & = -\frac{E_a}{RT} + \ln A
 \end{align}
 $$
+
+# reaction quotient
+
+$$
+\begin{align}
+Q = \frac{\prod_{ i \ \in \text{ products} }[i]^{n_i}}{\prod_{ i \in \text{ reactants} }[i]^{n_i} }
+\end{align}
+$$
+
+1. $Q = K$ -> reaction in equilibrium
+2. $Q < K$ -> forward reaction
+3. $Q > K$ -> reverse reaction
+
+# 2026-02-18
+
+- Midterm on ch.11, 12, 13, 18

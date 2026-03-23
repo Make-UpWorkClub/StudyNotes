@@ -391,6 +391,104 @@
         "scale": 0.57391498788074,
         "close": false
       }
+    },
+    {
+      "type": "graph",
+      "ctime": 1770742713760,
+      "title": "cegep/4",
+      "options": {
+        "collapse-filter": false,
+        "search": "-file:.canvas -file:BUFFER tag:#cegep/4",
+        "showTags": false,
+        "showAttachments": false,
+        "hideUnresolved": true,
+        "showOrphans": true,
+        "collapse-color-groups": true,
+        "colorGroups": [
+          {
+            "query": "tag:#fr",
+            "color": {
+              "a": 1,
+              "rgb": 6726655
+            }
+          },
+          {
+            "query": "tag:#en",
+            "color": {
+              "a": 1,
+              "rgb": 16662126
+            }
+          },
+          {
+            "query": "tag:#mat",
+            "color": {
+              "a": 1,
+              "rgb": 6449150
+            }
+          },
+          {
+            "query": "tag:#chem",
+            "color": {
+              "a": 1,
+              "rgb": 16540414
+            }
+          },
+          {
+            "query": "tag:#hum",
+            "color": {
+              "a": 1,
+              "rgb": 15442468
+            }
+          },
+          {
+            "query": "tag:#phys",
+            "color": {
+              "a": 1,
+              "rgb": 16675213
+            }
+          },
+          {
+            "query": "tag:#bio",
+            "color": {
+              "a": 1,
+              "rgb": 6941016
+            }
+          },
+          {
+            "query": "tag:#CCQ",
+            "color": {
+              "a": 1,
+              "rgb": 15442468
+            }
+          },
+          {
+            "query": "tag:#PE",
+            "color": {
+              "a": 1,
+              "rgb": 16728878
+            }
+          },
+          {
+            "query": "tag:#fin",
+            "color": {
+              "a": 1,
+              "rgb": 16774912
+            }
+          }
+        ],
+        "collapse-display": true,
+        "showArrow": true,
+        "textFadeMultiplier": -0.5,
+        "nodeSizeMultiplier": 1.64344029244517,
+        "lineSizeMultiplier": 3.99779952422145,
+        "collapse-forces": true,
+        "centerStrength": 0.5,
+        "repelStrength": 7.99524221453287,
+        "linkStrength": 1,
+        "linkDistance": 100,
+        "scale": 1.0659629968614062,
+        "close": false
+      }
     }
   ]
 }

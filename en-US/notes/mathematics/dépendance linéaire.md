@@ -2,6 +2,7 @@
 tags:
   - mat/algebra
   - cegep/3
+  - cegep/4
 date: 2025-11-14T11:52:03
 ---
 
@@ -64,6 +65,25 @@ $$
 \therefore \det E & \ne 0
 \end{align}
 $$
+
+$\square$
+
+> $S = \{ \vec{v}_{1}, \dots, \vec{v}_m \} \in \mathbb{R}^n, m > n$ is linearly dependent.
+
+Let $S = \{ \vec{v}_{1}, \dots, \vec{v}_m \} \in \mathbb{R}^n$.
+Assume $S$ is linearly independent.
+
+$$
+\begin{align}
+\mathrm{dim}(\mathrm{span}(S)) & = m \\
+ \\
+\mathrm{span}(S) & \le \mathbb{R}^n \\
+\implies \mathrm{dim}(\mathrm{span}(S)) & \le \mathrm{dim}(\mathbb{R}^n) \\
+m & \le n
+\end{align}
+$$
+
+Therefore, if $m > n$, $S$ is linearly dependent.
 
 $\square$
 

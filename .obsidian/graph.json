@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "-file:.canvas -file:BUFFER tag:#cegep/3",
+  "search": "-file:.canvas -file:BUFFER tag:#cegep/4",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -88,6 +88,6 @@
   "repelStrength": 7.99524221453287,
   "linkStrength": 1,
   "linkDistance": 100,
-  "scale": 0.57391498788074,
-  "close": false
+  "scale": 0.49101380568141867,
+  "close": true
 }

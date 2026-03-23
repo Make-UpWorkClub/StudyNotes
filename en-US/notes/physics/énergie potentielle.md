@@ -28,7 +28,7 @@ $$
 
 > [!attention] "Énergie potentielle" = Énergie potentielle (catégorie) *ou* énergie potentielle gravitationnelle
 
-#### Élastique
+### Élastique
 
 Énergie potentielle d'un ressort
 `Sym.` $U_r$

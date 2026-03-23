@@ -7,7 +7,7 @@ date: 2024-09-16T11:17:54
 
 # Enzyme
 
-Biological catalyst
+Biological [[catalysis|catalyst]]
 Protein or RNA
 
 Hyper-specialized, unlike inorganic catalysts

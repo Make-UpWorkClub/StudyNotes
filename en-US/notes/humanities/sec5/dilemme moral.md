@@ -13,7 +13,7 @@ Le choix est influencé par:
 
 - les valeurs
 - [[stades de développement moral Kohlberg|la stade de développement moral de Kohlberg]]
-- [[visées éthiques|les visées éthiques]] (utilitarisme, universalisme, des vertus)
+- [[visée éthique|les visées éthiques]] (utilitarisme, universalisme, des vertus)
 
 Le processus:
 

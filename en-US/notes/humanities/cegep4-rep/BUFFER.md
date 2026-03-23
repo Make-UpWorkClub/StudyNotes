@@ -11,24 +11,41 @@ date: 2026-01-21T13:16:09
 	- Dynamics of dialogue
 	- Media
 
-# 2026-01-26
+# obesity
 
-# ethical relativism
+Abnormal or excessive fat accumulation that creates health risk
 
-Ethics as social construct
+Causes:
 
-- Morality directly determined by mores
-- Legitimized by mass belief
-- Evolves with mores
-- No objective basis to evaluate a moral system
+- Genetic
+- Medical
 
-> [!abstract] mores
-> Cultural norms widely accepted by a society
-> Usually impossible to criticize
-> Evolves when questioned and challenged
+# indigenous representation
 
-# cultural relativism
+- Mainstream media only reports on indigenous communities when something bad happens
+- Low trust by indigenous communities
+- Cultural appropriation
+- Solution: talk to indigenous people
 
-Culture as social construct
+# cancel culture
 
-- Culture is relative, but ethics is universal
+- Loss of benefits, like platform or position, due to controversial opinions
+- Left tendency: hold people accountable
+- Right tendency: attack on free speech
+- Problems:
+	- Term overly used for any criticism and attempt to hold accountable
+	- Used by the right to exaggerate left censorship and distract from their own censorship
+- Rationalism:
+	- Freedom of speech, freedom of association
+- Utilitarianism:
+	- Accountability may lead to social healing
+	- Unproductivity of arguing online may lead to social breakdown
+- Virtue Ethics:
+	- Forgiveness vs justice
+
+> [!info]+ Responses to criticism
+> - Excuse: *admits* wrongdoing but *denies* responsibility
+> - Justification: *denies* wrongdoing but *takes* responsibility
+> - Denial: *denies* wrongdoing and *denies* responsibility
+> - Apology: *admits* wrongdoing and *takes* responsibility
+> 	- Morally valuable if sincere

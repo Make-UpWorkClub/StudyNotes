@@ -5,7 +5,7 @@ tags:
 date: 2025-02-28T10:32:50
 ---
 
-%% [[Contemporary Issues in the Media]] %%
+%% [[contemporary issues in the media]] %%
 
 # Identifying Key Terminology Related to the Media
 

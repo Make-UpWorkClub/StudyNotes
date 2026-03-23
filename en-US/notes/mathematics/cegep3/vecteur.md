@@ -31,6 +31,7 @@ où $v_1, v_2, v_3,\dots v_n \in \mathbb{R}$
 $n$ est la **dimension** de $\vec{v}$.
 
 > [!abstract]+ vecteur nul
+> Vecteur dont la somme avec un vecteur quelconque donne ce vecteur même
 > Le vecteur nul dans $\mathbb{R}^n$ est
 > 
 > $$

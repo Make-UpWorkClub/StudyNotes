@@ -21,3 +21,5 @@ date: 2026-01-20T11:43:39
 > Material that *doesn't allow* flow of electrons
 > Valence electrons are *tightly bound* and *cannot move around*.
 > => charge on an insulator stays *immobile*.
+
+^c39ea4

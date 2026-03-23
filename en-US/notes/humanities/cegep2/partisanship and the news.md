@@ -5,7 +5,7 @@ tags:
 date: 2025-02-28T10:35:35
 ---
 
-%% [[Contemporary Issues in the Media]] %%
+%% [[contemporary issues in the media]] %%
 
 # Partisanship and the News
 

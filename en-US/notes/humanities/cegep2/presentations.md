@@ -5,7 +5,7 @@ tags:
 date: 2025-05-06T10:40:20
 ---
 
-%% [[Contemporary Issues in the Media]] %%
+%% [[contemporary issues in the media]] %%
 
 # Presentations
 

@@ -5,7 +5,7 @@ tags:
 date: 2025-05-12T18:44:17
 ---
 
-%% [[Contemporary Issues in the Media]] %%
+%% [[contemporary issues in the media]] %%
 
 # What does the splintering of our news sources mean?
 

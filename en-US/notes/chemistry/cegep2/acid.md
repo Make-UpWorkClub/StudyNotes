@@ -1,15 +1,31 @@
 ---
 tags:
-  - chem
+  - chem/solution
   - cegep/2
+  - cegep/4
 date: 2025-03-10T10:05:20
 ---
 
 # Acid
 
-Proton donor
+Proton *donor*
+`Ant.` [[en-US/notes/chemistry/cegep4/base|base]]
 
 > [!important] Can be covalent
+
+> [!abstract] conjugate acid
+> Base that accepts proton to become acid
+
+## Strength
+
+**Strong** acid: acid that *fully* dissociates
+**Weak** acid: acid that *partially* dissociates
+
+Strong acids:
+
+- Nitric acid $\ce{HNO_3}$
+
+> [!important] Stronger acid = weaker conjugate base
 
 ## Types
 
