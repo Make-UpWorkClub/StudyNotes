@@ -11,7 +11,6 @@ Ability of a conductor to resist [[electric current]]
 
 $$
 \begin{align}
-R & = \\
 RA & = \rho L
 \end{align}
 $$

@@ -7,7 +7,7 @@ date: 2026-01-27T10:39:39
 
 # electric field
 
-[[field|Vector field]] of [[electric force]] per charge around a source charge
+[[field|Vector field]] of [[electric force]] per [[electric charge|charge]] around a source charge
 
 $$
 \begin{align}

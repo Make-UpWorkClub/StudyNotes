@@ -11,6 +11,7 @@ Types :
 
 - Analyse littéraire
 - Dissertation explicative
+- Dissertation comparative
 - Dissertation critique
 
 ## Étapes

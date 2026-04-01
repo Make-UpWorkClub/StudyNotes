@@ -7,7 +7,9 @@ date: 2026-02-20T16:54:56
 
 # base
 
-Proton *acceptor*
+Arrhenius: hydroxide producer
+Bronsted-Lowry: proton *acceptor*
+Lewis: electron-pair *donor*
 `Ant.` [[acid]]
 
 > [!abstract] conjugate base

@@ -65,5 +65,13 @@
     "priority": 100,
     "enabled": true,
     "id": "user-1773943820939-5rq2"
+  },
+  {
+    "trigger": "\\n?> ",
+    "replacement": "",
+    "options": "drt",
+    "priority": 100,
+    "enabled": true,
+    "id": "user-1774624288568-vesi"
   }
 ]

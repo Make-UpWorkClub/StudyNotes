@@ -7,31 +7,31 @@ date: 2026-03-13T11:08:25
 
 # circuit
 
-Closed path in which electric currents flow
+Closed path in which [[électricité|electricity]] flows
 
-## Junction
+> [!abstract] short circuit
+> Bypass of certain circuit branches due to zero resistance path
+
+|     |                           Série                           |                      Parallèle                      |
+|:---:|:---------------------------------------------------------:|:---------------------------------------------------:|
+|  R  |                $R_{eq} = R_1 + R_2 + ...$                 | $R_{eq} = \cfrac1{\frac1{R_1} + \frac1{R_2} + ...}$ |
+|  C  | $C_{eq} = \frac{1}{\frac{1}{C_1} + \frac{1}{C_2} +\dots}$ |             $C_{eq} = C_1 + C_2 +\dots$             |
+|  U  |                  $U_T = U_1 + U_2 + ...$                  |               $U_T = U_1 = U_2 = ...$               |
+|  I  |                  $I_T = I_1 = I_2 = ...$                  |               $I_T = I_1 + I_2 + ...$               |
+
+## Parts
+
+### Junction
 
 Point where the number of available paths changes
 
-Kirchhoff: current is conserved
-
-$$
-\sum I_\text{in} = \sum I_\text{out}
-$$
-
-## Branch
+### Branch
 
 Segment between two junctions
 
-## Loop
+### Loop
 
 Closed path around the circuit
-
-Kirchhoff: potential difference around the loop is zero
-
-$$
-\sum \Delta V = 0
-$$
 
 ## Examples
 

@@ -8,7 +8,9 @@ date: 2025-03-10T10:05:20
 
 # Acid
 
-Proton *donor*
+Arrhenius: proton producer
+Bronsted-Lowry: proton *donor*
+Lewis: electron-pair *acceptor*
 `Ant.` [[en-US/notes/chemistry/cegep4/base|base]]
 
 > [!important] Can be covalent

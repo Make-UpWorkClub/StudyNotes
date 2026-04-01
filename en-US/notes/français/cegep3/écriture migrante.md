@@ -24,9 +24,9 @@ Auteurs :
 
 ## Contexte
 
-Migrations importantes à partir de 1980
-Le Canada choisit le multiculturalisme, qui permet la coexistence des cultures.
-Le Québec reproche au multiculturalisme de créer des ghettos. Il choisit l'interculturalisme, qui favorise la cohabitation et la compréhension des différences culturelles. Il emploie des politique comme la francisation et la laïcisation.
+- Migrations importantes à partir de 1980
+- Le Canada choisit le multiculturalisme, qui permet la coexistence des cultures.
+- Le Québec reproche au multiculturalisme de créer des ghettos. Il choisit l'interculturalisme, qui favorise la cohabitation et la compréhension des différences culturelles. Il emploie des politique comme la francisation et la laïcisation.
 
 ## Types
 

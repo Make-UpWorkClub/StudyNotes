@@ -49,3 +49,21 @@ Causes:
 > - Denial: *denies* wrongdoing and *denies* responsibility
 > - Apology: *admits* wrongdoing and *takes* responsibility
 > 	- Morally valuable if sincere
+
+# free speech
+
+- Islam on free speech:
+	- Responsibility restricts and dictates personal freedom
+	- One should only speak, and *must* speak, when they have the knowledge of the topic, and the speech leads to public good.
+- Charlie Hebdo
+	- French magazine that promotes laicism and derogatively attacks religions including Islam
+	- 2015: terrorist attack at Charlie Hebdo by two Muslims, march for free speech
+		- => islamophobia
+		- => Charlie Hebdo promoted as defender of free speech
+
+# Internet regulation
+
+- Golden Shield
+	- `Aka.` Great Firewall of China
+	- Censorship and surveillance program in China
+	- Causes self-censorship

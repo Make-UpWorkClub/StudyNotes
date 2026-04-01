@@ -52,6 +52,7 @@ Une matrice est :
 - **Triangulaire supérieure** si les coefficients *inférieurs* sont nuls.
 - **Triangulaire inférieure** si les coefficients *supérieurs* sont nuls.
 - **Diagonale** si les coefficients *supérieurs et inférieurs* sont nuls.
+- **Diagonalizable** if $\exists P_{n \times n}$ invertible such that $A = PDP^{-1}$ where $D_{n \times n}$ is diagonal.
 
 ## Formes
 

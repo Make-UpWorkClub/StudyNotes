@@ -9,6 +9,7 @@ date: 2026-03-13T10:59:53
 
 Maximum voltage of a [[battery]]
 `Abbr.` emf
+`Sym.` $\epsilon$
 
 Ideal battery:
 
