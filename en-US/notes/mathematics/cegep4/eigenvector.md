@@ -27,6 +27,8 @@ $$
 \end{align}
 $$
 
+#TODO
+
 > If $A$ is triangular or diagonal,
 > Then the eigenvalues of $A$ are the entries in the diagonal.
 
@@ -44,53 +46,32 @@ $$
 \end{align}
 $$
 
-> Let $A_{n \times n}$. $A$ is diagonalisable if and only if $A$ has $n$ linearly independent eigenvectors.
+> $A_{n \times n}$ is invertible if and only if 0 is not an eigenvalue of A.
 
-We know that $A$ has $n$ linearly independent eigenvectors.
-Let $\vec{v}_{1}, \dots, \vec{v}_n$ be the eigenvectors of $\lambda_1, \dots, \lambda_n$ (eigenvalues may repeat).
-Let
+> If $\lambda$ is an eigenvalue of $A_{n \times n}$, then $\lambda^k$ is an eigenvalue of $A^k$.
 
 $$
 \begin{align}
-P_{n \times n} & = \begin{bmatrix}
-\vec{v}_{1} & \dots & \vec{v}_n
-\end{bmatrix} \\
-D_{n \times n} & = \begin{bmatrix}
-\lambda_1 & \dots & 0 \\
-\vdots & \vdots & \vdots \\
-0 & \dots & \lambda_n
-\end{bmatrix}
+Av & = \lambda v \\
+\implies A^kv & = A^{k - 1}(\lambda v) \\
+A^kv & = \lambda A^{k - 1}v \\
+A^kv & = \lambda^kv
 \end{align}
 $$
 
-We show that $A = PDP^{-1} \iff AP = PD$.
+Therefore, $\lambda^k$ is an eigenvalue of $A^k$.
+
+$\square$
+
+> If $\lambda$ is an eigenvalue of $A$, $c\lambda$ is an eigenvalue of $cA$.
+
 $$
 \begin{align}
-AP & = A\begin{bmatrix}
-\vec{v}_{1} & \dots & \vec{v}_n
-\end{bmatrix} \\
-& = \begin{bmatrix}
-A\vec{v}_{1} & \dots & A\vec{v}_n
-\end{bmatrix} \\
- & = \begin{bmatrix}
-\lambda_1\vec{v}_{1} & \dots & \lambda_n\vec{v}_n
-\end{bmatrix} \\
- \\
-PD & = \begin{bmatrix}
-\vec{v}_{1} & \dots & \vec{v}_n
-\end{bmatrix}\begin{bmatrix}
-\lambda_1 & \dots & 0 \\
-\vdots & \vdots & \vdots \\
-0 & \dots & \lambda_n
-\end{bmatrix} \\
- & = \begin{bmatrix}
-\lambda_1\vec{v}_{1} & \dots & \lambda_n\vec{v}_n
-\end{bmatrix} \\
- \\
-AP & = PD
+Av & = \lambda v \\
+\implies (cA)v & = (c\lambda)v
 \end{align}
 $$
 
-Therefore, $A$ is diagonalisable if $A$ has $n$ linearly independent eigenvectors.
+Therefore, $c\lambda$ is an eigenvalue of $cA$.
 
-## Examples
+$\square$

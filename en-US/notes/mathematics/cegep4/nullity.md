@@ -7,5 +7,8 @@ date: 2026-03-13T14:55:03
 
 # nullity
 
-Dimension of the [[kernel]] of a matrix
-`Sym.` $\mathrm{Nullity}()$
+Dimension of the [[null space]] of a matrix
+
+$$
+\mathrm{nullity}(A) = \mathrm{dim}(\mathrm{Null}(A))
+$$

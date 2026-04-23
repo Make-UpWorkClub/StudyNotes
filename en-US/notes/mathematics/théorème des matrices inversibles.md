@@ -19,4 +19,4 @@ Soit la [[matrice]] $A_{n \times n}$, alors les énoncés suivants sont équival
 - Les colonnes de $A$ sont linéairement indépendantes.
 - $\mathrm{Col}(A) = \mathbb{R}^n$
 - Les colonnes de $A$ forment une base de $\mathbb{R}^n$.
-- $\mathrm{Nullity}(A) = \{ \vec{0} \}$
+- $\mathrm{nullity}(A) = \{ \vec{0} \}$

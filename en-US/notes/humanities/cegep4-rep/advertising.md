@@ -26,7 +26,7 @@ date: 2026-02-26T00:23:33
 ## Advantages
 
 - Makes products cheaper through economy of scale
-- 
+- Promotes genuinely useful products
 
 ## Problems
 

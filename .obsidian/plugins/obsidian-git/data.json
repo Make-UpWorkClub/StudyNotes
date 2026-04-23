@@ -1,11 +1,13 @@
 {
   "commitMessage": "feat: sync: {{date}}",
   "autoCommitMessage": "feat: sync: {{date}}",
+  "commitMessageScript": "",
   "commitDateFormat": "YYYY-MM-DDTHH:mm:ss",
   "autoSaveInterval": 0,
   "autoPushInterval": 0,
   "autoPullInterval": 0,
   "autoPullOnBoot": true,
+  "autoCommitOnlyStaged": false,
   "disablePush": false,
   "pullBeforePush": true,
   "disablePopups": false,
@@ -15,6 +17,7 @@
   "showStatusBar": true,
   "updateSubmodules": false,
   "syncMethod": "rebase",
+  "mergeStrategy": "none",
   "customMessageOnAutoBackup": false,
   "autoBackupAfterFileChange": false,
   "treeStructure": false,
@@ -24,7 +27,7 @@
   "changedFilesInStatusBar": true,
   "showedMobileNotice": true,
   "refreshSourceControlTimer": 7000,
-  "showBranchStatusBar": true,
+  "showBranchStatusBar": false,
   "setLastSaveToLastCommit": false,
   "submoduleRecurseCheckout": false,
   "gitDir": "",
@@ -32,6 +35,11 @@
   "authorInHistoryView": "hide",
   "dateInHistoryView": false,
   "diffStyle": "split",
+  "hunks": {
+    "showSigns": true,
+    "hunkCommands": false,
+    "statusBar": "colored"
+  },
   "lineAuthor": {
     "show": false,
     "followMovement": "inactive",

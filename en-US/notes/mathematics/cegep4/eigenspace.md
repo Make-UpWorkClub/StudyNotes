@@ -18,8 +18,6 @@ The eigenspace of $A$ corresponding to $\lambda$, $W_\lambda$, is the [[subspace
 > W_{\lambda} \le \mathbb{R}^n
 > $$
 
-> The eigenspace of $\lambda$ is the kernel $T_{\lambda I - A}: \mathbb{R}^n \to \mathbb{R}^n$.
-
 > Let $\lambda_1$and $\lambda_2$ be two different eigenvalues of $A$.
 > Then $W_{\lambda_1} \cap W_{\lambda_2} = \{ \vec{0} \}$.
 
@@ -29,12 +27,45 @@ $$
 \implies
 $$
 
-> Let $\vec{v}_{1}, \dots, \vec{v}_n$ be eigenvectors corresponding to distinct eigenvalues $\lambda_1, \dots, \lambda_n$.
-> Then $\vec{v}_{1}, \dots, \vec{v}_n$ are linearly independent.
+#TODO
+
+> Let $S_1, S_2, \dots, S_n$ be bases of eigenspaces $W_1, W_2, \dots, W_n$.
+> Then $S_1 \cap S_2 \cap\dots \cap S_n$ is linearly independent.
+
+Assuming $S_1 \cap S_2 \cap\dots \cap S_n = \vec{v}_{1, 1}, \dots, \vec{v}_{1, n}, \dots, \vec{v}_{n, n}$ is linearly dependent,
 
 $$
-c_1\vec{v}_{1} +\dots + c_n\vec{v}_n = \vec{0}
+\begin{align}
+\exists c_{1, 1}, \dots, c_{1, n}, \dots, c_{n, n}\text{ s.t. }c_{1, 1}\vec{v}_{1, 1} +\dots + c_{1, n}\vec{v}_{1, n} +\dots + c_{n, n}\vec{v}_{n, n} & = \vec{0}\text{ where at least one of c is non-zero} \\
+\implies c_{1, 1}A\vec{v}_{1, 1} +\dots + c_{1, n}A\vec{v}_{1, n} +\dots + c_{n, n}A\vec{v}_{n, n} & = \vec{0} \\
+c_{1, 1}\lambda_1\vec{v}_{1, 1} +\dots + c_{1, n}\lambda_1\vec{v}_{1, n} +\dots + c_{n, n}\lambda_n\vec{v}_{n, n} & = \vec{0} \\
+\text{Without loss of generality, let }\lambda_1\text{ be the eigenvalue corresponding to c that is non-zero.} \\
+\implies c_{1, 1}\lambda_1\vec{v}_{1, 1} +\dots + c_{1, n}\lambda_1\vec{v}_{1, n} +\dots + c_{n, n}\lambda_n\vec{v}_{n, n} - \lambda_1()
+\end{align}
 $$
+
+#TODO
+
+> If $W_{\lambda}(A)$ is the eigenspace of $A$ for $\lambda$, then $W_{\lambda^n}(A^n) = W_\lambda(A)$.
+> In case $-\lambda$ is an eigenvalue of $A$ and $n$ is even, $W_{\lambda^n}(A^n) = W_\lambda(A) + W_{-\lambda}(A)$.
+
+## Evaluation
+
+> The eigenspace of $A$ for $\lambda$ is the kernel of $T_{A - \lambda I}: \mathbb{R}^n \to \mathbb{R}^n$.
+
+To find the basis and the formula of $W_{\lambda}$,
+Let $\vec{x}$ be any eigenvector corresponding to $\lambda$, then
+
+$$
+\begin{align}
+A\vec{x} & = \lambda \vec{x} \\
+A\vec{x} - \lambda \vec{x} & = \vec{0} \\
+(A - \lambda I)\vec{x} & = \vec{0} \\
+\implies W_{\lambda} & = \mathrm{Ker}(T_{A - \lambda I}) = [A - \lambda I\ |\ \vec{0}]
+\end{align}
+$$
+
+Solving the augmented matrix gives $W_{\lambda}$.
 
 ## Examples
 

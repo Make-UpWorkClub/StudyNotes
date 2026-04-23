@@ -7,7 +7,7 @@ date: 2026-02-17T10:30:02
 
 # point charges
 
-[[Electric field]] of multiple point charges
+[[Electric field]] and [[magnetic field]] of multiple point charges
 
 $$
 \begin{align}
@@ -16,6 +16,15 @@ V & = \sum_{ i } \frac{k_eq_i}{r_i} \\
 U & = \sum_{ i < j } \frac{k_eq_iq_j}{r_{ij}}
 \end{align}
 $$
+
+**Biot-Savart Law**:
+
+$$
+\vec{B} = \frac{\mu_0}{4\pi} \frac{q\vec{v} \times \hat{r}}{r^2}
+$$
+
+- $\mu_0 \approx 1.257 \cdot 10^{-6}\pu{T \cdot \frac{m}{A}}$: **magnetic constant**
+
 ## Examples
 
 > There are three charges:

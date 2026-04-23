@@ -56,3 +56,23 @@ date: 2026-01-19T08:22:03
 	- Assibilation : t et d sifflants
 	- Relâchement des voyelles i et u
 	- Diphtongaison : séparation des voyelles
+
+# 2026-04-08
+
+- Les Expos de Montréal
+	- Équipe de baseball de Montréal de 1969 à 2004
+	- Stade Jarry
+	- Stade Olympique
+		- Toile problématique
+	- Vente
+		- Nationals de Washington
+- 1950 : Montréal perd son rôle de métropole
+	- Questions politiques
+- 1969 : construction de l'aéroport de Mirabel
+	- Basé sur des prévisions exagérées
+	- Divise le traffic aérien => nuit à Montréal
+- Tramway
+- Autoroute surélevé
+- Métro
+	- Pneu
+		- Inspiré de Paris

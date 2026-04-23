@@ -14,6 +14,7 @@ Composed of a [[acid|weak acid]] and its conjugate base or a [[en-US/notes/chemi
 > [!abstract] buffering capacity
 > Capacity to resist pH change
 > Increases with concentration of weak acid / base and conjugate base / acid
+> Most efficient when concentration ratio is 1
 
 ## Examples
 

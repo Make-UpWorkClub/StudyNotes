@@ -12,6 +12,8 @@ Delivery of a measured volume of a solution of known concentration **(titrant)**
 > [!abstract]+ Equivalence point
 > Instant during titration where neutralisation of analyte is complete
 > `Syn.` stochiometric point
+> 
+> > [!note] pH is always 7 at equivalence point of strong acid-strong base titration.
 
 > [!abstract] End point
 > Instant where the indicator changes colour

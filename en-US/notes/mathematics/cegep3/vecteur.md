@@ -39,7 +39,7 @@ $n$ est la **dimension** de $\vec{v}$.
 > $$
 
 > [!abstract]+ vecteur unitaire
-> Vecteur dont la longueur est 1
+> Vecteur dont la norme est 1
 
 ### Entre deux points
 

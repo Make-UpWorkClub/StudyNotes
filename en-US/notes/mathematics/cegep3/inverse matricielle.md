@@ -21,6 +21,18 @@ $$
 
 ## Évaluation
 
+Pour trouver $A_{n \times n}^{-1}$,
+
+$$
+\begin{bmatrix}
+a & b \\
+c & d
+\end{bmatrix} \to \frac{1}{ad - bc}\begin{bmatrix}
+d & -b \\
+-c & a
+\end{bmatrix}
+$$
+
 Pour trouver $A^{-1}$,
 
 $$
@@ -107,26 +119,6 @@ $\square$
 
 > $$
 > (A_1A_2\dots A_n)^{-1} = A_n^{-1}A_{n - 1}^{-1}\dots A_1^{-1}
-> $$
-
-> Soit
-> 
-> $$
-> B = \begin{bmatrix}
-> a & b \\
-> c & d
-> \end{bmatrix}
-> $$
-> 
-> Alors
-> 
-> $$
-> \begin{align}
-> B^{-1} & = \frac{1}{ad - bc}\begin{bmatrix}
-> d & -b \\
-> -c & a
-> \end{bmatrix}
-> \end{align}
 > $$
 
 ## Exemples

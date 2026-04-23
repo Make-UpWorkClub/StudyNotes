@@ -1,7 +1,7 @@
 [
   {
-    "trigger": "(!example|important|warning|abstract|tip|info|note) ",
-    "replacement": "> [[[1]]]$0",
+    "trigger": "!(example|important|warning|abstract|tip|info|note) ",
+    "replacement": "> [![[1]]]$0",
     "options": "rt",
     "priority": 100,
     "description": "Callout",

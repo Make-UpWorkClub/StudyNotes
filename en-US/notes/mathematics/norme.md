@@ -2,13 +2,20 @@
 tags:
   - mat/algebra
   - cegep/3
+  - cegep/4
 date: 2025-09-05T10:55:49
 ---
 
 # norme
 
-Opération [[vecteur|vectorielle]]
-Soit $\vec{v} \in \mathbb{R}^n$,
+Opération [[matrice|matricielle]]
+Let $\vec{v}$ be a vector in an [[inner product]] space,
+
+$$
+||\vec{v}|| = \sqrt{\langle \vec{v}, \vec{v} \rangle}
+$$
+
+For the standard inner product:
 
 $$
 ||\vec{v}|| = \sqrt{v_1^2 + v_2^2 + v_3^2 +\dots v_n^2} = \sqrt{\sum_{ i = 1 }^{ n } v_i^2}
@@ -18,7 +25,24 @@ $$
 
 > $||k\vec{v}|| = |k|\cdot||\vec{v}||$
 
-> $\frac{\vec{v}}{||\vec{v}||}$ est unitaire.
+$$
+\begin{align}
+||k\vec{v}|| & = \sqrt{\langle k\vec{v}, k\vec{v} \rangle} \\
+ & = \sqrt{k^2\langle \vec{v}, \vec{v} \rangle} \\
+ & = |k|\sqrt{\langle \vec{v}, \vec{v} \rangle} \\
+ & = |k| \cdot ||\vec{v}||
+\end{align}
+$$
+
+$\square$
+
+> Soit $\vec{v} \ne \vec{0}$, alors $\frac{\vec{v}}{||\vec{v}||}$ est unitaire.
+
+$$
+\left\lVert  \frac{\vec{v}}{\lVert \vec{v} \rVert}  \right\rVert = \frac{1}{\lVert \vec{v} \rVert}\lVert \vec{v} \rVert = 1
+$$
+
+$\square$
 
 > $$
 > ||\vec{u} + \vec{v}||^2 = ||\vec{u}||^2 + ||\vec{v}||^2 + 2\vec{u} \cdot \vec{v}

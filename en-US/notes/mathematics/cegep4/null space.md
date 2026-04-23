@@ -8,10 +8,9 @@ date: 2026-02-06T14:53:16
 # null space
 
 [[Subspace]] of $\mathbb{R}^n$ consisting of all homogeneous solutions of a [[matrice|matrix]] with $n$ columns
-The null space of matrix $A_{m \times n}$ is 
 
 $$
-\mathrm{Null}(A) = \{ \vec{X} | A\vec{X} = \vec{0} \}
+\mathrm{Null}(A) = \{ \vec{x} | A\vec{x} = \vec{0} \}
 $$
 
 ## Properties

@@ -2,10 +2,13 @@
 tags:
   - mat/algebra
   - cegep/3
+  - cegep/4
 date: 2025-10-07T10:17:19
 ---
 
 # distance
+
+[[Norme]] du plus court vecteur entre deux objets
 
 ## Entre une droite et un point
 

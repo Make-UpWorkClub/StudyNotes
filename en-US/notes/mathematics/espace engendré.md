@@ -6,7 +6,7 @@ tags:
 date: 2025-11-14T11:40:11
 ---
 
-# espace engendré
+# espace engendré (span)
 
 Ensemble de toutes les [[combinaison linéaire|combinaisons linéaires]] d'un ensemble de vecteurs
 `Sym.` $\mathrm{span}()$

@@ -32,17 +32,15 @@ $$
 
 ## Influences
 
-> [!abstract]+ Principe de Le Chatelier
-> Un système à l’équilibre résiste partiellement aux changements jusqu’à ce qu’il atteigne un nouvel équilibre.
-> ![[Henry Le Chatelier.jpg|200]]
-
 ### Concentration
 
 | Changement de la concentration d'une substance | Résistance au changement | Changement de l’équilibre |
 |:----------------------------------------------:|:------------------------:|:-------------------------:|
 |                       ++                       |            -             |            $s$            |
 |                       --                       |            +             |            $s$            |
+
 #TODO
+
 ### Énergie
 
 | Changement de l'énergie | Résistance au changement |                                                                                            Changement de l’équilibre                                                                                             |

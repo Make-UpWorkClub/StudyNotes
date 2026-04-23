@@ -7,22 +7,32 @@ date: 2026-03-18T15:55:56
 
 # isomorphism
 
-A [[linear transformation]] $T:V \to W$ is an isomorphism if it is invertible, i.e. 1 to 1 and onto.
+A [[linear transformation]] $T:V \to W$ is an isomorphism if it is 1 to 1 and onto.
 We say $V$ and $W$ are isomorphic: $V \simeq W$.
 
 ## Properties
 
-> Let $V$ be a vector space with $\mathrm{dim}(V) = n$.
-> Then, $V \simeq \mathbb{R}^n$.
-
-Let $T:V \to \mathbb{R}^n$.
-Let $\vec{v}$ s.t. $T(\vec{v}) = \vec{0}$.
+> Let $T:V \to V, \mathrm{dim}V < \infty$.
+> $T$ is isomorphic if and only if $[T]$ is invertible.
 
 $$
 \begin{align}
-T(\vec{v}) & = ()
+T\text{ isomorphic} & \iff T\text{ is 1 to 1} \\
+ & \iff \mathrm{Ker}(T) = \{ \vec{0} \} \\
+ & \iff \mathrm{Nullity}(T) = \{ \vec{0} \} \\
+ & \iff [T]\text{ invertible}
 \end{align}
 $$
+
+$\square$
+
+> Let $V$ and $W$ be vector spaces such that $\mathrm{dim}(V) = \mathrm{dim}(W)$.
+> Then, $V \simeq W$.
+
+Let $\{\vec{v}_{1}, \dots, \vec{v}_n\}, \{ \vec{w}_{1}, \dots, \vec{w}_{2} \}$ be bases of $V$ and $W$.
+Let $T:V \to W$ such that $T(\vec{v}_n) = T(\vec{w}_2)$ is the linear transformation of
+
+#TODO
 
 ## Examples
 

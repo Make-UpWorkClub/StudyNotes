@@ -7,6 +7,8 @@ date: 2025-03-13T11:40:52
 
 # Hydrosolubility
 
+[[solubility product]] in water
+
 Rules:
 
 - Most are soluble:

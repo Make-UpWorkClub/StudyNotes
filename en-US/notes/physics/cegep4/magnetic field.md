@@ -8,10 +8,7 @@ date: 2026-03-31T11:35:51
 # magnetic field
 
 [[field|Vector field]] of [[magnetic force]] per [[electric charge|charge]] from **north pole** to **south pole**
-
-$$
-\vec{B}
-$$
+`Sym.` $\vec{B}$
 
 > [!abstract] tesla
 > Unit of magnetic field

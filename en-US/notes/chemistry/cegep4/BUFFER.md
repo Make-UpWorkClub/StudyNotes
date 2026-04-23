@@ -90,4 +90,15 @@ $$
 
 # 2026-02-18
 
-- Midterm on ch.11, 12, 13, 18
+> A solution is prepared by mixing 200.0 mL of $1.50 \cdot 10^{-2}\pu{M}$ Mg(NO3)2 and 200.0 mL of $1.20 \cdot 10^{-1}$ NaF. Calculate the concentrations of Mg2+ and F- at equilibrium. MgF2: Ksp = 6.4x10-9.
+
+$$
+\begin{align}
+n_{Mg^{2 +}} & = 0.0150 \cdot 0.2000 = 0.003\pu{mol} \\
+n_{F^-} & = 0.120 \cdot 0.2000 = 0.024\pu{mol} \\
+n_{Mg^{2 +}eq} & = 0.003 - 0.003 = 0\pu{mol} \\
+n_{F^-eq} & = 0.024 - 0.006 = 0.018\pu{mol} \\
+[F^-] & = \frac{0.018}{0.4000} = 0.045\pu{M} \\
+
+\end{align}
+$$
