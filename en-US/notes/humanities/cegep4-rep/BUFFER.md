@@ -20,13 +20,6 @@ Causes:
 - Genetic
 - Medical
 
-# indigenous representation
-
-- Mainstream media only reports on indigenous communities when something bad happens
-- Low trust by indigenous communities
-- Cultural appropriation
-- Solution: talk to indigenous people
-
 # cancel culture
 
 - Loss of benefits, like platform or position, due to controversial opinions
@@ -68,48 +61,6 @@ Causes:
 	- Censorship and surveillance program in China
 	- Causes self-censorship
 
-# media ethics essay
-
-Dilemma: mandatory age verification of all users on social media
-
-- P1: utilitarianism
-	- Antithesis:
-		- Protects children from harmful content (pornographic content, hate speech, etc.)
-		- Privacy-respecting ID verification possible using zero-knowledge proof (ZKP)
-			- A lot of methods with tradeoffs
-			- On-device verification / AI estimation suffer from lots of false positives / negatives
-			- ZKP: third party verifier verifies age with government, then sends attestation without revealing age
-	- Thesis:
-		- Ease of circumvention
-			- VPN
-				- Signup surges 1800% in UK after age verification
-				- Local regulation of global content => VPN ban necessary
-					- Traffic analysis => further erosion of privacy
-					- Impossible without domain whitelist
-			- Fake ID
-				- Stolen from parent
-				- Purchased from black market
-			- => questionable efficacy
-		- Still harms privacy
-			- Insecure implementation in practice
-			- Requests over time reveals age window
-		- Centralized verifier => possible power abuse for censorship
-		- Ironically harms children by pushing them to unregulated platforms
-			- Mill: physical harm > mental harm
-		- Other methods available but less effective
-	- Conclusion: collateral damage: good questionable, introduces harm
-- P2: ethical rationalism
-	- Antithesis:
-	- Thesis:
-		- Privacy as human right
-- P3: virtue ethics
-	- Antithesis:
-	- Thesis:
-		- Undermines freedom
-- Conclusion
-	- Identity verification: beyond age verification
-	- Future importance
-
 # ethical journalism
 
 - Values:
@@ -123,17 +74,7 @@ Dilemma: mandatory age verification of all users on social media
 	- International federation of journalists
 	- Deontological code of principles
 
-# ubuntuism
+# 2026-04-27
 
-- South Africa:
-	- Apartheid:
-		- Politically enforced policy of racial segregation
-		- Caused major and persistent harm
-	- Journalism: relatively free
-	- Inequality in literacy
-	- Journalist obligation to build the nation through ubuntuism
-- Ubuntuism: Communitarian philosophy
-	- Smallest social unit is community
-	- Individual defined by community
-	- Can be hijacked for political purposes just like nationalism
-	- Only works if everyone buys in
+- Counterflow
+	- Social media, opposite of traditional media

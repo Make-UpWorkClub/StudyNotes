@@ -12,12 +12,27 @@ Closed path in which [[électricité|electricity]] flows
 > [!abstract] short circuit
 > Bypass of certain circuit branches due to zero resistance path
 
-|     |                           Série                           |                      Parallèle                      |
-|:---:|:---------------------------------------------------------:|:---------------------------------------------------:|
-|  R  |                $R_{eq} = R_1 + R_2 + ...$                 | $R_{eq} = \cfrac1{\frac1{R_1} + \frac1{R_2} + ...}$ |
-|  C  | $C_{eq} = \frac{1}{\frac{1}{C_1} + \frac{1}{C_2} +\dots}$ |             $C_{eq} = C_1 + C_2 +\dots$             |
-|  U  |                  $U_T = U_1 + U_2 + ...$                  |               $U_T = U_1 = U_2 = ...$               |
-|  I  |                  $I_T = I_1 = I_2 = ...$                  |               $I_T = I_1 + I_2 + ...$               |
+## Properties
+
+### In series
+
+$$
+\begin{align}
+U_T & = \sum_iU_i \\
+\Delta V_{eq} & = \sum_i\Delta V_i \\
+I_T & = I_1 = \dots = I_n
+\end{align}
+$$
+
+### In parallel
+
+$$
+\begin{align}
+U_T & = U_1 = \dots = U_n \\
+\Delta V_{eq} & = \Delta V_1 = \dots = \Delta V_n \\
+I_T & = \sum_iI_i
+\end{align}
+$$
 
 ## Parts
 

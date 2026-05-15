@@ -8,7 +8,7 @@ date: 2024-11-27T08:48:27
 # Moment cinétique
 
 1<sup>er</sup> [[moment]] de vitesse
-Analogue de la [[quantité de mouvement]] dans la [[rotation]]
+Analogue de la [[quantité de mouvement]] dans la [[en-US/notes/physics/cegep1/rotation]]
 `Sym.` $L$
 
 $$

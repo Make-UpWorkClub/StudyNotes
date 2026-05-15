@@ -11,6 +11,4 @@ date: 2026-01-20T11:47:38
 
 Creation of charge:
 
-1. Touch conductors A and B.
-2. Approach A with charged object.
-3. Separate A and B.
+1. Approach wire with charged object.

@@ -7,7 +7,7 @@ date: 2024-10-07T14:18:12
 
 # Mouvement circulaire uniformément accéléré
 
-Mouvement de [[Rotation|révolution]] 2D avec des accélérations centripète et tangentielle dont les modules sont constants
+Mouvement de [[en-US/notes/physics/cegep1/rotation|révolution]] 2D avec des accélérations centripète et tangentielle dont les modules sont constants
 [[Mouvement circulaire uniforme|MCU]] + accélération tangentielle
 `Abbr.` MCUA
 

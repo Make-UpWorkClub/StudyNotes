@@ -27,7 +27,7 @@ Exclamation qui transgresse l'ordre social ou religieux et qui traduit la colèr
 
 ## Histoire
 
-- Sans malédiction au Québec,  en France
+- Sans malédiction au Québec, en France
 - Condamné par l'église
 	- => développement de l'euphémisme
 - 1760-1840 :

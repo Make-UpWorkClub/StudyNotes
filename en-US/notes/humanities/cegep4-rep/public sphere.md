@@ -9,13 +9,19 @@ date: 2026-04-16T09:49:22
 
 Virtual space where individuals debate public concern
 
-- Governed by reason
+- Open to all citizens
+- Governed by reason not social status
+- Mediates between state and society
+- Controls the state with public opinion
 - Conclusion carries moral weight by ethical rationalism
 - Important to democracy => must be fostered
 - Criticism:
 	- Unequal access
 	- Humans not entirely rational
 	- Multiple transient publics grouping different people
+
+## History
+
 - 18<sup>th</sup> century: print technology
 	- Newspapers
 	- Journals

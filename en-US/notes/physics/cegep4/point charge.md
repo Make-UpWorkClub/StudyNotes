@@ -5,27 +5,53 @@ tags:
 date: 2026-02-17T10:30:02
 ---
 
-# point charges
+# point charge
 
-[[Electric field]] and [[magnetic field]] of multiple point charges
+## Properties
+
+### [[Electric field]]
+
+$$
+\vec{E} = \sum_{ i } \frac{k_eq_i}{r_i^2}\hat{r}_i
+$$
+
+### [[Electric potential]]
+
+$$
+V = \sum_{ i } \frac{k_eq_i}{r_i}
+$$
+
+### [[Electric potential energy]]
 
 $$
 \begin{align}
-\vec{E} & = \sum_{ i } \frac{k_eq_i}{r_i^2}\hat{r}_i \\
-V & = \sum_{ i } \frac{k_eq_i}{r_i} \\
-U & = \sum_{ i < j } \frac{k_eq_iq_j}{r_{ij}}
+U_\text{elec} & = \frac{k_eq_1q_2}{r_\text{ij}} \\
+U_\text{sys} & = \sum_{ i < j } \frac{k_eq_iq_j}{r_{ij}}
 \end{align}
 $$
 
-**Biot-Savart Law**:
+In a uniform field:
 
 $$
-\vec{B} = \frac{\mu_0}{4\pi} \frac{q\vec{v} \times \hat{r}}{r^2}
+U_\text{elec} = qEs
 $$
 
-- $\mu_0 \approx 1.257 \cdot 10^{-6}\pu{T \cdot \frac{m}{A}}$: **magnetic constant**
+- $s$: displacement along the field
 
 ## Examples
+
+> A positron (positive electron) with an initial speed $v_0 = 3.00 \cdot 10^6\pu{\frac{m}{s}}$ is in a head-on collision with an immobile alpha particle. If the two particles are initially infinitely faraway, find the distance of closest approach. A positron has mass $9.11 \cdot 10^{-31}\pu{kg}$ and a charge + 𝑒; an alpha particle has a charge +2𝑒.
+
+$$
+\begin{align}
+E_i & = E_f \\
+K_i & = U_f \\
+\frac{1}{2}mv_i^2 & = \frac{k_eq_1q_2}{r} \\
+r & = \frac{2k_eq_1q_2}{mv_i^2} \\
+ & = \frac{2 \cdot 8.99 \cdot 10^9 \cdot 1.602 \cdot 10^{-19} \cdot 2 \cdot 1.602 \cdot 10^{-19}}{9.11 \cdot 10^{-31} \cdot (3.00 \cdot 10^6)^2} \\
+ & \approx 1.1256 \cdot 10^{-10}\pu{m}
+\end{align}
+$$
 
 > There are three charges:
 > 
@@ -33,7 +59,7 @@ $$
 > 2. 5nC at (0, 0)
 > 3. 3nC at (0.8, 0)
 
-> 4. Find the electric field at (0, 2m).
+> 1. Find the electric field at (0, 2m).
 
 $$
 \begin{align}
@@ -101,3 +127,6 @@ v & = \sqrt{\frac{2 \frac{k_eq_1q_2}{r_s} + \frac{k_eq_1q_2}{r_d}}{m}} \\
  & \approx 49.3324\pu{\frac{m}{s}}
 \end{align}
 $$
+
+> A proton enters a region of uniform electric field $E = -10^4\hat{i}\pu{\frac{N}{C}}$ with an initial velocity $v_i = 10^5\hat{i}\pu{\frac{m}{s}}$. It takes the proton $5 \cdot 10^{-8}\pu{s}$ to traverse the distance d. What is d?
+

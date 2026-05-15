@@ -7,33 +7,34 @@ date: 2026-02-24T11:12:20
 
 # capacitor
 
-Two equally but oppositely charged electrodes that are close but not touching
+Component of [[circuit]] with [[capacitance]]
 
-- Creates potential difference between the electrodes
+- Consists of two equally but oppositely charged electrodes that are close but not touching
 - Stores charge
+- Creates potential difference between the electrodes
+
+![[assets/img/capacitor]]
+
+## Properties
 
 $$
 U = \frac{1}{2}C\Delta V^2
 $$
 
-![[assets/img/capacitor]]
-
-## In series
+### In series
 
 $$
 \begin{align} \\
 Q_{eq} & = Q_1 = \dots = Q_n \\
-\Delta V_{eq} & = \sum_{ i }\Delta V_i \\ 
 C_{eq} & = \left( \sum_{ i } C_i^{-1}  \right)^{-1}
 \end{align}
 $$
 
-## In parallel
+### In parallel
 
 $$
 \begin{align} \\
 Q_{eq} & = \sum_{ i }Q_i \\
-\Delta V_{eq} & = \Delta V_1 = \dots = \Delta V_n \\
 C_{eq} & = \sum_{ i }C_i 
 \end{align}
 $$

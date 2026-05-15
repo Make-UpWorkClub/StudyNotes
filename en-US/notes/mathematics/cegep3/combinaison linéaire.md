@@ -13,6 +13,11 @@ $$
 a_1\vec{v}_1 + a_2\vec{v}_2 +\dots a_k\vec{v}_k
 $$
 
+## Evaluation
+
+To find $\vec{v}$ relative to $S = \{ \vec{v}_{1}, \dots, \vec{v}_{2} \}$,
+Solve $S$ as a column matrix augmented by $\vec{v}$.
+
 ## Exemples
 
 > Déterminer si $\vec{w} = \langle 1, 4, 6, 4 \rangle$ est une combinaison linéaire des vecteurs

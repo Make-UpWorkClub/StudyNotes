@@ -7,6 +7,7 @@ date: 2026-02-20T14:24:14
 
 # subspace addition
 
+[[Subspace]] operation
 Let $W_1$ and $W_2$ be subspaces of $\mathbb{R}^n$, then
 
 $$

@@ -7,7 +7,7 @@ date: 2026-02-26T08:58:58
 
 # ethical relativism
 
-Ethics as social construct
+[[Ethics]] as social construct
 
 - Morality directly determined by mores
 - Legitimized by mass belief

@@ -8,7 +8,7 @@ date: 2024-11-14T12:18:30
 # Moment d'inertie
 
 2<sup>e</sup> [[moment]] de masse
-Analogue de la masse dans la [[rotation]]
+Analogue de la masse dans la [[en-US/notes/physics/cegep1/rotation]]
 Dépendant de la distribution de masse d'un corps relative à un axe
 `Sym.` $I$
 

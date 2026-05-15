@@ -7,8 +7,9 @@ date: 2026-04-17T15:40:44
 
 # orthogonal complement
 
+[[Subspace]] operation
 Let $W \le V$.
-The orthogonal complement of $W$ is the [[subspace]] of all vectors in $V$ orthogonal to all vectors in $W$.
+The orthogonal complement of $W$ is the subspace of all vectors in $V$ [[orthogonality|orthogonal]] to all vectors in $W$.
 `Sym.` $W^{\perp}$
 
 $$
@@ -19,7 +20,7 @@ $$
 
 > $W^{\perp^{\perp}} = W$
 
-> $W^{\perp} < V$
+> $W^{\perp} \le V$
 
 Let $\vec{u}, \vec{v} \in W^{\perp}, \ \vec{w} \in W, \ k \in \mathbb{R}$.
 
@@ -45,6 +46,22 @@ $$
 \vec{v} \in W & \implies \langle \vec{v}, \vec{v} \rangle = 0 \\
  & \implies ||\vec{v}|| = 0 \\
  & \implies \vec{v} = \vec{0}
+\end{align}
+$$
+
+$\square$
+
+> Let $W$ be a subspace of finite-dimensional vector space $V$, then
+> 
+> $$
+> \mathrm{dim}(W + W^\perp) = dim(V)
+> $$
+
+$$
+\begin{align}
+\mathrm{dim}(W + W^\perp) & = \mathrm{dim}(W) + \mathrm{dim}(W^\perp) - \mathrm{dim}(W \cap W^\perp) \\
+ & = \mathrm{dim}(W) + (\mathrm{dim}(V) - \mathrm{dim}(W)) - \mathrm{dim}(\{ \vec{0} \}) \\
+ & = \mathrm{dim}(V)
 \end{align}
 $$
 

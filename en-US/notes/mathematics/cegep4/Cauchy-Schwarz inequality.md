@@ -5,13 +5,16 @@ tags:
 date: 2026-04-15T14:34:51
 ---
 
-# Cauchy-Schwartz inequality
+# Cauchy-Schwarz inequality
 
 Let $V$ be a real [[inner product]] space.
 Then, for any $\vec{u}, \vec{v} \in V$,
 
 $$
-|\langle \vec{u}, \vec{v} \rangle| \le ||\vec{u}|| \cdot ||\vec{v}||
+\begin{align}
+\langle \vec{u}, \vec{v} \rangle^2 & \le \langle \vec{u}, \vec{u} \rangle \langle \vec{v}, \vec{v} \rangle \\
+|\langle \vec{u}, \vec{v} \rangle| & \le ||\vec{u}|| \cdot ||\vec{v}||
+\end{align}
 $$
 
 ## Proof

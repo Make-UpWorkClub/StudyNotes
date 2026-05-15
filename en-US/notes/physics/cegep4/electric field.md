@@ -9,6 +9,11 @@ date: 2026-01-27T10:39:39
 
 [[field|Vector field]] of [[electric force]] per [[electric charge|charge]] around a source charge
 
+- Always points towards lower potential
+- Inside of conductor (whether solid or hollow) -> zero once in electrostatic equilibrium
+- Surface of conductor -> perpendicular to surface
+	- Surface of conducting sphere -> radially outward
+
 $$
 \begin{align}
 \vec{E} & = \frac{k_eq}{r^2}\hat{r} \\
@@ -18,11 +23,3 @@ E_x & = \frac{\partial V}{\partial x}
 $$
 
 - $\hat{r}$: unit vector from source to point
-
-> [!important] Always points towards lower potential
-
-## Locations
-
-- Inside of conductor (whether solid or hollow) -> zero once in electrostatic equilibrium
-- Surface of conductor -> perpendicular
-- Surface of conducting sphere -> radially outward

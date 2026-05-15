@@ -7,17 +7,39 @@ date: 2026-02-17T10:32:02
 
 # parallel plate capacitor
 
-[[Electric field]] between a [[en-US/notes/physics/cegep4/capacitor|capacitor]] of two infinitely wide plates of the same material
+A [[en-US/notes/physics/cegep4/capacitor|capacitor]] of two [[plate conductor|plates]] of the same material
+
+## Properties
+
+### [[Electric field]]
 
 $$
 \begin{align}
 E_\text{cap} & = \frac{\eta}{\epsilon} \\
-\Delta V_\text{cap} & = Ed \\
-C & = \frac{A\epsilon}{d}
+\Delta V_\text{cap} & = Ed
 \end{align}
 $$
 
+- $d$: distance between plates
+
+### [[Capacitance]]
+
+$$
+C = \frac{A\epsilon}{d}
+$$
+
 ## Examples
+
+> An electron is shot from the positive plate of a parallel plate capacitor to the negative plate with an initial speed $v_i$ of 104 m/s. What must be the potential difference across the plates if the electron is to stop just before it reaches the negative plate?
+
+$$
+\begin{align}
+E_i & = E_f \\
+K_i & = U_f \\
+\frac{1}{2}mv_i^2 & = q\Delta V \\
+\Delta V & = \frac{1}{2}9.109 \cdot 10^{-31} \cdot 104^2 \cdot \frac{1}{-1.602 \cdot 10^{-19}} \approx -3.075\cdot10^{-8}\pu{V}
+\end{align}
+$$
 
 > Consider a uniform electric field 𝐸 = $(-1.26 \cdot 10^3\hat{j})\pu{\frac{N}{C}}$. A charged particle of
 > mass $m = 7.0 \cdot 10^{-9}\pu{kg}$ sits at rest at the origin and is released at 𝑡 = 0 𝑠. At time

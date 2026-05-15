@@ -55,3 +55,19 @@ $$
 > $$
 > \vec{OP} = \langle P_1, P_2,\dots P_n \rangle
 > $$
+
+## Formes
+
+### Cartésienne
+
+Coordonnées
+
+> [!example] 5 à gauche, 5 en bas
+
+### Polaire
+
+Module + angle par rapport à une orientation
+
+> [!example]+
+> 5 à 30° à gauche du haut
+> 5 à 60° en haut de la gauche

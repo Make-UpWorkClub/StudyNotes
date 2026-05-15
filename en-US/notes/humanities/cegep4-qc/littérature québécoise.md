@@ -5,7 +5,7 @@ tags:
 date: 2026-02-23T21:51:23
 ---
 
-# littérature québécoise
+# littérature [[Québec|québécoise]]
 
 - Début 20<sup>e</sup> siècle : romans traditionnels et nationalistes
 	- Illustration de la vie au Québec comme supérieure qu'ailleurs

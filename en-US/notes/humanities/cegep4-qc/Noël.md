@@ -17,16 +17,28 @@ date: 2026-03-23T08:50:55
 	- Martin Luther apporte le sapin à l'intérieur de la maison
 - Père Noël
 	- Sinter Klaas met les cadeaux dans les pas
-	- Origine de Saint Nicolas
+	- Saint Nicolas
 	- 1931 : Santa Claus inventé par Coca Cola
-- Rituels québécois
-	- Passe-Partout
-		- Acteurs et marionnettes
-		- Détaille l'excitation des enfants et des adultes à minuit
-		- Échange de cadeaux
-		- Diner de Noël
-		- Laïcisation
-- Chants sacrés
-	- Remplacement de Christmas carols
-	- Profanité
-- Jour de l'an
+
+## Rituels au [[Québec]]
+
+- Passe-Partout
+- **L'avent** : temps de jeûne et de pénitence en préparation pour Noël
+- **La messe de minuit**
+	- Commencée avec Minuit Chrétien
+- **Le Réveillon** : grand rassemblement familial après la messe de minuit avec les plats en abondance
+- Les cadeaux
+	- Commercialisation au cours du 19<sup>e</sup> et du 20<sup>e</sup> siècle
+- **La guignolée** : collecte de nourriture et d'argent pour les démunies
+	- Avant : *jour de l'an*
+	  Maintenant : *avant Noël*
+
+## Chants sacrés
+
+- Remplacement de Christmas carols
+- Profanité
+
+## Jour de l'an
+
+- Grande célébration en famille et entre amis
+- Bénédiction du jour de l'an

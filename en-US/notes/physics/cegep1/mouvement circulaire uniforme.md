@@ -7,7 +7,7 @@ date: 2024-10-02T09:31:48
 
 # Mouvement circulaire uniforme
 
-Mouvement de [[Rotation|révolution]] 2D avec une accélération centripète dont le module est constant et une vitesse dont le module est constant
+Mouvement de [[en-US/notes/physics/cegep1/rotation|révolution]] 2D avec une accélération centripète dont le module est constant et une vitesse dont le module est constant
 `Abbr.` MCU
 
 $$

@@ -5,7 +5,7 @@ tags:
 date: 2026-02-22T00:54:01
 ---
 
-# santé publique au Québec
+# santé publique au [[Québec]]
 
 - Salubrité :
 	- Accès universel aux égouts

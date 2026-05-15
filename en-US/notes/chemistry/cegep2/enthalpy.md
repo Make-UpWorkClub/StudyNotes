@@ -7,7 +7,7 @@ date: 2025-03-24T10:17:35
 
 # Enthalpy
 
-Thermodynamic function equal to [[internal energy]] plus pressure times volume
+[[State function]] equal to [[internal energy]] plus pressure times volume
 
 $$
 H = E + PV

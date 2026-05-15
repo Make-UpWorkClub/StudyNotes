@@ -2,6 +2,7 @@
 tags:
   - mat/algebra
   - cegep/3
+  - cegep/4
 date: 2025-09-05T11:59:20
 ---
 

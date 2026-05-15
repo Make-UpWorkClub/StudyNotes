@@ -5,7 +5,7 @@ tags:
 date: 2026-03-30T08:18:21
 ---
 
-# hockey au Québec
+# hockey au [[Québec]]
 
 - Origines multiples
 	- Hurling

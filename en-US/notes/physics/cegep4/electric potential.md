@@ -10,16 +10,6 @@ date: 2026-02-10T11:52:42
 [[field|Scalar field]] of [[electric potential energy]]
 Antiderivative of [[electric field]]
 
-$$
-\begin{align}
-V & = \frac{k_eq}{r} \\
-\Delta V & = -\int_i^f \vec{E} \cdot \mathrm{d} \vec{s}
-\end{align}
-$$
-
-> [!abstract] equipotential surface
-> Each of the lines on the contour map of electric potential
-
 ## Examples
 
 > Over a certain region of space, the electric potential is $V = 5x - 3x^2y + 2yz^2$, with 𝑥, 𝑦, 𝑧
@@ -66,5 +56,14 @@ W & = U_f - U_i \\
  & = qV_f - 0 \\
  & = 1.602 \cdot 10^{-19} \cdot 14 \\
  & = 2.2428 \cdot 10^{-18}\pu{J}
+\end{align}
+$$
+
+> A certain point in space A is at a potential of 200 V. In moving a proton from point A to point B, we must do $8 \cdot 10^{-18}\pu{J}$ of work. What is the potential at point B?
+
+$$
+\begin{align}
+\Delta V & = \frac{8 \cdot 10^{-18}\pu{J}}{1.602 \cdot 10^{-19}\pu{C}} \approx 49.9376\pu{V} \\
+V_B & = 200\pu{V} + 49.9376\pu{V} \approx 249.9376\pu{V}
 \end{align}
 $$

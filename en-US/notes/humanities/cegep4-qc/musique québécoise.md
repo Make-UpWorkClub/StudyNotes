@@ -5,7 +5,7 @@ tags:
 date: 2026-02-24T20:03:35
 ---
 
-# musique québécoise
+# musique [[Québec|québécoise]]
 
 - Discipline artistique qui contribue le plus à faire connaître la culture québécoise
 - But : rythmer le travail

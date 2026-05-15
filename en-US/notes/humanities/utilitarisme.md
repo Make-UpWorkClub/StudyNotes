@@ -6,7 +6,7 @@ tags:
 date: 2023-09-12
 ---
 
-# Utilitarisme
+# Utilitarisme (utilitarianism)
 
 Branche de [[consequentialist ethics|conséquentialisme]] centrée sur la conséquence et l’utilité des actions. Elle cherche à maximiser le bien-être de l’ensemble des êtres sensibles.
 

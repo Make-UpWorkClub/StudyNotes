@@ -1,6 +1,7 @@
 ---
 tags:
   - CCQ
+  - hum
   - sec/5
   - cegep/4
 date: 2023-09-20

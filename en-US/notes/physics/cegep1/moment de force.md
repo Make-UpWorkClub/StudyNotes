@@ -10,7 +10,7 @@ date: 2024-11-20T08:27:27
 # Moment de force
 
 1<sup>er</sup> [[moment]] de [[force]]
-Analogue de la force dans la [[rotation]]
+Analogue de la force dans la [[en-US/notes/physics/cegep1/rotation]]
 [[Produit vectoriel]] du rayon et de la force
 `Sym.` $\tau$
 

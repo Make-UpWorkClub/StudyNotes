@@ -5,7 +5,7 @@ tags:
 date: 2026-03-23T08:50:50
 ---
 
-# humour au Québec
+# humour au [[Québec]]
 
 - Industrie
 - Expression de tabous
@@ -45,8 +45,26 @@ date: 2026-03-23T08:50:50
 - Meunier
 	- Comédique au début, tragique à la fin
 - Angoisse de remplir la salle
-- Lundi des Ha! Ha!
+
+## Depuis 1980
+
+- Humour vide (sans politique) ou cynisme sceptique
+	- <= défaites référendaires
+	- <= perte d'idéaux
+	- <= individualisme
+- 1982: Lundi des Ha! Ha!
+	- Spectacle humoristique
+	- Se déroule à Club Soda
 	- Influence américaine
-	- Club Soda
-	- Déception du référendum
-	- Ding et Dong
+- Claude Meunier
+	- Comédien du Club Soda
+	- Aborde le quotidien
+	- Critique de la société de consommation
+- Daniel Lemire
+	- Comédien du Club Soda
+	- Aborde l'actualité et les courants sociaux
+- Zapartistes
+	- Humoristes indépendants
+	- Contre-courant: passent un message politique et social
+	- Prennent une position nette
+	- Proposent une société sans capitalisme qui valorise la communauté
